@@ -426,6 +426,13 @@
     else if (head === "clauses") viewClauses();
     else if (head === "schema") viewSchema();
     else if (head === "about") viewAbout();
+    else if (head === "visualize") window.PolicyViz.render($app, DATA, {
+      policyById,
+      filterByUseCase: (u) => {
+        Object.assign(pf, { q: "", jur: "", type: "", status: "", domain: "", binding: "", region: "", usecase: u });
+        location.hash = "#/";
+      },
+    });
     else viewPolicies();
   }
 

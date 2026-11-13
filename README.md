@@ -10,12 +10,16 @@ so it can later be mapped clause → risk → control.
 - **Clause level:** a representative set of clauses, each normalised into
   ⟨actor, action, object, modality, condition, exception, purpose⟩, plus ambiguity and interpretation confidence.
 
+The *Visualize* tab shows how policies relate (network grouped by region, coloured by legal force),
+which use cases each region covers (heatmap) and when policies took effect (timeline).
+
 The full field list is in [`data/SCHEMA.md`](data/SCHEMA.md) and on the site's *Schema* tab.
 
 ## Layout
 
 ```
 index.html, assets/        single-page app (no build step, no dependencies)
+assets/viz.js              Visualize tab: relationship network, use case × region heatmap, timeline
 data/policies/<id>.json    one record per policy (source of truth)
 data/catalog.json          generated bundle the site loads
 scripts/build.py           validates records and regenerates catalog.json

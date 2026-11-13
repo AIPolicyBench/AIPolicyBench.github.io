@@ -111,7 +111,8 @@
     },
     {
       "policy": "US_AI_Action_Plan_2025",
-      "relation": "amended_by"
+      "relation": "complements",
+      "note": "Action Plan directs NIST to revise the framework; no revision published as of compile date"
     },
     {
       "policy": "US_OMB_M_25_21",

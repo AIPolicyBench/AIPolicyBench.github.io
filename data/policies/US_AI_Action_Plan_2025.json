@@ -114,7 +114,8 @@
     },
     {
       "policy": "NIST_AI_RMF_2023",
-      "relation": "amends"
+      "relation": "complements",
+      "note": "directs NIST to revise the AI RMF (not itself an amendment)"
     },
     {
       "policy": "Executive Order 14319 (Preventing Woke AI in the Federal Government)",

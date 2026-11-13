@@ -109,7 +109,8 @@
     },
     {
       "policy": "EU_AI_Act_2024",
-      "relation": "conflicts_with"
+      "relation": "overlaps_with",
+      "note": "divergent regulatory approach (sector-led principles vs horizontal statute), not a legal conflict"
     },
     {
       "policy": "G7_Hiroshima_CoC_2023",

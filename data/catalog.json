@@ -8416,7 +8416,8 @@
     },
     {
      "policy": "US_AI_Action_Plan_2025",
-     "relation": "amended_by",
+     "relation": "complements",
+     "note": "Action Plan directs NIST to revise the framework; no revision published as of compile date",
      "in_catalogue": true
     },
     {
@@ -8740,7 +8741,8 @@
     },
     {
      "policy": "US_AI_Action_Plan_2025",
-     "relation": "amended_by",
+     "relation": "complements",
+     "note": "Action Plan directs NIST to revise the framework; no revision published as of compile date",
      "in_catalogue": true
     },
     {
@@ -10462,7 +10464,8 @@
     },
     {
      "policy": "EU_AI_Act_2024",
-     "relation": "conflicts_with",
+     "relation": "overlaps_with",
+     "note": "divergent regulatory approach (sector-led principles vs horizontal statute), not a legal conflict",
      "in_catalogue": true
     },
     {
@@ -11060,7 +11063,8 @@
     },
     {
      "policy": "NIST_AI_RMF_2023",
-     "relation": "amends",
+     "relation": "complements",
+     "note": "directs NIST to revise the AI RMF (not itself an amendment)",
      "in_catalogue": true
     },
     {

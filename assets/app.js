@@ -143,6 +143,7 @@
         <div class="stat"><b>${juris}</b><span>jurisdictions</span></div>
         <div class="stat"><b>${nBinding}</b><span>legally binding</span></div>
         <div class="stat"><b>${langs}</b><span>languages recorded</span></div>
+        <div class="stat"><b>${P.flatMap((p) => arr(p.clauses)).filter((c) => c.text_is_verbatim === true).length}</b><span>clauses with verbatim text</span></div>
       </div>
       <div class="filters">
         <input type="search" id="q" placeholder="Search name, authority, principle, entity…" value="${esc(pf.q)}" aria-label="Search policies">
@@ -191,7 +192,7 @@
           <td>${esc(TYPE_LABEL[p.policy_type] || p.policy_type || "")}</td>
           <td>${esc(p.jurisdiction || "")}</td>
           <td>${statusChip(p.status)}</td>
-          <td class="mono">${esc(p.effective_date || "—")}</td>
+          <td class="mono date">${esc(p.effective_date || "—")}</td>
           <td class="hide-sm">${arr(p.policy_domain).slice(0, 3).map((d) => chip(words(d))).join("")}</td>
           <td class="hide-sm mono">${esc(arr(p.official_languages).length > 4 ? arr(p.official_languages).length + " langs" : arr(p.official_languages).join(", "))}</td>
           <td class="hide-sm mono">${arr(p.clauses).length}</td>
@@ -236,7 +237,7 @@
       <div class="groups">
         ${group("Identity", ["policy_id", "policy_name", "short_name", "policy_type", "source_uri", "issuing_authority"])}
         ${group("Locale / scope", ["jurisdiction", "country_region", "language", "official_languages", "regulatory_regime", "geo_constraints", "industry_scope"])}
-        ${group("Lifecycle", ["status", "binding", "effective_date", "expiration_date", "version", "last_updated", "key_dates"])}
+        ${group("Lifecycle", ["status", "binding", "effective_date", "expiration_date", "version", "last_updated"])}
         ${group("Applicability", ["covered_entities", "covered_systems", "covered_activities", "exceptions", "conditions"])}
         ${group("Policy meaning", ["objective", "policy_domain", "principles"])}
         <section class="group"><h3>Relationship</h3><dl class="attrs">
@@ -245,6 +246,7 @@
           <dt>conflict_rule</dt><dd>${val(p.conflict_rule, "conflict_rule")}</dd>
           ${incoming.length ? `<dt>referenced_by</dt><dd>${incoming.map((o) => policyRef(o.policy_id)).join(", ")}</dd>` : ""}
         </dl></section>
+        <section class="group wide"><h3>Lifecycle · key dates</h3><dl class="attrs wide"><dt>key_dates</dt><dd>${val(p.key_dates, "key_dates")}</dd></dl></section>
         <section class="group"><h3>Record provenance</h3><dl class="attrs">
           <dt>sources_consulted</dt><dd>${isEmpty(prov.sources_consulted) ? nul : "<ul>" + arr(prov.sources_consulted).map((u) => `<li>${link(u)}</li>`).join("") + "</ul>"}</dd>
           <dt>compiled_on</dt><dd>${val(prov.compiled_on)}</dd>

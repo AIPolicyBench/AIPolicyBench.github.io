@@ -1,0 +1,329 @@
+{
+  "policy_id": "KR_AI_Basic_Act_2025",
+  "policy_name": "Framework Act on the Development of Artificial Intelligence and the Establishment of a Foundation for Trust (인공지능 발전과 신뢰 기반 조성 등에 관한 기본법)",
+  "short_name": "Korea AI Basic Act",
+  "policy_type": "statute",
+  "source_uri": "https://www.law.go.kr/법령/인공지능발전과신뢰기반조성등에관한기본법",
+  "issuing_authority": "National Assembly of the Republic of Korea (competent ministry: Ministry of Science and ICT)",
+  "jurisdiction": "KR",
+  "country_region": "Republic of Korea",
+  "language": [
+    "ko"
+  ],
+  "official_languages": [
+    "ko"
+  ],
+  "regulatory_regime": "Korea AI Basic Act and its Enforcement Decree (Presidential Decree No. 36053, as amended)",
+  "geo_constraints": "Applies to acts performed abroad if they affect the Korean domestic market or users (Art. 4(1)); foreign AI business operators meeting user/revenue thresholds must appoint a domestic agent (Art. 36)",
+  "industry_scope": [
+    "general",
+    "energy",
+    "healthcare",
+    "medical_devices",
+    "nuclear",
+    "law_enforcement",
+    "employment",
+    "finance",
+    "transport",
+    "public_sector",
+    "education"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2026-01-22",
+  "key_dates": [
+    {
+      "date": "2024-12-26",
+      "event": "Passed by the National Assembly (consolidated alternative bill)"
+    },
+    {
+      "date": "2025-01-21",
+      "event": "Promulgated as Law No. 20676"
+    },
+    {
+      "date": "2025-10-01",
+      "event": "Consequential amendment by Government Organization Act (Law No. 21065): Art. 38(1) 'Statistics Korea' -> 'National Data Agency'"
+    },
+    {
+      "date": "2026-01-20",
+      "event": "Partial amendment promulgated (Law No. 21311); in force 2026-01-22, some provisions (e.g. Art. 3(5), 17-2, 18, 22-3, Art. 35(1) second sentence) six months after promulgation"
+    },
+    {
+      "date": "2026-01-21",
+      "event": "Enforcement Decree enacted (Presidential Decree No. 36053), in force 2026-01-22"
+    },
+    {
+      "date": "2026-01-22",
+      "event": "Act enters into force (one year after promulgation); MSIT announced a grace period of at least one year before administrative fines are imposed (policy announcement, not in statute)"
+    },
+    {
+      "date": "2026-01-24",
+      "event": "Art. 2(4)(d) high-impact area for digital medical devices applies"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "Enforcement Decree amendment (Presidential Decree No. 36506, 2026-07-20) in force"
+    },
+    {
+      "date": "2026-10-20",
+      "event": "Partial amendment promulgated (Law No. 22076): new Art. 15-2 on AI training-data integrated provision system"
+    },
+    {
+      "date": "2027-04-21",
+      "event": "Law No. 22076 amendments enter into force (pending as of 2026-11-13)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Law No. 20676 (2025-01-21), as amended by Law Nos. 21065, 21311 and 22076 (last promulgated 2026-10-20)",
+  "last_updated": "2026-10-20",
+  "covered_entities": [
+    "AI business operators (AI developers and AI utilisation business operators)",
+    "foreign AI business operators meeting Decree thresholds (domestic agent)",
+    "State and local governments",
+    "national agencies etc. using high-impact AI"
+  ],
+  "covered_systems": [
+    "high-impact AI",
+    "generative AI",
+    "AI systems trained above a cumulative-compute threshold (Decree: >=10^26 FLOPs plus frontier and broad-severe-risk criteria)",
+    "AI systems generally (ethics, promotion)"
+  ],
+  "covered_activities": [
+    "development",
+    "provision of AI products and services",
+    "use by public bodies"
+  ],
+  "exceptions": [
+    "AI developed and used solely for national defence or national security purposes, as prescribed by Presidential Decree (Art. 4(2))",
+    "where other laws contain special provisions (Art. 5(1))",
+    "measures equivalent to Art. 34 duties taken under other laws are deemed compliance (Art. 34(3))"
+  ],
+  "conditions": [
+    "Transparency duties triggered when providing high-impact or generative AI products/services",
+    "Safety duties (Art. 32) apply only above the Decree compute/frontier/risk threshold",
+    "Domestic agent duty applies to operators without a Korean address meeting Decree thresholds (e.g. prior-year revenue >= KRW 1 trillion, AI-service revenue >= KRW 10 billion, or >= 1 million average daily domestic users)"
+  ],
+  "objective": "To protect citizens' rights, interests and dignity and to improve quality of life and national competitiveness by setting out basic matters for the sound development of AI and the establishment of a foundation of trust (Art. 1).",
+  "policy_domain": [
+    "innovation",
+    "safety",
+    "transparency",
+    "fundamental_rights",
+    "governance",
+    "accountability"
+  ],
+  "principles": [
+    "safety and reliability",
+    "right to meaningful explanation for affected persons (Art. 3(2))",
+    "transparency (notice and labelling)",
+    "risk management",
+    "human oversight of high-impact AI",
+    "promotion of the AI industry"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "Enforcement Decree of the Framework Act on AI (Presidential Decree No. 36053)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Framework Act on Intelligent Informatization (Korea)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Personal Information Protection Act (Korea)",
+      "relation": "complements"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Applies to AI matters except where other laws contain special provisions (Art. 5(1)); other laws on AI must be enacted/amended consistently with this Act's purpose (Art. 5(2)); Art. 34 measures taken under other laws are deemed compliance (Art. 34(3)).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.law.go.kr/법령/인공지능발전과신뢰기반조성등에관한기본법 (official; not reachable from compilation environment)",
+      "https://github.com/legalize-kr/legalize-kr (kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md and 시행령.md; git mirror of law.go.kr texts with per-amendment commit history) - fetched",
+      "https://opinion.lawmaking.go.kr/gcom/ogLmPp/86822 (Decree amendment pre-announcement; via search results)",
+      "https://www.mt.co.kr/tech/2025/12/31/2025123009504430416 (fine grace period report; via search results)",
+      "https://www.ddaily.co.kr/page/view/2026072017153663628 (Decree amendment in force 2026-07-21; via search results)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official portals (law.go.kr, elaw.klri.re.kr) were blocked by the compilation environment's network policy; statutory text was taken from the legalize-kr GitHub mirror, which reproduces law.go.kr text and records each amendment as a commit (diffs checked: Arts. 31-36, 43 unchanged since 2025). Law No. 22076 (promulgated 2026-10-20) takes effect 2027-04-21 and only restructures training-data provisions (Art. 15/15-2). The one-year-plus fine grace period is a ministry policy reported in the press, not a statutory provision; its exact end date was not verified. Fines: up to KRW 30 million for failure to give Art. 31(1) prior notice, failure to designate a domestic agent, or non-compliance with a suspension/corrective order (Art. 43). The 2024-12-26 National Assembly passage date is from general knowledge/secondary reporting, not re-verified against the assembly record. English names/translations are unofficial."
+  },
+  "clauses": [
+    {
+      "clause_id": "KR_AI_Basic_Act_2025_Art31_1",
+      "policy_id": "KR_AI_Basic_Act_2025",
+      "section": "Article 31(1)",
+      "original_text": "인공지능사업자는 고영향 인공지능이나 생성형 인공지능을 이용한 제품 또는 서비스를 제공하려는 경우 제품 또는 서비스가 해당 인공지능에 기반하여 운용된다는 사실을 이용자에게 사전에 고지하여야 한다.",
+      "text_is_verbatim": true,
+      "language": "ko",
+      "translated_text": "Where an AI business operator intends to provide a product or service using high-impact AI or generative AI, it shall notify users in advance that the product or service is operated on the basis of that AI.",
+      "actor": "AI business operator",
+      "action": "notify in advance",
+      "object": "the fact that the product/service operates based on high-impact or generative AI",
+      "recipient": "users",
+      "modality": "MUST",
+      "requirement": "give users prior notice that a product or service is AI-based",
+      "condition": "when providing products/services using high-impact AI or generative AI",
+      "exception": "methods and exceptions to be set by Presidential Decree (Art. 31(4))",
+      "purpose": "transparency towards users",
+      "affected_asset": "users' informed decision-making",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "KR"
+      ],
+      "applicable_systems": "high-impact AI; generative AI",
+      "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. Breach is subject to an administrative fine of up to KRW 30 million (Art. 43(1)(1)).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "KR_AI_Basic_Act_2025_Art31_2_3",
+      "policy_id": "KR_AI_Basic_Act_2025",
+      "section": "Article 31(2)-(3)",
+      "original_text": "② 인공지능사업자는 생성형 인공지능 또는 이를 이용한 제품 또는 서비스를 제공하는 경우 그 결과물이 생성형 인공지능에 의하여 생성되었다는 사실을 표시하여야 한다. ③ 인공지능사업자는 인공지능시스템을 이용하여 실제와 구분하기 어려운 가상의 음향, 이미지 또는 영상 등의 결과물을 제공하는 경우 해당 결과물이 인공지능시스템에 의하여 생성되었다는 사실을 이용자가 명확하게 인식할 수 있는 방식으로 고지 또는 표시하여야 한다. …",
+      "text_is_verbatim": true,
+      "language": "ko",
+      "translated_text": "(2) Where an AI business operator provides generative AI or a product or service using it, it shall indicate that the output was generated by generative AI. (3) Where an AI business operator uses an AI system to provide outputs such as virtual sounds, images or videos that are difficult to distinguish from reality, it shall notify or indicate, in a manner that users can clearly recognise, that the output was generated by an AI system. …",
+      "actor": "AI business operator",
+      "action": "label / notify",
+      "object": "AI-generated outputs, including realistic synthetic audio, images and video (deepfakes)",
+      "recipient": "users",
+      "modality": "MUST",
+      "requirement": "label generative-AI outputs; clearly disclose realistic synthetic media as AI-generated",
+      "condition": "when providing generative AI outputs; stricter clear-recognition standard for outputs hard to distinguish from reality",
+      "exception": "for artistic or creative works, notice may be given in a manner that does not hinder exhibition or enjoyment (Art. 31(3) second sentence); further exceptions by Decree (Art. 31(4))",
+      "purpose": "prevent deception by synthetic content",
+      "affected_asset": "information integrity; users' ability to recognise synthetic content",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "KR"
+      ],
+      "applicable_systems": "generative AI; AI systems producing realistic synthetic media",
+      "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. Violations of Art. 31(2)-(3) can trigger fact-finding investigations and corrective orders (Art. 40) but are not themselves listed as fine offences in Art. 43(1).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "KR_AI_Basic_Act_2025_Art32_1",
+      "policy_id": "KR_AI_Basic_Act_2025",
+      "section": "Article 32(1)",
+      "original_text": "인공지능사업자는 학습에 사용된 누적 연산량이 대통령령으로 정하는 기준 이상인 인공지능시스템의 안전성을 확보하기 위하여 다음 각 호의 사항을 이행하여야 한다. 1. 인공지능 수명주기 전반에 걸친 위험의 식별ㆍ평가 및 완화 2. 인공지능 관련 안전사고를 모니터링하고 대응하는 위험관리체계 구축",
+      "text_is_verbatim": true,
+      "language": "ko",
+      "translated_text": "To ensure the safety of an AI system whose cumulative compute used for training is at or above the threshold prescribed by Presidential Decree, an AI business operator shall: 1. identify, assess and mitigate risks throughout the AI lifecycle; 2. establish a risk management system that monitors and responds to AI-related safety incidents.",
+      "actor": "AI business operator",
+      "action": "identify, assess and mitigate risks; establish incident monitoring and response system",
+      "object": "high-compute AI systems",
+      "recipient": "Minister of Science and ICT (results must be submitted under Art. 32(2))",
+      "modality": "MUST",
+      "requirement": "lifecycle risk management and safety-incident monitoring for frontier-scale AI systems",
+      "condition": "training compute >= Decree threshold; Enforcement Decree Art. 24 requires all of: >=10^26 floating-point operations, state-of-the-art technology, and risk of broad and serious impact on life, safety and fundamental rights",
+      "exception": null,
+      "purpose": "ensure safety of frontier AI systems",
+      "affected_asset": "life, physical safety and fundamental rights",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "KR"
+      ],
+      "applicable_systems": "AI systems above the compute threshold (frontier models)",
+      "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. Threshold detail taken from Enforcement Decree Art. 24 (legalize-kr mirror, version Presidential Decree No. 36580).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "KR_AI_Basic_Act_2025_Art33_1",
+      "policy_id": "KR_AI_Basic_Act_2025",
+      "section": "Article 33(1)",
+      "original_text": "인공지능사업자는 인공지능 또는 이를 이용한 제품ㆍ서비스를 제공하는 경우 그 인공지능이 고영향 인공지능에 해당하는지에 대하여 사전에 검토하여야 하며, 필요한 경우 과학기술정보통신부장관에게 고영향 인공지능에 해당하는지 여부의 확인을 요청할 수 있다.",
+      "text_is_verbatim": true,
+      "language": "ko",
+      "translated_text": "When providing AI or a product or service using it, an AI business operator shall review in advance whether the AI falls under high-impact AI and may, where necessary, request the Minister of Science and ICT to confirm whether it is high-impact AI.",
+      "actor": "AI business operator",
+      "action": "review in advance; optionally request confirmation",
+      "object": "whether an AI system qualifies as high-impact AI",
+      "recipient": "Minister of Science and ICT",
+      "modality": "MUST",
+      "requirement": "pre-deployment self-assessment of high-impact status",
+      "condition": "when providing AI or AI-based products/services",
+      "exception": null,
+      "purpose": "correct classification so that high-impact obligations apply",
+      "affected_asset": "life, safety and fundamental rights of affected persons",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "KR"
+      ],
+      "applicable_systems": "any AI system provided in Korea",
+      "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. High-impact areas are listed in Art. 2(4) (energy supply, drinking water, healthcare, medical devices, nuclear, biometric analysis for criminal investigation, hiring/loan screening, transport, public-service decisions, student evaluation).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "KR_AI_Basic_Act_2025_Art34_1",
+      "policy_id": "KR_AI_Basic_Act_2025",
+      "section": "Article 34(1)",
+      "original_text": "인공지능사업자는 고영향 인공지능 또는 이를 이용한 제품ㆍ서비스를 제공하는 경우 고영향 인공지능의 안전성ㆍ신뢰성을 확보하기 위하여 다음 각 호의 내용을 포함하는 조치를 대통령령으로 정하는 바에 따라 이행하여야 한다. 1. 위험관리방안의 수립ㆍ운영 2. 기술적으로 가능한 범위에서의 인공지능이 도출한 최종결과, 인공지능의 최종결과 도출에 활용된 주요 기준, 인공지능의 개발ㆍ활용에 사용된 학습용데이터의 개요 등에 대한 설명 방안의 수립ㆍ시행 3. 이용자 보호 방안의 수립ㆍ운영 4. 고영향 인공지능에 대한 사람의 관리ㆍ감독 5. …",
+      "text_is_verbatim": true,
+      "language": "ko",
+      "translated_text": "When providing high-impact AI or a product or service using it, an AI business operator shall, as prescribed by Presidential Decree, implement measures to ensure the safety and reliability of the high-impact AI, including: 1. establishing and operating a risk management plan; 2. establishing and implementing a plan to explain, to the extent technically feasible, the final results derived by the AI, the key criteria used to derive them, and an overview of the training data used to develop and use the AI; 3. establishing and operating user protection measures; 4. human management and supervision of the high-impact AI; 5. … (5: preparing and keeping documents evidencing these measures; 6: other matters resolved by the National AI Strategy Committee)",
+      "actor": "AI business operator",
+      "action": "implement safety and reliability measures",
+      "object": "high-impact AI and products/services using it",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "risk management, explainability, user protection, human oversight and documentation for high-impact AI",
+      "condition": "when providing high-impact AI (Art. 2(4) areas)",
+      "exception": "equivalent measures taken under other laws are deemed compliance (Art. 34(3))",
+      "purpose": "ensure safety and trustworthiness of high-impact AI",
+      "affected_asset": "life, physical safety and fundamental rights",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "KR"
+      ],
+      "applicable_systems": "high-impact AI",
+      "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. MSIT may publish detailed measures and recommend compliance (Art. 34(2)); breach can lead to investigation and corrective orders (Art. 40), with fines for ignoring orders (Art. 43(1)(3)).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "KR_AI_Basic_Act_2025_Art36_1",
+      "policy_id": "KR_AI_Basic_Act_2025",
+      "section": "Article 36(1)",
+      "original_text": "국내에 주소 또는 영업소가 없는 인공지능사업자로서 이용자 수, 매출액 등이 대통령령으로 정하는 기준에 해당하는 자는 다음 각 호의 사항을 대리하는 자(이하 \"국내대리인\"이라 한다)를 서면으로 지정하고, 이를 과학기술정보통신부장관에게 신고하여야 한다.",
+      "text_is_verbatim": true,
+      "language": "ko",
+      "translated_text": "An AI business operator with no address or place of business in Korea that meets the criteria on number of users, revenue, etc. prescribed by Presidential Decree shall designate in writing a person to act on its behalf for the following matters (a 'domestic agent') and report the designation to the Minister of Science and ICT.",
+      "actor": "foreign AI business operator meeting Decree thresholds",
+      "action": "designate in writing and report",
+      "object": "domestic agent",
+      "recipient": "Minister of Science and ICT",
+      "modality": "MUST",
+      "requirement": "appoint a Korean domestic agent for safety reporting, high-impact confirmation requests and Art. 34 support",
+      "condition": "no Korean address/place of business AND Decree thresholds met (Decree Art. 29: prior-year revenue >= KRW 1 trillion, AI-service revenue >= KRW 10 billion, >= 1 million average daily domestic users, or prior fine for ignoring an order)",
+      "exception": null,
+      "purpose": "enforceability against foreign providers",
+      "affected_asset": "regulatory oversight",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "KR"
+      ],
+      "applicable_systems": "AI products/services offered in Korea by foreign operators",
+      "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. Failure to designate is subject to a fine of up to KRW 30 million (Art. 43(1)(2)).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    }
+  ]
+}

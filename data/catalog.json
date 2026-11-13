@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-13",
- "policy_count": 28,
- "clause_count": 147,
+ "policy_count": 34,
+ "clause_count": 182,
  "policies": [
   {
    "policy_id": "Anthropic_RSP",
@@ -418,7 +418,7 @@
     {
      "policy": "NIST_AI_RMF_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "Anthropic_RSP",
@@ -621,6 +621,291 @@
    ]
   },
   {
+   "policy_id": "CA_TBS_GenAI_Guide",
+   "policy_name": "Guide on the use of generative artificial intelligence",
+   "short_name": "TBS GenAI Guide",
+   "policy_type": "guidance",
+   "source_uri": "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/generative-ai/guide-use-generative-ai.html",
+   "issuing_authority": "Treasury Board of Canada Secretariat (TBS)",
+   "jurisdiction": "CA-Federal",
+   "country_region": "Canada (federal government)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en",
+    "fr"
+   ],
+   "regulatory_regime": "Government of Canada policy suite on digital government and responsible AI",
+   "geo_constraints": "Government of Canada federal institutions",
+   "industry_scope": [
+    "public_sector"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2023-09",
+   "key_dates": [
+    {
+     "date": "2023-09",
+     "event": "First version published (publications.gc.ca BT48-37/2023E)"
+    },
+    {
+     "date": "2024-02-12",
+     "event": "Second version published incorporating stakeholder and expert feedback (BT48-37/2024E/F)"
+    },
+    {
+     "date": "2026-09-24",
+     "event": "canada.ca page reportedly shows 'Date modified' 2026-09-24 (search result only; nature of change unverified)"
+    }
+   ],
+   "expiration_date": null,
+   "version": "Second version (February 2024)",
+   "last_updated": "2024-02-12",
+   "covered_entities": [
+    "federal institutions",
+    "federal public servants"
+   ],
+   "covered_systems": [
+    "generative AI tools (GC-managed and publicly available)"
+   ],
+   "covered_activities": [
+    "use of generative AI by employees",
+    "deployment of generative AI tools by institutions",
+    "use in administrative decision-making"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "Directive on Automated Decision-Making applies where generative AI is used for administrative decisions"
+   ],
+   "objective": "Provides preliminary guidance to federal institutions on the responsible use of generative AI, describing its risks and setting out best practices (FASTER principles) for employees and institutions.",
+   "policy_domain": [
+    "privacy",
+    "security",
+    "transparency",
+    "accountability",
+    "fairness",
+    "governance"
+   ],
+   "principles": [
+    "fair",
+    "accountable",
+    "secure",
+    "transparent",
+    "educated",
+    "relevant"
+   ],
+   "parent_policy": "Policy on Service and Digital",
+   "related_policies": [
+    {
+     "policy": "Directive on Automated Decision-Making (TBS)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Privacy Act (Canada)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Policy on Government Security (TBS)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "CA_AIDA_C27",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "CH_CNAI_GenAI_Factsheet_2024",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    }
+   ],
+   "conflict_rule": "Guide does not replace binding instruments; the Privacy Act, Policy on Government Security and Directive on Automated Decision-Making continue to apply and prevail.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/generative-ai/guide-use-generative-ai.html (identified; host not reachable)",
+     "https://publications.gc.ca/site/eng/9.933870/publication.html (search result only)",
+     "https://publications.gc.ca/collections/collection_2024/sct-tbs/BT48-37-2024-eng.pdf (search result only)",
+     "https://publications.gc.ca/site/eng/9.933872/publication.html (French version; search result only)"
+    ],
+    "notes": "canada.ca and publications.gc.ca were blocked by the compilation environment's network policy; clauses are paraphrases (text_is_verbatim=false) from knowledge of the second version. Second version publication date 2024-02-12 per publications.gc.ca catalogue; first version Sept 2023 (exact day not verified). A search result indicates the canada.ca page was modified on 2026-09-24, but whether this is a substantive third version could not be verified — check the live page. parent_policy 'Policy on Service and Digital' is an inference about the policy suite, not verified as stated in the guide. CA_AIDA_C27 never became law (bill died); listed only as related Canadian AI context. binding=false: the guide is non-mandatory guidance; status 'voluntary' chosen as closest value.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+   },
+   "clauses": [
+    {
+     "clause_id": "CA_TBS_GenAI_Guide_FASTER",
+     "policy_id": "CA_TBS_GenAI_Guide",
+     "section": "Responsible use: FASTER principles",
+     "original_text": "To maintain public trust and ensure the responsible use of generative AI tools, federal institutions should align with the 'FASTER' principles: Fair, Accountable, Secure, Transparent, Educated and Relevant.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "federal institutions and their employees",
+     "action": "align use with",
+     "object": "FASTER principles",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "use generative AI in a way that is fair, accountable, secure, transparent, educated and relevant",
+     "condition": null,
+     "exception": null,
+     "purpose": "maintain public trust in government use of generative AI",
+     "affected_asset": "public trust; clients of government services",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "CA"
+     ],
+     "applicable_systems": "generative AI tools used by federal institutions",
+     "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. FASTER acronym recalled with high confidence.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.7,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CA_TBS_GenAI_Guide_No_Sensitive_Input",
+     "policy_id": "CA_TBS_GenAI_Guide",
+     "section": "Secure: privacy and security best practices",
+     "original_text": "Do not enter sensitive or personal information, or protected or classified information, into generative AI tools that are not managed by the Government of Canada.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "federal public servants",
+     "action": "refrain from entering",
+     "object": "personal, sensitive, protected or classified information",
+     "recipient": "non-GC-managed generative AI tools",
+     "modality": "SHOULD NOT",
+     "requirement": "do not input personal, protected or classified information into public/non-GC-managed generative AI tools",
+     "condition": null,
+     "exception": null,
+     "purpose": "protect privacy and government information security",
+     "affected_asset": "personal information; protected/classified government information",
+     "policy_domain": "privacy",
+     "applicable_regions": [
+      "CA"
+     ],
+     "applicable_systems": "generative AI tools not managed by the GC",
+     "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. ",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CA_TBS_GenAI_Guide_Transparency_Disclosure",
+     "policy_id": "CA_TBS_GenAI_Guide",
+     "section": "Transparent",
+     "original_text": "Identify content that has been produced using generative AI, and notify users when they are interacting with an AI tool; document decisions and be able to provide explanations if tools are used to support decision-making.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "federal institutions and their employees",
+     "action": "label and disclose",
+     "object": "AI-generated content and AI interactions",
+     "recipient": "users and the public",
+     "modality": "SHOULD",
+     "requirement": "mark AI-generated content and inform users they are interacting with AI",
+     "condition": null,
+     "exception": null,
+     "purpose": "transparency and public trust",
+     "affected_asset": "users' informed understanding",
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "CA"
+     ],
+     "applicable_systems": "generative AI tools used by federal institutions",
+     "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CA_TBS_GenAI_Guide_Accountable_Review",
+     "policy_id": "CA_TBS_GenAI_Guide",
+     "section": "Accountable",
+     "original_text": "Take responsibility for content generated by these tools, including ensuring that it is factual, legal, ethical and compliant with the terms of use, and establish monitoring and oversight mechanisms.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "federal institutions and their employees",
+     "action": "review and take responsibility for",
+     "object": "generative AI outputs",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "verify generated content for accuracy, legality and ethics and remain accountable for it",
+     "condition": null,
+     "exception": null,
+     "purpose": "accountability for government output",
+     "affected_asset": "quality and lawfulness of government communications and decisions",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "CA"
+     ],
+     "applicable_systems": "generative AI tools",
+     "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CA_TBS_GenAI_Guide_Risk_Assessment",
+     "policy_id": "CA_TBS_GenAI_Guide",
+     "section": "Fair / Relevant: assessing risks before deployment",
+     "original_text": "Federal institutions should evaluate generative AI tools for their potential risks (including bias, privacy, security and intellectual property risks) before deploying them, consult relevant stakeholders such as legal services, privacy and security experts, and use generative AI only where it is relevant and appropriate for the task.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "federal institutions",
+     "action": "assess risks and consult before deploying",
+     "object": "generative AI tools",
+     "recipient": "legal, privacy, security and other relevant experts",
+     "modality": "SHOULD",
+     "requirement": "assess risks and consult appropriate experts before deploying generative AI, and use it only where appropriate",
+     "condition": null,
+     "exception": null,
+     "purpose": "prevent harms from inappropriate deployment",
+     "affected_asset": "clients, employees and government operations",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "CA"
+     ],
+     "applicable_systems": "generative AI tools deployed by federal institutions",
+     "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.5,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CA_TBS_GenAI_Guide_DADM_Applicability",
+     "policy_id": "CA_TBS_GenAI_Guide",
+     "section": "Administrative decision-making",
+     "original_text": "Where generative AI is used to make or support administrative decisions about clients, the requirements of the Directive on Automated Decision-Making apply, including completing an Algorithmic Impact Assessment.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "federal institutions",
+     "action": "comply with",
+     "object": "Directive on Automated Decision-Making",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "apply the Directive on Automated Decision-Making when generative AI is used in administrative decisions",
+     "condition": "generative AI used to make or assist administrative decisions affecting clients",
+     "exception": null,
+     "purpose": "procedural fairness and accountability in automated decisions",
+     "affected_asset": "rights and interests of clients subject to administrative decisions",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "CA"
+     ],
+     "applicable_systems": "generative AI used in administrative decision-making",
+     "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. MUST reflects the binding Directive the guide points to, not the guide itself.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
+     "human_verified": false
+    }
+   ]
+  },
+  {
    "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
    "policy_name": "Fact sheet on the use of generative AI tools in the Federal Administration (Merkblatt zur Verwendung von generativen KI-Werkzeugen in der Bundesverwaltung)",
    "short_name": "CNAI GenAI fact sheet",
@@ -705,13 +990,13 @@
     },
     {
      "policy": "Swiss Federal Act on Data Protection (FADP)",
-     "relation": "implements",
+     "relation": "complements",
      "in_catalogue": false
     },
     {
      "policy": "CA_TBS_GenAI_Guide",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     }
    ],
    "conflict_rule": "Guidance only; binding federal data protection, information security and classification law prevails.",
@@ -836,6 +1121,275 @@
      "interpretation_notes": "Paraphrase in English: neither the EN nor the DE official text could be fetched (admin.ch/cnai.swiss hosts blocked), so content is reconstructed from search-result excerpts of the official German PDF and the Federal Chancellery page; not verbatim. Stated on the Federal Chancellery page summarising the guidance.",
      "ambiguity": "low",
      "interpretation_confidence": 0.6,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "CH_FINMA_Guidance_08_2024",
+   "policy_name": "FINMA Guidance 08/2024: Governance and risk management when using artificial intelligence (FINMA-Aufsichtsmitteilung 08/2024)",
+   "short_name": "FINMA Guidance 08/2024",
+   "policy_type": "guidance",
+   "source_uri": "https://www.finma.ch/en/news/2024/12/20241218-mm-finma-am-08-24/",
+   "issuing_authority": "Swiss Financial Market Supervisory Authority (FINMA)",
+   "jurisdiction": "CH",
+   "country_region": "Switzerland",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "regulatory_regime": "Swiss financial market supervision (technology-neutral, principle-based)",
+   "geo_constraints": "Institutions supervised by FINMA",
+   "industry_scope": [
+    "finance",
+    "insurance"
+   ],
+   "status": "enforceable",
+   "binding": false,
+   "effective_date": "2024-12-18",
+   "key_dates": [
+    {
+     "date": "2024-12-18",
+     "event": "Guidance 08/2024 published by FINMA"
+    }
+   ],
+   "expiration_date": null,
+   "version": "Guidance 08/2024, 18 December 2024",
+   "last_updated": "2024-12-18",
+   "covered_entities": [
+    "FINMA-supervised institutions (banks, insurers, financial institutions, etc.)"
+   ],
+   "covered_systems": [
+    "AI applications developed or procured by supervised institutions, including outsourced/third-party AI"
+   ],
+   "covered_activities": [
+    "development",
+    "procurement",
+    "use",
+    "monitoring",
+    "outsourcing"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "Expectations apply proportionately according to the materiality and risk of AI applications"
+   ],
+   "objective": "Communicates FINMA's observations from supervision and its expectations for how supervised institutions should identify, assess, manage and monitor risks arising from the use of AI, under existing technology-neutral governance and risk-management requirements.",
+   "policy_domain": [
+    "governance",
+    "safety",
+    "transparency",
+    "accountability"
+   ],
+   "principles": [
+    "governance and accountability",
+    "risk-based approach",
+    "data quality",
+    "robustness and reliability",
+    "explainability",
+    "independent review"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "FINMA Circular 2023/1 'Operational risks and resilience – banks'",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "FSISAC_GenAI_AUP_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    }
+   ],
+   "conflict_rule": "Guidance does not create new law; it explains how existing binding financial market law and FINMA circulars on governance and risk management apply to AI.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.finma.ch/en/news/2024/12/20241218-mm-finma-am-08-24/ (identified; host not reachable)",
+     "https://www.finma.ch/de/~/media/finma/dokumente/dokumentencenter/myfinma/4dokumentation/finma-aufsichtsmitteilungen/20241218-finma-aufsichtsmitteilung-08-2024.pdf (search result only)",
+     "https://www.mll-news.com/finma-guidance-08-2024-governance-and-risk-management-when-using-artificial-intelligence?lang=en (search result only)",
+     "https://www.redguard.ch/blog/2025/04/04/finma-ai-balance-chance-risiko/ (search result only)",
+     "https://www.advoro.ch/en/publikationen/einsatz-von-ki-bei-finanzinstituten%3A-fokus-auf-governance-und-risk-management (search result only)"
+    ],
+    "notes": "finma.ch was blocked by the compilation environment's network policy; all clauses are paraphrases (text_is_verbatim=false) based on knowledge of the guidance and secondary summaries. Publication date 18 Dec 2024 confirmed by several sources (one secondary source says 8 Dec, likely an error). binding=false: FINMA guidance (Aufsichtsmitteilung) is not a legally binding act; it states supervisory expectations derived from binding law, so non-observance may have supervisory consequences. Status 'enforceable' denotes it is in force as current supervisory practice. official_languages assumed DE/FR/EN per FINMA's usual practice (German likely original); not verified. No amendment or successor found as of Nov 2026 (not exhaustively verified); FINMA indicated it will refine its expectations. Relationship to FINMA Circular 2023/1 is general (operational risk) and not confirmed as cited in the guidance.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+   },
+   "clauses": [
+    {
+     "clause_id": "CH_FINMA_Guidance_08_2024_Governance",
+     "policy_id": "CH_FINMA_Guidance_08_2024",
+     "section": "Governance",
+     "original_text": "Supervised institutions should define clear roles, responsibilities and competences for the development, implementation, use and monitoring of AI, with sufficient expertise; responsibility for decisions cannot be delegated to AI or to third parties, including where AI is outsourced.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "supervised institutions using AI",
+     "action": "establish governance for",
+     "object": "AI applications and associated risks",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "assign clear responsibilities and competences for AI risks, also for outsourced/third-party AI, without delegating accountability",
+     "condition": null,
+     "exception": null,
+     "purpose": "effective governance of AI-related risks",
+     "affected_asset": "institution's operational, legal and reputational risk position; clients",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "CH"
+     ],
+     "applicable_systems": "AI applications used by FINMA-supervised institutions",
+     "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CH_FINMA_Guidance_08_2024_Inventory_Classification",
+     "policy_id": "CH_FINMA_Guidance_08_2024",
+     "section": "Inventory and risk classification",
+     "original_text": "Institutions should maintain an inventory of their AI applications and classify them by risk (materiality and specific AI risks) so that risk management measures can be applied proportionately.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "supervised institutions using AI",
+     "action": "maintain and classify",
+     "object": "inventory of AI applications",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "keep a complete AI inventory with risk-based classification",
+     "condition": null,
+     "exception": null,
+     "purpose": "proportionate, risk-based oversight of AI use",
+     "affected_asset": "institution's operational, legal and reputational risk position; clients",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "CH"
+     ],
+     "applicable_systems": "AI applications used by FINMA-supervised institutions",
+     "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. Secondary summaries indicate a central inventory is expected especially for institutions with many or significant applications.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CH_FINMA_Guidance_08_2024_Data_Quality",
+     "policy_id": "CH_FINMA_Guidance_08_2024",
+     "section": "Data quality",
+     "original_text": "Institutions should set requirements in internal rules to ensure the completeness, correctness and integrity of data used for AI, and ensure the availability of and access to data.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "supervised institutions using AI",
+     "action": "ensure",
+     "object": "quality of data used for AI applications",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "define and enforce data-quality requirements for AI data",
+     "condition": null,
+     "exception": null,
+     "purpose": "prevent erroneous or biased AI results",
+     "affected_asset": "institution's operational, legal and reputational risk position; clients",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "CH"
+     ],
+     "applicable_systems": "AI applications used by FINMA-supervised institutions",
+     "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.5,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CH_FINMA_Guidance_08_2024_Testing_Monitoring",
+     "policy_id": "CH_FINMA_Guidance_08_2024",
+     "section": "Tests and ongoing monitoring",
+     "original_text": "Institutions should test AI applications before use and monitor them on an ongoing basis for performance, accuracy, robustness and stability, including data drift, with defined indicators and thresholds.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "supervised institutions using AI",
+     "action": "test and monitor",
+     "object": "AI applications in use",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "conduct pre-deployment testing and continuous monitoring of AI performance and stability",
+     "condition": null,
+     "exception": null,
+     "purpose": "ensure AI remains accurate, robust and reliable",
+     "affected_asset": "institution's operational, legal and reputational risk position; clients",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "CH"
+     ],
+     "applicable_systems": "AI applications used by FINMA-supervised institutions",
+     "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CH_FINMA_Guidance_08_2024_Explainability",
+     "policy_id": "CH_FINMA_Guidance_08_2024",
+     "section": "Explainability",
+     "original_text": "Results of AI applications should be explainable to the extent needed, so that the institution understands the drivers of results and can justify decisions to investors, clients, employees, the supervisor and the audit firm.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "supervised institutions using AI",
+     "action": "ensure explainability of",
+     "object": "AI results and the decisions based on them",
+     "recipient": "clients, investors, employees, FINMA, audit firm",
+     "modality": "SHOULD",
+     "requirement": "be able to understand and explain AI-supported results and decisions",
+     "condition": null,
+     "exception": null,
+     "purpose": "transparency and accountability toward stakeholders and supervisor",
+     "affected_asset": "institution's operational, legal and reputational risk position; clients",
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "CH"
+     ],
+     "applicable_systems": "AI applications used by FINMA-supervised institutions",
+     "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.5,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CH_FINMA_Guidance_08_2024_Independent_Review",
+     "policy_id": "CH_FINMA_Guidance_08_2024",
+     "section": "Independent review",
+     "original_text": "For material AI applications, institutions should provide for an independent review by qualified personnel (internal or external) not involved in the development of the application.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "supervised institutions using AI",
+     "action": "obtain independent review of",
+     "object": "material AI applications",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "have material AI applications independently reviewed by qualified staff or third parties",
+     "condition": "AI application classified as material/significant",
+     "exception": null,
+     "purpose": "objective challenge of AI risks",
+     "affected_asset": "institution's operational, legal and reputational risk position; clients",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "CH"
+     ],
+     "applicable_systems": "AI applications used by FINMA-supervised institutions",
+     "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
      "human_verified": false
     }
    ]
@@ -2173,7 +2727,7 @@
     {
      "policy": "NIST_AI_RMF_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "ISO_IEC_42001_2023",
@@ -3389,7 +3943,7 @@
     {
      "policy": "NIST_AI_RMF_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "FS-ISAC 'Financial Services and AI: Leveraging the Advantages, Managing the Risks' (2024 white paper series)",
@@ -4569,6 +5123,620 @@
    ]
   },
   {
+   "policy_id": "JP_AI_Promotion_Act_2025",
+   "policy_name": "Act on the Promotion of Research and Development and Utilization of Artificial Intelligence-Related Technologies (人工知能関連技術の研究開発及び活用の推進に関する法律)",
+   "short_name": "Japan AI Promotion Act",
+   "policy_type": "statute",
+   "source_uri": "https://laws.e-gov.go.jp/law/507AC0000000053",
+   "issuing_authority": "National Diet of Japan (administered by the Cabinet Office / AI Strategy Headquarters)",
+   "jurisdiction": "JP",
+   "country_region": "Japan",
+   "language": [
+    "ja"
+   ],
+   "official_languages": [
+    "ja"
+   ],
+   "regulatory_regime": "Japan AI Promotion Act (Act No. 53 of 2025)",
+   "geo_constraints": "Japan; no express extraterritorial provisions",
+   "industry_scope": [
+    "general",
+    "public_sector",
+    "research"
+   ],
+   "status": "enforceable",
+   "binding": true,
+   "effective_date": "2025-06-04",
+   "key_dates": [
+    {
+     "date": "2025-05-28",
+     "event": "Passed by the House of Councillors (enacted)"
+    },
+    {
+     "date": "2025-06-04",
+     "event": "Promulgated as Act No. 53 of 2025; in force except Chapters 3-4"
+    },
+    {
+     "date": "2025-09-01",
+     "event": "Chapters 3 (AI Basic Plan) and 4 (AI Strategy Headquarters) enter into force (Cabinet Order No. 281 of 2025); full enforcement"
+    },
+    {
+     "date": "2025-12-19",
+     "event": "AI Strategy Headquarters decides the Art. 13 guideline on ensuring appropriateness of AI R&D and utilisation"
+    },
+    {
+     "date": "2025-12-23",
+     "event": "First Artificial Intelligence Basic Plan adopted by Cabinet (Art. 18)"
+    },
+    {
+     "date": "2026-07-14",
+     "event": "Revised AI Basic Plan adopted by Cabinet"
+    }
+   ],
+   "expiration_date": null,
+   "version": "Act No. 53 of 2025 (unamended as of compilation)",
+   "last_updated": "2025-06-04",
+   "covered_entities": [
+    "the State",
+    "local governments",
+    "research and development institutions",
+    "utilizing business operators (developers, providers and business users of AI)",
+    "citizens"
+   ],
+   "covered_systems": [
+    "AI-related technologies (Art. 2)"
+   ],
+   "covered_activities": [
+    "research and development",
+    "utilization of AI-related technologies"
+   ],
+   "exceptions": [],
+   "conditions": [],
+   "objective": "To promote research, development and utilization of AI-related technologies comprehensively and systematically through basic principles, an AI Basic Plan and an AI Strategy Headquarters, contributing to better living standards and sound economic development (Art. 1).",
+   "policy_domain": [
+    "innovation",
+    "governance",
+    "safety",
+    "transparency"
+   ],
+   "principles": [
+    "promotion of R&D and international competitiveness",
+    "ensuring appropriateness and transparency",
+    "international cooperation and leadership",
+    "comprehensive and systematic promotion"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "JP_AI_Guidelines_Business_2024",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Artificial Intelligence Basic Plan (Cabinet decision 2025-12-23, revised 2026-07-14)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Guideline on Ensuring Appropriateness of R&D and Utilization of AI-Related Technologies (AI Strategy HQ, 2025-12-19)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "G7_Hiroshima_CoC_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "Basic Act on Science, Technology and Innovation (Act No. 130 of 1995)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Basic Act on the Formation of a Digital Society (Act No. 35 of 2021)",
+     "relation": "complements",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Operates together with the Basic Act on Science, Technology and Innovation, the Basic Act on the Formation of a Digital Society and other relevant laws (Art. 1); creates no penalties and does not displace sectoral law.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://laws.e-gov.go.jp/law/507AC0000000053 (official; not reachable from compilation environment)",
+     "https://github.com/Kohei-Wada/houritsu/blob/main/laws/act/507/507AC0000000053.md (e-Gov mirror) - fetched",
+     "https://github.com/Kohei-Wada/houritsu/blob/main/laws/cabinet-order/507/507CO0000000281.md (Cabinet Order No. 281 of 2025, AI Strategy HQ Order) - fetched",
+     "https://github.com/lexifina/japan-law (act/2025/053; states text in force on 2026-11-03 is the 2025-09-01 version) - fetched",
+     "https://www.japaneselawtranslation.go.jp/en/laws/view/5066 (English translation; via search results only)",
+     "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html (AI Basic Plan; via search results only)",
+     "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html (Art. 13 guideline; via search results only)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Promotion-type framework law: imposes no penalties; obligations on business are limited to endeavour/cooperation duties (Art. 7). The Diet passage date (2025-05-28), the AI Basic Plan dates (2025-12-23; revised 2026-07-14) and the Art. 13 guideline date (2025-12-19) were confirmed via search results citing Cabinet Office/MHLW pages, not by fetching those pages. Supplementary Provision Art. 2 requires review of the Act's implementation in light of international trends; no amendment found as of compilation."
+   },
+   "clauses": [
+    {
+     "clause_id": "JP_AI_Promotion_Act_2025_Art3_4",
+     "policy_id": "JP_AI_Promotion_Act_2025",
+     "section": "Article 3(4)",
+     "original_text": "人工知能関連技術の研究開発及び活用は、不正な目的又は不適切な方法で行われた場合には、犯罪への利用、個人情報の漏えい、著作権の侵害その他の国民生活の平穏及び国民の権利利益が害される事態を助長するおそれがあることに鑑み、その適正な実施を図るため、人工知能関連技術の研究開発及び活用の過程の透明性の確保その他の必要な施策が講じられなければならない。",
+     "text_is_verbatim": true,
+     "language": "ja",
+     "translated_text": "In view of the risk that research, development and utilization of AI-related technologies, when carried out for improper purposes or by inappropriate methods, may facilitate situations in which the peace of people's lives and their rights and interests are harmed, such as use in crime, leakage of personal information and copyright infringement, necessary measures, including ensuring the transparency of the processes of research, development and utilization of AI-related technologies, must be taken to ensure their proper implementation.",
+     "actor": "the State (policy measures)",
+     "action": "take necessary measures including ensuring transparency",
+     "object": "processes of AI R&D and utilization",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "ensure appropriate, transparent AI R&D and use to prevent misuse harms",
+     "condition": null,
+     "exception": null,
+     "purpose": "prevent crime, privacy leaks, copyright infringement and harm to rights",
+     "affected_asset": "public peace; personal information; copyright; citizens' rights and interests",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "JP"
+     ],
+     "applicable_systems": "AI-related technologies",
+     "interpretation_notes": "Japanese text copied verbatim from a GitHub mirror of e-Gov Laws (Kohei-Wada/houritsu, laws/act/507/507AC0000000053.md, revision 507AC0000000053_20250901); laws.e-gov.go.jp itself was not reachable from the compilation environment. English translation by the compiler (unofficial); an English translation exists on the Japanese Law Translation database (japaneselawtranslation.go.jp/en/laws/view/5066) but could not be fetched, so wording differs from it. Basic principle addressed to policy-making rather than a direct duty on private actors.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "JP_AI_Promotion_Act_2025_Art7",
+     "policy_id": "JP_AI_Promotion_Act_2025",
+     "section": "Article 7",
+     "original_text": "人工知能関連技術を活用した製品又はサービスの開発又は提供をしようとする者その他の人工知能関連技術を事業活動において活用しようとする者（以下「活用事業者」という。）は、基本理念にのっとり、自ら積極的な人工知能関連技術の活用により事業活動の効率化及び高度化並びに新産業の創出に努めるとともに、第四条の規定に基づき国が実施する施策及び第五条の規定に基づき地方公共団体が実施する施策に協力しなければならない。",
+     "text_is_verbatim": true,
+     "language": "ja",
+     "translated_text": "Persons who intend to develop or provide products or services utilizing AI-related technologies and other persons who intend to utilize AI-related technologies in their business activities ('utilizing business operators') shall, in accordance with the basic principles, endeavour to make their business activities more efficient and sophisticated and to create new industries through their own active utilization of AI-related technologies, and shall cooperate with the measures implemented by the State under Article 4 and by local governments under Article 5.",
+     "actor": "utilizing business operators (AI developers, providers, business users)",
+     "action": "endeavour to utilize AI; cooperate with government measures",
+     "object": "State and local-government AI measures",
+     "recipient": "the State; local governments",
+     "modality": "MUST",
+     "requirement": "cooperate with government AI policy measures (e.g. investigations, guidance under Art. 16)",
+     "condition": null,
+     "exception": null,
+     "purpose": "whole-of-society promotion and appropriate use of AI",
+     "affected_asset": null,
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "JP"
+     ],
+     "applicable_systems": "AI-related technologies used in business",
+     "interpretation_notes": "Japanese text copied verbatim from a GitHub mirror of e-Gov Laws (Kohei-Wada/houritsu, laws/act/507/507AC0000000053.md, revision 507AC0000000053_20250901); laws.e-gov.go.jp itself was not reachable from the compilation environment. English translation by the compiler (unofficial); an English translation exists on the Japanese Law Translation database (japaneselawtranslation.go.jp/en/laws/view/5066) but could not be fetched, so wording differs from it. The utilisation part is an endeavour duty (SHOULD); the cooperation part is phrased as 'shall' (MUST) but carries no sanction.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "JP_AI_Promotion_Act_2025_Art13",
+     "policy_id": "JP_AI_Promotion_Act_2025",
+     "section": "Article 13",
+     "original_text": "国は、人工知能関連技術の研究開発及び活用の適正な実施を図るため、国際的な規範の趣旨に即した指針の整備その他の必要な施策を講ずるものとする。",
+     "text_is_verbatim": true,
+     "language": "ja",
+     "translated_text": "In order to ensure the proper implementation of research, development and utilization of AI-related technologies, the State shall take necessary measures such as developing guidelines consistent with the purport of international norms.",
+     "actor": "the State",
+     "action": "develop guidelines and other measures",
+     "object": "guidelines on appropriate AI R&D and use consistent with international norms",
+     "recipient": "all actors (via guidelines)",
+     "modality": "MUST",
+     "requirement": "issue guidelines aligned with international norms to ensure appropriate AI R&D and use",
+     "condition": null,
+     "exception": null,
+     "purpose": "ensure appropriateness of AI R&D and use",
+     "affected_asset": null,
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "JP"
+     ],
+     "applicable_systems": "AI-related technologies",
+     "interpretation_notes": "Japanese text copied verbatim from a GitHub mirror of e-Gov Laws (Kohei-Wada/houritsu, laws/act/507/507AC0000000053.md, revision 507AC0000000053_20250901); laws.e-gov.go.jp itself was not reachable from the compilation environment. English translation by the compiler (unofficial); an English translation exists on the Japanese Law Translation database (japaneselawtranslation.go.jp/en/laws/view/5066) but could not be fetched, so wording differs from it. Implemented by the AI Strategy Headquarters guideline decided on 2025-12-19 (per search results).",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "JP_AI_Promotion_Act_2025_Art16",
+     "policy_id": "JP_AI_Promotion_Act_2025",
+     "section": "Article 16",
+     "original_text": "国は、国内外の人工知能関連技術の研究開発及び活用の動向に関する情報の収集、不正な目的又は不適切な方法による人工知能関連技術の研究開発又は活用に伴って国民の権利利益の侵害が生じた事案の分析及びそれに基づく対策の検討その他の人工知能関連技術の研究開発及び活用の推進に資する調査及び研究を行い、その結果に基づいて、研究開発機関、活用事業者その他の者に対する指導、助言、情報の提供その他の必要な措置を講ずるものとする。",
+     "text_is_verbatim": true,
+     "language": "ja",
+     "translated_text": "The State shall conduct surveys and research contributing to the promotion of R&D and utilization of AI-related technologies, such as collecting information on domestic and international trends, analysing cases in which the rights and interests of the people were infringed in connection with R&D or utilization of AI-related technologies for improper purposes or by inappropriate methods and considering countermeasures based on that analysis, and shall, based on the results, take necessary measures such as guidance, advice and provision of information to research and development institutions, utilizing business operators and other persons.",
+     "actor": "the State",
+     "action": "investigate incidents; provide guidance, advice and information",
+     "object": "cases of rights infringement arising from improper AI R&D or use",
+     "recipient": "R&D institutions; utilizing business operators; others",
+     "modality": "MUST",
+     "requirement": "monitor and analyse AI harm incidents and respond with guidance/advice",
+     "condition": null,
+     "exception": null,
+     "purpose": "identify and counter AI-related harms",
+     "affected_asset": "citizens' rights and interests",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "JP"
+     ],
+     "applicable_systems": "AI-related technologies",
+     "interpretation_notes": "Japanese text copied verbatim from a GitHub mirror of e-Gov Laws (Kohei-Wada/houritsu, laws/act/507/507AC0000000053.md, revision 507AC0000000053_20250901); laws.e-gov.go.jp itself was not reachable from the compilation environment. English translation by the compiler (unofficial); an English translation exists on the Japanese Law Translation database (japaneselawtranslation.go.jp/en/laws/view/5066) but could not be fetched, so wording differs from it. Main lever for addressing misuse; guidance is non-binding and the Act contains no penalties.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "JP_AI_Promotion_Act_2025_Art17",
+     "policy_id": "JP_AI_Promotion_Act_2025",
+     "section": "Article 17",
+     "original_text": "国は、人工知能関連技術の研究開発及び活用に関する国際協力を推進するとともに、国際的な規範の策定に積極的に参画するものとする。",
+     "text_is_verbatim": true,
+     "language": "ja",
+     "translated_text": "The State shall promote international cooperation on research, development and utilization of AI-related technologies and shall actively participate in the formulation of international norms.",
+     "actor": "the State",
+     "action": "promote cooperation; participate in norm-setting",
+     "object": "international AI norms",
+     "recipient": "international community",
+     "modality": "MUST",
+     "requirement": "engage in international AI cooperation and norm formulation",
+     "condition": null,
+     "exception": null,
+     "purpose": "international coordination and leadership",
+     "affected_asset": null,
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "JP",
+      "International"
+     ],
+     "applicable_systems": "AI-related technologies",
+     "interpretation_notes": "Japanese text copied verbatim from a GitHub mirror of e-Gov Laws (Kohei-Wada/houritsu, laws/act/507/507AC0000000053.md, revision 507AC0000000053_20250901); laws.e-gov.go.jp itself was not reachable from the compilation environment. English translation by the compiler (unofficial); an English translation exists on the Japanese Law Translation database (japaneselawtranslation.go.jp/en/laws/view/5066) but could not be fetched, so wording differs from it.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.9,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "KR_AI_Basic_Act_2025",
+   "policy_name": "Framework Act on the Development of Artificial Intelligence and the Establishment of a Foundation for Trust (인공지능 발전과 신뢰 기반 조성 등에 관한 기본법)",
+   "short_name": "Korea AI Basic Act",
+   "policy_type": "statute",
+   "source_uri": "https://www.law.go.kr/법령/인공지능발전과신뢰기반조성등에관한기본법",
+   "issuing_authority": "National Assembly of the Republic of Korea (competent ministry: Ministry of Science and ICT)",
+   "jurisdiction": "KR",
+   "country_region": "Republic of Korea",
+   "language": [
+    "ko"
+   ],
+   "official_languages": [
+    "ko"
+   ],
+   "regulatory_regime": "Korea AI Basic Act and its Enforcement Decree (Presidential Decree No. 36053, as amended)",
+   "geo_constraints": "Applies to acts performed abroad if they affect the Korean domestic market or users (Art. 4(1)); foreign AI business operators meeting user/revenue thresholds must appoint a domestic agent (Art. 36)",
+   "industry_scope": [
+    "general",
+    "energy",
+    "healthcare",
+    "medical_devices",
+    "nuclear",
+    "law_enforcement",
+    "employment",
+    "finance",
+    "transport",
+    "public_sector",
+    "education"
+   ],
+   "status": "enforceable",
+   "binding": true,
+   "effective_date": "2026-01-22",
+   "key_dates": [
+    {
+     "date": "2024-12-26",
+     "event": "Passed by the National Assembly (consolidated alternative bill)"
+    },
+    {
+     "date": "2025-01-21",
+     "event": "Promulgated as Law No. 20676"
+    },
+    {
+     "date": "2025-10-01",
+     "event": "Consequential amendment by Government Organization Act (Law No. 21065): Art. 38(1) 'Statistics Korea' -> 'National Data Agency'"
+    },
+    {
+     "date": "2026-01-20",
+     "event": "Partial amendment promulgated (Law No. 21311); in force 2026-01-22, some provisions (e.g. Art. 3(5), 17-2, 18, 22-3, Art. 35(1) second sentence) six months after promulgation"
+    },
+    {
+     "date": "2026-01-21",
+     "event": "Enforcement Decree enacted (Presidential Decree No. 36053), in force 2026-01-22"
+    },
+    {
+     "date": "2026-01-22",
+     "event": "Act enters into force (one year after promulgation); MSIT announced a grace period of at least one year before administrative fines are imposed (policy announcement, not in statute)"
+    },
+    {
+     "date": "2026-01-24",
+     "event": "Art. 2(4)(d) high-impact area for digital medical devices applies"
+    },
+    {
+     "date": "2026-07-21",
+     "event": "Enforcement Decree amendment (Presidential Decree No. 36506, 2026-07-20) in force"
+    },
+    {
+     "date": "2026-10-20",
+     "event": "Partial amendment promulgated (Law No. 22076): new Art. 15-2 on AI training-data integrated provision system"
+    },
+    {
+     "date": "2027-04-21",
+     "event": "Law No. 22076 amendments enter into force (pending as of 2026-11-13)"
+    }
+   ],
+   "expiration_date": null,
+   "version": "Law No. 20676 (2025-01-21), as amended by Law Nos. 21065, 21311 and 22076 (last promulgated 2026-10-20)",
+   "last_updated": "2026-10-20",
+   "covered_entities": [
+    "AI business operators (AI developers and AI utilisation business operators)",
+    "foreign AI business operators meeting Decree thresholds (domestic agent)",
+    "State and local governments",
+    "national agencies etc. using high-impact AI"
+   ],
+   "covered_systems": [
+    "high-impact AI",
+    "generative AI",
+    "AI systems trained above a cumulative-compute threshold (Decree: >=10^26 FLOPs plus frontier and broad-severe-risk criteria)",
+    "AI systems generally (ethics, promotion)"
+   ],
+   "covered_activities": [
+    "development",
+    "provision of AI products and services",
+    "use by public bodies"
+   ],
+   "exceptions": [
+    "AI developed and used solely for national defence or national security purposes, as prescribed by Presidential Decree (Art. 4(2))",
+    "where other laws contain special provisions (Art. 5(1))",
+    "measures equivalent to Art. 34 duties taken under other laws are deemed compliance (Art. 34(3))"
+   ],
+   "conditions": [
+    "Transparency duties triggered when providing high-impact or generative AI products/services",
+    "Safety duties (Art. 32) apply only above the Decree compute/frontier/risk threshold",
+    "Domestic agent duty applies to operators without a Korean address meeting Decree thresholds (e.g. prior-year revenue >= KRW 1 trillion, AI-service revenue >= KRW 10 billion, or >= 1 million average daily domestic users)"
+   ],
+   "objective": "To protect citizens' rights, interests and dignity and to improve quality of life and national competitiveness by setting out basic matters for the sound development of AI and the establishment of a foundation of trust (Art. 1).",
+   "policy_domain": [
+    "innovation",
+    "safety",
+    "transparency",
+    "fundamental_rights",
+    "governance",
+    "accountability"
+   ],
+   "principles": [
+    "safety and reliability",
+    "right to meaningful explanation for affected persons (Art. 3(2))",
+    "transparency (notice and labelling)",
+    "risk management",
+    "human oversight of high-impact AI",
+    "promotion of the AI industry"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "Enforcement Decree of the Framework Act on AI (Presidential Decree No. 36053)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Framework Act on Intelligent Informatization (Korea)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Personal Information Protection Act (Korea)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "complements",
+     "in_catalogue": true
+    }
+   ],
+   "conflict_rule": "Applies to AI matters except where other laws contain special provisions (Art. 5(1)); other laws on AI must be enacted/amended consistently with this Act's purpose (Art. 5(2)); Art. 34 measures taken under other laws are deemed compliance (Art. 34(3)).",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.law.go.kr/법령/인공지능발전과신뢰기반조성등에관한기본법 (official; not reachable from compilation environment)",
+     "https://github.com/legalize-kr/legalize-kr (kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md and 시행령.md; git mirror of law.go.kr texts with per-amendment commit history) - fetched",
+     "https://opinion.lawmaking.go.kr/gcom/ogLmPp/86822 (Decree amendment pre-announcement; via search results)",
+     "https://www.mt.co.kr/tech/2025/12/31/2025123009504430416 (fine grace period report; via search results)",
+     "https://www.ddaily.co.kr/page/view/2026072017153663628 (Decree amendment in force 2026-07-21; via search results)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official portals (law.go.kr, elaw.klri.re.kr) were blocked by the compilation environment's network policy; statutory text was taken from the legalize-kr GitHub mirror, which reproduces law.go.kr text and records each amendment as a commit (diffs checked: Arts. 31-36, 43 unchanged since 2025). Law No. 22076 (promulgated 2026-10-20) takes effect 2027-04-21 and only restructures training-data provisions (Art. 15/15-2). The one-year-plus fine grace period is a ministry policy reported in the press, not a statutory provision; its exact end date was not verified. Fines: up to KRW 30 million for failure to give Art. 31(1) prior notice, failure to designate a domestic agent, or non-compliance with a suspension/corrective order (Art. 43). The 2024-12-26 National Assembly passage date is from general knowledge/secondary reporting, not re-verified against the assembly record. English names/translations are unofficial."
+   },
+   "clauses": [
+    {
+     "clause_id": "KR_AI_Basic_Act_2025_Art31_1",
+     "policy_id": "KR_AI_Basic_Act_2025",
+     "section": "Article 31(1)",
+     "original_text": "인공지능사업자는 고영향 인공지능이나 생성형 인공지능을 이용한 제품 또는 서비스를 제공하려는 경우 제품 또는 서비스가 해당 인공지능에 기반하여 운용된다는 사실을 이용자에게 사전에 고지하여야 한다.",
+     "text_is_verbatim": true,
+     "language": "ko",
+     "translated_text": "Where an AI business operator intends to provide a product or service using high-impact AI or generative AI, it shall notify users in advance that the product or service is operated on the basis of that AI.",
+     "actor": "AI business operator",
+     "action": "notify in advance",
+     "object": "the fact that the product/service operates based on high-impact or generative AI",
+     "recipient": "users",
+     "modality": "MUST",
+     "requirement": "give users prior notice that a product or service is AI-based",
+     "condition": "when providing products/services using high-impact AI or generative AI",
+     "exception": "methods and exceptions to be set by Presidential Decree (Art. 31(4))",
+     "purpose": "transparency towards users",
+     "affected_asset": "users' informed decision-making",
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "KR"
+     ],
+     "applicable_systems": "high-impact AI; generative AI",
+     "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. Breach is subject to an administrative fine of up to KRW 30 million (Art. 43(1)(1)).",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.9,
+     "human_verified": false
+    },
+    {
+     "clause_id": "KR_AI_Basic_Act_2025_Art31_2_3",
+     "policy_id": "KR_AI_Basic_Act_2025",
+     "section": "Article 31(2)-(3)",
+     "original_text": "② 인공지능사업자는 생성형 인공지능 또는 이를 이용한 제품 또는 서비스를 제공하는 경우 그 결과물이 생성형 인공지능에 의하여 생성되었다는 사실을 표시하여야 한다. ③ 인공지능사업자는 인공지능시스템을 이용하여 실제와 구분하기 어려운 가상의 음향, 이미지 또는 영상 등의 결과물을 제공하는 경우 해당 결과물이 인공지능시스템에 의하여 생성되었다는 사실을 이용자가 명확하게 인식할 수 있는 방식으로 고지 또는 표시하여야 한다. …",
+     "text_is_verbatim": true,
+     "language": "ko",
+     "translated_text": "(2) Where an AI business operator provides generative AI or a product or service using it, it shall indicate that the output was generated by generative AI. (3) Where an AI business operator uses an AI system to provide outputs such as virtual sounds, images or videos that are difficult to distinguish from reality, it shall notify or indicate, in a manner that users can clearly recognise, that the output was generated by an AI system. …",
+     "actor": "AI business operator",
+     "action": "label / notify",
+     "object": "AI-generated outputs, including realistic synthetic audio, images and video (deepfakes)",
+     "recipient": "users",
+     "modality": "MUST",
+     "requirement": "label generative-AI outputs; clearly disclose realistic synthetic media as AI-generated",
+     "condition": "when providing generative AI outputs; stricter clear-recognition standard for outputs hard to distinguish from reality",
+     "exception": "for artistic or creative works, notice may be given in a manner that does not hinder exhibition or enjoyment (Art. 31(3) second sentence); further exceptions by Decree (Art. 31(4))",
+     "purpose": "prevent deception by synthetic content",
+     "affected_asset": "information integrity; users' ability to recognise synthetic content",
+     "policy_domain": "content_integrity",
+     "applicable_regions": [
+      "KR"
+     ],
+     "applicable_systems": "generative AI; AI systems producing realistic synthetic media",
+     "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. Violations of Art. 31(2)-(3) can trigger fact-finding investigations and corrective orders (Art. 40) but are not themselves listed as fine offences in Art. 43(1).",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "KR_AI_Basic_Act_2025_Art32_1",
+     "policy_id": "KR_AI_Basic_Act_2025",
+     "section": "Article 32(1)",
+     "original_text": "인공지능사업자는 학습에 사용된 누적 연산량이 대통령령으로 정하는 기준 이상인 인공지능시스템의 안전성을 확보하기 위하여 다음 각 호의 사항을 이행하여야 한다. 1. 인공지능 수명주기 전반에 걸친 위험의 식별ㆍ평가 및 완화 2. 인공지능 관련 안전사고를 모니터링하고 대응하는 위험관리체계 구축",
+     "text_is_verbatim": true,
+     "language": "ko",
+     "translated_text": "To ensure the safety of an AI system whose cumulative compute used for training is at or above the threshold prescribed by Presidential Decree, an AI business operator shall: 1. identify, assess and mitigate risks throughout the AI lifecycle; 2. establish a risk management system that monitors and responds to AI-related safety incidents.",
+     "actor": "AI business operator",
+     "action": "identify, assess and mitigate risks; establish incident monitoring and response system",
+     "object": "high-compute AI systems",
+     "recipient": "Minister of Science and ICT (results must be submitted under Art. 32(2))",
+     "modality": "MUST",
+     "requirement": "lifecycle risk management and safety-incident monitoring for frontier-scale AI systems",
+     "condition": "training compute >= Decree threshold; Enforcement Decree Art. 24 requires all of: >=10^26 floating-point operations, state-of-the-art technology, and risk of broad and serious impact on life, safety and fundamental rights",
+     "exception": null,
+     "purpose": "ensure safety of frontier AI systems",
+     "affected_asset": "life, physical safety and fundamental rights",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "KR"
+     ],
+     "applicable_systems": "AI systems above the compute threshold (frontier models)",
+     "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. Threshold detail taken from Enforcement Decree Art. 24 (legalize-kr mirror, version Presidential Decree No. 36580).",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "KR_AI_Basic_Act_2025_Art33_1",
+     "policy_id": "KR_AI_Basic_Act_2025",
+     "section": "Article 33(1)",
+     "original_text": "인공지능사업자는 인공지능 또는 이를 이용한 제품ㆍ서비스를 제공하는 경우 그 인공지능이 고영향 인공지능에 해당하는지에 대하여 사전에 검토하여야 하며, 필요한 경우 과학기술정보통신부장관에게 고영향 인공지능에 해당하는지 여부의 확인을 요청할 수 있다.",
+     "text_is_verbatim": true,
+     "language": "ko",
+     "translated_text": "When providing AI or a product or service using it, an AI business operator shall review in advance whether the AI falls under high-impact AI and may, where necessary, request the Minister of Science and ICT to confirm whether it is high-impact AI.",
+     "actor": "AI business operator",
+     "action": "review in advance; optionally request confirmation",
+     "object": "whether an AI system qualifies as high-impact AI",
+     "recipient": "Minister of Science and ICT",
+     "modality": "MUST",
+     "requirement": "pre-deployment self-assessment of high-impact status",
+     "condition": "when providing AI or AI-based products/services",
+     "exception": null,
+     "purpose": "correct classification so that high-impact obligations apply",
+     "affected_asset": "life, safety and fundamental rights of affected persons",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "KR"
+     ],
+     "applicable_systems": "any AI system provided in Korea",
+     "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. High-impact areas are listed in Art. 2(4) (energy supply, drinking water, healthcare, medical devices, nuclear, biometric analysis for criminal investigation, hiring/loan screening, transport, public-service decisions, student evaluation).",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "KR_AI_Basic_Act_2025_Art34_1",
+     "policy_id": "KR_AI_Basic_Act_2025",
+     "section": "Article 34(1)",
+     "original_text": "인공지능사업자는 고영향 인공지능 또는 이를 이용한 제품ㆍ서비스를 제공하는 경우 고영향 인공지능의 안전성ㆍ신뢰성을 확보하기 위하여 다음 각 호의 내용을 포함하는 조치를 대통령령으로 정하는 바에 따라 이행하여야 한다. 1. 위험관리방안의 수립ㆍ운영 2. 기술적으로 가능한 범위에서의 인공지능이 도출한 최종결과, 인공지능의 최종결과 도출에 활용된 주요 기준, 인공지능의 개발ㆍ활용에 사용된 학습용데이터의 개요 등에 대한 설명 방안의 수립ㆍ시행 3. 이용자 보호 방안의 수립ㆍ운영 4. 고영향 인공지능에 대한 사람의 관리ㆍ감독 5. …",
+     "text_is_verbatim": true,
+     "language": "ko",
+     "translated_text": "When providing high-impact AI or a product or service using it, an AI business operator shall, as prescribed by Presidential Decree, implement measures to ensure the safety and reliability of the high-impact AI, including: 1. establishing and operating a risk management plan; 2. establishing and implementing a plan to explain, to the extent technically feasible, the final results derived by the AI, the key criteria used to derive them, and an overview of the training data used to develop and use the AI; 3. establishing and operating user protection measures; 4. human management and supervision of the high-impact AI; 5. … (5: preparing and keeping documents evidencing these measures; 6: other matters resolved by the National AI Strategy Committee)",
+     "actor": "AI business operator",
+     "action": "implement safety and reliability measures",
+     "object": "high-impact AI and products/services using it",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "risk management, explainability, user protection, human oversight and documentation for high-impact AI",
+     "condition": "when providing high-impact AI (Art. 2(4) areas)",
+     "exception": "equivalent measures taken under other laws are deemed compliance (Art. 34(3))",
+     "purpose": "ensure safety and trustworthiness of high-impact AI",
+     "affected_asset": "life, physical safety and fundamental rights",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "KR"
+     ],
+     "applicable_systems": "high-impact AI",
+     "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. MSIT may publish detailed measures and recommend compliance (Art. 34(2)); breach can lead to investigation and corrective orders (Art. 40), with fines for ignoring orders (Art. 43(1)(3)).",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "KR_AI_Basic_Act_2025_Art36_1",
+     "policy_id": "KR_AI_Basic_Act_2025",
+     "section": "Article 36(1)",
+     "original_text": "국내에 주소 또는 영업소가 없는 인공지능사업자로서 이용자 수, 매출액 등이 대통령령으로 정하는 기준에 해당하는 자는 다음 각 호의 사항을 대리하는 자(이하 \"국내대리인\"이라 한다)를 서면으로 지정하고, 이를 과학기술정보통신부장관에게 신고하여야 한다.",
+     "text_is_verbatim": true,
+     "language": "ko",
+     "translated_text": "An AI business operator with no address or place of business in Korea that meets the criteria on number of users, revenue, etc. prescribed by Presidential Decree shall designate in writing a person to act on its behalf for the following matters (a 'domestic agent') and report the designation to the Minister of Science and ICT.",
+     "actor": "foreign AI business operator meeting Decree thresholds",
+     "action": "designate in writing and report",
+     "object": "domestic agent",
+     "recipient": "Minister of Science and ICT",
+     "modality": "MUST",
+     "requirement": "appoint a Korean domestic agent for safety reporting, high-impact confirmation requests and Art. 34 support",
+     "condition": "no Korean address/place of business AND Decree thresholds met (Decree Art. 29: prior-year revenue >= KRW 1 trillion, AI-service revenue >= KRW 10 billion, >= 1 million average daily domestic users, or prior fine for ignoring an order)",
+     "exception": null,
+     "purpose": "enforceability against foreign providers",
+     "affected_asset": "regulatory oversight",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "KR"
+     ],
+     "applicable_systems": "AI products/services offered in Korea by foreign operators",
+     "interpretation_notes": "Korean text copied verbatim from the legalize-kr GitHub mirror of the National Law Information Center (law.go.kr) text, file kr/인공지능발전과신뢰기반조성등에관한기본법/법률.md (version Law No. 22076); law.go.kr itself was not reachable from the compilation environment. git history of the mirror shows this article unchanged since the original Law No. 20676 (2025-01-21). English translation by the compiler (unofficial); KLRI publishes an unofficial English translation that could not be fetched. Failure to designate is subject to a fine of up to KRW 30 million (Art. 43(1)(2)).",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.9,
+     "human_verified": false
+    }
+   ]
+  },
+  {
    "policy_id": "MS_RAI_Standard_v2",
    "policy_name": "Microsoft Responsible AI Standard, v2: General Requirements",
    "short_name": "Microsoft RAI Standard v2",
@@ -4642,7 +5810,7 @@
     {
      "policy": "NIST_AI_RMF_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "ISO_IEC_42001_2023",
@@ -4848,6 +6016,614 @@
      "interpretation_notes": "Paraphrase: the official PDF could not be fetched from the compilation environment (host blocked), so wording is a close paraphrase from knowledge of the document, not verbatim. Goal identifier is believed correct but unverified against the PDF. ",
      "ambiguity": "medium",
      "interpretation_confidence": 0.5,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "NIST_AI_600_1_2024",
+   "policy_name": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+   "short_name": "NIST GenAI Profile",
+   "policy_type": "framework",
+   "source_uri": "https://doi.org/10.6028/NIST.AI.600-1",
+   "issuing_authority": "National Institute of Standards and Technology (NIST), U.S. Department of Commerce",
+   "jurisdiction": "US-Federal",
+   "country_region": "United States (voluntary; used internationally)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "Voluntary U.S. federal AI risk management guidance (profile of the NIST AI RMF)",
+   "geo_constraints": "None; voluntary, cross-sectoral profile",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2024-07-26",
+   "key_dates": [
+    {
+     "date": "2024-04-29",
+     "event": "Initial public draft (NIST AI 600-1 ipd) released for comment"
+    },
+    {
+     "date": "2024-07-26",
+     "event": "Final NIST AI 600-1 published (developed pursuant to EO 14110 Sec. 4.1)"
+    },
+    {
+     "date": "2025-01-20",
+     "event": "EO 14110, under which the profile was developed, revoked; profile itself not withdrawn"
+    },
+    {
+     "date": "2025-07",
+     "event": "America's AI Action Plan directs revision of the AI RMF; secondary sources report a related revision of AI 600-1 may follow, not published as of Nov 2026"
+    }
+   ],
+   "expiration_date": null,
+   "version": "NIST AI 600-1, July 2024",
+   "last_updated": "2024-07-26",
+   "covered_entities": [
+    "organizations designing, developing, deploying, using or evaluating generative AI (GAI) systems"
+   ],
+   "covered_systems": [
+    "generative AI systems and models, including foundation / dual-use foundation models"
+   ],
+   "covered_activities": [
+    "governance",
+    "pre-deployment testing",
+    "deployment",
+    "content provenance",
+    "incident disclosure",
+    "third-party / value-chain management"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "Voluntary; suggested actions are selected according to the organization's context and risk tolerance"
+   ],
+   "objective": "Help organizations identify the unique or exacerbated risks posed by generative AI and propose actions, mapped to the AI RMF subcategories, to govern, map, measure and manage those risks.",
+   "policy_domain": [
+    "safety",
+    "security",
+    "content_integrity",
+    "privacy",
+    "fairness",
+    "governance"
+   ],
+   "principles": [
+    "AI RMF trustworthy AI characteristics",
+    "governance",
+    "content provenance",
+    "pre-deployment testing",
+    "incident disclosure"
+   ],
+   "parent_policy": "NIST_AI_RMF_2023",
+   "related_policies": [
+    {
+     "policy": "NIST_AI_RMF_2023",
+     "relation": "specializes",
+     "in_catalogue": true
+    },
+    {
+     "policy": "US_EO_14110_2023",
+     "relation": "implements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "US_AI_Action_Plan_2025",
+     "relation": "amended_by",
+     "in_catalogue": true
+    },
+    {
+     "policy": "EU_GPAI_CoP_2025",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "G7_Hiroshima_CoC_2023",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "SG_Model_AI_Gov_GenAI_2024",
+     "relation": "overlaps_with",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Voluntary and non-binding; suggested actions such as GV-1.1-001 defer to applicable laws and regulations.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://doi.org/10.6028/NIST.AI.600-1",
+     "https://huggingface.co/datasets/leeroy-jankins/NIST-GenAI-Profile (copy of the NIST AI 600-1 PDF; PDF metadata author NIST, 64 pp., dated July 2024)",
+     "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence (via search results)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "nist.gov hosts could not be fetched from this session; clause text was extracted with pdftotext from a mirror copy of the official PDF hosted on Hugging Face (third-party), whose metadata identifies NIST as author. Re-check against https://doi.org/10.6028/NIST.AI.600-1. The profile lists 12 GAI risks (CBRN Information or Capabilities; Confabulation; Dangerous, Violent, or Hateful Content; Data Privacy; Environmental Impacts; Harmful Bias or Homogenization; Human-AI Configuration; Information Integrity; Information Security; Intellectual Property; Obscene, Degrading, and/or Abusive Content; Value Chain and Component Integration). Initial public draft date (29 April 2024) is from general knowledge, not re-verified. Whether NIST will revise AI 600-1 following the July 2025 AI Action Plan is unconfirmed."
+   },
+   "clauses": [
+    {
+     "clause_id": "NIST_AI_600_1_2024_Sec2_CBRN",
+     "policy_id": "NIST_AI_600_1_2024",
+     "section": "Section 2, risk 1 (CBRN Information or Capabilities)",
+     "original_text": "1. CBRN Information or Capabilities: Eased access to or synthesis of materially nefarious information or design capabilities related to chemical, biological, radiological, or nuclear (CBRN) weapons or other dangerous materials or agents.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": null,
+     "action": "define risk",
+     "object": "CBRN information or capabilities risk from GAI",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "treat eased access to CBRN weapon information/design capabilities as a GAI risk category to be managed",
+     "condition": null,
+     "exception": null,
+     "purpose": "prevent GAI uplift to chemical, biological, radiological or nuclear weapons",
+     "affected_asset": "public safety, national security",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "generative AI systems",
+     "interpretation_notes": "Definitional clause from the 12-risk taxonomy; modality is notional (the profile uses the taxonomy to scope suggested actions).",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "NIST_AI_600_1_2024_GV_1_3_002",
+     "policy_id": "NIST_AI_600_1_2024",
+     "section": "GV-1.3-002 (under GOVERN 1.3)",
+     "original_text": "Establish minimum thresholds for performance or assurance criteria and review as part of deployment approval (“go/”no-go”) policies, procedures, and processes, with reviewed processes and approval thresholds reflecting measurement of GAI capabilities and risks.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization deploying GAI",
+     "action": "establish and review",
+     "object": "minimum performance/assurance thresholds in go/no-go deployment approval",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "set deployment approval thresholds tied to measured GAI capabilities and risks",
+     "condition": "as part of deployment approval",
+     "exception": null,
+     "purpose": "gate deployment on measured risk",
+     "affected_asset": "users and the public",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "generative AI systems",
+     "interpretation_notes": "Mapped in the profile to CBRN; Confabulation; Dangerous, Violent, or Hateful Content. Quotation marks around go/no-go reproduced as in source.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "NIST_AI_600_1_2024_GV_1_3_003",
+     "policy_id": "NIST_AI_600_1_2024",
+     "section": "GV-1.3-003 (under GOVERN 1.3)",
+     "original_text": "Establish a test plan and response policy, before developing highly capable models, to periodically evaluate whether the model may misuse CBRN information or capabilities and/or offensive cyber capabilities.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "developer of highly capable GAI models",
+     "action": "establish test plan and response policy; periodically evaluate",
+     "object": "model potential to misuse CBRN or offensive cyber capabilities",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "plan and periodically run dangerous-capability evaluations with a response policy",
+     "condition": "before developing highly capable models",
+     "exception": null,
+     "purpose": "detect and respond to dangerous CBRN/cyber capabilities",
+     "affected_asset": "public safety, critical infrastructure",
+     "policy_domain": "security",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "highly capable generative AI models",
+     "interpretation_notes": "'Highly capable models' is not defined in the profile.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "NIST_AI_600_1_2024_MS_2_7_001",
+     "policy_id": "NIST_AI_600_1_2024",
+     "section": "MS-2.7-001 (under MEASURE 2.7)",
+     "original_text": "Apply established security measures to: Assess likelihood and magnitude of vulnerabilities and threats such as backdoors, compromised dependencies, data breaches, eavesdropping, man-in-the-middle attacks, reverse engineering, autonomous agents, model theft or exposure of model weights, AI inference, bypass, extraction, and other baseline security concerns.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "GAI developer/deployer",
+     "action": "apply security measures and assess vulnerabilities and threats",
+     "object": "GAI system security (incl. model weights)",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "assess likelihood/magnitude of listed security threats including model-weight theft",
+     "condition": null,
+     "exception": null,
+     "purpose": "security and resilience of GAI systems",
+     "affected_asset": "model weights, training data, system integrity",
+     "policy_domain": "security",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "generative AI systems",
+     "interpretation_notes": "Mapped to Data Privacy; Information Integrity; Information Security; Value Chain and Component Integration.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "NIST_AI_600_1_2024_MG_2_4_004",
+     "policy_id": "NIST_AI_600_1_2024",
+     "section": "MG-2.4-004 (under MANAGE 2.4)",
+     "original_text": "Establish and regularly review specific criteria that warrants the deactivation of GAI systems in accordance with set risk tolerances and appetites.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization deploying GAI",
+     "action": "establish and regularly review deactivation criteria",
+     "object": "GAI system deactivation criteria",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "define and review criteria for deactivating GAI systems",
+     "condition": "in accordance with organizational risk tolerances and appetites",
+     "exception": null,
+     "purpose": "enable timely shutdown of harmful GAI systems",
+     "affected_asset": "users, affected communities",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "generative AI systems",
+     "interpretation_notes": "Grammar ('criteria that warrants') reproduced as in source.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "NIST_AI_600_1_2024_MG_4_3_003",
+     "policy_id": "NIST_AI_600_1_2024",
+     "section": "MG-4.3-003 (under MANAGE 4.3)",
+     "original_text": "Report GAI incidents in compliance with legal and regulatory requirements (e.g., HIPAA breach reporting, e.g., OCR (2023) or NHTSA (2022) autonomous vehicle crash reporting requirements.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization deploying GAI",
+     "action": "report",
+     "object": "GAI incidents",
+     "recipient": "relevant regulators / authorities",
+     "modality": "SHOULD",
+     "requirement": "report GAI incidents as required by applicable law",
+     "condition": "where legal or regulatory reporting requirements apply",
+     "exception": null,
+     "purpose": "accountability and incident transparency",
+     "affected_asset": "affected individuals; regulators' oversight",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "US"
+     ],
+     "applicable_systems": "generative AI systems",
+     "interpretation_notes": "Unbalanced parenthesis is in the source. The profile does not itself create a reporting duty; it points to existing legal duties.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "NIST_AI_RMF_2023",
+   "policy_name": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) (NIST AI 100-1)",
+   "short_name": "NIST AI RMF 1.0",
+   "policy_type": "framework",
+   "source_uri": "https://doi.org/10.6028/NIST.AI.100-1",
+   "issuing_authority": "National Institute of Standards and Technology (NIST), U.S. Department of Commerce",
+   "jurisdiction": "US-Federal",
+   "country_region": "United States (voluntary; used internationally)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "Voluntary U.S. federal AI risk management guidance (National Artificial Intelligence Initiative Act of 2020 mandate)",
+   "geo_constraints": "None; voluntary framework intended for any organization designing, developing, deploying or using AI systems",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2023-01-26",
+   "key_dates": [
+    {
+     "date": "2023-01-26",
+     "event": "AI RMF 1.0 (NIST AI 100-1) released, with companion AI RMF Playbook"
+    },
+    {
+     "date": "2024-07-26",
+     "event": "Generative AI Profile (NIST AI 600-1) published as a cross-sectoral profile of the AI RMF"
+    },
+    {
+     "date": "2025-07",
+     "event": "White House 'America's AI Action Plan' directs NIST to revise the AI RMF (incl. removing references to misinformation, DEI and climate change); NIST page states revision underway, no draft published as of Nov 2026"
+    }
+   ],
+   "expiration_date": null,
+   "version": "AI RMF 1.0, NIST AI 100-1, January 2023",
+   "last_updated": "2023-01-26",
+   "covered_entities": [
+    "AI actors across the AI lifecycle (designers, developers, deployers, operators, evaluators, users) in any organization"
+   ],
+   "covered_systems": [
+    "AI systems (engineered or machine-based systems that generate outputs such as predictions, recommendations or decisions)"
+   ],
+   "covered_activities": [
+    "design",
+    "development",
+    "deployment",
+    "use",
+    "evaluation",
+    "monitoring",
+    "decommissioning"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "Voluntary; organizations select and tailor outcomes (subcategories) based on context, risk tolerance and resources"
+   ],
+   "objective": "Provide a voluntary, rights-preserving, non-sector-specific framework to help organizations manage AI risks and promote trustworthy and responsible development and use of AI systems, structured around the GOVERN, MAP, MEASURE and MANAGE functions.",
+   "policy_domain": [
+    "safety",
+    "governance",
+    "accountability",
+    "transparency",
+    "fairness",
+    "privacy",
+    "security"
+   ],
+   "principles": [
+    "valid and reliable",
+    "safe",
+    "secure and resilient",
+    "accountable and transparent",
+    "explainable and interpretable",
+    "privacy-enhanced",
+    "fair with harmful bias managed"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "NIST_AI_600_1_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "ISO_IEC_42001_2023",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "ISO_IEC_23894_2023",
+     "relation": "overlaps_with",
+     "in_catalogue": false
+    },
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "US_EO_14110_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "US_AI_Action_Plan_2025",
+     "relation": "amended_by",
+     "in_catalogue": true
+    },
+    {
+     "policy": "US_OMB_M_25_21",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "CO_SB24_205",
+     "relation": "complements",
+     "in_catalogue": true
+    }
+   ],
+   "conflict_rule": "Voluntary and non-binding; does not supersede applicable law. GOVERN 1.1 expects legal and regulatory requirements to be understood and managed, so binding law prevails.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://doi.org/10.6028/NIST.AI.100-1",
+     "https://huggingface.co/datasets/ddps007/daaa (text extraction of NIST.AI.100-1.pdf used to verify wording)",
+     "https://www.nist.gov/itl/ai-risk-management-framework (via search results)",
+     "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/ (via search results)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "nist.gov / nvlpubs.nist.gov / airc.nist.gov could not be fetched from this session (network policy). Clause wording was verified against a plain-text extraction of the official NIST.AI.100-1.pdf hosted on Hugging Face (third-party mirror) and is consistent with NIST-domain search excerpts; re-check against the NIST PDF. 'America's AI Action Plan' (July 2025) directed NIST to revise the AI RMF; secondary sources and NIST's page (per search results) indicate a revision is underway but as of Nov 2026 no new version has been published, so AI RMF 1.0 remains current. Exact July 2025 date of the Action Plan taken from general knowledge (23 July 2025) and not re-verified here."
+   },
+   "clauses": [
+    {
+     "clause_id": "NIST_AI_RMF_2023_GOVERN_1_1",
+     "policy_id": "NIST_AI_RMF_2023",
+     "section": "GOVERN 1.1 (Table 1)",
+     "original_text": "GOVERN 1.1: Legal and regulatory requirements involving AI are understood, managed, and documented.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization developing or deploying AI",
+     "action": "understand, manage and document",
+     "object": "legal and regulatory requirements involving AI",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "identify, manage and document applicable AI legal and regulatory requirements",
+     "condition": null,
+     "exception": null,
+     "purpose": "legal compliance as a foundation of AI risk governance",
+     "affected_asset": "organizational compliance posture",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "any AI system",
+     "interpretation_notes": "Framework outcomes are phrased as states ('are understood') rather than imperatives; modality SHOULD reflects the voluntary nature.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.9,
+     "human_verified": false
+    },
+    {
+     "clause_id": "NIST_AI_RMF_2023_GOVERN_4_1",
+     "policy_id": "NIST_AI_RMF_2023",
+     "section": "GOVERN 4.1 (Table 1)",
+     "original_text": "GOVERN 4.1: Organizational policies and practices are in place to foster a critical thinking and safety-first mindset in the design, development, deployment, and uses of AI systems to minimize potential negative impacts.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization",
+     "action": "put in place policies and practices",
+     "object": "critical thinking and safety-first culture",
+     "recipient": "AI teams",
+     "modality": "SHOULD",
+     "requirement": "establish policies fostering a safety-first mindset across the AI lifecycle",
+     "condition": null,
+     "exception": null,
+     "purpose": "minimize potential negative impacts of AI systems",
+     "affected_asset": "people and organizations affected by AI systems",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "any AI system",
+     "interpretation_notes": "Cultural/organizational outcome; measurable evidence is left to the Playbook's suggested actions.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "NIST_AI_RMF_2023_GOVERN_6_1",
+     "policy_id": "NIST_AI_RMF_2023",
+     "section": "GOVERN 6.1 (Table 1)",
+     "original_text": "GOVERN 6.1: Policies and procedures are in place that address AI risks associated with third-party entities, including risks of infringement of a third-party’s intellectual property or other rights.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization",
+     "action": "establish policies and procedures",
+     "object": "AI risks from third-party entities (software, data, supply chain)",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "address third-party and supply-chain AI risks, including IP infringement",
+     "condition": null,
+     "exception": null,
+     "purpose": "manage supply-chain and third-party rights risks",
+     "affected_asset": "third-party intellectual property and other rights; organizational systems",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "AI systems using third-party software, data or models",
+     "interpretation_notes": "Verbatim from Table 1; GOVERN 6.2 (contingency processes for third-party failures) is the companion outcome.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.9,
+     "human_verified": false
+    },
+    {
+     "clause_id": "NIST_AI_RMF_2023_MEASURE_2_6",
+     "policy_id": "NIST_AI_RMF_2023",
+     "section": "MEASURE 2.6 (Table 3)",
+     "original_text": "MEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in the MAP function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits. Safety metrics reflect system reliability and robustness, real-time monitoring, and response times for AI system failures.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI developer/deployer (TEVV function)",
+     "action": "evaluate regularly and demonstrate safety",
+     "object": "AI system safety risks",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "regularly evaluate safety; demonstrate residual risk within tolerance and safe failure before deployment",
+     "condition": "before deployment and on a regular basis thereafter",
+     "exception": null,
+     "purpose": "ensure AI systems are safe and fail safely",
+     "affected_asset": "human life, health, property and the environment",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "any AI system to be deployed",
+     "interpretation_notes": "Combines a recurring evaluation outcome with a pre-deployment demonstration; 'risk tolerance' is organization-defined (GOVERN 1.3).",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "NIST_AI_RMF_2023_MANAGE_1_1",
+     "policy_id": "NIST_AI_RMF_2023",
+     "section": "MANAGE 1.1 (Table 4)",
+     "original_text": "MANAGE 1.1: A determination is made as to whether the AI system achieves its intended purposes and stated objectives and whether its development or deployment should proceed.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization / AI risk owner",
+     "action": "determine whether to proceed (go/no-go)",
+     "object": "AI system development or deployment",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "make a documented go/no-go decision based on whether the system meets its intended purpose",
+     "condition": "based on outputs of the MAP and MEASURE functions",
+     "exception": null,
+     "purpose": "avoid developing or deploying systems that do not meet objectives or carry unacceptable risk",
+     "affected_asset": "organization and affected individuals",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "any AI system",
+     "interpretation_notes": "Commonly read as the framework's explicit go/no-go gate.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.9,
+     "human_verified": false
+    },
+    {
+     "clause_id": "NIST_AI_RMF_2023_MANAGE_2_4",
+     "policy_id": "NIST_AI_RMF_2023",
+     "section": "MANAGE 2.4 (Table 4)",
+     "original_text": "MANAGE 2.4: Mechanisms are in place and applied, and responsibilities are assigned and understood, to supersede, disengage, or deactivate AI systems that demonstrate performance or outcomes inconsistent with intended use.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization deploying AI",
+     "action": "establish mechanisms and assign responsibility to supersede, disengage or deactivate",
+     "object": "AI systems behaving inconsistently with intended use",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "maintain working shutdown/override mechanisms with assigned owners",
+     "condition": "when performance or outcomes are inconsistent with intended use",
+     "exception": null,
+     "purpose": "contain harm from malfunctioning or misused AI",
+     "affected_asset": "users, affected communities, organizational operations",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "US",
+      "International"
+     ],
+     "applicable_systems": "any deployed AI system",
+     "interpretation_notes": "Often called the 'kill switch' subcategory in secondary literature.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.9,
      "human_verified": false
     }
    ]
@@ -5218,7 +6994,7 @@
     {
      "policy": "NIST_AI_RMF_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "G20 AI Principles (2019)",
@@ -5701,7 +7477,7 @@
     {
      "policy": "NIST_AI_RMF_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "Texas Capture or Use of Biometric Identifier Act (Bus. & Com. Code § 503.001)",
@@ -6253,7 +8029,7 @@
     {
      "policy": "NIST_AI_RMF_2023",
      "relation": "amends",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "Executive Order 14319 (Preventing Woke AI in the Federal Government)",
@@ -6570,12 +8346,12 @@
     {
      "policy": "NIST_AI_RMF_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "NIST_AI_600_1_2024",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "US_OMB_M_25_21",
@@ -7430,7 +9206,7 @@
     {
      "policy": "NIST_AI_RMF_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     }
    ],
    "conflict_rule": "Applies to covered agencies; does not supersede applicable law; national security systems handled under separate national security guidance.",

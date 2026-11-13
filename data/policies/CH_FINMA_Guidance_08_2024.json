@@ -1,0 +1,266 @@
+{
+  "policy_id": "CH_FINMA_Guidance_08_2024",
+  "policy_name": "FINMA Guidance 08/2024: Governance and risk management when using artificial intelligence (FINMA-Aufsichtsmitteilung 08/2024)",
+  "short_name": "FINMA Guidance 08/2024",
+  "policy_type": "guidance",
+  "source_uri": "https://www.finma.ch/en/news/2024/12/20241218-mm-finma-am-08-24/",
+  "issuing_authority": "Swiss Financial Market Supervisory Authority (FINMA)",
+  "jurisdiction": "CH",
+  "country_region": "Switzerland",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "de",
+    "fr",
+    "en"
+  ],
+  "regulatory_regime": "Swiss financial market supervision (technology-neutral, principle-based)",
+  "geo_constraints": "Institutions supervised by FINMA",
+  "industry_scope": [
+    "finance",
+    "insurance"
+  ],
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2024-12-18",
+  "key_dates": [
+    {
+      "date": "2024-12-18",
+      "event": "Guidance 08/2024 published by FINMA"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Guidance 08/2024, 18 December 2024",
+  "last_updated": "2024-12-18",
+  "covered_entities": [
+    "FINMA-supervised institutions (banks, insurers, financial institutions, etc.)"
+  ],
+  "covered_systems": [
+    "AI applications developed or procured by supervised institutions, including outsourced/third-party AI"
+  ],
+  "covered_activities": [
+    "development",
+    "procurement",
+    "use",
+    "monitoring",
+    "outsourcing"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Expectations apply proportionately according to the materiality and risk of AI applications"
+  ],
+  "objective": "Communicates FINMA's observations from supervision and its expectations for how supervised institutions should identify, assess, manage and monitor risks arising from the use of AI, under existing technology-neutral governance and risk-management requirements.",
+  "policy_domain": [
+    "governance",
+    "safety",
+    "transparency",
+    "accountability"
+  ],
+  "principles": [
+    "governance and accountability",
+    "risk-based approach",
+    "data quality",
+    "robustness and reliability",
+    "explainability",
+    "independent review"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "FINMA Circular 2023/1 'Operational risks and resilience – banks'",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "FSISAC_GenAI_AUP_2023",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Guidance does not create new law; it explains how existing binding financial market law and FINMA circulars on governance and risk management apply to AI.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.finma.ch/en/news/2024/12/20241218-mm-finma-am-08-24/ (identified; host not reachable)",
+      "https://www.finma.ch/de/~/media/finma/dokumente/dokumentencenter/myfinma/4dokumentation/finma-aufsichtsmitteilungen/20241218-finma-aufsichtsmitteilung-08-2024.pdf (search result only)",
+      "https://www.mll-news.com/finma-guidance-08-2024-governance-and-risk-management-when-using-artificial-intelligence?lang=en (search result only)",
+      "https://www.redguard.ch/blog/2025/04/04/finma-ai-balance-chance-risiko/ (search result only)",
+      "https://www.advoro.ch/en/publikationen/einsatz-von-ki-bei-finanzinstituten%3A-fokus-auf-governance-und-risk-management (search result only)"
+    ],
+    "notes": "finma.ch was blocked by the compilation environment's network policy; all clauses are paraphrases (text_is_verbatim=false) based on knowledge of the guidance and secondary summaries. Publication date 18 Dec 2024 confirmed by several sources (one secondary source says 8 Dec, likely an error). binding=false: FINMA guidance (Aufsichtsmitteilung) is not a legally binding act; it states supervisory expectations derived from binding law, so non-observance may have supervisory consequences. Status 'enforceable' denotes it is in force as current supervisory practice. official_languages assumed DE/FR/EN per FINMA's usual practice (German likely original); not verified. No amendment or successor found as of Nov 2026 (not exhaustively verified); FINMA indicated it will refine its expectations. Relationship to FINMA Circular 2023/1 is general (operational risk) and not confirmed as cited in the guidance.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+  },
+  "clauses": [
+    {
+      "clause_id": "CH_FINMA_Guidance_08_2024_Governance",
+      "policy_id": "CH_FINMA_Guidance_08_2024",
+      "section": "Governance",
+      "original_text": "Supervised institutions should define clear roles, responsibilities and competences for the development, implementation, use and monitoring of AI, with sufficient expertise; responsibility for decisions cannot be delegated to AI or to third parties, including where AI is outsourced.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "supervised institutions using AI",
+      "action": "establish governance for",
+      "object": "AI applications and associated risks",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "assign clear responsibilities and competences for AI risks, also for outsourced/third-party AI, without delegating accountability",
+      "condition": null,
+      "exception": null,
+      "purpose": "effective governance of AI-related risks",
+      "affected_asset": "institution's operational, legal and reputational risk position; clients",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "CH"
+      ],
+      "applicable_systems": "AI applications used by FINMA-supervised institutions",
+      "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CH_FINMA_Guidance_08_2024_Inventory_Classification",
+      "policy_id": "CH_FINMA_Guidance_08_2024",
+      "section": "Inventory and risk classification",
+      "original_text": "Institutions should maintain an inventory of their AI applications and classify them by risk (materiality and specific AI risks) so that risk management measures can be applied proportionately.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "supervised institutions using AI",
+      "action": "maintain and classify",
+      "object": "inventory of AI applications",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "keep a complete AI inventory with risk-based classification",
+      "condition": null,
+      "exception": null,
+      "purpose": "proportionate, risk-based oversight of AI use",
+      "affected_asset": "institution's operational, legal and reputational risk position; clients",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "CH"
+      ],
+      "applicable_systems": "AI applications used by FINMA-supervised institutions",
+      "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. Secondary summaries indicate a central inventory is expected especially for institutions with many or significant applications.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CH_FINMA_Guidance_08_2024_Data_Quality",
+      "policy_id": "CH_FINMA_Guidance_08_2024",
+      "section": "Data quality",
+      "original_text": "Institutions should set requirements in internal rules to ensure the completeness, correctness and integrity of data used for AI, and ensure the availability of and access to data.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "supervised institutions using AI",
+      "action": "ensure",
+      "object": "quality of data used for AI applications",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "define and enforce data-quality requirements for AI data",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent erroneous or biased AI results",
+      "affected_asset": "institution's operational, legal and reputational risk position; clients",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "CH"
+      ],
+      "applicable_systems": "AI applications used by FINMA-supervised institutions",
+      "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CH_FINMA_Guidance_08_2024_Testing_Monitoring",
+      "policy_id": "CH_FINMA_Guidance_08_2024",
+      "section": "Tests and ongoing monitoring",
+      "original_text": "Institutions should test AI applications before use and monitor them on an ongoing basis for performance, accuracy, robustness and stability, including data drift, with defined indicators and thresholds.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "supervised institutions using AI",
+      "action": "test and monitor",
+      "object": "AI applications in use",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "conduct pre-deployment testing and continuous monitoring of AI performance and stability",
+      "condition": null,
+      "exception": null,
+      "purpose": "ensure AI remains accurate, robust and reliable",
+      "affected_asset": "institution's operational, legal and reputational risk position; clients",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "CH"
+      ],
+      "applicable_systems": "AI applications used by FINMA-supervised institutions",
+      "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CH_FINMA_Guidance_08_2024_Explainability",
+      "policy_id": "CH_FINMA_Guidance_08_2024",
+      "section": "Explainability",
+      "original_text": "Results of AI applications should be explainable to the extent needed, so that the institution understands the drivers of results and can justify decisions to investors, clients, employees, the supervisor and the audit firm.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "supervised institutions using AI",
+      "action": "ensure explainability of",
+      "object": "AI results and the decisions based on them",
+      "recipient": "clients, investors, employees, FINMA, audit firm",
+      "modality": "SHOULD",
+      "requirement": "be able to understand and explain AI-supported results and decisions",
+      "condition": null,
+      "exception": null,
+      "purpose": "transparency and accountability toward stakeholders and supervisor",
+      "affected_asset": "institution's operational, legal and reputational risk position; clients",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "CH"
+      ],
+      "applicable_systems": "AI applications used by FINMA-supervised institutions",
+      "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CH_FINMA_Guidance_08_2024_Independent_Review",
+      "policy_id": "CH_FINMA_Guidance_08_2024",
+      "section": "Independent review",
+      "original_text": "For material AI applications, institutions should provide for an independent review by qualified personnel (internal or external) not involved in the development of the application.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "supervised institutions using AI",
+      "action": "obtain independent review of",
+      "object": "material AI applications",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "have material AI applications independently reviewed by qualified staff or third parties",
+      "condition": "AI application classified as material/significant",
+      "exception": null,
+      "purpose": "objective challenge of AI risks",
+      "affected_asset": "institution's operational, legal and reputational risk position; clients",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "CH"
+      ],
+      "applicable_systems": "AI applications used by FINMA-supervised institutions",
+      "interpretation_notes": "Paraphrase in English: the official FINMA PDF (DE original; EN version) could not be fetched (finma.ch blocked), so wording is reconstructed from knowledge of the guidance and search-result summaries; section headings are descriptive, not verified numbering. Guidance describes FINMA's supervisory expectations based on existing technology-neutral requirements, hence modality SHOULD. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    }
+  ]
+}

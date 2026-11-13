@@ -80,7 +80,7 @@
     },
     {
       "policy": "Swiss Federal Act on Data Protection (FADP)",
-      "relation": "implements"
+      "relation": "complements"
     },
     {
       "policy": "CA_TBS_GenAI_Guide",

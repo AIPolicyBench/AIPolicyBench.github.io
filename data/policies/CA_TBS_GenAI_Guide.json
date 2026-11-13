@@ -1,0 +1,280 @@
+{
+  "policy_id": "CA_TBS_GenAI_Guide",
+  "policy_name": "Guide on the use of generative artificial intelligence",
+  "short_name": "TBS GenAI Guide",
+  "policy_type": "guidance",
+  "source_uri": "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/generative-ai/guide-use-generative-ai.html",
+  "issuing_authority": "Treasury Board of Canada Secretariat (TBS)",
+  "jurisdiction": "CA-Federal",
+  "country_region": "Canada (federal government)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en",
+    "fr"
+  ],
+  "regulatory_regime": "Government of Canada policy suite on digital government and responsible AI",
+  "geo_constraints": "Government of Canada federal institutions",
+  "industry_scope": [
+    "public_sector"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2023-09",
+  "key_dates": [
+    {
+      "date": "2023-09",
+      "event": "First version published (publications.gc.ca BT48-37/2023E)"
+    },
+    {
+      "date": "2024-02-12",
+      "event": "Second version published incorporating stakeholder and expert feedback (BT48-37/2024E/F)"
+    },
+    {
+      "date": "2026-09-24",
+      "event": "canada.ca page reportedly shows 'Date modified' 2026-09-24 (search result only; nature of change unverified)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Second version (February 2024)",
+  "last_updated": "2024-02-12",
+  "covered_entities": [
+    "federal institutions",
+    "federal public servants"
+  ],
+  "covered_systems": [
+    "generative AI tools (GC-managed and publicly available)"
+  ],
+  "covered_activities": [
+    "use of generative AI by employees",
+    "deployment of generative AI tools by institutions",
+    "use in administrative decision-making"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Directive on Automated Decision-Making applies where generative AI is used for administrative decisions"
+  ],
+  "objective": "Provides preliminary guidance to federal institutions on the responsible use of generative AI, describing its risks and setting out best practices (FASTER principles) for employees and institutions.",
+  "policy_domain": [
+    "privacy",
+    "security",
+    "transparency",
+    "accountability",
+    "fairness",
+    "governance"
+  ],
+  "principles": [
+    "fair",
+    "accountable",
+    "secure",
+    "transparent",
+    "educated",
+    "relevant"
+  ],
+  "parent_policy": "Policy on Service and Digital",
+  "related_policies": [
+    {
+      "policy": "Directive on Automated Decision-Making (TBS)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Privacy Act (Canada)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Policy on Government Security (TBS)",
+      "relation": "complements"
+    },
+    {
+      "policy": "CA_AIDA_C27",
+      "relation": "complements"
+    },
+    {
+      "policy": "CH_CNAI_GenAI_Factsheet_2024",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "Guide does not replace binding instruments; the Privacy Act, Policy on Government Security and Directive on Automated Decision-Making continue to apply and prevail.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/generative-ai/guide-use-generative-ai.html (identified; host not reachable)",
+      "https://publications.gc.ca/site/eng/9.933870/publication.html (search result only)",
+      "https://publications.gc.ca/collections/collection_2024/sct-tbs/BT48-37-2024-eng.pdf (search result only)",
+      "https://publications.gc.ca/site/eng/9.933872/publication.html (French version; search result only)"
+    ],
+    "notes": "canada.ca and publications.gc.ca were blocked by the compilation environment's network policy; clauses are paraphrases (text_is_verbatim=false) from knowledge of the second version. Second version publication date 2024-02-12 per publications.gc.ca catalogue; first version Sept 2023 (exact day not verified). A search result indicates the canada.ca page was modified on 2026-09-24, but whether this is a substantive third version could not be verified — check the live page. parent_policy 'Policy on Service and Digital' is an inference about the policy suite, not verified as stated in the guide. CA_AIDA_C27 never became law (bill died); listed only as related Canadian AI context. binding=false: the guide is non-mandatory guidance; status 'voluntary' chosen as closest value.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+  },
+  "clauses": [
+    {
+      "clause_id": "CA_TBS_GenAI_Guide_FASTER",
+      "policy_id": "CA_TBS_GenAI_Guide",
+      "section": "Responsible use: FASTER principles",
+      "original_text": "To maintain public trust and ensure the responsible use of generative AI tools, federal institutions should align with the 'FASTER' principles: Fair, Accountable, Secure, Transparent, Educated and Relevant.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal institutions and their employees",
+      "action": "align use with",
+      "object": "FASTER principles",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "use generative AI in a way that is fair, accountable, secure, transparent, educated and relevant",
+      "condition": null,
+      "exception": null,
+      "purpose": "maintain public trust in government use of generative AI",
+      "affected_asset": "public trust; clients of government services",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "CA"
+      ],
+      "applicable_systems": "generative AI tools used by federal institutions",
+      "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. FASTER acronym recalled with high confidence.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CA_TBS_GenAI_Guide_No_Sensitive_Input",
+      "policy_id": "CA_TBS_GenAI_Guide",
+      "section": "Secure: privacy and security best practices",
+      "original_text": "Do not enter sensitive or personal information, or protected or classified information, into generative AI tools that are not managed by the Government of Canada.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal public servants",
+      "action": "refrain from entering",
+      "object": "personal, sensitive, protected or classified information",
+      "recipient": "non-GC-managed generative AI tools",
+      "modality": "SHOULD NOT",
+      "requirement": "do not input personal, protected or classified information into public/non-GC-managed generative AI tools",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect privacy and government information security",
+      "affected_asset": "personal information; protected/classified government information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "CA"
+      ],
+      "applicable_systems": "generative AI tools not managed by the GC",
+      "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. ",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CA_TBS_GenAI_Guide_Transparency_Disclosure",
+      "policy_id": "CA_TBS_GenAI_Guide",
+      "section": "Transparent",
+      "original_text": "Identify content that has been produced using generative AI, and notify users when they are interacting with an AI tool; document decisions and be able to provide explanations if tools are used to support decision-making.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal institutions and their employees",
+      "action": "label and disclose",
+      "object": "AI-generated content and AI interactions",
+      "recipient": "users and the public",
+      "modality": "SHOULD",
+      "requirement": "mark AI-generated content and inform users they are interacting with AI",
+      "condition": null,
+      "exception": null,
+      "purpose": "transparency and public trust",
+      "affected_asset": "users' informed understanding",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "CA"
+      ],
+      "applicable_systems": "generative AI tools used by federal institutions",
+      "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CA_TBS_GenAI_Guide_Accountable_Review",
+      "policy_id": "CA_TBS_GenAI_Guide",
+      "section": "Accountable",
+      "original_text": "Take responsibility for content generated by these tools, including ensuring that it is factual, legal, ethical and compliant with the terms of use, and establish monitoring and oversight mechanisms.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal institutions and their employees",
+      "action": "review and take responsibility for",
+      "object": "generative AI outputs",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "verify generated content for accuracy, legality and ethics and remain accountable for it",
+      "condition": null,
+      "exception": null,
+      "purpose": "accountability for government output",
+      "affected_asset": "quality and lawfulness of government communications and decisions",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "CA"
+      ],
+      "applicable_systems": "generative AI tools",
+      "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CA_TBS_GenAI_Guide_Risk_Assessment",
+      "policy_id": "CA_TBS_GenAI_Guide",
+      "section": "Fair / Relevant: assessing risks before deployment",
+      "original_text": "Federal institutions should evaluate generative AI tools for their potential risks (including bias, privacy, security and intellectual property risks) before deploying them, consult relevant stakeholders such as legal services, privacy and security experts, and use generative AI only where it is relevant and appropriate for the task.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal institutions",
+      "action": "assess risks and consult before deploying",
+      "object": "generative AI tools",
+      "recipient": "legal, privacy, security and other relevant experts",
+      "modality": "SHOULD",
+      "requirement": "assess risks and consult appropriate experts before deploying generative AI, and use it only where appropriate",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent harms from inappropriate deployment",
+      "affected_asset": "clients, employees and government operations",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "CA"
+      ],
+      "applicable_systems": "generative AI tools deployed by federal institutions",
+      "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CA_TBS_GenAI_Guide_DADM_Applicability",
+      "policy_id": "CA_TBS_GenAI_Guide",
+      "section": "Administrative decision-making",
+      "original_text": "Where generative AI is used to make or support administrative decisions about clients, the requirements of the Directive on Automated Decision-Making apply, including completing an Algorithmic Impact Assessment.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal institutions",
+      "action": "comply with",
+      "object": "Directive on Automated Decision-Making",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "apply the Directive on Automated Decision-Making when generative AI is used in administrative decisions",
+      "condition": "generative AI used to make or assist administrative decisions affecting clients",
+      "exception": null,
+      "purpose": "procedural fairness and accountability in automated decisions",
+      "affected_asset": "rights and interests of clients subject to administrative decisions",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "CA"
+      ],
+      "applicable_systems": "generative AI used in administrative decision-making",
+      "interpretation_notes": "Paraphrase: canada.ca and publications.gc.ca could not be fetched from the compilation environment, so wording is reconstructed from knowledge of the second version (Feb 2024) of the guide; not verbatim, section headings descriptive. MUST reflects the binding Directive the guide points to, not the guide itself.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    }
+  ]
+}

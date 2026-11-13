@@ -1,0 +1,273 @@
+{
+  "policy_id": "JP_AI_Promotion_Act_2025",
+  "policy_name": "Act on the Promotion of Research and Development and Utilization of Artificial Intelligence-Related Technologies (人工知能関連技術の研究開発及び活用の推進に関する法律)",
+  "short_name": "Japan AI Promotion Act",
+  "policy_type": "statute",
+  "source_uri": "https://laws.e-gov.go.jp/law/507AC0000000053",
+  "issuing_authority": "National Diet of Japan (administered by the Cabinet Office / AI Strategy Headquarters)",
+  "jurisdiction": "JP",
+  "country_region": "Japan",
+  "language": [
+    "ja"
+  ],
+  "official_languages": [
+    "ja"
+  ],
+  "regulatory_regime": "Japan AI Promotion Act (Act No. 53 of 2025)",
+  "geo_constraints": "Japan; no express extraterritorial provisions",
+  "industry_scope": [
+    "general",
+    "public_sector",
+    "research"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2025-06-04",
+  "key_dates": [
+    {
+      "date": "2025-05-28",
+      "event": "Passed by the House of Councillors (enacted)"
+    },
+    {
+      "date": "2025-06-04",
+      "event": "Promulgated as Act No. 53 of 2025; in force except Chapters 3-4"
+    },
+    {
+      "date": "2025-09-01",
+      "event": "Chapters 3 (AI Basic Plan) and 4 (AI Strategy Headquarters) enter into force (Cabinet Order No. 281 of 2025); full enforcement"
+    },
+    {
+      "date": "2025-12-19",
+      "event": "AI Strategy Headquarters decides the Art. 13 guideline on ensuring appropriateness of AI R&D and utilisation"
+    },
+    {
+      "date": "2025-12-23",
+      "event": "First Artificial Intelligence Basic Plan adopted by Cabinet (Art. 18)"
+    },
+    {
+      "date": "2026-07-14",
+      "event": "Revised AI Basic Plan adopted by Cabinet"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Act No. 53 of 2025 (unamended as of compilation)",
+  "last_updated": "2025-06-04",
+  "covered_entities": [
+    "the State",
+    "local governments",
+    "research and development institutions",
+    "utilizing business operators (developers, providers and business users of AI)",
+    "citizens"
+  ],
+  "covered_systems": [
+    "AI-related technologies (Art. 2)"
+  ],
+  "covered_activities": [
+    "research and development",
+    "utilization of AI-related technologies"
+  ],
+  "exceptions": [],
+  "conditions": [],
+  "objective": "To promote research, development and utilization of AI-related technologies comprehensively and systematically through basic principles, an AI Basic Plan and an AI Strategy Headquarters, contributing to better living standards and sound economic development (Art. 1).",
+  "policy_domain": [
+    "innovation",
+    "governance",
+    "safety",
+    "transparency"
+  ],
+  "principles": [
+    "promotion of R&D and international competitiveness",
+    "ensuring appropriateness and transparency",
+    "international cooperation and leadership",
+    "comprehensive and systematic promotion"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "JP_AI_Guidelines_Business_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "Artificial Intelligence Basic Plan (Cabinet decision 2025-12-23, revised 2026-07-14)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Guideline on Ensuring Appropriateness of R&D and Utilization of AI-Related Technologies (AI Strategy HQ, 2025-12-19)",
+      "relation": "complements"
+    },
+    {
+      "policy": "G7_Hiroshima_CoC_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "Basic Act on Science, Technology and Innovation (Act No. 130 of 1995)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Basic Act on the Formation of a Digital Society (Act No. 35 of 2021)",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Operates together with the Basic Act on Science, Technology and Innovation, the Basic Act on the Formation of a Digital Society and other relevant laws (Art. 1); creates no penalties and does not displace sectoral law.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://laws.e-gov.go.jp/law/507AC0000000053 (official; not reachable from compilation environment)",
+      "https://github.com/Kohei-Wada/houritsu/blob/main/laws/act/507/507AC0000000053.md (e-Gov mirror) - fetched",
+      "https://github.com/Kohei-Wada/houritsu/blob/main/laws/cabinet-order/507/507CO0000000281.md (Cabinet Order No. 281 of 2025, AI Strategy HQ Order) - fetched",
+      "https://github.com/lexifina/japan-law (act/2025/053; states text in force on 2026-11-03 is the 2025-09-01 version) - fetched",
+      "https://www.japaneselawtranslation.go.jp/en/laws/view/5066 (English translation; via search results only)",
+      "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html (AI Basic Plan; via search results only)",
+      "https://www8.cao.go.jp/cstp/ai/ai_guideline/ai_guideline.html (Art. 13 guideline; via search results only)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Promotion-type framework law: imposes no penalties; obligations on business are limited to endeavour/cooperation duties (Art. 7). The Diet passage date (2025-05-28), the AI Basic Plan dates (2025-12-23; revised 2026-07-14) and the Art. 13 guideline date (2025-12-19) were confirmed via search results citing Cabinet Office/MHLW pages, not by fetching those pages. Supplementary Provision Art. 2 requires review of the Act's implementation in light of international trends; no amendment found as of compilation."
+  },
+  "clauses": [
+    {
+      "clause_id": "JP_AI_Promotion_Act_2025_Art3_4",
+      "policy_id": "JP_AI_Promotion_Act_2025",
+      "section": "Article 3(4)",
+      "original_text": "人工知能関連技術の研究開発及び活用は、不正な目的又は不適切な方法で行われた場合には、犯罪への利用、個人情報の漏えい、著作権の侵害その他の国民生活の平穏及び国民の権利利益が害される事態を助長するおそれがあることに鑑み、その適正な実施を図るため、人工知能関連技術の研究開発及び活用の過程の透明性の確保その他の必要な施策が講じられなければならない。",
+      "text_is_verbatim": true,
+      "language": "ja",
+      "translated_text": "In view of the risk that research, development and utilization of AI-related technologies, when carried out for improper purposes or by inappropriate methods, may facilitate situations in which the peace of people's lives and their rights and interests are harmed, such as use in crime, leakage of personal information and copyright infringement, necessary measures, including ensuring the transparency of the processes of research, development and utilization of AI-related technologies, must be taken to ensure their proper implementation.",
+      "actor": "the State (policy measures)",
+      "action": "take necessary measures including ensuring transparency",
+      "object": "processes of AI R&D and utilization",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "ensure appropriate, transparent AI R&D and use to prevent misuse harms",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent crime, privacy leaks, copyright infringement and harm to rights",
+      "affected_asset": "public peace; personal information; copyright; citizens' rights and interests",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "JP"
+      ],
+      "applicable_systems": "AI-related technologies",
+      "interpretation_notes": "Japanese text copied verbatim from a GitHub mirror of e-Gov Laws (Kohei-Wada/houritsu, laws/act/507/507AC0000000053.md, revision 507AC0000000053_20250901); laws.e-gov.go.jp itself was not reachable from the compilation environment. English translation by the compiler (unofficial); an English translation exists on the Japanese Law Translation database (japaneselawtranslation.go.jp/en/laws/view/5066) but could not be fetched, so wording differs from it. Basic principle addressed to policy-making rather than a direct duty on private actors.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "JP_AI_Promotion_Act_2025_Art7",
+      "policy_id": "JP_AI_Promotion_Act_2025",
+      "section": "Article 7",
+      "original_text": "人工知能関連技術を活用した製品又はサービスの開発又は提供をしようとする者その他の人工知能関連技術を事業活動において活用しようとする者（以下「活用事業者」という。）は、基本理念にのっとり、自ら積極的な人工知能関連技術の活用により事業活動の効率化及び高度化並びに新産業の創出に努めるとともに、第四条の規定に基づき国が実施する施策及び第五条の規定に基づき地方公共団体が実施する施策に協力しなければならない。",
+      "text_is_verbatim": true,
+      "language": "ja",
+      "translated_text": "Persons who intend to develop or provide products or services utilizing AI-related technologies and other persons who intend to utilize AI-related technologies in their business activities ('utilizing business operators') shall, in accordance with the basic principles, endeavour to make their business activities more efficient and sophisticated and to create new industries through their own active utilization of AI-related technologies, and shall cooperate with the measures implemented by the State under Article 4 and by local governments under Article 5.",
+      "actor": "utilizing business operators (AI developers, providers, business users)",
+      "action": "endeavour to utilize AI; cooperate with government measures",
+      "object": "State and local-government AI measures",
+      "recipient": "the State; local governments",
+      "modality": "MUST",
+      "requirement": "cooperate with government AI policy measures (e.g. investigations, guidance under Art. 16)",
+      "condition": null,
+      "exception": null,
+      "purpose": "whole-of-society promotion and appropriate use of AI",
+      "affected_asset": null,
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "JP"
+      ],
+      "applicable_systems": "AI-related technologies used in business",
+      "interpretation_notes": "Japanese text copied verbatim from a GitHub mirror of e-Gov Laws (Kohei-Wada/houritsu, laws/act/507/507AC0000000053.md, revision 507AC0000000053_20250901); laws.e-gov.go.jp itself was not reachable from the compilation environment. English translation by the compiler (unofficial); an English translation exists on the Japanese Law Translation database (japaneselawtranslation.go.jp/en/laws/view/5066) but could not be fetched, so wording differs from it. The utilisation part is an endeavour duty (SHOULD); the cooperation part is phrased as 'shall' (MUST) but carries no sanction.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "JP_AI_Promotion_Act_2025_Art13",
+      "policy_id": "JP_AI_Promotion_Act_2025",
+      "section": "Article 13",
+      "original_text": "国は、人工知能関連技術の研究開発及び活用の適正な実施を図るため、国際的な規範の趣旨に即した指針の整備その他の必要な施策を講ずるものとする。",
+      "text_is_verbatim": true,
+      "language": "ja",
+      "translated_text": "In order to ensure the proper implementation of research, development and utilization of AI-related technologies, the State shall take necessary measures such as developing guidelines consistent with the purport of international norms.",
+      "actor": "the State",
+      "action": "develop guidelines and other measures",
+      "object": "guidelines on appropriate AI R&D and use consistent with international norms",
+      "recipient": "all actors (via guidelines)",
+      "modality": "MUST",
+      "requirement": "issue guidelines aligned with international norms to ensure appropriate AI R&D and use",
+      "condition": null,
+      "exception": null,
+      "purpose": "ensure appropriateness of AI R&D and use",
+      "affected_asset": null,
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "JP"
+      ],
+      "applicable_systems": "AI-related technologies",
+      "interpretation_notes": "Japanese text copied verbatim from a GitHub mirror of e-Gov Laws (Kohei-Wada/houritsu, laws/act/507/507AC0000000053.md, revision 507AC0000000053_20250901); laws.e-gov.go.jp itself was not reachable from the compilation environment. English translation by the compiler (unofficial); an English translation exists on the Japanese Law Translation database (japaneselawtranslation.go.jp/en/laws/view/5066) but could not be fetched, so wording differs from it. Implemented by the AI Strategy Headquarters guideline decided on 2025-12-19 (per search results).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "JP_AI_Promotion_Act_2025_Art16",
+      "policy_id": "JP_AI_Promotion_Act_2025",
+      "section": "Article 16",
+      "original_text": "国は、国内外の人工知能関連技術の研究開発及び活用の動向に関する情報の収集、不正な目的又は不適切な方法による人工知能関連技術の研究開発又は活用に伴って国民の権利利益の侵害が生じた事案の分析及びそれに基づく対策の検討その他の人工知能関連技術の研究開発及び活用の推進に資する調査及び研究を行い、その結果に基づいて、研究開発機関、活用事業者その他の者に対する指導、助言、情報の提供その他の必要な措置を講ずるものとする。",
+      "text_is_verbatim": true,
+      "language": "ja",
+      "translated_text": "The State shall conduct surveys and research contributing to the promotion of R&D and utilization of AI-related technologies, such as collecting information on domestic and international trends, analysing cases in which the rights and interests of the people were infringed in connection with R&D or utilization of AI-related technologies for improper purposes or by inappropriate methods and considering countermeasures based on that analysis, and shall, based on the results, take necessary measures such as guidance, advice and provision of information to research and development institutions, utilizing business operators and other persons.",
+      "actor": "the State",
+      "action": "investigate incidents; provide guidance, advice and information",
+      "object": "cases of rights infringement arising from improper AI R&D or use",
+      "recipient": "R&D institutions; utilizing business operators; others",
+      "modality": "MUST",
+      "requirement": "monitor and analyse AI harm incidents and respond with guidance/advice",
+      "condition": null,
+      "exception": null,
+      "purpose": "identify and counter AI-related harms",
+      "affected_asset": "citizens' rights and interests",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "JP"
+      ],
+      "applicable_systems": "AI-related technologies",
+      "interpretation_notes": "Japanese text copied verbatim from a GitHub mirror of e-Gov Laws (Kohei-Wada/houritsu, laws/act/507/507AC0000000053.md, revision 507AC0000000053_20250901); laws.e-gov.go.jp itself was not reachable from the compilation environment. English translation by the compiler (unofficial); an English translation exists on the Japanese Law Translation database (japaneselawtranslation.go.jp/en/laws/view/5066) but could not be fetched, so wording differs from it. Main lever for addressing misuse; guidance is non-binding and the Act contains no penalties.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "JP_AI_Promotion_Act_2025_Art17",
+      "policy_id": "JP_AI_Promotion_Act_2025",
+      "section": "Article 17",
+      "original_text": "国は、人工知能関連技術の研究開発及び活用に関する国際協力を推進するとともに、国際的な規範の策定に積極的に参画するものとする。",
+      "text_is_verbatim": true,
+      "language": "ja",
+      "translated_text": "The State shall promote international cooperation on research, development and utilization of AI-related technologies and shall actively participate in the formulation of international norms.",
+      "actor": "the State",
+      "action": "promote cooperation; participate in norm-setting",
+      "object": "international AI norms",
+      "recipient": "international community",
+      "modality": "MUST",
+      "requirement": "engage in international AI cooperation and norm formulation",
+      "condition": null,
+      "exception": null,
+      "purpose": "international coordination and leadership",
+      "affected_asset": null,
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "JP",
+        "International"
+      ],
+      "applicable_systems": "AI-related technologies",
+      "interpretation_notes": "Japanese text copied verbatim from a GitHub mirror of e-Gov Laws (Kohei-Wada/houritsu, laws/act/507/507AC0000000053.md, revision 507AC0000000053_20250901); laws.e-gov.go.jp itself was not reachable from the compilation environment. English translation by the compiler (unofficial); an English translation exists on the Japanese Law Translation database (japaneselawtranslation.go.jp/en/laws/view/5066) but could not be fetched, so wording differs from it.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    }
+  ]
+}

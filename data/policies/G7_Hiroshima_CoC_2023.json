@@ -1,0 +1,250 @@
+{
+  "policy_id": "G7_Hiroshima_CoC_2023",
+  "policy_name": "Hiroshima Process International Code of Conduct for Organizations Developing Advanced AI Systems",
+  "short_name": "G7 Hiroshima Code of Conduct",
+  "policy_type": "voluntary_code",
+  "source_uri": "https://www.mofa.go.jp/files/100573473.pdf",
+  "issuing_authority": "G7 Leaders (Hiroshima AI Process, Japanese G7 Presidency 2023)",
+  "jurisdiction": "International",
+  "country_region": "G7 (Canada, France, Germany, Italy, Japan, UK, US) and EU; open to organizations worldwide",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "G7 Hiroshima AI Process (voluntary)",
+  "geo_constraints": "Voluntary; organizations developing advanced AI systems in any jurisdiction, to be applied in line with jurisdictions' own approaches",
+  "industry_scope": [
+    "general",
+    "AI developers"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2023-10-30",
+  "key_dates": [
+    {
+      "date": "2023-10-30",
+      "event": "G7 Leaders' Statement on the Hiroshima AI Process; Guiding Principles and Code of Conduct published"
+    },
+    {
+      "date": "2023-12-06",
+      "event": "Hiroshima AI Process Comprehensive Policy Framework endorsed by G7 Digital and Tech Ministers (date from general knowledge; not verified)"
+    },
+    {
+      "date": "2025-02-07",
+      "event": "OECD launches the Hiroshima AI Process Reporting Framework for voluntary reporting against the Code"
+    }
+  ],
+  "expiration_date": null,
+  "version": "30 October 2023",
+  "last_updated": "2023-10-30",
+  "covered_entities": [
+    "organizations developing advanced AI systems (academia, civil society, private and public sector)"
+  ],
+  "covered_systems": [
+    "advanced AI systems, including most advanced foundation models and generative AI systems"
+  ],
+  "covered_activities": [
+    "design",
+    "development",
+    "deployment",
+    "placement on the market",
+    "use"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "voluntary endorsement; a 'living document' to be reviewed and updated"
+  ],
+  "objective": "Promote safe, secure and trustworthy AI worldwide by providing voluntary guidance for actions by organizations developing the most advanced AI systems.",
+  "policy_domain": [
+    "safety",
+    "security",
+    "transparency",
+    "accountability",
+    "content_integrity",
+    "governance"
+  ],
+  "principles": [
+    "risk-based approach",
+    "lifecycle risk management",
+    "transparency",
+    "information sharing",
+    "security",
+    "content provenance",
+    "respect for human rights and democratic values"
+  ],
+  "parent_policy": "Hiroshima Process International Guiding Principles for Organizations Developing Advanced AI Systems",
+  "related_policies": [
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_GPAI_CoP_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "OECD Hiroshima AI Process Reporting Framework (2025)",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Voluntary; organizations should apply it in line with a risk-based approach while governments develop more enduring and/or detailed governance and regulatory approaches; does not displace legal obligations.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.mofa.go.jp/files/100573473.pdf (URL from memory; not reachable/verified)",
+      "https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-code-conduct-advanced-ai-systems (not fetched)",
+      "https://www.oecd.org/en/events/2025/02/launch-of-the-hiroshima-ai-process-reporting-framework.html (search result only)",
+      "https://oecd.ai/en/transparency"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official hosts unreachable. Publication date 2023-10-30 is well established (G7 Leaders' Statement). source_uri (MOFA PDF) is from memory and should be verified. OECD reporting framework launched 2025-02-07 (confirmed by OECD search results); a v2.0 of the reporting framework was reported as forthcoming in 2026. The Code comprises 11 actions; clause texts are reconstructions, not verbatim-verified."
+  },
+  "clauses": [
+    {
+      "clause_id": "G7_Hiroshima_CoC_2023_Action1",
+      "policy_id": "G7_Hiroshima_CoC_2023",
+      "section": "Action 1",
+      "original_text": "Take appropriate measures throughout the development of advanced AI systems, including prior to and throughout their deployment and placement on the market, to identify, evaluate, and mitigate risks across the AI lifecycle.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organizations developing advanced AI systems",
+      "action": "identify, evaluate and mitigate",
+      "object": "risks across the AI lifecycle",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "conduct lifecycle risk identification, evaluation and mitigation incl. before deployment",
+      "condition": null,
+      "exception": null,
+      "purpose": "safe and trustworthy advanced AI",
+      "affected_asset": "public safety and security",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "advanced AI systems incl. foundation models and generative AI",
+      "interpretation_notes": "Not verbatim-verified: the official host (mofa.go.jp / digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Sub-text calls for diverse internal and independent external testing, e.g. red-teaming, covering risks such as CBRN, offensive cyber, risks to health/safety, self-replication, societal risks.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "G7_Hiroshima_CoC_2023_Action2",
+      "policy_id": "G7_Hiroshima_CoC_2023",
+      "section": "Action 2",
+      "original_text": "Identify and mitigate vulnerabilities, and, where appropriate, incidents and patterns of misuse, after deployment including placement on the market.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organizations developing advanced AI systems",
+      "action": "identify and mitigate",
+      "object": "vulnerabilities, incidents and patterns of misuse",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "monitor and mitigate post-deployment vulnerabilities, incidents and misuse",
+      "condition": "after deployment, where appropriate",
+      "exception": null,
+      "purpose": "post-deployment safety and misuse prevention",
+      "affected_asset": "users and public",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "advanced AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (mofa.go.jp / digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "G7_Hiroshima_CoC_2023_Action3",
+      "policy_id": "G7_Hiroshima_CoC_2023",
+      "section": "Action 3",
+      "original_text": "Publicly report advanced AI systems' capabilities, limitations and domains of appropriate and inappropriate use, to support ensuring sufficient transparency, thereby contributing to increase accountability.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organizations developing advanced AI systems",
+      "action": "publicly report",
+      "object": "capabilities, limitations and domains of appropriate/inappropriate use",
+      "recipient": "public",
+      "modality": "SHOULD",
+      "requirement": "publish transparency reports on model capabilities and limitations",
+      "condition": null,
+      "exception": null,
+      "purpose": "transparency and accountability",
+      "affected_asset": "public trust and informed use",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "advanced AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (mofa.go.jp / digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "G7_Hiroshima_CoC_2023_Action6",
+      "policy_id": "G7_Hiroshima_CoC_2023",
+      "section": "Action 6",
+      "original_text": "Invest in and implement robust security controls, including physical security, cybersecurity and insider threat safeguards across the AI lifecycle.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organizations developing advanced AI systems",
+      "action": "invest in and implement",
+      "object": "security controls (physical, cyber, insider threat)",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "implement robust security controls across the AI lifecycle",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect models and infrastructure from theft and compromise",
+      "affected_asset": "model weights, algorithms, servers, datasets",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "advanced AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (mofa.go.jp / digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Sub-text references protecting model weights, algorithms, servers and datasets.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "G7_Hiroshima_CoC_2023_Action7",
+      "policy_id": "G7_Hiroshima_CoC_2023",
+      "section": "Action 7",
+      "original_text": "Develop and deploy reliable content authentication and provenance mechanisms, where technically feasible, such as watermarking or other techniques to enable users to identify AI-generated content.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organizations developing advanced AI systems",
+      "action": "develop and deploy",
+      "object": "content authentication and provenance mechanisms (e.g. watermarking)",
+      "recipient": "users",
+      "modality": "SHOULD",
+      "requirement": "enable users to identify AI-generated content",
+      "condition": "where technically feasible",
+      "exception": null,
+      "purpose": "content integrity and preventing deception",
+      "affected_asset": "information ecosystem",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "advanced AI systems generating content",
+      "interpretation_notes": "Not verbatim-verified: the official host (mofa.go.jp / digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    }
+  ]
+}

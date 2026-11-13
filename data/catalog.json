@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-13",
- "policy_count": 17,
- "clause_count": 91,
+ "policy_count": 28,
+ "clause_count": 147,
  "policies": [
   {
    "policy_id": "Anthropic_RSP",
@@ -111,7 +111,7 @@
     {
      "policy": "OpenAI_Preparedness_Framework",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "CA_SB53_2025",
@@ -121,7 +121,7 @@
     {
      "policy": "EU_GPAI_CoP_2025",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "Anthropic Frontier Safety Roadmap",
@@ -408,12 +408,12 @@
     {
      "policy": "EU_GPAI_CoP_2025",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "EU_AI_Act_2024",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "NIST_AI_RMF_2023",
@@ -428,7 +428,7 @@
     {
      "policy": "OpenAI_Preparedness_Framework",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "US_EO_National_AI_Framework_2025",
@@ -621,6 +621,226 @@
    ]
   },
   {
+   "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
+   "policy_name": "Fact sheet on the use of generative AI tools in the Federal Administration (Merkblatt zur Verwendung von generativen KI-Werkzeugen in der Bundesverwaltung)",
+   "short_name": "CNAI GenAI fact sheet",
+   "policy_type": "guidance",
+   "source_uri": "https://www.bk.admin.ch/dam/de/sd-web/8Qmy4Jdh7Z6H/Merkblatt-zur-Verwendung-von-generativen-KI-Werkzeugen-in-der-Bundesverwaltung.pdf",
+   "issuing_authority": "Competence Network for Artificial Intelligence (CNAI), working group 'AI in the Federal Administration' (with all departments and the Federal Chancellery); now published by the Swiss Federal Chancellery",
+   "jurisdiction": "CH",
+   "country_region": "Switzerland (Federal Administration)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "de",
+    "fr",
+    "en"
+   ],
+   "regulatory_regime": "Swiss federal administration internal guidance",
+   "geo_constraints": "Swiss Federal Administration staff",
+   "industry_scope": [
+    "public_sector"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2024-01-18",
+   "key_dates": [
+    {
+     "date": "2024-01-18",
+     "event": "Version 1.2 issued (ref. BK-D-C6B33401/520)"
+    },
+    {
+     "date": "2026-09-25",
+     "event": "Federal Chancellery (Legal Section) document 'Rechtlicher Rahmen für die Nutzung von KI in der Bundesverwaltung' dated 25 Sept 2026 cites the fact sheet (search result only; relationship not verified)"
+    }
+   ],
+   "expiration_date": null,
+   "version": "V1.2, 18 January 2024",
+   "last_updated": "2024-01-18",
+   "covered_entities": [
+    "employees of the Swiss Federal Administration"
+   ],
+   "covered_systems": [
+    "generative AI tools (e.g., ChatGPT and similar text/image generators)"
+   ],
+   "covered_activities": [
+    "use of generative AI tools in administrative work",
+    "input of data into AI tools",
+    "use of AI outputs"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "Applicable data protection and information security rules must be met"
+   ],
+   "objective": "Informs Federal Administration staff how generative AI tools work and what risks they carry, and sets out practical rules for their responsible use, especially regarding data protection, information security, output verification and human responsibility.",
+   "policy_domain": [
+    "privacy",
+    "security",
+    "accountability",
+    "content_integrity"
+   ],
+   "principles": [
+    "data protection",
+    "information security",
+    "human responsibility",
+    "critical review of outputs"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "Rechtlicher Rahmen für die Nutzung von KI in der Bundesverwaltung (Federal Chancellery, 25 Sept 2026)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Merkblatt zur Sensibilisierung betreffend grosse KI-Sprachmodelle (Federal Chancellery)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Strategie Einsatz von KI-Systemen in der Bundesverwaltung",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Swiss Federal Act on Data Protection (FADP)",
+     "relation": "implements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "CA_TBS_GenAI_Guide",
+     "relation": "overlaps_with",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Guidance only; binding federal data protection, information security and classification law prevails.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.bk.admin.ch/de/einsatz-von-ki-in-der-bundesverwaltung (search result only)",
+     "https://www.bk.admin.ch/dam/de/sd-web/8Qmy4Jdh7Z6H/Merkblatt-zur-Verwendung-von-generativen-KI-Werkzeugen-in-der-Bundesverwaltung.pdf (search-result excerpts only)",
+     "https://www.bk.admin.ch/dam/de/sd-web/8ZNpPvD-7pJe/Rechtlicher%20Rahmen%20f%C3%BCr%20die%20Nutzung%20von%20KI%20in%20der%20Bundesverwaltung%20(inkl.%20Anh%C3%A4nge%20A%20und%20B).pdf (search result only)"
+    ],
+    "notes": "admin.ch and cnai.swiss were blocked by the compilation environment's network policy; the record relies on search-result excerpts of the official German PDF and the Federal Chancellery page. All clauses are English paraphrases (text_is_verbatim=false), not the official EN wording; section numbers not given. The German PDF is dated 18 Jan 2024, V1.2, ref. BK-D-C6B33401/520, and is now listed on the Federal Chancellery's AI page (the CNAI coordination function appears to have moved to the Federal Chancellery; not verified). official_languages DE/FR/EN per compilation brief; only the German version was confirmed via search. binding=false: an internal information/recommendation sheet for staff, not a legal act; status 'voluntary' chosen as closest value (it is administrative guidance in force, not superseded as far as could be determined). A Federal Chancellery legal-framework document dated 25 Sept 2026 exists; whether it updates or supersedes the fact sheet was not verified.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+   },
+   "clauses": [
+    {
+     "clause_id": "CH_CNAI_GenAI_Factsheet_2024_Permitted_Use",
+     "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
+     "section": null,
+     "original_text": "Employees of the Federal Administration may use generative AI tools for their work, provided data protection and information security rules are always complied with.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Federal Administration employees using generative AI tools",
+     "action": "use",
+     "object": "generative AI tools (e.g., ChatGPT)",
+     "recipient": null,
+     "modality": "MAY",
+     "requirement": "use is permitted subject to data protection and information security requirements",
+     "condition": "compliance with data protection and information security law and rules",
+     "exception": null,
+     "purpose": "enable responsible experimentation with generative AI",
+     "affected_asset": "federal information and personal data",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "CH"
+     ],
+     "applicable_systems": "generative AI tools, in particular publicly available ones",
+     "interpretation_notes": "Paraphrase in English: neither the EN nor the DE official text could be fetched (admin.ch/cnai.swiss hosts blocked), so content is reconstructed from search-result excerpts of the official German PDF and the Federal Chancellery page; not verbatim. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CH_CNAI_GenAI_Factsheet_2024_No_Sensitive_Data",
+     "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
+     "section": null,
+     "original_text": "Personal data, sensitive or classified information must not be entered into generative AI tools that are not approved for such data.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Federal Administration employees using generative AI tools",
+     "action": "refrain from entering",
+     "object": "personal, sensitive or classified data",
+     "recipient": "providers of generative AI tools",
+     "modality": "MUST NOT",
+     "requirement": "do not input personal or sensitive (incl. classified) information into generative AI tools",
+     "condition": null,
+     "exception": null,
+     "purpose": "protect personal data and confidential federal information",
+     "affected_asset": "personal data; classified/sensitive federal information",
+     "policy_domain": "privacy",
+     "applicable_regions": [
+      "CH"
+     ],
+     "applicable_systems": "generative AI tools, especially external/public services",
+     "interpretation_notes": "Paraphrase in English: neither the EN nor the DE official text could be fetched (admin.ch/cnai.swiss hosts blocked), so content is reconstructed from search-result excerpts of the official German PDF and the Federal Chancellery page; not verbatim. Search excerpt indicates the PDF advises against entering personal or sensitive data; whether phrased as a prohibition or recommendation, and the treatment of classified information, is unverified.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.5,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CH_CNAI_GenAI_Factsheet_2024_Verify_Outputs",
+     "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
+     "section": null,
+     "original_text": "Because generative AI tools only compute statistically probable sequences of word fragments and are trained on large datasets whose sources are usually not disclosed, their outputs may be outdated, misleading, discriminatory or simply wrong and must be checked before use.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Federal Administration employees using generative AI tools",
+     "action": "critically check",
+     "object": "AI-generated output",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "verify accuracy and appropriateness of generated content before using it",
+     "condition": null,
+     "exception": null,
+     "purpose": "prevent errors, misinformation and discrimination in administrative work",
+     "affected_asset": "quality and lawfulness of administrative output; citizens",
+     "policy_domain": "content_integrity",
+     "applicable_regions": [
+      "CH"
+     ],
+     "applicable_systems": "generative AI tools",
+     "interpretation_notes": "Paraphrase in English: neither the EN nor the DE official text could be fetched (admin.ch/cnai.swiss hosts blocked), so content is reconstructed from search-result excerpts of the official German PDF and the Federal Chancellery page; not verbatim. Risk description (next-token prediction; outdated, misleading, discriminatory or wrong outputs; undisclosed data sources) corroborated by search excerpts; the explicit verification duty is an interpretation.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CH_CNAI_GenAI_Factsheet_2024_Human_Responsibility",
+     "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
+     "section": null,
+     "original_text": "Responsibility for content produced with the help of generative AI remains with the human user.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Federal Administration employees using generative AI tools",
+     "action": "remain accountable for",
+     "object": "content produced with generative AI",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "employees retain full responsibility for generated content they use",
+     "condition": null,
+     "exception": null,
+     "purpose": "maintain accountability in public administration",
+     "affected_asset": "accountability of the Federal Administration",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "CH"
+     ],
+     "applicable_systems": "generative AI tools",
+     "interpretation_notes": "Paraphrase in English: neither the EN nor the DE official text could be fetched (admin.ch/cnai.swiss hosts blocked), so content is reconstructed from search-result excerpts of the official German PDF and the Federal Chancellery page; not verbatim. Stated on the Federal Chancellery page summarising the guidance.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    }
+   ]
+  },
+  {
    "policy_id": "CN_AIGC_Labeling_2025",
    "policy_name": "Measures for Labeling AI-Generated and Synthetic Content (人工智能生成合成内容标识办法)",
    "short_name": "China AIGC Labeling Measures",
@@ -745,7 +965,7 @@
     {
      "policy": "EU_AI_Act_2024",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "CA_SB53_2025",
@@ -1325,7 +1545,7 @@
     {
      "policy": "EU_AI_Act_2024",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     }
    ],
    "conflict_rule": "Where laws or administrative regulations provide otherwise, those apply (Art. 2); online publishing, online cultural activities and online audiovisual programme services must also meet press/publication, culture and tourism, and radio/TV regulators' rules (Art. 24); penalties under relevant laws and administrative regulations (Art. 22).",
@@ -1642,7 +1862,7 @@
     {
      "policy": "EU_AI_Act_2024",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     }
    ],
    "conflict_rule": "Where the State has separate provisions for news publishing, film/TV production or artistic creation those prevail (Art. 2); penalties follow the Cybersecurity, Data Security, PIPL and Science & Technology Progress laws, with the Measures' own warnings/suspension only where laws are silent (Art. 21); licensing requirements under laws/administrative regulations still apply (Art. 23).",
@@ -1963,7 +2183,7 @@
     {
      "policy": "EU_AI_Act_2024",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "IL_HB3773_2024",
@@ -2131,6 +2351,2020 @@
      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Historical.",
      "ambiguity": "low",
      "interpretation_confidence": 0.75,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "CoE_AI_Convention_2024",
+   "policy_name": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law",
+   "short_name": "CoE AI Convention (CETS No. 225)",
+   "policy_type": "international_instrument",
+   "source_uri": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+   "issuing_authority": "Council of Europe (Committee of Ministers)",
+   "jurisdiction": "International",
+   "country_region": "Council of Europe member states and non-member signatories (e.g. EU, US, UK, Canada, Japan, Israel among signatories)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en",
+    "fr"
+   ],
+   "regulatory_regime": "International treaty (Council of Europe)",
+   "geo_constraints": "Binding only on Parties after ratification and the Convention's entry into force; private-sector coverage depends on each Party's declaration (Art. 3(1)(b))",
+   "industry_scope": [
+    "general",
+    "public_sector"
+   ],
+   "status": "provisional",
+   "binding": true,
+   "effective_date": null,
+   "key_dates": [
+    {
+     "date": "2024-05-17",
+     "event": "Adopted by the Committee of Ministers"
+    },
+    {
+     "date": "2024-09-05",
+     "event": "Opened for signature in Vilnius (CETS No. 225)"
+    },
+    {
+     "date": "2026-03-11",
+     "event": "European Parliament consents to EU conclusion (per search results)"
+    },
+    {
+     "date": "2026-04-21",
+     "event": "Council Decision (EU) 2026/1080 on conclusion on behalf of the EU (OJ 13.5.2026, per search results)"
+    },
+    {
+     "date": "2026-05-15",
+     "event": "EU deposits instrument of approval/ratification (per secondary sources)"
+    }
+   ],
+   "expiration_date": null,
+   "version": "CETS No. 225",
+   "last_updated": "2024-09-05",
+   "covered_entities": [
+    "States Parties",
+    "public authorities and private actors acting on their behalf",
+    "private actors (as declared by each Party)"
+   ],
+   "covered_systems": [
+    "artificial intelligence systems across their lifecycle"
+   ],
+   "covered_activities": [
+    "activities within the lifecycle of AI systems that have the potential to interfere with human rights, democracy and the rule of law"
+   ],
+   "exceptions": [
+    "activities to protect national security interests (Art. 3(2))",
+    "research and development not yet made available for use, unless testing may interfere with human rights, democracy or rule of law (Art. 3(3))",
+    "matters relating to national defence (Art. 3(4))"
+   ],
+   "conditions": [
+    "enters into force on the first day of the month following three months after five signatories, including at least three Council of Europe member states, have expressed consent to be bound (Art. 30)",
+    "private-sector risks addressed either by applying the Convention's obligations or by other appropriate measures, per a Party's declaration (Art. 3(1)(b))"
+   ],
+   "objective": "Ensure that activities within the lifecycle of AI systems are fully consistent with human rights, democracy and the rule of law, via a technology-neutral framework treaty open to non-member states.",
+   "policy_domain": [
+    "fundamental_rights",
+    "governance",
+    "accountability",
+    "transparency",
+    "fairness",
+    "privacy"
+   ],
+   "principles": [
+    "human dignity and individual autonomy",
+    "transparency and oversight",
+    "accountability and responsibility",
+    "equality and non-discrimination",
+    "privacy and personal data protection",
+    "reliability",
+    "safe innovation"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "GDPR_2016",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "European Convention on Human Rights",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Convention 108+ (Council of Europe data protection convention)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "UNESCO_AI_Ethics_2021",
+     "relation": "complements",
+     "in_catalogue": true
+    }
+   ],
+   "conflict_rule": "Does not restrict higher levels of protection under domestic law or other international obligations (Art. 21/22 savings clauses); EU Parties apply Union rules in their mutual relations (Art. 27(2)); in the EU, implemented through the AI Act where applicable.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225 (not reachable from compilation environment)",
+     "https://eur-lex.europa.eu/eli/dec/2026/1080/oj (search result only)",
+     "https://www.coe.int/en/web/artificial-intelligence/-/eu-parliament-backs-eu-conclusion-of-the-council-of-europe-framework-convention-on-artificial-intelligence (search result only)",
+     "https://fixtheaigap.com/research/policies/2026-05-24-council-of-europe-ai-convention-eu-ratification/",
+     "https://regulatorik.ai/en/framework/coe-ai"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Status 'provisional' = signed, binding-treaty text, but NOT yet in force as of the latest sources found (Sept-Oct 2026 reports: ~21 signatories, 1 Party, the EU). One outlier source claimed entry into force 2025-11-01; rejected as inconsistent with EUR-Lex listing the agreement as not yet in force. Check the CoE Treaty Office chart for current ratification count. Article numbers for savings clauses in conflict_rule are from memory and not verified. Clause texts not verbatim-verified."
+   },
+   "clauses": [
+    {
+     "clause_id": "CoE_AI_Convention_2024_Art4",
+     "policy_id": "CoE_AI_Convention_2024",
+     "section": "Article 4",
+     "original_text": "Each Party shall adopt or maintain measures to ensure that the activities within the lifecycle of artificial intelligence systems are consistent with obligations to protect human rights, as enshrined in applicable international law and in its domestic law.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "State Party",
+     "action": "adopt or maintain measures",
+     "object": "activities within the AI lifecycle",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "ensure AI lifecycle activities are consistent with human-rights obligations",
+     "condition": "Convention in force for the Party",
+     "exception": "national security, defence, pre-deployment R&D (Art. 3)",
+     "purpose": "protection of human rights",
+     "affected_asset": "human rights",
+     "policy_domain": "fundamental_rights",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Binding on Parties only once in force for them.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CoE_AI_Convention_2024_Art5_1",
+     "policy_id": "CoE_AI_Convention_2024",
+     "section": "Article 5(1)",
+     "original_text": "Each Party shall adopt or maintain measures that seek to ensure that artificial intelligence systems are not used to undermine the integrity, independence and effectiveness of democratic institutions and processes, including the principle of the separation of powers, respect for judicial independence and access to justice.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "State Party",
+     "action": "adopt or maintain measures",
+     "object": "use of AI systems",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "seek to ensure AI is not used to undermine democratic institutions and processes",
+     "condition": "Convention in force for the Party",
+     "exception": "national security, defence (Art. 3)",
+     "purpose": "protect democracy and rule of law",
+     "affected_asset": "democratic institutions and processes",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+     "ambiguity": "high",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CoE_AI_Convention_2024_Art10_1",
+     "policy_id": "CoE_AI_Convention_2024",
+     "section": "Article 10(1)",
+     "original_text": "Each Party shall adopt or maintain measures with a view to ensuring that activities within the lifecycle of artificial intelligence systems respect equality, including gender equality, and the prohibition of discrimination, as provided under applicable international and domestic law.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "State Party",
+     "action": "adopt or maintain measures",
+     "object": "activities within the AI lifecycle",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "ensure AI lifecycle activities respect equality and non-discrimination",
+     "condition": "Convention in force for the Party",
+     "exception": "national security, defence (Art. 3)",
+     "purpose": "equality and non-discrimination",
+     "affected_asset": "equal treatment of individuals",
+     "policy_domain": "fairness",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CoE_AI_Convention_2024_Art14",
+     "policy_id": "CoE_AI_Convention_2024",
+     "section": "Article 14 (Remedies)",
+     "original_text": "Each Party shall, to the extent remedies are required by its international obligations and consistent with its domestic legal system, adopt or maintain measures to ensure the availability of accessible and effective remedies for violations of human rights resulting from the activities within the lifecycle of artificial intelligence systems.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "State Party",
+     "action": "adopt or maintain measures",
+     "object": "remedies for AI-related human-rights violations",
+     "recipient": "affected persons",
+     "modality": "MUST",
+     "requirement": "ensure accessible and effective remedies",
+     "condition": "to the extent required by international obligations and consistent with domestic legal system",
+     "exception": null,
+     "purpose": "access to justice and redress",
+     "affected_asset": "human rights of affected persons",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Art. 14(2) adds documentation/information measures and the possibility to lodge complaints; exact wording of 14(1) reconstructed.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.7,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CoE_AI_Convention_2024_Art16_1",
+     "policy_id": "CoE_AI_Convention_2024",
+     "section": "Article 16(1)",
+     "original_text": "Each Party shall, taking into account the principles set forth in Chapter III, adopt or maintain measures for the identification, assessment, prevention and mitigation of risks posed by artificial intelligence systems by considering actual and potential impacts to human rights, democracy and the rule of law.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "State Party",
+     "action": "adopt or maintain measures",
+     "object": "risk and impact management framework for AI systems",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "identify, assess, prevent and mitigate AI risks to human rights, democracy and rule of law",
+     "condition": "Convention in force for the Party",
+     "exception": "national security, defence (Art. 3)",
+     "purpose": "risk and impact management",
+     "affected_asset": "human rights, democracy and rule of law",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "CoE_AI_Convention_2024_Art16_4",
+     "policy_id": "CoE_AI_Convention_2024",
+     "section": "Article 16(4)",
+     "original_text": "Each Party shall assess the need for a moratorium or ban or other appropriate measures in respect of certain uses of artificial intelligence systems where it considers such uses incompatible with the respect for human rights, the functioning of democracy or the rule of law.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "State Party",
+     "action": "assess the need for",
+     "object": "moratoria or bans on certain AI uses",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "assess whether moratoria, bans or other measures are needed for incompatible AI uses",
+     "condition": "Party considers such uses incompatible with human rights, democracy or rule of law",
+     "exception": null,
+     "purpose": "prevent unacceptable AI uses",
+     "affected_asset": "human rights, democracy and rule of law",
+     "policy_domain": "fundamental_rights",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Obligation to assess, not to ban.",
+     "ambiguity": "high",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "EU_AI_Act_2024",
+   "policy_name": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+   "short_name": "EU AI Act",
+   "policy_type": "regulation",
+   "source_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+   "issuing_authority": "European Parliament and Council of the European Union",
+   "jurisdiction": "EU",
+   "country_region": "European Union (27 member states); EEA relevance",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "et",
+    "fi",
+    "fr",
+    "ga",
+    "hr",
+    "hu",
+    "it",
+    "lt",
+    "lv",
+    "mt",
+    "nl",
+    "pl",
+    "pt",
+    "ro",
+    "sk",
+    "sl",
+    "sv"
+   ],
+   "regulatory_regime": "EU AI Act",
+   "geo_constraints": "Providers placing AI systems/GPAI models on the EU market or putting them into service in the EU (irrespective of establishment), deployers in the EU, and third-country providers/deployers where the system's output is used in the EU (Art. 2(1))",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "enforceable",
+   "binding": true,
+   "effective_date": "2024-08-01",
+   "key_dates": [
+    {
+     "date": "2024-07-12",
+     "event": "Published in the Official Journal (OJ L, 2024/1689)"
+    },
+    {
+     "date": "2024-08-01",
+     "event": "Entry into force"
+    },
+    {
+     "date": "2025-02-02",
+     "event": "Chapters I-II apply: prohibited practices (Art. 5) and AI literacy (Art. 4)"
+    },
+    {
+     "date": "2025-08-02",
+     "event": "GPAI model obligations (Chapter V), governance, notified bodies and penalties provisions apply"
+    },
+    {
+     "date": "2026-07-24",
+     "event": "Digital Omnibus on AI, Regulation (EU) 2026/1744, published in the OJ (per secondary sources; not verified on EUR-Lex)"
+    },
+    {
+     "date": "2026-07-27",
+     "event": "Regulation (EU) 2026/1744 enters into force (per secondary sources)"
+    },
+    {
+     "date": "2026-08-02",
+     "event": "General date of application, incl. Art. 50 transparency obligations; Commission enforcement powers over GPAI providers"
+    },
+    {
+     "date": "2026-12-02",
+     "event": "Per Omnibus (secondary sources): new Art. 5 prohibitions (AI-generated non-consensual intimate imagery and CSAM) apply; legacy generative systems placed on market before 2026-08-02 must comply with Art. 50(2) marking"
+    },
+    {
+     "date": "2027-08-02",
+     "event": "Original deadline for GPAI models placed on market before 2025-08-02"
+    },
+    {
+     "date": "2027-12-02",
+     "event": "Per Omnibus (secondary sources): Annex III (stand-alone) high-risk obligations apply (deferred from 2026-08-02)"
+    },
+    {
+     "date": "2028-08-02",
+     "event": "Per Omnibus (secondary sources): Annex I (product-embedded) high-risk obligations apply (deferred from 2027-08-02)"
+    }
+   ],
+   "expiration_date": null,
+   "version": "OJ L, 2024/1689, 12.7.2024; as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+   "last_updated": "2026-07-24",
+   "covered_entities": [
+    "providers",
+    "deployers",
+    "importers",
+    "distributors",
+    "authorised representatives",
+    "product manufacturers",
+    "providers of general-purpose AI models"
+   ],
+   "covered_systems": [
+    "prohibited AI practices",
+    "high-risk AI systems (Annex I and Annex III)",
+    "AI systems subject to transparency obligations (Art. 50)",
+    "general-purpose AI models",
+    "general-purpose AI models with systemic risk"
+   ],
+   "covered_activities": [
+    "placing on the market",
+    "putting into service",
+    "use"
+   ],
+   "exceptions": [
+    "military, defence or national security purposes (Art. 2(3))",
+    "AI systems/models developed and put into service solely for scientific research and development (Art. 2(6))",
+    "research, testing and development before placing on the market, except real-world testing (Art. 2(8))",
+    "purely personal non-professional activity by natural persons (Art. 2(10))",
+    "free and open-source licence releases, unless high-risk, prohibited or Art. 50 (Art. 2(12))",
+    "public authorities of third countries/international organisations under law-enforcement/judicial cooperation agreements with adequate safeguards (Art. 2(4))"
+   ],
+   "conditions": [
+    "high-risk obligations apply where the system is a safety component of, or itself is, a product under Annex I Union harmonisation legislation requiring third-party conformity assessment, or falls within an Annex III use area (subject to Art. 6(3) derogation)",
+    "GPAI model presumed to have systemic risk when cumulative training compute exceeds 10^25 FLOP or upon Commission designation (Art. 51)"
+   ],
+   "objective": "Improve the functioning of the internal market and promote the uptake of human-centric and trustworthy AI while ensuring a high level of protection of health, safety and fundamental rights against harmful effects of AI systems, through a risk-based framework of prohibitions, high-risk requirements, transparency duties and GPAI model obligations.",
+   "policy_domain": [
+    "safety",
+    "fundamental_rights",
+    "transparency",
+    "accountability",
+    "governance",
+    "innovation"
+   ],
+   "principles": [
+    "risk-based approach",
+    "human oversight",
+    "transparency",
+    "accuracy, robustness and cybersecurity",
+    "data governance",
+    "accountability",
+    "AI literacy"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "GDPR_2016",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "EU_GPAI_CoP_2025",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "CoE_AI_Convention_2024",
+     "relation": "implements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+     "relation": "amended_by",
+     "in_catalogue": false
+    },
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "ISO_IEC_42001_2023",
+     "relation": "complements",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Without prejudice to Union data protection law incl. GDPR (Art. 2(7)), consumer protection and product safety law (Art. 2(9)); Annex I sectoral harmonisation legislation integrates AI Act requirements into existing conformity assessment.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://eur-lex.europa.eu/eli/reg/2024/1689/oj (not reachable from compilation environment)",
+     "https://www.loyensloeff.com/insights/news--events/news/eu-ai-act-key-amendments-adopted-under-digital-omnibus-package/",
+     "https://www.lewissilkin.com/insights/2026/07/27/the-digital-omnibus-on-ai-enters-into-force-today-102nedo",
+     "https://www.nicfab.eu/en/posts/digital-omnibus-ai-official-journal/",
+     "https://www.addleshawgoddard.com/en/insights/insights-briefings/2026/technology/eu-ai-act-ai-omnibus-formally-adopted/",
+     "https://www.lawsociety.ie/gazette/top-stories/2026/may/eu-bodies-agree-ban-on-nudification-apps/",
+     "https://www.akos-rs.si/en/umetna-inteligenca/explore/frequently-asked-questions-and-answers/digital-omnibus-on-artificial-intelligence"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "EUR-Lex and other official EU hosts were blocked in the compilation environment; base-text dates are from well-established knowledge of the OJ text, and Omnibus facts are from multiple secondary sources only. Digital Omnibus on AI (Regulation (EU) 2026/1744): reported OJ publication 2026-07-24, entry into force 2026-07-27; defers Annex III high-risk obligations to 2027-12-02 and Annex I to 2028-08-02; adds two Art. 5 prohibitions (AI-generated non-consensual intimate imagery and CSAM) applying 2026-12-02 (numbering reported variously as Art. 5(1)(ba)/(bb)); reportedly rewords Art. 4 AI literacy duty (to 'take measures to support' AI literacy) and adds Art. 111(4) transition for Art. 50(2). Exact wording/dates must be verified against the OJ. Clause texts below are base-text (2024) wording, not verbatim-verified."
+   },
+   "clauses": [
+    {
+     "clause_id": "EU_AI_Act_2024_Art5_1_a",
+     "policy_id": "EU_AI_Act_2024",
+     "section": "Article 5(1)(a)",
+     "original_text": "The following AI practices shall be prohibited: (a) the placing on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person's consciousness or purposefully manipulative or deceptive techniques, with the objective, or the effect of materially distorting the behaviour of a person or a group of persons by appreciably impairing their ability to make an informed decision, thereby causing them to take a decision that they would not have otherwise taken in a manner that causes or is reasonably likely to cause that person, another person or group of persons significant harm;",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "provider/deployer",
+     "action": "place on the market / put into service / use",
+     "object": "AI system deploying subliminal, manipulative or deceptive techniques",
+     "recipient": null,
+     "modality": "MUST NOT",
+     "requirement": "do not place on the market, put into service or use manipulative/deceptive AI that materially distorts behaviour causing significant harm",
+     "condition": "objective or effect of materially distorting behaviour by appreciably impairing informed decision-making, causing or reasonably likely to cause significant harm",
+     "exception": null,
+     "purpose": "protect autonomy and prevent significant harm",
+     "affected_asset": "natural persons' decision-making autonomy",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "any AI system",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Applies since 2025-02-02.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "EU_AI_Act_2024_Art9_1",
+     "policy_id": "EU_AI_Act_2024",
+     "section": "Article 9(1)",
+     "original_text": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "provider of high-risk AI system",
+     "action": "establish, implement, document and maintain",
+     "object": "risk management system",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "operate a lifecycle risk management system for each high-risk AI system",
+     "condition": "AI system is high-risk under Art. 6",
+     "exception": null,
+     "purpose": "identify, estimate, evaluate and mitigate risks to health, safety and fundamental rights",
+     "affected_asset": "health, safety and fundamental rights",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "high-risk AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Art. 9(2) specifies it as a continuous iterative process across the lifecycle. Application date for high-risk obligations deferred by the Digital Omnibus (Annex III: 2027-12-02; Annex I: 2028-08-02, per secondary sources).",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "EU_AI_Act_2024_Art14_1",
+     "policy_id": "EU_AI_Act_2024",
+     "section": "Article 14(1)",
+     "original_text": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "provider of high-risk AI system",
+     "action": "design and develop",
+     "object": "high-risk AI system with human-machine interface tools",
+     "recipient": "natural persons overseeing the system",
+     "modality": "MUST",
+     "requirement": "enable effective human oversight during use",
+     "condition": "AI system is high-risk",
+     "exception": null,
+     "purpose": "prevent or minimise risks to health, safety or fundamental rights",
+     "affected_asset": "health, safety and fundamental rights",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "high-risk AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Deployer duty to assign oversight to competent persons is in Art. 26(2).",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "EU_AI_Act_2024_Art50_2",
+     "policy_id": "EU_AI_Act_2024",
+     "section": "Article 50(2)",
+     "original_text": "Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated. Providers shall ensure their technical solutions are effective, interoperable, robust and reliable as far as this is technically feasible, …",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "provider of generative AI system",
+     "action": "mark outputs",
+     "object": "synthetic audio, image, video or text content",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "mark outputs in machine-readable format detectable as artificially generated or manipulated, using effective, interoperable, robust and reliable solutions as technically feasible",
+     "condition": "AI system generates synthetic audio, image, video or text",
+     "exception": "standard editing assistance or no substantial alteration of input; uses authorised by law to detect, prevent, investigate or prosecute criminal offences",
+     "purpose": "content provenance and integrity of the information ecosystem",
+     "affected_asset": "information integrity",
+     "policy_domain": "content_integrity",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "generative AI systems incl. GPAI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Applies from 2026-08-02; per secondary sources the Omnibus adds Art. 111(4) giving systems placed on the market before 2026-08-02 until 2026-12-02. Exceptions (assistive editing functions, no substantial alteration, authorised law-enforcement use) follow in the omitted part.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "EU_AI_Act_2024_Art53_1_a",
+     "policy_id": "EU_AI_Act_2024",
+     "section": "Article 53(1)(a)",
+     "original_text": "Providers of general-purpose AI models shall: (a) draw up and keep up-to-date the technical documentation of the model, including its training and testing process and the results of its evaluation, which shall contain, at a minimum, the information set out in Annex XI for the purpose of providing it, upon request, to the AI Office and the national competent authorities;",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "provider of general-purpose AI model",
+     "action": "draw up and keep up-to-date",
+     "object": "technical documentation (Annex XI)",
+     "recipient": "AI Office and national competent authorities (on request)",
+     "modality": "MUST",
+     "requirement": "maintain technical documentation including training, testing and evaluation results",
+     "condition": null,
+     "exception": "free and open-source GPAI models without systemic risk meeting Art. 53(2) conditions",
+     "purpose": "regulatory oversight and accountability of GPAI models",
+     "affected_asset": "transparency of GPAI models",
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "general-purpose AI models",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Applies since 2025-08-02 (models already on the market before that date: by 2027-08-02). Art. 53(2) exempts certain open-source models without systemic risk from (a) and (b).",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "EU_AI_Act_2024_Art55_1_a_b",
+     "policy_id": "EU_AI_Act_2024",
+     "section": "Article 55(1)(a)-(b)",
+     "original_text": "In addition to the obligations listed in Articles 53 and 54, providers of general-purpose AI models with systemic risk shall: (a) perform model evaluation in accordance with standardised protocols and tools reflecting the state of the art, including conducting and documenting adversarial testing of the model with a view to identifying and mitigating systemic risks; (b) assess and mitigate possible systemic risks at Union level, including their sources, that may stem from the development, the placing on the market, or the use of general-purpose AI models with systemic risk;",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "provider of general-purpose AI model with systemic risk",
+     "action": "evaluate, adversarially test, assess and mitigate",
+     "object": "systemic risks of the model",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "perform state-of-the-art model evaluation incl. documented adversarial testing; assess and mitigate Union-level systemic risks",
+     "condition": "model classified as having systemic risk (Art. 51)",
+     "exception": null,
+     "purpose": "prevent systemic risks to public health, safety, security, fundamental rights or society",
+     "affected_asset": "society at Union level",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "general-purpose AI models with systemic risk",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Points (c) serious-incident reporting and (d) cybersecurity follow. Compliance may be demonstrated via the GPAI Code of Practice (Art. 55(2)).",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "EU_GPAI_CoP_2025",
+   "policy_name": "General-Purpose AI Code of Practice",
+   "short_name": "GPAI Code of Practice",
+   "policy_type": "voluntary_code",
+   "source_uri": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+   "issuing_authority": "European Commission (AI Office); drafted by independent experts via a multi-stakeholder process",
+   "jurisdiction": "EU",
+   "country_region": "European Union",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "EU AI Act (Art. 56 codes of practice)",
+   "geo_constraints": "Providers of general-purpose AI models placed on the EU market that choose to sign",
+   "industry_scope": [
+    "general",
+    "AI model providers"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2025-07-10",
+   "key_dates": [
+    {
+     "date": "2025-07-10",
+     "event": "Final Code published by the Commission"
+    },
+    {
+     "date": "2025-08-01",
+     "event": "Commission and AI Board assessment confirming the Code as an adequate voluntary tool (date from general knowledge; not verified on official host)"
+    },
+    {
+     "date": "2025-08-02",
+     "event": "AI Act GPAI obligations (Arts. 53, 55) the Code helps demonstrate begin to apply"
+    },
+    {
+     "date": "2026-01-30",
+     "event": "Constitutive meeting of the Signatory Taskforce (per secondary sources)"
+    },
+    {
+     "date": "2026-08-02",
+     "event": "Commission enforcement powers over GPAI providers apply under the AI Act"
+    }
+   ],
+   "expiration_date": null,
+   "version": "Final version, 10 July 2025",
+   "last_updated": "2025-07-10",
+   "covered_entities": [
+    "providers of general-purpose AI models (signatories)",
+    "providers of general-purpose AI models with systemic risk (Safety and Security chapter)"
+   ],
+   "covered_systems": [
+    "general-purpose AI models",
+    "general-purpose AI models with systemic risk"
+   ],
+   "covered_activities": [
+    "model documentation",
+    "copyright compliance in training data collection",
+    "systemic risk assessment and mitigation",
+    "security",
+    "serious incident reporting"
+   ],
+   "exceptions": [
+    "Safety and Security chapter applies only to GPAI models with systemic risk",
+    "certain open-source models exempt from documentation commitments in line with AI Act Art. 53(2)"
+   ],
+   "conditions": [
+    "applies only to signatories; signatories may sign selected chapters (e.g. xAI signed only the Safety and Security chapter, per secondary sources)",
+    "adherence may be relied on to demonstrate compliance with AI Act Arts. 53 and 55 until harmonised standards are published"
+   ],
+   "objective": "Provide a voluntary tool for GPAI model providers to demonstrate compliance with their AI Act obligations on transparency, copyright, and safety and security of models with systemic risk.",
+   "policy_domain": [
+    "safety",
+    "transparency",
+    "security",
+    "accountability",
+    "governance"
+   ],
+   "principles": [
+    "transparency",
+    "copyright compliance",
+    "systemic risk management",
+    "proportionality",
+    "state-of-the-art safety and security"
+   ],
+   "parent_policy": "EU_AI_Act_2024",
+   "related_policies": [
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "implements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "G7_Hiroshima_CoC_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "Anthropic_RSP",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "OpenAI_Preparedness_Framework",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "Directive (EU) 2019/790 (DSM Copyright Directive)",
+     "relation": "complements",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Non-binding; AI Act obligations prevail. Adherence is a means (not presumption of conformity in the sense of harmonised standards) to demonstrate compliance with AI Act Arts. 53/55.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai (not reachable from compilation environment)",
+     "https://digital-strategy.ec.europa.eu/en/news/signatory-taskforce-established-general-purpose-ai-code-practice (search result only)",
+     "https://artificialintelligenceact.eu/code-of-practice/ (search result only)",
+     "https://babl.ai/eu-ai-office-establishes-signatory-taskforce-to-guide-compliance-with-general-purpose-ai-rules/"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official Commission pages could not be fetched. Structure (three chapters: Transparency; Copyright; Safety and Security, the latter with ten commitments) is from general knowledge of the published Code. Clauses are paraphrases (not verbatim). Signatory list changes over time; not reproduced. No revision of the Code after 2025-07-10 was found in searches."
+   },
+   "clauses": [
+    {
+     "clause_id": "EU_GPAI_CoP_2025_Transparency_C1",
+     "policy_id": "EU_GPAI_CoP_2025",
+     "section": "Transparency chapter, Commitment 1 (Documentation)",
+     "original_text": "Signatories commit to drawing up and keeping up-to-date model documentation (using the Model Documentation Form), providing relevant information to downstream providers and, upon request, to the AI Office and national competent authorities, and ensuring the quality, integrity and security of the documented information.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "GPAI model provider (signatory)",
+     "action": "draw up, keep up-to-date and provide",
+     "object": "model documentation",
+     "recipient": "downstream providers; AI Office/national authorities on request",
+     "modality": "SHOULD",
+     "requirement": "maintain and share model documentation",
+     "condition": "signatory of the Transparency chapter",
+     "exception": "open-source models exempt under AI Act Art. 53(2), unless systemic risk",
+     "purpose": "transparency along the AI value chain",
+     "affected_asset": "downstream providers' ability to comply; regulatory oversight",
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "general-purpose AI models",
+     "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase. Implements AI Act Art. 53(1)(a)-(b) and Annexes XI-XII.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    },
+    {
+     "clause_id": "EU_GPAI_CoP_2025_Copyright_C1",
+     "policy_id": "EU_GPAI_CoP_2025",
+     "section": "Copyright chapter, Commitment 1 (Copyright policy), Measures 1.1-1.5",
+     "original_text": "Signatories commit to drawing up, keeping up-to-date and implementing a copyright policy; to reproduce and extract only lawfully accessible content when crawling the web; to identify and comply with machine-readable rights reservations (including robots.txt); to mitigate the risk of copyright-infringing outputs; and to designate a point of contact and allow complaints by rightsholders.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "GPAI model provider (signatory)",
+     "action": "draw up and implement",
+     "object": "copyright policy; web crawling practices",
+     "recipient": "rightsholders",
+     "modality": "SHOULD",
+     "requirement": "respect copyright and text-and-data-mining opt-outs and mitigate infringing outputs",
+     "condition": "signatory of the Copyright chapter",
+     "exception": null,
+     "purpose": "compliance with Union copyright law",
+     "affected_asset": "rightsholders' works",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "general-purpose AI models",
+     "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase summarising the measures. Implements AI Act Art. 53(1)(c).",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    },
+    {
+     "clause_id": "EU_GPAI_CoP_2025_SafetySecurity_C1",
+     "policy_id": "EU_GPAI_CoP_2025",
+     "section": "Safety and Security chapter, Commitment 1 (Safety and Security Framework)",
+     "original_text": "Signatories commit to adopting a state-of-the-art Safety and Security Framework that outlines the systemic risk management processes and measures they implement, to implementing it, and to keeping it updated and notifying it to the AI Office.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "provider of GPAI model with systemic risk (signatory)",
+     "action": "create, implement and update",
+     "object": "Safety and Security Framework",
+     "recipient": "AI Office",
+     "modality": "SHOULD",
+     "requirement": "document and implement a systemic-risk management framework",
+     "condition": "model classified as GPAI model with systemic risk",
+     "exception": null,
+     "purpose": "systematic management of systemic risks",
+     "affected_asset": "public safety and security",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "general-purpose AI models with systemic risk",
+     "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    },
+    {
+     "clause_id": "EU_GPAI_CoP_2025_SafetySecurity_C2_C4",
+     "policy_id": "EU_GPAI_CoP_2025",
+     "section": "Safety and Security chapter, Commitments 2-4 (systemic risk identification, analysis and acceptance determination)",
+     "original_text": "Signatories commit to identifying systemic risks stemming from the model, analysing each identified systemic risk (including through model evaluations), and determining whether the systemic risks are acceptable before deciding whether to proceed with development, placing on the market or use of the model.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "provider of GPAI model with systemic risk (signatory)",
+     "action": "identify, analyse and determine acceptability of",
+     "object": "systemic risks",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "assess systemic risks and only proceed if risks are determined acceptable",
+     "condition": "model classified as GPAI model with systemic risk",
+     "exception": null,
+     "purpose": "prevent unacceptable systemic risks",
+     "affected_asset": "public health, safety, security, fundamental rights, society",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "general-purpose AI models with systemic risk",
+     "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase. Identified risk categories include CBRN, loss of control, cyber offence and harmful manipulation.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "EU_GPAI_CoP_2025_SafetySecurity_C6",
+     "policy_id": "EU_GPAI_CoP_2025",
+     "section": "Safety and Security chapter, Commitment 6 (Security mitigations)",
+     "original_text": "Signatories commit to implementing an adequate level of cybersecurity protection for their models and their physical infrastructure along the entire model lifecycle, to prevent risks from unauthorised release, access and/or theft.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "provider of GPAI model with systemic risk (signatory)",
+     "action": "implement",
+     "object": "cybersecurity protection for model weights and infrastructure",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "protect model and infrastructure against unauthorised release, access or theft",
+     "condition": "model classified as GPAI model with systemic risk",
+     "exception": null,
+     "purpose": "prevent model exfiltration and misuse",
+     "affected_asset": "model weights and infrastructure",
+     "policy_domain": "security",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "general-purpose AI models with systemic risk",
+     "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase. Implements AI Act Art. 55(1)(d).",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "EU_GPAI_CoP_2025_SafetySecurity_C9",
+     "policy_id": "EU_GPAI_CoP_2025",
+     "section": "Safety and Security chapter, Commitment 9 (Serious incident reporting)",
+     "original_text": "Signatories commit to implementing processes to track, document and report to the AI Office (and, as appropriate, national competent authorities) without undue delay relevant information about serious incidents and possible corrective measures.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "provider of GPAI model with systemic risk (signatory)",
+     "action": "track, document and report",
+     "object": "serious incidents and corrective measures",
+     "recipient": "AI Office; national competent authorities as appropriate",
+     "modality": "SHOULD",
+     "requirement": "report serious incidents without undue delay",
+     "condition": "serious incident occurs",
+     "exception": null,
+     "purpose": "regulatory awareness and rapid response",
+     "affected_asset": "public safety",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "EU"
+     ],
+     "applicable_systems": "general-purpose AI models with systemic risk",
+     "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase. Implements AI Act Art. 55(1)(c); the Code sets staged reporting deadlines by incident severity.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "FSISAC_GenAI_AUP_2023",
+   "policy_name": "Framework of an Acceptable Use Policy for External Generative AI",
+   "short_name": "FS-ISAC GenAI AUP Framework",
+   "policy_type": "framework",
+   "source_uri": "https://www.fsisac.com/hubfs/Knowledge/FrameworkOfAnAcceptableUsePolicyForExternalGenerativeAI.pdf",
+   "issuing_authority": "Financial Services Information Sharing and Analysis Center (FS-ISAC)",
+   "jurisdiction": "International",
+   "country_region": "Global financial sector (FS-ISAC member institutions)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "Industry guidance (financial sector, non-regulatory)",
+   "geo_constraints": null,
+   "industry_scope": [
+    "finance"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2023-09",
+   "key_dates": [
+    {
+     "date": "2023-09",
+     "event": "Published as part of FS-ISAC's series of AI risk white papers ('Illustrative for Adaptation')"
+    }
+   ],
+   "expiration_date": null,
+   "version": "September 2023 (Illustrative for Adaptation)",
+   "last_updated": "2023-09",
+   "covered_entities": [
+    "financial institutions adopting the template",
+    "their employees and contractors"
+   ],
+   "covered_systems": [
+    "external (third-party) generative AI systems"
+   ],
+   "covered_activities": [
+    "employee use of external generative AI",
+    "inputting data into generative AI",
+    "using generative AI outputs"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "Template to be adapted; offers permissive and stringent options"
+   ],
+   "objective": "Provides financial firms with an adaptable template, including sample policy text, for an acceptable use policy governing staff use of external generative AI, addressing data going into the systems (confidentiality, access, monitoring) and output coming out (accuracy, attribution, representation).",
+   "policy_domain": [
+    "security",
+    "privacy",
+    "governance",
+    "content_integrity"
+   ],
+   "principles": [
+    "confidentiality, integrity and availability (CIA triad)",
+    "accountability of users",
+    "accuracy of outputs",
+    "attribution"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "NIST_AI_RMF_2023",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "FS-ISAC 'Financial Services and AI: Leveraging the Advantages, Managing the Risks' (2024 white paper series)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "HK_PCPD_GenAI_Employee_Checklist_2025",
+     "relation": "overlaps_with",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Non-binding template; firms adapt it subject to applicable law, regulation and internal policies.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.fsisac.com/hubfs/Knowledge/FrameworkOfAnAcceptableUsePolicyForExternalGenerativeAI.pdf (identified via search; host not reachable)",
+     "https://www.fsisac.com/newsroom/pr-ai-risk-papers (search result only)",
+     "https://www.fsisac.com/hubfs/Knowledge/AI/FSISAC_FinancialServicesAndAI-LeveragingTheAdvantagesManagingTheRisks.pdf (search result only)",
+     "https://www.americanbanker.com/news/banks-unite-to-tackle-ai-risks-with-cybersecurity-guidance (search result only)"
+    ],
+    "notes": "FS-ISAC hosts were blocked by the compilation environment's network policy; record built from search-result excerpts of the official PDF and secondary summaries. All clauses are paraphrases with low-moderate confidence; section headings partly inferred from excerpts. Exact publication day in September 2023 not verified (the related press release on FS-ISAC's AI risk papers may date from 2024; not verified). Classified as 'framework' (industry template), jurisdiction 'International'.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+   },
+   "clauses": [
+    {
+     "clause_id": "FSISAC_GenAI_AUP_2023_Scope",
+     "policy_id": "FSISAC_GenAI_AUP_2023",
+     "section": "Scope",
+     "original_text": "The policy should cover external generative AI services used by staff regardless of how they are accessed (e.g., web interfaces, APIs, browser plug-ins or features embedded in other software).",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "adopting financial institution",
+     "action": "define scope of",
+     "object": "acceptable use policy for external generative AI",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "apply the acceptable use policy to all external generative AI services irrespective of access route",
+     "condition": null,
+     "exception": null,
+     "purpose": "avoid gaps in coverage of shadow or embedded generative AI use",
+     "affected_asset": "firm data and systems",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "external (third-party) generative AI services",
+     "interpretation_notes": "Paraphrase reconstructed from search-result excerpts and secondary summaries; the official PDF (fsisac.com) could not be fetched, so wording and exact section placement are unverified. The document is a template offering permissive and stringent options, so modality is SHOULD. Examples of access routes are illustrative and not confirmed in the text.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.45,
+     "human_verified": false
+    },
+    {
+     "clause_id": "FSISAC_GenAI_AUP_2023_Data_Confidentiality",
+     "policy_id": "FSISAC_GenAI_AUP_2023",
+     "section": "Data provided to generative AI systems – Confidentiality",
+     "original_text": "Employees should not provide confidential, proprietary, customer or other non-public firm information to external generative AI systems; this restriction may be relaxed where contracts give the firm control over how its data is protected at the vendor.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "adopting financial institution / its employees",
+     "action": "refrain from inputting",
+     "object": "confidential and non-public information",
+     "recipient": "external generative AI providers",
+     "modality": "SHOULD NOT",
+     "requirement": "do not enter confidential/non-public data into external generative AI unless contractual data-protection controls exist",
+     "condition": null,
+     "exception": "contractual arrangements giving the firm control over vendor-side protection of its data",
+     "purpose": "protect confidentiality (CIA triad) of firm and customer data",
+     "affected_asset": "confidential firm and customer data",
+     "policy_domain": "security",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "external generative AI services",
+     "interpretation_notes": "Paraphrase reconstructed from search-result excerpts and secondary summaries; the official PDF (fsisac.com) could not be fetched, so wording and exact section placement are unverified. The document is a template offering permissive and stringent options, so modality is SHOULD. The contractual-relaxation exception is corroborated by a search excerpt of the PDF.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.5,
+     "human_verified": false
+    },
+    {
+     "clause_id": "FSISAC_GenAI_AUP_2023_Access",
+     "policy_id": "FSISAC_GenAI_AUP_2023",
+     "section": "Data provided to generative AI systems – Access",
+     "original_text": "The firm should determine which staff may use external generative AI tools and from where (e.g., firm-managed devices and networks), choosing between permissive and stringent approaches.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "adopting financial institution",
+     "action": "restrict and authorize",
+     "object": "access to external generative AI tools",
+     "recipient": "employees",
+     "modality": "SHOULD",
+     "requirement": "define authorized users and access locations/devices for external generative AI",
+     "condition": null,
+     "exception": null,
+     "purpose": "control data exposure and monitor use",
+     "affected_asset": "firm information systems",
+     "policy_domain": "security",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "external generative AI services",
+     "interpretation_notes": "Paraphrase reconstructed from search-result excerpts and secondary summaries; the official PDF (fsisac.com) could not be fetched, so wording and exact section placement are unverified. The document is a template offering permissive and stringent options, so modality is SHOULD. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.45,
+     "human_verified": false
+    },
+    {
+     "clause_id": "FSISAC_GenAI_AUP_2023_Output_Accuracy_Attribution",
+     "policy_id": "FSISAC_GenAI_AUP_2023",
+     "section": "Data received from generative AI systems (accuracy, attribution, representation)",
+     "original_text": "Output from external generative AI should be reviewed for accuracy before use, attributed appropriately, and not be represented as an official position of the firm without the usual review and approval.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "adopting financial institution / its employees",
+     "action": "verify, attribute and control representation of",
+     "object": "generative AI output",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "check output accuracy, attribute AI-generated content, and avoid presenting it as firm communications without review",
+     "condition": null,
+     "exception": null,
+     "purpose": "output integrity and reputational/legal risk control",
+     "affected_asset": "firm reputation; customers relying on communications",
+     "policy_domain": "content_integrity",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "external generative AI services",
+     "interpretation_notes": "Paraphrase reconstructed from search-result excerpts and secondary summaries; the official PDF (fsisac.com) could not be fetched, so wording and exact section placement are unverified. The document is a template offering permissive and stringent options, so modality is SHOULD. Themes (accuracy, attribution, representing the employee's company) corroborated by FS-ISAC summaries; specific sample wording unverified.",
+     "ambiguity": "high",
+     "interpretation_confidence": 0.4,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "G7_Hiroshima_CoC_2023",
+   "policy_name": "Hiroshima Process International Code of Conduct for Organizations Developing Advanced AI Systems",
+   "short_name": "G7 Hiroshima Code of Conduct",
+   "policy_type": "voluntary_code",
+   "source_uri": "https://www.mofa.go.jp/files/100573473.pdf",
+   "issuing_authority": "G7 Leaders (Hiroshima AI Process, Japanese G7 Presidency 2023)",
+   "jurisdiction": "International",
+   "country_region": "G7 (Canada, France, Germany, Italy, Japan, UK, US) and EU; open to organizations worldwide",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "G7 Hiroshima AI Process (voluntary)",
+   "geo_constraints": "Voluntary; organizations developing advanced AI systems in any jurisdiction, to be applied in line with jurisdictions' own approaches",
+   "industry_scope": [
+    "general",
+    "AI developers"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2023-10-30",
+   "key_dates": [
+    {
+     "date": "2023-10-30",
+     "event": "G7 Leaders' Statement on the Hiroshima AI Process; Guiding Principles and Code of Conduct published"
+    },
+    {
+     "date": "2023-12-06",
+     "event": "Hiroshima AI Process Comprehensive Policy Framework endorsed by G7 Digital and Tech Ministers (date from general knowledge; not verified)"
+    },
+    {
+     "date": "2025-02-07",
+     "event": "OECD launches the Hiroshima AI Process Reporting Framework for voluntary reporting against the Code"
+    }
+   ],
+   "expiration_date": null,
+   "version": "30 October 2023",
+   "last_updated": "2023-10-30",
+   "covered_entities": [
+    "organizations developing advanced AI systems (academia, civil society, private and public sector)"
+   ],
+   "covered_systems": [
+    "advanced AI systems, including most advanced foundation models and generative AI systems"
+   ],
+   "covered_activities": [
+    "design",
+    "development",
+    "deployment",
+    "placement on the market",
+    "use"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "voluntary endorsement; a 'living document' to be reviewed and updated"
+   ],
+   "objective": "Promote safe, secure and trustworthy AI worldwide by providing voluntary guidance for actions by organizations developing the most advanced AI systems.",
+   "policy_domain": [
+    "safety",
+    "security",
+    "transparency",
+    "accountability",
+    "content_integrity",
+    "governance"
+   ],
+   "principles": [
+    "risk-based approach",
+    "lifecycle risk management",
+    "transparency",
+    "information sharing",
+    "security",
+    "content provenance",
+    "respect for human rights and democratic values"
+   ],
+   "parent_policy": "Hiroshima Process International Guiding Principles for Organizations Developing Advanced AI Systems",
+   "related_policies": [
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "EU_GPAI_CoP_2025",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "OECD Hiroshima AI Process Reporting Framework (2025)",
+     "relation": "complements",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Voluntary; organizations should apply it in line with a risk-based approach while governments develop more enduring and/or detailed governance and regulatory approaches; does not displace legal obligations.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.mofa.go.jp/files/100573473.pdf (URL from memory; not reachable/verified)",
+     "https://digital-strategy.ec.europa.eu/en/library/hiroshima-process-international-code-conduct-advanced-ai-systems (not fetched)",
+     "https://www.oecd.org/en/events/2025/02/launch-of-the-hiroshima-ai-process-reporting-framework.html (search result only)",
+     "https://oecd.ai/en/transparency"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official hosts unreachable. Publication date 2023-10-30 is well established (G7 Leaders' Statement). source_uri (MOFA PDF) is from memory and should be verified. OECD reporting framework launched 2025-02-07 (confirmed by OECD search results); a v2.0 of the reporting framework was reported as forthcoming in 2026. The Code comprises 11 actions; clause texts are reconstructions, not verbatim-verified."
+   },
+   "clauses": [
+    {
+     "clause_id": "G7_Hiroshima_CoC_2023_Action1",
+     "policy_id": "G7_Hiroshima_CoC_2023",
+     "section": "Action 1",
+     "original_text": "Take appropriate measures throughout the development of advanced AI systems, including prior to and throughout their deployment and placement on the market, to identify, evaluate, and mitigate risks across the AI lifecycle.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organizations developing advanced AI systems",
+     "action": "identify, evaluate and mitigate",
+     "object": "risks across the AI lifecycle",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "conduct lifecycle risk identification, evaluation and mitigation incl. before deployment",
+     "condition": null,
+     "exception": null,
+     "purpose": "safe and trustworthy advanced AI",
+     "affected_asset": "public safety and security",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "advanced AI systems incl. foundation models and generative AI",
+     "interpretation_notes": "Not verbatim-verified: the official host (mofa.go.jp / digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Sub-text calls for diverse internal and independent external testing, e.g. red-teaming, covering risks such as CBRN, offensive cyber, risks to health/safety, self-replication, societal risks.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "G7_Hiroshima_CoC_2023_Action2",
+     "policy_id": "G7_Hiroshima_CoC_2023",
+     "section": "Action 2",
+     "original_text": "Identify and mitigate vulnerabilities, and, where appropriate, incidents and patterns of misuse, after deployment including placement on the market.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organizations developing advanced AI systems",
+     "action": "identify and mitigate",
+     "object": "vulnerabilities, incidents and patterns of misuse",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "monitor and mitigate post-deployment vulnerabilities, incidents and misuse",
+     "condition": "after deployment, where appropriate",
+     "exception": null,
+     "purpose": "post-deployment safety and misuse prevention",
+     "affected_asset": "users and public",
+     "policy_domain": "security",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "advanced AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (mofa.go.jp / digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "G7_Hiroshima_CoC_2023_Action3",
+     "policy_id": "G7_Hiroshima_CoC_2023",
+     "section": "Action 3",
+     "original_text": "Publicly report advanced AI systems' capabilities, limitations and domains of appropriate and inappropriate use, to support ensuring sufficient transparency, thereby contributing to increase accountability.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organizations developing advanced AI systems",
+     "action": "publicly report",
+     "object": "capabilities, limitations and domains of appropriate/inappropriate use",
+     "recipient": "public",
+     "modality": "SHOULD",
+     "requirement": "publish transparency reports on model capabilities and limitations",
+     "condition": null,
+     "exception": null,
+     "purpose": "transparency and accountability",
+     "affected_asset": "public trust and informed use",
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "advanced AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (mofa.go.jp / digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "G7_Hiroshima_CoC_2023_Action6",
+     "policy_id": "G7_Hiroshima_CoC_2023",
+     "section": "Action 6",
+     "original_text": "Invest in and implement robust security controls, including physical security, cybersecurity and insider threat safeguards across the AI lifecycle.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organizations developing advanced AI systems",
+     "action": "invest in and implement",
+     "object": "security controls (physical, cyber, insider threat)",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "implement robust security controls across the AI lifecycle",
+     "condition": null,
+     "exception": null,
+     "purpose": "protect models and infrastructure from theft and compromise",
+     "affected_asset": "model weights, algorithms, servers, datasets",
+     "policy_domain": "security",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "advanced AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (mofa.go.jp / digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Sub-text references protecting model weights, algorithms, servers and datasets.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "G7_Hiroshima_CoC_2023_Action7",
+     "policy_id": "G7_Hiroshima_CoC_2023",
+     "section": "Action 7",
+     "original_text": "Develop and deploy reliable content authentication and provenance mechanisms, where technically feasible, such as watermarking or other techniques to enable users to identify AI-generated content.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organizations developing advanced AI systems",
+     "action": "develop and deploy",
+     "object": "content authentication and provenance mechanisms (e.g. watermarking)",
+     "recipient": "users",
+     "modality": "SHOULD",
+     "requirement": "enable users to identify AI-generated content",
+     "condition": "where technically feasible",
+     "exception": null,
+     "purpose": "content integrity and preventing deception",
+     "affected_asset": "information ecosystem",
+     "policy_domain": "content_integrity",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "advanced AI systems generating content",
+     "interpretation_notes": "Not verbatim-verified: the official host (mofa.go.jp / digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "GDPR_2016",
+   "policy_name": "Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (General Data Protection Regulation)",
+   "short_name": "GDPR",
+   "policy_type": "regulation",
+   "source_uri": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "issuing_authority": "European Parliament and Council of the European Union",
+   "jurisdiction": "EU",
+   "country_region": "European Union (27 member states); EEA",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "et",
+    "fi",
+    "fr",
+    "ga",
+    "hr",
+    "hu",
+    "it",
+    "lt",
+    "lv",
+    "mt",
+    "nl",
+    "pl",
+    "pt",
+    "ro",
+    "sk",
+    "sl",
+    "sv"
+   ],
+   "regulatory_regime": "EU data protection law (GDPR)",
+   "geo_constraints": "Processing in the context of an EU establishment, or by non-EU controllers/processors offering goods or services to, or monitoring the behaviour of, data subjects in the EU (Art. 3)",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "enforceable",
+   "binding": true,
+   "effective_date": "2018-05-25",
+   "key_dates": [
+    {
+     "date": "2016-04-27",
+     "event": "Adopted"
+    },
+    {
+     "date": "2016-05-04",
+     "event": "Published in OJ L 119"
+    },
+    {
+     "date": "2016-05-24",
+     "event": "Entry into force"
+    },
+    {
+     "date": "2018-05-25",
+     "event": "Applies"
+    },
+    {
+     "date": "2025-11-19",
+     "event": "Commission proposes Digital Omnibus including targeted GDPR amendments (date per general knowledge; not verified on official host)"
+    },
+    {
+     "date": "2026-10-21",
+     "event": "Council agrees negotiating mandate on Digital Omnibus GDPR amendments (per secondary sources); Parliament position pending; not adopted"
+    }
+   ],
+   "expiration_date": null,
+   "version": "OJ L 119, 4.5.2016, p. 1 (with corrigenda)",
+   "last_updated": "2016-05-04",
+   "covered_entities": [
+    "controllers",
+    "processors",
+    "representatives of non-EU controllers/processors"
+   ],
+   "covered_systems": [
+    "any wholly or partly automated processing of personal data, incl. AI/ML systems processing personal data",
+    "automated individual decision-making and profiling"
+   ],
+   "covered_activities": [
+    "processing of personal data",
+    "profiling",
+    "automated decision-making",
+    "transfers to third countries"
+   ],
+   "exceptions": [
+    "purely personal or household activity (Art. 2(2)(c))",
+    "activities outside the scope of Union law, incl. national security (Art. 2(2)(a))",
+    "competent authorities for criminal law enforcement (covered by Directive (EU) 2016/680) (Art. 2(2)(d))",
+    "anonymous information (Recital 26)"
+   ],
+   "conditions": [
+    "applies only where personal data are processed",
+    "Art. 22 applies to decisions based solely on automated processing producing legal or similarly significant effects",
+    "DPIA (Art. 35) required where processing is likely to result in high risk"
+   ],
+   "objective": "Protect fundamental rights and freedoms of natural persons, in particular the right to protection of personal data, while ensuring the free movement of personal data within the Union.",
+   "policy_domain": [
+    "privacy",
+    "fundamental_rights",
+    "accountability",
+    "transparency"
+   ],
+   "principles": [
+    "lawfulness, fairness and transparency",
+    "purpose limitation",
+    "data minimisation",
+    "accuracy",
+    "storage limitation",
+    "integrity and confidentiality",
+    "accountability",
+    "data protection by design and by default"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "Directive (EU) 2016/680 (Law Enforcement Directive)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Directive 95/46/EC (Data Protection Directive)",
+     "relation": "supersedes",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Digital Omnibus proposal amending GDPR (pending)",
+     "relation": "amended_by",
+     "in_catalogue": false
+    },
+    {
+     "policy": "CoE_AI_Convention_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    }
+   ],
+   "conflict_rule": "Directly applicable Union regulation; the AI Act applies without prejudice to the GDPR (AI Act Art. 2(7)); Directive (EU) 2016/680 governs law-enforcement processing; ePrivacy Directive is lex specialis for electronic communications (Art. 95).",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://eur-lex.europa.eu/eli/reg/2016/679/oj (not reachable from compilation environment)",
+     "https://euinternetpolicy.wordpress.com/2026/10/23/the-councils-digital-omnibus-mandate-what-it-would-change-in-the-gdpr/",
+     "https://www.technology.org/2026/11/10/gdpr-changes-digital-omnibus-council-position/",
+     "https://acompli.ie/news/digital-omnibus-gdpr-cookies-status-september-2026/",
+     "https://www.lydian.be/en/news-insights/digital-omnibus-gdpr-update"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "EUR-Lex was blocked in the compilation environment; core dates are well established. Pending: the Digital Omnibus (Commission proposal of Nov 2025) would amend the GDPR (e.g. personal-data definition / pseudonymised data, Art. 22 automated decision-making, processing for AI development under legitimate interest). As of 2026-11-13, per secondary sources, the Council agreed its mandate on 2026-10-21 and Parliament's position was pending (LIBE/ITRE draft report June 2026); nothing adopted. last_updated reflects original OJ publication; corrigenda exist (incl. OJ L 127, 23.5.2018) but were not re-verified. Clause texts not verbatim-verified."
+   },
+   "clauses": [
+    {
+     "clause_id": "GDPR_2016_Art5_1_a",
+     "policy_id": "GDPR_2016",
+     "section": "Article 5(1)(a)",
+     "original_text": "Personal data shall be: (a) processed lawfully, fairly and in a transparent manner in relation to the data subject ('lawfulness, fairness and transparency');",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "controller",
+     "action": "process",
+     "object": "personal data",
+     "recipient": "data subject",
+     "modality": "MUST",
+     "requirement": "process personal data lawfully, fairly and transparently",
+     "condition": null,
+     "exception": null,
+     "purpose": "protect data subjects' rights and trust",
+     "affected_asset": "personal data and data subjects' rights",
+     "policy_domain": "privacy",
+     "applicable_regions": [
+      "EU",
+      "EEA"
+     ],
+     "applicable_systems": "any system processing personal data, incl. AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Relevant to AI training and inference on personal data; fairness is commonly read to cover discriminatory or deceptive processing.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "GDPR_2016_Art22_1",
+     "policy_id": "GDPR_2016",
+     "section": "Article 22(1)",
+     "original_text": "The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "controller",
+     "action": "subject a data subject to",
+     "object": "decision based solely on automated processing, incl. profiling",
+     "recipient": "data subject",
+     "modality": "MUST NOT",
+     "requirement": "do not subject data subjects to solely automated decisions with legal or similarly significant effects unless an Art. 22(2) exception applies",
+     "condition": "decision is based solely on automated processing and produces legal or similarly significant effects",
+     "exception": "necessary for a contract; authorised by Union/Member State law with safeguards; explicit consent (Art. 22(2))",
+     "purpose": "protect individuals from unaccountable automated decisions",
+     "affected_asset": "data subjects' rights and freedoms",
+     "policy_domain": "fundamental_rights",
+     "applicable_regions": [
+      "EU",
+      "EEA"
+     ],
+     "applicable_systems": "automated decision-making and profiling systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Interpreted by the CJEU (C-634/21 SCHUFA) as a general prohibition. Exceptions in Art. 22(2): contract necessity, Union/Member State law authorisation, explicit consent. The pending Digital Omnibus would amend Art. 22.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "GDPR_2016_Art22_3",
+     "policy_id": "GDPR_2016",
+     "section": "Article 22(3)",
+     "original_text": "In the cases referred to in points (a) and (c) of paragraph 2, the data controller shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "controller",
+     "action": "implement safeguards",
+     "object": "solely automated decision-making",
+     "recipient": "data subject",
+     "modality": "MUST",
+     "requirement": "provide at least human intervention, the right to express a point of view and to contest the decision",
+     "condition": "automated decision relies on contract necessity or explicit consent (Art. 22(2)(a) or (c))",
+     "exception": null,
+     "purpose": "human oversight and contestability of automated decisions",
+     "affected_asset": "data subjects' rights, freedoms and legitimate interests",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "EU",
+      "EEA"
+     ],
+     "applicable_systems": "automated decision-making and profiling systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "GDPR_2016_Art13_2_f",
+     "policy_id": "GDPR_2016",
+     "section": "Article 13(2)(f)",
+     "original_text": "… the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: … (f) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "controller",
+     "action": "inform",
+     "object": "existence and logic of automated decision-making",
+     "recipient": "data subject",
+     "modality": "MUST",
+     "requirement": "disclose automated decision-making incl. meaningful information about the logic, significance and envisaged consequences",
+     "condition": "personal data collected from the data subject and Art. 22 automated decision-making is used",
+     "exception": null,
+     "purpose": "transparency and explainability towards data subjects",
+     "affected_asset": "data subjects' informational self-determination",
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "EU",
+      "EEA"
+     ],
+     "applicable_systems": "automated decision-making and profiling systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Parallel provisions in Art. 14(2)(g) and access right Art. 15(1)(h); scope of 'meaningful information about the logic involved' clarified by CJEU C-203/22 (Dun & Bradstreet Austria).",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "GDPR_2016_Art25_1",
+     "policy_id": "GDPR_2016",
+     "section": "Article 25(1)",
+     "original_text": "Taking into account the state of the art, the cost of implementation and the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for rights and freedoms of natural persons posed by the processing, the controller shall, both at the time of the determination of the means for processing and at the time of the processing itself, implement appropriate technical and organisational measures, such as pseudonymisation, which are designed to implement data-protection principles, such as data minimisation, in an effective manner …",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "controller",
+     "action": "implement",
+     "object": "appropriate technical and organisational measures",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "build data-protection principles into the design and operation of processing (data protection by design)",
+     "condition": "risk-based, taking into account state of the art, costs and nature/scope/context/purposes of processing",
+     "exception": null,
+     "purpose": "effective implementation of data-protection principles",
+     "affected_asset": "personal data",
+     "policy_domain": "privacy",
+     "applicable_regions": [
+      "EU",
+      "EEA"
+     ],
+     "applicable_systems": "any system processing personal data, incl. AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "GDPR_2016_Art35_1",
+     "policy_id": "GDPR_2016",
+     "section": "Article 35(1)",
+     "original_text": "Where a type of processing in particular using new technologies, and taking into account the nature, scope, context and purposes of the processing, is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data. …",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "controller",
+     "action": "carry out prior to processing",
+     "object": "data protection impact assessment (DPIA)",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "conduct a DPIA before high-risk processing",
+     "condition": "processing, in particular using new technologies, is likely to result in a high risk to rights and freedoms",
+     "exception": null,
+     "purpose": "identify and mitigate high risks before processing",
+     "affected_asset": "rights and freedoms of natural persons",
+     "policy_domain": "privacy",
+     "applicable_regions": [
+      "EU",
+      "EEA"
+     ],
+     "applicable_systems": "high-risk processing incl. AI/new technologies",
+     "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Art. 35(3)(a) specifically requires a DPIA for systematic and extensive evaluation based on automated processing, incl. profiling, producing legal or similarly significant effects.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "Google_AI_Principles",
+   "policy_name": "Google AI Principles",
+   "short_name": "Google AI Principles",
+   "policy_type": "internal_policy",
+   "source_uri": "https://ai.google/principles/",
+   "issuing_authority": "Google LLC (Alphabet Inc.)",
+   "jurisdiction": "Organization",
+   "country_region": "Global (Google, United States-headquartered)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "Corporate AI principles (self-regulation)",
+   "geo_constraints": "Applies to Google's AI research, products and services worldwide",
+   "industry_scope": [
+    "general",
+    "technology"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2025-02-04",
+   "key_dates": [
+    {
+     "date": "2018-06-07",
+     "event": "Original Google AI Principles published (7 objectives + 'AI applications we will not pursue')"
+    },
+    {
+     "date": "2025-02-04",
+     "event": "Revised AI Principles published (Bold innovation; Responsible development and deployment; Collaborative progress, together), removing the 2018 list of applications Google would not pursue"
+    }
+   ],
+   "expiration_date": null,
+   "version": "Revised version, February 2025",
+   "last_updated": "2025-02-04",
+   "covered_entities": [
+    "Google / Google DeepMind"
+   ],
+   "covered_systems": [
+    "Google AI models, products and services"
+   ],
+   "covered_activities": [
+    "research",
+    "development",
+    "deployment"
+   ],
+   "exceptions": [],
+   "conditions": [],
+   "objective": "States the principles that guide Google's AI research, development and deployment: pursuing bold innovation where benefits substantially outweigh foreseeable risks, developing and deploying AI responsibly with human oversight and safeguards, and collaborating with others.",
+   "policy_domain": [
+    "innovation",
+    "safety",
+    "fairness",
+    "privacy",
+    "security",
+    "fundamental_rights"
+   ],
+   "principles": [
+    "bold innovation",
+    "responsible development and deployment",
+    "collaborative progress, together",
+    "human oversight",
+    "avoid unfair bias",
+    "privacy and security"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "Google AI Principles (June 2018)",
+     "relation": "supersedes",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Google DeepMind Frontier Safety Framework",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "G7_Hiroshima_CoC_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    }
+   ],
+   "conflict_rule": "Corporate principles; applicable law prevails. The 2025 text refers to alignment with widely accepted principles of international law and human rights.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://ai.google/principles/ (identified; host not reachable)",
+     "https://ai.google/static/documents/ai-responsibility-update-published-february-2025.pdf (search result only)",
+     "https://blog.google/technology/ai/ai-principles/ (search result only)",
+     "https://www.theregister.com/2025/02/05/google_ai_principles_update/ (search result only)"
+    ],
+    "notes": "The official page could not be fetched (network policy), so clauses are paraphrases (text_is_verbatim=false), though several phrases are corroborated by search-result excerpts. Revision date 4 Feb 2025 per contemporaneous press and Google's 'Responsible AI: Our 2024 report and ongoing work' post. The 2018 AI Principles (published 7 June 2018) are superseded; the 2025 revision removed the 2018 commitments not to pursue weapons and certain surveillance applications. Wording of the third principle reported variously ('Collaborative progress, together'); not verified on the live page. No later revision found as of Nov 2026 (not exhaustively verified). binding=false: corporate principles binding on Google only as internal policy.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+   },
+   "clauses": [
+    {
+     "clause_id": "Google_AI_Principles_Bold_Innovation",
+     "policy_id": "Google_AI_Principles",
+     "section": "Principle 1: Bold innovation",
+     "original_text": "Google develops AI to assist, empower and inspire people in almost every field of human endeavor, drive economic progress and enable scientific breakthroughs, pursuing AI where the likely overall benefits substantially outweigh the foreseeable risks.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Google (incl. Google DeepMind)",
+     "action": "develop and deploy",
+     "object": "AI systems",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "pursue AI development where likely overall benefits substantially outweigh foreseeable risks",
+     "condition": null,
+     "exception": null,
+     "purpose": "beneficial innovation",
+     "affected_asset": "people and society",
+     "policy_domain": "innovation",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "Google AI models and applications",
+     "interpretation_notes": "Paraphrase: ai.google could not be fetched from the compilation environment, so wording is not verified verbatim (partial phrases corroborated by search-result excerpts). Benefit-risk test wording recalled from the 2025 principles.",
+     "ambiguity": "high",
+     "interpretation_confidence": 0.5,
+     "human_verified": false
+    },
+    {
+     "clause_id": "Google_AI_Principles_Human_Oversight",
+     "policy_id": "Google_AI_Principles",
+     "section": "Principle 2: Responsible development and deployment",
+     "original_text": "Implementing appropriate human oversight, due diligence, and feedback mechanisms to align with user goals, social responsibility, and widely accepted principles of international law and human rights.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Google (incl. Google DeepMind)",
+     "action": "implement",
+     "object": "human oversight, due diligence and feedback mechanisms",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "apply human oversight and due diligence aligned with international law and human rights",
+     "condition": null,
+     "exception": null,
+     "purpose": "align AI with user goals, social responsibility, international law and human rights",
+     "affected_asset": "human rights; users",
+     "policy_domain": "fundamental_rights",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "Google AI models and applications",
+     "interpretation_notes": "Paraphrase: ai.google could not be fetched from the compilation environment, so wording is not verified verbatim (partial phrases corroborated by search-result excerpts). This phrase appeared quoted in multiple search-result excerpts and is believed accurate, but was not fetched from the official page. Replaces the 2018 list of 'AI applications we will not pursue' (weapons, surveillance violating internationally accepted norms, etc.).",
+     "ambiguity": "high",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "Google_AI_Principles_Testing_Safeguards",
+     "policy_id": "Google_AI_Principles",
+     "section": "Principle 2: Responsible development and deployment",
+     "original_text": "Employing rigorous design, testing, monitoring, and safeguards to mitigate unintended or harmful outcomes and avoid unfair bias.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Google (incl. Google DeepMind)",
+     "action": "employ",
+     "object": "design, testing, monitoring and safeguards",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "test, monitor and safeguard AI systems to mitigate harmful outcomes and unfair bias",
+     "condition": null,
+     "exception": null,
+     "purpose": "safety and fairness",
+     "affected_asset": "users and affected people",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "Google AI models and applications",
+     "interpretation_notes": "Paraphrase: ai.google could not be fetched from the compilation environment, so wording is not verified verbatim (partial phrases corroborated by search-result excerpts). ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.5,
+     "human_verified": false
+    },
+    {
+     "clause_id": "Google_AI_Principles_Safety_Research",
+     "policy_id": "Google_AI_Principles",
+     "section": "Principle 2: Responsible development and deployment",
+     "original_text": "Investing in industry-leading approaches to advance safety and security research and benchmarks, pioneering technical solutions to address risks, and sharing learnings with the ecosystem.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Google (incl. Google DeepMind)",
+     "action": "invest in and share",
+     "object": "AI safety and security research, benchmarks and technical risk mitigations",
+     "recipient": "the AI ecosystem",
+     "modality": "SHOULD",
+     "requirement": "advance and share AI safety and security research",
+     "condition": null,
+     "exception": null,
+     "purpose": "address AI risks across the ecosystem",
+     "affected_asset": "public safety",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "Google AI models",
+     "interpretation_notes": "Paraphrase: ai.google could not be fetched from the compilation environment, so wording is not verified verbatim (partial phrases corroborated by search-result excerpts). ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.5,
+     "human_verified": false
+    },
+    {
+     "clause_id": "Google_AI_Principles_Privacy_IP",
+     "policy_id": "Google_AI_Principles",
+     "section": "Principle 2: Responsible development and deployment",
+     "original_text": "Promoting privacy and security, and respecting intellectual property rights.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Google (incl. Google DeepMind)",
+     "action": "promote / respect",
+     "object": "privacy, security and intellectual property rights",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "protect privacy and security and respect IP rights in AI development and deployment",
+     "condition": null,
+     "exception": null,
+     "purpose": "protect individuals' data and rights holders",
+     "affected_asset": "personal data; intellectual property",
+     "policy_domain": "privacy",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "Google AI models and applications",
+     "interpretation_notes": "Paraphrase: ai.google could not be fetched from the compilation environment, so wording is not verified verbatim (partial phrases corroborated by search-result excerpts). ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.5,
      "human_verified": false
     }
    ]
@@ -2418,12 +4652,12 @@
     {
      "policy": "OECD_AI_Principles_2019",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "EU_AI_Act_2024",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "Microsoft Responsible AI Standard v1 (2019, internal)",
@@ -2725,7 +4959,7 @@
     {
      "policy": "EU_AI_Act_2024",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     }
    ],
    "conflict_rule": "Admin. Code § 20-874: the subchapter does not limit any right of a candidate or employee to bring a civil action, or the authority of the NYC Commission on Human Rights to enforce the NYC Human Rights Law (paraphrased).",
@@ -2879,6 +5113,494 @@
      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Penalty amounts per compiler's knowledge of statute; DCWP penalty schedule may set lower defaults.",
      "ambiguity": "medium",
      "interpretation_confidence": 0.7,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "OECD_AI_Principles_2019",
+   "policy_name": "Recommendation of the Council on Artificial Intelligence (OECD/LEGAL/0449)",
+   "short_name": "OECD AI Principles",
+   "policy_type": "international_instrument",
+   "source_uri": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449",
+   "issuing_authority": "OECD Council",
+   "jurisdiction": "International",
+   "country_region": "OECD members and adherent non-member countries",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en",
+    "fr"
+   ],
+   "regulatory_regime": "OECD Recommendation (soft law)",
+   "geo_constraints": "Adherents (OECD members and non-members that adhered); addressed to governments and, via governments, all AI actors",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2019-05-22",
+   "key_dates": [
+    {
+     "date": "2019-05-22",
+     "event": "Adopted by the OECD Council at Ministerial level"
+    },
+    {
+     "date": "2019-06-09",
+     "event": "G20 AI Principles drawing on the OECD Principles welcomed (date from general knowledge; not verified)"
+    },
+    {
+     "date": "2023-11-08",
+     "event": "Council revises the definition of 'AI system' (date from general knowledge; not verified on official host)"
+    },
+    {
+     "date": "2024-05-03",
+     "event": "Council adopts revised Recommendation (updated principles incl. safety, information integrity, rule of law)"
+    }
+   ],
+   "expiration_date": null,
+   "version": "OECD/LEGAL/0449, as amended 3 May 2024",
+   "last_updated": "2024-05-03",
+   "covered_entities": [
+    "Adherent governments",
+    "AI actors (those who play an active role in the AI system lifecycle)"
+   ],
+   "covered_systems": [
+    "AI systems"
+   ],
+   "covered_activities": [
+    "AI system lifecycle activities",
+    "national AI policies and international cooperation"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "applies to adherents; non-binding"
+   ],
+   "objective": "Foster innovation and trust in AI by promoting responsible stewardship of trustworthy AI that respects human rights and democratic values, and set recommendations for national policies and international cooperation.",
+   "policy_domain": [
+    "governance",
+    "fundamental_rights",
+    "safety",
+    "transparency",
+    "accountability",
+    "innovation"
+   ],
+   "principles": [
+    "inclusive growth, sustainable development and well-being",
+    "respect for the rule of law, human rights and democratic values, including fairness and privacy",
+    "transparency and explainability",
+    "robustness, security and safety",
+    "accountability"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "G7_Hiroshima_CoC_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "UNESCO_AI_Ethics_2021",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "CoE_AI_Convention_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "NIST_AI_RMF_2023",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "G20 AI Principles (2019)",
+     "relation": "complements",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Non-binding soft law; no conflict rule. Adherents implement through domestic measures.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449 (not reachable from compilation environment)",
+     "https://oecd.ai/en/ai-principles (not fetched)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "OECD hosts were blocked; adoption (2019-05-22) and revision (2024-05-03) dates are from well-established knowledge, not re-verified. Number of adherents changes over time and is not recorded. Clause texts reflect the 2024 revised wording as recalled; not verbatim-verified."
+   },
+   "clauses": [
+    {
+     "clause_id": "OECD_AI_Principles_2019_P1_2",
+     "policy_id": "OECD_AI_Principles_2019",
+     "section": "Principle 1.2 (Respect for the rule of law, human rights and democratic values, including fairness and privacy)",
+     "original_text": "AI actors should respect the rule of law, human rights, democratic and human-centred values throughout the AI system lifecycle. These include non-discrimination and equality, freedom, dignity, autonomy of individuals, privacy and data protection, diversity, fairness, social justice, and internationally recognised labour rights. … To this end, AI actors should implement mechanisms and safeguards, such as capacity for human agency and oversight, including to address risks arising from uses outside of intended purpose, intentional misuse, or unintentional misuse in a manner appropriate to the context and consistent with the state of the art.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI actors",
+     "action": "respect; implement safeguards",
+     "object": "AI system lifecycle",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "respect rule of law, human rights and democratic values; implement human agency and oversight safeguards",
+     "condition": null,
+     "exception": null,
+     "purpose": "human-centred, rights-respecting AI",
+     "affected_asset": "human rights and democratic values",
+     "policy_domain": "fundamental_rights",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (legalinstruments.oecd.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.7,
+     "human_verified": false
+    },
+    {
+     "clause_id": "OECD_AI_Principles_2019_P1_3",
+     "policy_id": "OECD_AI_Principles_2019",
+     "section": "Principle 1.3 (Transparency and explainability)",
+     "original_text": "AI Actors should commit to transparency and responsible disclosure regarding AI systems. To this end, they should provide meaningful information, appropriate to the context, and consistent with the state of art: … to make stakeholders aware of their interactions with AI systems, including in the workplace, … where feasible and useful, to provide plain and easy-to-understand information on the sources of data/input, factors, processes and/or logic that led to the prediction, content, recommendation or decision, to enable those affected by an AI system to understand the output, and, to provide information that enable those adversely affected by an AI system to challenge its output.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI actors",
+     "action": "provide meaningful information",
+     "object": "AI systems and their outputs",
+     "recipient": "stakeholders and affected persons",
+     "modality": "SHOULD",
+     "requirement": "disclose AI interactions and explain outputs to enable understanding and challenge",
+     "condition": "appropriate to context and consistent with state of the art; where feasible and useful",
+     "exception": null,
+     "purpose": "transparency, understanding and contestability",
+     "affected_asset": "affected persons' ability to understand and challenge AI outputs",
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (legalinstruments.oecd.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    },
+    {
+     "clause_id": "OECD_AI_Principles_2019_P1_4",
+     "policy_id": "OECD_AI_Principles_2019",
+     "section": "Principle 1.4 (Robustness, security and safety)",
+     "original_text": "a) AI systems should be robust, secure and safe throughout their entire lifecycle so that, in conditions of normal use, foreseeable use or misuse, or other adverse conditions, they function appropriately and do not pose unreasonable safety and/or security risks. b) Mechanisms should be in place, as appropriate, to ensure that if AI systems risk causing undue harm or exhibit undesired behaviour, they can be overridden, repaired, and/or decommissioned safely as needed. c) Mechanisms should also, where technically feasible, be in place to bolster information integrity while ensuring respect for freedom of expression.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI actors",
+     "action": "ensure; put mechanisms in place",
+     "object": "AI systems",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "ensure robustness, security and safety; enable safe override, repair or decommissioning; bolster information integrity",
+     "condition": "throughout lifecycle, incl. normal use, foreseeable use or misuse",
+     "exception": null,
+     "purpose": "prevent unreasonable safety/security risks and undue harm",
+     "affected_asset": "safety and security of people; information integrity",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (legalinstruments.oecd.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Points (b) and (c) were added in the 2024 revision.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.75,
+     "human_verified": false
+    },
+    {
+     "clause_id": "OECD_AI_Principles_2019_P1_5",
+     "policy_id": "OECD_AI_Principles_2019",
+     "section": "Principle 1.5 (Accountability)",
+     "original_text": "AI actors should be accountable for the proper functioning of AI systems and for the respect of the above principles, based on their roles, the context, and consistent with the state of the art. … AI actors should, based on their roles, the context, and their ability to act, apply a systematic risk management approach to each phase of the AI system lifecycle on an ongoing basis and adopt responsible business conduct to address risks related to AI systems, …",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI actors",
+     "action": "be accountable; apply systematic risk management",
+     "object": "AI systems",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "be accountable and apply systematic, ongoing lifecycle risk management",
+     "condition": "based on roles, context and ability to act",
+     "exception": null,
+     "purpose": "accountability for trustworthy AI",
+     "affected_asset": "those affected by AI systems",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (legalinstruments.oecd.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. The risk-management sentence reflects the 2024 revision.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "OpenAI_Preparedness_Framework",
+   "policy_name": "OpenAI Preparedness Framework",
+   "short_name": "Preparedness Framework",
+   "policy_type": "internal_policy",
+   "source_uri": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+   "issuing_authority": "OpenAI",
+   "jurisdiction": "Organization",
+   "country_region": "Global (OpenAI, United States-headquartered)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "Voluntary frontier AI safety framework (self-regulation)",
+   "geo_constraints": "Applies to OpenAI's frontier model development and deployment worldwide",
+   "industry_scope": [
+    "frontier_ai_development"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2025-04-15",
+   "key_dates": [
+    {
+     "date": "2023-12-18",
+     "event": "Preparedness Framework (Beta) published"
+    },
+    {
+     "date": "2025-04-15",
+     "event": "Version 2 published (last updated date printed on PDF)"
+    },
+    {
+     "date": "2026-05-28",
+     "event": "OpenAI reportedly published a 'Frontier Governance Framework' mapping the Preparedness Framework onto CA SB 53 and the EU GPAI Code of Practice (secondary sources only; unverified)"
+    },
+    {
+     "date": "2026-07",
+     "event": "Preparedness team reportedly disbanded (press report; unverified); no Framework revision found"
+    }
+   ],
+   "expiration_date": null,
+   "version": "Version 2 (last updated 15 April 2025)",
+   "last_updated": "2025-04-15",
+   "covered_entities": [
+    "OpenAI"
+   ],
+   "covered_systems": [
+    "OpenAI frontier models"
+   ],
+   "covered_activities": [
+    "capability evaluation",
+    "development",
+    "deployment",
+    "safeguards design",
+    "governance decisions"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "Obligations scale with High/Critical capability thresholds in Tracked Categories"
+   ],
+   "objective": "OpenAI's framework for tracking and preparing for frontier AI capabilities that could create new risks of severe harm, by evaluating models against capability thresholds and requiring safeguards that sufficiently minimize risk before deployment or further development.",
+   "policy_domain": [
+    "safety",
+    "security",
+    "governance"
+   ],
+   "principles": [
+    "risk thresholds",
+    "safeguards before deployment",
+    "internal governance oversight",
+    "transparency via system cards"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "Preparedness Framework (Beta), December 2023",
+     "relation": "supersedes",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Anthropic_RSP",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "CA_SB53_2025",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "EU_GPAI_CoP_2025",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "OpenAI Frontier Governance Framework (reported May 2026; unverified)",
+     "relation": "complements",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Self-imposed policy; statutory obligations (e.g., CA SB 53, EU AI Act GPAI obligations) apply independently.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf (identified via search, titled 'Preparedness Framework Version 2. Last updated: 15th April, 2025'; host not reachable)",
+     "Web search results incl. https://www.startuphub.ai/ai-news/artificial-intelligence/2026/openai-rolls-out-frontier-governance-framework and https://www.pk-sharma.com/briefing/openai-preparedness-team-dissolved-framework-intact (secondary)"
+    ],
+    "notes": "OpenAI hosts were blocked by the compilation environment's network policy, so clauses are paraphrases (text_is_verbatim=false). Version 2 (15 Apr 2025) is the latest version identified as of Nov 2026, but this could not be confirmed on openai.com. Secondary sources report (a) a 'Frontier Governance Framework' published ~28 May 2026 as a regulatory-facing document built on the Preparedness Framework, and (b) disbanding of the Preparedness team around end of July 2026; both unverified and recorded only in key_dates/notes. binding=false: voluntary framework binding on OpenAI itself only, though statutes such as CA SB 53 may require publishing and following a frontier AI framework.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+   },
+   "clauses": [
+    {
+     "clause_id": "OpenAI_Preparedness_Framework_Tracked_Categories",
+     "policy_id": "OpenAI_Preparedness_Framework",
+     "section": "Tracked Categories (Biological and Chemical; Cybersecurity; AI Self-improvement)",
+     "original_text": "OpenAI tracks three frontier capability categories it treats as plausible, measurable, severe, net-new and instantaneous-or-irremediable risks: Biological and Chemical, Cybersecurity, and AI Self-improvement, each with High and Critical capability thresholds; further areas (e.g., long-range autonomy, sandbagging, autonomous replication and adaptation, undermining safeguards, nuclear and radiological) are Research Categories.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "OpenAI",
+     "action": "evaluate and track",
+     "object": "frontier model capabilities in Tracked Categories",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "evaluate covered models against High and Critical thresholds in each Tracked Category",
+     "condition": null,
+     "exception": null,
+     "purpose": "identify severe-harm capabilities before deployment",
+     "affected_asset": "public safety",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "OpenAI frontier models",
+     "interpretation_notes": "Paraphrase: the official PDF (cdn.openai.com) could not be fetched from the compilation environment, so wording is from knowledge of v2 and is not verbatim; section headings are descriptive, not verified section numbers. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "OpenAI_Preparedness_Framework_High_Threshold",
+     "policy_id": "OpenAI_Preparedness_Framework",
+     "section": "Capability thresholds: High",
+     "original_text": "Models that reach High capability in a Tracked Category must have safeguards that sufficiently minimize the associated risk of severe harm before they are deployed.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "OpenAI",
+     "action": "deploy only with adequate safeguards",
+     "object": "models reaching High capability",
+     "recipient": null,
+     "modality": "MUST NOT",
+     "requirement": "do not deploy a High-capability model until safeguards sufficiently minimize the associated severe-harm risk",
+     "condition": "model reaches the High threshold in a Tracked Category",
+     "exception": null,
+     "purpose": "prevent severe harm from deployment",
+     "affected_asset": "public safety",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "OpenAI frontier models at High capability",
+     "interpretation_notes": "Paraphrase: the official PDF (cdn.openai.com) could not be fetched from the compilation environment, so wording is from knowledge of v2 and is not verbatim; section headings are descriptive, not verified section numbers. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    },
+    {
+     "clause_id": "OpenAI_Preparedness_Framework_Critical_Threshold",
+     "policy_id": "OpenAI_Preparedness_Framework",
+     "section": "Capability thresholds: Critical",
+     "original_text": "Models that reach Critical capability also require safeguards that sufficiently minimize the associated risks during development, not only at deployment.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "OpenAI",
+     "action": "apply safeguards during development",
+     "object": "models reaching Critical capability",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "implement safeguards sufficiently minimizing risk during further development of Critical-capability models",
+     "condition": "model reaches the Critical threshold in a Tracked Category",
+     "exception": null,
+     "purpose": "prevent severe harm including from internal development",
+     "affected_asset": "public safety",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "OpenAI frontier models at Critical capability",
+     "interpretation_notes": "Paraphrase: the official PDF (cdn.openai.com) could not be fetched from the compilation environment, so wording is from knowledge of v2 and is not verbatim; section headings are descriptive, not verified section numbers. ",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "OpenAI_Preparedness_Framework_SAG_Governance",
+     "policy_id": "OpenAI_Preparedness_Framework",
+     "section": "Governance: Safety Advisory Group, Leadership and Board Safety and Security Committee",
+     "original_text": "The Safety Advisory Group reviews Capabilities Reports and Safeguards Reports and makes recommendations on whether safeguards sufficiently minimize risk; OpenAI Leadership makes the decision, and the Safety and Security Committee of the Board oversees these decisions.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "OpenAI Safety Advisory Group; OpenAI Leadership",
+     "action": "review, recommend, decide",
+     "object": "Capabilities Reports and Safeguards Reports",
+     "recipient": "Board Safety and Security Committee",
+     "modality": "MUST",
+     "requirement": "route deployment/development decisions for covered models through SAG review, leadership decision and board-committee oversight",
+     "condition": null,
+     "exception": null,
+     "purpose": "accountable decision-making on severe-risk models",
+     "affected_asset": "public safety; governance",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "OpenAI frontier models",
+     "interpretation_notes": "Paraphrase: the official PDF (cdn.openai.com) could not be fetched from the compilation environment, so wording is from knowledge of v2 and is not verbatim; section headings are descriptive, not verified section numbers. Governance bodies corroborated by secondary sources.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "OpenAI_Preparedness_Framework_Marginal_Risk_Adjustment",
+     "policy_id": "OpenAI_Preparedness_Framework",
+     "section": "Adjustments in response to other frontier developers",
+     "original_text": "If another frontier AI developer releases a high-risk system without comparable safeguards, OpenAI may adjust its requirements, but only after rigorously confirming the changed risk landscape, publicly acknowledging the adjustment, assessing that it does not meaningfully increase overall risk of severe harm, and keeping safeguards at a level more protective.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "OpenAI",
+     "action": "adjust safeguard requirements",
+     "object": "Preparedness Framework requirements",
+     "recipient": null,
+     "modality": "MAY",
+     "requirement": "may relax requirements only under stated conditions including public acknowledgement",
+     "condition": "another developer releases a high-risk system without comparable safeguards; risk landscape rigorously confirmed",
+     "exception": null,
+     "purpose": "competitive flexibility bounded by risk conditions",
+     "affected_asset": "public safety",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "global"
+     ],
+     "applicable_systems": "OpenAI frontier models",
+     "interpretation_notes": "Paraphrase: the official PDF (cdn.openai.com) could not be fetched from the compilation environment, so wording is from knowledge of v2 and is not verbatim; section headings are descriptive, not verified section numbers. Conditions recalled from v2; exact list and wording should be checked against the PDF.",
+     "ambiguity": "high",
+     "interpretation_confidence": 0.5,
      "human_verified": false
     }
    ]
@@ -3173,6 +5895,255 @@
      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. No private right of action.",
      "ambiguity": "medium",
      "interpretation_confidence": 0.7,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "UNESCO_AI_Ethics_2021",
+   "policy_name": "Recommendation on the Ethics of Artificial Intelligence",
+   "short_name": "UNESCO AI Ethics Recommendation",
+   "policy_type": "international_instrument",
+   "source_uri": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+   "issuing_authority": "UNESCO General Conference (41st session)",
+   "jurisdiction": "International",
+   "country_region": "UNESCO Member States (193)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "ar",
+    "en",
+    "es",
+    "fr",
+    "ru",
+    "zh"
+   ],
+   "regulatory_regime": "UNESCO standard-setting instrument (Recommendation; soft law)",
+   "geo_constraints": "Addressed to UNESCO Member States, and through them to AI actors",
+   "industry_scope": [
+    "general",
+    "public_sector",
+    "education",
+    "healthcare",
+    "employment",
+    "environment"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2021-11-23",
+   "key_dates": [
+    {
+     "date": "2021-11-23",
+     "event": "Adopted by the UNESCO General Conference at its 41st session"
+    }
+   ],
+   "expiration_date": null,
+   "version": "SHS/BIO/PI/2021/1 (document code from general knowledge; not verified)",
+   "last_updated": "2021-11-23",
+   "covered_entities": [
+    "UNESCO Member States",
+    "AI actors (incl. researchers, developers, deployers, companies, users)"
+   ],
+   "covered_systems": [
+    "AI systems (broadly understood as systems with the capacity to process data in a way resembling intelligent behaviour)"
+   ],
+   "covered_activities": [
+    "entire AI system lifecycle: research, design, development, deployment, use, maintenance, termination"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "non-binding; Member States invited to apply via legislative or other measures and report periodically"
+   ],
+   "objective": "Provide a universal framework of values, principles and policy actions to guide States in ensuring that AI systems work for the good of humanity, individuals, societies and the environment and prevent harm.",
+   "policy_domain": [
+    "fundamental_rights",
+    "governance",
+    "fairness",
+    "privacy",
+    "transparency",
+    "accountability",
+    "safety"
+   ],
+   "principles": [
+    "proportionality and do no harm",
+    "safety and security",
+    "fairness and non-discrimination",
+    "sustainability",
+    "right to privacy and data protection",
+    "human oversight and determination",
+    "transparency and explainability",
+    "responsibility and accountability",
+    "awareness and literacy",
+    "multi-stakeholder and adaptive governance"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "CoE_AI_Convention_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "UNESCO Readiness Assessment Methodology and Ethical Impact Assessment tool",
+     "relation": "implements",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Non-binding; to be applied consistent with international human rights law and Member States' constitutional practice.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://unesdoc.unesco.org/ark:/48223/pf0000381137 (not reachable from compilation environment)",
+     "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics (not fetched)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "UNESCO hosts were blocked. Adoption date 2021-11-23 is from well-established knowledge (some sources cite 24 Nov 2021). The pf0000381137 identifier and document code are from memory and not verified. Paragraph numbers were NOT verified, so clause sections cite headings rather than paragraph numbers. Clause texts are paraphrases/reconstructions, not verbatim."
+   },
+   "clauses": [
+    {
+     "clause_id": "UNESCO_AI_Ethics_2021_Proportionality_DoNoHarm",
+     "policy_id": "UNESCO_AI_Ethics_2021",
+     "section": "Section III.2 Principles - Proportionality and Do No Harm",
+     "original_text": "The choice to use AI systems and which AI method to use should be justified: the method should be appropriate and proportional to achieve a legitimate aim, should not infringe human rights, and should be appropriate to the context. Where decisions may have irreversible or difficult-to-reverse impacts or involve life and death, final human determination should apply. AI systems in particular should not be used for social scoring or mass surveillance purposes.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Member States / AI actors",
+     "action": "justify and limit use",
+     "object": "AI systems",
+     "recipient": null,
+     "modality": "SHOULD NOT",
+     "requirement": "use AI only where proportionate to a legitimate aim; not for social scoring or mass surveillance",
+     "condition": null,
+     "exception": null,
+     "purpose": "prevent harm and rights infringements",
+     "affected_asset": "human rights and dignity",
+     "policy_domain": "fundamental_rights",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (unesdoc.unesco.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase/reconstruction; paragraph number not verified.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "UNESCO_AI_Ethics_2021_Human_Oversight",
+     "policy_id": "UNESCO_AI_Ethics_2021",
+     "section": "Section III.2 Principles - Human oversight and determination",
+     "original_text": "Member States should ensure that it is always possible to attribute ethical and legal responsibility for any stage of the life cycle of AI systems, as well as in cases of remedy related to AI systems, to physical persons or to existing legal entities. … An AI system can never replace ultimate human responsibility and accountability.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Member States",
+     "action": "ensure attributability of responsibility",
+     "object": "AI system lifecycle",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "ensure responsibility for AI is always attributable to natural or legal persons; humans retain ultimate responsibility",
+     "condition": null,
+     "exception": null,
+     "purpose": "accountability and human control",
+     "affected_asset": "human agency and accountability",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (unesdoc.unesco.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Reconstruction; paragraph number not verified.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "UNESCO_AI_Ethics_2021_Fairness_NonDiscrimination",
+     "policy_id": "UNESCO_AI_Ethics_2021",
+     "section": "Section III.2 Principles - Fairness and non-discrimination",
+     "original_text": "AI actors should promote social justice and safeguard fairness and non-discrimination of any kind, and should make all reasonable efforts to minimize and avoid reinforcing or perpetuating discriminatory or biased applications and outcomes throughout the life cycle of AI systems, to ensure fairness of such systems.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI actors",
+     "action": "minimize and avoid",
+     "object": "discriminatory or biased applications and outcomes",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "make reasonable efforts to avoid biased or discriminatory outcomes across the lifecycle",
+     "condition": null,
+     "exception": null,
+     "purpose": "social justice and fairness",
+     "affected_asset": "equal treatment of individuals and groups",
+     "policy_domain": "fairness",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (unesdoc.unesco.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Reconstruction; paragraph number not verified.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "UNESCO_AI_Ethics_2021_Policy_Area_1_EIA",
+     "policy_id": "UNESCO_AI_Ethics_2021",
+     "section": "Section IV Policy Area 1 - Ethical Impact Assessment",
+     "original_text": "Member States should introduce frameworks for impact assessments, such as ethical impact assessments, to identify and assess benefits, concerns and risks of AI systems, as well as appropriate risk prevention, mitigation and monitoring measures, among other assurance mechanisms.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Member States",
+     "action": "introduce",
+     "object": "ethical impact assessment frameworks",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "establish impact assessment frameworks identifying benefits, risks and mitigation/monitoring measures",
+     "condition": null,
+     "exception": null,
+     "purpose": "anticipate and mitigate AI risks",
+     "affected_asset": "human rights, environment and society",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (unesdoc.unesco.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase; paragraph number not verified.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
+     "human_verified": false
+    },
+    {
+     "clause_id": "UNESCO_AI_Ethics_2021_Privacy",
+     "policy_id": "UNESCO_AI_Ethics_2021",
+     "section": "Section III.2 Principles - Right to Privacy and Data Protection",
+     "original_text": "Privacy, a right essential to the protection of human dignity, human autonomy and human agency, must be respected, protected and promoted throughout the life cycle of AI systems. It is important that data for AI systems be collected, used, shared, archived and deleted in ways that are consistent with international law and in line with the values and principles set forth in this Recommendation.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI actors / Member States",
+     "action": "respect, protect and promote",
+     "object": "privacy and personal data",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "handle data for AI consistent with international law and the Recommendation's values",
+     "condition": null,
+     "exception": null,
+     "purpose": "protect dignity, autonomy and agency",
+     "affected_asset": "privacy",
+     "policy_domain": "privacy",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems",
+     "interpretation_notes": "Not verbatim-verified: the official host (unesdoc.unesco.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Reconstruction; paragraph number not verified.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
      "human_verified": false
     }
    ]

@@ -1,0 +1,331 @@
+{
+  "policy_id": "GDPR_2016",
+  "policy_name": "Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (General Data Protection Regulation)",
+  "short_name": "GDPR",
+  "policy_type": "regulation",
+  "source_uri": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+  "issuing_authority": "European Parliament and Council of the European Union",
+  "jurisdiction": "EU",
+  "country_region": "European Union (27 member states); EEA",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "et",
+    "fi",
+    "fr",
+    "ga",
+    "hr",
+    "hu",
+    "it",
+    "lt",
+    "lv",
+    "mt",
+    "nl",
+    "pl",
+    "pt",
+    "ro",
+    "sk",
+    "sl",
+    "sv"
+  ],
+  "regulatory_regime": "EU data protection law (GDPR)",
+  "geo_constraints": "Processing in the context of an EU establishment, or by non-EU controllers/processors offering goods or services to, or monitoring the behaviour of, data subjects in the EU (Art. 3)",
+  "industry_scope": [
+    "general"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2018-05-25",
+  "key_dates": [
+    {
+      "date": "2016-04-27",
+      "event": "Adopted"
+    },
+    {
+      "date": "2016-05-04",
+      "event": "Published in OJ L 119"
+    },
+    {
+      "date": "2016-05-24",
+      "event": "Entry into force"
+    },
+    {
+      "date": "2018-05-25",
+      "event": "Applies"
+    },
+    {
+      "date": "2025-11-19",
+      "event": "Commission proposes Digital Omnibus including targeted GDPR amendments (date per general knowledge; not verified on official host)"
+    },
+    {
+      "date": "2026-10-21",
+      "event": "Council agrees negotiating mandate on Digital Omnibus GDPR amendments (per secondary sources); Parliament position pending; not adopted"
+    }
+  ],
+  "expiration_date": null,
+  "version": "OJ L 119, 4.5.2016, p. 1 (with corrigenda)",
+  "last_updated": "2016-05-04",
+  "covered_entities": [
+    "controllers",
+    "processors",
+    "representatives of non-EU controllers/processors"
+  ],
+  "covered_systems": [
+    "any wholly or partly automated processing of personal data, incl. AI/ML systems processing personal data",
+    "automated individual decision-making and profiling"
+  ],
+  "covered_activities": [
+    "processing of personal data",
+    "profiling",
+    "automated decision-making",
+    "transfers to third countries"
+  ],
+  "exceptions": [
+    "purely personal or household activity (Art. 2(2)(c))",
+    "activities outside the scope of Union law, incl. national security (Art. 2(2)(a))",
+    "competent authorities for criminal law enforcement (covered by Directive (EU) 2016/680) (Art. 2(2)(d))",
+    "anonymous information (Recital 26)"
+  ],
+  "conditions": [
+    "applies only where personal data are processed",
+    "Art. 22 applies to decisions based solely on automated processing producing legal or similarly significant effects",
+    "DPIA (Art. 35) required where processing is likely to result in high risk"
+  ],
+  "objective": "Protect fundamental rights and freedoms of natural persons, in particular the right to protection of personal data, while ensuring the free movement of personal data within the Union.",
+  "policy_domain": [
+    "privacy",
+    "fundamental_rights",
+    "accountability",
+    "transparency"
+  ],
+  "principles": [
+    "lawfulness, fairness and transparency",
+    "purpose limitation",
+    "data minimisation",
+    "accuracy",
+    "storage limitation",
+    "integrity and confidentiality",
+    "accountability",
+    "data protection by design and by default"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "Directive (EU) 2016/680 (Law Enforcement Directive)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Directive 95/46/EC (Data Protection Directive)",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "Digital Omnibus proposal amending GDPR (pending)",
+      "relation": "amended_by"
+    },
+    {
+      "policy": "CoE_AI_Convention_2024",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Directly applicable Union regulation; the AI Act applies without prejudice to the GDPR (AI Act Art. 2(7)); Directive (EU) 2016/680 governs law-enforcement processing; ePrivacy Directive is lex specialis for electronic communications (Art. 95).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://eur-lex.europa.eu/eli/reg/2016/679/oj (not reachable from compilation environment)",
+      "https://euinternetpolicy.wordpress.com/2026/10/23/the-councils-digital-omnibus-mandate-what-it-would-change-in-the-gdpr/",
+      "https://www.technology.org/2026/11/10/gdpr-changes-digital-omnibus-council-position/",
+      "https://acompli.ie/news/digital-omnibus-gdpr-cookies-status-september-2026/",
+      "https://www.lydian.be/en/news-insights/digital-omnibus-gdpr-update"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "EUR-Lex was blocked in the compilation environment; core dates are well established. Pending: the Digital Omnibus (Commission proposal of Nov 2025) would amend the GDPR (e.g. personal-data definition / pseudonymised data, Art. 22 automated decision-making, processing for AI development under legitimate interest). As of 2026-11-13, per secondary sources, the Council agreed its mandate on 2026-10-21 and Parliament's position was pending (LIBE/ITRE draft report June 2026); nothing adopted. last_updated reflects original OJ publication; corrigenda exist (incl. OJ L 127, 23.5.2018) but were not re-verified. Clause texts not verbatim-verified."
+  },
+  "clauses": [
+    {
+      "clause_id": "GDPR_2016_Art5_1_a",
+      "policy_id": "GDPR_2016",
+      "section": "Article 5(1)(a)",
+      "original_text": "Personal data shall be: (a) processed lawfully, fairly and in a transparent manner in relation to the data subject ('lawfulness, fairness and transparency');",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "controller",
+      "action": "process",
+      "object": "personal data",
+      "recipient": "data subject",
+      "modality": "MUST",
+      "requirement": "process personal data lawfully, fairly and transparently",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect data subjects' rights and trust",
+      "affected_asset": "personal data and data subjects' rights",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "EU",
+        "EEA"
+      ],
+      "applicable_systems": "any system processing personal data, incl. AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Relevant to AI training and inference on personal data; fairness is commonly read to cover discriminatory or deceptive processing.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "GDPR_2016_Art22_1",
+      "policy_id": "GDPR_2016",
+      "section": "Article 22(1)",
+      "original_text": "The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "controller",
+      "action": "subject a data subject to",
+      "object": "decision based solely on automated processing, incl. profiling",
+      "recipient": "data subject",
+      "modality": "MUST NOT",
+      "requirement": "do not subject data subjects to solely automated decisions with legal or similarly significant effects unless an Art. 22(2) exception applies",
+      "condition": "decision is based solely on automated processing and produces legal or similarly significant effects",
+      "exception": "necessary for a contract; authorised by Union/Member State law with safeguards; explicit consent (Art. 22(2))",
+      "purpose": "protect individuals from unaccountable automated decisions",
+      "affected_asset": "data subjects' rights and freedoms",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "EU",
+        "EEA"
+      ],
+      "applicable_systems": "automated decision-making and profiling systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Interpreted by the CJEU (C-634/21 SCHUFA) as a general prohibition. Exceptions in Art. 22(2): contract necessity, Union/Member State law authorisation, explicit consent. The pending Digital Omnibus would amend Art. 22.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "GDPR_2016_Art22_3",
+      "policy_id": "GDPR_2016",
+      "section": "Article 22(3)",
+      "original_text": "In the cases referred to in points (a) and (c) of paragraph 2, the data controller shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "controller",
+      "action": "implement safeguards",
+      "object": "solely automated decision-making",
+      "recipient": "data subject",
+      "modality": "MUST",
+      "requirement": "provide at least human intervention, the right to express a point of view and to contest the decision",
+      "condition": "automated decision relies on contract necessity or explicit consent (Art. 22(2)(a) or (c))",
+      "exception": null,
+      "purpose": "human oversight and contestability of automated decisions",
+      "affected_asset": "data subjects' rights, freedoms and legitimate interests",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "EU",
+        "EEA"
+      ],
+      "applicable_systems": "automated decision-making and profiling systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "GDPR_2016_Art13_2_f",
+      "policy_id": "GDPR_2016",
+      "section": "Article 13(2)(f)",
+      "original_text": "… the controller shall, at the time when personal data are obtained, provide the data subject with the following further information necessary to ensure fair and transparent processing: … (f) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "controller",
+      "action": "inform",
+      "object": "existence and logic of automated decision-making",
+      "recipient": "data subject",
+      "modality": "MUST",
+      "requirement": "disclose automated decision-making incl. meaningful information about the logic, significance and envisaged consequences",
+      "condition": "personal data collected from the data subject and Art. 22 automated decision-making is used",
+      "exception": null,
+      "purpose": "transparency and explainability towards data subjects",
+      "affected_asset": "data subjects' informational self-determination",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "EU",
+        "EEA"
+      ],
+      "applicable_systems": "automated decision-making and profiling systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Parallel provisions in Art. 14(2)(g) and access right Art. 15(1)(h); scope of 'meaningful information about the logic involved' clarified by CJEU C-203/22 (Dun & Bradstreet Austria).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "GDPR_2016_Art25_1",
+      "policy_id": "GDPR_2016",
+      "section": "Article 25(1)",
+      "original_text": "Taking into account the state of the art, the cost of implementation and the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for rights and freedoms of natural persons posed by the processing, the controller shall, both at the time of the determination of the means for processing and at the time of the processing itself, implement appropriate technical and organisational measures, such as pseudonymisation, which are designed to implement data-protection principles, such as data minimisation, in an effective manner …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "controller",
+      "action": "implement",
+      "object": "appropriate technical and organisational measures",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "build data-protection principles into the design and operation of processing (data protection by design)",
+      "condition": "risk-based, taking into account state of the art, costs and nature/scope/context/purposes of processing",
+      "exception": null,
+      "purpose": "effective implementation of data-protection principles",
+      "affected_asset": "personal data",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "EU",
+        "EEA"
+      ],
+      "applicable_systems": "any system processing personal data, incl. AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "GDPR_2016_Art35_1",
+      "policy_id": "GDPR_2016",
+      "section": "Article 35(1)",
+      "original_text": "Where a type of processing in particular using new technologies, and taking into account the nature, scope, context and purposes of the processing, is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data. …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "controller",
+      "action": "carry out prior to processing",
+      "object": "data protection impact assessment (DPIA)",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "conduct a DPIA before high-risk processing",
+      "condition": "processing, in particular using new technologies, is likely to result in a high risk to rights and freedoms",
+      "exception": null,
+      "purpose": "identify and mitigate high risks before processing",
+      "affected_asset": "rights and freedoms of natural persons",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "EU",
+        "EEA"
+      ],
+      "applicable_systems": "high-risk processing incl. AI/new technologies",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Art. 35(3)(a) specifically requires a DPIA for systematic and extensive evaluation based on automated processing, incl. profiling, producing legal or similarly significant effects.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "policy_id": "UNESCO_AI_Ethics_2021",
+  "policy_name": "Recommendation on the Ethics of Artificial Intelligence",
+  "short_name": "UNESCO AI Ethics Recommendation",
+  "policy_type": "international_instrument",
+  "source_uri": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+  "issuing_authority": "UNESCO General Conference (41st session)",
+  "jurisdiction": "International",
+  "country_region": "UNESCO Member States (193)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "ar",
+    "en",
+    "es",
+    "fr",
+    "ru",
+    "zh"
+  ],
+  "regulatory_regime": "UNESCO standard-setting instrument (Recommendation; soft law)",
+  "geo_constraints": "Addressed to UNESCO Member States, and through them to AI actors",
+  "industry_scope": [
+    "general",
+    "public_sector",
+    "education",
+    "healthcare",
+    "employment",
+    "environment"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2021-11-23",
+  "key_dates": [
+    {
+      "date": "2021-11-23",
+      "event": "Adopted by the UNESCO General Conference at its 41st session"
+    }
+  ],
+  "expiration_date": null,
+  "version": "SHS/BIO/PI/2021/1 (document code from general knowledge; not verified)",
+  "last_updated": "2021-11-23",
+  "covered_entities": [
+    "UNESCO Member States",
+    "AI actors (incl. researchers, developers, deployers, companies, users)"
+  ],
+  "covered_systems": [
+    "AI systems (broadly understood as systems with the capacity to process data in a way resembling intelligent behaviour)"
+  ],
+  "covered_activities": [
+    "entire AI system lifecycle: research, design, development, deployment, use, maintenance, termination"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "non-binding; Member States invited to apply via legislative or other measures and report periodically"
+  ],
+  "objective": "Provide a universal framework of values, principles and policy actions to guide States in ensuring that AI systems work for the good of humanity, individuals, societies and the environment and prevent harm.",
+  "policy_domain": [
+    "fundamental_rights",
+    "governance",
+    "fairness",
+    "privacy",
+    "transparency",
+    "accountability",
+    "safety"
+  ],
+  "principles": [
+    "proportionality and do no harm",
+    "safety and security",
+    "fairness and non-discrimination",
+    "sustainability",
+    "right to privacy and data protection",
+    "human oversight and determination",
+    "transparency and explainability",
+    "responsibility and accountability",
+    "awareness and literacy",
+    "multi-stakeholder and adaptive governance"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "CoE_AI_Convention_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "UNESCO Readiness Assessment Methodology and Ethical Impact Assessment tool",
+      "relation": "implements"
+    }
+  ],
+  "conflict_rule": "Non-binding; to be applied consistent with international human rights law and Member States' constitutional practice.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://unesdoc.unesco.org/ark:/48223/pf0000381137 (not reachable from compilation environment)",
+      "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics (not fetched)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "UNESCO hosts were blocked. Adoption date 2021-11-23 is from well-established knowledge (some sources cite 24 Nov 2021). The pf0000381137 identifier and document code are from memory and not verified. Paragraph numbers were NOT verified, so clause sections cite headings rather than paragraph numbers. Clause texts are paraphrases/reconstructions, not verbatim."
+  },
+  "clauses": [
+    {
+      "clause_id": "UNESCO_AI_Ethics_2021_Proportionality_DoNoHarm",
+      "policy_id": "UNESCO_AI_Ethics_2021",
+      "section": "Section III.2 Principles - Proportionality and Do No Harm",
+      "original_text": "The choice to use AI systems and which AI method to use should be justified: the method should be appropriate and proportional to achieve a legitimate aim, should not infringe human rights, and should be appropriate to the context. Where decisions may have irreversible or difficult-to-reverse impacts or involve life and death, final human determination should apply. AI systems in particular should not be used for social scoring or mass surveillance purposes.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Member States / AI actors",
+      "action": "justify and limit use",
+      "object": "AI systems",
+      "recipient": null,
+      "modality": "SHOULD NOT",
+      "requirement": "use AI only where proportionate to a legitimate aim; not for social scoring or mass surveillance",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent harm and rights infringements",
+      "affected_asset": "human rights and dignity",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (unesdoc.unesco.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase/reconstruction; paragraph number not verified.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "UNESCO_AI_Ethics_2021_Human_Oversight",
+      "policy_id": "UNESCO_AI_Ethics_2021",
+      "section": "Section III.2 Principles - Human oversight and determination",
+      "original_text": "Member States should ensure that it is always possible to attribute ethical and legal responsibility for any stage of the life cycle of AI systems, as well as in cases of remedy related to AI systems, to physical persons or to existing legal entities. … An AI system can never replace ultimate human responsibility and accountability.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Member States",
+      "action": "ensure attributability of responsibility",
+      "object": "AI system lifecycle",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "ensure responsibility for AI is always attributable to natural or legal persons; humans retain ultimate responsibility",
+      "condition": null,
+      "exception": null,
+      "purpose": "accountability and human control",
+      "affected_asset": "human agency and accountability",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (unesdoc.unesco.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Reconstruction; paragraph number not verified.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "UNESCO_AI_Ethics_2021_Fairness_NonDiscrimination",
+      "policy_id": "UNESCO_AI_Ethics_2021",
+      "section": "Section III.2 Principles - Fairness and non-discrimination",
+      "original_text": "AI actors should promote social justice and safeguard fairness and non-discrimination of any kind, and should make all reasonable efforts to minimize and avoid reinforcing or perpetuating discriminatory or biased applications and outcomes throughout the life cycle of AI systems, to ensure fairness of such systems.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI actors",
+      "action": "minimize and avoid",
+      "object": "discriminatory or biased applications and outcomes",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "make reasonable efforts to avoid biased or discriminatory outcomes across the lifecycle",
+      "condition": null,
+      "exception": null,
+      "purpose": "social justice and fairness",
+      "affected_asset": "equal treatment of individuals and groups",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (unesdoc.unesco.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Reconstruction; paragraph number not verified.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "UNESCO_AI_Ethics_2021_Policy_Area_1_EIA",
+      "policy_id": "UNESCO_AI_Ethics_2021",
+      "section": "Section IV Policy Area 1 - Ethical Impact Assessment",
+      "original_text": "Member States should introduce frameworks for impact assessments, such as ethical impact assessments, to identify and assess benefits, concerns and risks of AI systems, as well as appropriate risk prevention, mitigation and monitoring measures, among other assurance mechanisms.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Member States",
+      "action": "introduce",
+      "object": "ethical impact assessment frameworks",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "establish impact assessment frameworks identifying benefits, risks and mitigation/monitoring measures",
+      "condition": null,
+      "exception": null,
+      "purpose": "anticipate and mitigate AI risks",
+      "affected_asset": "human rights, environment and society",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (unesdoc.unesco.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase; paragraph number not verified.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "UNESCO_AI_Ethics_2021_Privacy",
+      "policy_id": "UNESCO_AI_Ethics_2021",
+      "section": "Section III.2 Principles - Right to Privacy and Data Protection",
+      "original_text": "Privacy, a right essential to the protection of human dignity, human autonomy and human agency, must be respected, protected and promoted throughout the life cycle of AI systems. It is important that data for AI systems be collected, used, shared, archived and deleted in ways that are consistent with international law and in line with the values and principles set forth in this Recommendation.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI actors / Member States",
+      "action": "respect, protect and promote",
+      "object": "privacy and personal data",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "handle data for AI consistent with international law and the Recommendation's values",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect dignity, autonomy and agency",
+      "affected_asset": "privacy",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (unesdoc.unesco.org) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Reconstruction; paragraph number not verified.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    }
+  ]
+}

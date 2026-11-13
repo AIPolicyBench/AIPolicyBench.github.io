@@ -1,0 +1,299 @@
+{
+  "policy_id": "CoE_AI_Convention_2024",
+  "policy_name": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law",
+  "short_name": "CoE AI Convention (CETS No. 225)",
+  "policy_type": "international_instrument",
+  "source_uri": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+  "issuing_authority": "Council of Europe (Committee of Ministers)",
+  "jurisdiction": "International",
+  "country_region": "Council of Europe member states and non-member signatories (e.g. EU, US, UK, Canada, Japan, Israel among signatories)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en",
+    "fr"
+  ],
+  "regulatory_regime": "International treaty (Council of Europe)",
+  "geo_constraints": "Binding only on Parties after ratification and the Convention's entry into force; private-sector coverage depends on each Party's declaration (Art. 3(1)(b))",
+  "industry_scope": [
+    "general",
+    "public_sector"
+  ],
+  "status": "provisional",
+  "binding": true,
+  "effective_date": null,
+  "key_dates": [
+    {
+      "date": "2024-05-17",
+      "event": "Adopted by the Committee of Ministers"
+    },
+    {
+      "date": "2024-09-05",
+      "event": "Opened for signature in Vilnius (CETS No. 225)"
+    },
+    {
+      "date": "2026-03-11",
+      "event": "European Parliament consents to EU conclusion (per search results)"
+    },
+    {
+      "date": "2026-04-21",
+      "event": "Council Decision (EU) 2026/1080 on conclusion on behalf of the EU (OJ 13.5.2026, per search results)"
+    },
+    {
+      "date": "2026-05-15",
+      "event": "EU deposits instrument of approval/ratification (per secondary sources)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "CETS No. 225",
+  "last_updated": "2024-09-05",
+  "covered_entities": [
+    "States Parties",
+    "public authorities and private actors acting on their behalf",
+    "private actors (as declared by each Party)"
+  ],
+  "covered_systems": [
+    "artificial intelligence systems across their lifecycle"
+  ],
+  "covered_activities": [
+    "activities within the lifecycle of AI systems that have the potential to interfere with human rights, democracy and the rule of law"
+  ],
+  "exceptions": [
+    "activities to protect national security interests (Art. 3(2))",
+    "research and development not yet made available for use, unless testing may interfere with human rights, democracy or rule of law (Art. 3(3))",
+    "matters relating to national defence (Art. 3(4))"
+  ],
+  "conditions": [
+    "enters into force on the first day of the month following three months after five signatories, including at least three Council of Europe member states, have expressed consent to be bound (Art. 30)",
+    "private-sector risks addressed either by applying the Convention's obligations or by other appropriate measures, per a Party's declaration (Art. 3(1)(b))"
+  ],
+  "objective": "Ensure that activities within the lifecycle of AI systems are fully consistent with human rights, democracy and the rule of law, via a technology-neutral framework treaty open to non-member states.",
+  "policy_domain": [
+    "fundamental_rights",
+    "governance",
+    "accountability",
+    "transparency",
+    "fairness",
+    "privacy"
+  ],
+  "principles": [
+    "human dignity and individual autonomy",
+    "transparency and oversight",
+    "accountability and responsibility",
+    "equality and non-discrimination",
+    "privacy and personal data protection",
+    "reliability",
+    "safe innovation"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "GDPR_2016",
+      "relation": "complements"
+    },
+    {
+      "policy": "European Convention on Human Rights",
+      "relation": "complements"
+    },
+    {
+      "policy": "Convention 108+ (Council of Europe data protection convention)",
+      "relation": "complements"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "UNESCO_AI_Ethics_2021",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Does not restrict higher levels of protection under domestic law or other international obligations (Art. 21/22 savings clauses); EU Parties apply Union rules in their mutual relations (Art. 27(2)); in the EU, implemented through the AI Act where applicable.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225 (not reachable from compilation environment)",
+      "https://eur-lex.europa.eu/eli/dec/2026/1080/oj (search result only)",
+      "https://www.coe.int/en/web/artificial-intelligence/-/eu-parliament-backs-eu-conclusion-of-the-council-of-europe-framework-convention-on-artificial-intelligence (search result only)",
+      "https://fixtheaigap.com/research/policies/2026-05-24-council-of-europe-ai-convention-eu-ratification/",
+      "https://regulatorik.ai/en/framework/coe-ai"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Status 'provisional' = signed, binding-treaty text, but NOT yet in force as of the latest sources found (Sept-Oct 2026 reports: ~21 signatories, 1 Party, the EU). One outlier source claimed entry into force 2025-11-01; rejected as inconsistent with EUR-Lex listing the agreement as not yet in force. Check the CoE Treaty Office chart for current ratification count. Article numbers for savings clauses in conflict_rule are from memory and not verified. Clause texts not verbatim-verified."
+  },
+  "clauses": [
+    {
+      "clause_id": "CoE_AI_Convention_2024_Art4",
+      "policy_id": "CoE_AI_Convention_2024",
+      "section": "Article 4",
+      "original_text": "Each Party shall adopt or maintain measures to ensure that the activities within the lifecycle of artificial intelligence systems are consistent with obligations to protect human rights, as enshrined in applicable international law and in its domestic law.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Party",
+      "action": "adopt or maintain measures",
+      "object": "activities within the AI lifecycle",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "ensure AI lifecycle activities are consistent with human-rights obligations",
+      "condition": "Convention in force for the Party",
+      "exception": "national security, defence, pre-deployment R&D (Art. 3)",
+      "purpose": "protection of human rights",
+      "affected_asset": "human rights",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Binding on Parties only once in force for them.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CoE_AI_Convention_2024_Art5_1",
+      "policy_id": "CoE_AI_Convention_2024",
+      "section": "Article 5(1)",
+      "original_text": "Each Party shall adopt or maintain measures that seek to ensure that artificial intelligence systems are not used to undermine the integrity, independence and effectiveness of democratic institutions and processes, including the principle of the separation of powers, respect for judicial independence and access to justice.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Party",
+      "action": "adopt or maintain measures",
+      "object": "use of AI systems",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "seek to ensure AI is not used to undermine democratic institutions and processes",
+      "condition": "Convention in force for the Party",
+      "exception": "national security, defence (Art. 3)",
+      "purpose": "protect democracy and rule of law",
+      "affected_asset": "democratic institutions and processes",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CoE_AI_Convention_2024_Art10_1",
+      "policy_id": "CoE_AI_Convention_2024",
+      "section": "Article 10(1)",
+      "original_text": "Each Party shall adopt or maintain measures with a view to ensuring that activities within the lifecycle of artificial intelligence systems respect equality, including gender equality, and the prohibition of discrimination, as provided under applicable international and domestic law.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Party",
+      "action": "adopt or maintain measures",
+      "object": "activities within the AI lifecycle",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "ensure AI lifecycle activities respect equality and non-discrimination",
+      "condition": "Convention in force for the Party",
+      "exception": "national security, defence (Art. 3)",
+      "purpose": "equality and non-discrimination",
+      "affected_asset": "equal treatment of individuals",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CoE_AI_Convention_2024_Art14",
+      "policy_id": "CoE_AI_Convention_2024",
+      "section": "Article 14 (Remedies)",
+      "original_text": "Each Party shall, to the extent remedies are required by its international obligations and consistent with its domestic legal system, adopt or maintain measures to ensure the availability of accessible and effective remedies for violations of human rights resulting from the activities within the lifecycle of artificial intelligence systems.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Party",
+      "action": "adopt or maintain measures",
+      "object": "remedies for AI-related human-rights violations",
+      "recipient": "affected persons",
+      "modality": "MUST",
+      "requirement": "ensure accessible and effective remedies",
+      "condition": "to the extent required by international obligations and consistent with domestic legal system",
+      "exception": null,
+      "purpose": "access to justice and redress",
+      "affected_asset": "human rights of affected persons",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Art. 14(2) adds documentation/information measures and the possibility to lodge complaints; exact wording of 14(1) reconstructed.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CoE_AI_Convention_2024_Art16_1",
+      "policy_id": "CoE_AI_Convention_2024",
+      "section": "Article 16(1)",
+      "original_text": "Each Party shall, taking into account the principles set forth in Chapter III, adopt or maintain measures for the identification, assessment, prevention and mitigation of risks posed by artificial intelligence systems by considering actual and potential impacts to human rights, democracy and the rule of law.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Party",
+      "action": "adopt or maintain measures",
+      "object": "risk and impact management framework for AI systems",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "identify, assess, prevent and mitigate AI risks to human rights, democracy and rule of law",
+      "condition": "Convention in force for the Party",
+      "exception": "national security, defence (Art. 3)",
+      "purpose": "risk and impact management",
+      "affected_asset": "human rights, democracy and rule of law",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CoE_AI_Convention_2024_Art16_4",
+      "policy_id": "CoE_AI_Convention_2024",
+      "section": "Article 16(4)",
+      "original_text": "Each Party shall assess the need for a moratorium or ban or other appropriate measures in respect of certain uses of artificial intelligence systems where it considers such uses incompatible with the respect for human rights, the functioning of democracy or the rule of law.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Party",
+      "action": "assess the need for",
+      "object": "moratoria or bans on certain AI uses",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "assess whether moratoria, bans or other measures are needed for incompatible AI uses",
+      "condition": "Party considers such uses incompatible with human rights, democracy or rule of law",
+      "exception": null,
+      "purpose": "prevent unacceptable AI uses",
+      "affected_asset": "human rights, democracy and rule of law",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "International"
+      ],
+      "applicable_systems": "AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (coe.int / rm.coe.int) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Obligation to assess, not to ban.",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    }
+  ]
+}

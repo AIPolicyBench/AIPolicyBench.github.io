@@ -1,0 +1,249 @@
+{
+  "policy_id": "OpenAI_Preparedness_Framework",
+  "policy_name": "OpenAI Preparedness Framework",
+  "short_name": "Preparedness Framework",
+  "policy_type": "internal_policy",
+  "source_uri": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+  "issuing_authority": "OpenAI",
+  "jurisdiction": "Organization",
+  "country_region": "Global (OpenAI, United States-headquartered)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Voluntary frontier AI safety framework (self-regulation)",
+  "geo_constraints": "Applies to OpenAI's frontier model development and deployment worldwide",
+  "industry_scope": [
+    "frontier_ai_development"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2025-04-15",
+  "key_dates": [
+    {
+      "date": "2023-12-18",
+      "event": "Preparedness Framework (Beta) published"
+    },
+    {
+      "date": "2025-04-15",
+      "event": "Version 2 published (last updated date printed on PDF)"
+    },
+    {
+      "date": "2026-05-28",
+      "event": "OpenAI reportedly published a 'Frontier Governance Framework' mapping the Preparedness Framework onto CA SB 53 and the EU GPAI Code of Practice (secondary sources only; unverified)"
+    },
+    {
+      "date": "2026-07",
+      "event": "Preparedness team reportedly disbanded (press report; unverified); no Framework revision found"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Version 2 (last updated 15 April 2025)",
+  "last_updated": "2025-04-15",
+  "covered_entities": [
+    "OpenAI"
+  ],
+  "covered_systems": [
+    "OpenAI frontier models"
+  ],
+  "covered_activities": [
+    "capability evaluation",
+    "development",
+    "deployment",
+    "safeguards design",
+    "governance decisions"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Obligations scale with High/Critical capability thresholds in Tracked Categories"
+  ],
+  "objective": "OpenAI's framework for tracking and preparing for frontier AI capabilities that could create new risks of severe harm, by evaluating models against capability thresholds and requiring safeguards that sufficiently minimize risk before deployment or further development.",
+  "policy_domain": [
+    "safety",
+    "security",
+    "governance"
+  ],
+  "principles": [
+    "risk thresholds",
+    "safeguards before deployment",
+    "internal governance oversight",
+    "transparency via system cards"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "Preparedness Framework (Beta), December 2023",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "Anthropic_RSP",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "CA_SB53_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_GPAI_CoP_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "OpenAI Frontier Governance Framework (reported May 2026; unverified)",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Self-imposed policy; statutory obligations (e.g., CA SB 53, EU AI Act GPAI obligations) apply independently.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf (identified via search, titled 'Preparedness Framework Version 2. Last updated: 15th April, 2025'; host not reachable)",
+      "Web search results incl. https://www.startuphub.ai/ai-news/artificial-intelligence/2026/openai-rolls-out-frontier-governance-framework and https://www.pk-sharma.com/briefing/openai-preparedness-team-dissolved-framework-intact (secondary)"
+    ],
+    "notes": "OpenAI hosts were blocked by the compilation environment's network policy, so clauses are paraphrases (text_is_verbatim=false). Version 2 (15 Apr 2025) is the latest version identified as of Nov 2026, but this could not be confirmed on openai.com. Secondary sources report (a) a 'Frontier Governance Framework' published ~28 May 2026 as a regulatory-facing document built on the Preparedness Framework, and (b) disbanding of the Preparedness team around end of July 2026; both unverified and recorded only in key_dates/notes. binding=false: voluntary framework binding on OpenAI itself only, though statutes such as CA SB 53 may require publishing and following a frontier AI framework.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+  },
+  "clauses": [
+    {
+      "clause_id": "OpenAI_Preparedness_Framework_Tracked_Categories",
+      "policy_id": "OpenAI_Preparedness_Framework",
+      "section": "Tracked Categories (Biological and Chemical; Cybersecurity; AI Self-improvement)",
+      "original_text": "OpenAI tracks three frontier capability categories it treats as plausible, measurable, severe, net-new and instantaneous-or-irremediable risks: Biological and Chemical, Cybersecurity, and AI Self-improvement, each with High and Critical capability thresholds; further areas (e.g., long-range autonomy, sandbagging, autonomous replication and adaptation, undermining safeguards, nuclear and radiological) are Research Categories.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "OpenAI",
+      "action": "evaluate and track",
+      "object": "frontier model capabilities in Tracked Categories",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "evaluate covered models against High and Critical thresholds in each Tracked Category",
+      "condition": null,
+      "exception": null,
+      "purpose": "identify severe-harm capabilities before deployment",
+      "affected_asset": "public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "OpenAI frontier models",
+      "interpretation_notes": "Paraphrase: the official PDF (cdn.openai.com) could not be fetched from the compilation environment, so wording is from knowledge of v2 and is not verbatim; section headings are descriptive, not verified section numbers. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "OpenAI_Preparedness_Framework_High_Threshold",
+      "policy_id": "OpenAI_Preparedness_Framework",
+      "section": "Capability thresholds: High",
+      "original_text": "Models that reach High capability in a Tracked Category must have safeguards that sufficiently minimize the associated risk of severe harm before they are deployed.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "OpenAI",
+      "action": "deploy only with adequate safeguards",
+      "object": "models reaching High capability",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "do not deploy a High-capability model until safeguards sufficiently minimize the associated severe-harm risk",
+      "condition": "model reaches the High threshold in a Tracked Category",
+      "exception": null,
+      "purpose": "prevent severe harm from deployment",
+      "affected_asset": "public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "OpenAI frontier models at High capability",
+      "interpretation_notes": "Paraphrase: the official PDF (cdn.openai.com) could not be fetched from the compilation environment, so wording is from knowledge of v2 and is not verbatim; section headings are descriptive, not verified section numbers. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "OpenAI_Preparedness_Framework_Critical_Threshold",
+      "policy_id": "OpenAI_Preparedness_Framework",
+      "section": "Capability thresholds: Critical",
+      "original_text": "Models that reach Critical capability also require safeguards that sufficiently minimize the associated risks during development, not only at deployment.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "OpenAI",
+      "action": "apply safeguards during development",
+      "object": "models reaching Critical capability",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "implement safeguards sufficiently minimizing risk during further development of Critical-capability models",
+      "condition": "model reaches the Critical threshold in a Tracked Category",
+      "exception": null,
+      "purpose": "prevent severe harm including from internal development",
+      "affected_asset": "public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "OpenAI frontier models at Critical capability",
+      "interpretation_notes": "Paraphrase: the official PDF (cdn.openai.com) could not be fetched from the compilation environment, so wording is from knowledge of v2 and is not verbatim; section headings are descriptive, not verified section numbers. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "OpenAI_Preparedness_Framework_SAG_Governance",
+      "policy_id": "OpenAI_Preparedness_Framework",
+      "section": "Governance: Safety Advisory Group, Leadership and Board Safety and Security Committee",
+      "original_text": "The Safety Advisory Group reviews Capabilities Reports and Safeguards Reports and makes recommendations on whether safeguards sufficiently minimize risk; OpenAI Leadership makes the decision, and the Safety and Security Committee of the Board oversees these decisions.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "OpenAI Safety Advisory Group; OpenAI Leadership",
+      "action": "review, recommend, decide",
+      "object": "Capabilities Reports and Safeguards Reports",
+      "recipient": "Board Safety and Security Committee",
+      "modality": "MUST",
+      "requirement": "route deployment/development decisions for covered models through SAG review, leadership decision and board-committee oversight",
+      "condition": null,
+      "exception": null,
+      "purpose": "accountable decision-making on severe-risk models",
+      "affected_asset": "public safety; governance",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "OpenAI frontier models",
+      "interpretation_notes": "Paraphrase: the official PDF (cdn.openai.com) could not be fetched from the compilation environment, so wording is from knowledge of v2 and is not verbatim; section headings are descriptive, not verified section numbers. Governance bodies corroborated by secondary sources.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "OpenAI_Preparedness_Framework_Marginal_Risk_Adjustment",
+      "policy_id": "OpenAI_Preparedness_Framework",
+      "section": "Adjustments in response to other frontier developers",
+      "original_text": "If another frontier AI developer releases a high-risk system without comparable safeguards, OpenAI may adjust its requirements, but only after rigorously confirming the changed risk landscape, publicly acknowledging the adjustment, assessing that it does not meaningfully increase overall risk of severe harm, and keeping safeguards at a level more protective.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "OpenAI",
+      "action": "adjust safeguard requirements",
+      "object": "Preparedness Framework requirements",
+      "recipient": null,
+      "modality": "MAY",
+      "requirement": "may relax requirements only under stated conditions including public acknowledgement",
+      "condition": "another developer releases a high-risk system without comparable safeguards; risk landscape rigorously confirmed",
+      "exception": null,
+      "purpose": "competitive flexibility bounded by risk conditions",
+      "affected_asset": "public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "OpenAI frontier models",
+      "interpretation_notes": "Paraphrase: the official PDF (cdn.openai.com) could not be fetched from the compilation environment, so wording is from knowledge of v2 and is not verbatim; section headings are descriptive, not verified section numbers. Conditions recalled from v2; exact list and wording should be checked against the PDF.",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    }
+  ]
+}

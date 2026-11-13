@@ -1,0 +1,215 @@
+{
+  "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
+  "policy_name": "Fact sheet on the use of generative AI tools in the Federal Administration (Merkblatt zur Verwendung von generativen KI-Werkzeugen in der Bundesverwaltung)",
+  "short_name": "CNAI GenAI fact sheet",
+  "policy_type": "guidance",
+  "source_uri": "https://www.bk.admin.ch/dam/de/sd-web/8Qmy4Jdh7Z6H/Merkblatt-zur-Verwendung-von-generativen-KI-Werkzeugen-in-der-Bundesverwaltung.pdf",
+  "issuing_authority": "Competence Network for Artificial Intelligence (CNAI), working group 'AI in the Federal Administration' (with all departments and the Federal Chancellery); now published by the Swiss Federal Chancellery",
+  "jurisdiction": "CH",
+  "country_region": "Switzerland (Federal Administration)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "de",
+    "fr",
+    "en"
+  ],
+  "regulatory_regime": "Swiss federal administration internal guidance",
+  "geo_constraints": "Swiss Federal Administration staff",
+  "industry_scope": [
+    "public_sector"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2024-01-18",
+  "key_dates": [
+    {
+      "date": "2024-01-18",
+      "event": "Version 1.2 issued (ref. BK-D-C6B33401/520)"
+    },
+    {
+      "date": "2026-09-25",
+      "event": "Federal Chancellery (Legal Section) document 'Rechtlicher Rahmen für die Nutzung von KI in der Bundesverwaltung' dated 25 Sept 2026 cites the fact sheet (search result only; relationship not verified)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "V1.2, 18 January 2024",
+  "last_updated": "2024-01-18",
+  "covered_entities": [
+    "employees of the Swiss Federal Administration"
+  ],
+  "covered_systems": [
+    "generative AI tools (e.g., ChatGPT and similar text/image generators)"
+  ],
+  "covered_activities": [
+    "use of generative AI tools in administrative work",
+    "input of data into AI tools",
+    "use of AI outputs"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Applicable data protection and information security rules must be met"
+  ],
+  "objective": "Informs Federal Administration staff how generative AI tools work and what risks they carry, and sets out practical rules for their responsible use, especially regarding data protection, information security, output verification and human responsibility.",
+  "policy_domain": [
+    "privacy",
+    "security",
+    "accountability",
+    "content_integrity"
+  ],
+  "principles": [
+    "data protection",
+    "information security",
+    "human responsibility",
+    "critical review of outputs"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "Rechtlicher Rahmen für die Nutzung von KI in der Bundesverwaltung (Federal Chancellery, 25 Sept 2026)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Merkblatt zur Sensibilisierung betreffend grosse KI-Sprachmodelle (Federal Chancellery)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Strategie Einsatz von KI-Systemen in der Bundesverwaltung",
+      "relation": "complements"
+    },
+    {
+      "policy": "Swiss Federal Act on Data Protection (FADP)",
+      "relation": "implements"
+    },
+    {
+      "policy": "CA_TBS_GenAI_Guide",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "Guidance only; binding federal data protection, information security and classification law prevails.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.bk.admin.ch/de/einsatz-von-ki-in-der-bundesverwaltung (search result only)",
+      "https://www.bk.admin.ch/dam/de/sd-web/8Qmy4Jdh7Z6H/Merkblatt-zur-Verwendung-von-generativen-KI-Werkzeugen-in-der-Bundesverwaltung.pdf (search-result excerpts only)",
+      "https://www.bk.admin.ch/dam/de/sd-web/8ZNpPvD-7pJe/Rechtlicher%20Rahmen%20f%C3%BCr%20die%20Nutzung%20von%20KI%20in%20der%20Bundesverwaltung%20(inkl.%20Anh%C3%A4nge%20A%20und%20B).pdf (search result only)"
+    ],
+    "notes": "admin.ch and cnai.swiss were blocked by the compilation environment's network policy; the record relies on search-result excerpts of the official German PDF and the Federal Chancellery page. All clauses are English paraphrases (text_is_verbatim=false), not the official EN wording; section numbers not given. The German PDF is dated 18 Jan 2024, V1.2, ref. BK-D-C6B33401/520, and is now listed on the Federal Chancellery's AI page (the CNAI coordination function appears to have moved to the Federal Chancellery; not verified). official_languages DE/FR/EN per compilation brief; only the German version was confirmed via search. binding=false: an internal information/recommendation sheet for staff, not a legal act; status 'voluntary' chosen as closest value (it is administrative guidance in force, not superseded as far as could be determined). A Federal Chancellery legal-framework document dated 25 Sept 2026 exists; whether it updates or supersedes the fact sheet was not verified.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+  },
+  "clauses": [
+    {
+      "clause_id": "CH_CNAI_GenAI_Factsheet_2024_Permitted_Use",
+      "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
+      "section": null,
+      "original_text": "Employees of the Federal Administration may use generative AI tools for their work, provided data protection and information security rules are always complied with.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Federal Administration employees using generative AI tools",
+      "action": "use",
+      "object": "generative AI tools (e.g., ChatGPT)",
+      "recipient": null,
+      "modality": "MAY",
+      "requirement": "use is permitted subject to data protection and information security requirements",
+      "condition": "compliance with data protection and information security law and rules",
+      "exception": null,
+      "purpose": "enable responsible experimentation with generative AI",
+      "affected_asset": "federal information and personal data",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "CH"
+      ],
+      "applicable_systems": "generative AI tools, in particular publicly available ones",
+      "interpretation_notes": "Paraphrase in English: neither the EN nor the DE official text could be fetched (admin.ch/cnai.swiss hosts blocked), so content is reconstructed from search-result excerpts of the official German PDF and the Federal Chancellery page; not verbatim. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CH_CNAI_GenAI_Factsheet_2024_No_Sensitive_Data",
+      "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
+      "section": null,
+      "original_text": "Personal data, sensitive or classified information must not be entered into generative AI tools that are not approved for such data.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Federal Administration employees using generative AI tools",
+      "action": "refrain from entering",
+      "object": "personal, sensitive or classified data",
+      "recipient": "providers of generative AI tools",
+      "modality": "MUST NOT",
+      "requirement": "do not input personal or sensitive (incl. classified) information into generative AI tools",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect personal data and confidential federal information",
+      "affected_asset": "personal data; classified/sensitive federal information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "CH"
+      ],
+      "applicable_systems": "generative AI tools, especially external/public services",
+      "interpretation_notes": "Paraphrase in English: neither the EN nor the DE official text could be fetched (admin.ch/cnai.swiss hosts blocked), so content is reconstructed from search-result excerpts of the official German PDF and the Federal Chancellery page; not verbatim. Search excerpt indicates the PDF advises against entering personal or sensitive data; whether phrased as a prohibition or recommendation, and the treatment of classified information, is unverified.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CH_CNAI_GenAI_Factsheet_2024_Verify_Outputs",
+      "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
+      "section": null,
+      "original_text": "Because generative AI tools only compute statistically probable sequences of word fragments and are trained on large datasets whose sources are usually not disclosed, their outputs may be outdated, misleading, discriminatory or simply wrong and must be checked before use.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Federal Administration employees using generative AI tools",
+      "action": "critically check",
+      "object": "AI-generated output",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "verify accuracy and appropriateness of generated content before using it",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent errors, misinformation and discrimination in administrative work",
+      "affected_asset": "quality and lawfulness of administrative output; citizens",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "CH"
+      ],
+      "applicable_systems": "generative AI tools",
+      "interpretation_notes": "Paraphrase in English: neither the EN nor the DE official text could be fetched (admin.ch/cnai.swiss hosts blocked), so content is reconstructed from search-result excerpts of the official German PDF and the Federal Chancellery page; not verbatim. Risk description (next-token prediction; outdated, misleading, discriminatory or wrong outputs; undisclosed data sources) corroborated by search excerpts; the explicit verification duty is an interpretation.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CH_CNAI_GenAI_Factsheet_2024_Human_Responsibility",
+      "policy_id": "CH_CNAI_GenAI_Factsheet_2024",
+      "section": null,
+      "original_text": "Responsibility for content produced with the help of generative AI remains with the human user.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Federal Administration employees using generative AI tools",
+      "action": "remain accountable for",
+      "object": "content produced with generative AI",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "employees retain full responsibility for generated content they use",
+      "condition": null,
+      "exception": null,
+      "purpose": "maintain accountability in public administration",
+      "affected_asset": "accountability of the Federal Administration",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "CH"
+      ],
+      "applicable_systems": "generative AI tools",
+      "interpretation_notes": "Paraphrase in English: neither the EN nor the DE official text could be fetched (admin.ch/cnai.swiss hosts blocked), so content is reconstructed from search-result excerpts of the official German PDF and the Federal Chancellery page; not verbatim. Stated on the Federal Chancellery page summarising the guidance.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    }
+  ]
+}

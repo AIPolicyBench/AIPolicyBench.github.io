@@ -1,0 +1,359 @@
+{
+  "policy_id": "EU_AI_Act_2024",
+  "policy_name": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+  "short_name": "EU AI Act",
+  "policy_type": "regulation",
+  "source_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+  "issuing_authority": "European Parliament and Council of the European Union",
+  "jurisdiction": "EU",
+  "country_region": "European Union (27 member states); EEA relevance",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "bg",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "et",
+    "fi",
+    "fr",
+    "ga",
+    "hr",
+    "hu",
+    "it",
+    "lt",
+    "lv",
+    "mt",
+    "nl",
+    "pl",
+    "pt",
+    "ro",
+    "sk",
+    "sl",
+    "sv"
+  ],
+  "regulatory_regime": "EU AI Act",
+  "geo_constraints": "Providers placing AI systems/GPAI models on the EU market or putting them into service in the EU (irrespective of establishment), deployers in the EU, and third-country providers/deployers where the system's output is used in the EU (Art. 2(1))",
+  "industry_scope": [
+    "general"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2024-08-01",
+  "key_dates": [
+    {
+      "date": "2024-07-12",
+      "event": "Published in the Official Journal (OJ L, 2024/1689)"
+    },
+    {
+      "date": "2024-08-01",
+      "event": "Entry into force"
+    },
+    {
+      "date": "2025-02-02",
+      "event": "Chapters I-II apply: prohibited practices (Art. 5) and AI literacy (Art. 4)"
+    },
+    {
+      "date": "2025-08-02",
+      "event": "GPAI model obligations (Chapter V), governance, notified bodies and penalties provisions apply"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Digital Omnibus on AI, Regulation (EU) 2026/1744, published in the OJ (per secondary sources; not verified on EUR-Lex)"
+    },
+    {
+      "date": "2026-07-27",
+      "event": "Regulation (EU) 2026/1744 enters into force (per secondary sources)"
+    },
+    {
+      "date": "2026-08-02",
+      "event": "General date of application, incl. Art. 50 transparency obligations; Commission enforcement powers over GPAI providers"
+    },
+    {
+      "date": "2026-12-02",
+      "event": "Per Omnibus (secondary sources): new Art. 5 prohibitions (AI-generated non-consensual intimate imagery and CSAM) apply; legacy generative systems placed on market before 2026-08-02 must comply with Art. 50(2) marking"
+    },
+    {
+      "date": "2027-08-02",
+      "event": "Original deadline for GPAI models placed on market before 2025-08-02"
+    },
+    {
+      "date": "2027-12-02",
+      "event": "Per Omnibus (secondary sources): Annex III (stand-alone) high-risk obligations apply (deferred from 2026-08-02)"
+    },
+    {
+      "date": "2028-08-02",
+      "event": "Per Omnibus (secondary sources): Annex I (product-embedded) high-risk obligations apply (deferred from 2027-08-02)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "OJ L, 2024/1689, 12.7.2024; as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+  "last_updated": "2026-07-24",
+  "covered_entities": [
+    "providers",
+    "deployers",
+    "importers",
+    "distributors",
+    "authorised representatives",
+    "product manufacturers",
+    "providers of general-purpose AI models"
+  ],
+  "covered_systems": [
+    "prohibited AI practices",
+    "high-risk AI systems (Annex I and Annex III)",
+    "AI systems subject to transparency obligations (Art. 50)",
+    "general-purpose AI models",
+    "general-purpose AI models with systemic risk"
+  ],
+  "covered_activities": [
+    "placing on the market",
+    "putting into service",
+    "use"
+  ],
+  "exceptions": [
+    "military, defence or national security purposes (Art. 2(3))",
+    "AI systems/models developed and put into service solely for scientific research and development (Art. 2(6))",
+    "research, testing and development before placing on the market, except real-world testing (Art. 2(8))",
+    "purely personal non-professional activity by natural persons (Art. 2(10))",
+    "free and open-source licence releases, unless high-risk, prohibited or Art. 50 (Art. 2(12))",
+    "public authorities of third countries/international organisations under law-enforcement/judicial cooperation agreements with adequate safeguards (Art. 2(4))"
+  ],
+  "conditions": [
+    "high-risk obligations apply where the system is a safety component of, or itself is, a product under Annex I Union harmonisation legislation requiring third-party conformity assessment, or falls within an Annex III use area (subject to Art. 6(3) derogation)",
+    "GPAI model presumed to have systemic risk when cumulative training compute exceeds 10^25 FLOP or upon Commission designation (Art. 51)"
+  ],
+  "objective": "Improve the functioning of the internal market and promote the uptake of human-centric and trustworthy AI while ensuring a high level of protection of health, safety and fundamental rights against harmful effects of AI systems, through a risk-based framework of prohibitions, high-risk requirements, transparency duties and GPAI model obligations.",
+  "policy_domain": [
+    "safety",
+    "fundamental_rights",
+    "transparency",
+    "accountability",
+    "governance",
+    "innovation"
+  ],
+  "principles": [
+    "risk-based approach",
+    "human oversight",
+    "transparency",
+    "accuracy, robustness and cybersecurity",
+    "data governance",
+    "accountability",
+    "AI literacy"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "GDPR_2016",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_GPAI_CoP_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "CoE_AI_Convention_2024",
+      "relation": "implements"
+    },
+    {
+      "policy": "Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+      "relation": "amended_by"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "ISO_IEC_42001_2023",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Without prejudice to Union data protection law incl. GDPR (Art. 2(7)), consumer protection and product safety law (Art. 2(9)); Annex I sectoral harmonisation legislation integrates AI Act requirements into existing conformity assessment.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://eur-lex.europa.eu/eli/reg/2024/1689/oj (not reachable from compilation environment)",
+      "https://www.loyensloeff.com/insights/news--events/news/eu-ai-act-key-amendments-adopted-under-digital-omnibus-package/",
+      "https://www.lewissilkin.com/insights/2026/07/27/the-digital-omnibus-on-ai-enters-into-force-today-102nedo",
+      "https://www.nicfab.eu/en/posts/digital-omnibus-ai-official-journal/",
+      "https://www.addleshawgoddard.com/en/insights/insights-briefings/2026/technology/eu-ai-act-ai-omnibus-formally-adopted/",
+      "https://www.lawsociety.ie/gazette/top-stories/2026/may/eu-bodies-agree-ban-on-nudification-apps/",
+      "https://www.akos-rs.si/en/umetna-inteligenca/explore/frequently-asked-questions-and-answers/digital-omnibus-on-artificial-intelligence"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "EUR-Lex and other official EU hosts were blocked in the compilation environment; base-text dates are from well-established knowledge of the OJ text, and Omnibus facts are from multiple secondary sources only. Digital Omnibus on AI (Regulation (EU) 2026/1744): reported OJ publication 2026-07-24, entry into force 2026-07-27; defers Annex III high-risk obligations to 2027-12-02 and Annex I to 2028-08-02; adds two Art. 5 prohibitions (AI-generated non-consensual intimate imagery and CSAM) applying 2026-12-02 (numbering reported variously as Art. 5(1)(ba)/(bb)); reportedly rewords Art. 4 AI literacy duty (to 'take measures to support' AI literacy) and adds Art. 111(4) transition for Art. 50(2). Exact wording/dates must be verified against the OJ. Clause texts below are base-text (2024) wording, not verbatim-verified."
+  },
+  "clauses": [
+    {
+      "clause_id": "EU_AI_Act_2024_Art5_1_a",
+      "policy_id": "EU_AI_Act_2024",
+      "section": "Article 5(1)(a)",
+      "original_text": "The following AI practices shall be prohibited: (a) the placing on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person's consciousness or purposefully manipulative or deceptive techniques, with the objective, or the effect of materially distorting the behaviour of a person or a group of persons by appreciably impairing their ability to make an informed decision, thereby causing them to take a decision that they would not have otherwise taken in a manner that causes or is reasonably likely to cause that person, another person or group of persons significant harm;",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider/deployer",
+      "action": "place on the market / put into service / use",
+      "object": "AI system deploying subliminal, manipulative or deceptive techniques",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "do not place on the market, put into service or use manipulative/deceptive AI that materially distorts behaviour causing significant harm",
+      "condition": "objective or effect of materially distorting behaviour by appreciably impairing informed decision-making, causing or reasonably likely to cause significant harm",
+      "exception": null,
+      "purpose": "protect autonomy and prevent significant harm",
+      "affected_asset": "natural persons' decision-making autonomy",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "any AI system",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Applies since 2025-02-02.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EU_AI_Act_2024_Art9_1",
+      "policy_id": "EU_AI_Act_2024",
+      "section": "Article 9(1)",
+      "original_text": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider of high-risk AI system",
+      "action": "establish, implement, document and maintain",
+      "object": "risk management system",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "operate a lifecycle risk management system for each high-risk AI system",
+      "condition": "AI system is high-risk under Art. 6",
+      "exception": null,
+      "purpose": "identify, estimate, evaluate and mitigate risks to health, safety and fundamental rights",
+      "affected_asset": "health, safety and fundamental rights",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "high-risk AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Art. 9(2) specifies it as a continuous iterative process across the lifecycle. Application date for high-risk obligations deferred by the Digital Omnibus (Annex III: 2027-12-02; Annex I: 2028-08-02, per secondary sources).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EU_AI_Act_2024_Art14_1",
+      "policy_id": "EU_AI_Act_2024",
+      "section": "Article 14(1)",
+      "original_text": "High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider of high-risk AI system",
+      "action": "design and develop",
+      "object": "high-risk AI system with human-machine interface tools",
+      "recipient": "natural persons overseeing the system",
+      "modality": "MUST",
+      "requirement": "enable effective human oversight during use",
+      "condition": "AI system is high-risk",
+      "exception": null,
+      "purpose": "prevent or minimise risks to health, safety or fundamental rights",
+      "affected_asset": "health, safety and fundamental rights",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "high-risk AI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Deployer duty to assign oversight to competent persons is in Art. 26(2).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EU_AI_Act_2024_Art50_2",
+      "policy_id": "EU_AI_Act_2024",
+      "section": "Article 50(2)",
+      "original_text": "Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated. Providers shall ensure their technical solutions are effective, interoperable, robust and reliable as far as this is technically feasible, …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider of generative AI system",
+      "action": "mark outputs",
+      "object": "synthetic audio, image, video or text content",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "mark outputs in machine-readable format detectable as artificially generated or manipulated, using effective, interoperable, robust and reliable solutions as technically feasible",
+      "condition": "AI system generates synthetic audio, image, video or text",
+      "exception": "standard editing assistance or no substantial alteration of input; uses authorised by law to detect, prevent, investigate or prosecute criminal offences",
+      "purpose": "content provenance and integrity of the information ecosystem",
+      "affected_asset": "information integrity",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "generative AI systems incl. GPAI systems",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Applies from 2026-08-02; per secondary sources the Omnibus adds Art. 111(4) giving systems placed on the market before 2026-08-02 until 2026-12-02. Exceptions (assistive editing functions, no substantial alteration, authorised law-enforcement use) follow in the omitted part.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EU_AI_Act_2024_Art53_1_a",
+      "policy_id": "EU_AI_Act_2024",
+      "section": "Article 53(1)(a)",
+      "original_text": "Providers of general-purpose AI models shall: (a) draw up and keep up-to-date the technical documentation of the model, including its training and testing process and the results of its evaluation, which shall contain, at a minimum, the information set out in Annex XI for the purpose of providing it, upon request, to the AI Office and the national competent authorities;",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider of general-purpose AI model",
+      "action": "draw up and keep up-to-date",
+      "object": "technical documentation (Annex XI)",
+      "recipient": "AI Office and national competent authorities (on request)",
+      "modality": "MUST",
+      "requirement": "maintain technical documentation including training, testing and evaluation results",
+      "condition": null,
+      "exception": "free and open-source GPAI models without systemic risk meeting Art. 53(2) conditions",
+      "purpose": "regulatory oversight and accountability of GPAI models",
+      "affected_asset": "transparency of GPAI models",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "general-purpose AI models",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Applies since 2025-08-02 (models already on the market before that date: by 2027-08-02). Art. 53(2) exempts certain open-source models without systemic risk from (a) and (b).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EU_AI_Act_2024_Art55_1_a_b",
+      "policy_id": "EU_AI_Act_2024",
+      "section": "Article 55(1)(a)-(b)",
+      "original_text": "In addition to the obligations listed in Articles 53 and 54, providers of general-purpose AI models with systemic risk shall: (a) perform model evaluation in accordance with standardised protocols and tools reflecting the state of the art, including conducting and documenting adversarial testing of the model with a view to identifying and mitigating systemic risks; (b) assess and mitigate possible systemic risks at Union level, including their sources, that may stem from the development, the placing on the market, or the use of general-purpose AI models with systemic risk;",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider of general-purpose AI model with systemic risk",
+      "action": "evaluate, adversarially test, assess and mitigate",
+      "object": "systemic risks of the model",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "perform state-of-the-art model evaluation incl. documented adversarial testing; assess and mitigate Union-level systemic risks",
+      "condition": "model classified as having systemic risk (Art. 51)",
+      "exception": null,
+      "purpose": "prevent systemic risks to public health, safety, security, fundamental rights or society",
+      "affected_asset": "society at Union level",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "general-purpose AI models with systemic risk",
+      "interpretation_notes": "Not verbatim-verified: the official host (eur-lex.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Points (c) serious-incident reporting and (d) cybersecurity follow. Compliance may be demonstrated via the GPAI Code of Practice (Art. 55(2)).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "policy_id": "EU_GPAI_CoP_2025",
+  "policy_name": "General-Purpose AI Code of Practice",
+  "short_name": "GPAI Code of Practice",
+  "policy_type": "voluntary_code",
+  "source_uri": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+  "issuing_authority": "European Commission (AI Office); drafted by independent experts via a multi-stakeholder process",
+  "jurisdiction": "EU",
+  "country_region": "European Union",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "EU AI Act (Art. 56 codes of practice)",
+  "geo_constraints": "Providers of general-purpose AI models placed on the EU market that choose to sign",
+  "industry_scope": [
+    "general",
+    "AI model providers"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2025-07-10",
+  "key_dates": [
+    {
+      "date": "2025-07-10",
+      "event": "Final Code published by the Commission"
+    },
+    {
+      "date": "2025-08-01",
+      "event": "Commission and AI Board assessment confirming the Code as an adequate voluntary tool (date from general knowledge; not verified on official host)"
+    },
+    {
+      "date": "2025-08-02",
+      "event": "AI Act GPAI obligations (Arts. 53, 55) the Code helps demonstrate begin to apply"
+    },
+    {
+      "date": "2026-01-30",
+      "event": "Constitutive meeting of the Signatory Taskforce (per secondary sources)"
+    },
+    {
+      "date": "2026-08-02",
+      "event": "Commission enforcement powers over GPAI providers apply under the AI Act"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Final version, 10 July 2025",
+  "last_updated": "2025-07-10",
+  "covered_entities": [
+    "providers of general-purpose AI models (signatories)",
+    "providers of general-purpose AI models with systemic risk (Safety and Security chapter)"
+  ],
+  "covered_systems": [
+    "general-purpose AI models",
+    "general-purpose AI models with systemic risk"
+  ],
+  "covered_activities": [
+    "model documentation",
+    "copyright compliance in training data collection",
+    "systemic risk assessment and mitigation",
+    "security",
+    "serious incident reporting"
+  ],
+  "exceptions": [
+    "Safety and Security chapter applies only to GPAI models with systemic risk",
+    "certain open-source models exempt from documentation commitments in line with AI Act Art. 53(2)"
+  ],
+  "conditions": [
+    "applies only to signatories; signatories may sign selected chapters (e.g. xAI signed only the Safety and Security chapter, per secondary sources)",
+    "adherence may be relied on to demonstrate compliance with AI Act Arts. 53 and 55 until harmonised standards are published"
+  ],
+  "objective": "Provide a voluntary tool for GPAI model providers to demonstrate compliance with their AI Act obligations on transparency, copyright, and safety and security of models with systemic risk.",
+  "policy_domain": [
+    "safety",
+    "transparency",
+    "security",
+    "accountability",
+    "governance"
+  ],
+  "principles": [
+    "transparency",
+    "copyright compliance",
+    "systemic risk management",
+    "proportionality",
+    "state-of-the-art safety and security"
+  ],
+  "parent_policy": "EU_AI_Act_2024",
+  "related_policies": [
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "implements"
+    },
+    {
+      "policy": "G7_Hiroshima_CoC_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "Anthropic_RSP",
+      "relation": "complements"
+    },
+    {
+      "policy": "OpenAI_Preparedness_Framework",
+      "relation": "complements"
+    },
+    {
+      "policy": "Directive (EU) 2019/790 (DSM Copyright Directive)",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Non-binding; AI Act obligations prevail. Adherence is a means (not presumption of conformity in the sense of harmonised standards) to demonstrate compliance with AI Act Arts. 53/55.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai (not reachable from compilation environment)",
+      "https://digital-strategy.ec.europa.eu/en/news/signatory-taskforce-established-general-purpose-ai-code-practice (search result only)",
+      "https://artificialintelligenceact.eu/code-of-practice/ (search result only)",
+      "https://babl.ai/eu-ai-office-establishes-signatory-taskforce-to-guide-compliance-with-general-purpose-ai-rules/"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official Commission pages could not be fetched. Structure (three chapters: Transparency; Copyright; Safety and Security, the latter with ten commitments) is from general knowledge of the published Code. Clauses are paraphrases (not verbatim). Signatory list changes over time; not reproduced. No revision of the Code after 2025-07-10 was found in searches."
+  },
+  "clauses": [
+    {
+      "clause_id": "EU_GPAI_CoP_2025_Transparency_C1",
+      "policy_id": "EU_GPAI_CoP_2025",
+      "section": "Transparency chapter, Commitment 1 (Documentation)",
+      "original_text": "Signatories commit to drawing up and keeping up-to-date model documentation (using the Model Documentation Form), providing relevant information to downstream providers and, upon request, to the AI Office and national competent authorities, and ensuring the quality, integrity and security of the documented information.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "GPAI model provider (signatory)",
+      "action": "draw up, keep up-to-date and provide",
+      "object": "model documentation",
+      "recipient": "downstream providers; AI Office/national authorities on request",
+      "modality": "SHOULD",
+      "requirement": "maintain and share model documentation",
+      "condition": "signatory of the Transparency chapter",
+      "exception": "open-source models exempt under AI Act Art. 53(2), unless systemic risk",
+      "purpose": "transparency along the AI value chain",
+      "affected_asset": "downstream providers' ability to comply; regulatory oversight",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "general-purpose AI models",
+      "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase. Implements AI Act Art. 53(1)(a)-(b) and Annexes XI-XII.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EU_GPAI_CoP_2025_Copyright_C1",
+      "policy_id": "EU_GPAI_CoP_2025",
+      "section": "Copyright chapter, Commitment 1 (Copyright policy), Measures 1.1-1.5",
+      "original_text": "Signatories commit to drawing up, keeping up-to-date and implementing a copyright policy; to reproduce and extract only lawfully accessible content when crawling the web; to identify and comply with machine-readable rights reservations (including robots.txt); to mitigate the risk of copyright-infringing outputs; and to designate a point of contact and allow complaints by rightsholders.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "GPAI model provider (signatory)",
+      "action": "draw up and implement",
+      "object": "copyright policy; web crawling practices",
+      "recipient": "rightsholders",
+      "modality": "SHOULD",
+      "requirement": "respect copyright and text-and-data-mining opt-outs and mitigate infringing outputs",
+      "condition": "signatory of the Copyright chapter",
+      "exception": null,
+      "purpose": "compliance with Union copyright law",
+      "affected_asset": "rightsholders' works",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "general-purpose AI models",
+      "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase summarising the measures. Implements AI Act Art. 53(1)(c).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EU_GPAI_CoP_2025_SafetySecurity_C1",
+      "policy_id": "EU_GPAI_CoP_2025",
+      "section": "Safety and Security chapter, Commitment 1 (Safety and Security Framework)",
+      "original_text": "Signatories commit to adopting a state-of-the-art Safety and Security Framework that outlines the systemic risk management processes and measures they implement, to implementing it, and to keeping it updated and notifying it to the AI Office.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider of GPAI model with systemic risk (signatory)",
+      "action": "create, implement and update",
+      "object": "Safety and Security Framework",
+      "recipient": "AI Office",
+      "modality": "SHOULD",
+      "requirement": "document and implement a systemic-risk management framework",
+      "condition": "model classified as GPAI model with systemic risk",
+      "exception": null,
+      "purpose": "systematic management of systemic risks",
+      "affected_asset": "public safety and security",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "general-purpose AI models with systemic risk",
+      "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EU_GPAI_CoP_2025_SafetySecurity_C2_C4",
+      "policy_id": "EU_GPAI_CoP_2025",
+      "section": "Safety and Security chapter, Commitments 2-4 (systemic risk identification, analysis and acceptance determination)",
+      "original_text": "Signatories commit to identifying systemic risks stemming from the model, analysing each identified systemic risk (including through model evaluations), and determining whether the systemic risks are acceptable before deciding whether to proceed with development, placing on the market or use of the model.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider of GPAI model with systemic risk (signatory)",
+      "action": "identify, analyse and determine acceptability of",
+      "object": "systemic risks",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "assess systemic risks and only proceed if risks are determined acceptable",
+      "condition": "model classified as GPAI model with systemic risk",
+      "exception": null,
+      "purpose": "prevent unacceptable systemic risks",
+      "affected_asset": "public health, safety, security, fundamental rights, society",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "general-purpose AI models with systemic risk",
+      "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase. Identified risk categories include CBRN, loss of control, cyber offence and harmful manipulation.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EU_GPAI_CoP_2025_SafetySecurity_C6",
+      "policy_id": "EU_GPAI_CoP_2025",
+      "section": "Safety and Security chapter, Commitment 6 (Security mitigations)",
+      "original_text": "Signatories commit to implementing an adequate level of cybersecurity protection for their models and their physical infrastructure along the entire model lifecycle, to prevent risks from unauthorised release, access and/or theft.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider of GPAI model with systemic risk (signatory)",
+      "action": "implement",
+      "object": "cybersecurity protection for model weights and infrastructure",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "protect model and infrastructure against unauthorised release, access or theft",
+      "condition": "model classified as GPAI model with systemic risk",
+      "exception": null,
+      "purpose": "prevent model exfiltration and misuse",
+      "affected_asset": "model weights and infrastructure",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "general-purpose AI models with systemic risk",
+      "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase. Implements AI Act Art. 55(1)(d).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EU_GPAI_CoP_2025_SafetySecurity_C9",
+      "policy_id": "EU_GPAI_CoP_2025",
+      "section": "Safety and Security chapter, Commitment 9 (Serious incident reporting)",
+      "original_text": "Signatories commit to implementing processes to track, document and report to the AI Office (and, as appropriate, national competent authorities) without undue delay relevant information about serious incidents and possible corrective measures.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider of GPAI model with systemic risk (signatory)",
+      "action": "track, document and report",
+      "object": "serious incidents and corrective measures",
+      "recipient": "AI Office; national competent authorities as appropriate",
+      "modality": "SHOULD",
+      "requirement": "report serious incidents without undue delay",
+      "condition": "serious incident occurs",
+      "exception": null,
+      "purpose": "regulatory awareness and rapid response",
+      "affected_asset": "public safety",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "general-purpose AI models with systemic risk",
+      "interpretation_notes": "Not verbatim-verified: the official host (digital-strategy.ec.europa.eu) was not reachable from the compilation environment (network policy), so this wording is the compiler's reconstruction of the official text and must be checked against the official source before being treated as a quotation. Paraphrase. Implements AI Act Art. 55(1)(c); the Code sets staged reporting deadlines by incident severity.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    }
+  ]
+}

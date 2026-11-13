@@ -1,0 +1,203 @@
+{
+  "policy_id": "FSISAC_GenAI_AUP_2023",
+  "policy_name": "Framework of an Acceptable Use Policy for External Generative AI",
+  "short_name": "FS-ISAC GenAI AUP Framework",
+  "policy_type": "framework",
+  "source_uri": "https://www.fsisac.com/hubfs/Knowledge/FrameworkOfAnAcceptableUsePolicyForExternalGenerativeAI.pdf",
+  "issuing_authority": "Financial Services Information Sharing and Analysis Center (FS-ISAC)",
+  "jurisdiction": "International",
+  "country_region": "Global financial sector (FS-ISAC member institutions)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Industry guidance (financial sector, non-regulatory)",
+  "geo_constraints": null,
+  "industry_scope": [
+    "finance"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2023-09",
+  "key_dates": [
+    {
+      "date": "2023-09",
+      "event": "Published as part of FS-ISAC's series of AI risk white papers ('Illustrative for Adaptation')"
+    }
+  ],
+  "expiration_date": null,
+  "version": "September 2023 (Illustrative for Adaptation)",
+  "last_updated": "2023-09",
+  "covered_entities": [
+    "financial institutions adopting the template",
+    "their employees and contractors"
+  ],
+  "covered_systems": [
+    "external (third-party) generative AI systems"
+  ],
+  "covered_activities": [
+    "employee use of external generative AI",
+    "inputting data into generative AI",
+    "using generative AI outputs"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Template to be adapted; offers permissive and stringent options"
+  ],
+  "objective": "Provides financial firms with an adaptable template, including sample policy text, for an acceptable use policy governing staff use of external generative AI, addressing data going into the systems (confidentiality, access, monitoring) and output coming out (accuracy, attribution, representation).",
+  "policy_domain": [
+    "security",
+    "privacy",
+    "governance",
+    "content_integrity"
+  ],
+  "principles": [
+    "confidentiality, integrity and availability (CIA triad)",
+    "accountability of users",
+    "accuracy of outputs",
+    "attribution"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "FS-ISAC 'Financial Services and AI: Leveraging the Advantages, Managing the Risks' (2024 white paper series)",
+      "relation": "complements"
+    },
+    {
+      "policy": "HK_PCPD_GenAI_Employee_Checklist_2025",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "Non-binding template; firms adapt it subject to applicable law, regulation and internal policies.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.fsisac.com/hubfs/Knowledge/FrameworkOfAnAcceptableUsePolicyForExternalGenerativeAI.pdf (identified via search; host not reachable)",
+      "https://www.fsisac.com/newsroom/pr-ai-risk-papers (search result only)",
+      "https://www.fsisac.com/hubfs/Knowledge/AI/FSISAC_FinancialServicesAndAI-LeveragingTheAdvantagesManagingTheRisks.pdf (search result only)",
+      "https://www.americanbanker.com/news/banks-unite-to-tackle-ai-risks-with-cybersecurity-guidance (search result only)"
+    ],
+    "notes": "FS-ISAC hosts were blocked by the compilation environment's network policy; record built from search-result excerpts of the official PDF and secondary summaries. All clauses are paraphrases with low-moderate confidence; section headings partly inferred from excerpts. Exact publication day in September 2023 not verified (the related press release on FS-ISAC's AI risk papers may date from 2024; not verified). Classified as 'framework' (industry template), jurisdiction 'International'.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+  },
+  "clauses": [
+    {
+      "clause_id": "FSISAC_GenAI_AUP_2023_Scope",
+      "policy_id": "FSISAC_GenAI_AUP_2023",
+      "section": "Scope",
+      "original_text": "The policy should cover external generative AI services used by staff regardless of how they are accessed (e.g., web interfaces, APIs, browser plug-ins or features embedded in other software).",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "adopting financial institution",
+      "action": "define scope of",
+      "object": "acceptable use policy for external generative AI",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "apply the acceptable use policy to all external generative AI services irrespective of access route",
+      "condition": null,
+      "exception": null,
+      "purpose": "avoid gaps in coverage of shadow or embedded generative AI use",
+      "affected_asset": "firm data and systems",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "external (third-party) generative AI services",
+      "interpretation_notes": "Paraphrase reconstructed from search-result excerpts and secondary summaries; the official PDF (fsisac.com) could not be fetched, so wording and exact section placement are unverified. The document is a template offering permissive and stringent options, so modality is SHOULD. Examples of access routes are illustrative and not confirmed in the text.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.45,
+      "human_verified": false
+    },
+    {
+      "clause_id": "FSISAC_GenAI_AUP_2023_Data_Confidentiality",
+      "policy_id": "FSISAC_GenAI_AUP_2023",
+      "section": "Data provided to generative AI systems – Confidentiality",
+      "original_text": "Employees should not provide confidential, proprietary, customer or other non-public firm information to external generative AI systems; this restriction may be relaxed where contracts give the firm control over how its data is protected at the vendor.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "adopting financial institution / its employees",
+      "action": "refrain from inputting",
+      "object": "confidential and non-public information",
+      "recipient": "external generative AI providers",
+      "modality": "SHOULD NOT",
+      "requirement": "do not enter confidential/non-public data into external generative AI unless contractual data-protection controls exist",
+      "condition": null,
+      "exception": "contractual arrangements giving the firm control over vendor-side protection of its data",
+      "purpose": "protect confidentiality (CIA triad) of firm and customer data",
+      "affected_asset": "confidential firm and customer data",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "external generative AI services",
+      "interpretation_notes": "Paraphrase reconstructed from search-result excerpts and secondary summaries; the official PDF (fsisac.com) could not be fetched, so wording and exact section placement are unverified. The document is a template offering permissive and stringent options, so modality is SHOULD. The contractual-relaxation exception is corroborated by a search excerpt of the PDF.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "FSISAC_GenAI_AUP_2023_Access",
+      "policy_id": "FSISAC_GenAI_AUP_2023",
+      "section": "Data provided to generative AI systems – Access",
+      "original_text": "The firm should determine which staff may use external generative AI tools and from where (e.g., firm-managed devices and networks), choosing between permissive and stringent approaches.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "adopting financial institution",
+      "action": "restrict and authorize",
+      "object": "access to external generative AI tools",
+      "recipient": "employees",
+      "modality": "SHOULD",
+      "requirement": "define authorized users and access locations/devices for external generative AI",
+      "condition": null,
+      "exception": null,
+      "purpose": "control data exposure and monitor use",
+      "affected_asset": "firm information systems",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "external generative AI services",
+      "interpretation_notes": "Paraphrase reconstructed from search-result excerpts and secondary summaries; the official PDF (fsisac.com) could not be fetched, so wording and exact section placement are unverified. The document is a template offering permissive and stringent options, so modality is SHOULD. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.45,
+      "human_verified": false
+    },
+    {
+      "clause_id": "FSISAC_GenAI_AUP_2023_Output_Accuracy_Attribution",
+      "policy_id": "FSISAC_GenAI_AUP_2023",
+      "section": "Data received from generative AI systems (accuracy, attribution, representation)",
+      "original_text": "Output from external generative AI should be reviewed for accuracy before use, attributed appropriately, and not be represented as an official position of the firm without the usual review and approval.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "adopting financial institution / its employees",
+      "action": "verify, attribute and control representation of",
+      "object": "generative AI output",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "check output accuracy, attribute AI-generated content, and avoid presenting it as firm communications without review",
+      "condition": null,
+      "exception": null,
+      "purpose": "output integrity and reputational/legal risk control",
+      "affected_asset": "firm reputation; customers relying on communications",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "external generative AI services",
+      "interpretation_notes": "Paraphrase reconstructed from search-result excerpts and secondary summaries; the official PDF (fsisac.com) could not be fetched, so wording and exact section placement are unverified. The document is a template offering permissive and stringent options, so modality is SHOULD. Themes (accuracy, attribution, representing the employee's company) corroborated by FS-ISAC summaries; specific sample wording unverified.",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.4,
+      "human_verified": false
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "policy_id": "Google_AI_Principles",
+  "policy_name": "Google AI Principles",
+  "short_name": "Google AI Principles",
+  "policy_type": "internal_policy",
+  "source_uri": "https://ai.google/principles/",
+  "issuing_authority": "Google LLC (Alphabet Inc.)",
+  "jurisdiction": "Organization",
+  "country_region": "Global (Google, United States-headquartered)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Corporate AI principles (self-regulation)",
+  "geo_constraints": "Applies to Google's AI research, products and services worldwide",
+  "industry_scope": [
+    "general",
+    "technology"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2025-02-04",
+  "key_dates": [
+    {
+      "date": "2018-06-07",
+      "event": "Original Google AI Principles published (7 objectives + 'AI applications we will not pursue')"
+    },
+    {
+      "date": "2025-02-04",
+      "event": "Revised AI Principles published (Bold innovation; Responsible development and deployment; Collaborative progress, together), removing the 2018 list of applications Google would not pursue"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Revised version, February 2025",
+  "last_updated": "2025-02-04",
+  "covered_entities": [
+    "Google / Google DeepMind"
+  ],
+  "covered_systems": [
+    "Google AI models, products and services"
+  ],
+  "covered_activities": [
+    "research",
+    "development",
+    "deployment"
+  ],
+  "exceptions": [],
+  "conditions": [],
+  "objective": "States the principles that guide Google's AI research, development and deployment: pursuing bold innovation where benefits substantially outweigh foreseeable risks, developing and deploying AI responsibly with human oversight and safeguards, and collaborating with others.",
+  "policy_domain": [
+    "innovation",
+    "safety",
+    "fairness",
+    "privacy",
+    "security",
+    "fundamental_rights"
+  ],
+  "principles": [
+    "bold innovation",
+    "responsible development and deployment",
+    "collaborative progress, together",
+    "human oversight",
+    "avoid unfair bias",
+    "privacy and security"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "Google AI Principles (June 2018)",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "Google DeepMind Frontier Safety Framework",
+      "relation": "complements"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "G7_Hiroshima_CoC_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "Corporate principles; applicable law prevails. The 2025 text refers to alignment with widely accepted principles of international law and human rights.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://ai.google/principles/ (identified; host not reachable)",
+      "https://ai.google/static/documents/ai-responsibility-update-published-february-2025.pdf (search result only)",
+      "https://blog.google/technology/ai/ai-principles/ (search result only)",
+      "https://www.theregister.com/2025/02/05/google_ai_principles_update/ (search result only)"
+    ],
+    "notes": "The official page could not be fetched (network policy), so clauses are paraphrases (text_is_verbatim=false), though several phrases are corroborated by search-result excerpts. Revision date 4 Feb 2025 per contemporaneous press and Google's 'Responsible AI: Our 2024 report and ongoing work' post. The 2018 AI Principles (published 7 June 2018) are superseded; the 2025 revision removed the 2018 commitments not to pursue weapons and certain surveillance applications. Wording of the third principle reported variously ('Collaborative progress, together'); not verified on the live page. No later revision found as of Nov 2026 (not exhaustively verified). binding=false: corporate principles binding on Google only as internal policy.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+  },
+  "clauses": [
+    {
+      "clause_id": "Google_AI_Principles_Bold_Innovation",
+      "policy_id": "Google_AI_Principles",
+      "section": "Principle 1: Bold innovation",
+      "original_text": "Google develops AI to assist, empower and inspire people in almost every field of human endeavor, drive economic progress and enable scientific breakthroughs, pursuing AI where the likely overall benefits substantially outweigh the foreseeable risks.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Google (incl. Google DeepMind)",
+      "action": "develop and deploy",
+      "object": "AI systems",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "pursue AI development where likely overall benefits substantially outweigh foreseeable risks",
+      "condition": null,
+      "exception": null,
+      "purpose": "beneficial innovation",
+      "affected_asset": "people and society",
+      "policy_domain": "innovation",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Google AI models and applications",
+      "interpretation_notes": "Paraphrase: ai.google could not be fetched from the compilation environment, so wording is not verified verbatim (partial phrases corroborated by search-result excerpts). Benefit-risk test wording recalled from the 2025 principles.",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Google_AI_Principles_Human_Oversight",
+      "policy_id": "Google_AI_Principles",
+      "section": "Principle 2: Responsible development and deployment",
+      "original_text": "Implementing appropriate human oversight, due diligence, and feedback mechanisms to align with user goals, social responsibility, and widely accepted principles of international law and human rights.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Google (incl. Google DeepMind)",
+      "action": "implement",
+      "object": "human oversight, due diligence and feedback mechanisms",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "apply human oversight and due diligence aligned with international law and human rights",
+      "condition": null,
+      "exception": null,
+      "purpose": "align AI with user goals, social responsibility, international law and human rights",
+      "affected_asset": "human rights; users",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Google AI models and applications",
+      "interpretation_notes": "Paraphrase: ai.google could not be fetched from the compilation environment, so wording is not verified verbatim (partial phrases corroborated by search-result excerpts). This phrase appeared quoted in multiple search-result excerpts and is believed accurate, but was not fetched from the official page. Replaces the 2018 list of 'AI applications we will not pursue' (weapons, surveillance violating internationally accepted norms, etc.).",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Google_AI_Principles_Testing_Safeguards",
+      "policy_id": "Google_AI_Principles",
+      "section": "Principle 2: Responsible development and deployment",
+      "original_text": "Employing rigorous design, testing, monitoring, and safeguards to mitigate unintended or harmful outcomes and avoid unfair bias.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Google (incl. Google DeepMind)",
+      "action": "employ",
+      "object": "design, testing, monitoring and safeguards",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "test, monitor and safeguard AI systems to mitigate harmful outcomes and unfair bias",
+      "condition": null,
+      "exception": null,
+      "purpose": "safety and fairness",
+      "affected_asset": "users and affected people",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Google AI models and applications",
+      "interpretation_notes": "Paraphrase: ai.google could not be fetched from the compilation environment, so wording is not verified verbatim (partial phrases corroborated by search-result excerpts). ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Google_AI_Principles_Safety_Research",
+      "policy_id": "Google_AI_Principles",
+      "section": "Principle 2: Responsible development and deployment",
+      "original_text": "Investing in industry-leading approaches to advance safety and security research and benchmarks, pioneering technical solutions to address risks, and sharing learnings with the ecosystem.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Google (incl. Google DeepMind)",
+      "action": "invest in and share",
+      "object": "AI safety and security research, benchmarks and technical risk mitigations",
+      "recipient": "the AI ecosystem",
+      "modality": "SHOULD",
+      "requirement": "advance and share AI safety and security research",
+      "condition": null,
+      "exception": null,
+      "purpose": "address AI risks across the ecosystem",
+      "affected_asset": "public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Google AI models",
+      "interpretation_notes": "Paraphrase: ai.google could not be fetched from the compilation environment, so wording is not verified verbatim (partial phrases corroborated by search-result excerpts). ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Google_AI_Principles_Privacy_IP",
+      "policy_id": "Google_AI_Principles",
+      "section": "Principle 2: Responsible development and deployment",
+      "original_text": "Promoting privacy and security, and respecting intellectual property rights.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Google (incl. Google DeepMind)",
+      "action": "promote / respect",
+      "object": "privacy, security and intellectual property rights",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "protect privacy and security and respect IP rights in AI development and deployment",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect individuals' data and rights holders",
+      "affected_asset": "personal data; intellectual property",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Google AI models and applications",
+      "interpretation_notes": "Paraphrase: ai.google could not be fetched from the compilation environment, so wording is not verified verbatim (partial phrases corroborated by search-result excerpts). ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    }
+  ]
+}

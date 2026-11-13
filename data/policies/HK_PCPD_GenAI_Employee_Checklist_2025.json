@@ -1,0 +1,272 @@
+{
+  "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+  "policy_name": "Checklist on Guidelines for the Use of Generative AI by Employees (僱員使用生成式AI的指引清單)",
+  "short_name": "PCPD GenAI Employee Checklist",
+  "policy_type": "guidance",
+  "source_uri": "https://www.pcpd.org.hk/english/resources_centre/publications/files/guidelines_ai_employees.pdf",
+  "issuing_authority": "Office of the Privacy Commissioner for Personal Data, Hong Kong (PCPD)",
+  "jurisdiction": "HK",
+  "country_region": "Hong Kong SAR, China",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en",
+    "zh-Hant"
+  ],
+  "regulatory_regime": "Personal Data (Privacy) Ordinance (Cap. 486) - guidance",
+  "geo_constraints": "Organisations in Hong Kong",
+  "industry_scope": [
+    "general",
+    "employment"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2025-03-31",
+  "key_dates": [
+    {
+      "date": "2025-03-31",
+      "event": "Published by PCPD (document dated March 2025)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "March 2025",
+  "last_updated": "2025-03-31",
+  "covered_entities": [
+    "organisations (employers) devising internal Gen AI policies",
+    "employees using Gen AI at work"
+  ],
+  "covered_systems": [
+    "Gen AI tools (chatbots, OCR, text/image/video/voice generators, document/presentation generators, speech-to-text)",
+    "publicly available and internally developed Gen AI tools"
+  ],
+  "covered_activities": [
+    "employee use of Gen AI tools at work",
+    "input of personal data into Gen AI",
+    "use and storage of Gen AI outputs"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "recommendations to be adapted to each organisation's values, mission and operations"
+  ],
+  "objective": "Help organisations develop internal policies or guidelines on employees' use of Gen AI at work that comply with the Personal Data (Privacy) Ordinance, facilitating safe and healthy AI development in Hong Kong.",
+  "policy_domain": [
+    "privacy",
+    "security",
+    "governance",
+    "employment"
+  ],
+  "principles": [
+    "data minimisation and anonymisation",
+    "purpose limitation (DPP3)",
+    "human review and accuracy",
+    "prevention of bias",
+    "data security",
+    "transparency to employees",
+    "training"
+  ],
+  "parent_policy": "Personal Data (Privacy) Ordinance (Cap. 486)",
+  "related_policies": [
+    {
+      "policy": "Artificial Intelligence: Model Personal Data Protection Framework (PCPD, June 2024)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Hong Kong Generative AI Technical and Application Guideline (Digital Policy Office, 2025)",
+      "relation": "complements"
+    },
+    {
+      "policy": "FSISAC_GenAI_AUP_2023",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "CH_CNAI_GenAI_Factsheet_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "CA_TBS_GenAI_Guide",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "General reference only; does not affect the Privacy Commissioner's functions and powers under the PDPO, which prevails (Disclaimer).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.pcpd.org.hk/english/resources_centre/publications/files/guidelines_ai_employees.pdf (official EN; not reachable during compilation)",
+      "https://www.pcpd.org.hk/tc_chi/resources_centre/publications/files/guidelines_ai_employees.pdf (official zh-Hant; not reachable during compilation)",
+      "/home/user/ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md and zh-hant.md (verbatim transcriptions of the official PDFs, with hashes)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Licensed CC BY 4.0. Exact publication day (31 March 2025) taken from the project's policies/README.md; the PDF itself says only 'March 2025'. Clause text relies on a project transcription of the official PDF that is itself marked unreviewed; verify before release."
+  },
+  "clauses": [
+    {
+      "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Input_Information",
+      "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+      "section": "Recommended Coverage - Protection of Personal Data Privacy: Permissible types and amounts of input information",
+      "original_text": "Provide clear instructions on the types and amounts of information that can be inputted into Gen AI tools and the types of information that cannot be inputted (e.g., personal, confidential, proprietary or copyrighted data).",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organisation (employer)",
+      "action": "instruct employees",
+      "object": "information that may / may not be input into Gen AI tools",
+      "recipient": "employees",
+      "modality": "SHOULD",
+      "requirement": "define permitted and prohibited input data, including personal and confidential data",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent unauthorised disclosure and misuse of personal data",
+      "affected_asset": "personal data; confidential and proprietary information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "HK"
+      ],
+      "applicable_systems": "Gen AI tools used by employees",
+      "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted. Footnote cites DPP3 (use limitation); a Data Protection Tip recommends anonymising personal data before input.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Output_Use",
+      "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+      "section": "Recommended Coverage - Protection of Personal Data Privacy: Permissible use of output information",
+      "original_text": "Provide clear instructions on the permissible purposes for using the information (including personal data) generated by Gen AI tools, and whether, when and how such personal data should be anonymised before further use.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organisation (employer)",
+      "action": "instruct employees",
+      "object": "Gen AI output containing personal data",
+      "recipient": "employees",
+      "modality": "SHOULD",
+      "requirement": "purpose limitation and anonymisation rules for Gen AI outputs",
+      "condition": null,
+      "exception": null,
+      "purpose": "comply with DPP3 purpose limitation",
+      "affected_asset": "personal data",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "HK"
+      ],
+      "applicable_systems": "Gen AI tools used by employees",
+      "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Lawful_Use",
+      "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+      "section": "Recommended Coverage - Lawful and Ethical Use and Prevention of Bias",
+      "original_text": "Specify that employees shall not use Gen AI tools for unlawful or harmful activities.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organisation (employer)",
+      "action": "prohibit in policy",
+      "object": "unlawful or harmful use of Gen AI tools",
+      "recipient": "employees",
+      "modality": "SHOULD",
+      "requirement": "internal policy must prohibit unlawful/harmful Gen AI use",
+      "condition": null,
+      "exception": null,
+      "purpose": "lawful and ethical use",
+      "affected_asset": "third parties; the public",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "HK"
+      ],
+      "applicable_systems": "Gen AI tools used by employees",
+      "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted. Recommendation to the organisation (SHOULD); the policy it produces would impose a MUST NOT on employees.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Accuracy_Verification",
+      "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+      "section": "Recommended Coverage - Lawful and Ethical Use and Prevention of Bias: Accuracy and verification",
+      "original_text": "Emphasise the need for employees to verify the information provided by AI, including proofreading and fact-checking, to ensure that the information is accurate and up-to-date.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organisation (employer)",
+      "action": "require human verification",
+      "object": "AI-generated information",
+      "recipient": "employees",
+      "modality": "SHOULD",
+      "requirement": "human review, proofreading and fact-checking of AI output",
+      "condition": null,
+      "exception": null,
+      "purpose": "accuracy of information",
+      "affected_asset": "data accuracy; persons affected by outputs",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "HK"
+      ],
+      "applicable_systems": "Gen AI tools used by employees",
+      "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Security_Credentials",
+      "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+      "section": "Recommended Coverage - Data Security: Robust user credentials / Security settings",
+      "original_text": "Robust user credentials: Require employees to use unique and strong passwords along with multi-factor authentication. Security settings: Require employees to maintain stringent security settings in Gen AI tools for work-related input.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organisation (employer)",
+      "action": "require security controls",
+      "object": "employee accounts and Gen AI tool settings",
+      "recipient": "employees",
+      "modality": "SHOULD",
+      "requirement": "strong passwords, MFA and stringent security settings",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent data security incidents",
+      "affected_asset": "personal data; organisational data",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "HK"
+      ],
+      "applicable_systems": "Gen AI tools used by employees",
+      "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Incident_Response",
+      "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+      "section": "Recommended Coverage - Data Security: Response to AI incident and data breach incident",
+      "original_text": "Require employees to report AI incidents according to the organisation’s AI Incident Response Plan, including the following: Data breach incidents involving the use of AI; Unauthorised input of personal data into Gen AI tools; Abnormal output results; and/or Output results that may breach the law.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "organisation (employer)",
+      "action": "require incident reporting",
+      "object": "AI incidents and data breaches",
+      "recipient": "employees (reporting to the organisation)",
+      "modality": "SHOULD",
+      "requirement": "employees report AI and data-breach incidents under an AI Incident Response Plan",
+      "condition": null,
+      "exception": null,
+      "purpose": "timely detection and handling of AI incidents",
+      "affected_asset": "personal data; legal compliance",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "HK"
+      ],
+      "applicable_systems": "Gen AI tools used by employees",
+      "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted. Bullet list flattened with semicolons.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

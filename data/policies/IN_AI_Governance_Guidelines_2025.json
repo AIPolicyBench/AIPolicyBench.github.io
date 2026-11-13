@@ -1,0 +1,252 @@
+{
+  "policy_id": "IN_AI_Governance_Guidelines_2025",
+  "policy_name": "India AI Governance Guidelines: Enabling Safe and Trusted AI Innovation",
+  "short_name": "India AI Governance Guidelines",
+  "policy_type": "guidance",
+  "source_uri": "https://indiaai.gov.in/",
+  "issuing_authority": "Ministry of Electronics and Information Technology (MeitY), Government of India, under the IndiaAI Mission",
+  "jurisdiction": "IN",
+  "country_region": "India",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "India AI governance (non-statutory; relies on existing laws such as the IT Act 2000 and DPDP Act 2023)",
+  "geo_constraints": "India",
+  "industry_scope": [
+    "general"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2025-11-05",
+  "key_dates": [
+    {
+      "date": "2025-11-05",
+      "event": "Guidelines released by MeitY"
+    },
+    {
+      "date": "2026-02-10",
+      "event": "Related: IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules 2026 on synthetically generated information notified (in force 2026-02-20) - separate binding instrument"
+    }
+  ],
+  "expiration_date": null,
+  "version": "November 2025",
+  "last_updated": "2025-11-05",
+  "covered_entities": [
+    "AI developers",
+    "deployers",
+    "government ministries, sectoral regulators and agencies",
+    "industry"
+  ],
+  "covered_systems": [
+    "AI systems generally"
+  ],
+  "covered_activities": [
+    "development",
+    "deployment",
+    "governance and oversight"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "proportionate, risk-based application; stronger safeguards suggested for higher-risk uses"
+  ],
+  "objective": "Set out a light-touch, innovation-friendly AI governance framework for India built on seven principles ('sutras'), recommendations across six pillars and an action plan, relying primarily on existing laws, voluntary measures and techno-legal approaches rather than a standalone AI law.",
+  "policy_domain": [
+    "governance",
+    "innovation",
+    "accountability",
+    "safety",
+    "transparency",
+    "fairness"
+  ],
+  "principles": [
+    "Trust is the Foundation",
+    "People First",
+    "Innovation over Restraint",
+    "Fairness & Equity",
+    "Accountability",
+    "Understandable by Design",
+    "Safety, Resilience & Sustainability"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "Digital Personal Data Protection Act, 2023 (India)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Information Technology Act, 2000 and IT Rules 2021 (as amended 2026 on synthetically generated information)",
+      "relation": "complements"
+    },
+    {
+      "policy": "RBI FREE-AI Framework (Aug 2025)",
+      "relation": "complements"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "Non-binding; existing statutes (IT Act, DPDP Act, sectoral law) govern; the guidelines recommend targeted amendments rather than a new umbrella AI law.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://indiaai.gov.in/ (official; not reachable)",
+      "https://www.scconline.com/blog/post/2025/11/06/meity-launches-india-ai-governance-guidelines-under-indiaai-mission-2025/ (via search results)",
+      "https://lexplosion.in/meity-issues-india-ai-governance-guidelines-introducing-a-coordinated-oversight-structure/ (via search results)",
+      "https://www.khaitanco.com/sites/default/files/2025-11/ERGO%20-%20India%20AI%20Governance%20Guidelines%20-%2011%20November%202025.pdf (via search results)",
+      "https://www.jsalaw.com/wp-content/uploads/2025/11/JSA-Prism-InfoTech-Nov-2025-India-AI-Governance.final_.pdf (via search results)",
+      "https://www.azbpartners.com/wp-content/uploads/2026/09/India-AI-Regulatory-Tracker-2nd-Ed.pdf (via search results)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official PDF (MeitY/IndiaAI, PIB) could not be fetched; all clauses are paraphrases from law-firm/secondary summaries and have lower confidence. Six pillars reported: Infrastructure, Capacity Building, Policy & Regulation, Risk Mitigation, Accountability, Institutions. Reported institutional proposals: an AI Governance Group (AIGG), a Technology & Policy Expert Committee (TPEC) and a role for the AI Safety Institute - not verified against the text. No evidence found of a revised edition or of the AIGG being formally constituted as of compilation. official_languages: only the English edition was seen in sources; a Hindi edition was not verified."
+  },
+  "clauses": [
+    {
+      "clause_id": "IN_AI_Governance_Guidelines_2025_Accountability_GradedLiability",
+      "policy_id": "IN_AI_Governance_Guidelines_2025",
+      "section": "Key recommendations - Accountability pillar",
+      "original_text": "Liability for AI harms should be graded according to the function performed by each actor in the AI value chain, the level of risk and whether due diligence was observed, with each actor responsible for the parts of the lifecycle it controls.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI developers, deployers and other value-chain actors",
+      "action": "bear proportionate responsibility",
+      "object": "AI-related harms",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "graded, role-based accountability",
+      "condition": null,
+      "exception": null,
+      "purpose": "fair allocation of responsibility",
+      "affected_asset": "persons harmed by AI",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "IN"
+      ],
+      "applicable_systems": "AI systems generally",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Section labels approximate.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "IN_AI_Governance_Guidelines_2025_Grievance_Redressal",
+      "policy_id": "IN_AI_Governance_Guidelines_2025",
+      "section": "Key recommendations - Accountability pillar (grievance redressal)",
+      "original_text": "Organisations deploying AI should establish accessible (including multilingual) grievance redressal mechanisms through which people can report AI-related harms, process complaints within defined timelines and feed lessons back into risk mitigation.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI deployers",
+      "action": "establish grievance redressal channel",
+      "object": "AI-related complaints",
+      "recipient": "affected individuals/users",
+      "modality": "SHOULD",
+      "requirement": "accessible, timely grievance redressal for AI harms",
+      "condition": null,
+      "exception": null,
+      "purpose": "remedy for affected persons",
+      "affected_asset": "users' rights and interests",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "IN"
+      ],
+      "applicable_systems": "deployed AI systems",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Section labels approximate.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "IN_AI_Governance_Guidelines_2025_Incident_Reporting",
+      "policy_id": "IN_AI_Governance_Guidelines_2025",
+      "section": "Key recommendations - Risk Mitigation pillar",
+      "original_text": "A national AI incidents database / reporting system should be developed to record and analyse AI incidents and systemic or technical failures, encouraging reporting without fear of penalty, and kept distinct from end-user grievance mechanisms.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Government (with industry participation)",
+      "action": "establish and contribute to incident reporting",
+      "object": "AI incidents",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "AI incident reporting and analysis",
+      "condition": null,
+      "exception": null,
+      "purpose": "evidence-based risk mitigation",
+      "affected_asset": "public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "IN"
+      ],
+      "applicable_systems": "AI systems generally",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Section labels approximate.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "IN_AI_Governance_Guidelines_2025_Transparency_Reports",
+      "policy_id": "IN_AI_Governance_Guidelines_2025",
+      "section": "Key recommendations / practical guidance for industry",
+      "original_text": "Industry should publish transparency reports on AI systems, sharing sensitive information confidentially with regulators where appropriate, and adopt voluntary frameworks and techno-legal measures (e.g. content authentication) to manage risks.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI developers and deployers (industry)",
+      "action": "publish transparency reports; adopt voluntary measures",
+      "object": "AI systems and risk practices",
+      "recipient": "public and regulators",
+      "modality": "SHOULD",
+      "requirement": "transparency reporting and voluntary risk-mitigation commitments",
+      "condition": null,
+      "exception": null,
+      "purpose": "trust and accountability",
+      "affected_asset": null,
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "IN"
+      ],
+      "applicable_systems": "AI systems generally",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Section labels approximate.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "IN_AI_Governance_Guidelines_2025_HighRisk_Safeguards",
+      "policy_id": "IN_AI_Governance_Guidelines_2025",
+      "section": "Key recommendations - Risk Mitigation pillar",
+      "original_text": "Higher-risk AI uses should be subject to stronger safeguards, such as human oversight, documented testing, audit trails and the ability to intervene or halt the system.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI deployers",
+      "action": "apply stronger safeguards",
+      "object": "high-risk AI uses",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "human oversight and testing for higher-risk AI",
+      "condition": "where AI use poses higher risk of harm",
+      "exception": null,
+      "purpose": "prevent serious harm",
+      "affected_asset": "life, safety and rights of individuals",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "IN"
+      ],
+      "applicable_systems": "higher-risk AI applications",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Section labels approximate.",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.45,
+      "human_verified": false
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-13",
- "policy_count": 34,
- "clause_count": 182,
+ "policy_count": 41,
+ "clause_count": 220,
  "policies": [
   {
    "policy_id": "Anthropic_RSP",
@@ -2732,7 +2732,7 @@
     {
      "policy": "ISO_IEC_42001_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "EU_AI_Act_2024",
@@ -3390,7 +3390,7 @@
     {
      "policy": "ISO_IEC_42001_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     }
    ],
    "conflict_rule": "Without prejudice to Union data protection law incl. GDPR (Art. 2(7)), consumer protection and product safety law (Art. 2(9)); Annex I sectoral harmonisation legislation integrates AI Act requirements into existing conformity assessment.",
@@ -3953,7 +3953,7 @@
     {
      "policy": "HK_PCPD_GenAI_Employee_Checklist_2025",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     }
    ],
    "conflict_rule": "Non-binding template; firms adapt it subject to applicable law, regulation and internal policies.",
@@ -4924,6 +4924,283 @@
    ]
   },
   {
+   "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+   "policy_name": "Checklist on Guidelines for the Use of Generative AI by Employees (僱員使用生成式AI的指引清單)",
+   "short_name": "PCPD GenAI Employee Checklist",
+   "policy_type": "guidance",
+   "source_uri": "https://www.pcpd.org.hk/english/resources_centre/publications/files/guidelines_ai_employees.pdf",
+   "issuing_authority": "Office of the Privacy Commissioner for Personal Data, Hong Kong (PCPD)",
+   "jurisdiction": "HK",
+   "country_region": "Hong Kong SAR, China",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en",
+    "zh-Hant"
+   ],
+   "regulatory_regime": "Personal Data (Privacy) Ordinance (Cap. 486) - guidance",
+   "geo_constraints": "Organisations in Hong Kong",
+   "industry_scope": [
+    "general",
+    "employment"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2025-03-31",
+   "key_dates": [
+    {
+     "date": "2025-03-31",
+     "event": "Published by PCPD (document dated March 2025)"
+    }
+   ],
+   "expiration_date": null,
+   "version": "March 2025",
+   "last_updated": "2025-03-31",
+   "covered_entities": [
+    "organisations (employers) devising internal Gen AI policies",
+    "employees using Gen AI at work"
+   ],
+   "covered_systems": [
+    "Gen AI tools (chatbots, OCR, text/image/video/voice generators, document/presentation generators, speech-to-text)",
+    "publicly available and internally developed Gen AI tools"
+   ],
+   "covered_activities": [
+    "employee use of Gen AI tools at work",
+    "input of personal data into Gen AI",
+    "use and storage of Gen AI outputs"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "recommendations to be adapted to each organisation's values, mission and operations"
+   ],
+   "objective": "Help organisations develop internal policies or guidelines on employees' use of Gen AI at work that comply with the Personal Data (Privacy) Ordinance, facilitating safe and healthy AI development in Hong Kong.",
+   "policy_domain": [
+    "privacy",
+    "security",
+    "governance",
+    "employment"
+   ],
+   "principles": [
+    "data minimisation and anonymisation",
+    "purpose limitation (DPP3)",
+    "human review and accuracy",
+    "prevention of bias",
+    "data security",
+    "transparency to employees",
+    "training"
+   ],
+   "parent_policy": "Personal Data (Privacy) Ordinance (Cap. 486)",
+   "related_policies": [
+    {
+     "policy": "Artificial Intelligence: Model Personal Data Protection Framework (PCPD, June 2024)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Hong Kong Generative AI Technical and Application Guideline (Digital Policy Office, 2025)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "FSISAC_GenAI_AUP_2023",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "CH_CNAI_GenAI_Factsheet_2024",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "CA_TBS_GenAI_Guide",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    }
+   ],
+   "conflict_rule": "General reference only; does not affect the Privacy Commissioner's functions and powers under the PDPO, which prevails (Disclaimer).",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.pcpd.org.hk/english/resources_centre/publications/files/guidelines_ai_employees.pdf (official EN; not reachable during compilation)",
+     "https://www.pcpd.org.hk/tc_chi/resources_centre/publications/files/guidelines_ai_employees.pdf (official zh-Hant; not reachable during compilation)",
+     "/home/user/ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md and zh-hant.md (verbatim transcriptions of the official PDFs, with hashes)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Licensed CC BY 4.0. Exact publication day (31 March 2025) taken from the project's policies/README.md; the PDF itself says only 'March 2025'. Clause text relies on a project transcription of the official PDF that is itself marked unreviewed; verify before release."
+   },
+   "clauses": [
+    {
+     "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Input_Information",
+     "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+     "section": "Recommended Coverage - Protection of Personal Data Privacy: Permissible types and amounts of input information",
+     "original_text": "Provide clear instructions on the types and amounts of information that can be inputted into Gen AI tools and the types of information that cannot be inputted (e.g., personal, confidential, proprietary or copyrighted data).",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organisation (employer)",
+     "action": "instruct employees",
+     "object": "information that may / may not be input into Gen AI tools",
+     "recipient": "employees",
+     "modality": "SHOULD",
+     "requirement": "define permitted and prohibited input data, including personal and confidential data",
+     "condition": null,
+     "exception": null,
+     "purpose": "prevent unauthorised disclosure and misuse of personal data",
+     "affected_asset": "personal data; confidential and proprietary information",
+     "policy_domain": "privacy",
+     "applicable_regions": [
+      "HK"
+     ],
+     "applicable_systems": "Gen AI tools used by employees",
+     "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted. Footnote cites DPP3 (use limitation); a Data Protection Tip recommends anonymising personal data before input.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Output_Use",
+     "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+     "section": "Recommended Coverage - Protection of Personal Data Privacy: Permissible use of output information",
+     "original_text": "Provide clear instructions on the permissible purposes for using the information (including personal data) generated by Gen AI tools, and whether, when and how such personal data should be anonymised before further use.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organisation (employer)",
+     "action": "instruct employees",
+     "object": "Gen AI output containing personal data",
+     "recipient": "employees",
+     "modality": "SHOULD",
+     "requirement": "purpose limitation and anonymisation rules for Gen AI outputs",
+     "condition": null,
+     "exception": null,
+     "purpose": "comply with DPP3 purpose limitation",
+     "affected_asset": "personal data",
+     "policy_domain": "privacy",
+     "applicable_regions": [
+      "HK"
+     ],
+     "applicable_systems": "Gen AI tools used by employees",
+     "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Lawful_Use",
+     "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+     "section": "Recommended Coverage - Lawful and Ethical Use and Prevention of Bias",
+     "original_text": "Specify that employees shall not use Gen AI tools for unlawful or harmful activities.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organisation (employer)",
+     "action": "prohibit in policy",
+     "object": "unlawful or harmful use of Gen AI tools",
+     "recipient": "employees",
+     "modality": "SHOULD",
+     "requirement": "internal policy must prohibit unlawful/harmful Gen AI use",
+     "condition": null,
+     "exception": null,
+     "purpose": "lawful and ethical use",
+     "affected_asset": "third parties; the public",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "HK"
+     ],
+     "applicable_systems": "Gen AI tools used by employees",
+     "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted. Recommendation to the organisation (SHOULD); the policy it produces would impose a MUST NOT on employees.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Accuracy_Verification",
+     "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+     "section": "Recommended Coverage - Lawful and Ethical Use and Prevention of Bias: Accuracy and verification",
+     "original_text": "Emphasise the need for employees to verify the information provided by AI, including proofreading and fact-checking, to ensure that the information is accurate and up-to-date.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organisation (employer)",
+     "action": "require human verification",
+     "object": "AI-generated information",
+     "recipient": "employees",
+     "modality": "SHOULD",
+     "requirement": "human review, proofreading and fact-checking of AI output",
+     "condition": null,
+     "exception": null,
+     "purpose": "accuracy of information",
+     "affected_asset": "data accuracy; persons affected by outputs",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "HK"
+     ],
+     "applicable_systems": "Gen AI tools used by employees",
+     "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Security_Credentials",
+     "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+     "section": "Recommended Coverage - Data Security: Robust user credentials / Security settings",
+     "original_text": "Robust user credentials: Require employees to use unique and strong passwords along with multi-factor authentication. Security settings: Require employees to maintain stringent security settings in Gen AI tools for work-related input.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organisation (employer)",
+     "action": "require security controls",
+     "object": "employee accounts and Gen AI tool settings",
+     "recipient": "employees",
+     "modality": "SHOULD",
+     "requirement": "strong passwords, MFA and stringent security settings",
+     "condition": null,
+     "exception": null,
+     "purpose": "prevent data security incidents",
+     "affected_asset": "personal data; organisational data",
+     "policy_domain": "security",
+     "applicable_regions": [
+      "HK"
+     ],
+     "applicable_systems": "Gen AI tools used by employees",
+     "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "HK_PCPD_GenAI_Employee_Checklist_2025_Incident_Response",
+     "policy_id": "HK_PCPD_GenAI_Employee_Checklist_2025",
+     "section": "Recommended Coverage - Data Security: Response to AI incident and data breach incident",
+     "original_text": "Require employees to report AI incidents according to the organisation’s AI Incident Response Plan, including the following: Data breach incidents involving the use of AI; Unauthorised input of personal data into Gen AI tools; Abnormal output results; and/or Output results that may breach the law.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organisation (employer)",
+     "action": "require incident reporting",
+     "object": "AI incidents and data breaches",
+     "recipient": "employees (reporting to the organisation)",
+     "modality": "SHOULD",
+     "requirement": "employees report AI and data-breach incidents under an AI Incident Response Plan",
+     "condition": null,
+     "exception": null,
+     "purpose": "timely detection and handling of AI incidents",
+     "affected_asset": "personal data; legal compliance",
+     "policy_domain": "security",
+     "applicable_regions": [
+      "HK"
+     ],
+     "applicable_systems": "Gen AI tools used by employees",
+     "interpretation_notes": "English text copied from the transcription of the official PCPD English PDF held in this project's benchmark (ai-safety-policy/benchmark/v0.1/policies/pcpd-genai-employees/en.md; PDF sha256 03674b0b…, transcribed from page images 2026-11-02 and cross-checked against OCR). The PCPD site itself was not reachable during compilation, so wording has not been re-checked against the live PDF. A parallel official Traditional Chinese version exists (zh-hant.md in the same benchmark directory). Footnote markers and bullet formatting omitted. Bullet list flattened with semicolons.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    }
+   ]
+  },
+  {
    "policy_id": "IL_HB3773_2024",
    "policy_name": "Illinois HB 3773 (Public Act 103-0804), amending the Illinois Human Rights Act on the use of artificial intelligence in employment",
    "short_name": "Illinois HB 3773 (IHRA AI amendment)",
@@ -5123,6 +5400,1045 @@
    ]
   },
   {
+   "policy_id": "IN_AI_Governance_Guidelines_2025",
+   "policy_name": "India AI Governance Guidelines: Enabling Safe and Trusted AI Innovation",
+   "short_name": "India AI Governance Guidelines",
+   "policy_type": "guidance",
+   "source_uri": "https://indiaai.gov.in/",
+   "issuing_authority": "Ministry of Electronics and Information Technology (MeitY), Government of India, under the IndiaAI Mission",
+   "jurisdiction": "IN",
+   "country_region": "India",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "India AI governance (non-statutory; relies on existing laws such as the IT Act 2000 and DPDP Act 2023)",
+   "geo_constraints": "India",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2025-11-05",
+   "key_dates": [
+    {
+     "date": "2025-11-05",
+     "event": "Guidelines released by MeitY"
+    },
+    {
+     "date": "2026-02-10",
+     "event": "Related: IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules 2026 on synthetically generated information notified (in force 2026-02-20) - separate binding instrument"
+    }
+   ],
+   "expiration_date": null,
+   "version": "November 2025",
+   "last_updated": "2025-11-05",
+   "covered_entities": [
+    "AI developers",
+    "deployers",
+    "government ministries, sectoral regulators and agencies",
+    "industry"
+   ],
+   "covered_systems": [
+    "AI systems generally"
+   ],
+   "covered_activities": [
+    "development",
+    "deployment",
+    "governance and oversight"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "proportionate, risk-based application; stronger safeguards suggested for higher-risk uses"
+   ],
+   "objective": "Set out a light-touch, innovation-friendly AI governance framework for India built on seven principles ('sutras'), recommendations across six pillars and an action plan, relying primarily on existing laws, voluntary measures and techno-legal approaches rather than a standalone AI law.",
+   "policy_domain": [
+    "governance",
+    "innovation",
+    "accountability",
+    "safety",
+    "transparency",
+    "fairness"
+   ],
+   "principles": [
+    "Trust is the Foundation",
+    "People First",
+    "Innovation over Restraint",
+    "Fairness & Equity",
+    "Accountability",
+    "Understandable by Design",
+    "Safety, Resilience & Sustainability"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "Digital Personal Data Protection Act, 2023 (India)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Information Technology Act, 2000 and IT Rules 2021 (as amended 2026 on synthetically generated information)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "RBI FREE-AI Framework (Aug 2025)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "NIST_AI_RMF_2023",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    }
+   ],
+   "conflict_rule": "Non-binding; existing statutes (IT Act, DPDP Act, sectoral law) govern; the guidelines recommend targeted amendments rather than a new umbrella AI law.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://indiaai.gov.in/ (official; not reachable)",
+     "https://www.scconline.com/blog/post/2025/11/06/meity-launches-india-ai-governance-guidelines-under-indiaai-mission-2025/ (via search results)",
+     "https://lexplosion.in/meity-issues-india-ai-governance-guidelines-introducing-a-coordinated-oversight-structure/ (via search results)",
+     "https://www.khaitanco.com/sites/default/files/2025-11/ERGO%20-%20India%20AI%20Governance%20Guidelines%20-%2011%20November%202025.pdf (via search results)",
+     "https://www.jsalaw.com/wp-content/uploads/2025/11/JSA-Prism-InfoTech-Nov-2025-India-AI-Governance.final_.pdf (via search results)",
+     "https://www.azbpartners.com/wp-content/uploads/2026/09/India-AI-Regulatory-Tracker-2nd-Ed.pdf (via search results)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official PDF (MeitY/IndiaAI, PIB) could not be fetched; all clauses are paraphrases from law-firm/secondary summaries and have lower confidence. Six pillars reported: Infrastructure, Capacity Building, Policy & Regulation, Risk Mitigation, Accountability, Institutions. Reported institutional proposals: an AI Governance Group (AIGG), a Technology & Policy Expert Committee (TPEC) and a role for the AI Safety Institute - not verified against the text. No evidence found of a revised edition or of the AIGG being formally constituted as of compilation. official_languages: only the English edition was seen in sources; a Hindi edition was not verified."
+   },
+   "clauses": [
+    {
+     "clause_id": "IN_AI_Governance_Guidelines_2025_Accountability_GradedLiability",
+     "policy_id": "IN_AI_Governance_Guidelines_2025",
+     "section": "Key recommendations - Accountability pillar",
+     "original_text": "Liability for AI harms should be graded according to the function performed by each actor in the AI value chain, the level of risk and whether due diligence was observed, with each actor responsible for the parts of the lifecycle it controls.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI developers, deployers and other value-chain actors",
+     "action": "bear proportionate responsibility",
+     "object": "AI-related harms",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "graded, role-based accountability",
+     "condition": null,
+     "exception": null,
+     "purpose": "fair allocation of responsibility",
+     "affected_asset": "persons harmed by AI",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "IN"
+     ],
+     "applicable_systems": "AI systems generally",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Section labels approximate.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
+     "human_verified": false
+    },
+    {
+     "clause_id": "IN_AI_Governance_Guidelines_2025_Grievance_Redressal",
+     "policy_id": "IN_AI_Governance_Guidelines_2025",
+     "section": "Key recommendations - Accountability pillar (grievance redressal)",
+     "original_text": "Organisations deploying AI should establish accessible (including multilingual) grievance redressal mechanisms through which people can report AI-related harms, process complaints within defined timelines and feed lessons back into risk mitigation.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI deployers",
+     "action": "establish grievance redressal channel",
+     "object": "AI-related complaints",
+     "recipient": "affected individuals/users",
+     "modality": "SHOULD",
+     "requirement": "accessible, timely grievance redressal for AI harms",
+     "condition": null,
+     "exception": null,
+     "purpose": "remedy for affected persons",
+     "affected_asset": "users' rights and interests",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "IN"
+     ],
+     "applicable_systems": "deployed AI systems",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Section labels approximate.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
+     "human_verified": false
+    },
+    {
+     "clause_id": "IN_AI_Governance_Guidelines_2025_Incident_Reporting",
+     "policy_id": "IN_AI_Governance_Guidelines_2025",
+     "section": "Key recommendations - Risk Mitigation pillar",
+     "original_text": "A national AI incidents database / reporting system should be developed to record and analyse AI incidents and systemic or technical failures, encouraging reporting without fear of penalty, and kept distinct from end-user grievance mechanisms.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "Government (with industry participation)",
+     "action": "establish and contribute to incident reporting",
+     "object": "AI incidents",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "AI incident reporting and analysis",
+     "condition": null,
+     "exception": null,
+     "purpose": "evidence-based risk mitigation",
+     "affected_asset": "public safety",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "IN"
+     ],
+     "applicable_systems": "AI systems generally",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Section labels approximate.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.5,
+     "human_verified": false
+    },
+    {
+     "clause_id": "IN_AI_Governance_Guidelines_2025_Transparency_Reports",
+     "policy_id": "IN_AI_Governance_Guidelines_2025",
+     "section": "Key recommendations / practical guidance for industry",
+     "original_text": "Industry should publish transparency reports on AI systems, sharing sensitive information confidentially with regulators where appropriate, and adopt voluntary frameworks and techno-legal measures (e.g. content authentication) to manage risks.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI developers and deployers (industry)",
+     "action": "publish transparency reports; adopt voluntary measures",
+     "object": "AI systems and risk practices",
+     "recipient": "public and regulators",
+     "modality": "SHOULD",
+     "requirement": "transparency reporting and voluntary risk-mitigation commitments",
+     "condition": null,
+     "exception": null,
+     "purpose": "trust and accountability",
+     "affected_asset": null,
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "IN"
+     ],
+     "applicable_systems": "AI systems generally",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Section labels approximate.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.5,
+     "human_verified": false
+    },
+    {
+     "clause_id": "IN_AI_Governance_Guidelines_2025_HighRisk_Safeguards",
+     "policy_id": "IN_AI_Governance_Guidelines_2025",
+     "section": "Key recommendations - Risk Mitigation pillar",
+     "original_text": "Higher-risk AI uses should be subject to stronger safeguards, such as human oversight, documented testing, audit trails and the ability to intervene or halt the system.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI deployers",
+     "action": "apply stronger safeguards",
+     "object": "high-risk AI uses",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "human oversight and testing for higher-risk AI",
+     "condition": "where AI use poses higher risk of harm",
+     "exception": null,
+     "purpose": "prevent serious harm",
+     "affected_asset": "life, safety and rights of individuals",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "IN"
+     ],
+     "applicable_systems": "higher-risk AI applications",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Section labels approximate.",
+     "ambiguity": "high",
+     "interpretation_confidence": 0.45,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "ISO_IEC_23894_2023",
+   "policy_name": "ISO/IEC 23894:2023 Information technology — Artificial intelligence — Guidance on risk management",
+   "short_name": "ISO/IEC 23894",
+   "policy_type": "standard",
+   "source_uri": "https://www.iso.org/standard/77304.html",
+   "issuing_authority": "ISO/IEC JTC 1/SC 42 (International Organization for Standardization and International Electrotechnical Commission)",
+   "jurisdiction": "International",
+   "country_region": "International (voluntary guidance)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "Voluntary international guidance standard (not certifiable); AI-specific application of ISO 31000:2018",
+   "geo_constraints": "None",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2023-02",
+   "key_dates": [
+    {
+     "date": "2023-02",
+     "event": "ISO/IEC 23894:2023 (first edition) published"
+    }
+   ],
+   "expiration_date": null,
+   "version": "First edition, 2023-02",
+   "last_updated": "2023-02",
+   "covered_entities": [
+    "organizations that develop, produce, deploy or use products, systems and services that utilize AI"
+   ],
+   "covered_systems": [
+    "AI systems and AI-enabled products and services"
+   ],
+   "covered_activities": [
+    "integrating risk management into AI-related activities",
+    "risk identification, analysis, evaluation and treatment",
+    "monitoring and review",
+    "recording and reporting",
+    "AI system lifecycle"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "Guidance only ('should' statements); intended to be tailored to the organization and its context"
+   ],
+   "objective": "Provide guidance on how organizations can manage risks specifically related to AI and integrate risk management into AI-related activities and functions, by adapting the principles, framework and process of ISO 31000:2018 to AI.",
+   "policy_domain": [
+    "safety",
+    "governance",
+    "accountability"
+   ],
+   "principles": [
+    "integrated",
+    "structured and comprehensive",
+    "customized",
+    "inclusive",
+    "dynamic",
+    "best available information",
+    "human and cultural factors",
+    "continual improvement"
+   ],
+   "parent_policy": "ISO 31000:2018 Risk management — Guidelines",
+   "related_policies": [
+    {
+     "policy": "ISO 31000:2018",
+     "relation": "specializes",
+     "in_catalogue": false
+    },
+    {
+     "policy": "ISO_IEC_42001_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "NIST_AI_RMF_2023",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    }
+   ],
+   "conflict_rule": "Guidance standard; does not override legal requirements. Should be read with ISO 31000:2018, whose structure it follows.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.iso.org/standard/77304.html (catalogue page, via search results only)",
+     "https://webstore.ansi.org/preview-pages/ISO/preview_ISO+IEC+23894-2023.pdf (via search results)",
+     "https://oecd.ai/en/dashboards/policy-initiatives/information-technology-%E2%80%94-artificial-intelligence-%E2%80%94-guidance-on-risk-management-isoiec-23894 (via search results)",
+     "https://airc.nist.gov/documents/3/ai-2025-00109_revised_ISO_IEC_23894_Crosswalk_to_the_NIST_AI_RMF.pdf (via search results)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Paywalled standard: official text not accessed; all clauses are paraphrases (text_is_verbatim=false). Structure (Clause 4 Principles, Clause 5 Framework, Clause 6 Risk management process; Annex B risk sources; Annex C risk management and AI system life cycle) corroborated by the ANSI preview and OECD.AI summaries per search results. Annex A topic (AI-related objectives) reported inconsistently by secondary sources. Exact publication day not verified (only YYYY-MM given). Secondary sources (2026) report no amendment or revision in progress; a CEN adoption as EN ISO/IEC 23894 was mentioned by one source but could not be verified. Principles list mirrors ISO 31000:2018 principles, which 23894 adopts with AI-specific commentary. Official languages: only English edition confirmed."
+   },
+   "clauses": [
+    {
+     "clause_id": "ISO_IEC_23894_2023_Cl5_2",
+     "policy_id": "ISO_IEC_23894_2023",
+     "section": "Clause 5.2 (Leadership and commitment)",
+     "original_text": "[Paraphrase — not official text] Top management should demonstrate leadership and commitment by integrating AI risk management into all organizational activities, issuing a statement or policy establishing an AI risk management approach, allocating resources, and assigning authority, responsibility and accountability for managing AI risks at appropriate levels.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "top management and oversight bodies",
+     "action": "demonstrate leadership, allocate resources, assign accountability",
+     "object": "AI risk management",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "integrate AI risk management with clear accountability and resources",
+     "condition": null,
+     "exception": null,
+     "purpose": "embed AI risk management in governance",
+     "affected_asset": "organizational governance",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems in organizational scope",
+     "interpretation_notes": "Paraphrase following ISO 31000 clause 5.2 with AI-specific additions; subclause heading believed correct but not verified against the official text.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "ISO_IEC_23894_2023_Cl6_3",
+     "policy_id": "ISO_IEC_23894_2023",
+     "section": "Clause 6.3 (Scope, context and criteria)",
+     "original_text": "[Paraphrase — not official text] The organization should define the scope of its AI risk management activities, understand the external and internal context (including applicable legal requirements, stakeholder expectations and the AI system's intended purpose and use), and define risk criteria, including the amount and type of risk it may or may not take, taking into account impacts on individuals, groups and society.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization",
+     "action": "define scope, context and risk criteria",
+     "object": "AI risk management activities",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "set scope, context and risk criteria before assessing AI risk",
+     "condition": null,
+     "exception": null,
+     "purpose": "tailor risk management to AI context",
+     "affected_asset": "individuals, groups, society and the organization",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems in organizational scope",
+     "interpretation_notes": "Paraphrase; mirrors ISO 31000 6.3.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "ISO_IEC_23894_2023_Cl6_4_2",
+     "policy_id": "ISO_IEC_23894_2023",
+     "section": "Clause 6.4.2 (Risk identification)",
+     "original_text": "[Paraphrase — not official text] The organization should identify AI-related risks by considering assets and their value, risk sources (e.g. complexity of the environment, lack of transparency and explainability, level of automation, machine learning-specific issues, system hardware, lifecycle issues and technology readiness), potential events and outcomes, controls in place, and consequences for the organization, individuals and society.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization",
+     "action": "identify",
+     "object": "AI risk sources, events, outcomes and consequences",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "systematically identify AI risks using AI-specific risk sources",
+     "condition": null,
+     "exception": null,
+     "purpose": "comprehensive identification of AI risks",
+     "affected_asset": "individuals, society, organizational assets",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems in organizational scope",
+     "interpretation_notes": "Paraphrase; the listed risk sources correspond to Annex B as summarized in secondary sources and should be verified.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
+     "human_verified": false
+    },
+    {
+     "clause_id": "ISO_IEC_23894_2023_Cl6_5",
+     "policy_id": "ISO_IEC_23894_2023",
+     "section": "Clause 6.5 (Risk treatment)",
+     "original_text": "[Paraphrase — not official text] The organization should select and implement options for treating AI risks (e.g. avoiding the risk, removing the risk source, changing likelihood or consequences, sharing the risk, or retaining it by informed decision), prepare risk treatment plans, and assess whether residual risk is acceptable, taking into account AI-specific considerations.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization",
+     "action": "select and implement risk treatment",
+     "object": "AI risks",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "treat AI risks and evaluate residual risk",
+     "condition": "where risks exceed risk criteria",
+     "exception": null,
+     "purpose": "reduce AI risks to acceptable levels",
+     "affected_asset": "individuals, society, organization",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems in organizational scope",
+     "interpretation_notes": "Paraphrase; treatment options follow ISO 31000 6.5.2.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "ISO_IEC_23894_2023_Cl6_6",
+     "policy_id": "ISO_IEC_23894_2023",
+     "section": "Clause 6.6 (Monitoring and review)",
+     "original_text": "[Paraphrase — not official text] The organization should monitor and review the AI risk management process and its outcomes on an ongoing and periodic basis throughout the AI system life cycle, recognizing that AI systems and their context can change over time (e.g. through continuous learning or data drift).",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization",
+     "action": "monitor and review",
+     "object": "AI risk management process and outcomes",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "continuously and periodically monitor AI risks across the lifecycle",
+     "condition": null,
+     "exception": null,
+     "purpose": "keep risk management effective as AI systems evolve",
+     "affected_asset": "AI system reliability and affected stakeholders",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems in organizational scope",
+     "interpretation_notes": "Paraphrase; Annex C maps risk management activities to AI lifecycle stages.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "ISO_IEC_42001_2023",
+   "policy_name": "ISO/IEC 42001:2023 Information technology — Artificial intelligence — Management system",
+   "short_name": "ISO/IEC 42001",
+   "policy_type": "standard",
+   "source_uri": "https://www.iso.org/standard/81230.html",
+   "issuing_authority": "ISO/IEC JTC 1/SC 42 (International Organization for Standardization and International Electrotechnical Commission)",
+   "jurisdiction": "International",
+   "country_region": "International (voluntary; certifiable)",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en",
+    "fr"
+   ],
+   "regulatory_regime": "Voluntary international management system standard (certifiable via accredited certification bodies)",
+   "geo_constraints": "None; applies to any organization that adopts it",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2023-12",
+   "key_dates": [
+    {
+     "date": "2023-12",
+     "event": "ISO/IEC 42001:2023 (first edition) published"
+    },
+    {
+     "date": "2025",
+     "event": "Supporting standards ISO/IEC 42005:2025 (AI system impact assessment) and ISO/IEC 42006:2025 (requirements for certification bodies) published"
+    },
+    {
+     "date": "2026-03-13",
+     "event": "Reported CEN approval of EN ISO/IEC 42001:2026 (European adoption) — secondary source, unverified"
+    }
+   ],
+   "expiration_date": null,
+   "version": "First edition, 2023-12",
+   "last_updated": "2023-12",
+   "covered_entities": [
+    "any organization, regardless of size, type or nature, that provides or uses products or services utilizing AI systems"
+   ],
+   "covered_systems": [
+    "AI systems developed, provided or used by the organization"
+   ],
+   "covered_activities": [
+    "establishing, implementing, maintaining and continually improving an AI management system (AIMS)",
+    "AI risk assessment and treatment",
+    "AI system impact assessment",
+    "AI system lifecycle management",
+    "third-party and supplier relationships"
+   ],
+   "exceptions": [],
+   "conditions": [
+    "Conformity requires meeting all requirements of Clauses 4–10; exclusion of Annex A controls must be justified in the Statement of Applicability"
+   ],
+   "objective": "Specify requirements for establishing, implementing, maintaining and continually improving an AI management system within an organization, so that AI systems are developed, provided or used responsibly in pursuit of the organization's objectives and in line with stakeholder expectations.",
+   "policy_domain": [
+    "governance",
+    "accountability",
+    "safety",
+    "transparency"
+   ],
+   "principles": [
+    "risk-based approach",
+    "Plan-Do-Check-Act continual improvement",
+    "leadership commitment",
+    "impact assessment",
+    "transparency",
+    "accountability"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "ISO_IEC_23894_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "NIST_AI_RMF_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "ISO/IEC 27001:2022",
+     "relation": "overlaps_with",
+     "in_catalogue": false
+    },
+    {
+     "policy": "ISO/IEC 42005:2025",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "ISO/IEC 42006:2025",
+     "relation": "complements",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Voluntary standard; legal and regulatory requirements are to be determined as part of the organization's context (Clause 4) and take precedence. Uses the ISO harmonized structure, enabling integration with ISO/IEC 27001 and other management system standards.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.iso.org/standard/81230.html (catalogue page, via search results only)",
+     "Secondary summaries surfaced via web search (e.g. docs.modulos.ai ISO 42001 pages, gaicc.org status page)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Paywalled standard: the official text was not accessed; all clauses are paraphrases (text_is_verbatim=false) based on the standard's well-known clause structure as corroborated by secondary sources. iso.org could not be fetched from this session. Secondary sources (Sept–Oct 2026) report no amendment or revision registered. Exact publication day (believed 18 Dec 2023) not verified, so only YYYY-MM is given. Normative status of Annexes is reported inconsistently in secondary sources; this record treats Annex A (reference control objectives and controls) as normative, which should be checked. Secondary sources count 38 Annex A controls under 9 objectives (A.2–A.10). Official languages: ISO publishes in English and French; French edition availability not verified."
+   },
+   "clauses": [
+    {
+     "clause_id": "ISO_IEC_42001_2023_Cl5_2",
+     "policy_id": "ISO_IEC_42001_2023",
+     "section": "Clause 5.2 (AI policy)",
+     "original_text": "[Paraphrase — not official text] Top management shall establish an AI policy that is appropriate to the purpose of the organization, provides a framework for setting AI objectives, includes a commitment to meet applicable requirements and a commitment to continual improvement of the AI management system; the policy shall be documented, communicated within the organization and available to interested parties as appropriate.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "top management",
+     "action": "establish, document and communicate",
+     "object": "AI policy",
+     "recipient": "the organization and interested parties",
+     "modality": "MUST",
+     "requirement": "establish a documented AI policy with commitments to applicable requirements and continual improvement",
+     "condition": "for organizations claiming conformity",
+     "exception": null,
+     "purpose": "set direction and accountability for responsible AI",
+     "affected_asset": "organizational governance",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "all AI systems within the AIMS scope",
+     "interpretation_notes": "Paraphrase of harmonized-structure clause; 'shall' requirements are binding only for conformity/certification, hence MUST within the standard's own logic although the standard is voluntary.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.7,
+     "human_verified": false
+    },
+    {
+     "clause_id": "ISO_IEC_42001_2023_Cl6_1_2",
+     "policy_id": "ISO_IEC_42001_2023",
+     "section": "Clause 6.1.2 (AI risk assessment)",
+     "original_text": "[Paraphrase — not official text] The organization shall define and establish an AI risk assessment process that is informed by its AI policy and objectives, produces consistent, valid and comparable results, identifies risks that could aid or prevent achieving AI objectives, analyses potential consequences to the organization, individuals and societies together with their likelihood, and evaluates and prioritizes risks against risk criteria; documented information on the process shall be retained.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization",
+     "action": "define, establish and apply",
+     "object": "AI risk assessment process",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "run a documented, repeatable AI risk assessment covering consequences for the organization, individuals and society",
+     "condition": "for organizations claiming conformity",
+     "exception": null,
+     "purpose": "identify and prioritize AI risks",
+     "affected_asset": "individuals, groups, societies and the organization",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems within the AIMS scope",
+     "interpretation_notes": "Paraphrase; the standard refers to ISO/IEC 23894 for further guidance on AI risk management.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    },
+    {
+     "clause_id": "ISO_IEC_42001_2023_Cl6_1_3",
+     "policy_id": "ISO_IEC_42001_2023",
+     "section": "Clause 6.1.3 (AI risk treatment)",
+     "original_text": "[Paraphrase — not official text] The organization shall define an AI risk treatment process to select treatment options, determine the necessary controls, compare them with the controls in Annex A to verify that no necessary controls have been omitted, and produce a Statement of Applicability containing the necessary controls and justification for inclusion or exclusion; it shall formulate a risk treatment plan and obtain approval of residual risks from designated management.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization",
+     "action": "select treatments, determine controls, produce Statement of Applicability",
+     "object": "AI risks",
+     "recipient": "designated management (approval of residual risk)",
+     "modality": "MUST",
+     "requirement": "treat AI risks with controls cross-checked against Annex A and document a Statement of Applicability",
+     "condition": "for organizations claiming conformity",
+     "exception": "Annex A controls may be excluded with documented justification",
+     "purpose": "ensure appropriate controls for identified AI risks",
+     "affected_asset": "individuals, societies and the organization",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems within the AIMS scope",
+     "interpretation_notes": "Paraphrase; mirrors ISO/IEC 27001 6.1.3 mechanics.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    },
+    {
+     "clause_id": "ISO_IEC_42001_2023_Cl6_1_4",
+     "policy_id": "ISO_IEC_42001_2023",
+     "section": "Clause 6.1.4 (AI system impact assessment)",
+     "original_text": "[Paraphrase — not official text] The organization shall define a process for assessing the potential consequences for individuals or groups of individuals, and for societies, that can result from the development, provision or use of AI systems, taking into account the technical and societal context and applicable jurisdictions; the results shall be documented and considered in the risk assessment.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization",
+     "action": "assess and document",
+     "object": "impacts of AI systems on individuals, groups and societies",
+     "recipient": null,
+     "modality": "MUST",
+     "requirement": "perform and document AI system impact assessments feeding into risk assessment",
+     "condition": "for organizations claiming conformity",
+     "exception": null,
+     "purpose": "protect individuals and society from adverse AI impacts",
+     "affected_asset": "individuals, groups of individuals, societies",
+     "policy_domain": "fundamental_rights",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems within the AIMS scope",
+     "interpretation_notes": "Paraphrase; operationalized in Clause 8.4 and Annex A.5; detailed guidance in ISO/IEC 42005:2025.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    },
+    {
+     "clause_id": "ISO_IEC_42001_2023_Cl9_2",
+     "policy_id": "ISO_IEC_42001_2023",
+     "section": "Clause 9.2 (Internal audit)",
+     "original_text": "[Paraphrase — not official text] The organization shall conduct internal audits at planned intervals to provide information on whether the AI management system conforms to the organization's own requirements and to the requirements of the standard, and is effectively implemented and maintained.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "organization",
+     "action": "conduct internal audits",
+     "object": "AI management system",
+     "recipient": "management",
+     "modality": "MUST",
+     "requirement": "audit the AIMS at planned intervals",
+     "condition": "for organizations claiming conformity",
+     "exception": null,
+     "purpose": "assurance and continual improvement",
+     "affected_asset": "AI management system effectiveness",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "International"
+     ],
+     "applicable_systems": "AI systems within the AIMS scope",
+     "interpretation_notes": "Paraphrase of harmonized-structure clause common to ISO management system standards.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.7,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "JP_AI_Guidelines_Business_2024",
+   "policy_name": "AI Guidelines for Business (AI事業者ガイドライン), Version 1.2",
+   "short_name": "Japan AI Guidelines for Business",
+   "policy_type": "guidance",
+   "source_uri": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html",
+   "issuing_authority": "Ministry of Internal Affairs and Communications (MIC) and Ministry of Economy, Trade and Industry (METI), Japan",
+   "jurisdiction": "JP",
+   "country_region": "Japan",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "ja"
+   ],
+   "regulatory_regime": "Japanese soft-law AI governance (alongside the AI Promotion Act)",
+   "geo_constraints": "Businesses developing, providing or using AI in Japan; voluntary",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2026-03-31",
+   "key_dates": [
+    {
+     "date": "2024-04-19",
+     "event": "Version 1.0 published (integrating earlier MIC AI R&D/Utilization Guidelines and METI AI Governance Guidelines)"
+    },
+    {
+     "date": "2024-11",
+     "event": "Version 1.01 published"
+    },
+    {
+     "date": "2025-03-28",
+     "event": "Version 1.1 published"
+    },
+    {
+     "date": "2026-03-31",
+     "event": "Version 1.2 published (adds AI agents and physical AI; revises risk-based approach and actor categories)"
+    },
+    {
+     "date": "2026-10-30",
+     "event": "MIC study materials discuss a further update (consideration stage, not adopted)"
+    }
+   ],
+   "expiration_date": null,
+   "version": "Version 1.2 (2026-03-31)",
+   "last_updated": "2026-03-31",
+   "covered_entities": [
+    "AI developers",
+    "AI providers",
+    "AI business users"
+   ],
+   "covered_systems": [
+    "AI systems and services generally, including generative AI, AI agents and physical AI"
+   ],
+   "covered_activities": [
+    "development",
+    "provision",
+    "business use"
+   ],
+   "exceptions": [
+    "non-business (personal) use is out of scope"
+   ],
+   "conditions": [
+    "risk-based: measures proportionate to the magnitude and likelihood of harm"
+   ],
+   "objective": "Provide unified, living guidance so that businesses developing, providing and using AI can voluntarily manage risks and realise safe, secure and trustworthy AI while promoting innovation.",
+   "policy_domain": [
+    "governance",
+    "safety",
+    "fairness",
+    "privacy",
+    "security",
+    "transparency",
+    "accountability",
+    "innovation"
+   ],
+   "principles": [
+    "human-centric",
+    "safety",
+    "fairness",
+    "privacy protection",
+    "ensuring security",
+    "transparency",
+    "accountability",
+    "education/literacy",
+    "ensuring fair competition",
+    "innovation"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "JP_AI_Promotion_Act_2025",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "G7_Hiroshima_CoC_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "AI R&D Guidelines (MIC, 2017)",
+     "relation": "supersedes",
+     "in_catalogue": false
+    },
+    {
+     "policy": "AI Utilization Guidelines (MIC, 2019)",
+     "relation": "supersedes",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Governance Guidelines for Implementation of AI Principles ver. 1.1 (METI, 2022)",
+     "relation": "supersedes",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Non-binding soft law; existing laws (e.g. APPI, Copyright Act) prevail.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html (official; not reachable)",
+     "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_1.pdf (official v1.2 main text; not reachable)",
+     "https://www.travelvoice.jp/20260331-159520 (v1.2 publication report; via search results)",
+     "https://www.pwc.com/jp/ja/knowledge/column/ai-governance/ai-guideline-03.html (v1.2 commentary; via search results)",
+     "https://www.soumu.go.jp/main_content/001099163.pdf (MIC overview; via search results)",
+     "https://github.com/suwa-sh/zenn-contents/blob/main/articles/ai-business-guidelines_20260803.md (secondary summary of v1.2: 3 actors, 3 basic philosophies, 10 common guiding principles) - fetched"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "policy_id retains '2024' (first version); record describes the latest Version 1.2 (2026-03-31). METI/MIC sites were blocked, so no clause could be quoted verbatim; all clauses are paraphrases. Version history dates (v1.01 Nov 2024, v1.1 2025-03-28, v1.2 2026-03-31) are from secondary sources. Basic philosophies: human dignity, diversity & inclusion, sustainability. METI/MIC published English versions of earlier editions; whether an official English version of v1.2 exists was not verified, so official_languages lists only ja. Exact section numbering of v1.2 not verified."
+   },
+   "clauses": [
+    {
+     "clause_id": "JP_AI_Guidelines_Business_2024_Common_HumanCentric",
+     "policy_id": "JP_AI_Guidelines_Business_2024",
+     "section": "Main text, Part 2 - Common guiding principles: Human-centric",
+     "original_text": "Each actor should, when developing, providing or using AI, act so as not to infringe the human rights guaranteed by the Constitution or internationally recognised, and should respect human dignity and autonomy, including avoiding AI that unduly manipulates human decision-making or emotions.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI developers, providers and business users",
+     "action": "respect human rights, dignity and autonomy",
+     "object": "AI systems and services",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "human-centric design and use of AI",
+     "condition": null,
+     "exception": null,
+     "purpose": "protect human dignity and autonomy",
+     "affected_asset": "human rights; decision-making autonomy",
+     "policy_domain": "fundamental_rights",
+     "applicable_regions": [
+      "JP"
+     ],
+     "applicable_systems": "all AI",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Original is Japanese; English wording is the compiler's, not METI/MIC's official English version. Section labels approximate.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "JP_AI_Guidelines_Business_2024_Common_Safety",
+     "policy_id": "JP_AI_Guidelines_Business_2024",
+     "section": "Main text, Part 2 - Common guiding principles: Safety",
+     "original_text": "Each actor should avoid harm to the lives, bodies, property and minds of stakeholders and to the environment throughout the AI lifecycle, including by ensuring appropriate data quality, operating AI within its intended scope and enabling human judgement or control where necessary.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI developers, providers and business users",
+     "action": "prevent harm across the lifecycle",
+     "object": "AI systems",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "lifecycle risk management to avoid harm",
+     "condition": null,
+     "exception": null,
+     "purpose": "prevent physical, psychological, property and environmental harm",
+     "affected_asset": "life, body, property, mind, environment",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "JP"
+     ],
+     "applicable_systems": "all AI",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Original is Japanese; English wording is the compiler's, not METI/MIC's official English version. Section labels approximate.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "JP_AI_Guidelines_Business_2024_Common_Transparency",
+     "policy_id": "JP_AI_Guidelines_Business_2024",
+     "section": "Main text, Part 2 - Common guiding principles: Transparency",
+     "original_text": "Each actor should, to a reasonable extent and in light of the technical characteristics and social context of the AI, ensure verifiability and provide stakeholders with appropriate information, such as the fact that AI is being used, its intended use, data collection policies and limitations.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI developers, providers and business users",
+     "action": "provide information; keep logs for verifiability",
+     "object": "AI systems and their use",
+     "recipient": "stakeholders/users",
+     "modality": "SHOULD",
+     "requirement": "disclose AI use and relevant characteristics; maintain verifiability",
+     "condition": null,
+     "exception": null,
+     "purpose": "enable understanding and trust",
+     "affected_asset": "stakeholders' informed decisions",
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "JP"
+     ],
+     "applicable_systems": "all AI",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Original is Japanese; English wording is the compiler's, not METI/MIC's official English version. Section labels approximate.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "JP_AI_Guidelines_Business_2024_Common_Accountability",
+     "policy_id": "JP_AI_Guidelines_Business_2024",
+     "section": "Main text, Part 2 - Common guiding principles: Accountability",
+     "original_text": "Each actor should, to a reasonable extent, fulfil accountability for its AI, including ensuring traceability, clarifying responsibilities and points of contact, documenting its governance approach and explaining it to stakeholders.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI developers, providers and business users",
+     "action": "ensure traceability; assign responsibility; explain",
+     "object": "AI governance and decisions",
+     "recipient": "stakeholders",
+     "modality": "SHOULD",
+     "requirement": "accountability and traceability across the AI value chain",
+     "condition": null,
+     "exception": null,
+     "purpose": "enable responsibility for AI outcomes",
+     "affected_asset": null,
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "JP"
+     ],
+     "applicable_systems": "all AI",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Original is Japanese; English wording is the compiler's, not METI/MIC's official English version. Section labels approximate.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.55,
+     "human_verified": false
+    },
+    {
+     "clause_id": "JP_AI_Guidelines_Business_2024_AI_Agents",
+     "policy_id": "JP_AI_Guidelines_Business_2024",
+     "section": "Version 1.2 additions on AI agents",
+     "original_text": "Businesses deploying AI agents should set the agent's permissions appropriately and build in safeguards, including human judgement or approval where necessary, to prevent risks such as erroneous autonomous actions (e.g. mistaken bookings).",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI providers and business users of AI agents",
+     "action": "limit permissions; insert human checkpoints",
+     "object": "AI agents",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "appropriate permission scoping and human involvement for autonomous AI agents",
+     "condition": "when AI agents act autonomously on behalf of users",
+     "exception": null,
+     "purpose": "prevent harmful or erroneous autonomous actions",
+     "affected_asset": "users' property and interests",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "JP"
+     ],
+     "applicable_systems": "AI agents",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Original is Japanese; English wording is the compiler's, not METI/MIC's official English version. Section labels approximate. Based on press summaries of v1.2 (travel-booking example); exact wording unknown.",
+     "ambiguity": "high",
+     "interpretation_confidence": 0.45,
+     "human_verified": false
+    }
+   ]
+  },
+  {
    "policy_id": "JP_AI_Promotion_Act_2025",
    "policy_name": "Act on the Promotion of Research and Development and Utilization of Artificial Intelligence-Related Technologies (人工知能関連技術の研究開発及び活用の推進に関する法律)",
    "short_name": "Japan AI Promotion Act",
@@ -5210,7 +6526,7 @@
     {
      "policy": "JP_AI_Guidelines_Business_2024",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "Artificial Intelligence Basic Plan (Cabinet decision 2025-12-23, revised 2026-07-14)",
@@ -5815,7 +7131,7 @@
     {
      "policy": "ISO_IEC_42001_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "OECD_AI_Principles_2019",
@@ -6128,7 +7444,7 @@
     {
      "policy": "SG_Model_AI_Gov_GenAI_2024",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     }
    ],
    "conflict_rule": "Voluntary and non-binding; suggested actions such as GV-1.1-001 defer to applicable laws and regulations.",
@@ -6406,12 +7722,12 @@
     {
      "policy": "ISO_IEC_42001_2023",
      "relation": "complements",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "ISO_IEC_23894_2023",
      "relation": "overlaps_with",
-     "in_catalogue": false
+     "in_catalogue": true
     },
     {
      "policy": "OECD_AI_Principles_2019",
@@ -7382,6 +8698,302 @@
    ]
   },
   {
+   "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+   "policy_name": "Model AI Governance Framework for Generative AI: Fostering a Trusted Ecosystem",
+   "short_name": "Singapore MGF for GenAI",
+   "policy_type": "framework",
+   "source_uri": "https://aiverifyfoundation.sg/resources/mgf-gen-ai/",
+   "issuing_authority": "Infocomm Media Development Authority (IMDA) and AI Verify Foundation, Singapore",
+   "jurisdiction": "SG",
+   "country_region": "Singapore",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "Singapore Model AI Governance Framework series (voluntary)",
+   "geo_constraints": "Singapore-issued, intended for international adoption; voluntary",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2024-05-30",
+   "key_dates": [
+    {
+     "date": "2024-01-16",
+     "event": "Proposed framework released for international consultation"
+    },
+    {
+     "date": "2024-05-30",
+     "event": "Final framework released"
+    },
+    {
+     "date": "2026-01-22",
+     "event": "Related: Model AI Governance Framework for Agentic AI announced at WEF Davos"
+    },
+    {
+     "date": "2026-05",
+     "event": "Related: Agentic AI framework Version 1.5 reported released"
+    }
+   ],
+   "expiration_date": null,
+   "version": "30 May 2024",
+   "last_updated": "2024-05-30",
+   "covered_entities": [
+    "model developers",
+    "application deployers",
+    "cloud/platform providers",
+    "policymakers",
+    "third-party testers",
+    "end users (shared responsibility)"
+   ],
+   "covered_systems": [
+    "generative AI models and applications"
+   ],
+   "covered_activities": [
+    "development",
+    "deployment",
+    "testing",
+    "incident reporting",
+    "content provenance"
+   ],
+   "exceptions": [],
+   "conditions": [],
+   "objective": "Propose a systematic, balanced approach to addressing generative AI concerns while facilitating innovation, through nine dimensions to foster a trusted AI ecosystem.",
+   "policy_domain": [
+    "governance",
+    "accountability",
+    "safety",
+    "security",
+    "transparency",
+    "content_integrity",
+    "innovation"
+   ],
+   "principles": [
+    "Accountability",
+    "Data",
+    "Trusted Development and Deployment",
+    "Incident Reporting",
+    "Testing and Assurance",
+    "Security",
+    "Content Provenance",
+    "Safety and Alignment R&D",
+    "AI for Public Good"
+   ],
+   "parent_policy": "Model AI Governance Framework (2nd edition, 2020)",
+   "related_policies": [
+    {
+     "policy": "Model AI Governance Framework (2nd edition, IMDA/PDPC, 2020)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Model AI Governance Framework for Agentic AI (IMDA, 2026)",
+     "relation": "complements",
+     "in_catalogue": false
+    },
+    {
+     "policy": "NIST_AI_600_1_2024",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "G7_Hiroshima_CoC_2023",
+     "relation": "overlaps_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "Personal Data Protection Act 2012 (Singapore)",
+     "relation": "complements",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Voluntary; does not displace Singapore law (e.g. PDPA, Online Safety laws).",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://aiverifyfoundation.sg/resources/mgf-gen-ai/ (official; not reachable)",
+     "https://insightplus.bakermckenzie.com/bm/technology-media-telecommunications_1/singapore-new-model-ai-governance-framework-for-generative-ai-launched-by-imda-and-ai-verify-foundation (via search results)",
+     "https://oecd.ai/en/catalogue/tools/model-ai-governance-framework-for-generative-ai (via search results)",
+     "https://cms.law/en/sgp/legal-updates/singapore-issues-global-first-agentic-ai-model-governance-framework-at-davos (via search results)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official PDF could not be fetched; clauses are paraphrases of the nine dimensions based on compiler knowledge and secondary summaries. The 2026 agentic AI framework is a separate instrument and does not replace this framework (no evidence of supersession found). parent_policy given by name because the 2020 MGF is not in the catalogue."
+   },
+   "clauses": [
+    {
+     "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim1_Accountability",
+     "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+     "section": "Dimension 1: Accountability",
+     "original_text": "Responsibility should be allocated ex ante across the AI development chain (model developers, application deployers, cloud providers) based on each party's level of control, in a manner analogous to cloud shared-responsibility models, complemented by ex post safety nets such as indemnities and insurance for end users.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "model developers, application deployers, cloud providers",
+     "action": "allocate responsibility",
+     "object": "generative AI risks along the development chain",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "clear, control-based allocation of responsibility",
+     "condition": null,
+     "exception": null,
+     "purpose": "incentivise responsible behaviour and protect end users",
+     "affected_asset": "end users",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "SG"
+     ],
+     "applicable_systems": "generative AI models and applications",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    },
+    {
+     "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim3_Trusted_Development",
+     "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+     "section": "Dimension 3: Trusted Development and Deployment",
+     "original_text": "Developers and deployers should adopt baseline safety and hygiene practices across the model lifecycle (e.g. fine-tuning for alignment, evaluation) and provide meaningful transparency to users, akin to 'food labels', on data used, training, safety evaluations, risks and intended use.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "model developers and application deployers",
+     "action": "apply safety best practices; disclose",
+     "object": "generative AI models",
+     "recipient": "users and downstream deployers",
+     "modality": "SHOULD",
+     "requirement": "baseline safety practices and standardised disclosure",
+     "condition": null,
+     "exception": null,
+     "purpose": "trustworthy deployment",
+     "affected_asset": "users",
+     "policy_domain": "transparency",
+     "applicable_regions": [
+      "SG"
+     ],
+     "applicable_systems": "generative AI models",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim4_Incident_Reporting",
+     "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+     "section": "Dimension 4: Incident Reporting",
+     "original_text": "Organisations should establish structures and processes for incident monitoring and reporting, including vulnerability reporting (e.g. bug bounties) before incidents occur, and timely notification of serious incidents to stakeholders and authorities as appropriate.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI developers and deployers",
+     "action": "monitor and report incidents and vulnerabilities",
+     "object": "AI incidents and vulnerabilities",
+     "recipient": "stakeholders; authorities",
+     "modality": "SHOULD",
+     "requirement": "incident and vulnerability reporting processes",
+     "condition": null,
+     "exception": null,
+     "purpose": "enable timely remediation and learning",
+     "affected_asset": "users and the public",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "SG"
+     ],
+     "applicable_systems": "generative AI",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim5_Testing_Assurance",
+     "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+     "section": "Dimension 5: Testing and Assurance",
+     "original_text": "Generative AI should be subject to external validation and third-party testing against common standards and benchmarks to provide independent assurance and build trust.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "developers/deployers and third-party testers",
+     "action": "test and assure",
+     "object": "generative AI models and applications",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "independent third-party testing using common standards",
+     "condition": null,
+     "exception": null,
+     "purpose": "independent verification of safety",
+     "affected_asset": "users and the public",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "SG"
+     ],
+     "applicable_systems": "generative AI",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim6_Security",
+     "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+     "section": "Dimension 6: Security",
+     "original_text": "Security-by-design should be adapted to generative AI, including new threat-modelling approaches and tools such as input moderation/filters and digital forensics tools for generative AI.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "developers and deployers",
+     "action": "apply security-by-design",
+     "object": "generative AI systems",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "AI-specific security controls",
+     "condition": null,
+     "exception": null,
+     "purpose": "address novel threats such as prompt attacks",
+     "affected_asset": "systems and data",
+     "policy_domain": "security",
+     "applicable_regions": [
+      "SG"
+     ],
+     "applicable_systems": "generative AI",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.6,
+     "human_verified": false
+    },
+    {
+     "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim7_Content_Provenance",
+     "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+     "section": "Dimension 7: Content Provenance",
+     "original_text": "Technical solutions such as digital watermarking and cryptographic provenance should be used to show where content came from and whether it was AI-generated or modified, supported by work with key stakeholders and user education.",
+     "text_is_verbatim": false,
+     "language": "en",
+     "translated_text": null,
+     "actor": "developers, deployers, publishers and content platforms",
+     "action": "apply watermarking/provenance",
+     "object": "AI-generated content",
+     "recipient": "end users",
+     "modality": "SHOULD",
+     "requirement": "provenance labelling of AI-generated content",
+     "condition": null,
+     "exception": null,
+     "purpose": "counter misinformation and deepfakes",
+     "affected_asset": "information integrity",
+     "policy_domain": "content_integrity",
+     "applicable_regions": [
+      "SG"
+     ],
+     "applicable_systems": "generative AI producing content",
+     "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.65,
+     "human_verified": false
+    }
+   ]
+  },
+  {
    "policy_id": "TX_TRAIGA_2025",
    "policy_name": "Texas Responsible Artificial Intelligence Governance Act (HB 149, 89th Legislature, Regular Session)",
    "short_name": "TRAIGA",
@@ -7671,6 +9283,318 @@
      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. No private right of action.",
      "ambiguity": "medium",
      "interpretation_confidence": 0.7,
+     "human_verified": false
+    }
+   ]
+  },
+  {
+   "policy_id": "UK_AI_White_Paper_2023",
+   "policy_name": "A pro-innovation approach to AI regulation (White Paper, CP 815) and Government response (CP 1019)",
+   "short_name": "UK AI Regulation White Paper",
+   "policy_type": "framework",
+   "source_uri": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
+   "issuing_authority": "UK Department for Science, Innovation and Technology (DSIT); presented to Parliament by the Secretary of State for Science, Innovation and Technology",
+   "jurisdiction": "UK",
+   "country_region": "United Kingdom",
+   "language": [
+    "en"
+   ],
+   "official_languages": [
+    "en"
+   ],
+   "regulatory_regime": "Non-statutory, principles-based framework implemented by existing sectoral regulators (e.g. ICO, CMA, FCA, Ofcom, MHRA, EHRC) within existing powers",
+   "geo_constraints": "United Kingdom; applied by UK regulators within their existing remits",
+   "industry_scope": [
+    "general"
+   ],
+   "status": "voluntary",
+   "binding": false,
+   "effective_date": "2023-03-29",
+   "key_dates": [
+    {
+     "date": "2022-07-18",
+     "event": "Policy paper 'Establishing a pro-innovation approach to regulating AI' published"
+    },
+    {
+     "date": "2023-03-29",
+     "event": "White Paper (CP 815) presented to Parliament; consultation opened"
+    },
+    {
+     "date": "2024-02-06",
+     "event": "Government response (CP 1019) published, confirming non-statutory, regulator-led approach; key regulators asked to publish their strategic approaches to AI by April 2024"
+    },
+    {
+     "date": "2024-07",
+     "event": "New government's King's Speech signals intent to legislate for the most powerful AI models; no bill subsequently introduced"
+    },
+    {
+     "date": "2025-01-13",
+     "event": "AI Opportunities Action Plan published (policy emphasis shifts to growth/adoption)"
+    },
+    {
+     "date": "2026-05",
+     "event": "King's Speech contains no standalone AI bill; a 'Regulating for Growth Bill' (incl. AI Growth Lab sandbox powers) announced — parliamentary stage unverified"
+    }
+   ],
+   "expiration_date": null,
+   "version": "CP 815 (29 March 2023), with correction slip; Government response CP 1019 (6 February 2024)",
+   "last_updated": "2024-02-06",
+   "covered_entities": [
+    "UK regulators (primary addressees)",
+    "AI life cycle actors (developers, deployers, users) via regulator guidance"
+   ],
+   "covered_systems": [
+    "AI systems defined by reference to 'adaptivity' and 'autonomy'",
+    "highly capable general-purpose AI (addressed further in the 2024 government response)"
+   ],
+   "covered_activities": [
+    "design",
+    "development",
+    "deployment",
+    "use",
+    "regulatory supervision and guidance"
+   ],
+   "exceptions": [
+    "The non-statutory approach creates no new rights or routes to redress",
+    "Possible exemptions for regulators in areas such as national security to be considered before any statutory duty; defence governed by MoD AI principles"
+   ],
+   "conditions": [
+    "Principles applied by regulators proportionately, within existing remits and in accordance with existing law",
+    "Statutory duty on regulators anticipated only if monitoring shows non-statutory implementation is ineffective"
+   ],
+   "objective": "Establish a proportionate, context-specific and pro-innovation framework in which existing regulators apply five cross-sectoral principles to AI within their remits, supported by central government functions, rather than creating a new AI-specific regulator or horizontal AI law.",
+   "policy_domain": [
+    "innovation",
+    "safety",
+    "transparency",
+    "fairness",
+    "accountability",
+    "governance"
+   ],
+   "principles": [
+    "safety, security and robustness",
+    "appropriate transparency and explainability",
+    "fairness",
+    "accountability and governance",
+    "contestability and redress"
+   ],
+   "parent_policy": null,
+   "related_policies": [
+    {
+     "policy": "OECD_AI_Principles_2019",
+     "relation": "implements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "EU_AI_Act_2024",
+     "relation": "conflicts_with",
+     "in_catalogue": true
+    },
+    {
+     "policy": "G7_Hiroshima_CoC_2023",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "CoE_AI_Convention_2024",
+     "relation": "complements",
+     "in_catalogue": true
+    },
+    {
+     "policy": "UK GDPR / Data Protection Act 2018",
+     "relation": "overlaps_with",
+     "in_catalogue": false
+    },
+    {
+     "policy": "Equality Act 2010",
+     "relation": "overlaps_with",
+     "in_catalogue": false
+    },
+    {
+     "policy": "AI Opportunities Action Plan (January 2025)",
+     "relation": "complements",
+     "in_catalogue": false
+    }
+   ],
+   "conflict_rule": "Principles are applied 'in accordance with existing laws and regulations' (para. 50) and complement existing regulation; existing statutory duties (data protection, equality, consumer, sectoral law) prevail. 'conflicts_with' for the EU AI Act denotes a divergent regulatory philosophy (sectoral non-statutory vs horizontal statute), not a legal conflict.",
+   "record_provenance": {
+    "sources_consulted": [
+     "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach (HTML text obtained via the Hugging Face dataset AndreasThinks/ukgov-policy-docs, a scrape of gov.uk policy papers)",
+     "https://www.gov.uk/government/consultations/ai-regulation-a-pro-innovation-approach-policy-proposals/outcome/a-pro-innovation-approach-to-ai-regulation-government-response (via search results)",
+     "https://lordslibrary.parliament.uk/ai-regulation-in-the-uk-debate-on-the-need-for-cross-sector-legislation/ (via search results)",
+     "https://iapp.org/news/a/king-s-speech-signals-diffuse-uk-digital-policy-agenda-but-no-ai-bill (via search results)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "gov.uk could not be fetched directly in this session; clause text is taken from a third-party scrape of the gov.uk HTML version of CP 815 and should be re-checked against gov.uk. The February 2024 government response (CP 1019) text was not obtained; facts about it come from search results. As of Nov 2026 the UK has no AI-specific statute: the 2024 King's Speech commitment to legislate on the most powerful models has not resulted in a bill, and the May 2026 King's Speech (per law-firm and IAPP summaries) contained no standalone AI bill but announced a 'Regulating for Growth Bill' with AI Growth Lab sandbox powers — its introduction/stage could not be verified. The anticipated statutory 'due regard' duty on regulators has not been enacted. The white paper has not been formally withdrawn, but its status under the post-July-2024 government is best described as the existing non-statutory framework with policy emphasis shifted to the AI Opportunities Action Plan; 'voluntary' status reflects that it binds no one. Exact day of the July 2024 King's Speech (17 July) and the AI Opportunities Action Plan (13 January 2025) are from general knowledge."
+   },
+   "clauses": [
+    {
+     "clause_id": "UK_AI_White_Paper_2023_Para48",
+     "policy_id": "UK_AI_White_Paper_2023",
+     "section": "Section 3.2.3, para. 48",
+     "original_text": "48. Existing regulators will be expected to implement the framework underpinned by 5 values-focused cross-sectoral principles: Safety, security and robustness Appropriate transparency and explainability Fairness Accountability and governance Contestability and redress",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "existing UK regulators",
+     "action": "implement",
+     "object": "framework of 5 cross-sectoral principles",
+     "recipient": "regulated entities in each remit",
+     "modality": "SHOULD",
+     "requirement": "regulators implement the five principles within their remits",
+     "condition": "within existing remits, applied proportionately (para. 50)",
+     "exception": null,
+     "purpose": "coherent, context-specific AI regulation without a new AI regulator",
+     "affected_asset": "public trust; individuals affected by AI",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "UK"
+     ],
+     "applicable_systems": "AI systems as characterized by adaptivity and autonomy",
+     "interpretation_notes": "The five principles appear as a bulleted list in the source; line breaks collapsed here. 'Will be expected' is an expectation on regulators, not a legal duty (non-statutory).",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
+     "human_verified": false
+    },
+    {
+     "clause_id": "UK_AI_White_Paper_2023_Principle_Safety",
+     "policy_id": "UK_AI_White_Paper_2023",
+     "section": "Section 3.2.3, Principle: Safety, security, robustness — Definition and explanation",
+     "original_text": "AI systems should function in a robust, secure and safe way throughout the AI life cycle, and risks should be continually identified, assessed and managed. Regulators may need to introduce measures for regulated entities to ensure that AI systems are technically secure and function reliably as intended throughout their entire life cycle.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI life cycle actors; regulators",
+     "action": "ensure robust, secure and safe functioning; identify, assess and manage risks",
+     "object": "AI systems",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "AI systems function safely, securely and robustly with continual risk management",
+     "condition": "throughout the AI life cycle",
+     "exception": null,
+     "purpose": "safety and security of AI",
+     "affected_asset": "health, safety, critical infrastructure, system integrity",
+     "policy_domain": "safety",
+     "applicable_regions": [
+      "UK"
+     ],
+     "applicable_systems": "any AI system within a regulator's remit",
+     "interpretation_notes": "Principle text; any binding measures would come from regulators using existing powers.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "UK_AI_White_Paper_2023_Principle_Fairness",
+     "policy_id": "UK_AI_White_Paper_2023",
+     "section": "Section 3.2.3, Principle: Fairness — Definition and explanation",
+     "original_text": "AI systems should not undermine the legal rights of individuals or organisations, discriminate unfairly against individuals or create unfair market outcomes. Actors involved in all stages of the AI life cycle should consider definitions of fairness that are appropriate to a system’s use, outcomes and the application of relevant law.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI life cycle actors",
+     "action": "not undermine rights / not discriminate unfairly; consider appropriate fairness definitions",
+     "object": "AI systems and their outcomes",
+     "recipient": "individuals and organisations",
+     "modality": "SHOULD NOT",
+     "requirement": "avoid undermining legal rights, unfair discrimination and unfair market outcomes",
+     "condition": null,
+     "exception": null,
+     "purpose": "fairness and non-discrimination",
+     "affected_asset": "legal rights of individuals and organisations; market competition",
+     "policy_domain": "fairness",
+     "applicable_regions": [
+      "UK"
+     ],
+     "applicable_systems": "any AI system",
+     "interpretation_notes": "Rationale text links fairness to Equality Act 2010, Human Rights Act 1998, UK GDPR, consumer and competition law.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "UK_AI_White_Paper_2023_Principle_Accountability",
+     "policy_id": "UK_AI_White_Paper_2023",
+     "section": "Section 3.2.3, Principle: Accountability and governance — Definition and explanation",
+     "original_text": "Governance measures should be in place to ensure effective oversight of the supply and use of AI systems, with clear lines of accountability established across the AI life cycle.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "AI life cycle actors (organisations supplying or using AI)",
+     "action": "put governance measures in place; establish clear lines of accountability",
+     "object": "supply and use of AI systems",
+     "recipient": null,
+     "modality": "SHOULD",
+     "requirement": "effective oversight and clear accountability across the AI life cycle",
+     "condition": null,
+     "exception": null,
+     "purpose": "accountability for AI outcomes",
+     "affected_asset": "regulatory compliance; affected individuals",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "UK"
+     ],
+     "applicable_systems": "any AI system",
+     "interpretation_notes": "Regulators expected to place clear compliance expectations on appropriate supply-chain actors.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "UK_AI_White_Paper_2023_Principle_Contestability",
+     "policy_id": "UK_AI_White_Paper_2023",
+     "section": "Section 3.2.3, Principle: Contestability and redress",
+     "original_text": "Where appropriate, users, impacted third parties and actors in the AI life cycle should be able to contest an AI decision or outcome that is harmful or creates material risk of harm. … The UK’s initial non-statutory approach will not create new rights or new routes to redress at this stage.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "regulators / regulated entities",
+     "action": "enable contestation of harmful AI decisions or outcomes",
+     "object": "AI decisions or outcomes",
+     "recipient": "users, impacted third parties and AI life cycle actors",
+     "modality": "SHOULD",
+     "requirement": "provide clear routes to contest harmful AI outcomes, using existing rights",
+     "condition": "where appropriate; decision/outcome is harmful or creates material risk of harm",
+     "exception": "no new rights or routes to redress are created by the non-statutory approach",
+     "purpose": "redress for AI harms",
+     "affected_asset": "rights of affected persons",
+     "policy_domain": "accountability",
+     "applicable_regions": [
+      "UK"
+     ],
+     "applicable_systems": "any AI system",
+     "interpretation_notes": "Two non-adjacent sentences from the same principle joined with an ellipsis.",
+     "ambiguity": "medium",
+     "interpretation_confidence": 0.8,
+     "human_verified": false
+    },
+    {
+     "clause_id": "UK_AI_White_Paper_2023_Para57",
+     "policy_id": "UK_AI_White_Paper_2023",
+     "section": "Section 3.2.4, para. 57",
+     "original_text": "57. Following a period of non-statutory implementation, and when parliamentary time allows, we anticipate that we will want to strengthen and clarify regulators’ mandates by introducing a new duty requiring them to have due regard to the principles.",
+     "text_is_verbatim": true,
+     "language": "en",
+     "translated_text": null,
+     "actor": "UK government",
+     "action": "introduce (anticipated) statutory duty",
+     "object": "duty on regulators to have due regard to the principles",
+     "recipient": "UK regulators",
+     "modality": "MAY",
+     "requirement": "possible future statutory 'due regard' duty on regulators",
+     "condition": "after non-statutory implementation and when parliamentary time allows; dropped if monitoring shows it is unnecessary (para. 59)",
+     "exception": null,
+     "purpose": "strengthen regulators' mandates and coherence",
+     "affected_asset": "regulatory coherence",
+     "policy_domain": "governance",
+     "applicable_regions": [
+      "UK"
+     ],
+     "applicable_systems": "any AI system",
+     "interpretation_notes": "Statement of intent, not an obligation; as of Nov 2026 no such duty has been legislated.",
+     "ambiguity": "low",
+     "interpretation_confidence": 0.85,
      "human_verified": false
     }
    ]

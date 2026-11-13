@@ -1,0 +1,274 @@
+{
+  "policy_id": "JP_AI_Guidelines_Business_2024",
+  "policy_name": "AI Guidelines for Business (AI事業者ガイドライン), Version 1.2",
+  "short_name": "Japan AI Guidelines for Business",
+  "policy_type": "guidance",
+  "source_uri": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html",
+  "issuing_authority": "Ministry of Internal Affairs and Communications (MIC) and Ministry of Economy, Trade and Industry (METI), Japan",
+  "jurisdiction": "JP",
+  "country_region": "Japan",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "ja"
+  ],
+  "regulatory_regime": "Japanese soft-law AI governance (alongside the AI Promotion Act)",
+  "geo_constraints": "Businesses developing, providing or using AI in Japan; voluntary",
+  "industry_scope": [
+    "general"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2026-03-31",
+  "key_dates": [
+    {
+      "date": "2024-04-19",
+      "event": "Version 1.0 published (integrating earlier MIC AI R&D/Utilization Guidelines and METI AI Governance Guidelines)"
+    },
+    {
+      "date": "2024-11",
+      "event": "Version 1.01 published"
+    },
+    {
+      "date": "2025-03-28",
+      "event": "Version 1.1 published"
+    },
+    {
+      "date": "2026-03-31",
+      "event": "Version 1.2 published (adds AI agents and physical AI; revises risk-based approach and actor categories)"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "MIC study materials discuss a further update (consideration stage, not adopted)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Version 1.2 (2026-03-31)",
+  "last_updated": "2026-03-31",
+  "covered_entities": [
+    "AI developers",
+    "AI providers",
+    "AI business users"
+  ],
+  "covered_systems": [
+    "AI systems and services generally, including generative AI, AI agents and physical AI"
+  ],
+  "covered_activities": [
+    "development",
+    "provision",
+    "business use"
+  ],
+  "exceptions": [
+    "non-business (personal) use is out of scope"
+  ],
+  "conditions": [
+    "risk-based: measures proportionate to the magnitude and likelihood of harm"
+  ],
+  "objective": "Provide unified, living guidance so that businesses developing, providing and using AI can voluntarily manage risks and realise safe, secure and trustworthy AI while promoting innovation.",
+  "policy_domain": [
+    "governance",
+    "safety",
+    "fairness",
+    "privacy",
+    "security",
+    "transparency",
+    "accountability",
+    "innovation"
+  ],
+  "principles": [
+    "human-centric",
+    "safety",
+    "fairness",
+    "privacy protection",
+    "ensuring security",
+    "transparency",
+    "accountability",
+    "education/literacy",
+    "ensuring fair competition",
+    "innovation"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "JP_AI_Promotion_Act_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "G7_Hiroshima_CoC_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "AI R&D Guidelines (MIC, 2017)",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "AI Utilization Guidelines (MIC, 2019)",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "Governance Guidelines for Implementation of AI Principles ver. 1.1 (METI, 2022)",
+      "relation": "supersedes"
+    }
+  ],
+  "conflict_rule": "Non-binding soft law; existing laws (e.g. APPI, Copyright Act) prevail.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html (official; not reachable)",
+      "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_1.pdf (official v1.2 main text; not reachable)",
+      "https://www.travelvoice.jp/20260331-159520 (v1.2 publication report; via search results)",
+      "https://www.pwc.com/jp/ja/knowledge/column/ai-governance/ai-guideline-03.html (v1.2 commentary; via search results)",
+      "https://www.soumu.go.jp/main_content/001099163.pdf (MIC overview; via search results)",
+      "https://github.com/suwa-sh/zenn-contents/blob/main/articles/ai-business-guidelines_20260803.md (secondary summary of v1.2: 3 actors, 3 basic philosophies, 10 common guiding principles) - fetched"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "policy_id retains '2024' (first version); record describes the latest Version 1.2 (2026-03-31). METI/MIC sites were blocked, so no clause could be quoted verbatim; all clauses are paraphrases. Version history dates (v1.01 Nov 2024, v1.1 2025-03-28, v1.2 2026-03-31) are from secondary sources. Basic philosophies: human dignity, diversity & inclusion, sustainability. METI/MIC published English versions of earlier editions; whether an official English version of v1.2 exists was not verified, so official_languages lists only ja. Exact section numbering of v1.2 not verified."
+  },
+  "clauses": [
+    {
+      "clause_id": "JP_AI_Guidelines_Business_2024_Common_HumanCentric",
+      "policy_id": "JP_AI_Guidelines_Business_2024",
+      "section": "Main text, Part 2 - Common guiding principles: Human-centric",
+      "original_text": "Each actor should, when developing, providing or using AI, act so as not to infringe the human rights guaranteed by the Constitution or internationally recognised, and should respect human dignity and autonomy, including avoiding AI that unduly manipulates human decision-making or emotions.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI developers, providers and business users",
+      "action": "respect human rights, dignity and autonomy",
+      "object": "AI systems and services",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "human-centric design and use of AI",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect human dignity and autonomy",
+      "affected_asset": "human rights; decision-making autonomy",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "JP"
+      ],
+      "applicable_systems": "all AI",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Original is Japanese; English wording is the compiler's, not METI/MIC's official English version. Section labels approximate.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "JP_AI_Guidelines_Business_2024_Common_Safety",
+      "policy_id": "JP_AI_Guidelines_Business_2024",
+      "section": "Main text, Part 2 - Common guiding principles: Safety",
+      "original_text": "Each actor should avoid harm to the lives, bodies, property and minds of stakeholders and to the environment throughout the AI lifecycle, including by ensuring appropriate data quality, operating AI within its intended scope and enabling human judgement or control where necessary.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI developers, providers and business users",
+      "action": "prevent harm across the lifecycle",
+      "object": "AI systems",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "lifecycle risk management to avoid harm",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent physical, psychological, property and environmental harm",
+      "affected_asset": "life, body, property, mind, environment",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "JP"
+      ],
+      "applicable_systems": "all AI",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Original is Japanese; English wording is the compiler's, not METI/MIC's official English version. Section labels approximate.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "JP_AI_Guidelines_Business_2024_Common_Transparency",
+      "policy_id": "JP_AI_Guidelines_Business_2024",
+      "section": "Main text, Part 2 - Common guiding principles: Transparency",
+      "original_text": "Each actor should, to a reasonable extent and in light of the technical characteristics and social context of the AI, ensure verifiability and provide stakeholders with appropriate information, such as the fact that AI is being used, its intended use, data collection policies and limitations.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI developers, providers and business users",
+      "action": "provide information; keep logs for verifiability",
+      "object": "AI systems and their use",
+      "recipient": "stakeholders/users",
+      "modality": "SHOULD",
+      "requirement": "disclose AI use and relevant characteristics; maintain verifiability",
+      "condition": null,
+      "exception": null,
+      "purpose": "enable understanding and trust",
+      "affected_asset": "stakeholders' informed decisions",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "JP"
+      ],
+      "applicable_systems": "all AI",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Original is Japanese; English wording is the compiler's, not METI/MIC's official English version. Section labels approximate.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "JP_AI_Guidelines_Business_2024_Common_Accountability",
+      "policy_id": "JP_AI_Guidelines_Business_2024",
+      "section": "Main text, Part 2 - Common guiding principles: Accountability",
+      "original_text": "Each actor should, to a reasonable extent, fulfil accountability for its AI, including ensuring traceability, clarifying responsibilities and points of contact, documenting its governance approach and explaining it to stakeholders.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI developers, providers and business users",
+      "action": "ensure traceability; assign responsibility; explain",
+      "object": "AI governance and decisions",
+      "recipient": "stakeholders",
+      "modality": "SHOULD",
+      "requirement": "accountability and traceability across the AI value chain",
+      "condition": null,
+      "exception": null,
+      "purpose": "enable responsibility for AI outcomes",
+      "affected_asset": null,
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "JP"
+      ],
+      "applicable_systems": "all AI",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Original is Japanese; English wording is the compiler's, not METI/MIC's official English version. Section labels approximate.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "JP_AI_Guidelines_Business_2024_AI_Agents",
+      "policy_id": "JP_AI_Guidelines_Business_2024",
+      "section": "Version 1.2 additions on AI agents",
+      "original_text": "Businesses deploying AI agents should set the agent's permissions appropriately and build in safeguards, including human judgement or approval where necessary, to prevent risks such as erroneous autonomous actions (e.g. mistaken bookings).",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI providers and business users of AI agents",
+      "action": "limit permissions; insert human checkpoints",
+      "object": "AI agents",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "appropriate permission scoping and human involvement for autonomous AI agents",
+      "condition": "when AI agents act autonomously on behalf of users",
+      "exception": null,
+      "purpose": "prevent harmful or erroneous autonomous actions",
+      "affected_asset": "users' property and interests",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "JP"
+      ],
+      "applicable_systems": "AI agents",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge. Original is Japanese; English wording is the compiler's, not METI/MIC's official English version. Section labels approximate. Based on press summaries of v1.2 (travel-booking example); exact wording unknown.",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.45,
+      "human_verified": false
+    }
+  ]
+}

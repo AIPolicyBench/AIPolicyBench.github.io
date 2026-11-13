@@ -1,0 +1,291 @@
+{
+  "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+  "policy_name": "Model AI Governance Framework for Generative AI: Fostering a Trusted Ecosystem",
+  "short_name": "Singapore MGF for GenAI",
+  "policy_type": "framework",
+  "source_uri": "https://aiverifyfoundation.sg/resources/mgf-gen-ai/",
+  "issuing_authority": "Infocomm Media Development Authority (IMDA) and AI Verify Foundation, Singapore",
+  "jurisdiction": "SG",
+  "country_region": "Singapore",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Singapore Model AI Governance Framework series (voluntary)",
+  "geo_constraints": "Singapore-issued, intended for international adoption; voluntary",
+  "industry_scope": [
+    "general"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2024-05-30",
+  "key_dates": [
+    {
+      "date": "2024-01-16",
+      "event": "Proposed framework released for international consultation"
+    },
+    {
+      "date": "2024-05-30",
+      "event": "Final framework released"
+    },
+    {
+      "date": "2026-01-22",
+      "event": "Related: Model AI Governance Framework for Agentic AI announced at WEF Davos"
+    },
+    {
+      "date": "2026-05",
+      "event": "Related: Agentic AI framework Version 1.5 reported released"
+    }
+  ],
+  "expiration_date": null,
+  "version": "30 May 2024",
+  "last_updated": "2024-05-30",
+  "covered_entities": [
+    "model developers",
+    "application deployers",
+    "cloud/platform providers",
+    "policymakers",
+    "third-party testers",
+    "end users (shared responsibility)"
+  ],
+  "covered_systems": [
+    "generative AI models and applications"
+  ],
+  "covered_activities": [
+    "development",
+    "deployment",
+    "testing",
+    "incident reporting",
+    "content provenance"
+  ],
+  "exceptions": [],
+  "conditions": [],
+  "objective": "Propose a systematic, balanced approach to addressing generative AI concerns while facilitating innovation, through nine dimensions to foster a trusted AI ecosystem.",
+  "policy_domain": [
+    "governance",
+    "accountability",
+    "safety",
+    "security",
+    "transparency",
+    "content_integrity",
+    "innovation"
+  ],
+  "principles": [
+    "Accountability",
+    "Data",
+    "Trusted Development and Deployment",
+    "Incident Reporting",
+    "Testing and Assurance",
+    "Security",
+    "Content Provenance",
+    "Safety and Alignment R&D",
+    "AI for Public Good"
+  ],
+  "parent_policy": "Model AI Governance Framework (2nd edition, 2020)",
+  "related_policies": [
+    {
+      "policy": "Model AI Governance Framework (2nd edition, IMDA/PDPC, 2020)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Model AI Governance Framework for Agentic AI (IMDA, 2026)",
+      "relation": "complements"
+    },
+    {
+      "policy": "NIST_AI_600_1_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "G7_Hiroshima_CoC_2023",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "Personal Data Protection Act 2012 (Singapore)",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Voluntary; does not displace Singapore law (e.g. PDPA, Online Safety laws).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://aiverifyfoundation.sg/resources/mgf-gen-ai/ (official; not reachable)",
+      "https://insightplus.bakermckenzie.com/bm/technology-media-telecommunications_1/singapore-new-model-ai-governance-framework-for-generative-ai-launched-by-imda-and-ai-verify-foundation (via search results)",
+      "https://oecd.ai/en/catalogue/tools/model-ai-governance-framework-for-generative-ai (via search results)",
+      "https://cms.law/en/sgp/legal-updates/singapore-issues-global-first-agentic-ai-model-governance-framework-at-davos (via search results)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official PDF could not be fetched; clauses are paraphrases of the nine dimensions based on compiler knowledge and secondary summaries. The 2026 agentic AI framework is a separate instrument and does not replace this framework (no evidence of supersession found). parent_policy given by name because the 2020 MGF is not in the catalogue."
+  },
+  "clauses": [
+    {
+      "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim1_Accountability",
+      "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+      "section": "Dimension 1: Accountability",
+      "original_text": "Responsibility should be allocated ex ante across the AI development chain (model developers, application deployers, cloud providers) based on each party's level of control, in a manner analogous to cloud shared-responsibility models, complemented by ex post safety nets such as indemnities and insurance for end users.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "model developers, application deployers, cloud providers",
+      "action": "allocate responsibility",
+      "object": "generative AI risks along the development chain",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "clear, control-based allocation of responsibility",
+      "condition": null,
+      "exception": null,
+      "purpose": "incentivise responsible behaviour and protect end users",
+      "affected_asset": "end users",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "SG"
+      ],
+      "applicable_systems": "generative AI models and applications",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim3_Trusted_Development",
+      "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+      "section": "Dimension 3: Trusted Development and Deployment",
+      "original_text": "Developers and deployers should adopt baseline safety and hygiene practices across the model lifecycle (e.g. fine-tuning for alignment, evaluation) and provide meaningful transparency to users, akin to 'food labels', on data used, training, safety evaluations, risks and intended use.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "model developers and application deployers",
+      "action": "apply safety best practices; disclose",
+      "object": "generative AI models",
+      "recipient": "users and downstream deployers",
+      "modality": "SHOULD",
+      "requirement": "baseline safety practices and standardised disclosure",
+      "condition": null,
+      "exception": null,
+      "purpose": "trustworthy deployment",
+      "affected_asset": "users",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "SG"
+      ],
+      "applicable_systems": "generative AI models",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim4_Incident_Reporting",
+      "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+      "section": "Dimension 4: Incident Reporting",
+      "original_text": "Organisations should establish structures and processes for incident monitoring and reporting, including vulnerability reporting (e.g. bug bounties) before incidents occur, and timely notification of serious incidents to stakeholders and authorities as appropriate.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI developers and deployers",
+      "action": "monitor and report incidents and vulnerabilities",
+      "object": "AI incidents and vulnerabilities",
+      "recipient": "stakeholders; authorities",
+      "modality": "SHOULD",
+      "requirement": "incident and vulnerability reporting processes",
+      "condition": null,
+      "exception": null,
+      "purpose": "enable timely remediation and learning",
+      "affected_asset": "users and the public",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "SG"
+      ],
+      "applicable_systems": "generative AI",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim5_Testing_Assurance",
+      "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+      "section": "Dimension 5: Testing and Assurance",
+      "original_text": "Generative AI should be subject to external validation and third-party testing against common standards and benchmarks to provide independent assurance and build trust.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "developers/deployers and third-party testers",
+      "action": "test and assure",
+      "object": "generative AI models and applications",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "independent third-party testing using common standards",
+      "condition": null,
+      "exception": null,
+      "purpose": "independent verification of safety",
+      "affected_asset": "users and the public",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "SG"
+      ],
+      "applicable_systems": "generative AI",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim6_Security",
+      "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+      "section": "Dimension 6: Security",
+      "original_text": "Security-by-design should be adapted to generative AI, including new threat-modelling approaches and tools such as input moderation/filters and digital forensics tools for generative AI.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "developers and deployers",
+      "action": "apply security-by-design",
+      "object": "generative AI systems",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "AI-specific security controls",
+      "condition": null,
+      "exception": null,
+      "purpose": "address novel threats such as prompt attacks",
+      "affected_asset": "systems and data",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "SG"
+      ],
+      "applicable_systems": "generative AI",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "SG_Model_AI_Gov_GenAI_2024_Dim7_Content_Provenance",
+      "policy_id": "SG_Model_AI_Gov_GenAI_2024",
+      "section": "Dimension 7: Content Provenance",
+      "original_text": "Technical solutions such as digital watermarking and cryptographic provenance should be used to show where content came from and whether it was AI-generated or modified, supported by work with key stakeholders and user education.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "developers, deployers, publishers and content platforms",
+      "action": "apply watermarking/provenance",
+      "object": "AI-generated content",
+      "recipient": "end users",
+      "modality": "SHOULD",
+      "requirement": "provenance labelling of AI-generated content",
+      "condition": null,
+      "exception": null,
+      "purpose": "counter misinformation and deepfakes",
+      "affected_asset": "information integrity",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "SG"
+      ],
+      "applicable_systems": "generative AI producing content",
+      "interpretation_notes": "Paraphrase, not verbatim: the official document could not be fetched from the compilation environment (issuer site blocked by network policy); content reconstructed from secondary summaries and compiler knowledge.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    }
+  ]
+}

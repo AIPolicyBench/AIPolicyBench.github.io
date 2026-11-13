@@ -1,0 +1,260 @@
+{
+  "policy_id": "NYC_LL144_2021",
+  "policy_name": "New York City Local Law 144 of 2021 on Automated Employment Decision Tools (NYC Admin. Code §§ 20-870 to 20-874) and DCWP implementing rules (6 RCNY §§ 5-300 to 5-304)",
+  "short_name": "NYC Local Law 144 (AEDT Law)",
+  "policy_type": "statute",
+  "source_uri": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page",
+  "issuing_authority": "New York City Council; implemented and enforced by the NYC Department of Consumer and Worker Protection (DCWP)",
+  "jurisdiction": "US-NY-NYC",
+  "country_region": "New York City, New York, United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "NYC Administrative Code Title 20, Chapter 5, Subchapter 25 (Automated Employment Decision Tools)",
+  "geo_constraints": "Employers and employment agencies using AEDTs for candidates for employment or employees for promotion who reside in New York City (DCWP rules tie applicability to NYC-located jobs/offices)",
+  "industry_scope": [
+    "employment"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2023-01-01",
+  "key_dates": [
+    {
+      "date": "2021-12-11",
+      "event": "Local Law 144 of 2021 enacted"
+    },
+    {
+      "date": "2023-01-01",
+      "event": "Law takes effect (enforcement deferred pending rules)"
+    },
+    {
+      "date": "2023-04-06",
+      "event": "DCWP final rules (6 RCNY 5-300 to 5-304) adopted"
+    },
+    {
+      "date": "2023-07-05",
+      "event": "DCWP enforcement begins"
+    },
+    {
+      "date": "2025-12",
+      "event": "NY State Comptroller audit finds DCWP enforcement ineffective (complaint-driven); recommends proactive enforcement"
+    },
+    {
+      "date": "2026-05-20",
+      "event": "Int. 919-2026 (AI oversight office within DCWP) introduced; pending, not enacted as of compilation (unverified on Legistar)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Local Law 144 of 2021; DCWP Notice of Adoption of Final Rule (April 2023)",
+  "last_updated": "2023-04-06",
+  "covered_entities": [
+    "employers",
+    "employment agencies"
+  ],
+  "covered_systems": [
+    "automated employment decision tools: computational processes derived from machine learning, statistical modeling, data analytics or AI that issue simplified output (score, classification, recommendation) used to substantially assist or replace discretionary decision making for employment decisions"
+  ],
+  "covered_activities": [
+    "screening candidates for employment",
+    "screening employees for promotion"
+  ],
+  "exceptions": [
+    "tools that do not automate, support, substantially assist or replace discretionary decision-making (e.g., junk-mail filters, firewalls, antivirus, calculators, spreadsheets, databases, data sets or other compilations of data)"
+  ],
+  "conditions": [
+    "Rules define 'substantially assist or replace' as relying solely on simplified output, using it as one of a set of criteria weighted more than any other, or using it to overrule conclusions from other factors including human decision-making",
+    "Bias audit must be performed by an independent auditor and be no more than one year old"
+  ],
+  "objective": "Reduce discriminatory outcomes from automated hiring and promotion tools by requiring annual independent bias audits, public disclosure of audit summaries, and advance notice to candidates and employees.",
+  "policy_domain": [
+    "fairness",
+    "employment",
+    "transparency"
+  ],
+  "principles": [
+    "non-discrimination",
+    "transparency",
+    "independent audit",
+    "notice"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "IL_HB3773_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "CO_SB24_205",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "New York City Human Rights Law",
+      "relation": "complements"
+    },
+    {
+      "policy": "Title VII of the Civil Rights Act of 1964",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "Admin. Code § 20-874: the subchapter does not limit any right of a candidate or employee to bring a civil action, or the authority of the NYC Commission on Human Rights to enforce the NYC Human Rights Law (paraphrased).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page (not fetched)",
+      "https://www.dlapiper.com/en/insights/publications/2026/01/critical-audit-of-nyc-ai-hiring-law-signals-increased-risk-for-employers",
+      "https://aicomplianceatlas.com/law/nyc-local-law-144",
+      "https://regulations.ai/regulations/RAI-US-NY-NYCL1XX-2021"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official NYC hosts were not fetched (legislature/government hosts unreachable from the compilation environment); clauses are paraphrases from the compiler's knowledge of Admin. Code §§ 20-870 to 20-874, cross-checked against secondary summaries. No enacted amendment found as of 2026-11; Int. 919-2026 pending. Penalty: secondary sources conflict between statutory amounts ($500 first / $500-$1,500 subsequent) and the DCWP penalty schedule (6 RCNY 6-81, reportedly $375/$1,350/$1,500); verify. Enactment date 2021-12-11 is from memory (passed by Council 2021-11-10, returned unsigned); unverified."
+  },
+  "clauses": [
+    {
+      "clause_id": "NYC_LL144_2021_20_871_a",
+      "policy_id": "NYC_LL144_2021",
+      "section": "NYC Admin. Code § 20-871(a)",
+      "original_text": "It is unlawful for an employer or employment agency to use an automated employment decision tool to screen a candidate or employee for an employment decision unless (1) the tool has been the subject of a bias audit conducted no more than one year prior to its use, and (2) a summary of the results of the most recent bias audit and the distribution date of the tool are made publicly available on the employer's or agency's website before use.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employer/employment agency",
+      "action": "use",
+      "object": "automated employment decision tool",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "do not use an AEDT without a bias audit less than one year old and a published audit summary",
+      "condition": "AEDT used to screen candidates or employees for employment decisions",
+      "exception": null,
+      "purpose": "detect and deter disparate impact in hiring and promotion",
+      "affected_asset": "candidates' and employees' equal employment opportunity",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "US-NY-NYC"
+      ],
+      "applicable_systems": "automated employment decision tools",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Rules (6 RCNY 5-301) require impact ratios by sex, race/ethnicity and intersectional categories.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NYC_LL144_2021_20_871_b_1",
+      "policy_id": "NYC_LL144_2021",
+      "section": "NYC Admin. Code § 20-871(b)(1)",
+      "original_text": "An employer or employment agency using an AEDT must notify each candidate or employee who resides in the city, no less than ten business days before use, that an AEDT will be used in assessing them, and allow the candidate to request an alternative selection process or accommodation.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employer/employment agency",
+      "action": "notify",
+      "object": "use of AEDT",
+      "recipient": "candidates and employees residing in NYC",
+      "modality": "MUST",
+      "requirement": "give notice at least 10 business days before AEDT use and allow request for alternative process or accommodation",
+      "condition": "candidate/employee resides in NYC",
+      "exception": null,
+      "purpose": "transparency and informed choice",
+      "affected_asset": "candidates' autonomy",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-NY-NYC"
+      ],
+      "applicable_systems": "automated employment decision tools",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Law does not itself require providing the alternative process; DCWP rules address notice method.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NYC_LL144_2021_20_871_b_2",
+      "policy_id": "NYC_LL144_2021",
+      "section": "NYC Admin. Code § 20-871(b)(2)",
+      "original_text": "The notice must include the job qualifications and characteristics that the AEDT will use in the assessment of the candidate or employee, provided no less than ten business days before use.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employer/employment agency",
+      "action": "disclose",
+      "object": "job qualifications and characteristics assessed by the AEDT",
+      "recipient": "candidates and employees residing in NYC",
+      "modality": "MUST",
+      "requirement": "disclose the qualifications and characteristics the tool assesses",
+      "condition": "AEDT use",
+      "exception": null,
+      "purpose": "transparency",
+      "affected_asset": "candidates' understanding of assessment criteria",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-NY-NYC"
+      ],
+      "applicable_systems": "automated employment decision tools",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NYC_LL144_2021_20_871_b_3",
+      "policy_id": "NYC_LL144_2021",
+      "section": "NYC Admin. Code § 20-871(b)(3)",
+      "original_text": "If not disclosed on its website, information about the type of data collected for the AEDT, the source of such data and the employer's or agency's data retention policy must be made available upon written request within 30 days.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employer/employment agency",
+      "action": "disclose on request",
+      "object": "data type, source and retention policy for AEDT",
+      "recipient": "candidate or employee",
+      "modality": "MUST",
+      "requirement": "provide data information within 30 days of written request",
+      "condition": "information not already posted on website",
+      "exception": "disclosure that would violate law or interfere with a law enforcement investigation",
+      "purpose": "data transparency",
+      "affected_asset": "candidates' personal data",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "US-NY-NYC"
+      ],
+      "applicable_systems": "automated employment decision tools",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Exception recalled from enacted text; unverified.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NYC_LL144_2021_20_872",
+      "policy_id": "NYC_LL144_2021",
+      "section": "NYC Admin. Code § 20-872",
+      "original_text": "A person who violates the subchapter is liable for a civil penalty of not more than $500 for a first violation and each additional violation occurring on the same day, and not less than $500 nor more than $1,500 for each subsequent violation; each day of unlawful use and each failure to give required notice constitutes a separate violation.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employer/employment agency",
+      "action": "be liable for civil penalties",
+      "object": "violations of AEDT requirements",
+      "recipient": "DCWP / city",
+      "modality": "MUST",
+      "requirement": "pay civil penalties per violation",
+      "condition": "violation of §§ 20-871",
+      "exception": null,
+      "purpose": "deterrence and enforcement",
+      "affected_asset": "compliance",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-NY-NYC"
+      ],
+      "applicable_systems": "automated employment decision tools",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Penalty amounts per compiler's knowledge of statute; DCWP penalty schedule may set lower defaults.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    }
+  ]
+}

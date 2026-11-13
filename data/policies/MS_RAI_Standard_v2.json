@@ -1,0 +1,278 @@
+{
+  "policy_id": "MS_RAI_Standard_v2",
+  "policy_name": "Microsoft Responsible AI Standard, v2: General Requirements",
+  "short_name": "Microsoft RAI Standard v2",
+  "policy_type": "internal_policy",
+  "source_uri": "https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-Responsible-AI-Standard-v2-General-Requirements-3.pdf",
+  "issuing_authority": "Microsoft Corporation (Office of Responsible AI)",
+  "jurisdiction": "Organization",
+  "country_region": "Global (Microsoft Corporation, United States-headquartered)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Corporate responsible AI governance (self-regulation)",
+  "geo_constraints": "Applies to Microsoft AI systems worldwide",
+  "industry_scope": [
+    "general",
+    "technology"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2022-06",
+  "key_dates": [
+    {
+      "date": "2022-06",
+      "event": "Version 2 General Requirements published externally (with blog 'Microsoft's framework for building AI systems responsibly')"
+    }
+  ],
+  "expiration_date": null,
+  "version": "v2, June 2022 (General Requirements, for external release)",
+  "last_updated": "2022-06",
+  "covered_entities": [
+    "Microsoft teams that develop and deploy AI systems"
+  ],
+  "covered_systems": [
+    "Microsoft AI systems",
+    "Sensitive Uses (high-impact AI systems)"
+  ],
+  "covered_activities": [
+    "design",
+    "development",
+    "evaluation",
+    "release",
+    "deployment",
+    "monitoring"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Individual goals specify the systems they apply to (e.g., Sensitive Uses, systems generating synthetic media)"
+  ],
+  "objective": "Operationalizes Microsoft's six AI principles into 17 goals with concrete requirements that Microsoft product teams must meet when building and deploying AI systems.",
+  "policy_domain": [
+    "accountability",
+    "transparency",
+    "fairness",
+    "safety",
+    "privacy",
+    "security"
+  ],
+  "principles": [
+    "accountability",
+    "transparency",
+    "fairness",
+    "reliability and safety",
+    "privacy and security",
+    "inclusiveness"
+  ],
+  "parent_policy": "Microsoft AI Principles",
+  "related_policies": [
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "ISO_IEC_42001_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "Microsoft Responsible AI Standard v1 (2019, internal)",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "Microsoft Privacy Standard / Security Policy / Accessibility Standards",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Internal standard; applicable law prevails. Privacy & security and inclusiveness goals defer to Microsoft's separate Privacy Standard, Security Policy and Accessibility Standards.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://blogs.microsoft.com/wp-content/uploads/prod/sites/5/2022/06/Microsoft-Responsible-AI-Standard-v2-General-Requirements-3.pdf (identified; host not reachable)",
+      "Web search result excerpts of the official PDF and of https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Microsoft-Responsible-AI-Standard-General-Requirements.pdf",
+      "https://blogs.microsoft.com/on-the-issues/2025/06/20/our-2025-responsible-ai-transparency-report/ (search result only)"
+    ],
+    "notes": "The official PDF could not be fetched (network policy blocked Microsoft hosts), so all clauses are paraphrases (text_is_verbatim=false). Structure (6 principles, 17 goals incl. A1-A5, T1-T3, F1-F3, RS1-RS3, PS1-PS2, I1) is from knowledge of the document and partially corroborated by search excerpts. Exact publication day in June 2022 not verified (believed 21 June 2022). No official v3 found as of Nov 2026; one non-authoritative vendor blog mentions a v3, which could not be verified. binding=false: mandatory internally for Microsoft teams but binding on the organisation itself only, not legally binding on third parties.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+  },
+  "clauses": [
+    {
+      "clause_id": "MS_RAI_Standard_v2_A1",
+      "policy_id": "MS_RAI_Standard_v2",
+      "section": "Goal A1: Impact assessment",
+      "original_text": "Microsoft AI systems are assessed using Impact Assessments; teams complete an Impact Assessment early in the system's development (typically when defining product vision and requirements), and review and update it when new intended uses are added and before advancing to a new release stage.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Microsoft teams developing/deploying AI systems",
+      "action": "complete and keep updated",
+      "object": "Impact Assessment of the AI system",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "assess the impact of the system on people, organizations and society through a documented Impact Assessment early in development and update it over the lifecycle",
+      "condition": null,
+      "exception": null,
+      "purpose": "identify potential harms and benefits before release",
+      "affected_asset": "people, organizations and society affected by the system",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "all Microsoft AI systems in scope of the Standard",
+      "interpretation_notes": "Paraphrase: the official PDF could not be fetched from the compilation environment (host blocked), so wording is a close paraphrase from knowledge of the document, not verbatim. Goal identifier is believed correct but unverified against the PDF. Mandatory internally for Microsoft; not legally binding externally.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "MS_RAI_Standard_v2_A2",
+      "policy_id": "MS_RAI_Standard_v2",
+      "section": "Goal A2: Oversight of significant adverse impacts",
+      "original_text": "Microsoft AI systems are reviewed to identify systems that may have a significant adverse impact on people, organizations, and society, and additional oversight and requirements are applied to those systems; systems meeting the definition of a Sensitive Use must be reported to the Office of Responsible AI for review.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Microsoft teams developing/deploying AI systems",
+      "action": "identify and report",
+      "object": "AI systems that meet Sensitive Use criteria",
+      "recipient": "Office of Responsible AI",
+      "modality": "MUST",
+      "requirement": "report Sensitive Uses (consequential impact on legal position or life opportunities, risk of physical or psychological injury, threat to human rights) for additional review and follow resulting requirements",
+      "condition": "system meets one or more Sensitive Use triggers",
+      "exception": null,
+      "purpose": "apply heightened oversight to high-impact uses",
+      "affected_asset": "legal position, life opportunities, physical/psychological safety and human rights of individuals",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI systems meeting Sensitive Use definitions",
+      "interpretation_notes": "Paraphrase: the official PDF could not be fetched from the compilation environment (host blocked), so wording is a close paraphrase from knowledge of the document, not verbatim. Goal identifier is believed correct but unverified against the PDF. Sensitive Use categories recalled from the Standard; verify exact wording.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "MS_RAI_Standard_v2_A5",
+      "policy_id": "MS_RAI_Standard_v2",
+      "section": "Goal A5: Human oversight and control",
+      "original_text": "Microsoft AI systems include capabilities that support informed human oversight and control; teams identify the stakeholders responsible for oversight, their oversight responsibilities, and design the system so those people can understand, monitor and intervene in its operation.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Microsoft teams developing/deploying AI systems",
+      "action": "design for",
+      "object": "human oversight and control of the AI system",
+      "recipient": "stakeholders responsible for oversight",
+      "modality": "MUST",
+      "requirement": "enable informed human oversight, monitoring and intervention, documenting who is responsible for oversight",
+      "condition": null,
+      "exception": null,
+      "purpose": "keep people accountable and able to correct the system",
+      "affected_asset": "people affected by system outputs",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Microsoft AI systems in scope",
+      "interpretation_notes": "Paraphrase: the official PDF could not be fetched from the compilation environment (host blocked), so wording is a close paraphrase from knowledge of the document, not verbatim. Goal identifier is believed correct but unverified against the PDF. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "MS_RAI_Standard_v2_T3",
+      "policy_id": "MS_RAI_Standard_v2",
+      "section": "Goal T3: Disclosure of AI interaction",
+      "original_text": "Microsoft AI systems are designed to inform people that they are interacting with an AI system or are using a system that generates or manipulates image, audio, or video content that could falsely appear to be authentic.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Microsoft teams developing/deploying AI systems",
+      "action": "design to disclose",
+      "object": "AI interaction and synthetic image/audio/video content",
+      "recipient": "people interacting with or exposed to the system",
+      "modality": "MUST",
+      "requirement": "disclose AI interaction and flag generated/manipulated media that could falsely appear authentic",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent deception",
+      "affected_asset": "users' informed understanding; information integrity",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "conversational AI systems and systems generating or manipulating media",
+      "interpretation_notes": "Paraphrase: the official PDF could not be fetched from the compilation environment (host blocked), so wording is a close paraphrase from knowledge of the document, not verbatim. Goal identifier is believed correct but unverified against the PDF. Goal statement recalled closely but not verified verbatim.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "MS_RAI_Standard_v2_F1",
+      "policy_id": "MS_RAI_Standard_v2",
+      "section": "Goal F1: Quality of service",
+      "original_text": "Microsoft AI systems are designed to provide a similar quality of service for identified demographic groups, including marginalized groups; teams identify affected groups, evaluate performance disaggregated by group against Responsible Release Criteria, and reassess design choices where criteria are not met.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Microsoft teams developing/deploying AI systems",
+      "action": "evaluate and mitigate",
+      "object": "quality-of-service disparities across demographic groups",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "measure disaggregated performance for identified demographic groups and address unacceptable disparities before release",
+      "condition": "applies where the system's quality of service could differ across demographic groups in ways that cause harm",
+      "exception": null,
+      "purpose": "fairness in system performance",
+      "affected_asset": "identified demographic groups, including marginalized groups",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI systems where F1 applies",
+      "interpretation_notes": "Paraphrase: the official PDF could not be fetched from the compilation environment (host blocked), so wording is a close paraphrase from knowledge of the document, not verbatim. Goal identifier is believed correct but unverified against the PDF. Search excerpts of the official PDF confirmed the heading 'Goal F1: Quality of service' and requirements F1.5/F1.6 on evaluating against Responsible Release Criteria and reassessing design choices.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "MS_RAI_Standard_v2_RS3",
+      "policy_id": "MS_RAI_Standard_v2",
+      "section": "Goal RS3: Ongoing monitoring, feedback, and evaluation",
+      "original_text": "Microsoft AI systems are subject to ongoing monitoring, feedback, and evaluation so that issues such as performance degradation or new uses and failures can be identified, reviewed and addressed after release.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Microsoft teams developing/deploying AI systems",
+      "action": "monitor and evaluate post-release",
+      "object": "deployed AI system behaviour and performance",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "establish ongoing monitoring and feedback mechanisms and remediate identified issues",
+      "condition": null,
+      "exception": null,
+      "purpose": "reliability and safety over the system lifecycle",
+      "affected_asset": "users and affected stakeholders",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Microsoft AI systems in scope",
+      "interpretation_notes": "Paraphrase: the official PDF could not be fetched from the compilation environment (host blocked), so wording is a close paraphrase from knowledge of the document, not verbatim. Goal identifier is believed correct but unverified against the PDF. ",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "policy_id": "UT_AI_Policy_Act_2024",
+  "policy_name": "Utah Artificial Intelligence Policy Act (SB 149, 2024 General Session, 'Artificial Intelligence Amendments'), as amended",
+  "short_name": "Utah AI Policy Act",
+  "policy_type": "statute",
+  "source_uri": "https://le.utah.gov/~2024/bills/static/SB0149.html",
+  "issuing_authority": "Utah State Legislature (signed by Governor Spencer Cox)",
+  "jurisdiction": "US-UT",
+  "country_region": "Utah, United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Utah Code Title 13 (Commerce and Trade): Chapter 72 Artificial Intelligence Policy Act and consumer protection provisions administered by the Division of Consumer Protection",
+  "geo_constraints": "Persons using generative AI to interact with individuals in connection with commercial activity regulated by Utah's Division of Consumer Protection, or in Utah-regulated occupations",
+  "industry_scope": [
+    "general",
+    "consumer_services",
+    "regulated_occupations",
+    "healthcare"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2024-05-01",
+  "key_dates": [
+    {
+      "date": "2024-03-13",
+      "event": "SB 149 signed by Governor Cox"
+    },
+    {
+      "date": "2024-05-01",
+      "event": "SB 149 takes effect; Office of Artificial Intelligence Policy and AI Learning Laboratory created"
+    },
+    {
+      "date": "2025-03-25",
+      "event": "SB 332 signed: extends sunset of Chapter 72 from 2025-05-01 to 2027-07-01"
+    },
+    {
+      "date": "2025-05-07",
+      "event": "SB 226 (narrows disclosure duties, safe harbor) and SB 332 take effect; HB 452 (mental health chatbots) also enacted in 2025"
+    },
+    {
+      "date": "2026-03-18",
+      "event": "HB 320 (Office of Artificial Intelligence Policy Amendments) signed (per legislative tracker; unverified on le.utah.gov)"
+    },
+    {
+      "date": "2027-07-01",
+      "event": "Scheduled repeal (sunset) of Chapter 72 per SB 332"
+    }
+  ],
+  "expiration_date": "2027-07-01",
+  "version": "SB 149 (2024), as amended by SB 226 and SB 332 (2025) and HB 320 (2026)",
+  "last_updated": "2026-03-18",
+  "covered_entities": [
+    "persons using generative AI in commercial activity regulated by the Division of Consumer Protection",
+    "persons providing services of a regulated occupation (licensed/certified by the Utah Department of Commerce)",
+    "Office of Artificial Intelligence Policy",
+    "AI Learning Laboratory participants"
+  ],
+  "covered_systems": [
+    "generative artificial intelligence (AI systems trained on data that interact with a person using text, audio or visual communication and generate non-scripted outputs similar to human-created outputs with limited or no human oversight)"
+  ],
+  "covered_activities": [
+    "consumer-facing interactions using generative AI",
+    "provision of regulated occupational services using generative AI",
+    "participation in the AI Learning Laboratory and regulatory mitigation agreements"
+  ],
+  "exceptions": [
+    "SB 226 (2025) safe harbor: no violation where the generative AI itself clearly and conspicuously discloses at the outset and throughout the interaction that it is AI (per secondary sources)"
+  ],
+  "conditions": [
+    "After SB 226: consumer-transaction disclosure is required when the individual makes a clear and unambiguous request to know whether they are interacting with AI",
+    "After SB 226: regulated-occupation proactive disclosure required only for 'high-risk artificial intelligence interactions' (e.g., collection of sensitive personal information or provision of personalized financial, legal, medical or mental-health advice)"
+  ],
+  "objective": "Establish disclosure obligations for generative AI use in consumer and regulated-occupation interactions, confirm that existing consumer protection law applies to generative AI, and create an Office of Artificial Intelligence Policy with a learning laboratory and regulatory mitigation agreements to foster innovation.",
+  "policy_domain": [
+    "consumer_protection",
+    "transparency",
+    "innovation",
+    "governance"
+  ],
+  "principles": [
+    "transparency",
+    "accountability for AI-generated statements",
+    "regulatory experimentation (sandbox)"
+  ],
+  "parent_policy": "Utah Consumer Protection Act / Division of Consumer Protection statutes",
+  "related_policies": [
+    {
+      "policy": "Utah SB 226 (2025) Artificial Intelligence Consumer Protection Amendments",
+      "relation": "amended_by"
+    },
+    {
+      "policy": "Utah SB 332 (2025) Artificial Intelligence Revisions",
+      "relation": "amended_by"
+    },
+    {
+      "policy": "Utah HB 320 (2026) Office of Artificial Intelligence Policy Amendments",
+      "relation": "amended_by"
+    },
+    {
+      "policy": "Utah HB 452 (2025) mental health chatbots",
+      "relation": "complements"
+    },
+    {
+      "policy": "TX_TRAIGA_2025",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "CO_SB24_205",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "Generative AI use is not a defense to violations of Utah consumer protection law; enforcement by the Division of Consumer Protection and the Attorney General under existing consumer protection statutes.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://le.utah.gov/~2024/bills/static/SB0149.html (not reachable from compilation environment)",
+      "https://le.utah.gov/Session/2025/bills/enrolled/SB0332.pdf (search snippet only)",
+      "https://www.dwt.com/blogs/artificial-intelligence-law-advisor/2025/04/utah-regulation-ai-policy-mental-health-chatbots",
+      "https://natlawreview.com/article/utah-enacts-ai-amendments-targeted-mental-health-chatbots-and-generative-ai",
+      "https://vensure.com/employment-law-updates/utah/utah-amends-generative-ai-in-consumer-transactions/",
+      "https://billtracker.betterutahinstitute.org/bills/HB0320"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Sunset 2027-07-01 per enrolled SB 332 (search snippet of le.utah.gov PDF). HB 320 (2026) signing date 2026-03-18 from a legislative tracker; an April 2026 roundup also lists it; effective date not verified. Status of 2026 HB 438 (minors/companion chatbots) unverified. SB 149 signing (2024-03-13) and effective (2024-05-01) dates from compiler's knowledge. Section numbering changed after SB 226 (disclosure provisions reportedly relocated); clause sections cite the original SB 149 placement (Utah Code 13-2-12) and should be verified. Administrative fine of up to USD 2,500 per violation recalled from SB 149; verify."
+  },
+  "clauses": [
+    {
+      "clause_id": "UT_AI_Policy_Act_2024_13_2_12_2",
+      "policy_id": "UT_AI_Policy_Act_2024",
+      "section": "Utah Code 13-2-12(2) (SB 149 placement; possibly renumbered by SB 226)",
+      "original_text": "It is not a defense to a violation of a statute administered and enforced by the Division of Consumer Protection that generative artificial intelligence made the violative statement, undertook the violative act, or was used in furtherance of the violation.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "any person using generative AI",
+      "action": "be liable",
+      "object": "statements/acts of generative AI",
+      "recipient": "Division of Consumer Protection; consumers",
+      "modality": "MUST NOT",
+      "requirement": "may not escape consumer-protection liability by attributing violations to generative AI",
+      "condition": "use of generative AI in commercial activity regulated by the Division",
+      "exception": null,
+      "purpose": "accountability for AI outputs",
+      "affected_asset": "consumers",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-UT"
+      ],
+      "applicable_systems": "generative artificial intelligence interacting with persons",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "UT_AI_Policy_Act_2024_13_2_12_3",
+      "policy_id": "UT_AI_Policy_Act_2024",
+      "section": "Utah Code 13-2-12(3) as amended by SB 226 (2025)",
+      "original_text": "A person who uses generative AI to interact with an individual in connection with a consumer transaction shall disclose, clearly and conspicuously, that the individual is interacting with generative AI and not a human, if the individual makes a clear and unambiguous request or asks whether they are interacting with AI.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "supplier using generative AI",
+      "action": "disclose",
+      "object": "generative AI interaction",
+      "recipient": "consumer",
+      "modality": "MUST",
+      "requirement": "disclose AI use when asked",
+      "condition": "consumer asks clearly and unambiguously",
+      "exception": null,
+      "purpose": "prevent deception",
+      "affected_asset": "consumer autonomy",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-UT"
+      ],
+      "applicable_systems": "generative artificial intelligence interacting with persons",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. SB 149 originally required disclosure if asked or prompted; SB 226 narrowed to a clear and unambiguous request.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "UT_AI_Policy_Act_2024_13_2_12_4",
+      "policy_id": "UT_AI_Policy_Act_2024",
+      "section": "Utah Code 13-2-12(4) as amended by SB 226 (2025)",
+      "original_text": "A person providing the services of a regulated occupation shall prominently disclose, at the outset of the interaction, when the person is using generative AI in a high-risk artificial intelligence interaction (e.g., collecting sensitive personal information or providing personalized recommendations, advice or information that could reasonably be relied on to make significant personal decisions such as financial, legal, medical or mental-health decisions).",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "provider of regulated occupation services",
+      "action": "disclose",
+      "object": "generative AI use",
+      "recipient": "individual receiving services",
+      "modality": "MUST",
+      "requirement": "proactively disclose AI use at outset of high-risk interactions",
+      "condition": "high-risk AI interaction in a regulated occupation",
+      "exception": "safe harbor where AI itself discloses clearly at outset and throughout",
+      "purpose": "protect recipients of professional services",
+      "affected_asset": "health, financial and legal interests of individuals",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-UT"
+      ],
+      "applicable_systems": "generative artificial intelligence interacting with persons",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Original SB 149 required proactive disclosure for all regulated-occupation interactions; SB 226 limited to high-risk interactions.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "UT_AI_Policy_Act_2024_13_72_301",
+      "policy_id": "UT_AI_Policy_Act_2024",
+      "section": "Utah Code Title 13, Chapter 72 (Office of AI Policy; regulatory mitigation)",
+      "original_text": "The Office of Artificial Intelligence Policy administers an Artificial Intelligence Learning Laboratory Program and may enter into regulatory mitigation agreements with participants, under which participants testing AI technologies may receive reduced penalties, cure periods or other relief from applicable regulatory requirements during the agreement term.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Office of Artificial Intelligence Policy",
+      "action": "enter into",
+      "object": "regulatory mitigation agreements",
+      "recipient": "AI Learning Laboratory participants",
+      "modality": "MAY",
+      "requirement": "may grant regulatory mitigation to AI learning laboratory participants",
+      "condition": "participant accepted into Learning Laboratory and meets eligibility criteria",
+      "exception": null,
+      "purpose": "foster innovation while managing risk",
+      "affected_asset": "innovation; consumers",
+      "policy_domain": "innovation",
+      "applicable_regions": [
+        "US-UT"
+      ],
+      "applicable_systems": "AI technologies tested in the Learning Laboratory",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Specific section number not verified; HB 320 (2026) modified the Office's duties.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    }
+  ]
+}

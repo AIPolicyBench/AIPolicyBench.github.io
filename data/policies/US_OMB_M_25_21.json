@@ -1,0 +1,269 @@
+{
+  "policy_id": "US_OMB_M_25_21",
+  "policy_name": "OMB Memorandum M-25-21: Accelerating Federal Use of AI through Innovation, Governance, and Public Trust",
+  "short_name": "OMB M-25-21",
+  "policy_type": "guidance",
+  "source_uri": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf",
+  "issuing_authority": "Office of Management and Budget (OMB), Executive Office of the President",
+  "jurisdiction": "US-Federal",
+  "country_region": "United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "US federal agency AI governance (OMB memoranda; AI in Government Act of 2020, Advancing American AI Act, EO 14179)",
+  "geo_constraints": "US federal executive agencies (CFO Act agencies and other covered agencies)",
+  "industry_scope": [
+    "public_sector"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2025-04-03",
+  "key_dates": [
+    {
+      "date": "2025-04-03",
+      "event": "Issued by OMB, rescinding and replacing M-24-10 (issued alongside acquisition memo M-25-22)"
+    },
+    {
+      "date": "2025-06-02",
+      "event": "Approx. deadline (60 days) for agencies to retain or designate a Chief AI Officer"
+    },
+    {
+      "date": "2025-09-30",
+      "event": "Approx. deadline (180 days) for agency AI compliance plans and AI strategies (CFO Act agencies) — not verified"
+    },
+    {
+      "date": "2026-04-03",
+      "event": "Approx. deadline (365 days) for implementing minimum risk-management practices for high-impact AI, or discontinuing non-compliant use"
+    }
+  ],
+  "expiration_date": null,
+  "version": "M-25-21 (April 3, 2025)",
+  "last_updated": "2025-04-03",
+  "covered_entities": [
+    "federal executive agencies",
+    "agency Chief AI Officers",
+    "agency AI Governance Boards (CFO Act agencies)"
+  ],
+  "covered_systems": [
+    "new and existing AI developed, used, or acquired by or on behalf of covered agencies",
+    "high-impact AI"
+  ],
+  "covered_activities": [
+    "federal agency AI use",
+    "AI governance",
+    "risk management of high-impact AI",
+    "AI use-case inventories",
+    "AI strategies and compliance plans"
+  ],
+  "exceptions": [
+    "AI used as a component of a National Security System",
+    "intelligence community elements (per memo scope) — verify",
+    "regulatory actions by agencies concerning non-agency AI use are outside scope"
+  ],
+  "conditions": [
+    "minimum risk-management practices apply when an AI use is high-impact (output serves as principal basis for decisions/actions with legal, material, binding or significant effect on rights or safety)",
+    "CAIO may waive one or more minimum practices with a documented, system-specific risk assessment, reported to OMB"
+  ],
+  "objective": "Direct federal agencies to accelerate responsible adoption of AI by removing barriers to innovation, strengthening AI governance (Chief AI Officers, strategies, compliance plans) and protecting public trust through minimum risk-management practices for high-impact AI.",
+  "policy_domain": [
+    "governance",
+    "accountability",
+    "transparency",
+    "safety",
+    "privacy",
+    "fundamental_rights",
+    "innovation"
+  ],
+  "principles": [
+    "innovation",
+    "governance",
+    "public trust",
+    "risk management for high-impact AI",
+    "transparency (use-case inventories)",
+    "human oversight",
+    "remedies and appeals"
+  ],
+  "parent_policy": "US_EO_14179_2025",
+  "related_policies": [
+    {
+      "policy": "US_EO_14179_2025",
+      "relation": "implements"
+    },
+    {
+      "policy": "OMB Memorandum M-24-10 (Advancing Governance, Innovation, and Risk Management for Agency Use of AI)",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "OMB Memorandum M-25-22 (Driving Efficient Acquisition of AI in Government)",
+      "relation": "complements"
+    },
+    {
+      "policy": "US_EO_14110_2023",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "US_AI_Action_Plan_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Applies to covered agencies; does not supersede applicable law; national security systems handled under separate national security guidance.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf (not reachable)",
+      "https://www.govinfo.gov/content/pkg/GOVPUB-PREX2-PURL-gpo244618/pdf/GOVPUB-PREX2-PURL-gpo244618.pdf (archived copy; not reachable)",
+      "WebSearch results (Nov 2026): Wiley, Mintz, Hunton, Brookings, CDT, agency compliance plans (OPM, NTSB), DOI 2026 GenAI policy citing M-25-21"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official primary sources (federalregister.gov, govinfo.gov, whitehouse.gov) were not reachable from the compilation environment (network policy), so clause wording could not be checked against a fetched official text: original_text is a close reconstruction/paraphrase of the official wording (text_is_verbatim=false) and must be verified against the official source. Metadata was cross-checked via web search results citing the official sources. Issue date April 3, 2025 per search summaries (the PDF URL path says 2025/02). No 2026 OMB memo replacing or amending M-25-21 was found; agency documents from 2026 still cite it as controlling. Approximate deadline dates in key_dates are computed from the 60/180/365-day periods; the 180-day item is unverified. Exceptions list (esp. intelligence community) should be checked against the memo's scope section."
+  },
+  "clauses": [
+    {
+      "clause_id": "US_OMB_M_25_21_Sec4_b_minimum_practices",
+      "policy_id": "US_OMB_M_25_21",
+      "section": "Sec. 4(b) — Minimum risk management practices for high-impact AI",
+      "original_text": "Agencies must implement the minimum practices in this section for high-impact AI use cases within 365 days of the issuance of this memorandum … The minimum practices include: conducting pre-deployment testing; completing an AI impact assessment; conducting ongoing monitoring for performance and potential adverse impacts; ensuring adequate human training and assessment; providing additional human oversight, intervention, and accountability; offering consistent remedies or appeals; and consulting and incorporating feedback from end users and the public.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal agencies",
+      "action": "implement minimum risk-management practices",
+      "object": "high-impact AI use cases",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "test, impact-assess, monitor, train operators, ensure human oversight, provide remedies and gather public feedback for high-impact AI",
+      "condition": "AI use case determined to be high-impact; within 365 days",
+      "exception": "waiver by the Chief AI Officer with documented risk assessment",
+      "purpose": "protect rights and safety; foster public trust",
+      "affected_asset": "rights, safety and access to services of the public",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "high-impact AI used by federal agencies",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Section numbering per search summaries (Sec. 3 governance; Sec. 4 high-impact AI risk management) — verify. List of practices reconstructed from multiple summaries.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_OMB_M_25_21_Sec4_discontinue",
+      "policy_id": "US_OMB_M_25_21",
+      "section": "Sec. 4(b) — Non-compliant high-impact AI",
+      "original_text": "If a high-impact AI use case is not compliant with the minimum practices, the agency must safely discontinue use of the AI functionality until compliance is achieved.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal agencies",
+      "action": "safely discontinue use",
+      "object": "non-compliant high-impact AI",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "stop using high-impact AI that does not meet the minimum practices until compliant",
+      "condition": "high-impact AI not compliant with minimum practices",
+      "exception": "approved waiver",
+      "purpose": "prevent harm from unsafeguarded AI",
+      "affected_asset": "rights and safety of the public",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "high-impact AI used by federal agencies",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Section numbering per search summaries (Sec. 3 governance; Sec. 4 high-impact AI risk management) — verify.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_OMB_M_25_21_Sec4_a_high_impact",
+      "policy_id": "US_OMB_M_25_21",
+      "section": "Sec. 4(a) / Sec. 6 definitions — High-impact AI",
+      "original_text": "High-impact AI: AI with an output that serves as a principal basis for decisions or actions that have a legal, material, binding, or significant effect on rights or safety.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal agencies (via Chief AI Officer determinations)",
+      "action": "determine",
+      "object": "whether AI use cases are high-impact",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "classify AI uses as high-impact where outputs are a principal basis for decisions with significant effect on rights or safety",
+      "condition": "output serves as principal basis for consequential decisions",
+      "exception": null,
+      "purpose": "scope the minimum practices",
+      "affected_asset": "civil rights, civil liberties, privacy, access to services, health and safety, critical infrastructure",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI used by federal agencies",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Section numbering per search summaries (Sec. 3 governance; Sec. 4 high-impact AI risk management) — verify. Memo also gives categories presumed high-impact; definition location (Sec. 4(a) vs definitions section) unverified.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_OMB_M_25_21_Sec3_CAIO",
+      "policy_id": "US_OMB_M_25_21",
+      "section": "Sec. 3 — Improving AI Governance (Chief AI Officers)",
+      "original_text": "Within 60 days of the issuance of this memorandum, each agency must retain or designate a Chief AI Officer (CAIO) …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "head of each federal agency",
+      "action": "retain or designate",
+      "object": "Chief AI Officer",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "designate a Chief AI Officer within 60 days",
+      "condition": "within 60 days",
+      "exception": null,
+      "purpose": "accountable AI leadership in agencies",
+      "affected_asset": "federal AI governance",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI used by federal agencies",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Section numbering per search summaries (Sec. 3 governance; Sec. 4 high-impact AI risk management) — verify. CFO Act agencies must also convene an AI Governance Board.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_OMB_M_25_21_Sec3_inventory",
+      "policy_id": "US_OMB_M_25_21",
+      "section": "Sec. 3 — AI use case inventories",
+      "original_text": "Each agency (except for the Department of Defense and the Intelligence Community) must inventory its AI use cases at least annually, submit the inventory to OMB, and post a public version on the agency's website.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal agencies",
+      "action": "inventory, submit and publish",
+      "object": "AI use cases",
+      "recipient": "OMB and the public",
+      "modality": "MUST",
+      "requirement": "maintain and publish annual AI use-case inventories",
+      "condition": null,
+      "exception": "Department of Defense and Intelligence Community (per recalled wording; verify)",
+      "purpose": "transparency of federal AI use",
+      "affected_asset": "public trust",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI used by federal agencies",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Section numbering per search summaries (Sec. 3 governance; Sec. 4 high-impact AI risk management) — verify. Inventory requirement stems from EO 13960 / Advancing American AI Act; exact wording and section unverified.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.45,
+      "human_verified": false
+    }
+  ]
+}

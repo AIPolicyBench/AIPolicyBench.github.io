@@ -1,0 +1,287 @@
+{
+  "policy_id": "CA_SB53_2025",
+  "policy_name": "California SB 53, Transparency in Frontier Artificial Intelligence Act (TFAIA)",
+  "short_name": "California SB 53 (TFAIA)",
+  "policy_type": "statute",
+  "source_uri": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53",
+  "issuing_authority": "California State Legislature (approved by Governor Gavin Newsom)",
+  "jurisdiction": "US-CA",
+  "country_region": "California, United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "California Business and Professions Code Division 8, Chapter 25.1 (commencing with § 22757.10); Government Code (CalCompute); Labor Code (whistleblower protections)",
+  "geo_constraints": "Frontier developers whose frontier models are developed or made available in California (no explicit territorial limit stated in summaries consulted)",
+  "industry_scope": [
+    "general",
+    "ai_developers"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2026-01-01",
+  "key_dates": [
+    {
+      "date": "2025-09-29",
+      "event": "Approved by Governor; Chapter 138, Statutes of 2025"
+    },
+    {
+      "date": "2026-01-01",
+      "event": "Most provisions operative (frontier AI frameworks, transparency reports, incident reporting, whistleblower protections)"
+    },
+    {
+      "date": "2027-01-01",
+      "event": "Cal OES and Attorney General annual anonymized reporting begins (per secondary sources)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Chapter 138, Statutes of 2025",
+  "last_updated": "2025-09-29",
+  "covered_entities": [
+    "frontier developers",
+    "large frontier developers (frontier developers with affiliates' annual gross revenues > USD 500 million in preceding calendar year)"
+  ],
+  "covered_systems": [
+    "frontier models (foundation models trained with >10^26 integer or floating-point operations)"
+  ],
+  "covered_activities": [
+    "training/developing frontier models",
+    "deploying new or substantially modified frontier models",
+    "internal use of frontier models",
+    "handling critical safety incidents",
+    "employment practices concerning whistleblowing employees"
+  ],
+  "exceptions": [
+    "information whose disclosure would reveal trade secrets, cybersecurity or public safety risks may be redacted from published documents (with justification)"
+  ],
+  "conditions": [
+    "Frontier AI framework and catastrophic-risk reporting duties apply only to large frontier developers",
+    "Catastrophic risk = foreseeable and material risk that a frontier model contributes to death or serious injury of more than 50 people or more than USD 1 billion in property damage from a single incident (e.g., CBRN weapon assistance, autonomous cyberattack or serious crime, evasion of developer control)"
+  ],
+  "objective": "Increase transparency and accountability of frontier AI developers regarding catastrophic risks, establish critical safety incident reporting to the state, protect whistleblowers, and create a consortium to design a public computing cluster (CalCompute).",
+  "policy_domain": [
+    "safety",
+    "transparency",
+    "accountability",
+    "security"
+  ],
+  "principles": [
+    "transparency",
+    "catastrophic risk management",
+    "incident reporting",
+    "whistleblower protection",
+    "alignment with national/international standards"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "EU_GPAI_CoP_2025",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "Anthropic_RSP",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "OpenAI_Preparedness_Framework",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "US_EO_National_AI_Framework_2025",
+      "relation": "conflicts_with"
+    }
+  ],
+  "conflict_rule": "Per secondary summaries, compliance with designated equivalent federal standards may be deemed compliance with incident-reporting duties (Cal OES may designate); local ordinances on frontier developers' catastrophic-risk management are preempted. Not verified against chaptered text.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53 (not reachable from compilation environment)",
+      "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+      "https://www.mofo.com/resources/insights/251001-california-enacts-ai-safety-transparency-regulation-tfaia-sb-53",
+      "https://natlawreview.com/article/californias-sb-53-understanding-obligations-effect-now-and-2027",
+      "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb53"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Chapter 138 / 2025-09-29 approval / 2026-01-01 operative confirmed via secondary sources and Governor's press release (search snippets). No 2026 amendment found in searches, but leginfo history could not be checked. Section subsection letters in clauses (e.g. § 22757.12(a)/(c)/(e), § 22757.13) are from the compiler's recollection of the chaptered text and should be verified. Federal preemption pressure via the Dec 2025 EO is noted as potential conflict, not a judicial finding."
+  },
+  "clauses": [
+    {
+      "clause_id": "CA_SB53_2025_BPC_22757_12_a",
+      "policy_id": "CA_SB53_2025",
+      "section": "Bus. & Prof. Code § 22757.12(a)",
+      "original_text": "A large frontier developer shall write, implement, comply with, and clearly and conspicuously publish on its website a frontier AI framework applying to its frontier models that describes how it incorporates national and international standards and industry-consensus best practices, defines and assesses thresholds for catastrophic risk, applies mitigations, uses third-party assessments, secures unreleased model weights, identifies and responds to critical safety incidents, and governs these processes internally; the framework must be reviewed at least annually.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "large frontier developer",
+      "action": "write, implement, comply with and publish",
+      "object": "frontier AI framework",
+      "recipient": "public",
+      "modality": "MUST",
+      "requirement": "publish and follow a catastrophic-risk management framework, reviewed at least annually",
+      "condition": "developer is a large frontier developer",
+      "exception": null,
+      "purpose": "manage catastrophic risks of frontier models",
+      "affected_asset": "public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-CA"
+      ],
+      "applicable_systems": "frontier models (foundation models trained with >10^26 integer or floating-point operations)",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CA_SB53_2025_BPC_22757_12_c",
+      "policy_id": "CA_SB53_2025",
+      "section": "Bus. & Prof. Code § 22757.12(c)",
+      "original_text": "Before or concurrently with deploying a new frontier model or a substantially modified version, a frontier developer shall publish a transparency report including its website, a contact mechanism, the model's release date, supported languages and output modalities, intended uses and use restrictions; a large frontier developer must also summarize its catastrophic-risk assessments and results, and the extent of third-party evaluator involvement.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "frontier developer",
+      "action": "publish",
+      "object": "transparency report",
+      "recipient": "public",
+      "modality": "MUST",
+      "requirement": "publish a transparency report at or before deployment",
+      "condition": "deployment of new or substantially modified frontier model",
+      "exception": "redactions for trade secrets, cybersecurity, public safety or national security with stated justification",
+      "purpose": "public transparency about frontier model capabilities and risks",
+      "affected_asset": "public safety; information ecosystem",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-CA"
+      ],
+      "applicable_systems": "frontier models (foundation models trained with >10^26 integer or floating-point operations)",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CA_SB53_2025_BPC_22757_13",
+      "policy_id": "CA_SB53_2025",
+      "section": "Bus. & Prof. Code § 22757.13",
+      "original_text": "A frontier developer shall report any critical safety incident pertaining to its frontier models to the Office of Emergency Services within 15 days of discovering it; if the incident poses an imminent risk of death or serious physical injury, the developer shall disclose it within 24 hours to an appropriate authority (e.g., law enforcement or public safety agency).",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "frontier developer",
+      "action": "report",
+      "object": "critical safety incident",
+      "recipient": "California Office of Emergency Services (Cal OES); appropriate authority",
+      "modality": "MUST",
+      "requirement": "report critical safety incidents within 15 days, or 24 hours if imminent risk of death or serious injury",
+      "condition": "discovery of a critical safety incident",
+      "exception": null,
+      "purpose": "enable timely government awareness and response",
+      "affected_asset": "public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-CA"
+      ],
+      "applicable_systems": "frontier models (foundation models trained with >10^26 integer or floating-point operations)",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Members of the public may also report incidents to Cal OES.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CA_SB53_2025_BPC_22757_12_e",
+      "policy_id": "CA_SB53_2025",
+      "section": "Bus. & Prof. Code § 22757.12(e)",
+      "original_text": "A frontier developer shall not make a materially false or misleading statement about catastrophic risk from its frontier models or its management of catastrophic risk, and a large frontier developer shall not make materially false or misleading statements about its implementation of or compliance with its frontier AI framework.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "frontier developer / large frontier developer",
+      "action": "make statements",
+      "object": "statements about catastrophic risk and framework compliance",
+      "recipient": "public, regulators",
+      "modality": "MUST NOT",
+      "requirement": "no materially false or misleading statements on catastrophic risk or framework compliance",
+      "condition": null,
+      "exception": "statements made in good faith that were reasonable under the circumstances (unverified)",
+      "purpose": "integrity of safety disclosures",
+      "affected_asset": "public trust",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-CA"
+      ],
+      "applicable_systems": "frontier models (foundation models trained with >10^26 integer or floating-point operations)",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Good-faith exception recalled; verify.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CA_SB53_2025_LAB_1107_1",
+      "policy_id": "CA_SB53_2025",
+      "section": "Labor Code § 1107.1",
+      "original_text": "A frontier developer shall not make, adopt, enforce or enter into a rule, regulation, policy or contract that prevents a covered employee from disclosing, or retaliate against a covered employee for disclosing, information to the Attorney General, a federal authority, a supervisor or other investigating employee, if the employee has reasonable cause to believe the developer's activities pose a specific and substantial danger to public health or safety resulting from a catastrophic risk, or that it has violated the Act.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "frontier developer",
+      "action": "restrict or retaliate",
+      "object": "covered employee disclosures",
+      "recipient": "covered employees",
+      "modality": "MUST NOT",
+      "requirement": "do not prevent or retaliate against whistleblowing on catastrophic risk",
+      "condition": "employee has reasonable cause to believe of specific and substantial danger or violation",
+      "exception": null,
+      "purpose": "protect whistleblowers to surface catastrophic risks",
+      "affected_asset": "employees; public safety",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-CA"
+      ],
+      "applicable_systems": "frontier models (foundation models trained with >10^26 integer or floating-point operations)",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Large frontier developers must also provide an anonymous internal reporting process.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CA_SB53_2025_BPC_22757_15",
+      "policy_id": "CA_SB53_2025",
+      "section": "Bus. & Prof. Code § 22757.15",
+      "original_text": "A large frontier developer that fails to publish or transmit a required document, makes a prohibited statement, fails to report an incident, or fails to comply with its own frontier AI framework is subject to a civil penalty of up to USD 1,000,000 per violation, recoverable only in a civil action brought by the Attorney General.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "large frontier developer",
+      "action": "be liable for civil penalty",
+      "object": "non-compliance with Act",
+      "recipient": "Attorney General",
+      "modality": "MUST",
+      "requirement": "pay up to USD 1M per violation on AG action",
+      "condition": "violation of the chapter",
+      "exception": null,
+      "purpose": "enforcement",
+      "affected_asset": "compliance",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-CA"
+      ],
+      "applicable_systems": "frontier models (foundation models trained with >10^26 integer or floating-point operations)",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Penalty amount widely reported; section number from memory.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    }
+  ]
+}

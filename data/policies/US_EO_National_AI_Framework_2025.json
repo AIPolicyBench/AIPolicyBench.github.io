@@ -1,0 +1,310 @@
+{
+  "policy_id": "US_EO_National_AI_Framework_2025",
+  "policy_name": "Executive Order 14365 of December 11, 2025: Ensuring a National Policy Framework for Artificial Intelligence",
+  "short_name": "EO 14365",
+  "policy_type": "executive_order",
+  "source_uri": "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
+  "issuing_authority": "President of the United States (Donald J. Trump)",
+  "jurisdiction": "US-Federal",
+  "country_region": "United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "US federal executive action on AI (Trump Administration, 2025-); federal preemption of state AI law",
+  "geo_constraints": "Directs US federal executive officials and agencies; targets State AI laws across the US via litigation, funding conditions and federal agency action; no direct preemptive effect by itself",
+  "industry_scope": [
+    "general",
+    "public_sector",
+    "telecommunications"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2025-12-11",
+  "key_dates": [
+    {
+      "date": "2025-12-11",
+      "event": "Signed"
+    },
+    {
+      "date": "2025-12-16",
+      "event": "Published in the Federal Register (90 FR 58499, FR Doc. 2025-23092)"
+    },
+    {
+      "date": "2026-01-10",
+      "event": "Deadline (30 days) for the Attorney General to establish the AI Litigation Task Force; reported established in Jan 2026"
+    },
+    {
+      "date": "2026-03-11",
+      "event": "Deadline (90 days) for Commerce evaluation identifying onerous State AI laws — publication status unclear (sources conflict)"
+    },
+    {
+      "date": "2026-03-20",
+      "event": "White House released a non-binding 'National Policy Framework for Artificial Intelligence' with legislative recommendations to Congress (one source says Mar. 24)"
+    },
+    {
+      "date": "2026-07",
+      "event": "FTC published a proposed policy statement on AI accuracy/output steering and preemption of state laws (Docket FTC-2026-0859; comments due 2026-07-31); final version not verified"
+    }
+  ],
+  "expiration_date": null,
+  "version": "90 FR 58499 (Dec. 16, 2025)",
+  "last_updated": "2025-12-16",
+  "covered_entities": [
+    "Attorney General / Department of Justice (AI Litigation Task Force)",
+    "Secretary of Commerce / NTIA",
+    "Federal Communications Commission (Chairman)",
+    "Federal Trade Commission (Chairman)",
+    "Special Advisor for AI and Crypto",
+    "Assistant to the President for Science and Technology",
+    "federal agencies administering discretionary grants"
+  ],
+  "covered_systems": [
+    "AI models and systems subject to State AI laws"
+  ],
+  "covered_activities": [
+    "litigation challenging State AI laws",
+    "evaluation of State AI laws",
+    "conditioning federal funding (BEAD non-deployment funds, discretionary grants)",
+    "federal reporting/disclosure standard",
+    "FTC Act policy on AI outputs",
+    "legislative recommendation for federal preemption"
+  ],
+  "exceptions": [
+    "legislative recommendation is not to propose preempting otherwise lawful State AI laws relating to child safety protections, AI compute and data center infrastructure (other than generally applicable permitting reforms), State government procurement and use of AI, and other topics as determined (recalled; verify)"
+  ],
+  "conditions": [
+    "actions target State AI laws deemed 'onerous' or inconsistent with the Sec. 2 policy, including laws requiring AI models to alter truthful outputs or compelling disclosures that may violate the First Amendment"
+  ],
+  "objective": "Establish a minimally burdensome national policy framework for AI and counter a patchwork of State AI regulation through federal litigation, evaluation of State laws, funding conditions, federal agency standards and a legislative preemption proposal.",
+  "policy_domain": [
+    "innovation",
+    "governance"
+  ],
+  "principles": [
+    "minimally burdensome national framework",
+    "federal uniformity / preemption",
+    "US global AI dominance",
+    "truthful AI outputs / free speech"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "US_EO_14179_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "US_AI_Action_Plan_2025",
+      "relation": "implements"
+    },
+    {
+      "policy": "CO_SB24_205",
+      "relation": "conflicts_with"
+    },
+    {
+      "policy": "CA_SB53_2025",
+      "relation": "conflicts_with"
+    },
+    {
+      "policy": "TX_TRAIGA_2025",
+      "relation": "conflicts_with"
+    },
+    {
+      "policy": "IL_HB3773_2024",
+      "relation": "conflicts_with"
+    },
+    {
+      "policy": "National Policy Framework for Artificial Intelligence (White House legislative recommendations, March 2026)",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Does not itself preempt State law (an executive order cannot); relies on DOJ litigation (dormant Commerce Clause, preemption by existing federal regulation), funding conditions, FCC/FTC action and proposed federal legislation. General provisions: consistent with applicable law, subject to appropriations, no enforceable rights created.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence (not reachable)",
+      "https://www.govinfo.gov/content/pkg/FR-2025-12-16/html/2025-23092.htm (not reachable; cited via search results)",
+      "https://www.govinfo.gov/content/pkg/DCPD-202501186/html/DCPD-202501186.htm (not reachable)",
+      "WebSearch results (Nov 2026): Mayer Brown, Sidley, Jenner, Manatt, Latham, Baker Botts, Holland & Knight, FTC press release on proposed AI-accuracy policy statement (July 2026)"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official primary sources (federalregister.gov, govinfo.gov, whitehouse.gov) were not reachable from the compilation environment (network policy), so clause wording could not be checked against a fetched official text: original_text is a close reconstruction/paraphrase of the official wording (text_is_verbatim=false) and must be verified against the official source. Metadata was cross-checked via web search results citing the official sources. Existence, title, number (EO 14365), signing date (2025-12-11) and citation (90 FR 58499, Doc. 2025-23092, published 2025-12-16) confirmed via multiple search results citing govinfo/Federal Register. The 'conflicts_with' links to state laws reflect the order's target (State AI laws, with Colorado named in the order and later federal actions) rather than a legal finding; specific laws identified in Commerce's evaluation were not verified. Whether the Commerce evaluation was published on time is contested in sources; no AI Litigation Task Force lawsuit against a specific state was confirmed. FTC policy statement was still a proposal as of mid-2026; final status unverified. Section numbers for FCC/FTC/legislation provisions are uncertain."
+  },
+  "clauses": [
+    {
+      "clause_id": "US_EO_National_AI_Framework_2025_Sec2",
+      "policy_id": "US_EO_National_AI_Framework_2025",
+      "section": "Sec. 2 (Policy)",
+      "original_text": "It is the policy of the United States to sustain and enhance the United States' global AI dominance through a minimally burdensome national policy framework for AI.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "United States executive branch",
+      "action": "sustain and enhance via",
+      "object": "minimally burdensome national policy framework for AI",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "pursue a uniform, minimally burdensome national AI framework",
+      "condition": null,
+      "exception": null,
+      "purpose": "US AI dominance",
+      "affected_asset": "US competitiveness",
+      "policy_domain": "innovation",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI generally",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Policy statement anchoring Secs. 3-8.",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_National_AI_Framework_2025_Sec3",
+      "policy_id": "US_EO_National_AI_Framework_2025",
+      "section": "Sec. 3 (AI Litigation Task Force)",
+      "original_text": "Within 30 days of the date of this order, the Attorney General shall establish an AI Litigation Task Force (Task Force) whose sole responsibility shall be to challenge State AI laws inconsistent with the policy set forth in section 2 of this order, including on grounds that such laws unconstitutionally regulate interstate commerce, are preempted by existing Federal regulations, or are otherwise unlawful in the Attorney General's judgment …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Attorney General",
+      "action": "establish task force and challenge",
+      "object": "State AI laws inconsistent with Sec. 2 policy",
+      "recipient": "US States",
+      "modality": "MUST",
+      "requirement": "set up a DOJ task force to litigate against inconsistent State AI laws",
+      "condition": "within 30 days; State law inconsistent with Sec. 2 policy",
+      "exception": null,
+      "purpose": "displace State AI regulation",
+      "affected_asset": "State AI safeguards; regulatory uniformity",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-Federal",
+        "US-States"
+      ],
+      "applicable_systems": "AI subject to State AI laws",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. The quoted grounds are corroborated by press quotations.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_National_AI_Framework_2025_Sec4",
+      "policy_id": "US_EO_National_AI_Framework_2025",
+      "section": "Sec. 4 (Evaluation of State AI Laws)",
+      "original_text": "Within 90 days of the date of this order, the Secretary of Commerce … shall publish an evaluation of existing State AI laws that identifies onerous laws that conflict with the policy set forth in section 2 of this order, as well as laws that should be referred to the Task Force … At a minimum, the evaluation should identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Secretary of Commerce",
+      "action": "publish an evaluation",
+      "object": "existing State AI laws",
+      "recipient": "AI Litigation Task Force / public",
+      "modality": "MUST",
+      "requirement": "identify onerous State AI laws and refer candidates to the Task Force",
+      "condition": "within 90 days",
+      "exception": null,
+      "purpose": "target State AI laws for challenge",
+      "affected_asset": "State AI safeguards",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-Federal",
+        "US-States"
+      ],
+      "applicable_systems": "AI subject to State AI laws",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. 'alter their truthful outputs' corroborated by search quotations.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_National_AI_Framework_2025_Sec5_BEAD",
+      "policy_id": "US_EO_National_AI_Framework_2025",
+      "section": "Sec. 5 (Restrictions on State Funding)",
+      "original_text": "… the Secretary of Commerce, through the Assistant Secretary of Commerce for Communications and Information, shall issue a Policy Notice specifying the conditions under which States may be eligible for remaining funding under the Broadband Equity Access and Deployment (BEAD) Program … [providing] that States with onerous AI laws identified pursuant to section 4 of this order are ineligible for non-deployment funds, to the maximum extent allowed by Federal law. … agencies shall assess their discretionary grant programs … whether agencies may condition such grants on States either not enacting an AI law that conflicts with the policy … or … entering into a binding agreement … not to enforce any such laws …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Secretary of Commerce (NTIA); heads of agencies with discretionary grants",
+      "action": "issue policy notice; assess grant conditions",
+      "object": "BEAD non-deployment funds and discretionary grants to States",
+      "recipient": "US States",
+      "modality": "MUST",
+      "requirement": "make States with onerous AI laws ineligible for BEAD non-deployment funds and consider conditioning other grants",
+      "condition": "State has onerous AI laws identified under Sec. 4",
+      "exception": "to the extent allowed by Federal law",
+      "purpose": "financially discourage State AI regulation",
+      "affected_asset": "State funding; State AI safeguards",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-Federal",
+        "US-States"
+      ],
+      "applicable_systems": "AI subject to State AI laws",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Wording reconstructed with lower confidence.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_National_AI_Framework_2025_FTC_policy_statement",
+      "policy_id": "US_EO_National_AI_Framework_2025",
+      "section": "FTC policy statement provision (section number unverified; Sec. 7 per secondary summaries)",
+      "original_text": "The Chairman of the Federal Trade Commission shall … issue a policy statement on the application of the FTC Act's prohibition on unfair and deceptive acts or practices … to AI models … explain[ing] the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the FTC Act's prohibition on engaging in deceptive acts or practices affecting commerce.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Chairman of the FTC",
+      "action": "issue a policy statement",
+      "object": "application of FTC Act Sec. 5 to AI models and preemption of State laws requiring altered outputs",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "FTC to explain when State laws requiring altered AI outputs are preempted as compelling deception",
+      "condition": null,
+      "exception": null,
+      "purpose": "preempt State laws on AI output alteration (e.g. algorithmic discrimination mitigation)",
+      "affected_asset": "truthfulness of AI outputs; State AI safeguards",
+      "policy_domain": "consumer_protection",
+      "applicable_regions": [
+        "US-Federal",
+        "US-States"
+      ],
+      "applicable_systems": "AI models",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. FTC issued a proposed statement in July 2026 (Docket FTC-2026-0859). FCC companion provision directs a proceeding on a federal AI reporting/disclosure standard preempting conflicting State laws.",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.45,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_National_AI_Framework_2025_Legislation",
+      "policy_id": "US_EO_National_AI_Framework_2025",
+      "section": "Legislation provision (section number unverified)",
+      "original_text": "The Special Advisor for AI and Crypto and the Assistant to the President for Science and Technology shall jointly prepare a legislative recommendation establishing a uniform Federal policy framework for AI that preempts State AI laws that conflict with the policy set forth in this order. … The legislative recommendation … shall not propose preempting otherwise lawful State AI laws relating to: (i) child safety protections; (ii) AI compute and data center infrastructure, other than generally applicable permitting reforms; (iii) State government procurement and use of AI; and (iv) other topics as shall be determined.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Special Advisor for AI and Crypto and APST",
+      "action": "prepare a legislative recommendation",
+      "object": "uniform federal AI framework preempting conflicting State AI laws",
+      "recipient": "Congress (via the President)",
+      "modality": "MUST",
+      "requirement": "propose federal preemption legislation, carving out child safety, compute/data-center infrastructure and State procurement",
+      "condition": null,
+      "exception": "child safety, AI compute/data-center infrastructure, State government procurement/use of AI, other topics",
+      "purpose": "statutory preemption of State AI laws",
+      "affected_asset": "State AI safeguards; regulatory uniformity",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-Federal",
+        "US-States"
+      ],
+      "applicable_systems": "AI generally",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Recommendations released as a non-binding 'National Policy Framework for AI' on 2026-03-20; Congress had not enacted preemption as of compilation (not exhaustively verified).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.5,
+      "human_verified": false
+    }
+  ]
+}

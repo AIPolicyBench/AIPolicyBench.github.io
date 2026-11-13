@@ -1,0 +1,317 @@
+{
+  "policy_id": "Anthropic_RSP",
+  "policy_name": "Anthropic's Responsible Scaling Policy",
+  "short_name": "Anthropic RSP",
+  "policy_type": "internal_policy",
+  "source_uri": "https://www.anthropic.com/responsible-scaling-policy",
+  "issuing_authority": "Anthropic PBC",
+  "jurisdiction": "Organization",
+  "country_region": "Global (Anthropic PBC, United States-headquartered)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Voluntary frontier AI safety framework (self-regulation)",
+  "geo_constraints": "Applies to Anthropic's own development and deployment of frontier models worldwide",
+  "industry_scope": [
+    "frontier_ai_development"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2026-07-08",
+  "key_dates": [
+    {
+      "date": "2023-09-19",
+      "event": "Version 1.0 effective"
+    },
+    {
+      "date": "2024-10-15",
+      "event": "Version 2.0 effective"
+    },
+    {
+      "date": "2025-03-31",
+      "event": "Version 2.1 effective"
+    },
+    {
+      "date": "2025-05-14",
+      "event": "Version 2.2 effective"
+    },
+    {
+      "date": "2026-02-24",
+      "event": "Version 3.0 effective (comprehensive rewrite: Frontier Safety Roadmaps and Risk Reports)"
+    },
+    {
+      "date": "2026-04-02",
+      "event": "Version 3.1 effective (clarified AI R&D threshold; freedom to pause)"
+    },
+    {
+      "date": "2026-04-29",
+      "event": "Version 3.2 effective (LTBT may request external review of Risk Reports)"
+    },
+    {
+      "date": "2026-05-26",
+      "event": "Version 3.3 effective (revised chem/bio weapons threshold)"
+    },
+    {
+      "date": "2026-07-08",
+      "event": "Version 3.4 effective (revised automated R&D threshold; Risk Report sharing/redaction changes)"
+    },
+    {
+      "date": "2026-08-14",
+      "event": "August 2026 Risk Report published; RSP page last updated"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Version 3.4 (effective July 8, 2026)",
+  "last_updated": "2026-07-08",
+  "covered_entities": [
+    "Anthropic PBC"
+  ],
+  "covered_systems": [
+    "Anthropic frontier AI models (Claude family)",
+    "publicly deployed models covered by Risk Reports"
+  ],
+  "covered_activities": [
+    "training",
+    "internal use",
+    "deployment",
+    "model weight security",
+    "capability evaluation",
+    "risk reporting"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Stricter safeguards/actions are tied to capability thresholds (e.g., chem/bio weapons, AI R&D) defined in the policy",
+    "External review of Risk Reports required only in circumstances defined in the policy"
+  ],
+  "objective": "Anthropic's voluntary framework for identifying and mitigating catastrophic risks from its frontier AI systems, combining unilateral mitigations, a public Frontier Safety Roadmap, periodic Risk Reports with external review, and recommendations for industry-wide mitigations.",
+  "policy_domain": [
+    "safety",
+    "security",
+    "transparency",
+    "accountability",
+    "governance"
+  ],
+  "principles": [
+    "conditional (if-then) commitments",
+    "proportionality",
+    "transparency",
+    "external review",
+    "iterative revision"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "OpenAI_Preparedness_Framework",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "CA_SB53_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_GPAI_CoP_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "Anthropic Frontier Safety Roadmap",
+      "relation": "complements"
+    },
+    {
+      "policy": "Anthropic RSP Noncompliance Reporting and Anti-Retaliation Policy",
+      "relation": "complements"
+    },
+    {
+      "policy": "Anthropic Frontier Compliance Framework (California SB 53)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Anthropic Responsible Scaling Policy versions 1.0-3.3",
+      "relation": "supersedes"
+    }
+  ],
+  "conflict_rule": "Self-imposed policy; legal obligations (e.g., California SB 53, EU AI Act GPAI obligations) apply independently and Anthropic addresses them via separate public documentation such as its Frontier Compliance Framework.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.anthropic.com/responsible-scaling-policy",
+      "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+      "https://www.anthropic.com/responsible-scaling-policy/roadmap",
+      "https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf (v3.4 PDF; link identified but host not reachable)"
+    ],
+    "notes": "Current version verified from the official RSP page (last updated 14 Aug 2026): Version 3.4, effective 8 July 2026. The RSP PDF itself (www-cdn.anthropic.com / assets.claude.com) could not be retrieved from the compilation environment, so clauses quote the issuer's official announcement and update log verbatim rather than the policy text; section numbers of the PDF are therefore not given. Binding=false: the RSP is a voluntary self-governance policy binding only on Anthropic itself internally (with an internal noncompliance reporting policy); it is not law, though related statutory duties (e.g., CA SB 53) may require publishing and following a frontier AI framework. Capability threshold definitions (chem/bio, AI R&D) exist in the policy but their exact wording was not verified.",
+    "compiled_on": "2026-11-13",
+    "human_verified": false
+  },
+  "clauses": [
+    {
+      "clause_id": "Anthropic_RSP_Two_Mitigation_Sets",
+      "policy_id": "Anthropic_RSP",
+      "section": "Official announcement 'Anthropic's Responsible Scaling Policy: Version 3.0' (anthropic.com/news/responsible-scaling-policy-v3, 24 Feb 2026), 'Updating our Responsible Scaling Policy' §1",
+      "original_text": "Our RSP now outlines two sets of mitigations: first, the mitigations that we plan to pursue regardless of what others do; and second, an ambitious capabilities-to-mitigations map that, we believe, would help adequately manage the risks from advanced AI if implemented across the AI industry.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Anthropic",
+      "action": "pursue unilateral mitigations; publish industry-wide capabilities-to-mitigations map",
+      "object": "risk mitigations for catastrophic risks from frontier AI",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "pursue a defined set of unilateral mitigations regardless of other developers' actions, and set out recommended industry-wide mitigations tied to capability levels",
+      "condition": null,
+      "exception": null,
+      "purpose": "mitigate catastrophic risks from advanced AI while separating company commitments from industry recommendations",
+      "affected_asset": "public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Anthropic frontier AI models",
+      "interpretation_notes": "Quoted verbatim from Anthropic's official announcement describing RSP v3, not from the RSP PDF itself (the PDF host was unreachable from the compilation environment). Self-imposed commitment; not legally binding.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Anthropic_RSP_Frontier_Safety_Roadmap",
+      "policy_id": "Anthropic_RSP",
+      "section": "Official announcement 'Anthropic's Responsible Scaling Policy: Version 3.0' (anthropic.com/news/responsible-scaling-policy-v3, 24 Feb 2026), 'Updating our Responsible Scaling Policy' §2",
+      "original_text": "Our new RSP introduces a requirement to develop and publish a Frontier Safety Roadmap, which will describe our concrete plans for risk mitigations across the areas of Security, Alignment, Safeguards, and Policy.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Anthropic",
+      "action": "develop and publish",
+      "object": "Frontier Safety Roadmap",
+      "recipient": "the public; employees, Board and Long-Term Benefit Trust (unredacted version)",
+      "modality": "MUST",
+      "requirement": "develop and publish a Frontier Safety Roadmap of concrete risk-mitigation plans in Security, Alignment, Safeguards and Policy",
+      "condition": null,
+      "exception": null,
+      "purpose": "create a public forcing function and transparency about safety plans",
+      "affected_asset": "public safety; accountability",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Anthropic frontier AI development",
+      "interpretation_notes": "Verbatim from the official v3 announcement. The announcement says roadmap goals are 'nonbinding but publicly-declared' targets, while publishing the roadmap is itself a requirement of the RSP; the Roadmap page states the unredacted version is shared with all full-time employees, the board and the LTBT.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Anthropic_RSP_Risk_Reports",
+      "policy_id": "Anthropic_RSP",
+      "section": "Official announcement 'Anthropic's Responsible Scaling Policy: Version 3.0' (anthropic.com/news/responsible-scaling-policy-v3, 24 Feb 2026), 'Updating our Responsible Scaling Policy' §3",
+      "original_text": "Risk Reports will be published online (with some redactions) every 3-6 months.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Anthropic",
+      "action": "publish",
+      "object": "Risk Reports on the safety profile of its models",
+      "recipient": "the public",
+      "modality": "MUST",
+      "requirement": "publish (redacted) Risk Reports explaining capabilities, threat models, mitigations and overall risk level every 3-6 months",
+      "condition": "redactions permitted for reasons such as legal compliance, IP protection, public safety and privacy (announcement footnote 1)",
+      "exception": null,
+      "purpose": "transparency and accountability about catastrophic-risk posture",
+      "affected_asset": "public safety; public information",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Anthropic's deployed models",
+      "interpretation_notes": "Verbatim from the official v3 announcement. Per the official update log, v3.4 (effective 8 July 2026) allows Risk Reports to analyse risks as of a coverage date and requires public Risk Reports to indicate where material was redacted.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Anthropic_RSP_External_Review",
+      "policy_id": "Anthropic_RSP",
+      "section": "Official announcement 'Anthropic's Responsible Scaling Policy: Version 3.0' (anthropic.com/news/responsible-scaling-policy-v3, 24 Feb 2026), 'Updating our Responsible Scaling Policy' §3",
+      "original_text": "The new RSP also requires external review of Risk Reports in certain circumstances. We will appoint expert third-party reviewers who are deeply familiar with AI safety research, are incentivized to be open and honest about Anthropic’s safety position, and are free of major conflicts of interest.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Anthropic",
+      "action": "appoint independent reviewers and obtain external review",
+      "object": "Risk Reports",
+      "recipient": "expert third-party reviewers",
+      "modality": "MUST",
+      "requirement": "obtain external expert review of Risk Reports when the RSP's triggering circumstances apply, using reviewers free of major conflicts of interest",
+      "condition": "'in certain circumstances' specified in the RSP (not reproduced here); the announcement states current models did not yet require external review as of Feb 2026",
+      "exception": null,
+      "purpose": "independent scrutiny of safety reasoning and decisions",
+      "affected_asset": "public safety; accountability",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Anthropic frontier AI models",
+      "interpretation_notes": "Verbatim from official v3 announcement. Triggering circumstances are defined in the RSP PDF, which could not be fetched. v3.2 (29 Apr 2026) lets the LTBT request external review and approve reviewer selection; v3.4 allows multiple reviewers to cover different unredacted sections.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Anthropic_RSP_LTBT_Oversight_v3_2",
+      "policy_id": "Anthropic_RSP",
+      "section": "Official RSP update log (anthropic.com/responsible-scaling-policy), entry of 29 April 2026 (Version 3.2)",
+      "original_text": "Version 3.2 of our RSP authorizes the LTBT to request external review of Risk Reports, gives the LTBT the power to approve our selection of external reviewers, and formalizes a requirement that we provide the LTBT with regular briefings.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Anthropic",
+      "action": "provide regular briefings; submit reviewer selection for approval",
+      "object": "Risk Report external review process",
+      "recipient": "Long-Term Benefit Trust (LTBT)",
+      "modality": "MUST",
+      "requirement": "brief the LTBT regularly and obtain LTBT approval of external reviewer selection; LTBT MAY request external review",
+      "condition": null,
+      "exception": null,
+      "purpose": "governance oversight of catastrophic-risk management",
+      "affected_asset": "corporate governance; accountability",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Anthropic frontier AI models",
+      "interpretation_notes": "Verbatim summary of the v3.2 change from Anthropic's official update log, not the policy text itself.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Anthropic_RSP_Unredacted_Internal_Sharing_v3_4",
+      "policy_id": "Anthropic_RSP",
+      "section": "Official RSP update log (anthropic.com/responsible-scaling-policy), entry of 8 July 2026 (Version 3.4), item 2",
+      "original_text": "revises our requirement to share fully unredacted Risk Reports internally (we no longer require sharing with all regular-clearance Anthropic staff, and instead require sharing with at least 200 Anthropic employees)",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Anthropic",
+      "action": "share internally",
+      "object": "fully unredacted Risk Reports",
+      "recipient": "at least 200 Anthropic employees",
+      "modality": "MUST",
+      "requirement": "share fully unredacted Risk Reports with at least 200 Anthropic employees",
+      "condition": null,
+      "exception": null,
+      "purpose": "internal transparency and accountability",
+      "affected_asset": "internal accountability",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Anthropic Risk Reports",
+      "interpretation_notes": "Verbatim fragment of the official v3.4 changelog summary; earlier v3.x versions required sharing with all regular-clearance staff.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    }
+  ]
+}

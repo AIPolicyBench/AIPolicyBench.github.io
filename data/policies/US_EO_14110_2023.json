@@ -1,0 +1,305 @@
+{
+  "policy_id": "US_EO_14110_2023",
+  "policy_name": "Executive Order 14110 of October 30, 2023: Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence",
+  "short_name": "EO 14110",
+  "policy_type": "executive_order",
+  "source_uri": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+  "issuing_authority": "President of the United States (Joseph R. Biden Jr.)",
+  "jurisdiction": "US-Federal",
+  "country_region": "United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "US federal executive action on AI (Biden Administration)",
+  "geo_constraints": "Directed US federal executive departments and agencies; reporting duties (via Defense Production Act / IaaS rules) reached companies developing dual-use foundation models and US IaaS providers with respect to foreign customers",
+  "industry_scope": [
+    "general",
+    "public_sector",
+    "critical_infrastructure",
+    "healthcare",
+    "employment",
+    "finance"
+  ],
+  "status": "revoked",
+  "binding": false,
+  "effective_date": "2023-10-30",
+  "key_dates": [
+    {
+      "date": "2023-10-30",
+      "event": "Signed by President Biden"
+    },
+    {
+      "date": "2023-11-01",
+      "event": "Published in the Federal Register (88 FR 75191)"
+    },
+    {
+      "date": "2024-03-28",
+      "event": "OMB issued M-24-10 implementing Sec. 10.1(b) (later rescinded by M-25-21)"
+    },
+    {
+      "date": "2025-01-20",
+      "event": "Revoked by Executive Order 14148 (Initial Rescissions of Harmful Executive Orders and Actions)"
+    },
+    {
+      "date": "2025-01-23",
+      "event": "EO 14179 ordered review and suspension/revision/rescission of actions taken pursuant to EO 14110"
+    }
+  ],
+  "expiration_date": "2025-01-20",
+  "version": "88 FR 75191 (Nov. 1, 2023), FR Doc. 2023-24283",
+  "last_updated": "2023-11-01",
+  "covered_entities": [
+    "federal executive departments and agencies",
+    "developers of dual-use foundation models (reporting via Commerce/DPA)",
+    "US Infrastructure-as-a-Service providers and resellers (foreign-customer reporting)"
+  ],
+  "covered_systems": [
+    "dual-use foundation models",
+    "large-scale computing clusters",
+    "AI used by federal agencies",
+    "synthetic content / generative AI"
+  ],
+  "covered_activities": [
+    "training and development of dual-use foundation models",
+    "red-team testing",
+    "federal agency use and procurement of AI",
+    "provision of IaaS to foreign persons"
+  ],
+  "exceptions": [
+    "national security systems largely addressed through a separate national security memorandum process"
+  ],
+  "conditions": [
+    "Interim reporting thresholds (Sec. 4.2(b)): models trained with >10^26 integer or floating-point operations, or >10^23 if using primarily biological sequence data; computing clusters with >100 Gbit/s data-centre networking and theoretical maximum capacity of 10^20 operations per second for AI training"
+  ],
+  "objective": "Establish a government-wide approach to the safe, secure and trustworthy development and use of AI, combining safety/security testing and reporting for frontier models with protections for privacy, civil rights, consumers and workers and with measures to promote innovation and federal AI capacity.",
+  "policy_domain": [
+    "safety",
+    "security",
+    "privacy",
+    "fairness",
+    "consumer_protection",
+    "employment",
+    "innovation",
+    "governance"
+  ],
+  "principles": [
+    "safety and security",
+    "responsible innovation and competition",
+    "support for workers",
+    "equity and civil rights",
+    "consumer protection",
+    "privacy and civil liberties",
+    "federal government AI capacity",
+    "global leadership"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "US_EO_14179_2025",
+      "relation": "superseded_by"
+    },
+    {
+      "policy": "Executive Order 14148 (Initial Rescissions of Harmful Executive Orders and Actions, Jan. 20, 2025)",
+      "relation": "superseded_by"
+    },
+    {
+      "policy": "OMB Memorandum M-24-10 (Mar. 2024)",
+      "relation": "implements"
+    },
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "NIST_AI_600_1_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "US_OMB_M_25_21",
+      "relation": "superseded_by"
+    }
+  ],
+  "conflict_rule": "Sec. 13 General Provisions: implemented consistent with applicable law and subject to appropriations; does not create any right or benefit enforceable at law; does not impair agency authority. Revoked in full by EO 14148 (Jan. 20, 2025).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence (not reachable; cited via search results)",
+      "WebSearch results (Nov 2026) citing Federal Register, govinfo and law-firm analyses"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official primary sources (federalregister.gov, govinfo.gov, whitehouse.gov) were not reachable from the compilation environment (network policy), so clause wording could not be checked against a fetched official text: original_text is a close reconstruction/paraphrase of the official wording (text_is_verbatim=false) and must be verified against the official source. Metadata was cross-checked via web search results citing the official sources. Revoked by EO 14148 on 2025-01-20; binding set to false because it no longer has legal effect (while in force it directed federal agencies). Some actions taken under it (e.g. NIST/AISI work, Commerce proposed IaaS reporting rule) were subject to review under EO 14179; their individual current status is not captured here. Section numbers are from the order's well-known structure but were not re-checked against a fetched text."
+  },
+  "clauses": [
+    {
+      "clause_id": "US_EO_14110_2023_Sec4_2_a_i",
+      "policy_id": "US_EO_14110_2023",
+      "section": "Sec. 4.2(a)(i)",
+      "original_text": "Within 90 days of the date of this order, to ensure and verify the continuous availability of safe, reliable, and effective AI in accordance with the Defense Production Act, as amended, … the Secretary of Commerce shall require: (i) Companies developing or demonstrating an intent to develop potential dual-use foundation models to provide the Federal Government, on an ongoing basis, with information, reports, or records regarding … (A) any ongoing or planned activities related to training, developing, or producing dual-use foundation models … (B) the ownership and possession of the model weights … (C) the results of any developed dual-use foundation model's performance in relevant AI red-team testing …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Secretary of Commerce (requiring companies developing dual-use foundation models)",
+      "action": "require reporting to the Federal Government",
+      "object": "information on training activities, model-weight ownership/security, and red-team test results for dual-use foundation models",
+      "recipient": "Federal Government (Department of Commerce)",
+      "modality": "MUST",
+      "requirement": "Commerce must require frontier-model developers to report training activities, weight security and red-team results",
+      "condition": "models meeting the technical conditions defined under Sec. 4.2(b)",
+      "exception": null,
+      "purpose": "national security, economic security and public health/safety assurance",
+      "affected_asset": "model weights; public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "dual-use foundation models above compute thresholds",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Implemented via DPA authority; revoked with the order in Jan 2025.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_14110_2023_Sec4_2_b",
+      "policy_id": "US_EO_14110_2023",
+      "section": "Sec. 4.2(b)",
+      "original_text": "… the Secretary of Commerce … shall define, and thereafter update as needed on a regular basis, the set of technical conditions for models and computing clusters that would be subject to the reporting requirements … Until such technical conditions are defined, the Secretary shall require compliance with these reporting requirements for: (i) any model that was trained using a quantity of computing power greater than 10^26 integer or floating-point operations, or using primarily biological sequence data and using a quantity of computing power greater than 10^23 integer or floating-point operations; and (ii) any computing cluster …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Secretary of Commerce",
+      "action": "define and apply technical thresholds",
+      "object": "models and computing clusters subject to reporting",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "apply interim compute thresholds (10^26 ops; 10^23 for biological-sequence models) for reporting",
+      "condition": "until Commerce defines technical conditions",
+      "exception": null,
+      "purpose": "scope frontier-model reporting",
+      "affected_asset": "public safety; biosecurity",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "large AI models and computing clusters",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Cluster threshold: >100 Gbit/s networking and 10^20 ops/s theoretical maximum.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_14110_2023_Sec4_2_c",
+      "policy_id": "US_EO_14110_2023",
+      "section": "Sec. 4.2(c)",
+      "original_text": "… the Secretary of Commerce shall propose regulations that require United States IaaS Providers to submit a report to the Secretary of Commerce when a foreign person transacts with that United States IaaS Provider to train a large AI model with potential capabilities that could be used in malicious cyber-enabled activity …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Secretary of Commerce (rules applying to US IaaS providers)",
+      "action": "propose regulations requiring reports",
+      "object": "foreign persons' use of US IaaS to train large AI models",
+      "recipient": "Secretary of Commerce",
+      "modality": "MUST",
+      "requirement": "propose rules requiring US cloud providers to report foreign customers training large AI models",
+      "condition": "foreign person transacts to train a large AI model with potential malicious cyber-enabled capabilities",
+      "exception": null,
+      "purpose": "prevent malicious cyber-enabled activity",
+      "affected_asset": "national security; cybersecurity",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "large AI models trained on US IaaS",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Builds on EO 13984 framework. Deadline (90 days) omitted here.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_14110_2023_Sec4_1_a",
+      "policy_id": "US_EO_14110_2023",
+      "section": "Sec. 4.1(a)",
+      "original_text": "Within 270 days of the date of this order, to help ensure the development of safe, secure, and trustworthy AI systems, the Secretary of Commerce, acting through the Director of the National Institute of Standards and Technology (NIST) … shall: (i) Establish guidelines and best practices, with the aim of promoting consensus industry standards, for developing and deploying safe, secure, and trustworthy AI systems … (ii) Establish appropriate guidelines … to enable developers of AI, especially of dual-use foundation models, to conduct AI red-teaming tests …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Secretary of Commerce acting through NIST",
+      "action": "establish guidelines, standards and red-teaming guidance",
+      "object": "safe, secure and trustworthy AI development and deployment, including red-teaming of dual-use foundation models",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "NIST must develop AI safety guidelines, including a generative-AI companion to the AI RMF and red-teaming guidelines",
+      "condition": null,
+      "exception": null,
+      "purpose": "promote consensus standards for AI safety",
+      "affected_asset": "public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI systems, esp. dual-use foundation models",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Led to NIST AI 600-1 (GenAI profile) and related outputs.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_14110_2023_Sec4_5_a",
+      "policy_id": "US_EO_14110_2023",
+      "section": "Sec. 4.5(a)",
+      "original_text": "Within 240 days of the date of this order, the Secretary of Commerce … shall submit a report … identifying the existing standards, tools, methods, and practices, as well as the potential development of further science-backed standards and techniques, for: (i) authenticating content and tracking its provenance; (ii) labeling synthetic content, such as using watermarking; (iii) detecting synthetic content; (iv) preventing generative AI from producing child sexual abuse material or producing non-consensual intimate imagery of real individuals …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Secretary of Commerce",
+      "action": "report on standards and techniques",
+      "object": "content authentication, provenance, synthetic-content labeling/detection and CSAM/NCII prevention",
+      "recipient": "Director of OMB and the Assistant to the President for National Security Affairs",
+      "modality": "MUST",
+      "requirement": "report on tools for authenticating, labeling and detecting synthetic content",
+      "condition": null,
+      "exception": null,
+      "purpose": "reduce risks from synthetic content",
+      "affected_asset": "information integrity; individuals depicted",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "generative AI",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_14110_2023_Sec10_1_b",
+      "policy_id": "US_EO_14110_2023",
+      "section": "Sec. 10.1(b)",
+      "original_text": "To provide guidance on Federal Government use of AI, within 150 days of the date of this order … the Director of OMB … shall issue guidance to agencies to strengthen the effective and appropriate use of AI, advance AI innovation, and manage risks from AI in the Federal Government. The Director of OMB's guidance shall specify … the requirement to designate at each agency within 60 days of the issuance of the guidance a Chief Artificial Intelligence Officer …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Director of OMB",
+      "action": "issue guidance to agencies",
+      "object": "federal agency use and risk management of AI",
+      "recipient": "federal agencies",
+      "modality": "MUST",
+      "requirement": "OMB must issue government-wide AI use guidance including Chief AI Officers and minimum risk-management practices",
+      "condition": null,
+      "exception": null,
+      "purpose": "manage risks from federal government use of AI",
+      "affected_asset": "rights and safety of the public",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI used by federal agencies",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Implemented by OMB M-24-10, itself rescinded by M-25-21 (Apr 2025).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    }
+  ]
+}

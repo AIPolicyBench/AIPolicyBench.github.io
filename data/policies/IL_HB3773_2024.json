@@ -1,0 +1,195 @@
+{
+  "policy_id": "IL_HB3773_2024",
+  "policy_name": "Illinois HB 3773 (Public Act 103-0804), amending the Illinois Human Rights Act on the use of artificial intelligence in employment",
+  "short_name": "Illinois HB 3773 (IHRA AI amendment)",
+  "policy_type": "statute",
+  "source_uri": "https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=103-0804",
+  "issuing_authority": "Illinois General Assembly (signed by Governor J.B. Pritzker)",
+  "jurisdiction": "US-IL",
+  "country_region": "Illinois, United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Illinois Human Rights Act (775 ILCS 5)",
+  "geo_constraints": "Employers covered by the Illinois Human Rights Act with respect to employees/applicants in Illinois",
+  "industry_scope": [
+    "employment"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2026-01-01",
+  "key_dates": [
+    {
+      "date": "2024-08-09",
+      "event": "Signed by Governor Pritzker (Public Act 103-0804)"
+    },
+    {
+      "date": "2026-01-01",
+      "event": "Amendments take effect"
+    },
+    {
+      "date": "2026-05-15",
+      "event": "IDHR proposed notice rules published in Illinois Register (per secondary sources)"
+    },
+    {
+      "date": "2026-06",
+      "event": "IDHR temporarily withdraws proposed rules; no replacement rules adopted as of Sept 2026 (per secondary sources)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "Public Act 103-0804",
+  "last_updated": "2024-08-09",
+  "covered_entities": [
+    "employers (as defined in the Illinois Human Rights Act)"
+  ],
+  "covered_systems": [
+    "artificial intelligence: machine-based systems that, for explicit or implicit objectives, infer from input how to generate outputs such as predictions, content, recommendations or decisions that can influence physical or virtual environments, including generative AI"
+  ],
+  "covered_activities": [
+    "recruitment",
+    "hiring",
+    "promotion",
+    "renewal of employment",
+    "selection for training or apprenticeship",
+    "discharge",
+    "discipline",
+    "tenure",
+    "terms, privileges or conditions of employment"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Liability attaches where AI use has the effect of subjecting employees to discrimination on the basis of protected classes (effects-based, no intent requirement)",
+    "Notice requirements to be specified by IDHR rules (circumstances, timing, means)"
+  ],
+  "objective": "Extend Illinois civil-rights protections to employer use of AI by prohibiting AI uses that have a discriminatory effect (including zip codes as proxies) and requiring notice to employees when AI is used for employment decisions.",
+  "policy_domain": [
+    "fairness",
+    "employment",
+    "transparency"
+  ],
+  "principles": [
+    "non-discrimination",
+    "transparency / notice"
+  ],
+  "parent_policy": "Illinois Human Rights Act (775 ILCS 5)",
+  "related_policies": [
+    {
+      "policy": "Illinois Artificial Intelligence Video Interview Act (820 ILCS 42)",
+      "relation": "complements"
+    },
+    {
+      "policy": "NYC_LL144_2021",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "CO_SB24_205",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "US_EO_National_AI_Framework_2025",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "Enforced through the Illinois Human Rights Act charge process (IDHR / Illinois Human Rights Commission, and civil actions as available under the IHRA).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=103-0804 (not fetched; government hosts unreachable from compilation environment)",
+      "https://www.seyfarth.com/news-insights/illinois-department-of-human-rights-temporarily-withdraws-proposed-rules-on-use-of-artificial-intelligence-in-employment.html",
+      "https://ogletree.com/insights-resources/blog-posts/illinois-unveils-draft-notice-rules-on-ai-use-in-employment-ahead-of-discrimination-ban/",
+      "https://www.ebglaw.com/workforce-bulletin/your-ai-in-hr-must-do-list-navigating-illinois-draft-ai-notice-regulations",
+      "https://casrai.org/guides/illinois-hb-3773-ai-employment-discrimination"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Statutory duties in force since 2026-01-01, but IDHR notice rules were proposed (2026-05-15) and then withdrawn (June 2026, exact date differs across sources); no final rules as of compilation per secondary sources. Signing date 2024-08-09 from compiler's knowledge; not re-verified on ilga.gov. Section placement (775 ILCS 5/2-101(M) definition; 5/2-102(L) violation) from compiler's recollection."
+  },
+  "clauses": [
+    {
+      "clause_id": "IL_HB3773_2024_2_102_L_1",
+      "policy_id": "IL_HB3773_2024",
+      "section": "775 ILCS 5/2-102(L)(1)",
+      "original_text": "It is a civil rights violation for an employer, with respect to recruitment, hiring, promotion, renewal of employment, selection for training or apprenticeship, discharge, discipline, tenure, or the terms, privileges or conditions of employment, to use artificial intelligence that has the effect of subjecting employees to discrimination on the basis of protected classes under the Article, or to use zip codes as a proxy for protected classes.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employer",
+      "action": "use",
+      "object": "AI in employment decisions",
+      "recipient": "employees and applicants",
+      "modality": "MUST NOT",
+      "requirement": "do not use AI with a discriminatory effect or use zip codes as a proxy for protected classes",
+      "condition": "AI used in covered employment decisions",
+      "exception": null,
+      "purpose": "prevent algorithmic employment discrimination",
+      "affected_asset": "equal employment opportunity",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "US-IL"
+      ],
+      "applicable_systems": "artificial intelligence (incl. generative AI) used in employment decisions",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Effects-based standard (no intent requirement).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "IL_HB3773_2024_2_102_L_2",
+      "policy_id": "IL_HB3773_2024",
+      "section": "775 ILCS 5/2-102(L)(2)",
+      "original_text": "It is a civil rights violation for an employer to fail to provide notice to an employee that the employer is using artificial intelligence for the purposes described in paragraph (1); the Department shall adopt rules on the circumstances and conditions requiring notice, the time period and the means for providing notice.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employer",
+      "action": "notify",
+      "object": "use of AI for covered employment purposes",
+      "recipient": "employees",
+      "modality": "MUST",
+      "requirement": "notify employees of AI use in employment decisions",
+      "condition": "AI used for covered employment purposes",
+      "exception": null,
+      "purpose": "transparency",
+      "affected_asset": "employees' awareness and ability to contest",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-IL"
+      ],
+      "applicable_systems": "artificial intelligence (incl. generative AI) used in employment decisions",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Implementing IDHR rules withdrawn mid-2026; notice content/timing currently unspecified by rule.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "IL_HB3773_2024_2_101_M",
+      "policy_id": "IL_HB3773_2024",
+      "section": "775 ILCS 5/2-101(M)",
+      "original_text": "'Artificial intelligence' means a machine-based system that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments; it includes generative artificial intelligence.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": null,
+      "action": "define",
+      "object": "artificial intelligence",
+      "recipient": null,
+      "modality": "MAY",
+      "requirement": "definition (scope-setting)",
+      "condition": null,
+      "exception": null,
+      "purpose": "define scope",
+      "affected_asset": "n/a",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-IL"
+      ],
+      "applicable_systems": "artificial intelligence (incl. generative AI) used in employment decisions",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Definitional clause; modality not meaningful (MAY used as placeholder for non-normative text).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    }
+  ]
+}

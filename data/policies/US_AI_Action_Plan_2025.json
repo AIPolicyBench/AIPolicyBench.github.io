@@ -1,0 +1,298 @@
+{
+  "policy_id": "US_AI_Action_Plan_2025",
+  "policy_name": "Winning the Race: America's AI Action Plan",
+  "short_name": "America's AI Action Plan",
+  "policy_type": "framework",
+  "source_uri": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+  "issuing_authority": "Executive Office of the President (White House Office of Science and Technology Policy, Special Advisor for AI and Crypto, National Security Council)",
+  "jurisdiction": "US-Federal",
+  "country_region": "United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "US federal executive AI policy (Trump Administration, 2025-)",
+  "geo_constraints": "Recommendations addressed to US federal agencies; international diplomacy and export-control actions aimed at allies and adversaries",
+  "industry_scope": [
+    "general",
+    "public_sector",
+    "critical_infrastructure",
+    "defense",
+    "energy",
+    "healthcare",
+    "manufacturing"
+  ],
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2025-07-23",
+  "key_dates": [
+    {
+      "date": "2025-01-23",
+      "event": "EO 14179 Sec. 4 required an AI action plan within 180 days"
+    },
+    {
+      "date": "2025-07-23",
+      "event": "Plan released; EOs 14318 (data-center permitting), 14319 (Preventing Woke AI in the Federal Government) and 14320 (Promoting the Export of the American AI Technology Stack) signed the same day"
+    },
+    {
+      "date": "2025-12-11",
+      "event": "EO 14365 (Ensuring a National Policy Framework for AI) builds on the plan's state-regulation theme"
+    }
+  ],
+  "expiration_date": null,
+  "version": "July 2025",
+  "last_updated": "2025-07-23",
+  "covered_entities": [
+    "federal departments and agencies (e.g. Commerce/NIST/CAISI, OMB, OSTP, DOD, DOE, DHS, FCC, FTC, State)"
+  ],
+  "covered_systems": [
+    "frontier AI models",
+    "open-source/open-weight models",
+    "AI infrastructure (data centers, semiconductors, energy grid)",
+    "federally procured LLMs"
+  ],
+  "covered_activities": [
+    "deregulation",
+    "federal procurement of AI",
+    "AI evaluations and national security risk assessment",
+    "export controls",
+    "AI infrastructure permitting",
+    "workforce development"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "implementation depends on agency action, executive orders and appropriations; recommendations are qualified 'consistent with applicable law'"
+  ],
+  "objective": "Set out the administration's strategy to achieve US global AI dominance through three pillars: accelerating AI innovation, building American AI infrastructure, and leading in international AI diplomacy and security.",
+  "policy_domain": [
+    "innovation",
+    "security",
+    "safety",
+    "governance",
+    "content_integrity"
+  ],
+  "principles": [
+    "AI dominance",
+    "deregulation / removing red tape",
+    "free speech and objectivity in AI",
+    "worker-first AI",
+    "open-source/open-weight AI encouragement",
+    "secure-by-design AI",
+    "export of the American AI stack",
+    "countering adversary influence"
+  ],
+  "parent_policy": "US_EO_14179_2025",
+  "related_policies": [
+    {
+      "policy": "US_EO_14179_2025",
+      "relation": "implements"
+    },
+    {
+      "policy": "US_EO_National_AI_Framework_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "US_OMB_M_25_21",
+      "relation": "complements"
+    },
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "amends"
+    },
+    {
+      "policy": "Executive Order 14319 (Preventing Woke AI in the Federal Government)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Executive Order 14320 (Promoting the Export of the American AI Technology Stack)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Executive Order 14318 (Accelerating Federal Permitting of Data Center Infrastructure)",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Non-binding; recommended actions are to be carried out consistent with applicable law via agency action or executive orders.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf (not reachable; URL from memory, not verified)",
+      "WebSearch results (Nov 2026) citing law-firm analyses (Jones Day, Jenner, MoFo, Willkie) of the plan and EOs 14318-14320"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official primary sources (federalregister.gov, govinfo.gov, whitehouse.gov) were not reachable from the compilation environment (network policy), so clause wording could not be checked against a fetched official text: original_text is a close reconstruction/paraphrase of the official wording (text_is_verbatim=false) and must be verified against the official source. Metadata was cross-checked via web search results citing the official sources. The plan has no numbered sections; clause 'section' fields give pillar and sub-heading as recalled and should be checked. The commonly cited count of 'over 90' recommended actions was not verified. The NIST AI RMF revision recommendation is recorded as relation 'amends' to NIST_AI_RMF_2023 in the sense of directing a revision; whether NIST has issued the revised RMF as of Nov 2026 was not verified. Status 'voluntary' is used because the schema lacks a value for a non-binding government policy roadmap; it remains current administration policy."
+  },
+  "clauses": [
+    {
+      "clause_id": "US_AI_Action_Plan_2025_PI_RedTape_StateFunding",
+      "policy_id": "US_AI_Action_Plan_2025",
+      "section": "Pillar I: Accelerate AI Innovation — Remove Red Tape and Onerous Regulation",
+      "original_text": "Led by OMB, work with Federal agencies that have AI-related discretionary funding programs to ensure, consistent with applicable law, that they consider a state's AI regulatory climate when making funding decisions and limit funding if the state's AI regulatory regimes may hinder the effectiveness of that funding or award.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "OMB and federal agencies with AI-related discretionary funding",
+      "action": "consider and limit funding",
+      "object": "states' AI regulatory climate",
+      "recipient": "US states",
+      "modality": "SHOULD",
+      "requirement": "condition discretionary AI-related funding on states' AI regulatory climate",
+      "condition": "where a state's AI regime may hinder effectiveness of funding",
+      "exception": null,
+      "purpose": "discourage burdensome state AI regulation",
+      "affected_asset": "federal-state regulatory balance",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-Federal",
+        "US-States"
+      ],
+      "applicable_systems": "AI generally",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Recommended policy action in a non-binding plan; modality SHOULD. Precursor to EO 14365 Sec. 5.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_AI_Action_Plan_2025_PI_FreeSpeech_NIST_RMF",
+      "policy_id": "US_AI_Action_Plan_2025",
+      "section": "Pillar I — Ensure that Frontier AI Protects Free Speech and American Values",
+      "original_text": "Led by the Department of Commerce (DOC) through the National Institute of Standards and Technology (NIST), revise the NIST AI Risk Management Framework to eliminate references to misinformation, Diversity, Equity, and Inclusion, and climate change.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Department of Commerce / NIST",
+      "action": "revise",
+      "object": "NIST AI Risk Management Framework",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "remove references to misinformation, DEI and climate change from the AI RMF",
+      "condition": null,
+      "exception": null,
+      "purpose": "align federal AI risk guidance with free-speech objectives",
+      "affected_asset": "AI risk-management guidance",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI generally",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Recommended policy action in a non-binding plan; modality SHOULD.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_AI_Action_Plan_2025_PI_FreeSpeech_Procurement",
+      "policy_id": "US_AI_Action_Plan_2025",
+      "section": "Pillar I — Ensure that Frontier AI Protects Free Speech and American Values",
+      "original_text": "Update Federal procurement guidelines to ensure that the government only contracts with frontier large language model (LLM) developers who ensure that their systems are objective and free from top-down ideological bias.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal government (OMB/procurement authorities)",
+      "action": "update procurement guidelines; contract only with",
+      "object": "frontier LLM developers",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "procure only LLMs that are objective and free from top-down ideological bias",
+      "condition": "federal procurement of frontier LLMs",
+      "exception": null,
+      "purpose": "ideological neutrality of federally used AI",
+      "affected_asset": "information integrity / free speech",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "frontier large language models",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Recommended policy action in a non-binding plan; modality SHOULD. Implemented via EO 14319 and subsequent OMB guidance.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_AI_Action_Plan_2025_PIII_CAISI_Evals",
+      "policy_id": "US_AI_Action_Plan_2025",
+      "section": "Pillar III: Lead in International AI Diplomacy and Security — Ensure that the U.S. Government is at the Forefront of Evaluating National Security Risks in Frontier Models",
+      "original_text": "Evaluate frontier AI systems for national security risks in partnership with frontier AI developers, led by CAISI at DOC in collaboration with other agencies with relevant expertise in Chemical, Biological, Radiological, Nuclear, and Explosives (CBRNE) and cyber risks.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "CAISI (Commerce) with national-security agencies",
+      "action": "evaluate",
+      "object": "frontier AI systems",
+      "recipient": "frontier AI developers (as partners)",
+      "modality": "SHOULD",
+      "requirement": "evaluate frontier models for CBRNE and cyber national-security risks",
+      "condition": null,
+      "exception": null,
+      "purpose": "identify national security risks of frontier AI",
+      "affected_asset": "national security; public safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "frontier AI models",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Recommended policy action in a non-binding plan; modality SHOULD.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_AI_Action_Plan_2025_PIII_Biosecurity",
+      "policy_id": "US_AI_Action_Plan_2025",
+      "section": "Pillar III — Invest in Biosecurity",
+      "original_text": "Require all institutions receiving Federal funding for scientific research to use nucleic acid synthesis tools and synthesis providers that have robust nucleic acid sequence screening and customer verification procedures. Create enforcement mechanisms for this requirement rather than relying on voluntary attestation.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "federal research funders",
+      "action": "require",
+      "object": "federally funded research institutions' use of screened nucleic acid synthesis providers",
+      "recipient": "institutions receiving federal research funding",
+      "modality": "SHOULD",
+      "requirement": "require sequence screening and customer verification for federally funded nucleic acid synthesis",
+      "condition": "receipt of federal research funding",
+      "exception": null,
+      "purpose": "mitigate AI-enabled biological misuse",
+      "affected_asset": "biosecurity / public health",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "nucleic acid synthesis tools (AI-adjacent biosecurity)",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Recommended policy action in a non-binding plan; modality SHOULD.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.55,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_AI_Action_Plan_2025_PI_SyntheticMedia_Legal",
+      "policy_id": "US_AI_Action_Plan_2025",
+      "section": "Pillar I — Combat Synthetic Media in the Legal System",
+      "original_text": "Led by NIST at DOC, consider developing NIST's Guardians of Forensic Evidence deepfake evaluation program into a formal guideline and a companion voluntary forensic benchmark.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Commerce / NIST",
+      "action": "consider developing",
+      "object": "deepfake forensic evaluation guideline and voluntary benchmark",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "develop deepfake forensic guidance for the legal system",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect evidentiary integrity against AI-generated media",
+      "affected_asset": "integrity of legal evidence",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "synthetic media / deepfakes",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Recommended policy action in a non-binding plan; modality SHOULD. Lower confidence in exact wording.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.45,
+      "human_verified": false
+    }
+  ]
+}

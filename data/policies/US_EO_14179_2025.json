@@ -1,0 +1,226 @@
+{
+  "policy_id": "US_EO_14179_2025",
+  "policy_name": "Executive Order 14179 of January 23, 2025: Removing Barriers to American Leadership in Artificial Intelligence",
+  "short_name": "EO 14179",
+  "policy_type": "executive_order",
+  "source_uri": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
+  "issuing_authority": "President of the United States (Donald J. Trump)",
+  "jurisdiction": "US-Federal",
+  "country_region": "United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "US federal executive action on AI (Trump Administration, 2025-)",
+  "geo_constraints": "Directs US federal executive officials and agencies; no direct obligations on private parties",
+  "industry_scope": [
+    "general",
+    "public_sector"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2025-01-23",
+  "key_dates": [
+    {
+      "date": "2025-01-20",
+      "event": "EO 14148 revoked EO 14110"
+    },
+    {
+      "date": "2025-01-23",
+      "event": "Signed"
+    },
+    {
+      "date": "2025-01-31",
+      "event": "Published in the Federal Register (90 FR 8741)"
+    },
+    {
+      "date": "2025-04-03",
+      "event": "OMB issued M-25-21 and M-25-22 replacing M-24-10 and M-24-18 (Sec. 5(c) revision; later than the 60-day target)"
+    },
+    {
+      "date": "2025-07-23",
+      "event": "America's AI Action Plan released pursuant to Sec. 4 (180-day target was ~2025-07-22)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "90 FR 8741 (Jan. 31, 2025)",
+  "last_updated": "2025-01-31",
+  "covered_entities": [
+    "Assistant to the President for Science and Technology (APST)",
+    "Special Advisor for AI and Crypto",
+    "Assistant to the President for National Security Affairs (APNSA)",
+    "Director of OMB",
+    "heads of federal executive departments and agencies"
+  ],
+  "covered_systems": [
+    "AI generally (federal AI policy)"
+  ],
+  "covered_activities": [
+    "development of a national AI action plan",
+    "review and rescission of actions taken under EO 14110",
+    "revision of OMB AI memoranda"
+  ],
+  "exceptions": [],
+  "conditions": [],
+  "objective": "Revoke and unwind AI policies seen as barriers to innovation and set a policy to sustain and enhance US global AI dominance, directing development of an AI Action Plan within 180 days.",
+  "policy_domain": [
+    "innovation",
+    "governance"
+  ],
+  "principles": [
+    "global AI dominance",
+    "human flourishing",
+    "economic competitiveness",
+    "national security",
+    "AI free from ideological bias or engineered social agendas"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "US_EO_14110_2023",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "US_AI_Action_Plan_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "US_OMB_M_25_21",
+      "relation": "complements"
+    },
+    {
+      "policy": "US_EO_National_AI_Framework_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "Executive Order 14148 (Initial Rescissions of Harmful Executive Orders and Actions)",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "General provisions: implemented consistent with applicable law and subject to appropriations; does not impair agency authority; creates no right or benefit enforceable at law.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence (not reachable; cited via search results)",
+      "WebSearch results (Nov 2026) citing Federal Register and law-firm analyses"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Official primary sources (federalregister.gov, govinfo.gov, whitehouse.gov) were not reachable from the compilation environment (network policy), so clause wording could not be checked against a fetched official text: original_text is a close reconstruction/paraphrase of the official wording (text_is_verbatim=false) and must be verified against the official source. Metadata was cross-checked via web search results citing the official sources. FR document number 2025-02172 in source_uri is from memory and not verified. No amendment or revocation of EO 14179 found as of Nov 2026. binding=true refers to its binding effect on the executive branch only."
+  },
+  "clauses": [
+    {
+      "clause_id": "US_EO_14179_2025_Sec2",
+      "policy_id": "US_EO_14179_2025",
+      "section": "Sec. 2 (Policy)",
+      "original_text": "It is the policy of the United States to sustain and enhance America's global AI dominance in order to promote human flourishing, economic competitiveness, and national security.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "United States executive branch",
+      "action": "sustain and enhance",
+      "object": "America's global AI dominance",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "federal AI policy is oriented toward sustaining US AI dominance",
+      "condition": null,
+      "exception": null,
+      "purpose": "human flourishing, economic competitiveness, national security",
+      "affected_asset": "US competitiveness",
+      "policy_domain": "innovation",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI generally",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Policy statement; operative anchor for Secs. 4-5.",
+      "ambiguity": "high",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_14179_2025_Sec4_a",
+      "policy_id": "US_EO_14179_2025",
+      "section": "Sec. 4(a)",
+      "original_text": "Within 180 days of this order, the Assistant to the President for Science and Technology (APST), the Special Advisor for AI and Crypto, and the Assistant to the President for National Security Affairs (APNSA), in coordination with … the Director of the Office of Management and Budget (OMB Director), and the heads of such executive departments and agencies … as the APST and Special Advisor for AI and Crypto deem relevant, shall develop and submit to the President an action plan to achieve the policy set forth in section 2 of this order.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "APST, Special Advisor for AI and Crypto, APNSA (with OMB Director and agency heads)",
+      "action": "develop and submit",
+      "object": "AI action plan",
+      "recipient": "the President",
+      "modality": "MUST",
+      "requirement": "deliver an AI action plan within 180 days",
+      "condition": "within 180 days",
+      "exception": null,
+      "purpose": "implement Sec. 2 policy",
+      "affected_asset": null,
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI generally",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Fulfilled by America's AI Action Plan (July 23, 2025).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_14179_2025_Sec5_a_b",
+      "policy_id": "US_EO_14179_2025",
+      "section": "Sec. 5(a)-(b)",
+      "original_text": "… shall immediately review, pursuant to Executive Order 14148, all policies, directives, regulations, orders, and other actions taken pursuant to the revoked Executive Order 14110 … and identify any actions taken pursuant to Executive Order 14110 that are or may be inconsistent with, or present obstacles to, the policy set forth in section 2 of this order. … If … such actions are identified, the heads of all agencies shall, as appropriate and consistent with applicable law, suspend, revise, or rescind such actions …",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "APST, Special Advisor for AI and Crypto, APNSA and heads of agencies",
+      "action": "review and suspend, revise or rescind",
+      "object": "actions taken pursuant to revoked EO 14110 inconsistent with Sec. 2 policy",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "identify and suspend/revise/rescind EO 14110-derived actions that obstruct AI dominance policy",
+      "condition": "where actions are inconsistent with or obstruct the Sec. 2 policy",
+      "exception": "where not consistent with applicable law; may grant interim exemptions",
+      "purpose": "remove regulatory barriers to AI innovation",
+      "affected_asset": "pre-existing federal AI safeguards",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "federal AI policies/regulations",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Directly affects safety/risk measures adopted under EO 14110.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.6,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_EO_14179_2025_Sec5_c",
+      "policy_id": "US_EO_14179_2025",
+      "section": "Sec. 5(c)",
+      "original_text": "Within 60 days of this order, the OMB Director, in coordination with the APST, shall revise OMB Memoranda M-24-10 and M-24-18 as necessary to make such memoranda consistent with the policy set forth in section 2 of this order.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "OMB Director (with APST)",
+      "action": "revise",
+      "object": "OMB Memoranda M-24-10 and M-24-18",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "revise federal AI use and acquisition memoranda within 60 days",
+      "condition": "within 60 days",
+      "exception": null,
+      "purpose": "align federal AI governance with Sec. 2 policy",
+      "affected_asset": "federal AI governance",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI used or acquired by federal agencies",
+      "interpretation_notes": "Wording not verified against a fetched official text (official hosts unreachable); close paraphrase/reconstruction. Fulfilled by M-25-21 and M-25-22 (Apr. 3, 2025).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    }
+  ]
+}

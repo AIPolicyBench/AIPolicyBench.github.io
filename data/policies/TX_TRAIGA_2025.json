@@ -1,0 +1,289 @@
+{
+  "policy_id": "TX_TRAIGA_2025",
+  "policy_name": "Texas Responsible Artificial Intelligence Governance Act (HB 149, 89th Legislature, Regular Session)",
+  "short_name": "TRAIGA",
+  "policy_type": "statute",
+  "source_uri": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+  "issuing_authority": "Texas Legislature (signed by Governor Greg Abbott)",
+  "jurisdiction": "US-TX",
+  "country_region": "Texas, United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Texas Business and Commerce Code (new provisions added by HB 149; also amends biometric identifier law, CUBI)",
+  "geo_constraints": "Persons who promote, advertise or conduct business in Texas, produce products or services used by Texas residents, or develop or deploy AI systems in Texas",
+  "industry_scope": [
+    "general",
+    "public_sector",
+    "healthcare"
+  ],
+  "status": "enforceable",
+  "binding": true,
+  "effective_date": "2026-01-01",
+  "key_dates": [
+    {
+      "date": "2025-05-31",
+      "event": "Passed by Legislature"
+    },
+    {
+      "date": "2025-06-22",
+      "event": "Signed by Governor Abbott"
+    },
+    {
+      "date": "2026-01-01",
+      "event": "Act takes effect"
+    }
+  ],
+  "expiration_date": null,
+  "version": "HB 149, 89th Leg., R.S. (2025), enrolled",
+  "last_updated": "2025-06-22",
+  "covered_entities": [
+    "developers",
+    "deployers",
+    "governmental entities (state agencies and political subdivisions)",
+    "any person doing business in Texas"
+  ],
+  "covered_systems": [
+    "artificial intelligence systems (any machine-based system that infers from inputs how to generate outputs such as content, decisions, predictions or recommendations that can influence physical or virtual environments)"
+  ],
+  "covered_activities": [
+    "developing AI systems",
+    "deploying AI systems",
+    "governmental use of AI systems interacting with consumers",
+    "participation in the AI regulatory sandbox"
+  ],
+  "exceptions": [
+    "Disparate impact alone is not sufficient to demonstrate intent to discriminate",
+    "Certain federally insured financial institutions deemed compliant with anti-discrimination provision if complying with applicable federal/state banking laws (per secondary sources; unverified)",
+    "Sandbox participants protected from certain enforcement actions during testing period"
+  ],
+  "conditions": [
+    "Most private-sector prohibitions require intent (e.g., 'sole intent' or 'intends to')",
+    "AG must give written notice and a 60-day cure period before bringing an action"
+  ],
+  "objective": "Establish baseline prohibitions on intentionally harmful uses of AI, disclosure duties for governmental AI interactions, an AI regulatory sandbox and a Texas AI Council, while preserving innovation.",
+  "policy_domain": [
+    "safety",
+    "fundamental_rights",
+    "consumer_protection",
+    "innovation",
+    "governance"
+  ],
+  "principles": [
+    "intent-based liability",
+    "transparency of governmental AI use",
+    "non-discrimination",
+    "protection of constitutional rights",
+    "innovation via sandbox"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "CO_SB24_205",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "UT_AI_Policy_Act_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "Texas Capture or Use of Biometric Identifier Act (Bus. & Com. Code § 503.001)",
+      "relation": "amends"
+    },
+    {
+      "policy": "US_EO_National_AI_Framework_2025",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "Exclusive enforcement by the Texas Attorney General (state agencies may impose limited sanctions on licensees); no private right of action; rebuttable presumption of reasonable care; affirmative defenses for discovering violations via red-teaming/testing or substantial compliance with NIST AI RMF or similar frameworks (per secondary sources).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149 (not fetched; government hosts unreachable from compilation environment)",
+      "https://iapp.org/news/a/governor-signs-texas-responsible-artificial-intelligence-governance-act",
+      "https://www.nelsonmullins.com/insights/alerts/privacy_and_data_security_alert/all/texas-legislature-passes-house-bill-149-to-regulate-ai-use",
+      "https://www.dlapiper.com/en/insights/publications/2025/06/texas-adopts-the-responsible-ai-governance-act",
+      "https://www.globalpolicywatch.com/2025/07/texas-enacts-ai-consumer-protection-law/",
+      "https://www.haynesboone.com/news/publications/texas-responsible-artificial-intelligence-governance-act-what-businesses-need-to-know"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "Signing date 2025-06-22 and effective date 2026-01-01 confirmed by multiple secondary sources (one outlier claims 2026-06-01; one search summary wrongly said signed 2025-09-01). Codification: compiler believes HB 149 adds Bus. & Com. Code Title 11, Subtitle D, Chapters 551-554 (552 = prohibitions/duties; 553 = sandbox; 554 = Texas AI Council), but this could NOT be confirmed by search; clause section numbers are therefore marked as unverified. No AG enforcement actions publicly reported as of mid-2026 per one secondary source (unverified). Penalty ranges per secondary sources: curable USD 10k-12k, uncurable USD 80k-200k, continuing USD 2k-40k/day."
+  },
+  "clauses": [
+    {
+      "clause_id": "TX_TRAIGA_2025_552_051",
+      "policy_id": "TX_TRAIGA_2025",
+      "section": "Bus. & Com. Code § 552.051 (section number unverified)",
+      "original_text": "A governmental agency that makes available an AI system intended to interact with consumers shall disclose to each consumer, before or at the time of interaction, that the consumer is interacting with an AI system; the disclosure must be clear and conspicuous, in plain language, and may not use a dark pattern. (Similar disclosure applies to AI used in health care services or treatment.)",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "governmental agency",
+      "action": "disclose",
+      "object": "AI system interacting with consumers",
+      "recipient": "consumers",
+      "modality": "MUST",
+      "requirement": "disclose AI interaction clearly and conspicuously",
+      "condition": "AI system intended to interact with consumers",
+      "exception": "disclosure required regardless of whether it would be obvious (per secondary sources)",
+      "purpose": "transparency of public-sector AI",
+      "affected_asset": "consumer autonomy",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-TX"
+      ],
+      "applicable_systems": "consumer-facing AI systems used by governmental agencies",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Healthcare-provider disclosure extension recalled from enrolled text; verify.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "TX_TRAIGA_2025_552_052",
+      "policy_id": "TX_TRAIGA_2025",
+      "section": "Bus. & Com. Code § 552.052 (section number unverified)",
+      "original_text": "A person may not develop or deploy an AI system in a manner that intends to incite or encourage a person to commit physical self-harm, including suicide, harm another person, or engage in criminal activity.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "any person (developer/deployer)",
+      "action": "develop or deploy",
+      "object": "AI system intended to manipulate behaviour toward harm",
+      "recipient": "natural persons",
+      "modality": "MUST NOT",
+      "requirement": "do not develop/deploy AI intended to incite self-harm, harm to others or crime",
+      "condition": "intent requirement",
+      "exception": null,
+      "purpose": "prevent manipulation causing harm",
+      "affected_asset": "physical safety, life",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-TX"
+      ],
+      "applicable_systems": "any AI system",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "TX_TRAIGA_2025_552_055",
+      "policy_id": "TX_TRAIGA_2025",
+      "section": "Bus. & Com. Code § 552.055 (section number unverified)",
+      "original_text": "A person may not develop or deploy an AI system with the sole intent of infringing, restricting or otherwise impairing an individual's rights guaranteed under the United States Constitution.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "any person (developer/deployer)",
+      "action": "develop or deploy",
+      "object": "AI system",
+      "recipient": "individuals",
+      "modality": "MUST NOT",
+      "requirement": "do not develop/deploy AI with sole intent to impair constitutional rights",
+      "condition": "sole intent",
+      "exception": null,
+      "purpose": "protect constitutional rights",
+      "affected_asset": "constitutional rights",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "US-TX"
+      ],
+      "applicable_systems": "any AI system",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "TX_TRAIGA_2025_552_056",
+      "policy_id": "TX_TRAIGA_2025",
+      "section": "Bus. & Com. Code § 552.056 (section number unverified)",
+      "original_text": "A person may not develop or deploy an AI system with the intent to unlawfully discriminate against a protected class in violation of state or federal law; a disparate impact is not sufficient by itself to demonstrate an intent to discriminate.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "any person (developer/deployer)",
+      "action": "develop or deploy",
+      "object": "AI system",
+      "recipient": "members of protected classes",
+      "modality": "MUST NOT",
+      "requirement": "do not develop/deploy AI with intent to unlawfully discriminate",
+      "condition": "intent to discriminate",
+      "exception": "disparate impact alone does not establish intent",
+      "purpose": "non-discrimination",
+      "affected_asset": "equal treatment",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "US-TX"
+      ],
+      "applicable_systems": "any AI system",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Intent standard is notably narrower than Colorado's reasonable-care standard.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "TX_TRAIGA_2025_552_057",
+      "policy_id": "TX_TRAIGA_2025",
+      "section": "Bus. & Com. Code § 552.057 (section number unverified)",
+      "original_text": "A person may not develop or distribute an AI system with the sole intent of producing, assisting or aiding in producing or distributing child sexual abuse material or unlawful sexually explicit deepfake content, or text-based sexual conversations impersonating or imitating a child under 18.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "any person (developer/distributor)",
+      "action": "develop or distribute",
+      "object": "AI system for CSAM or unlawful deepfakes",
+      "recipient": "minors; depicted persons",
+      "modality": "MUST NOT",
+      "requirement": "do not develop/distribute AI for CSAM or unlawful sexual deepfakes",
+      "condition": "sole intent",
+      "exception": null,
+      "purpose": "protect children and persons from sexual exploitation",
+      "affected_asset": "minors; dignity and privacy",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "US-TX"
+      ],
+      "applicable_systems": "generative AI systems",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Exact scope of the deepfake element recalled from enrolled text; verify.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "TX_TRAIGA_2025_552_104",
+      "policy_id": "TX_TRAIGA_2025",
+      "section": "Bus. & Com. Code §§ 552.101-552.105 (section numbers unverified)",
+      "original_text": "The Attorney General has exclusive authority to enforce the chapter; before bringing an action the AG must provide written notice of the violation and may not bring an action if the person cures the violation within 60 days and provides a written statement of cure; civil penalties range from USD 10,000-12,000 per curable violation, USD 80,000-200,000 per uncurable violation, and USD 2,000-40,000 per day for continuing violations.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Texas Attorney General",
+      "action": "enforce",
+      "object": "violations of TRAIGA",
+      "recipient": "violators",
+      "modality": "MAY",
+      "requirement": "AG enforcement after notice and 60-day cure period",
+      "condition": "violation not cured within 60 days",
+      "exception": null,
+      "purpose": "enforcement with opportunity to cure",
+      "affected_asset": "compliance",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-TX"
+      ],
+      "applicable_systems": "any AI system",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. No private right of action.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    }
+  ]
+}

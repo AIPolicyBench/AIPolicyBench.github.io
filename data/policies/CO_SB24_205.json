@@ -1,0 +1,299 @@
+{
+  "policy_id": "CO_SB24_205",
+  "policy_name": "Colorado SB 24-205, Consumer Protections for Interactions with Artificial Intelligence Systems (Colorado Artificial Intelligence Act)",
+  "short_name": "Colorado AI Act",
+  "policy_type": "statute",
+  "source_uri": "https://leg.colorado.gov/bills/sb24-205",
+  "issuing_authority": "Colorado General Assembly (signed by Governor Jared Polis)",
+  "jurisdiction": "US-CO",
+  "country_region": "Colorado, United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Colorado Consumer Protection Act (C.R.S. Title 6, Article 1, Part 17)",
+  "geo_constraints": "Developers and deployers doing business in Colorado; protects Colorado residents (consumers)",
+  "industry_scope": [
+    "general",
+    "employment",
+    "finance",
+    "housing",
+    "insurance",
+    "healthcare",
+    "education",
+    "legal_services",
+    "public_sector"
+  ],
+  "status": "superseded",
+  "binding": false,
+  "effective_date": null,
+  "key_dates": [
+    {
+      "date": "2024-05-17",
+      "event": "Signed by Governor Polis"
+    },
+    {
+      "date": "2025-08-28",
+      "event": "SB 25B-004 (2025 special session) signed, delaying operative date from 2026-02-01 to 2026-06-30"
+    },
+    {
+      "date": "2025-12-11",
+      "event": "Federal EO 'Ensuring a National Policy Framework for Artificial Intelligence' singles out the Colorado law and creates a DOJ AI Litigation Task Force"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "US DOJ moves to intervene in xAI's federal suit challenging the Act (D. Colo.)"
+    },
+    {
+      "date": "2026-05-14",
+      "event": "SB 26-189 signed (date per most secondary sources; one reports 2026-05-20): repeals and replaces SB 24-205 provisions with an automated decision-making technology (ADMT) framework"
+    },
+    {
+      "date": "2026-06-30",
+      "event": "Former (delayed) operative date of SB 24-205; no longer operative after repeal by SB 26-189"
+    },
+    {
+      "date": "2027-01-01",
+      "event": "SB 26-189 replacement framework applies to consequential decisions made on or after this date (subject to AG rulemaking)"
+    }
+  ],
+  "expiration_date": null,
+  "version": "SB 24-205 as enacted 2024 (C.R.S. 6-1-1701 to 6-1-1707), as amended by SB 25B-004; repealed and replaced by SB 26-189",
+  "last_updated": "2026-05-14",
+  "covered_entities": [
+    "developers of high-risk AI systems",
+    "deployers of high-risk AI systems",
+    "any person deploying a consumer-facing AI system (disclosure duty)"
+  ],
+  "covered_systems": [
+    "high-risk artificial intelligence systems (systems that, when deployed, make or are a substantial factor in making a consequential decision)",
+    "AI systems intended to interact with consumers"
+  ],
+  "covered_activities": [
+    "developing",
+    "intentionally and substantially modifying",
+    "deploying",
+    "making consequential decisions concerning consumers in education, employment, financial/lending services, essential government services, health care, housing, insurance, or legal services"
+  ],
+  "exceptions": [
+    "deployers with fewer than 50 full-time employees that do not train the system with their own data (conditional exemption from risk-management, impact-assessment and public-statement duties)",
+    "systems performing narrow procedural tasks or detecting decision-making patterns without replacing human assessment",
+    "specified technologies (e.g., anti-fraud, anti-malware, cybersecurity, databases, spam filtering) unless they are a substantial factor in a consequential decision",
+    "entities subject to equivalent or stricter federal standards (e.g., certain HIPAA-covered entities, banks/credit unions, insurers subject to C.R.S. 10-3-1104.9)"
+  ],
+  "conditions": [
+    "Duties attach only to high-risk AI systems used in consequential decisions",
+    "Rebuttable presumption of reasonable care if developer/deployer complies with the Part and AG rules",
+    "Affirmative defense if violation discovered and cured and entity complies with a recognized risk management framework (e.g., NIST AI RMF, ISO/IEC 42001)"
+  ],
+  "objective": "Protect Colorado consumers from algorithmic discrimination by imposing a duty of reasonable care, documentation, risk-management, impact-assessment and notice obligations on developers and deployers of high-risk AI systems used in consequential decisions.",
+  "policy_domain": [
+    "fairness",
+    "consumer_protection",
+    "transparency",
+    "accountability"
+  ],
+  "principles": [
+    "non-discrimination",
+    "reasonable care",
+    "transparency",
+    "risk management",
+    "contestability / human review",
+    "accountability"
+  ],
+  "parent_policy": "Colorado Consumer Protection Act",
+  "related_policies": [
+    {
+      "policy": "Colorado SB 26-189 (Automated Decision-Making Technology law, 2026)",
+      "relation": "superseded_by"
+    },
+    {
+      "policy": "Colorado SB 25B-004 (2025 special session)",
+      "relation": "amended_by"
+    },
+    {
+      "policy": "US_EO_National_AI_Framework_2025",
+      "relation": "conflicts_with"
+    },
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "ISO_IEC_42001_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "IL_HB3773_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "NYC_LL144_2021",
+      "relation": "overlaps_with"
+    }
+  ],
+  "conflict_rule": "Enforced exclusively by the Colorado Attorney General as a deceptive trade practice; no private right of action. Entities already subject to equivalent federal requirements are carved out. Federal preemption challenges (xAI v. Weiser with DOJ intervention) pending as of compilation.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://leg.colorado.gov/bills/sb24-205 (not reachable from compilation environment)",
+      "https://www.lathropgpm.com/insights/colorado-enacts-new-law-regulating-automated-decision-making-technology/",
+      "https://www.hklaw.com/en/insights/publications/2026/05/colorado-governor-signs-sb-189",
+      "https://www.seyfarth.com/news-insights/colorado-enacts-artificial-intelligence-replacement-law.html",
+      "https://www.cbsnews.com/colorado/news/ai-regulation-colorado-governor-signs-law/",
+      "https://www.legal500.com/intelligence/united-states/technology/colorado-delays-comprehensive-ai-law-with-further-changes-anticipated",
+      "https://www.jenner.com/en/news-insights/client-alerts/doj-joins-xai-in-lawsuit-challenging-colorado-ai-act",
+      "https://axios.com/2026/04/24/justice-department-joins-xai-challenge-colorado-ai-law"
+    ],
+    "compiled_on": "2026-11-13",
+    "human_verified": false,
+    "notes": "STATUS: SB 24-205 never became operative. Its operative date moved from 2026-02-01 to 2026-06-30 (SB 25B-004, signed 2025-08-28), and before that date SB 26-189 repealed and replaced its provisions with a narrower ADMT transparency/notice framework (drops impact-assessment and risk-management program duties per secondary sources) applying from 2027-01-01. SB 26-189 signing date is 2026-05-14 per most law-firm sources (one says 2026-05-20); not verified on leg.colorado.gov, which was unreachable. The Colorado AG reportedly will not enforce until rulemaking concludes; AG proposed rules/hearing dates (reported Aug/Oct 2026) unverified. xAI v. Weiser (D. Colo.) with DOJ intervention pending; reported enforcement standstill details unverified. All clauses describe the 2024 SB 24-205 text (historical) and are paraphrased from the compiler's knowledge of the enacted bill, not fetched verbatim. Consider a separate catalogue record for SB 26-189."
+  },
+  "clauses": [
+    {
+      "clause_id": "CO_SB24_205_6_1_1702_1",
+      "policy_id": "CO_SB24_205",
+      "section": "C.R.S. 6-1-1702(1) (Section 1 of SB 24-205)",
+      "original_text": "A developer of a high-risk artificial intelligence system shall use reasonable care to protect consumers from any known or reasonably foreseeable risks of algorithmic discrimination arising from the intended and contracted uses of the system; compliance with the section and AG rules creates a rebuttable presumption of reasonable care.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "developer",
+      "action": "use reasonable care",
+      "object": "high-risk AI system",
+      "recipient": "consumers",
+      "modality": "MUST",
+      "requirement": "protect consumers from known or reasonably foreseeable risks of algorithmic discrimination",
+      "condition": "intended and contracted uses of a high-risk AI system",
+      "exception": null,
+      "purpose": "prevent algorithmic discrimination",
+      "affected_asset": "consumers' equal treatment in consequential decisions",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "US-CO"
+      ],
+      "applicable_systems": "high-risk AI systems",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Historical: repealed and replaced by SB 26-189 before becoming operative.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CO_SB24_205_6_1_1702_7",
+      "policy_id": "CO_SB24_205",
+      "section": "C.R.S. 6-1-1702(7)",
+      "original_text": "A developer must disclose to the Attorney General and to all known deployers or other developers any known or reasonably foreseeable risks of algorithmic discrimination arising from intended uses, without unreasonable delay and no later than 90 days after discovery (via its own testing or a credible report from a deployer).",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "developer",
+      "action": "disclose",
+      "object": "known or reasonably foreseeable risks of algorithmic discrimination",
+      "recipient": "Colorado Attorney General; known deployers",
+      "modality": "MUST",
+      "requirement": "report discovered discrimination risks within 90 days",
+      "condition": "system has caused or is reasonably likely to have caused algorithmic discrimination",
+      "exception": null,
+      "purpose": "early warning and accountability",
+      "affected_asset": "consumers' equal treatment",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-CO"
+      ],
+      "applicable_systems": "high-risk AI systems",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Historical. 90-day deadline recalled from enacted text.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.65,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CO_SB24_205_6_1_1703_2_3",
+      "policy_id": "CO_SB24_205",
+      "section": "C.R.S. 6-1-1703(2)-(3)",
+      "original_text": "A deployer of a high-risk AI system shall implement a risk management policy and program governing deployment (reasonable in light of e.g. NIST AI RMF or ISO/IEC 42001) and shall complete an impact assessment of the system at least annually and within 90 days after any intentional and substantial modification.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "deployer",
+      "action": "implement risk management program; complete impact assessment",
+      "object": "high-risk AI system",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "maintain risk management program and annual impact assessments",
+      "condition": "deployment of a high-risk AI system",
+      "exception": "deployers with fewer than 50 FTEs meeting statutory conditions",
+      "purpose": "identify and mitigate algorithmic discrimination risks",
+      "affected_asset": "consumers' rights in consequential decisions",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-CO"
+      ],
+      "applicable_systems": "high-risk AI systems",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Historical; per secondary sources SB 26-189 drops these duties.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CO_SB24_205_6_1_1703_4",
+      "policy_id": "CO_SB24_205",
+      "section": "C.R.S. 6-1-1703(4)",
+      "original_text": "Before a high-risk AI system makes, or is a substantial factor in making, a consequential decision about a consumer, the deployer must notify the consumer; if the decision is adverse, the deployer must provide a statement of the principal reasons, an opportunity to correct incorrect personal data, and an opportunity to appeal that allows for human review if technically feasible.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "deployer",
+      "action": "notify; explain; allow correction and appeal",
+      "object": "consequential decision made using a high-risk AI system",
+      "recipient": "consumer",
+      "modality": "MUST",
+      "requirement": "provide pre-decision notice and post-adverse-decision explanation, correction and appeal",
+      "condition": "high-risk AI system is a substantial factor in a consequential decision",
+      "exception": null,
+      "purpose": "transparency and contestability",
+      "affected_asset": "consumer's access to education, employment, credit, housing, health care, insurance, legal and government services",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-CO"
+      ],
+      "applicable_systems": "high-risk AI systems",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Historical.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.7,
+      "human_verified": false
+    },
+    {
+      "clause_id": "CO_SB24_205_6_1_1704",
+      "policy_id": "CO_SB24_205",
+      "section": "C.R.S. 6-1-1704",
+      "original_text": "A deployer or other developer that deploys or makes available an AI system intended to interact with consumers must ensure that each consumer interacting with it is told that they are interacting with an AI system, unless this would be obvious to a reasonable person.",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "deployer/developer",
+      "action": "disclose AI interaction",
+      "object": "consumer-facing AI system",
+      "recipient": "consumer",
+      "modality": "MUST",
+      "requirement": "disclose that consumer is interacting with an AI system",
+      "condition": "AI system intended to interact with consumers",
+      "exception": "where it would be obvious to a reasonable person",
+      "purpose": "prevent deception",
+      "affected_asset": "consumer autonomy",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-CO"
+      ],
+      "applicable_systems": "any consumer-facing AI system",
+      "interpretation_notes": "Paraphrase, not verbatim: official legislative host was unreachable from the compilation environment, so wording could not be checked against the enacted text. Historical.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    }
+  ]
+}

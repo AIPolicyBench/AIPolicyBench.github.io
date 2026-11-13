@@ -7,39 +7,117 @@
   "issuing_authority": "Parliament of Canada (Government bill sponsored by the Minister of Innovation, Science and Industry)",
   "jurisdiction": "CA-Federal",
   "country_region": "Canada",
-  "language": ["en"],
-  "official_languages": ["en", "fr"],
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en",
+    "fr"
+  ],
   "regulatory_regime": "Proposed federal regulation of high-impact AI systems in international and interprovincial trade and commerce (never enacted)",
   "geo_constraints": "Would have applied to regulated activities carried out in the course of international or interprovincial trade and commerce in Canada",
-  "industry_scope": ["general"],
+  "industry_scope": [
+    "general"
+  ],
+  "locale_context": {
+    "language": [
+      "English",
+      "French"
+    ],
+    "region": "North America › Canada (federal)",
+    "regulation": "Proposed binding law (lapsed) · high-impact AI duties",
+    "culture": "Canadian rights-protective, bilingual (EN/FR) federal tradition, close to EU-style risk-based thinking.",
+    "use_cases": [
+      "high-impact AI decisions",
+      "general-purpose / foundation models"
+    ]
+  },
   "status": "lapsed",
   "binding": false,
   "effective_date": null,
   "key_dates": [
-    {"date": "2022-06-16", "event": "Bill C-27 (incl. AIDA as Part 3) introduced and read a first time in the House of Commons (44th Parliament, 1st Session)"},
-    {"date": "2023-04-24", "event": "Second reading completed; referred to the Standing Committee on Industry and Technology (INDU)"},
-    {"date": "2023-11", "event": "Minister of Innovation, Science and Industry submits proposed AIDA amendments to INDU (incl. defined classes of high-impact systems and general-purpose AI obligations); never adopted"},
-    {"date": "2025-01-06", "event": "Parliament prorogued; Bill C-27 (and AIDA) died on the Order Paper at committee stage"},
-    {"date": "2026-06", "event": "Privacy portion reintroduced separately as Bill C-36 (reported); no AI-specific successor bill tabled as of latest sources"}
+    {
+      "date": "2022-06-16",
+      "event": "Bill C-27 (incl. AIDA as Part 3) introduced and read a first time in the House of Commons (44th Parliament, 1st Session)"
+    },
+    {
+      "date": "2023-04-24",
+      "event": "Second reading completed; referred to the Standing Committee on Industry and Technology (INDU)"
+    },
+    {
+      "date": "2023-11",
+      "event": "Minister of Innovation, Science and Industry submits proposed AIDA amendments to INDU (incl. defined classes of high-impact systems and general-purpose AI obligations); never adopted"
+    },
+    {
+      "date": "2025-01-06",
+      "event": "Parliament prorogued; Bill C-27 (and AIDA) died on the Order Paper at committee stage"
+    },
+    {
+      "date": "2026-06",
+      "event": "Privacy portion reintroduced separately as Bill C-36 (reported); no AI-specific successor bill tabled as of latest sources"
+    }
   ],
   "expiration_date": "2025-01-06",
   "version": "First reading text, 16 June 2022 (with unadopted ministerial amendments proposed in 2023)",
   "last_updated": "2022-06-16",
-  "covered_entities": ["persons responsible for an AI system (designing, developing, making available for use, or managing its operation)", "persons carrying out regulated activities (processing/making available data for AI; designing, developing, making available or managing AI systems)"],
-  "covered_systems": ["high-impact systems (criteria to be set by regulation)", "AI systems generally (for criminal offences)"],
-  "covered_activities": ["processing or making available data for use in AI systems", "designing, developing or making available for use an AI system", "managing the operations of an AI system"],
-  "exceptions": ["federal government institutions", "products, services or activities under the direction or control of the Minister of National Defence, CSIS, CSE and other persons/entities designated by regulation for national security"],
-  "conditions": ["Core obligations applied only to high-impact systems as defined in regulations not yet made", "Regulated activity must be in the course of international or interprovincial trade and commerce"],
+  "covered_entities": [
+    "persons responsible for an AI system (designing, developing, making available for use, or managing its operation)",
+    "persons carrying out regulated activities (processing/making available data for AI; designing, developing, making available or managing AI systems)"
+  ],
+  "covered_systems": [
+    "high-impact systems (criteria to be set by regulation)",
+    "AI systems generally (for criminal offences)"
+  ],
+  "covered_activities": [
+    "processing or making available data for use in AI systems",
+    "designing, developing or making available for use an AI system",
+    "managing the operations of an AI system"
+  ],
+  "exceptions": [
+    "federal government institutions",
+    "products, services or activities under the direction or control of the Minister of National Defence, CSIS, CSE and other persons/entities designated by regulation for national security"
+  ],
+  "conditions": [
+    "Core obligations applied only to high-impact systems as defined in regulations not yet made",
+    "Regulated activity must be in the course of international or interprovincial trade and commerce"
+  ],
   "objective": "Regulate international and interprovincial trade and commerce in AI systems by establishing common requirements for the design, development and use of AI systems, including measures to mitigate risks of harm and biased output, and prohibit conduct in relation to AI systems that may result in serious harm to individuals or their interests.",
-  "policy_domain": ["safety", "fairness", "accountability", "transparency", "consumer_protection"],
-  "principles": ["risk-based regulation of high-impact systems", "mitigation of harm and biased output", "transparency", "accountability", "ministerial oversight"],
+  "policy_domain": [
+    "safety",
+    "fairness",
+    "accountability",
+    "transparency",
+    "consumer_protection"
+  ],
+  "principles": [
+    "risk-based regulation of high-impact systems",
+    "mitigation of harm and biased output",
+    "transparency",
+    "accountability",
+    "ministerial oversight"
+  ],
   "parent_policy": "Bill C-27, Digital Charter Implementation Act, 2022",
   "related_policies": [
-    {"policy": "EU_AI_Act_2024", "relation": "overlaps_with"},
-    {"policy": "OECD_AI_Principles_2019", "relation": "complements"},
-    {"policy": "CA_TBS_GenAI_Guide", "relation": "complements"},
-    {"policy": "Directive on Automated Decision-Making (Treasury Board of Canada)", "relation": "complements"},
-    {"policy": "Consumer Privacy Protection Act (Part 1 of Bill C-27)", "relation": "complements"}
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "CA_TBS_GenAI_Guide",
+      "relation": "complements"
+    },
+    {
+      "policy": "Directive on Automated Decision-Making (Treasury Board of Canada)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Consumer Privacy Protection Act (Part 1 of Bill C-27)",
+      "relation": "complements"
+    }
   ],
   "conflict_rule": "Not in force. Would not have applied to federal government institutions or national-security bodies; would have operated alongside federal privacy law (CPPA in Part 1 of C-27) and provincial law.",
   "record_provenance": {
@@ -74,7 +152,9 @@
       "purpose": "trigger risk-based obligations for high-impact systems",
       "affected_asset": "individuals affected by AI systems",
       "policy_domain": "safety",
-      "applicable_regions": ["CA-Federal"],
+      "applicable_regions": [
+        "CA-Federal"
+      ],
       "applicable_systems": "any AI system",
       "interpretation_notes": "Paraphrase closely following the reported first-reading wording; never in force. Ministerial amendments (2023) would have replaced this with defined classes of high-impact systems.",
       "ambiguity": "high",
@@ -100,7 +180,9 @@
       "purpose": "prevent harm and biased output",
       "affected_asset": "physical/psychological integrity, property and economic interests of individuals; equality",
       "policy_domain": "fairness",
-      "applicable_regions": ["CA-Federal"],
+      "applicable_regions": [
+        "CA-Federal"
+      ],
       "applicable_systems": "high-impact systems",
       "interpretation_notes": "Paraphrase; s. 9 required monitoring of compliance with and effectiveness of these measures, s. 10 record-keeping. 'Biased output' was defined by reference to prohibited grounds of discrimination under the Canadian Human Rights Act.",
       "ambiguity": "high",
@@ -126,7 +208,9 @@
       "purpose": "transparency to the public",
       "affected_asset": "public's ability to understand AI use",
       "policy_domain": "transparency",
-      "applicable_regions": ["CA-Federal"],
+      "applicable_regions": [
+        "CA-Federal"
+      ],
       "applicable_systems": "high-impact systems",
       "interpretation_notes": "Paraphrase combining s. 11(1) and 11(2); list of required elements recalled from first-reading text, not verified.",
       "ambiguity": "medium",
@@ -152,7 +236,9 @@
       "purpose": "incident reporting and ministerial oversight",
       "affected_asset": "individuals' safety, property and economic interests",
       "policy_domain": "accountability",
-      "applicable_regions": ["CA-Federal"],
+      "applicable_regions": [
+        "CA-Federal"
+      ],
       "applicable_systems": "high-impact systems",
       "interpretation_notes": "Paraphrase; wording matches law-firm reproductions of the provision. 'Material harm' left to regulations.",
       "ambiguity": "medium",
@@ -178,7 +264,9 @@
       "purpose": "criminal deterrence of seriously harmful AI deployment",
       "affected_asset": "physical and psychological integrity, property, economic interests of individuals",
       "policy_domain": "safety",
-      "applicable_regions": ["CA-Federal"],
+      "applicable_regions": [
+        "CA-Federal"
+      ],
       "applicable_systems": "any AI system",
       "interpretation_notes": "Paraphrase; per s. 40 (as summarized by Blakes), conviction on indictment could carry a fine up to the greater of C$25M and 5% of gross global revenues (organizations). Applied to all AI systems, not only high-impact ones.",
       "ambiguity": "medium",

@@ -19,6 +19,19 @@
     "general",
     "AI developers"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global › G7 (with OECD reporting framework)",
+    "regulation": "Soft law · voluntary code of conduct for organisations",
+    "culture": "Multilateral, consensus-based soft-law culture: high-level shared values (human rights, democracy, rule of law) meant to be adapted to national contexts; interpretation varies across adopting countries. Like-minded democracies coordinating on advanced AI.",
+    "use_cases": [
+      "general-purpose / foundation models",
+      "frontier model development",
+      "synthetic media & deepfakes"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2023-10-30",

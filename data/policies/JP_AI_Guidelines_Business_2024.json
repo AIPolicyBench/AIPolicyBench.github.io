@@ -18,6 +18,19 @@
   "industry_scope": [
     "general"
   ],
+  "locale_context": {
+    "language": [
+      "Japanese"
+    ],
+    "region": "East Asia › Japan",
+    "regulation": "Soft law · non-binding business guidelines (living document)",
+    "culture": "Japanese soft-law, consensus-oriented governance: voluntary, multi-stakeholder 'agile governance' with responsibilities split across developers, providers and business users.",
+    "use_cases": [
+      "general AI lifecycle",
+      "generative AI & chatbots",
+      "AI agents"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2026-03-31",

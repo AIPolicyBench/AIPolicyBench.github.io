@@ -41,6 +41,44 @@
   "industry_scope": [
     "general"
   ],
+  "locale_context": {
+    "language": [
+      "Bulgarian",
+      "Czech",
+      "Danish",
+      "German",
+      "Greek",
+      "English",
+      "Spanish",
+      "Estonian",
+      "Finnish",
+      "French",
+      "Irish",
+      "Croatian",
+      "Hungarian",
+      "Italian",
+      "Lithuanian",
+      "Latvian",
+      "Maltese",
+      "Dutch",
+      "Polish",
+      "Portuguese",
+      "Romanian",
+      "Slovak",
+      "Slovenian",
+      "Swedish"
+    ],
+    "region": "Europe › European Union",
+    "regulation": "Binding law · horizontal data-protection regulation (applies to AI processing personal data)",
+    "culture": "EU rights-based, precautionary regulatory tradition: fundamental rights (Charter), product-safety style conformity assessment and strong data-protection culture; compliance read through harmonised standards and regulator guidance. Data protection is a fundamental right (Art. 8 Charter).",
+    "use_cases": [
+      "profiling & automated decisions",
+      "training on personal data",
+      "biometric identification & categorisation",
+      "employment & HR decisions",
+      "credit & essential services"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2018-05-25",

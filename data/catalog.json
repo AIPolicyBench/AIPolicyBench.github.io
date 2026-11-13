@@ -23,6 +23,19 @@
    "industry_scope": [
     "frontier_ai_development"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "Global (corporate) › Anthropic",
+    "regulation": "Self-regulation · frontier safety framework",
+    "culture": "US frontier-AI corporate self-governance: engineering-driven, capability-threshold and safeguard framing; commitments are public but self-defined, self-assessed and revisable by the company.",
+    "use_cases": [
+     "frontier model development",
+     "general-purpose / foundation models",
+     "CBRN & cyber misuse"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2026-07-08",
@@ -347,6 +360,21 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "Portuguese"
+    ],
+    "region": "Latin America › Brazil",
+    "regulation": "Proposed binding law · EU-style risk-based regulation",
+    "culture": "Brazilian rights-based tradition (LGPD, Consumer Code) influenced by the EU model, with strong concern for discrimination, labour and copyright of local creators.",
+    "use_cases": [
+     "high-impact AI decisions",
+     "biometric identification & categorisation",
+     "employment & HR decisions",
+     "generative AI & chatbots",
+     "training on copyrighted data"
+    ]
+   },
    "status": "proposed",
    "binding": false,
    "effective_date": null,
@@ -630,6 +658,19 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "English",
+     "French"
+    ],
+    "region": "North America › Canada (federal)",
+    "regulation": "Proposed binding law (lapsed) · high-impact AI duties",
+    "culture": "Canadian rights-protective, bilingual (EN/FR) federal tradition, close to EU-style risk-based thinking.",
+    "use_cases": [
+     "high-impact AI decisions",
+     "general-purpose / foundation models"
+    ]
+   },
    "status": "lapsed",
    "binding": false,
    "effective_date": null,
@@ -899,6 +940,18 @@
     "general",
     "ai_developers"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States › California",
+    "regulation": "Binding law · transparency and incident reporting for frontier developers",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts. California's tech-industry home state: transparency-over-liability compromise.",
+    "use_cases": [
+     "frontier model development",
+     "general-purpose / foundation models"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2026-01-01",
@@ -1192,6 +1245,19 @@
    "industry_scope": [
     "public_sector"
    ],
+   "locale_context": {
+    "language": [
+     "English",
+     "French"
+    ],
+    "region": "North America › Canada (federal)",
+    "regulation": "Government guidance · internal rules for federal public servants",
+    "culture": "Canadian public-service culture: bilingual (EN/FR, Official Languages Act), privacy-protective, transparency to the public (FASTER principles).",
+    "use_cases": [
+     "employee use of GenAI tools",
+     "public-sector & government use"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2023-09",
@@ -1478,6 +1544,20 @@
    "industry_scope": [
     "public_sector"
    ],
+   "locale_context": {
+    "language": [
+     "German",
+     "French",
+     "English"
+    ],
+    "region": "Europe › Switzerland (federal)",
+    "regulation": "Government guidance · internal rules for federal staff",
+    "culture": "Swiss federal, multilingual (DE/FR/IT/EN) administration culture: pragmatic, decentralised, strong official-secrecy and data-protection norms.",
+    "use_cases": [
+     "employee use of GenAI tools",
+     "public-sector & government use"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2024-01-18",
@@ -1699,6 +1779,21 @@
     "finance",
     "insurance"
    ],
+   "locale_context": {
+    "language": [
+     "German",
+     "French",
+     "English"
+    ],
+    "region": "Europe › Switzerland",
+    "regulation": "Supervisory guidance · expectations for supervised financial institutions",
+    "culture": "Swiss principle-based, technology-neutral financial supervision: proportionality, institution-led risk management, multilingual (DE/FR/EN).",
+    "use_cases": [
+     "financial services",
+     "credit & essential services",
+     "insurance"
+    ]
+   },
    "status": "enforceable",
    "binding": false,
    "effective_date": "2024-12-18",
@@ -1967,6 +2062,19 @@
     "online_platforms",
     "media"
    ],
+   "locale_context": {
+    "language": [
+     "Chinese"
+    ],
+    "region": "East Asia › China (mainland)",
+    "regulation": "Binding departmental rules + mandatory national standard · content labelling",
+    "culture": "PRC state-led, security-first internet governance: content security, 'core socialist values', social stability and national security alongside development; agile, sector-specific CAC rules with filing/registration and labelling duties.",
+    "use_cases": [
+     "synthetic media & deepfakes",
+     "generative AI & chatbots",
+     "content moderation & information services"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2025-09-01",
@@ -2257,6 +2365,20 @@
     "media",
     "gig_economy"
    ],
+   "locale_context": {
+    "language": [
+     "Chinese"
+    ],
+    "region": "East Asia › China (mainland)",
+    "regulation": "Binding departmental rules · algorithm filing and user-rights duties",
+    "culture": "PRC state-led, security-first internet governance: content security, 'core socialist values', social stability and national security alongside development; agile, sector-specific CAC rules with filing/registration and labelling duties.",
+    "use_cases": [
+     "recommender systems",
+     "content moderation & information services",
+     "platform work & scheduling",
+     "consumer-facing AI interactions"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2022-03-01",
@@ -2559,6 +2681,19 @@
     "media",
     "online_platforms"
    ],
+   "locale_context": {
+    "language": [
+     "Chinese"
+    ],
+    "region": "East Asia › China (mainland)",
+    "regulation": "Binding departmental rules · deep-synthesis provider/user duties",
+    "culture": "PRC state-led, security-first internet governance: content security, 'core socialist values', social stability and national security alongside development; agile, sector-specific CAC rules with filing/registration and labelling duties.",
+    "use_cases": [
+     "synthetic media & deepfakes",
+     "generative AI & chatbots",
+     "content moderation & information services"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2023-01-10",
@@ -2854,6 +2989,19 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "Chinese"
+    ],
+    "region": "East Asia › China (mainland)",
+    "regulation": "Binding departmental rules · service-provider obligations with filing/security assessment",
+    "culture": "PRC state-led, security-first internet governance: content security, 'core socialist values', social stability and national security alongside development; agile, sector-specific CAC rules with filing/registration and labelling duties.",
+    "use_cases": [
+     "generative AI & chatbots",
+     "training on personal data",
+     "content moderation & information services"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2023-08-15",
@@ -3181,6 +3329,24 @@
     "legal_services",
     "public_sector"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States › Colorado",
+    "regulation": "Binding law (repealed before taking effect) · consumer-protection duties for high-risk AI",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts.",
+    "use_cases": [
+     "employment & HR decisions",
+     "credit & essential services",
+     "housing",
+     "insurance",
+     "healthcare",
+     "education & exams",
+     "legal services",
+     "consumer-facing AI interactions"
+    ]
+   },
    "status": "superseded",
    "binding": false,
    "effective_date": null,
@@ -3482,6 +3648,20 @@
     "general",
     "public_sector"
    ],
+   "locale_context": {
+    "language": [
+     "English",
+     "French"
+    ],
+    "region": "Europe › Council of Europe (46 states + non-member signatories)",
+    "regulation": "Binding treaty (once in force) · framework obligations implemented through national law",
+    "culture": "Council of Europe human-rights, democracy and rule-of-law tradition (ECHR); framework treaty leaves wide margin to Parties, private-sector coverage optional.",
+    "use_cases": [
+     "public-sector & government use",
+     "democratic processes & elections",
+     "general AI lifecycle"
+    ]
+   },
    "status": "provisional",
    "binding": true,
    "effective_date": null,
@@ -3808,6 +3988,48 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "Bulgarian",
+     "Czech",
+     "Danish",
+     "German",
+     "Greek",
+     "English",
+     "Spanish",
+     "Estonian",
+     "Finnish",
+     "French",
+     "Irish",
+     "Croatian",
+     "Hungarian",
+     "Italian",
+     "Lithuanian",
+     "Latvian",
+     "Maltese",
+     "Dutch",
+     "Polish",
+     "Portuguese",
+     "Romanian",
+     "Slovak",
+     "Slovenian",
+     "Swedish"
+    ],
+    "region": "Europe › European Union",
+    "regulation": "Binding law · horizontal, risk-based product regulation (prohibitions, high-risk conformity, transparency, GPAI duties)",
+    "culture": "EU rights-based, precautionary regulatory tradition: fundamental rights (Charter), product-safety style conformity assessment and strong data-protection culture; compliance read through harmonised standards and regulator guidance.",
+    "use_cases": [
+     "biometric identification & categorisation",
+     "employment & HR decisions",
+     "credit & essential services",
+     "education & exams",
+     "law enforcement & migration",
+     "critical infrastructure",
+     "generative AI & chatbots",
+     "synthetic media & deepfakes",
+     "general-purpose / foundation models"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2024-08-01",
@@ -4151,6 +4373,19 @@
     "general",
     "AI model providers"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "Europe › European Union",
+    "regulation": "Co-regulation · voluntary code that serves as a means to demonstrate EU AI Act compliance",
+    "culture": "EU rights-based, precautionary regulatory tradition: fundamental rights (Charter), product-safety style conformity assessment and strong data-protection culture; compliance read through harmonised standards and regulator guidance.",
+    "use_cases": [
+     "general-purpose / foundation models",
+     "frontier model development",
+     "training on copyrighted data"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2025-07-10",
@@ -4448,6 +4683,18 @@
    "industry_scope": [
     "finance"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "Global (industry) › financial sector",
+    "regulation": "Industry guidance · template acceptable-use policy",
+    "culture": "Financial-sector risk-averse compliance culture: confidentiality, data-loss prevention and model-risk management; US-origin, used by global member firms.",
+    "use_cases": [
+     "employee use of GenAI tools",
+     "financial services"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2023-09",
@@ -4655,6 +4902,19 @@
     "general",
     "AI developers"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "Global › G7 (with OECD reporting framework)",
+    "regulation": "Soft law · voluntary code of conduct for organisations",
+    "culture": "Multilateral, consensus-based soft-law culture: high-level shared values (human rights, democracy, rule of law) meant to be adapted to national contexts; interpretation varies across adopting countries. Like-minded democracies coordinating on advanced AI.",
+    "use_cases": [
+     "general-purpose / foundation models",
+     "frontier model development",
+     "synthetic media & deepfakes"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2023-10-30",
@@ -4931,6 +5191,44 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "Bulgarian",
+     "Czech",
+     "Danish",
+     "German",
+     "Greek",
+     "English",
+     "Spanish",
+     "Estonian",
+     "Finnish",
+     "French",
+     "Irish",
+     "Croatian",
+     "Hungarian",
+     "Italian",
+     "Lithuanian",
+     "Latvian",
+     "Maltese",
+     "Dutch",
+     "Polish",
+     "Portuguese",
+     "Romanian",
+     "Slovak",
+     "Slovenian",
+     "Swedish"
+    ],
+    "region": "Europe › European Union",
+    "regulation": "Binding law · horizontal data-protection regulation (applies to AI processing personal data)",
+    "culture": "EU rights-based, precautionary regulatory tradition: fundamental rights (Charter), product-safety style conformity assessment and strong data-protection culture; compliance read through harmonised standards and regulator guidance. Data protection is a fundamental right (Art. 8 Charter).",
+    "use_cases": [
+     "profiling & automated decisions",
+     "training on personal data",
+     "biometric identification & categorisation",
+     "employment & HR decisions",
+     "credit & essential services"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2018-05-25",
@@ -5245,6 +5543,19 @@
     "general",
     "technology"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "Global (corporate) › Google",
+    "regulation": "Self-regulation · corporate principles",
+    "culture": "US big-tech corporate governance: high-level principles, product review processes; 2025 revision dropped explicit weapons/surveillance pledges.",
+    "use_cases": [
+     "general AI lifecycle",
+     "general-purpose / foundation models",
+     "national security & defence"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2025-02-04",
@@ -5496,6 +5807,19 @@
     "general",
     "employment"
    ],
+   "locale_context": {
+    "language": [
+     "English",
+     "Chinese (Traditional)"
+    ],
+    "region": "East Asia › Hong Kong SAR",
+    "regulation": "Regulator guidance · checklist under data-protection law (PDPO)",
+    "culture": "Hong Kong common-law, bilingual (EN/ZH) privacy-regulator guidance: principles-based, organisation-led; English and Chinese both official.",
+    "use_cases": [
+     "employee use of GenAI tools",
+     "training on personal data"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2025-03-31",
@@ -5771,6 +6095,17 @@
    "industry_scope": [
     "employment"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States › Illinois",
+    "regulation": "Binding law · civil-rights amendment (employment discrimination)",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts.",
+    "use_cases": [
+     "employment & HR decisions"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2026-01-01",
@@ -5970,6 +6305,19 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "South Asia › India",
+    "regulation": "Soft law · principles-based guidelines relying on existing laws",
+    "culture": "Indian innovation-over-restraint, techno-legal approach: AI for inclusive development ('AI for All'), digital public infrastructure, light regulation using existing laws; very large multilingual population.",
+    "use_cases": [
+     "general AI lifecycle",
+     "synthetic media & deepfakes",
+     "public-sector & government use"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2025-11-05",
@@ -6227,6 +6575,17 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "Global › ISO/IEC member bodies",
+    "regulation": "Voluntary standard · risk-management guidance (not certifiable)",
+    "culture": "International standards culture: process-oriented, adapts ISO 31000 risk management to AI.",
+    "use_cases": [
+     "general AI lifecycle"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2023-02",
@@ -6471,6 +6830,19 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "English",
+     "French"
+    ],
+    "region": "Global › ISO/IEC member bodies",
+    "regulation": "Voluntary standard · certifiable AI management system",
+    "culture": "International standards culture: process- and management-system oriented (Plan-Do-Check-Act), certification-driven; global but EU/industry uptake strongest.",
+    "use_cases": [
+     "general AI lifecycle",
+     "AI procurement"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2023-12",
@@ -6729,6 +7101,19 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "Japanese"
+    ],
+    "region": "East Asia › Japan",
+    "regulation": "Soft law · non-binding business guidelines (living document)",
+    "culture": "Japanese soft-law, consensus-oriented governance: voluntary, multi-stakeholder 'agile governance' with responsibilities split across developers, providers and business users.",
+    "use_cases": [
+     "general AI lifecycle",
+     "generative AI & chatbots",
+     "AI agents"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2026-03-31",
@@ -7011,6 +7396,18 @@
     "public_sector",
     "research"
    ],
+   "locale_context": {
+    "language": [
+     "Japanese"
+    ],
+    "region": "East Asia › Japan",
+    "regulation": "Binding law · promotion-oriented framework (no penalties)",
+    "culture": "Japanese soft-law, consensus-oriented governance: promote R&D and use, rely on cooperation and 'agile governance', with government guidance and naming rather than sanctions.",
+    "use_cases": [
+     "general AI lifecycle",
+     "public-sector & government use"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2025-06-04",
@@ -7299,6 +7696,20 @@
     "public_sector",
     "education"
    ],
+   "locale_context": {
+    "language": [
+     "Korean"
+    ],
+    "region": "East Asia › South Korea",
+    "regulation": "Binding law · framework act combining promotion with high-impact and generative-AI duties",
+    "culture": "Korean developmental-state approach: industrial promotion and national competitiveness paired with trust obligations; detailed rules delegated to Enforcement Decree and ministry guidance, with a grace period before fines.",
+    "use_cases": [
+     "high-impact AI decisions",
+     "generative AI & chatbots",
+     "synthetic media & deepfakes",
+     "frontier model development"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2026-01-22",
@@ -7624,6 +8035,19 @@
     "general",
     "technology"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "Global (corporate) › Microsoft",
+    "regulation": "Self-regulation · internal company standard",
+    "culture": "US big-tech corporate governance: principle-to-engineering requirements, impact assessments and sensitive-use review.",
+    "use_cases": [
+     "general AI lifecycle",
+     "biometric identification & categorisation",
+     "high-impact AI decisions"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2022-06",
@@ -7907,6 +8331,19 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States (federal, used globally)",
+    "regulation": "Voluntary framework · generative-AI risk profile",
+    "culture": "US standards-body culture: voluntary, consensus-driven, technically grounded and sector-neutral.",
+    "use_cases": [
+     "generative AI & chatbots",
+     "general-purpose / foundation models",
+     "synthetic media & deepfakes"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2024-07-26",
@@ -8205,6 +8642,17 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States (federal, used globally)",
+    "regulation": "Voluntary framework · risk-management guidance",
+    "culture": "US standards-body culture: voluntary, consensus-driven, technically grounded and sector-neutral; widely referenced by industry and other jurisdictions.",
+    "use_cases": [
+     "general AI lifecycle"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2023-01-26",
@@ -8515,6 +8963,17 @@
    "industry_scope": [
     "employment"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States › New York City",
+    "regulation": "Binding local law · bias-audit and notice duties",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts. Municipal, employment-focused anti-discrimination enforcement.",
+    "use_cases": [
+     "employment & HR decisions"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2023-01-01",
@@ -8781,6 +9240,19 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "English",
+     "French"
+    ],
+    "region": "Global › OECD members and adherents",
+    "regulation": "Soft law · intergovernmental recommendation (values-based principles)",
+    "culture": "Multilateral, consensus-based soft-law culture: high-level shared values (human rights, democracy, rule of law) meant to be adapted to national contexts; interpretation varies across adopting countries. OECD framing balances innovation and trustworthy AI among market economies.",
+    "use_cases": [
+     "general AI lifecycle",
+     "general-purpose / foundation models"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2019-05-22",
@@ -9014,6 +9486,19 @@
    "industry_scope": [
     "frontier_ai_development"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "Global (corporate) › OpenAI",
+    "regulation": "Self-regulation · frontier safety framework",
+    "culture": "US frontier-AI corporate self-governance: engineering-driven, capability-threshold and safeguard framing; commitments are public but self-defined, self-assessed and revisable by the company.",
+    "use_cases": [
+     "frontier model development",
+     "general-purpose / foundation models",
+     "CBRN & cyber misuse"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2025-04-15",
@@ -9268,6 +9753,19 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "Southeast Asia › Singapore",
+    "regulation": "Soft law · voluntary governance framework with testing tools (AI Verify)",
+    "culture": "Singaporean pragmatic, pro-business governance: practical, testing-led voluntary frameworks developed with industry; trusted-hub positioning.",
+    "use_cases": [
+     "generative AI & chatbots",
+     "general-purpose / foundation models",
+     "synthetic media & deepfakes"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2024-05-30",
@@ -9566,6 +10064,20 @@
     "public_sector",
     "healthcare"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States › Texas",
+    "regulation": "Binding law · narrow prohibitions plus government-use duties and regulatory sandbox",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts. Business-friendly, intent-based liability with AG-only enforcement.",
+    "use_cases": [
+     "public-sector & government use",
+     "biometric identification & categorisation",
+     "synthetic media & deepfakes",
+     "consumer-facing AI interactions"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2026-01-01",
@@ -9858,6 +10370,18 @@
    "industry_scope": [
     "general"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "Europe › United Kingdom",
+    "regulation": "Soft law · non-statutory principles applied by existing sector regulators",
+    "culture": "UK common-law, pro-innovation, regulator-led culture: context-specific, sectoral guidance rather than new horizontal legislation.",
+    "use_cases": [
+     "general AI lifecycle",
+     "general-purpose / foundation models"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2023-03-29",
@@ -10180,6 +10704,24 @@
     "employment",
     "environment"
    ],
+   "locale_context": {
+    "language": [
+     "Arabic",
+     "English",
+     "Spanish",
+     "French",
+     "Russian",
+     "Chinese"
+    ],
+    "region": "Global › UNESCO member states (193)",
+    "regulation": "Soft law · ethics recommendation with readiness/impact assessment tools",
+    "culture": "Multilateral, consensus-based soft-law culture: high-level shared values (human rights, democracy, rule of law) meant to be adapted to national contexts; interpretation varies across adopting countries. Strong Global South, cultural-diversity, gender and environmental emphasis.",
+    "use_cases": [
+     "general AI lifecycle",
+     "education & exams",
+     "public-sector & government use"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2021-11-23",
@@ -10425,6 +10967,21 @@
     "healthcare",
     "manufacturing"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States (federal)",
+    "regulation": "Policy plan · non-binding federal action agenda",
+    "culture": "US federal approach: innovation- and competitiveness-first, market-led, sectoral; policy set largely by executive action and swings with administrations; national-security and AI-leadership framing.",
+    "use_cases": [
+     "frontier model development",
+     "AI infrastructure & compute",
+     "public-sector & government use",
+     "open-weight models",
+     "national security & defence"
+    ]
+   },
    "status": "voluntary",
    "binding": false,
    "effective_date": "2025-07-23",
@@ -10729,6 +11286,21 @@
     "employment",
     "finance"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States (federal)",
+    "regulation": "Executive order · directives to federal agencies (revoked)",
+    "culture": "US federal approach under the Biden administration: safety-, rights- and equity-focused within existing authorities (Defense Production Act reporting), no new statute.",
+    "use_cases": [
+     "frontier model development",
+     "general-purpose / foundation models",
+     "public-sector & government use",
+     "synthetic media & deepfakes",
+     "critical infrastructure"
+    ]
+   },
    "status": "revoked",
    "binding": false,
    "effective_date": "2023-10-30",
@@ -11036,6 +11608,18 @@
     "general",
     "public_sector"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States (federal)",
+    "regulation": "Executive order · deregulatory directives to federal agencies",
+    "culture": "US federal approach: innovation- and competitiveness-first, market-led, sectoral; policy set largely by executive action and swings with administrations; national-security and AI-leadership framing.",
+    "use_cases": [
+     "general AI lifecycle",
+     "public-sector & government use"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2025-01-23",
@@ -11268,6 +11852,18 @@
     "public_sector",
     "telecommunications"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States (federal)",
+    "regulation": "Executive order · federal pre-emption strategy against state AI laws",
+    "culture": "US federal approach: innovation- and competitiveness-first, market-led, sectoral; policy set largely by executive action and swings with administrations; national-security and AI-leadership framing. Federalism tension: seeks a single national standard over state rules.",
+    "use_cases": [
+     "general AI lifecycle",
+     "state AI law compliance"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2025-12-11",
@@ -11583,6 +12179,18 @@
    "industry_scope": [
     "public_sector"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States (federal)",
+    "regulation": "Binding administrative directive · applies to federal agencies only",
+    "culture": "US federal approach: innovation- and competitiveness-first, market-led, sectoral; policy set largely by executive action and swings with administrations; national-security and AI-leadership framing. Government-as-user governance (Chief AI Officers, inventories).",
+    "use_cases": [
+     "public-sector & government use",
+     "AI procurement"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2025-04-03",
@@ -11861,6 +12469,19 @@
     "regulated_occupations",
     "healthcare"
    ],
+   "locale_context": {
+    "language": [
+     "English"
+    ],
+    "region": "North America › United States › Utah",
+    "regulation": "Binding law · disclosure duties plus AI learning-lab sandbox",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts. Light-touch, innovation-oriented with sunset clause.",
+    "use_cases": [
+     "generative AI & chatbots",
+     "consumer-facing AI interactions",
+     "regulated occupations"
+    ]
+   },
    "status": "enforceable",
    "binding": true,
    "effective_date": "2024-05-01",

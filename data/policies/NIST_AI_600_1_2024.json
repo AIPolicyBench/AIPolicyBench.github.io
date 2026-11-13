@@ -7,39 +7,114 @@
   "issuing_authority": "National Institute of Standards and Technology (NIST), U.S. Department of Commerce",
   "jurisdiction": "US-Federal",
   "country_region": "United States (voluntary; used internationally)",
-  "language": ["en"],
-  "official_languages": ["en"],
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
   "regulatory_regime": "Voluntary U.S. federal AI risk management guidance (profile of the NIST AI RMF)",
   "geo_constraints": "None; voluntary, cross-sectoral profile",
-  "industry_scope": ["general"],
+  "industry_scope": [
+    "general"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States (federal, used globally)",
+    "regulation": "Voluntary framework · generative-AI risk profile",
+    "culture": "US standards-body culture: voluntary, consensus-driven, technically grounded and sector-neutral.",
+    "use_cases": [
+      "generative AI & chatbots",
+      "general-purpose / foundation models",
+      "synthetic media & deepfakes"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2024-07-26",
   "key_dates": [
-    {"date": "2024-04-29", "event": "Initial public draft (NIST AI 600-1 ipd) released for comment"},
-    {"date": "2024-07-26", "event": "Final NIST AI 600-1 published (developed pursuant to EO 14110 Sec. 4.1)"},
-    {"date": "2025-01-20", "event": "EO 14110, under which the profile was developed, revoked; profile itself not withdrawn"},
-    {"date": "2025-07", "event": "America's AI Action Plan directs revision of the AI RMF; secondary sources report a related revision of AI 600-1 may follow, not published as of Nov 2026"}
+    {
+      "date": "2024-04-29",
+      "event": "Initial public draft (NIST AI 600-1 ipd) released for comment"
+    },
+    {
+      "date": "2024-07-26",
+      "event": "Final NIST AI 600-1 published (developed pursuant to EO 14110 Sec. 4.1)"
+    },
+    {
+      "date": "2025-01-20",
+      "event": "EO 14110, under which the profile was developed, revoked; profile itself not withdrawn"
+    },
+    {
+      "date": "2025-07",
+      "event": "America's AI Action Plan directs revision of the AI RMF; secondary sources report a related revision of AI 600-1 may follow, not published as of Nov 2026"
+    }
   ],
   "expiration_date": null,
   "version": "NIST AI 600-1, July 2024",
   "last_updated": "2024-07-26",
-  "covered_entities": ["organizations designing, developing, deploying, using or evaluating generative AI (GAI) systems"],
-  "covered_systems": ["generative AI systems and models, including foundation / dual-use foundation models"],
-  "covered_activities": ["governance", "pre-deployment testing", "deployment", "content provenance", "incident disclosure", "third-party / value-chain management"],
+  "covered_entities": [
+    "organizations designing, developing, deploying, using or evaluating generative AI (GAI) systems"
+  ],
+  "covered_systems": [
+    "generative AI systems and models, including foundation / dual-use foundation models"
+  ],
+  "covered_activities": [
+    "governance",
+    "pre-deployment testing",
+    "deployment",
+    "content provenance",
+    "incident disclosure",
+    "third-party / value-chain management"
+  ],
   "exceptions": [],
-  "conditions": ["Voluntary; suggested actions are selected according to the organization's context and risk tolerance"],
+  "conditions": [
+    "Voluntary; suggested actions are selected according to the organization's context and risk tolerance"
+  ],
   "objective": "Help organizations identify the unique or exacerbated risks posed by generative AI and propose actions, mapped to the AI RMF subcategories, to govern, map, measure and manage those risks.",
-  "policy_domain": ["safety", "security", "content_integrity", "privacy", "fairness", "governance"],
-  "principles": ["AI RMF trustworthy AI characteristics", "governance", "content provenance", "pre-deployment testing", "incident disclosure"],
+  "policy_domain": [
+    "safety",
+    "security",
+    "content_integrity",
+    "privacy",
+    "fairness",
+    "governance"
+  ],
+  "principles": [
+    "AI RMF trustworthy AI characteristics",
+    "governance",
+    "content provenance",
+    "pre-deployment testing",
+    "incident disclosure"
+  ],
   "parent_policy": "NIST_AI_RMF_2023",
   "related_policies": [
-    {"policy": "NIST_AI_RMF_2023", "relation": "specializes"},
-    {"policy": "US_EO_14110_2023", "relation": "implements"},
-    {"policy": "US_AI_Action_Plan_2025", "relation": "amended_by"},
-    {"policy": "EU_GPAI_CoP_2025", "relation": "overlaps_with"},
-    {"policy": "G7_Hiroshima_CoC_2023", "relation": "overlaps_with"},
-    {"policy": "SG_Model_AI_Gov_GenAI_2024", "relation": "overlaps_with"}
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "specializes"
+    },
+    {
+      "policy": "US_EO_14110_2023",
+      "relation": "implements"
+    },
+    {
+      "policy": "US_AI_Action_Plan_2025",
+      "relation": "amended_by"
+    },
+    {
+      "policy": "EU_GPAI_CoP_2025",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "G7_Hiroshima_CoC_2023",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "SG_Model_AI_Gov_GenAI_2024",
+      "relation": "overlaps_with"
+    }
   ],
   "conflict_rule": "Voluntary and non-binding; suggested actions such as GV-1.1-001 defer to applicable laws and regulations.",
   "record_provenance": {
@@ -72,7 +147,10 @@
       "purpose": "prevent GAI uplift to chemical, biological, radiological or nuclear weapons",
       "affected_asset": "public safety, national security",
       "policy_domain": "safety",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "generative AI systems",
       "interpretation_notes": "Definitional clause from the 12-risk taxonomy; modality is notional (the profile uses the taxonomy to scope suggested actions).",
       "ambiguity": "low",
@@ -98,7 +176,10 @@
       "purpose": "gate deployment on measured risk",
       "affected_asset": "users and the public",
       "policy_domain": "safety",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "generative AI systems",
       "interpretation_notes": "Mapped in the profile to CBRN; Confabulation; Dangerous, Violent, or Hateful Content. Quotation marks around go/no-go reproduced as in source.",
       "ambiguity": "medium",
@@ -124,7 +205,10 @@
       "purpose": "detect and respond to dangerous CBRN/cyber capabilities",
       "affected_asset": "public safety, critical infrastructure",
       "policy_domain": "security",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "highly capable generative AI models",
       "interpretation_notes": "'Highly capable models' is not defined in the profile.",
       "ambiguity": "medium",
@@ -150,7 +234,10 @@
       "purpose": "security and resilience of GAI systems",
       "affected_asset": "model weights, training data, system integrity",
       "policy_domain": "security",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "generative AI systems",
       "interpretation_notes": "Mapped to Data Privacy; Information Integrity; Information Security; Value Chain and Component Integration.",
       "ambiguity": "low",
@@ -176,7 +263,10 @@
       "purpose": "enable timely shutdown of harmful GAI systems",
       "affected_asset": "users, affected communities",
       "policy_domain": "safety",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "generative AI systems",
       "interpretation_notes": "Grammar ('criteria that warrants') reproduced as in source.",
       "ambiguity": "low",
@@ -202,7 +292,9 @@
       "purpose": "accountability and incident transparency",
       "affected_asset": "affected individuals; regulators' oversight",
       "policy_domain": "accountability",
-      "applicable_regions": ["US"],
+      "applicable_regions": [
+        "US"
+      ],
       "applicable_systems": "generative AI systems",
       "interpretation_notes": "Unbalanced parenthesis is in the source. The profile does not itself create a reporting duty; it points to existing legal duties.",
       "ambiguity": "low",

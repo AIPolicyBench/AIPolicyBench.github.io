@@ -19,6 +19,19 @@
     "general",
     "AI model providers"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Europe › European Union",
+    "regulation": "Co-regulation · voluntary code that serves as a means to demonstrate EU AI Act compliance",
+    "culture": "EU rights-based, precautionary regulatory tradition: fundamental rights (Charter), product-safety style conformity assessment and strong data-protection culture; compliance read through harmonised standards and regulator guidance.",
+    "use_cases": [
+      "general-purpose / foundation models",
+      "frontier model development",
+      "training on copyrighted data"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2025-07-10",

@@ -26,6 +26,24 @@
     "legal_services",
     "public_sector"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States › Colorado",
+    "regulation": "Binding law (repealed before taking effect) · consumer-protection duties for high-risk AI",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts.",
+    "use_cases": [
+      "employment & HR decisions",
+      "credit & essential services",
+      "housing",
+      "insurance",
+      "healthcare",
+      "education & exams",
+      "legal services",
+      "consumer-facing AI interactions"
+    ]
+  },
   "status": "superseded",
   "binding": false,
   "effective_date": null,

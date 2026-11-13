@@ -20,6 +20,20 @@
     "public_sector",
     "healthcare"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States › Texas",
+    "regulation": "Binding law · narrow prohibitions plus government-use duties and regulatory sandbox",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts. Business-friendly, intent-based liability with AG-only enforcement.",
+    "use_cases": [
+      "public-sector & government use",
+      "biometric identification & categorisation",
+      "synthetic media & deepfakes",
+      "consumer-facing AI interactions"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2026-01-01",

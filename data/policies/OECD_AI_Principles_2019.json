@@ -19,6 +19,19 @@
   "industry_scope": [
     "general"
   ],
+  "locale_context": {
+    "language": [
+      "English",
+      "French"
+    ],
+    "region": "Global › OECD members and adherents",
+    "regulation": "Soft law · intergovernmental recommendation (values-based principles)",
+    "culture": "Multilateral, consensus-based soft-law culture: high-level shared values (human rights, democracy, rule of law) meant to be adapted to national contexts; interpretation varies across adopting countries. OECD framing balances innovation and trustworthy AI among market economies.",
+    "use_cases": [
+      "general AI lifecycle",
+      "general-purpose / foundation models"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2019-05-22",

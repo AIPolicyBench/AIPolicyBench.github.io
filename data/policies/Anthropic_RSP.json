@@ -18,6 +18,19 @@
   "industry_scope": [
     "frontier_ai_development"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › Anthropic",
+    "regulation": "Self-regulation · frontier safety framework",
+    "culture": "US frontier-AI corporate self-governance: engineering-driven, capability-threshold and safeguard framing; commitments are public but self-defined, self-assessed and revisable by the company.",
+    "use_cases": [
+      "frontier model development",
+      "general-purpose / foundation models",
+      "CBRN & cyber misuse"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2026-07-08",

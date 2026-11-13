@@ -23,6 +23,21 @@
     "employment",
     "finance"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States (federal)",
+    "regulation": "Executive order · directives to federal agencies (revoked)",
+    "culture": "US federal approach under the Biden administration: safety-, rights- and equity-focused within existing authorities (Defense Production Act reporting), no new statute.",
+    "use_cases": [
+      "frontier model development",
+      "general-purpose / foundation models",
+      "public-sector & government use",
+      "synthetic media & deepfakes",
+      "critical infrastructure"
+    ]
+  },
   "status": "revoked",
   "binding": false,
   "effective_date": "2023-10-30",

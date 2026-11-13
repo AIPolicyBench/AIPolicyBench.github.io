@@ -7,43 +7,127 @@
   "issuing_authority": "Cyberspace Administration of China (CAC), with the Ministry of Industry and Information Technology, Ministry of Public Security and State Administration for Market Regulation",
   "jurisdiction": "CN",
   "country_region": "People's Republic of China (mainland)",
-  "language": ["zh"],
-  "official_languages": ["zh"],
+  "language": [
+    "zh"
+  ],
+  "official_languages": [
+    "zh"
+  ],
   "regulatory_regime": "PRC cyberspace/internet information service regulation (CAC departmental rules under the Cybersecurity Law, Data Security Law, Personal Information Protection Law and Measures for the Administration of Internet Information Services)",
   "geo_constraints": "Internet information services using algorithmic recommendation technology provided within the territory of the PRC (Art. 2)",
-  "industry_scope": ["general", "online_platforms", "e-commerce", "media", "gig_economy"],
+  "industry_scope": [
+    "general",
+    "online_platforms",
+    "e-commerce",
+    "media",
+    "gig_economy"
+  ],
+  "locale_context": {
+    "language": [
+      "Chinese"
+    ],
+    "region": "East Asia › China (mainland)",
+    "regulation": "Binding departmental rules · algorithm filing and user-rights duties",
+    "culture": "PRC state-led, security-first internet governance: content security, 'core socialist values', social stability and national security alongside development; agile, sector-specific CAC rules with filing/registration and labelling duties.",
+    "use_cases": [
+      "recommender systems",
+      "content moderation & information services",
+      "platform work & scheduling",
+      "consumer-facing AI interactions"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2022-03-01",
   "key_dates": [
-    {"date": "2021-08-27", "event": "CAC releases draft for public comment (compiler knowledge, not verified against fetched source)"},
-    {"date": "2021-11-16", "event": "Adopted at CAC 2021 20th office meeting"},
-    {"date": "2022-01-04", "event": "Published (joint order of CAC, MIIT, MPS, SAMR)"},
-    {"date": "2022-03-01", "event": "Entry into force (Art. 35); algorithm filing system opens"},
-    {"date": "2026-01-01", "event": "Amended Cybersecurity Law (parent law) takes effect with new AI article (Art. 20) and higher penalties"}
+    {
+      "date": "2021-08-27",
+      "event": "CAC releases draft for public comment (compiler knowledge, not verified against fetched source)"
+    },
+    {
+      "date": "2021-11-16",
+      "event": "Adopted at CAC 2021 20th office meeting"
+    },
+    {
+      "date": "2022-01-04",
+      "event": "Published (joint order of CAC, MIIT, MPS, SAMR)"
+    },
+    {
+      "date": "2022-03-01",
+      "event": "Entry into force (Art. 35); algorithm filing system opens"
+    },
+    {
+      "date": "2026-01-01",
+      "event": "Amended Cybersecurity Law (parent law) takes effect with new AI article (Art. 20) and higher penalties"
+    }
   ],
   "expiration_date": null,
   "version": "CAC, MIIT, MPS, SAMR Order No. 9 (2021) (order number from compiler knowledge, not verified against fetched source)",
   "last_updated": "2022-01-04",
-  "covered_entities": ["algorithmic recommendation service providers"],
-  "covered_systems": ["algorithmic recommendation technology: generation/synthesis, personalised push, ranking/selection, search/filtering, scheduling/decision-making algorithms used to provide information to users (Art. 2)"],
-  "covered_activities": ["providing internet information services using recommendation algorithms", "user profiling and tagging", "news information services", "work scheduling of workers", "pricing and sales to consumers"],
-  "exceptions": ["where laws or administrative regulations provide otherwise (Art. 2)"],
+  "covered_entities": [
+    "algorithmic recommendation service providers"
+  ],
+  "covered_systems": [
+    "algorithmic recommendation technology: generation/synthesis, personalised push, ranking/selection, search/filtering, scheduling/decision-making algorithms used to provide information to users (Art. 2)"
+  ],
+  "covered_activities": [
+    "providing internet information services using recommendation algorithms",
+    "user profiling and tagging",
+    "news information services",
+    "work scheduling of workers",
+    "pricing and sales to consumers"
+  ],
+  "exceptions": [
+    "where laws or administrative regulations provide otherwise (Art. 2)"
+  ],
   "conditions": [
     "Algorithm filing (Art. 24) and security assessment (Art. 27) apply to providers with public-opinion attributes or social-mobilisation capacity",
     "Graded and categorised management based on public-opinion attributes, content category, user scale, data importance and degree of intervention in user behaviour (Art. 23)"
   ],
   "objective": "Regulate algorithmic recommendation activities in internet information services, promote mainstream values, protect national security and public interest, and safeguard users' rights (including minors, the elderly, workers and consumers).",
-  "policy_domain": ["content_integrity", "consumer_protection", "transparency", "employment", "fairness", "governance"],
-  "principles": ["fairness and justice", "openness and transparency", "science and reasonableness", "honesty and good faith", "mainstream value orientation", "user autonomy", "graded and categorised management"],
+  "policy_domain": [
+    "content_integrity",
+    "consumer_protection",
+    "transparency",
+    "employment",
+    "fairness",
+    "governance"
+  ],
+  "principles": [
+    "fairness and justice",
+    "openness and transparency",
+    "science and reasonableness",
+    "honesty and good faith",
+    "mainstream value orientation",
+    "user autonomy",
+    "graded and categorised management"
+  ],
   "parent_policy": "Cybersecurity Law of the PRC; Data Security Law; Personal Information Protection Law; Measures for the Administration of Internet Information Services",
   "related_policies": [
-    {"policy": "CN_Deep_Synthesis_2022", "relation": "complements"},
-    {"policy": "CN_GenAI_Measures_2023", "relation": "complements"},
-    {"policy": "CN_AIGC_Labeling_2025", "relation": "complements"},
-    {"policy": "Cybersecurity Law of the PRC (as amended 2025-10-28, effective 2026-01-01; new Art. 20 on AI)", "relation": "implements"},
-    {"policy": "Personal Information Protection Law of the PRC (Art. 24 automated decision-making)", "relation": "overlaps_with"},
-    {"policy": "EU Digital Services Act (recommender system transparency)", "relation": "overlaps_with"}
+    {
+      "policy": "CN_Deep_Synthesis_2022",
+      "relation": "complements"
+    },
+    {
+      "policy": "CN_GenAI_Measures_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "CN_AIGC_Labeling_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "Cybersecurity Law of the PRC (as amended 2025-10-28, effective 2026-01-01; new Art. 20 on AI)",
+      "relation": "implements"
+    },
+    {
+      "policy": "Personal Information Protection Law of the PRC (Art. 24 automated decision-making)",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "EU Digital Services Act (recommender system transparency)",
+      "relation": "overlaps_with"
+    }
   ],
   "conflict_rule": "Where laws or administrative regulations provide otherwise, those apply (Art. 2); penalties under laws/administrative regulations first, with the Provisions' own warnings and fines of RMB 10,000-100,000 for listed articles where laws are silent (Art. 31); other listed violations handled under relevant laws, regulations and departmental rules (Art. 32).",
   "record_provenance": {
@@ -75,7 +159,9 @@
       "purpose": "prevent manipulative design and harm to users",
       "affected_asset": "user wellbeing and autonomy",
       "policy_domain": "consumer_protection",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "recommendation, ranking, filtering, scheduling and generative algorithms used in information services",
       "interpretation_notes": "Combines a positive audit duty (MUST) with a prohibition (MUST NOT) on addictive models.",
       "ambiguity": "medium",
@@ -101,7 +187,9 @@
       "purpose": "transparency about synthetic content, content safety",
       "affected_asset": "information integrity",
       "policy_domain": "content_integrity",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "recommendation/distribution platforms",
       "interpretation_notes": "Earliest CAC rule requiring platforms to label AI-generated content; extended by CN_Deep_Synthesis_2022 and CN_AIGC_Labeling_2025 Art. 6.",
       "ambiguity": "low",
@@ -127,7 +215,9 @@
       "purpose": "transparency and user awareness",
       "affected_asset": "user autonomy and informed choice",
       "policy_domain": "transparency",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "algorithmic recommendation services",
       "interpretation_notes": "'Appropriate manner' left undefined; violations sanctionable under Art. 31.",
       "ambiguity": "medium",
@@ -153,7 +243,9 @@
       "purpose": "user autonomy and contestability",
       "affected_asset": "user autonomy, personal information",
       "policy_domain": "consumer_protection",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "personalised recommendation algorithms",
       "interpretation_notes": "Paragraph breaks in the source were joined. Parallels PIPL Art. 24 on automated decision-making.",
       "ambiguity": "low",
@@ -179,7 +271,9 @@
       "purpose": "fair trading and consumer protection",
       "affected_asset": "consumers' economic interests",
       "policy_domain": "fairness",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "pricing and recommendation algorithms in e-commerce/services",
       "interpretation_notes": "'Unreasonable' differential treatment is not defined; Art. 32 refers enforcement to other laws (e.g. E-Commerce Law, pricing law).",
       "ambiguity": "medium",
@@ -205,7 +299,9 @@
       "purpose": "regulatory visibility and accountability",
       "affected_asset": "public opinion environment",
       "policy_domain": "governance",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "algorithmic recommendation services with public-opinion attributes or social-mobilisation capacity",
       "interpretation_notes": "The filing regime is reused by CN_Deep_Synthesis_2022 Art. 19 and CN_GenAI_Measures_2023 Art. 17. Changes within 10 working days; deregistration within 20 working days of termination (paras. 2-3).",
       "ambiguity": "low",

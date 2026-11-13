@@ -19,6 +19,19 @@
   "industry_scope": [
     "public_sector"
   ],
+  "locale_context": {
+    "language": [
+      "English",
+      "French"
+    ],
+    "region": "North America › Canada (federal)",
+    "regulation": "Government guidance · internal rules for federal public servants",
+    "culture": "Canadian public-service culture: bilingual (EN/FR, Official Languages Act), privacy-protective, transparency to the public (FASTER principles).",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "public-sector & government use"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2023-09",

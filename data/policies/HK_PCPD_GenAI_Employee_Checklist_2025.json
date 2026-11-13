@@ -20,6 +20,19 @@
     "general",
     "employment"
   ],
+  "locale_context": {
+    "language": [
+      "English",
+      "Chinese (Traditional)"
+    ],
+    "region": "East Asia › Hong Kong SAR",
+    "regulation": "Regulator guidance · checklist under data-protection law (PDPO)",
+    "culture": "Hong Kong common-law, bilingual (EN/ZH) privacy-regulator guidance: principles-based, organisation-led; English and Chinese both official.",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "training on personal data"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2025-03-31",

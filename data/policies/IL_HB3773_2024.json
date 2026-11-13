@@ -18,6 +18,17 @@
   "industry_scope": [
     "employment"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States › Illinois",
+    "regulation": "Binding law · civil-rights amendment (employment discrimination)",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts.",
+    "use_cases": [
+      "employment & HR decisions"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2026-01-01",

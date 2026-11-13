@@ -28,6 +28,20 @@
     "public_sector",
     "education"
   ],
+  "locale_context": {
+    "language": [
+      "Korean"
+    ],
+    "region": "East Asia › South Korea",
+    "regulation": "Binding law · framework act combining promotion with high-impact and generative-AI duties",
+    "culture": "Korean developmental-state approach: industrial promotion and national competitiveness paired with trust obligations; detailed rules delegated to Enforcement Decree and ministry guidance, with a grace period before fines.",
+    "use_cases": [
+      "high-impact AI decisions",
+      "generative AI & chatbots",
+      "synthetic media & deepfakes",
+      "frontier model development"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2026-01-22",

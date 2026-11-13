@@ -18,6 +18,18 @@
   "industry_scope": [
     "finance"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (industry) › financial sector",
+    "regulation": "Industry guidance · template acceptable-use policy",
+    "culture": "Financial-sector risk-averse compliance culture: confidentiality, data-loss prevention and model-risk management; US-origin, used by global member firms.",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "financial services"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2023-09",

@@ -18,6 +18,19 @@
   "industry_scope": [
     "general"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "South Asia › India",
+    "regulation": "Soft law · principles-based guidelines relying on existing laws",
+    "culture": "Indian innovation-over-restraint, techno-legal approach: AI for inclusive development ('AI for All'), digital public infrastructure, light regulation using existing laws; very large multilingual population.",
+    "use_cases": [
+      "general AI lifecycle",
+      "synthetic media & deepfakes",
+      "public-sector & government use"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2025-11-05",

@@ -152,3 +152,9 @@ td.date { white-space: nowrap; }
 .group.wide { grid-column: 1 / -1; }
 dl.attrs.wide { grid-template-columns: minmax(110px, 16%) 1fr; }
 @media (max-width: 760px) { dl.attrs.wide { grid-template-columns: minmax(110px, 38%) 1fr; } }
+
+td .sub { display: block; color: var(--muted); font-size: 0.78rem; }
+.group.locale { border-left: 3px solid var(--accent); }
+.group.locale dl.attrs dt { font-family: var(--sans); font-size: 0.85rem; font-weight: 600; color: var(--text); }
+a.chip:hover { text-decoration: none; filter: brightness(0.95); }
+.group.locale .chip { white-space: normal; }

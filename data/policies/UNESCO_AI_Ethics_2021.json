@@ -28,6 +28,24 @@
     "employment",
     "environment"
   ],
+  "locale_context": {
+    "language": [
+      "Arabic",
+      "English",
+      "Spanish",
+      "French",
+      "Russian",
+      "Chinese"
+    ],
+    "region": "Global › UNESCO member states (193)",
+    "regulation": "Soft law · ethics recommendation with readiness/impact assessment tools",
+    "culture": "Multilateral, consensus-based soft-law culture: high-level shared values (human rights, democracy, rule of law) meant to be adapted to national contexts; interpretation varies across adopting countries. Strong Global South, cultural-diversity, gender and environmental emphasis.",
+    "use_cases": [
+      "general AI lifecycle",
+      "education & exams",
+      "public-sector & government use"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2021-11-23",

@@ -7,28 +7,75 @@
   "issuing_authority": "Cyberspace Administration of China (CAC), jointly with the National Development and Reform Commission, Ministry of Education, Ministry of Science and Technology, Ministry of Industry and Information Technology, Ministry of Public Security and National Radio and Television Administration",
   "jurisdiction": "CN",
   "country_region": "People's Republic of China (mainland)",
-  "language": ["zh"],
-  "official_languages": ["zh"],
+  "language": [
+    "zh"
+  ],
+  "official_languages": [
+    "zh"
+  ],
   "regulatory_regime": "PRC cyberspace/internet information service regulation (CAC departmental rules under the Cybersecurity Law, Data Security Law and Personal Information Protection Law)",
   "geo_constraints": "Generative AI services provided to the public within the territory of the PRC, including services from outside the PRC offered to users in the PRC (Art. 2, Art. 20)",
-  "industry_scope": ["general"],
+  "industry_scope": [
+    "general"
+  ],
+  "locale_context": {
+    "language": [
+      "Chinese"
+    ],
+    "region": "East Asia › China (mainland)",
+    "regulation": "Binding departmental rules · service-provider obligations with filing/security assessment",
+    "culture": "PRC state-led, security-first internet governance: content security, 'core socialist values', social stability and national security alongside development; agile, sector-specific CAC rules with filing/registration and labelling duties.",
+    "use_cases": [
+      "generative AI & chatbots",
+      "training on personal data",
+      "content moderation & information services"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2023-08-15",
   "key_dates": [
-    {"date": "2023-04-11", "event": "CAC releases draft for public comment"},
-    {"date": "2023-05-23", "event": "Adopted at the CAC 2023 12th office meeting (per LawRefBook mirror file date; not verified on cac.gov.cn)"},
-    {"date": "2023-07-13", "event": "Published as joint order of seven departments"},
-    {"date": "2023-08-15", "event": "Entry into force (Art. 24)"},
-    {"date": "2025-09-01", "event": "Labeling obligations under Art. 12 operationalised by the AIGC Labeling Measures and mandatory standard GB 45438-2025"},
-    {"date": "2026-01-01", "event": "Amended Cybersecurity Law (one of the parent laws cited in Art. 1/21) takes effect, adding a state AI support/governance article (Art. 20) and higher penalties"}
+    {
+      "date": "2023-04-11",
+      "event": "CAC releases draft for public comment"
+    },
+    {
+      "date": "2023-05-23",
+      "event": "Adopted at the CAC 2023 12th office meeting (per LawRefBook mirror file date; not verified on cac.gov.cn)"
+    },
+    {
+      "date": "2023-07-13",
+      "event": "Published as joint order of seven departments"
+    },
+    {
+      "date": "2023-08-15",
+      "event": "Entry into force (Art. 24)"
+    },
+    {
+      "date": "2025-09-01",
+      "event": "Labeling obligations under Art. 12 operationalised by the AIGC Labeling Measures and mandatory standard GB 45438-2025"
+    },
+    {
+      "date": "2026-01-01",
+      "event": "Amended Cybersecurity Law (one of the parent laws cited in Art. 1/21) takes effect, adding a state AI support/governance article (Art. 20) and higher penalties"
+    }
   ],
   "expiration_date": null,
   "version": "Joint order of CAC, NDRC, MOE, MOST, MIIT, MPS, NRTA (2023), No. 15 (order number from compiler knowledge, not verified against fetched source)",
   "last_updated": "2023-07-13",
-  "covered_entities": ["generative AI service providers (including via APIs)", "generative AI service users"],
-  "covered_systems": ["generative AI technology: models and related technologies capable of generating text, images, audio, video and other content"],
-  "covered_activities": ["providing generative AI services to the public in the PRC", "pre-training and fine-tuning data processing", "data annotation", "content generation and moderation"],
+  "covered_entities": [
+    "generative AI service providers (including via APIs)",
+    "generative AI service users"
+  ],
+  "covered_systems": [
+    "generative AI technology: models and related technologies capable of generating text, images, audio, video and other content"
+  ],
+  "covered_activities": [
+    "providing generative AI services to the public in the PRC",
+    "pre-training and fine-tuning data processing",
+    "data annotation",
+    "content generation and moderation"
+  ],
   "exceptions": [
     "R&D and application by industry organisations, enterprises, education and research institutions, public cultural institutions and professional bodies that do not provide services to the domestic public (Art. 2 para. 3)",
     "News publishing, film/TV production and artistic creation where the State has separate rules (Art. 2 para. 2)"
@@ -38,18 +85,59 @@
     "Personal-information obligations apply where personal information is involved (Art. 7(3), Art. 9, Art. 11)"
   ],
   "objective": "Promote the healthy development and standardised application of generative AI while safeguarding national security, the social public interest and the lawful rights of citizens and organisations, via inclusive-prudent, categorised and graded supervision.",
-  "policy_domain": ["content_integrity", "safety", "privacy", "fairness", "transparency", "governance", "innovation"],
-  "principles": ["equal emphasis on development and security", "inclusive and prudent supervision", "categorised and graded supervision", "socialist core values", "non-discrimination", "transparency", "accuracy and reliability of generated content", "respect for intellectual property"],
+  "policy_domain": [
+    "content_integrity",
+    "safety",
+    "privacy",
+    "fairness",
+    "transparency",
+    "governance",
+    "innovation"
+  ],
+  "principles": [
+    "equal emphasis on development and security",
+    "inclusive and prudent supervision",
+    "categorised and graded supervision",
+    "socialist core values",
+    "non-discrimination",
+    "transparency",
+    "accuracy and reliability of generated content",
+    "respect for intellectual property"
+  ],
   "parent_policy": "Cybersecurity Law of the PRC; Data Security Law; Personal Information Protection Law; Law on Progress of Science and Technology",
   "related_policies": [
-    {"policy": "CN_Deep_Synthesis_2022", "relation": "complements"},
-    {"policy": "CN_Algorithm_Recommendation_2021", "relation": "complements"},
-    {"policy": "CN_AIGC_Labeling_2025", "relation": "complements"},
-    {"policy": "Cybersecurity Law of the PRC (as amended 2025-10-28, effective 2026-01-01; new Art. 20 on AI)", "relation": "implements"},
-    {"policy": "Personal Information Protection Law of the PRC", "relation": "implements"},
-    {"policy": "Interim Measures for the Management of AI Anthropomorphic Interaction Services (人工智能拟人化互动服务管理暂行办法, 2026, effective 2026-07-15)", "relation": "complements"},
-    {"policy": "TC260-003 Basic Security Requirements for Generative AI Services (2024) / GB/T 45654-2025", "relation": "complements"},
-    {"policy": "EU_AI_Act_2024", "relation": "overlaps_with"}
+    {
+      "policy": "CN_Deep_Synthesis_2022",
+      "relation": "complements"
+    },
+    {
+      "policy": "CN_Algorithm_Recommendation_2021",
+      "relation": "complements"
+    },
+    {
+      "policy": "CN_AIGC_Labeling_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "Cybersecurity Law of the PRC (as amended 2025-10-28, effective 2026-01-01; new Art. 20 on AI)",
+      "relation": "implements"
+    },
+    {
+      "policy": "Personal Information Protection Law of the PRC",
+      "relation": "implements"
+    },
+    {
+      "policy": "Interim Measures for the Management of AI Anthropomorphic Interaction Services (人工智能拟人化互动服务管理暂行办法, 2026, effective 2026-07-15)",
+      "relation": "complements"
+    },
+    {
+      "policy": "TC260-003 Basic Security Requirements for Generative AI Services (2024) / GB/T 45654-2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    }
   ],
   "conflict_rule": "Where the State has separate provisions for news publishing, film/TV production or artistic creation those prevail (Art. 2); penalties follow the Cybersecurity, Data Security, PIPL and Science & Technology Progress laws, with the Measures' own warnings/suspension only where laws are silent (Art. 21); licensing requirements under laws/administrative regulations still apply (Art. 23).",
   "record_provenance": {
@@ -83,7 +171,9 @@
       "purpose": "protect national security, social stability and the information environment",
       "affected_asset": "national security, social order, public information ecosystem",
       "policy_domain": "content_integrity",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "generative AI services offered to the public in the PRC",
       "interpretation_notes": "Applies to both providers and users. 'False and harmful information' and political-content categories are broad and defined by reference to other laws.",
       "ambiguity": "high",
@@ -109,7 +199,9 @@
       "purpose": "fairness and non-discrimination",
       "affected_asset": "equal treatment of individuals and groups",
       "policy_domain": "fairness",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "generative AI services offered to the public in the PRC",
       "interpretation_notes": "Lifecycle-wide 'effective measures' obligation; no technical standard named in the Measures themselves (TC260 security requirements give practice detail).",
       "ambiguity": "medium",
@@ -135,7 +227,9 @@
       "purpose": "data legality, IP protection, privacy and output quality",
       "affected_asset": "intellectual property, personal information, data quality",
       "policy_domain": "privacy",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "generative AI models used to provide services in the PRC",
       "interpretation_notes": "Item (5) (truncated) cross-refers to other requirements of the Cybersecurity, Data Security and PIPL laws and regulators.",
       "ambiguity": "medium",
@@ -161,7 +255,9 @@
       "purpose": "transparency about AI-generated content, prevent public confusion",
       "affected_asset": "information authenticity",
       "policy_domain": "transparency",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "generative AI services offered to the public in the PRC",
       "interpretation_notes": "Cross-reference to CN_Deep_Synthesis_2022 Arts. 16-18; detailed explicit/implicit label rules since 2025-09-01 in CN_AIGC_Labeling_2025 and GB 45438-2025.",
       "ambiguity": "low",
@@ -187,7 +283,9 @@
       "purpose": "contain harmful outputs and misuse",
       "affected_asset": "information environment, public safety",
       "policy_domain": "safety",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "generative AI services offered to the public in the PRC",
       "interpretation_notes": "Notable for requiring model-level remediation ('model optimisation training') rather than only output filtering.",
       "ambiguity": "low",
@@ -213,7 +311,9 @@
       "purpose": "pre-deployment regulatory oversight",
       "affected_asset": "public opinion environment, national security",
       "policy_domain": "governance",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "generative AI services with public-opinion attributes or social-mobilisation capacity",
       "interpretation_notes": "In practice this underpins CAC's generative AI service filing ('large model filing') regime; the trigger criterion is not defined in the Measures.",
       "ambiguity": "medium",

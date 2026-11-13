@@ -7,42 +7,130 @@
   "issuing_authority": "UK Department for Science, Innovation and Technology (DSIT); presented to Parliament by the Secretary of State for Science, Innovation and Technology",
   "jurisdiction": "UK",
   "country_region": "United Kingdom",
-  "language": ["en"],
-  "official_languages": ["en"],
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
   "regulatory_regime": "Non-statutory, principles-based framework implemented by existing sectoral regulators (e.g. ICO, CMA, FCA, Ofcom, MHRA, EHRC) within existing powers",
   "geo_constraints": "United Kingdom; applied by UK regulators within their existing remits",
-  "industry_scope": ["general"],
+  "industry_scope": [
+    "general"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Europe › United Kingdom",
+    "regulation": "Soft law · non-statutory principles applied by existing sector regulators",
+    "culture": "UK common-law, pro-innovation, regulator-led culture: context-specific, sectoral guidance rather than new horizontal legislation.",
+    "use_cases": [
+      "general AI lifecycle",
+      "general-purpose / foundation models"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2023-03-29",
   "key_dates": [
-    {"date": "2022-07-18", "event": "Policy paper 'Establishing a pro-innovation approach to regulating AI' published"},
-    {"date": "2023-03-29", "event": "White Paper (CP 815) presented to Parliament; consultation opened"},
-    {"date": "2024-02-06", "event": "Government response (CP 1019) published, confirming non-statutory, regulator-led approach; key regulators asked to publish their strategic approaches to AI by April 2024"},
-    {"date": "2024-07", "event": "New government's King's Speech signals intent to legislate for the most powerful AI models; no bill subsequently introduced"},
-    {"date": "2025-01-13", "event": "AI Opportunities Action Plan published (policy emphasis shifts to growth/adoption)"},
-    {"date": "2026-05", "event": "King's Speech contains no standalone AI bill; a 'Regulating for Growth Bill' (incl. AI Growth Lab sandbox powers) announced — parliamentary stage unverified"}
+    {
+      "date": "2022-07-18",
+      "event": "Policy paper 'Establishing a pro-innovation approach to regulating AI' published"
+    },
+    {
+      "date": "2023-03-29",
+      "event": "White Paper (CP 815) presented to Parliament; consultation opened"
+    },
+    {
+      "date": "2024-02-06",
+      "event": "Government response (CP 1019) published, confirming non-statutory, regulator-led approach; key regulators asked to publish their strategic approaches to AI by April 2024"
+    },
+    {
+      "date": "2024-07",
+      "event": "New government's King's Speech signals intent to legislate for the most powerful AI models; no bill subsequently introduced"
+    },
+    {
+      "date": "2025-01-13",
+      "event": "AI Opportunities Action Plan published (policy emphasis shifts to growth/adoption)"
+    },
+    {
+      "date": "2026-05",
+      "event": "King's Speech contains no standalone AI bill; a 'Regulating for Growth Bill' (incl. AI Growth Lab sandbox powers) announced — parliamentary stage unverified"
+    }
   ],
   "expiration_date": null,
   "version": "CP 815 (29 March 2023), with correction slip; Government response CP 1019 (6 February 2024)",
   "last_updated": "2024-02-06",
-  "covered_entities": ["UK regulators (primary addressees)", "AI life cycle actors (developers, deployers, users) via regulator guidance"],
-  "covered_systems": ["AI systems defined by reference to 'adaptivity' and 'autonomy'", "highly capable general-purpose AI (addressed further in the 2024 government response)"],
-  "covered_activities": ["design", "development", "deployment", "use", "regulatory supervision and guidance"],
-  "exceptions": ["The non-statutory approach creates no new rights or routes to redress", "Possible exemptions for regulators in areas such as national security to be considered before any statutory duty; defence governed by MoD AI principles"],
-  "conditions": ["Principles applied by regulators proportionately, within existing remits and in accordance with existing law", "Statutory duty on regulators anticipated only if monitoring shows non-statutory implementation is ineffective"],
+  "covered_entities": [
+    "UK regulators (primary addressees)",
+    "AI life cycle actors (developers, deployers, users) via regulator guidance"
+  ],
+  "covered_systems": [
+    "AI systems defined by reference to 'adaptivity' and 'autonomy'",
+    "highly capable general-purpose AI (addressed further in the 2024 government response)"
+  ],
+  "covered_activities": [
+    "design",
+    "development",
+    "deployment",
+    "use",
+    "regulatory supervision and guidance"
+  ],
+  "exceptions": [
+    "The non-statutory approach creates no new rights or routes to redress",
+    "Possible exemptions for regulators in areas such as national security to be considered before any statutory duty; defence governed by MoD AI principles"
+  ],
+  "conditions": [
+    "Principles applied by regulators proportionately, within existing remits and in accordance with existing law",
+    "Statutory duty on regulators anticipated only if monitoring shows non-statutory implementation is ineffective"
+  ],
   "objective": "Establish a proportionate, context-specific and pro-innovation framework in which existing regulators apply five cross-sectoral principles to AI within their remits, supported by central government functions, rather than creating a new AI-specific regulator or horizontal AI law.",
-  "policy_domain": ["innovation", "safety", "transparency", "fairness", "accountability", "governance"],
-  "principles": ["safety, security and robustness", "appropriate transparency and explainability", "fairness", "accountability and governance", "contestability and redress"],
+  "policy_domain": [
+    "innovation",
+    "safety",
+    "transparency",
+    "fairness",
+    "accountability",
+    "governance"
+  ],
+  "principles": [
+    "safety, security and robustness",
+    "appropriate transparency and explainability",
+    "fairness",
+    "accountability and governance",
+    "contestability and redress"
+  ],
   "parent_policy": null,
   "related_policies": [
-    {"policy": "OECD_AI_Principles_2019", "relation": "implements"},
-    {"policy": "EU_AI_Act_2024", "relation": "conflicts_with"},
-    {"policy": "G7_Hiroshima_CoC_2023", "relation": "complements"},
-    {"policy": "CoE_AI_Convention_2024", "relation": "complements"},
-    {"policy": "UK GDPR / Data Protection Act 2018", "relation": "overlaps_with"},
-    {"policy": "Equality Act 2010", "relation": "overlaps_with"},
-    {"policy": "AI Opportunities Action Plan (January 2025)", "relation": "complements"}
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "implements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "conflicts_with"
+    },
+    {
+      "policy": "G7_Hiroshima_CoC_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "CoE_AI_Convention_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "UK GDPR / Data Protection Act 2018",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "Equality Act 2010",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "AI Opportunities Action Plan (January 2025)",
+      "relation": "complements"
+    }
   ],
   "conflict_rule": "Principles are applied 'in accordance with existing laws and regulations' (para. 50) and complement existing regulation; existing statutory duties (data protection, equality, consumer, sectoral law) prevail. 'conflicts_with' for the EU AI Act denotes a divergent regulatory philosophy (sectoral non-statutory vs horizontal statute), not a legal conflict.",
   "record_provenance": {
@@ -76,7 +164,9 @@
       "purpose": "coherent, context-specific AI regulation without a new AI regulator",
       "affected_asset": "public trust; individuals affected by AI",
       "policy_domain": "governance",
-      "applicable_regions": ["UK"],
+      "applicable_regions": [
+        "UK"
+      ],
       "applicable_systems": "AI systems as characterized by adaptivity and autonomy",
       "interpretation_notes": "The five principles appear as a bulleted list in the source; line breaks collapsed here. 'Will be expected' is an expectation on regulators, not a legal duty (non-statutory).",
       "ambiguity": "low",
@@ -102,7 +192,9 @@
       "purpose": "safety and security of AI",
       "affected_asset": "health, safety, critical infrastructure, system integrity",
       "policy_domain": "safety",
-      "applicable_regions": ["UK"],
+      "applicable_regions": [
+        "UK"
+      ],
       "applicable_systems": "any AI system within a regulator's remit",
       "interpretation_notes": "Principle text; any binding measures would come from regulators using existing powers.",
       "ambiguity": "medium",
@@ -128,7 +220,9 @@
       "purpose": "fairness and non-discrimination",
       "affected_asset": "legal rights of individuals and organisations; market competition",
       "policy_domain": "fairness",
-      "applicable_regions": ["UK"],
+      "applicable_regions": [
+        "UK"
+      ],
       "applicable_systems": "any AI system",
       "interpretation_notes": "Rationale text links fairness to Equality Act 2010, Human Rights Act 1998, UK GDPR, consumer and competition law.",
       "ambiguity": "medium",
@@ -154,7 +248,9 @@
       "purpose": "accountability for AI outcomes",
       "affected_asset": "regulatory compliance; affected individuals",
       "policy_domain": "accountability",
-      "applicable_regions": ["UK"],
+      "applicable_regions": [
+        "UK"
+      ],
       "applicable_systems": "any AI system",
       "interpretation_notes": "Regulators expected to place clear compliance expectations on appropriate supply-chain actors.",
       "ambiguity": "medium",
@@ -180,7 +276,9 @@
       "purpose": "redress for AI harms",
       "affected_asset": "rights of affected persons",
       "policy_domain": "accountability",
-      "applicable_regions": ["UK"],
+      "applicable_regions": [
+        "UK"
+      ],
       "applicable_systems": "any AI system",
       "interpretation_notes": "Two non-adjacent sentences from the same principle joined with an ellipsis.",
       "ambiguity": "medium",
@@ -206,7 +304,9 @@
       "purpose": "strengthen regulators' mandates and coherence",
       "affected_asset": "regulatory coherence",
       "policy_domain": "governance",
-      "applicable_regions": ["UK"],
+      "applicable_regions": [
+        "UK"
+      ],
       "applicable_systems": "any AI system",
       "interpretation_notes": "Statement of intent, not an obligation; as of Nov 2026 no such duty has been legislated.",
       "ambiguity": "low",

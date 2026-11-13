@@ -18,13 +18,14 @@ OUT = ROOT / "data" / "catalog.json"
 POLICY_KEYS = [
     "policy_id", "policy_name", "short_name", "policy_type", "source_uri", "issuing_authority",
     "jurisdiction", "country_region", "language", "official_languages", "regulatory_regime",
-    "geo_constraints", "industry_scope",
+    "geo_constraints", "industry_scope", "locale_context",
     "status", "binding", "effective_date", "key_dates", "expiration_date", "version", "last_updated",
     "covered_entities", "covered_systems", "covered_activities", "exceptions", "conditions",
     "objective", "policy_domain", "principles",
     "parent_policy", "related_policies", "conflict_rule",
     "record_provenance", "clauses",
 ]
+LOCALE_KEYS = ["language", "region", "regulation", "culture", "use_cases"]
 CLAUSE_KEYS = [
     "clause_id", "policy_id", "section", "original_text", "text_is_verbatim", "language",
     "translated_text", "actor", "action", "object", "recipient", "modality", "requirement",
@@ -57,6 +58,13 @@ def check(p: dict, fname: str) -> tuple[list[str], list[str]]:
         v = p.get(k)
         if v is not None and not (isinstance(v, str) and DATE_RE.match(v)):
             warns.append(f"{k} not ISO date: {v!r}")
+    lc = p.get("locale_context")
+    if isinstance(lc, dict):
+        for k in LOCALE_KEYS:
+            if k not in lc:
+                errs.append(f"locale_context missing {k}")
+    elif "locale_context" in p:
+        errs.append("locale_context must be an object")
     clauses = p.get("clauses") or []
     if not clauses:
         errs.append("no clauses")

@@ -18,6 +18,17 @@
   "industry_scope": [
     "employment"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States › New York City",
+    "regulation": "Binding local law · bias-audit and notice duties",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts. Municipal, employment-focused anti-discrimination enforcement.",
+    "use_cases": [
+      "employment & HR decisions"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2023-01-01",

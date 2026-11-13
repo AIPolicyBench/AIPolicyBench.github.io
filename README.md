@@ -5,6 +5,8 @@ frameworks and organisational policies. Every policy is described with the same 
 so it can later be mapped clause → risk → control.
 
 - **Policy level:** identity, locale/scope, lifecycle, applicability, policy meaning, relationships, record provenance.
+- **Locale context:** five locale factors per policy: Language, Region, Regulation (legal force and approach),
+  Culture (governance context; an interpretive field) and Use Case. They are filterable on the site.
 - **Clause level:** a representative set of clauses, each normalised into
   ⟨actor, action, object, modality, condition, exception, purpose⟩, plus ambiguity and interpretation confidence.
 

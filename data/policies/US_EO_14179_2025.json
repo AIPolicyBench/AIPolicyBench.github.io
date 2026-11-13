@@ -19,6 +19,18 @@
     "general",
     "public_sector"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States (federal)",
+    "regulation": "Executive order · deregulatory directives to federal agencies",
+    "culture": "US federal approach: innovation- and competitiveness-first, market-led, sectoral; policy set largely by executive action and swings with administrations; national-security and AI-leadership framing.",
+    "use_cases": [
+      "general AI lifecycle",
+      "public-sector & government use"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2025-01-23",

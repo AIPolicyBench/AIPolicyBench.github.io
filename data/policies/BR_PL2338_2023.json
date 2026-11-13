@@ -7,41 +7,132 @@
   "issuing_authority": "Congresso Nacional do Brasil — approved by the Senado Federal (author: Senator Rodrigo Pacheco); under review in the Câmara dos Deputados",
   "jurisdiction": "BR",
   "country_region": "Brazil",
-  "language": ["pt"],
-  "official_languages": ["pt"],
+  "language": [
+    "pt"
+  ],
+  "official_languages": [
+    "pt"
+  ],
   "regulatory_regime": "Proposed risk-based AI framework with a National AI Regulation and Governance System (SIA) coordinated by the ANPD",
   "geo_constraints": "Brazil; AI systems developed, supplied or used in Brazil (scope to be confirmed in final text)",
-  "industry_scope": ["general"],
+  "industry_scope": [
+    "general"
+  ],
+  "locale_context": {
+    "language": [
+      "Portuguese"
+    ],
+    "region": "Latin America › Brazil",
+    "regulation": "Proposed binding law · EU-style risk-based regulation",
+    "culture": "Brazilian rights-based tradition (LGPD, Consumer Code) influenced by the EU model, with strong concern for discrimination, labour and copyright of local creators.",
+    "use_cases": [
+      "high-impact AI decisions",
+      "biometric identification & categorisation",
+      "employment & HR decisions",
+      "generative AI & chatbots",
+      "training on copyrighted data"
+    ]
+  },
   "status": "proposed",
   "binding": false,
   "effective_date": null,
   "key_dates": [
-    {"date": "2023-05-03", "event": "PL 2338/2023 introduced in the Federal Senate by Senator Rodrigo Pacheco"},
-    {"date": "2024-12-10", "event": "Senate plenary approves substitute text (rapporteur Sen. Eduardo Gomes, CTIA) and sends it to the Chamber of Deputies"},
-    {"date": "2025-03-17", "event": "Received by the Câmara dos Deputados (Ofício nº 235/2025) for review under Art. 65 of the Constitution"},
-    {"date": "2025-04-04", "event": "Câmara President creates a Special Committee to give an opinion on PL 2338/2023 (constituted 29 April 2025)"},
-    {"date": "2025-05-20", "event": "Dep. Aguinaldo Ribeiro (PP-PB) designated rapporteur in the Special Committee"},
-    {"date": "2026-08", "event": "Rapporteur reportedly defers committee vote until after the October 2026 elections (secondary source)"},
-    {"date": "2026-11-09", "event": "Status per Câmara open-data API: 'Aguardando Parecer' — no rapporteur's opinion or vote yet; if amended by the Câmara it returns to the Senate"}
+    {
+      "date": "2023-05-03",
+      "event": "PL 2338/2023 introduced in the Federal Senate by Senator Rodrigo Pacheco"
+    },
+    {
+      "date": "2024-12-10",
+      "event": "Senate plenary approves substitute text (rapporteur Sen. Eduardo Gomes, CTIA) and sends it to the Chamber of Deputies"
+    },
+    {
+      "date": "2025-03-17",
+      "event": "Received by the Câmara dos Deputados (Ofício nº 235/2025) for review under Art. 65 of the Constitution"
+    },
+    {
+      "date": "2025-04-04",
+      "event": "Câmara President creates a Special Committee to give an opinion on PL 2338/2023 (constituted 29 April 2025)"
+    },
+    {
+      "date": "2025-05-20",
+      "event": "Dep. Aguinaldo Ribeiro (PP-PB) designated rapporteur in the Special Committee"
+    },
+    {
+      "date": "2026-08",
+      "event": "Rapporteur reportedly defers committee vote until after the October 2026 elections (secondary source)"
+    },
+    {
+      "date": "2026-11-09",
+      "event": "Status per Câmara open-data API: 'Aguardando Parecer' — no rapporteur's opinion or vote yet; if amended by the Câmara it returns to the Senate"
+    }
   ],
   "expiration_date": null,
   "version": "Text approved by the Federal Senate on 10 December 2024 (sent to the Câmara as Ofício nº 235/2025)",
   "last_updated": "2024-12-10",
-  "covered_entities": ["agentes de inteligência artificial: desenvolvedores (developers), distribuidores (distributors) and aplicadores (deployers)"],
-  "covered_systems": ["AI systems of excessive risk (prohibited)", "high-risk AI systems", "general-purpose and generative AI systems"],
-  "covered_activities": ["development", "supply / distribution", "deployment and use", "training data use (incl. copyright provisions)"],
-  "exceptions": ["AI used by natural persons for purely private, non-economic purposes", "AI developed and used exclusively for national defence", "research, testing and development activities not placed on the market (subject to conditions)"],
-  "conditions": ["High-risk obligations apply to systems in the statutory high-risk list (subject to regulator updates)", "Preliminary risk assessment determines classification"],
+  "covered_entities": [
+    "agentes de inteligência artificial: desenvolvedores (developers), distribuidores (distributors) and aplicadores (deployers)"
+  ],
+  "covered_systems": [
+    "AI systems of excessive risk (prohibited)",
+    "high-risk AI systems",
+    "general-purpose and generative AI systems"
+  ],
+  "covered_activities": [
+    "development",
+    "supply / distribution",
+    "deployment and use",
+    "training data use (incl. copyright provisions)"
+  ],
+  "exceptions": [
+    "AI used by natural persons for purely private, non-economic purposes",
+    "AI developed and used exclusively for national defence",
+    "research, testing and development activities not placed on the market (subject to conditions)"
+  ],
+  "conditions": [
+    "High-risk obligations apply to systems in the statutory high-risk list (subject to regulator updates)",
+    "Preliminary risk assessment determines classification"
+  ],
   "objective": "Establish national norms for the responsible development, promotion and use of AI in Brazil, centred on the human person, to protect fundamental rights, ensure safe and reliable systems, and foster innovation, via a risk-based approach with prohibitions on excessive-risk uses and obligations for high-risk systems.",
-  "policy_domain": ["fundamental_rights", "safety", "transparency", "fairness", "accountability", "innovation"],
-  "principles": ["centralidade da pessoa humana (human-centricity)", "respect for human rights and democratic values", "non-discrimination", "transparency and explainability", "human oversight", "safety and reliability", "accountability and redress", "data protection"],
+  "policy_domain": [
+    "fundamental_rights",
+    "safety",
+    "transparency",
+    "fairness",
+    "accountability",
+    "innovation"
+  ],
+  "principles": [
+    "centralidade da pessoa humana (human-centricity)",
+    "respect for human rights and democratic values",
+    "non-discrimination",
+    "transparency and explainability",
+    "human oversight",
+    "safety and reliability",
+    "accountability and redress",
+    "data protection"
+  ],
   "parent_policy": null,
   "related_policies": [
-    {"policy": "EU_AI_Act_2024", "relation": "overlaps_with"},
-    {"policy": "OECD_AI_Principles_2019", "relation": "complements"},
-    {"policy": "UNESCO_AI_Ethics_2021", "relation": "complements"},
-    {"policy": "Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018)", "relation": "overlaps_with"},
-    {"policy": "Código de Defesa do Consumidor (Lei nº 8.078/1990)", "relation": "overlaps_with"}
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "UNESCO_AI_Ethics_2021",
+      "relation": "complements"
+    },
+    {
+      "policy": "Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018)",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "Código de Defesa do Consumidor (Lei nº 8.078/1990)",
+      "relation": "overlaps_with"
+    }
   ],
   "conflict_rule": "Not yet law. The Senate text designates the ANPD as coordinator of the SIA, with sectoral regulators retaining competence in their domains; it is intended to operate alongside the LGPD and consumer protection law.",
   "record_provenance": {
@@ -76,7 +167,9 @@
       "purpose": "protect fundamental rights, safety and children",
       "affected_asset": "human dignity, autonomy, equality, life and physical integrity, children",
       "policy_domain": "fundamental_rights",
-      "applicable_regions": ["BR"],
+      "applicable_regions": [
+        "BR"
+      ],
       "applicable_systems": "excessive-risk AI systems",
       "interpretation_notes": "Paraphrase reconstructed from search excerpts of the Câmara avulso and secondary summaries; enumeration order and exact scope of each item not verified. Not law.",
       "ambiguity": "high",
@@ -102,7 +195,9 @@
       "purpose": "classify systems to determine applicable obligations",
       "affected_asset": "persons affected by AI systems",
       "policy_domain": "governance",
-      "applicable_regions": ["BR"],
+      "applicable_regions": [
+        "BR"
+      ],
       "applicable_systems": "all AI systems; mandatory for generative and general-purpose AI",
       "interpretation_notes": "Câmara avulso excerpt shows 'poderá realizar avaliação preliminar'; the mandatory requirement for generative/general-purpose AI is reported by secondary sources and may sit in a different article. Modality MAY for the general rule (MUST for GPAI/GenAI).",
       "ambiguity": "high",
@@ -128,7 +223,9 @@
       "purpose": "focus obligations on uses that can significantly affect rights and safety",
       "affected_asset": "fundamental rights, health, safety, access to essential services, employment",
       "policy_domain": "fundamental_rights",
-      "applicable_regions": ["BR"],
+      "applicable_regions": [
+        "BR"
+      ],
       "applicable_systems": "high-risk AI systems",
       "interpretation_notes": "Paraphrase of the high-risk list; items and wording not verified against the official text, and the Senate removed some items (e.g. certain content-curation/recommendation systems) during negotiation — check final list.",
       "ambiguity": "high",
@@ -154,7 +251,9 @@
       "purpose": "identify and mitigate impacts on fundamental rights",
       "affected_asset": "fundamental rights of affected persons",
       "policy_domain": "accountability",
-      "applicable_regions": ["BR"],
+      "applicable_regions": [
+        "BR"
+      ],
       "applicable_systems": "high-risk AI systems",
       "interpretation_notes": "Search excerpts of the avulso show the section heading 'Da Avaliação de Impacto Algorítmico' at Art. 25 and the sentence fragment 'As conclusões da avaliação de impacto algorítmico serão públicas'; allocation between developer and deployer and timing details are paraphrased and unverified.",
       "ambiguity": "medium",
@@ -180,7 +279,9 @@
       "purpose": "enforcement and deterrence",
       "affected_asset": "compliance with the AI framework",
       "policy_domain": "accountability",
-      "applicable_regions": ["BR"],
+      "applicable_regions": [
+        "BR"
+      ],
       "applicable_systems": "all AI systems covered by the law",
       "interpretation_notes": "Paraphrase; the fine ceiling is consistently reported, but the revenue base (group/conglomerate in Brazil, prior fiscal year) and the full list of sanctions were not verified against official text.",
       "ambiguity": "medium",

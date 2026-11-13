@@ -21,6 +21,19 @@
     "regulated_occupations",
     "healthcare"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States › Utah",
+    "regulation": "Binding law · disclosure duties plus AI learning-lab sandbox",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts. Light-touch, innovation-oriented with sunset clause.",
+    "use_cases": [
+      "generative AI & chatbots",
+      "consumer-facing AI interactions",
+      "regulated occupations"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2024-05-01",

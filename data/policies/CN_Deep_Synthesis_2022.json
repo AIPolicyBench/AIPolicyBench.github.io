@@ -7,43 +7,120 @@
   "issuing_authority": "Cyberspace Administration of China (CAC), with the Ministry of Industry and Information Technology and the Ministry of Public Security",
   "jurisdiction": "CN",
   "country_region": "People's Republic of China (mainland)",
-  "language": ["zh"],
-  "official_languages": ["zh"],
+  "language": [
+    "zh"
+  ],
+  "official_languages": [
+    "zh"
+  ],
   "regulatory_regime": "PRC cyberspace/internet information service regulation (CAC departmental rules under the Cybersecurity Law, Data Security Law, Personal Information Protection Law and Measures for the Administration of Internet Information Services)",
   "geo_constraints": "Internet information services using deep synthesis technology provided within the territory of the PRC (Art. 2)",
-  "industry_scope": ["general", "media", "online_platforms"],
+  "industry_scope": [
+    "general",
+    "media",
+    "online_platforms"
+  ],
+  "locale_context": {
+    "language": [
+      "Chinese"
+    ],
+    "region": "East Asia › China (mainland)",
+    "regulation": "Binding departmental rules · deep-synthesis provider/user duties",
+    "culture": "PRC state-led, security-first internet governance: content security, 'core socialist values', social stability and national security alongside development; agile, sector-specific CAC rules with filing/registration and labelling duties.",
+    "use_cases": [
+      "synthetic media & deepfakes",
+      "generative AI & chatbots",
+      "content moderation & information services"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2023-01-10",
   "key_dates": [
-    {"date": "2022-01-28", "event": "CAC releases draft for public comment (compiler knowledge, not verified against fetched source)"},
-    {"date": "2022-11-03", "event": "Adopted at CAC 2022 21st office meeting, with consent of MIIT and MPS"},
-    {"date": "2022-12-11", "event": "Published (CAC/MIIT/MPS order)"},
-    {"date": "2023-01-10", "event": "Entry into force (Art. 25)"},
-    {"date": "2025-09-01", "event": "AIGC Labeling Measures and GB 45438-2025 take effect, detailing the labeling obligations of Arts. 16-18"}
+    {
+      "date": "2022-01-28",
+      "event": "CAC releases draft for public comment (compiler knowledge, not verified against fetched source)"
+    },
+    {
+      "date": "2022-11-03",
+      "event": "Adopted at CAC 2022 21st office meeting, with consent of MIIT and MPS"
+    },
+    {
+      "date": "2022-12-11",
+      "event": "Published (CAC/MIIT/MPS order)"
+    },
+    {
+      "date": "2023-01-10",
+      "event": "Entry into force (Art. 25)"
+    },
+    {
+      "date": "2025-09-01",
+      "event": "AIGC Labeling Measures and GB 45438-2025 take effect, detailing the labeling obligations of Arts. 16-18"
+    }
   ],
   "expiration_date": null,
   "version": "CAC, MIIT, MPS Order No. 12 (2022) (order number from compiler knowledge, not verified against fetched source)",
   "last_updated": "2022-12-11",
-  "covered_entities": ["deep synthesis service providers", "deep synthesis technical supporters", "deep synthesis service users", "app distribution platforms (app stores)"],
-  "covered_systems": ["deep synthesis technology: deep learning, virtual reality and other generative/synthetic algorithms producing text, images, audio, video, virtual scenes (incl. face generation/swap, voice cloning, text generation, 3D reconstruction)"],
-  "covered_activities": ["providing deep synthesis services", "providing technical support", "producing, copying, publishing, disseminating synthesised information", "app store listing"],
-  "exceptions": ["where laws or administrative regulations provide otherwise (Art. 2)"],
+  "covered_entities": [
+    "deep synthesis service providers",
+    "deep synthesis technical supporters",
+    "deep synthesis service users",
+    "app distribution platforms (app stores)"
+  ],
+  "covered_systems": [
+    "deep synthesis technology: deep learning, virtual reality and other generative/synthetic algorithms producing text, images, audio, video, virtual scenes (incl. face generation/swap, voice cloning, text generation, 3D reconstruction)"
+  ],
+  "covered_activities": [
+    "providing deep synthesis services",
+    "providing technical support",
+    "producing, copying, publishing, disseminating synthesised information",
+    "app store listing"
+  ],
+  "exceptions": [
+    "where laws or administrative regulations provide otherwise (Art. 2)"
+  ],
   "conditions": [
     "Prominent labeling required for listed services that may cause public confusion or misidentification (Art. 17)",
     "Security assessment for tools generating/editing biometric information or sensitive non-biometric objects/scenes (Art. 15)",
     "Algorithm filing for providers with public-opinion attributes or social-mobilisation capacity (Art. 19)"
   ],
   "objective": "Strengthen management of deep synthesis (deepfake/synthetic media) services, uphold socialist core values, safeguard national security and public interest, and protect lawful rights, chiefly through content management, identity verification, security assessment and mandatory labeling of synthetic content.",
-  "policy_domain": ["content_integrity", "transparency", "privacy", "security", "governance"],
-  "principles": ["correct political direction and public-opinion orientation", "information security primary responsibility of providers", "labeling/traceability of synthetic content", "consent for biometric editing", "real-name verification"],
+  "policy_domain": [
+    "content_integrity",
+    "transparency",
+    "privacy",
+    "security",
+    "governance"
+  ],
+  "principles": [
+    "correct political direction and public-opinion orientation",
+    "information security primary responsibility of providers",
+    "labeling/traceability of synthetic content",
+    "consent for biometric editing",
+    "real-name verification"
+  ],
   "parent_policy": "Cybersecurity Law of the PRC; Data Security Law; Personal Information Protection Law; Measures for the Administration of Internet Information Services",
   "related_policies": [
-    {"policy": "CN_Algorithm_Recommendation_2021", "relation": "complements"},
-    {"policy": "CN_GenAI_Measures_2023", "relation": "complements"},
-    {"policy": "CN_AIGC_Labeling_2025", "relation": "complements"},
-    {"policy": "Cybersecurity Law of the PRC (as amended 2025-10-28, effective 2026-01-01; new Art. 20 on AI)", "relation": "implements"},
-    {"policy": "EU_AI_Act_2024", "relation": "overlaps_with"}
+    {
+      "policy": "CN_Algorithm_Recommendation_2021",
+      "relation": "complements"
+    },
+    {
+      "policy": "CN_GenAI_Measures_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "CN_AIGC_Labeling_2025",
+      "relation": "complements"
+    },
+    {
+      "policy": "Cybersecurity Law of the PRC (as amended 2025-10-28, effective 2026-01-01; new Art. 20 on AI)",
+      "relation": "implements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    }
   ],
   "conflict_rule": "Where laws or administrative regulations provide otherwise, those apply (Art. 2); online publishing, online cultural activities and online audiovisual programme services must also meet press/publication, culture and tourism, and radio/TV regulators' rules (Art. 24); penalties under relevant laws and administrative regulations (Art. 22).",
   "record_provenance": {
@@ -75,7 +152,9 @@
       "purpose": "prevent disinformation",
       "affected_asset": "information integrity, public trust",
       "policy_domain": "content_integrity",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "deep synthesis services",
       "interpretation_notes": "Para. 1 adds a general ban on using deep synthesis for legally prohibited information/activities.",
       "ambiguity": "medium",
@@ -101,7 +180,9 @@
       "purpose": "protect personal information and likeness",
       "affected_asset": "biometric data, portrait and voice rights",
       "policy_domain": "privacy",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "face/voice editing deep synthesis tools",
       "interpretation_notes": "The provider's duty is to prompt; the consent obligation itself falls on users (aligned with PIPL separate-consent rules for sensitive personal information).",
       "ambiguity": "medium",
@@ -127,7 +208,9 @@
       "purpose": "pre-deployment risk assessment of high-risk synthesis capabilities",
       "affected_asset": "individuals' biometric identity, national security",
       "policy_domain": "security",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "face/voice generation and sensitive scene generation tools",
       "interpretation_notes": "Para. 1 separately requires periodic review, assessment and verification of generative/synthetic algorithm mechanisms.",
       "ambiguity": "medium",
@@ -153,7 +236,9 @@
       "purpose": "traceability of synthetic content",
       "affected_asset": "information provenance",
       "policy_domain": "transparency",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "deep synthesis services",
       "interpretation_notes": "Basis for the 'implicit label' (metadata/watermark) regime later specified in CN_AIGC_Labeling_2025 Art. 5 and GB 45438-2025.",
       "ambiguity": "low",
@@ -179,7 +264,9 @@
       "purpose": "prevent deception about synthetic content",
       "affected_asset": "public trust, personal identity",
       "policy_domain": "transparency",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "chatbots, writing assistants, voice synthesis, face/body synthesis, immersive realistic scenes",
       "interpretation_notes": "Items (4) immersive realistic scenes and (5) other services significantly generating/altering content were truncated. 'Explicit label' rules elaborated in CN_AIGC_Labeling_2025.",
       "ambiguity": "medium",
@@ -205,7 +292,9 @@
       "purpose": "preserve integrity of provenance labels",
       "affected_asset": "content provenance",
       "policy_domain": "content_integrity",
-      "applicable_regions": ["CN"],
+      "applicable_regions": [
+        "CN"
+      ],
       "applicable_systems": "any deep-synthesis-labelled content",
       "interpretation_notes": "Applies to everyone, not just providers.",
       "ambiguity": "low",

@@ -19,6 +19,18 @@
     "general",
     "ai_developers"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States › California",
+    "regulation": "Binding law · transparency and incident reporting for frontier developers",
+    "culture": "US state-level consumer-protection and anti-discrimination tradition (civil-rights law, AG enforcement), producing a patchwork of state rules under pressure from federal pre-emption efforts. California's tech-industry home state: transparency-over-liability compromise.",
+    "use_cases": [
+      "frontier model development",
+      "general-purpose / foundation models"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2026-01-01",

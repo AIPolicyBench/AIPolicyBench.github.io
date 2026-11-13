@@ -19,6 +19,19 @@
     "general",
     "technology"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › Google",
+    "regulation": "Self-regulation · corporate principles",
+    "culture": "US big-tech corporate governance: high-level principles, product review processes; 2025 revision dropped explicit weapons/surveillance pledges.",
+    "use_cases": [
+      "general AI lifecycle",
+      "general-purpose / foundation models",
+      "national security & defence"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2025-02-04",

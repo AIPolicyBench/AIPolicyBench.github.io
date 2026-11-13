@@ -20,6 +20,20 @@
   "industry_scope": [
     "public_sector"
   ],
+  "locale_context": {
+    "language": [
+      "German",
+      "French",
+      "English"
+    ],
+    "region": "Europe › Switzerland (federal)",
+    "regulation": "Government guidance · internal rules for federal staff",
+    "culture": "Swiss federal, multilingual (DE/FR/IT/EN) administration culture: pragmatic, decentralised, strong official-secrecy and data-protection norms.",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "public-sector & government use"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2024-01-18",

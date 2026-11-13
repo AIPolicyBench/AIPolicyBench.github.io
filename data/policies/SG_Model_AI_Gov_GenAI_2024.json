@@ -18,6 +18,19 @@
   "industry_scope": [
     "general"
   ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Southeast Asia › Singapore",
+    "regulation": "Soft law · voluntary governance framework with testing tools (AI Verify)",
+    "culture": "Singaporean pragmatic, pro-business governance: practical, testing-led voluntary frameworks developed with industry; trusted-hub positioning.",
+    "use_cases": [
+      "generative AI & chatbots",
+      "general-purpose / foundation models",
+      "synthetic media & deepfakes"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2024-05-30",

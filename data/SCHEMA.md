@@ -22,6 +22,15 @@ Lists use `[]` when empty.
   "geo_constraints": "AI systems placed on the EU market or whose output is used in the EU (extraterritorial)",
   "industry_scope": ["general"],             // e.g. general | finance | healthcare | employment | public_sector | ...
 
+  // Locale context (the five locale factors: Language, Region, Regulation, Culture, Use Case)
+  "locale_context": {
+    "language": ["Bulgarian", "...", "English"],          // language names of the official texts
+    "region": "Europe › European Union",                   // macro-region › specific place
+    "regulation": "Binding law · horizontal, risk-based product regulation",   // legal force · regulatory approach
+    "culture": "EU rights-based, precautionary regulatory tradition ...",      // governance/cultural context shaping interpretation (compiler's interpretation)
+    "use_cases": ["biometric identification & categorisation", "employment & HR decisions"]  // AI use cases the policy targets
+  },
+
   // Lifecycle
   "status": "enforceable",                   // draft | provisional | enforceable | superseded | incomplete | voluntary | proposed | lapsed | revoked
   "binding": true,                           // legally binding?

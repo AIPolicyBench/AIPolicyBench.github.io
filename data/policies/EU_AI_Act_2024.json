@@ -41,6 +41,48 @@
   "industry_scope": [
     "general"
   ],
+  "locale_context": {
+    "language": [
+      "Bulgarian",
+      "Czech",
+      "Danish",
+      "German",
+      "Greek",
+      "English",
+      "Spanish",
+      "Estonian",
+      "Finnish",
+      "French",
+      "Irish",
+      "Croatian",
+      "Hungarian",
+      "Italian",
+      "Lithuanian",
+      "Latvian",
+      "Maltese",
+      "Dutch",
+      "Polish",
+      "Portuguese",
+      "Romanian",
+      "Slovak",
+      "Slovenian",
+      "Swedish"
+    ],
+    "region": "Europe › European Union",
+    "regulation": "Binding law · horizontal, risk-based product regulation (prohibitions, high-risk conformity, transparency, GPAI duties)",
+    "culture": "EU rights-based, precautionary regulatory tradition: fundamental rights (Charter), product-safety style conformity assessment and strong data-protection culture; compliance read through harmonised standards and regulator guidance.",
+    "use_cases": [
+      "biometric identification & categorisation",
+      "employment & HR decisions",
+      "credit & essential services",
+      "education & exams",
+      "law enforcement & migration",
+      "critical infrastructure",
+      "generative AI & chatbots",
+      "synthetic media & deepfakes",
+      "general-purpose / foundation models"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2024-08-01",

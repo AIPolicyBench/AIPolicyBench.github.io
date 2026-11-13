@@ -20,6 +20,18 @@
     "public_sector",
     "research"
   ],
+  "locale_context": {
+    "language": [
+      "Japanese"
+    ],
+    "region": "East Asia › Japan",
+    "regulation": "Binding law · promotion-oriented framework (no penalties)",
+    "culture": "Japanese soft-law, consensus-oriented governance: promote R&D and use, rely on cooperation and 'agile governance', with government guidance and naming rather than sanctions.",
+    "use_cases": [
+      "general AI lifecycle",
+      "public-sector & government use"
+    ]
+  },
   "status": "enforceable",
   "binding": true,
   "effective_date": "2025-06-04",

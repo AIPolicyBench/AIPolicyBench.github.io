@@ -20,6 +20,13 @@
       ["geo_constraints", "Where the rule applies", "EU market"],
       ["industry_scope", "Some rules are sector-specific", "healthcare / finance / general"],
     ]],
+    ["Locale context", [
+      ["locale_context.language", "Languages of the official texts", "English, Chinese (Traditional)"],
+      ["locale_context.region", "Macro-region › specific place", "Europe › European Union"],
+      ["locale_context.regulation", "Legal force · regulatory approach", "Binding law · horizontal, risk-based"],
+      ["locale_context.culture", "Governance / cultural context that shapes how the policy is read (compiler's interpretation)", "rights-based, precautionary tradition"],
+      ["locale_context.use_cases", "AI use cases the policy targets", "employment & HR decisions; deepfakes"],
+    ]],
     ["Lifecycle", [
       ["status", "The policy may not yet be authoritative", "draft / provisional / enforceable / superseded / incomplete"],
       ["binding", "Legally binding or voluntary", "true"],
@@ -115,10 +122,12 @@
     const p = policyById[id];
     return p ? `<a href="#/policy/${encodeURIComponent(id)}">${esc(p.short_name || p.policy_name)}</a>` : esc(id);
   }
+  const lc = (p) => p.locale_context || {};
+  const macro = (p) => String(lc(p).region || "").split(" › ")[0];
   const yearOf = (d) => (d ? String(d).slice(0, 4) : "");
 
   // ---------- state ----------
-  const pf = { q: "", jur: "", type: "", status: "", domain: "", binding: "", sort: "effective_date", dir: -1 };
+  const pf = { q: "", jur: "", region: "", usecase: "", type: "", status: "", domain: "", binding: "", sort: "effective_date", dir: -1 };
   const cf = { q: "", modality: "", domain: "", ambiguity: "", policy: "", verbatim: "" };
 
   // ---------- views ----------
@@ -151,6 +160,8 @@
         <select id="type" aria-label="Policy type">${opts(P.map((p) => p.policy_type), pf.type, "All types")}</select>
         <select id="status" aria-label="Status">${opts(P.map((p) => p.status), pf.status, "All statuses")}</select>
         <select id="domain" aria-label="Domain">${opts(domains, pf.domain, "All domains")}</select>
+        <select id="region" aria-label="Region">${opts(P.map(macro), pf.region, "All regions")}</select>
+        <select id="usecase" aria-label="Use case">${opts(P.flatMap((p) => arr(lc(p).use_cases)), pf.usecase, "All use cases")}</select>
         <select id="binding" aria-label="Binding"><option value="">Binding + voluntary</option>
           <option value="true"${pf.binding === "true" ? " selected" : ""}>Binding only</option>
           <option value="false"${pf.binding === "false" ? " selected" : ""}>Non-binding only</option></select>
@@ -176,8 +187,9 @@
         (!pf.jur || p.jurisdiction === pf.jur) && (!pf.type || p.policy_type === pf.type) &&
         (!pf.status || p.status === pf.status) && (!pf.domain || arr(p.policy_domain).includes(pf.domain)) &&
         (!pf.binding || String(p.binding) === pf.binding) &&
+        (!pf.region || macro(p) === pf.region) && (!pf.usecase || arr(lc(p).use_cases).includes(pf.usecase)) &&
         (!q || JSON.stringify([p.policy_id, p.policy_name, p.short_name, p.issuing_authority, p.country_region, p.regulatory_regime,
-          p.objective, p.principles, p.covered_entities, p.covered_systems]).toLowerCase().includes(q)));
+          p.objective, p.principles, p.covered_entities, p.covered_systems, p.locale_context]).toLowerCase().includes(q)));
       const key = pf.sort;
       rows.sort((a, b) => {
         const av = key === "clauses" ? arr(a.clauses).length : String(a[key] ?? "");
@@ -190,7 +202,7 @@
           <td class="name"><a href="#/policy/${encodeURIComponent(p.policy_id)}">${esc(p.short_name || p.policy_name)}</a>
             <span class="sub">${esc(p.issuing_authority || "")}</span></td>
           <td>${esc(TYPE_LABEL[p.policy_type] || p.policy_type || "")}</td>
-          <td>${esc(p.jurisdiction || "")}</td>
+          <td>${esc(p.jurisdiction || "")}<span class="sub">${esc(macro(p))}</span></td>
           <td>${statusChip(p.status)}</td>
           <td class="mono date">${esc(p.effective_date || "—")}</td>
           <td class="hide-sm">${arr(p.policy_domain).slice(0, 3).map((d) => chip(words(d))).join("")}</td>
@@ -204,7 +216,7 @@
     };
     let lastRows = P;
     const bind = (id, k) => document.getElementById(id).addEventListener("input", (e) => { pf[k] = e.target.value; draw(); });
-    bind("q", "q"); bind("jur", "jur"); bind("type", "type"); bind("status", "status"); bind("domain", "domain"); bind("binding", "binding");
+    bind("q", "q"); bind("jur", "jur"); bind("type", "type"); bind("status", "status"); bind("domain", "domain"); bind("binding", "binding"); bind("region", "region"); bind("usecase", "usecase");
     document.querySelectorAll("th.sortable").forEach((th) => th.addEventListener("click", () => {
       if (pf.sort === th.dataset.sort) pf.dir *= -1; else { pf.sort = th.dataset.sort; pf.dir = 1; }
       draw();
@@ -233,6 +245,7 @@
         ${chip(p.policy_id, "mono")}</div>
       <p class="objective">${esc(p.objective || "")}</p>
       ${prov.notes ? `<p class="note"><strong>Compiler's notes:</strong> ${esc(prov.notes)}</p>` : ""}
+      ${localeBlock(p)}
       <h2>Policy attributes</h2>
       <div class="groups">
         ${group("Identity", ["policy_id", "policy_name", "short_name", "policy_type", "source_uri", "issuing_authority"])}
@@ -256,6 +269,19 @@
       <h2>Clauses (${arr(p.clauses).length})</h2>
       ${arr(p.clauses).map((c) => clauseCard(c, false)).join("")}`;
     window.scrollTo(0, 0);
+  }
+
+  function localeBlock(p) {
+    const c = lc(p);
+    if (!p.locale_context) return "";
+    return `<h2>Locale context</h2>
+      <section class="group wide locale"><dl class="attrs wide">
+        <dt>Language</dt><dd>${isEmpty(c.language) ? nul : arr(c.language).map((x) => chip(x)).join("")}</dd>
+        <dt>Region</dt><dd>${val(c.region)}</dd>
+        <dt>Regulation</dt><dd>${val(c.regulation)}</dd>
+        <dt>Culture</dt><dd>${val(c.culture)} <span class="chip warn" title="Interpretive field written by the compiler">interpretation</span></dd>
+        <dt>Use case</dt><dd>${isEmpty(c.use_cases) ? nul : arr(c.use_cases).map((x) => `<a class="chip accent" href="#/" data-usecase="${esc(x)}">${esc(x)}</a>`).join("")}</dd>
+      </dl></section>`;
   }
 
   function clauseCard(c, showPolicy) {
@@ -367,7 +393,8 @@
     const cols = ["policy_id", "policy_name", "short_name", "policy_type", "source_uri", "issuing_authority", "jurisdiction", "country_region",
       "language", "official_languages", "regulatory_regime", "geo_constraints", "industry_scope", "status", "binding", "effective_date",
       "expiration_date", "version", "last_updated", "covered_entities", "covered_systems", "covered_activities", "exceptions", "conditions",
-      "objective", "policy_domain", "principles", "parent_policy", "related_policies", "conflict_rule"];
+      "objective", "policy_domain", "principles", "parent_policy", "related_policies", "conflict_rule",
+      "locale_context.language", "locale_context.region", "locale_context.regulation", "locale_context.culture", "locale_context.use_cases"];
     const cell = (v) => {
       if (v == null) return "";
       if (Array.isArray(v)) v = v.map((x) => (x && typeof x === "object" ? `${x.relation || ""}:${x.policy || ""}` : x)).join("; ");
@@ -375,13 +402,19 @@
       v = String(v);
       return /[",\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v;
     };
-    const csv = [cols.join(",")].concat(rows.map((p) => cols.map((c) => cell(p[c])).join(","))).join("\n");
+    const get = (p, c) => c.startsWith("locale_context.") ? lc(p)[c.slice(15)] : p[c];
+    const csv = [cols.join(",")].concat(rows.map((p) => cols.map((c) => cell(get(p, c))).join(","))).join("\n");
     const a = document.createElement("a");
     a.href = URL.createObjectURL(new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8" }));
     a.download = "ai-policies.csv";
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
+
+  document.addEventListener("click", (e) => {
+    const u = e.target.closest("[data-usecase]");
+    if (u) { e.preventDefault(); Object.assign(pf, { q: "", jur: "", type: "", status: "", domain: "", binding: "", region: "" }); pf.usecase = u.dataset.usecase; if (location.hash === "#/" || location.hash === "") route(); else location.hash = "#/"; }
+  });
 
   // ---------- router ----------
   function route() {

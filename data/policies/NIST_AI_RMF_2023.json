@@ -7,40 +7,120 @@
   "issuing_authority": "National Institute of Standards and Technology (NIST), U.S. Department of Commerce",
   "jurisdiction": "US-Federal",
   "country_region": "United States (voluntary; used internationally)",
-  "language": ["en"],
-  "official_languages": ["en"],
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
   "regulatory_regime": "Voluntary U.S. federal AI risk management guidance (National Artificial Intelligence Initiative Act of 2020 mandate)",
   "geo_constraints": "None; voluntary framework intended for any organization designing, developing, deploying or using AI systems",
-  "industry_scope": ["general"],
+  "industry_scope": [
+    "general"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States (federal, used globally)",
+    "regulation": "Voluntary framework · risk-management guidance",
+    "culture": "US standards-body culture: voluntary, consensus-driven, technically grounded and sector-neutral; widely referenced by industry and other jurisdictions.",
+    "use_cases": [
+      "general AI lifecycle"
+    ]
+  },
   "status": "voluntary",
   "binding": false,
   "effective_date": "2023-01-26",
   "key_dates": [
-    {"date": "2023-01-26", "event": "AI RMF 1.0 (NIST AI 100-1) released, with companion AI RMF Playbook"},
-    {"date": "2024-07-26", "event": "Generative AI Profile (NIST AI 600-1) published as a cross-sectoral profile of the AI RMF"},
-    {"date": "2025-07", "event": "White House 'America's AI Action Plan' directs NIST to revise the AI RMF (incl. removing references to misinformation, DEI and climate change); NIST page states revision underway, no draft published as of Nov 2026"}
+    {
+      "date": "2023-01-26",
+      "event": "AI RMF 1.0 (NIST AI 100-1) released, with companion AI RMF Playbook"
+    },
+    {
+      "date": "2024-07-26",
+      "event": "Generative AI Profile (NIST AI 600-1) published as a cross-sectoral profile of the AI RMF"
+    },
+    {
+      "date": "2025-07",
+      "event": "White House 'America's AI Action Plan' directs NIST to revise the AI RMF (incl. removing references to misinformation, DEI and climate change); NIST page states revision underway, no draft published as of Nov 2026"
+    }
   ],
   "expiration_date": null,
   "version": "AI RMF 1.0, NIST AI 100-1, January 2023",
   "last_updated": "2023-01-26",
-  "covered_entities": ["AI actors across the AI lifecycle (designers, developers, deployers, operators, evaluators, users) in any organization"],
-  "covered_systems": ["AI systems (engineered or machine-based systems that generate outputs such as predictions, recommendations or decisions)"],
-  "covered_activities": ["design", "development", "deployment", "use", "evaluation", "monitoring", "decommissioning"],
+  "covered_entities": [
+    "AI actors across the AI lifecycle (designers, developers, deployers, operators, evaluators, users) in any organization"
+  ],
+  "covered_systems": [
+    "AI systems (engineered or machine-based systems that generate outputs such as predictions, recommendations or decisions)"
+  ],
+  "covered_activities": [
+    "design",
+    "development",
+    "deployment",
+    "use",
+    "evaluation",
+    "monitoring",
+    "decommissioning"
+  ],
   "exceptions": [],
-  "conditions": ["Voluntary; organizations select and tailor outcomes (subcategories) based on context, risk tolerance and resources"],
+  "conditions": [
+    "Voluntary; organizations select and tailor outcomes (subcategories) based on context, risk tolerance and resources"
+  ],
   "objective": "Provide a voluntary, rights-preserving, non-sector-specific framework to help organizations manage AI risks and promote trustworthy and responsible development and use of AI systems, structured around the GOVERN, MAP, MEASURE and MANAGE functions.",
-  "policy_domain": ["safety", "governance", "accountability", "transparency", "fairness", "privacy", "security"],
-  "principles": ["valid and reliable", "safe", "secure and resilient", "accountable and transparent", "explainable and interpretable", "privacy-enhanced", "fair with harmful bias managed"],
+  "policy_domain": [
+    "safety",
+    "governance",
+    "accountability",
+    "transparency",
+    "fairness",
+    "privacy",
+    "security"
+  ],
+  "principles": [
+    "valid and reliable",
+    "safe",
+    "secure and resilient",
+    "accountable and transparent",
+    "explainable and interpretable",
+    "privacy-enhanced",
+    "fair with harmful bias managed"
+  ],
   "parent_policy": null,
   "related_policies": [
-    {"policy": "NIST_AI_600_1_2024", "relation": "complements"},
-    {"policy": "ISO_IEC_42001_2023", "relation": "complements"},
-    {"policy": "ISO_IEC_23894_2023", "relation": "overlaps_with"},
-    {"policy": "OECD_AI_Principles_2019", "relation": "overlaps_with"},
-    {"policy": "US_EO_14110_2023", "relation": "complements"},
-    {"policy": "US_AI_Action_Plan_2025", "relation": "amended_by"},
-    {"policy": "US_OMB_M_25_21", "relation": "complements"},
-    {"policy": "CO_SB24_205", "relation": "complements"}
+    {
+      "policy": "NIST_AI_600_1_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "ISO_IEC_42001_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "ISO_IEC_23894_2023",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "US_EO_14110_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "US_AI_Action_Plan_2025",
+      "relation": "amended_by"
+    },
+    {
+      "policy": "US_OMB_M_25_21",
+      "relation": "complements"
+    },
+    {
+      "policy": "CO_SB24_205",
+      "relation": "complements"
+    }
   ],
   "conflict_rule": "Voluntary and non-binding; does not supersede applicable law. GOVERN 1.1 expects legal and regulatory requirements to be understood and managed, so binding law prevails.",
   "record_provenance": {
@@ -74,7 +154,10 @@
       "purpose": "legal compliance as a foundation of AI risk governance",
       "affected_asset": "organizational compliance posture",
       "policy_domain": "governance",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "any AI system",
       "interpretation_notes": "Framework outcomes are phrased as states ('are understood') rather than imperatives; modality SHOULD reflects the voluntary nature.",
       "ambiguity": "low",
@@ -100,7 +183,10 @@
       "purpose": "minimize potential negative impacts of AI systems",
       "affected_asset": "people and organizations affected by AI systems",
       "policy_domain": "safety",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "any AI system",
       "interpretation_notes": "Cultural/organizational outcome; measurable evidence is left to the Playbook's suggested actions.",
       "ambiguity": "medium",
@@ -126,7 +212,10 @@
       "purpose": "manage supply-chain and third-party rights risks",
       "affected_asset": "third-party intellectual property and other rights; organizational systems",
       "policy_domain": "governance",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "AI systems using third-party software, data or models",
       "interpretation_notes": "Verbatim from Table 1; GOVERN 6.2 (contingency processes for third-party failures) is the companion outcome.",
       "ambiguity": "low",
@@ -152,7 +241,10 @@
       "purpose": "ensure AI systems are safe and fail safely",
       "affected_asset": "human life, health, property and the environment",
       "policy_domain": "safety",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "any AI system to be deployed",
       "interpretation_notes": "Combines a recurring evaluation outcome with a pre-deployment demonstration; 'risk tolerance' is organization-defined (GOVERN 1.3).",
       "ambiguity": "medium",
@@ -178,7 +270,10 @@
       "purpose": "avoid developing or deploying systems that do not meet objectives or carry unacceptable risk",
       "affected_asset": "organization and affected individuals",
       "policy_domain": "governance",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "any AI system",
       "interpretation_notes": "Commonly read as the framework's explicit go/no-go gate.",
       "ambiguity": "low",
@@ -204,7 +299,10 @@
       "purpose": "contain harm from malfunctioning or misused AI",
       "affected_asset": "users, affected communities, organizational operations",
       "policy_domain": "safety",
-      "applicable_regions": ["US", "International"],
+      "applicable_regions": [
+        "US",
+        "International"
+      ],
       "applicable_systems": "any deployed AI system",
       "interpretation_notes": "Often called the 'kill switch' subcategory in secondary literature.",
       "ambiguity": "low",

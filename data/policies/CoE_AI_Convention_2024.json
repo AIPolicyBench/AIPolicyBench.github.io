@@ -20,6 +20,20 @@
     "general",
     "public_sector"
   ],
+  "locale_context": {
+    "language": [
+      "English",
+      "French"
+    ],
+    "region": "Europe › Council of Europe (46 states + non-member signatories)",
+    "regulation": "Binding treaty (once in force) · framework obligations implemented through national law",
+    "culture": "Council of Europe human-rights, democracy and rule-of-law tradition (ECHR); framework treaty leaves wide margin to Parties, private-sector coverage optional.",
+    "use_cases": [
+      "public-sector & government use",
+      "democratic processes & elections",
+      "general AI lifecycle"
+    ]
+  },
   "status": "provisional",
   "binding": true,
   "effective_date": null,

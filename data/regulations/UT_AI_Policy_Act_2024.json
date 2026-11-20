@@ -3,6 +3,7 @@
   "policy_name": "Utah Artificial Intelligence Policy Act (SB 149, 2024 General Session, 'Artificial Intelligence Amendments'), as amended",
   "short_name": "Utah AI Policy Act",
   "policy_type": "statute",
+  "category": "regulation",
   "source_uri": "https://le.utah.gov/~2024/bills/static/SB0149.html",
   "issuing_authority": "Utah State Legislature (signed by Governor Spencer Cox)",
   "jurisdiction": "US-UT",
@@ -61,6 +62,79 @@
     {
       "date": "2027-07-01",
       "event": "Scheduled repeal (sunset) of Chapter 72 per SB 332"
+    }
+  ],
+  "versions": [
+    {
+      "version": "SB 149",
+      "date": "2024-03-13",
+      "kind": "release",
+      "title": "Enacted",
+      "summary": "Disclosure duties for generative AI and creation of the Office of AI Policy and AI Learning Laboratory.",
+      "changes": [
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Generative AI disclosure duties"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Office of AI Policy; AI Learning Laboratory"
+        },
+        {
+          "aspect": "timeline",
+          "change": "added",
+          "detail": "Sunset 2025-05-01"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "SB 332 / SB 226",
+      "date": "2025-03-25",
+      "kind": "amendment",
+      "title": "Amended by SB 332 and SB 226",
+      "summary": "Sunset extended; disclosure duties narrowed with a safe harbour.",
+      "changes": [
+        {
+          "aspect": "timeline",
+          "change": "revised",
+          "detail": "Sunset extended to 2027-07-01"
+        },
+        {
+          "aspect": "transparency",
+          "change": "revised",
+          "detail": "Disclosure narrowed to clear requests / high-risk interactions"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "Safe harbour"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "HB 320",
+      "date": "2026-03-18",
+      "kind": "amendment",
+      "title": "Amended by HB 320",
+      "summary": "Office of Artificial Intelligence Policy amendments.",
+      "changes": [
+        {
+          "aspect": "governance",
+          "change": "revised",
+          "detail": "Office of AI Policy amended"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": "Per legislative tracker; unverified on le.utah.gov."
     }
   ],
   "expiration_date": "2027-07-01",

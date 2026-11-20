@@ -1,0 +1,195 @@
+{
+  "taxonomy_id": "DeepMind_LM_Risks_2021",
+  "name": "Ethical and social risks of harm from Language Models",
+  "short_name": "DeepMind 2021 (Weidinger et al.)",
+  "publisher": "DeepMind (Weidinger et al.)",
+  "year": 2021,
+  "version": "arXiv:2112.04359",
+  "kind": "language-model harm taxonomy",
+  "source_uri": "https://arxiv.org/abs/2112.04359",
+  "paper_uri": "https://arxiv.org/abs/2112.04359",
+  "description": "Six risk areas and 21 risks of harm from large language models. The MIT AI Risk Repository's domain taxonomy is adapted from it.",
+  "levels": [
+    "Risk area",
+    "Risk"
+  ],
+  "is_hub": false,
+  "related_documents": [],
+  "categories": [
+    {
+      "id": "dm2021-1",
+      "name": "Discrimination, Exclusion and Toxicity",
+      "description": null,
+      "children": [
+        {
+          "id": "dm2021-1-1",
+          "name": "Social stereotypes and unfair discrimination",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-1-2",
+          "name": "Exclusionary norms",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-1-3",
+          "name": "Toxic language",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-1-4",
+          "name": "Lower performance for some languages and social groups",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "dm2021-2",
+      "name": "Information Hazards",
+      "description": null,
+      "children": [
+        {
+          "id": "dm2021-2-1",
+          "name": "Compromising privacy by leaking private information",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-2-2",
+          "name": "Compromising privacy by correctly inferring private information",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-2-3",
+          "name": "Risks from leaking or correctly inferring sensitive information",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "dm2021-3",
+      "name": "Misinformation Harms",
+      "description": null,
+      "children": [
+        {
+          "id": "dm2021-3-1",
+          "name": "Disseminating false or misleading information",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-3-2",
+          "name": "Causing material harm by disseminating false or poor information e.g. in medicine or law",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-3-3",
+          "name": "Leading users to perform unethical or illegal actions",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "dm2021-4",
+      "name": "Malicious Uses",
+      "description": null,
+      "children": [
+        {
+          "id": "dm2021-4-1",
+          "name": "Making disinformation cheaper and more effective",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-4-2",
+          "name": "Facilitating fraud, scams and more targeted manipulation",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-4-3",
+          "name": "Assisting code generation for cyber attacks, weapons, or malicious use",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-4-4",
+          "name": "Illegitimate surveillance and censorship",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "dm2021-5",
+      "name": "Human-Computer Interaction Harms",
+      "description": null,
+      "children": [
+        {
+          "id": "dm2021-5-1",
+          "name": "Anthropomorphising systems can lead to overreliance or unsafe use",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-5-2",
+          "name": "Creating avenues for exploiting user trust, nudging or manipulation",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-5-3",
+          "name": "Promoting harmful stereotypes by implying gender or ethnic identity",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "dm2021-6",
+      "name": "Automation, Access, and Environmental Harms",
+      "description": null,
+      "children": [
+        {
+          "id": "dm2021-6-1",
+          "name": "Environmental harms from operating LMs",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-6-2",
+          "name": "Increasing inequality and negative effects on job quality",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-6-3",
+          "name": "Undermining creative economies",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "dm2021-6-4",
+          "name": "Disparate access to benefits due to hardware, software, skill constraints",
+          "description": null,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "record_provenance": {
+    "source": null,
+    "license": null,
+    "imported_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Hand-authored by the compiler from the publication. Area and risk names from the paper's taxonomy table, from the compiler's knowledge; arxiv.org could not be reached to re-check wording."
+  }
+}

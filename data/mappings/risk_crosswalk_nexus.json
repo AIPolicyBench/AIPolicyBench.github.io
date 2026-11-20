@@ -1,0 +1,873 @@
+{
+  "description": "Category-to-category mappings between risk taxonomies, imported from AI Atlas Nexus. 'broader' means the target is broader than the source.",
+  "source": "https://github.com/IBM/ai-atlas-nexus/tree/539cd38d594850431b3707c65a7e692bbc159edc/src/ai_atlas_nexus/data/knowledge_graph/mappings",
+  "license": "Apache-2.0 (AI Atlas Nexus data)",
+  "imported_on": "2026-11-20",
+  "edges": [
+    {
+      "from": "atlas-attribute-inference-attack",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-bypassing-learning",
+      "to": "mit-ai-risk-subdomain-4.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-confidential-data-in-prompt",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-confidential-information-in-data",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-copyright-infringement",
+      "to": "mit-ai-risk-subdomain-6.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-data-acquisition",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-data-bias",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-data-contamination",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-data-curation",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-data-poisoning",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-data-provenance",
+      "to": "mit-ai-risk-subdomain-6.5",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-data-transfer",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-data-transparency",
+      "to": "mit-ai-risk-subdomain-6.5",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-data-usage",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-decision-bias",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-evasion-attack",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-exposing-personal-information",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-extraction-attack",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-generated-content-ownership",
+      "to": "mit-ai-risk-subdomain-6.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-hallucination",
+      "to": "mit-ai-risk-subdomain-3.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-harmful-code-generation",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-harmful-output",
+      "to": "mit-ai-risk-subdomain-1.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-human-exploitation",
+      "to": "mit-ai-risk-subdomain-6.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-impact-on-affected-communities",
+      "to": "mit-ai-risk-subdomain-1.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-impact-on-cultural-diversity",
+      "to": "mit-ai-risk-subdomain-6.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-impact-on-jobs",
+      "to": "mit-ai-risk-subdomain-6.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-impact-on-the-environment",
+      "to": "mit-ai-risk-subdomain-6.6",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-improper-retraining",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-improper-usage",
+      "to": "mit-ai-risk-subdomain-5.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-inaccessible-training-data",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-incomplete-advice",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-incomplete-usage-definition",
+      "to": "mit-ai-risk-subdomain-6.5",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-incorrect-risk-testing",
+      "to": "mit-ai-risk-subdomain-6.5",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-ip-information-in-prompt",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-jailbreaking",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-lack-of-data-transparency",
+      "to": "mit-ai-risk-subdomain-6.5",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-lack-of-model-transparency",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-lack-of-system-transparency",
+      "to": "mit-ai-risk-subdomain-6.5",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-lack-of-testing-diversity",
+      "to": "mit-ai-risk-subdomain-6.5",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-legal-accountability",
+      "to": "mit-ai-risk-subdomain-6.5",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-membership-inference-attack",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-non-disclosure",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-nonconsensual-use",
+      "to": "mit-ai-risk-subdomain-4.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-output-bias",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-over-or-under-reliance",
+      "to": "mit-ai-risk-subdomain-5.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-personal-information-in-data",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-personal-information-in-prompt",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-plagiarism",
+      "to": "mit-ai-risk-subdomain-4.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-poor-model-accuracy",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-prompt-injection",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-prompt-leaking",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-prompt-priming",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-reidentification",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-revealing-confidential-information",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-spreading-disinformation",
+      "to": "mit-ai-risk-subdomain-4.1",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-toxic-output",
+      "to": "mit-ai-risk-subdomain-1.2",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-unexplainable-output",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-unreliable-source-attribution",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-unrepresentative-data",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-unrepresentative-risk-testing",
+      "to": "mit-ai-risk-subdomain-6.5",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-untraceable-attribution",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-attribute-inference-attack",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-attribute-inference-attack",
+      "to": "nist-information-security",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-confidential-data-in-prompt",
+      "to": "nist-intellectual-property",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-confidential-information-in-data",
+      "to": "nist-intellectual-property",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-copyright-infringement",
+      "to": "nist-intellectual-property",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-dangerous-use",
+      "to": "nist-cbrn-information-or-capabilities",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-acquisition",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-bias",
+      "to": "nist-harmful-bias-and-homogenization",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-contamination",
+      "to": "nist-information-security",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-contamination",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-curation",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-poisoning",
+      "to": "nist-information-security",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-privacy-rights",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-provenance",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-transfer",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-transparency",
+      "to": "nist-information-integrity",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-transparency",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-usage-rights",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-usage-rights",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-usage-rights",
+      "to": "nist-intellectual-property",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-decision-bias",
+      "to": "nist-harmful-bias-and-homogenization",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-evasion-attack",
+      "to": "nist-information-security",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-exposing-personal-information",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-extraction-attack",
+      "to": "nist-information-security",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-generated-content-ownership",
+      "to": "nist-intellectual-property",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-hallucination",
+      "to": "nist-confabulation",
+      "relation": "exact"
+    },
+    {
+      "from": "atlas-harmful-code-generation",
+      "to": "nist-dangerous-violent-or-hateful-content",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-harmful-code-generation",
+      "to": "nist-information-security",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-harmful-output",
+      "to": "nist-dangerous-violent-or-hateful-content",
+      "relation": "close"
+    },
+    {
+      "from": "atlas-harmful-output",
+      "to": "nist-cbrn-information-or-capabilities",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-harmful-output",
+      "to": "nist-data-privacy",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-harmful-output",
+      "to": "nist-obscene-degrading-and-or-abusive-content",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-human-exploitation",
+      "to": "nist-obscene-degrading-and-or-abusive-content",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-impact-on-affected-communities",
+      "to": "nist-harmful-bias-and-homogenization",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-impact-on-cultural-diversity",
+      "to": "nist-information-integrity",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-impact-on-human-agency",
+      "to": "nist-information-integrity",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-impact-on-the-environment",
+      "to": "nist-environmental-impacts",
+      "relation": "exact"
+    },
+    {
+      "from": "atlas-improper-retraining",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-improper-usage",
+      "to": "nist-human-ai-configuration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-inaccessible-training-data",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-incomplete-advice",
+      "to": "nist-information-integrity",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-incomplete-advice",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-incomplete-usage-definition",
+      "to": "nist-human-ai-configuration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-incorrect-risk-testing",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-ip-information-in-prompt",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-jailbreaking",
+      "to": "nist-information-integrity",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-lack-of-data-transparency",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-lack-of-model-transparency",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-lack-of-system-transparency",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-lack-of-testing-diversity",
+      "to": "nist-information-integrity",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-legal-accountability",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-legal-accountability",
+      "to": "nist-intellectual-property",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-legal-accountability",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-membership-inference-attack",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-model-usage-rights",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-model-usage-rights",
+      "to": "nist-intellectual-property",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-model-usage-rights",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-non-disclosure",
+      "to": "nist-human-ai-configuration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-nonconsensual-use",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-output-bias",
+      "to": "nist-harmful-bias-and-homogenization",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-over-or-under-reliance",
+      "to": "nist-human-ai-configuration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-personal-information-in-data",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-personal-information-in-prompt",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-poor-model-accuracy",
+      "to": "nist-human-ai-configuration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-poor-model-accuracy",
+      "to": "nist-information-integrity",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-poor-model-accuracy",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-prompt-injection",
+      "to": "nist-information-security",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-prompt-leaking",
+      "to": "nist-information-security",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-prompt-priming",
+      "to": "nist-information-security",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-reidentification",
+      "to": "nist-data-privacy",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-revealing-confidential-information",
+      "to": "nist-intellectual-property",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-spreading-disinformation",
+      "to": "nist-information-integrity",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-spreading-toxicity",
+      "to": "nist-harmful-bias-and-homogenization",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-toxic-output",
+      "to": "nist-dangerous-violent-or-hateful-content",
+      "relation": "close"
+    },
+    {
+      "from": "atlas-toxic-output",
+      "to": "nist-obscene-degrading-and-or-abusive-content",
+      "relation": "close"
+    },
+    {
+      "from": "atlas-unexplainable-output",
+      "to": "nist-information-integrity",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-unreliable-source-attribution",
+      "to": "nist-information-security",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-unrepresentative-data",
+      "to": "nist-harmful-bias-and-homogenization",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-unrepresentative-data",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-unrepresentative-risk-testing",
+      "to": "nist-value-chain-and-component-integration",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-untraceable-attribution",
+      "to": "nist-information-integrity",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-attribute-inference-attack",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-confidential-data-in-prompt",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-confidential-information-in-data",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-data-acquisition",
+      "to": "llm032025-supply-chain",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-contamination",
+      "to": "llm032025-supply-chain",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-curation",
+      "to": "llm032025-supply-chain",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-poisoning",
+      "to": "llm042025-data-and-model-poisoning",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-provenance",
+      "to": "llm032025-supply-chain",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-data-usage-rights",
+      "to": "llm032025-supply-chain",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-exposing-personal-information",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-hallucination",
+      "to": "llm092025-misinformation",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-harmful-code-generation",
+      "to": "llm092025-misinformation",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-improper-retraining",
+      "to": "llm032025-supply-chain",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-inaccessible-training-data",
+      "to": "llm032025-supply-chain",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-incomplete-advice",
+      "to": "llm092025-misinformation",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-ip-information-in-prompt",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-jailbreaking",
+      "to": "llm01-prompt-injection",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-lack-of-data-transparency",
+      "to": "llm032025-supply-chain",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-membership-inference-attack",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-model-usage-rights",
+      "to": "llm032025-supply-chain",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-over-or-under-reliance",
+      "to": "llm052025-improper-output-handling",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-over-or-under-reliance",
+      "to": "llm062025-excessive-agency",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-personal-information-in-data",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-personal-information-in-prompt",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-prompt-injection",
+      "to": "llm01-prompt-injection",
+      "relation": "exact"
+    },
+    {
+      "from": "atlas-prompt-leaking",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-prompt-priming",
+      "to": "llm01-prompt-injection",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-reidentification",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "related"
+    },
+    {
+      "from": "atlas-revealing-confidential-information",
+      "to": "llm022025-sensitive-information-disclosure",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-spreading-disinformation",
+      "to": "llm092025-misinformation",
+      "relation": "broader"
+    },
+    {
+      "from": "atlas-untraceable-attribution",
+      "to": "llm032025-supply-chain",
+      "relation": "broader"
+    }
+  ]
+}

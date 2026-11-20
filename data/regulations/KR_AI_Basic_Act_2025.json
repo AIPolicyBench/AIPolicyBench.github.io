@@ -3,6 +3,7 @@
   "policy_name": "Framework Act on the Development of Artificial Intelligence and the Establishment of a Foundation for Trust (인공지능 발전과 신뢰 기반 조성 등에 관한 기본법)",
   "short_name": "Korea AI Basic Act",
   "policy_type": "statute",
+  "category": "regulation",
   "source_uri": "https://www.law.go.kr/법령/인공지능발전과신뢰기반조성등에관한기본법",
   "issuing_authority": "National Assembly of the Republic of Korea (competent ministry: Ministry of Science and ICT)",
   "jurisdiction": "KR",
@@ -85,6 +86,91 @@
     {
       "date": "2027-04-21",
       "event": "Law No. 22076 amendments enter into force (pending as of 2026-11-13)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Law 20676",
+      "date": "2025-01-21",
+      "kind": "release",
+      "title": "Promulgated",
+      "summary": "AI Basic Act promulgated; in force one year later.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "High-impact AI and generative AI duties"
+        },
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Notice and labelling for generative AI"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "National AI Committee; AI Safety Institute"
+        },
+        {
+          "aspect": "timeline",
+          "change": "added",
+          "detail": "In force 2026-01-22"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Law 21065",
+      "date": "2025-10-01",
+      "kind": "amendment",
+      "title": "Consequential amendment",
+      "summary": "Government Organization Act amendment.",
+      "changes": [
+        {
+          "aspect": "governance",
+          "change": "revised",
+          "detail": "'Statistics Korea' renamed 'National Data Agency' in Art. 38(1)"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Law 21311",
+      "date": "2026-01-20",
+      "kind": "amendment",
+      "title": "Partial amendment",
+      "summary": "Partial amendment in force 2026-01-22 (some provisions later).",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Provisions incl. Art. 3(5), 17-2, 18, 22-3 revised"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Law 22076",
+      "date": "2026-10-20",
+      "kind": "amendment",
+      "title": "Partial amendment",
+      "summary": "Adds Art. 15-2 on an AI training-data integrated provision system; in force 2027-04-21.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "Art. 15-2 training-data integrated provision system"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

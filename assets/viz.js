@@ -1,4 +1,4 @@
-/* Visualize tab: relationship network, use-case × region heatmap, effective-date timeline.
+/* Visualize tab: policy ↔ risk ↔ regulation bridge, relationship network, use-case × region heatmap, effective-date timeline.
    Exposes window.PolicyViz.render(container, DATA, api). No external dependencies. */
 (function () {
   "use strict";
@@ -17,14 +17,14 @@
   }
   // Legal force: 3 categorical slots (validated all-pairs in the reference palette).
   const FORCES = [
-    { key: "binding", label: "Binding law / directive", cls: "f1" },
-    { key: "soft", label: "Government soft law, standard or framework", cls: "f2" },
-    { key: "self", label: "Corporate / industry self-regulation", cls: "f3" },
+    { key: "binding", label: "Regulation (law, order, bill, treaty)", cls: "f1" },
+    { key: "soft", label: "Policy: government soft law, standard or framework", cls: "f2" },
+    { key: "self", label: "Policy: corporate / industry", cls: "f3" },
   ];
   function forceOf(p) {
+    if (p.category === "regulation") return "binding";
     if (p.policy_type === "internal_policy" || p.jurisdiction === "Organization" || /industry/i.test(String((p.locale_context || {}).region)))
       return "self";
-    if (p.binding === true || ["statute", "regulation", "bill", "executive_order"].includes(p.policy_type)) return "binding";
     return "soft";
   }
   const INACTIVE = new Set(["revoked", "lapsed", "superseded", "proposed", "draft"]);
@@ -126,7 +126,7 @@
 
   // ---- views ----
   function render(root, DATA, api) {
-    const P = DATA.policies;
+    const P = DATA.documents;
     const G = buildGraph(P);
     const name = (p) => p.short_name || p.policy_name;
     const legendForce = FORCES.map((f) => `<span class="lg"><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="5.5" class="node ${f.cls}"/></svg>${esc(f.label)}</span>`).join("") +
@@ -135,16 +135,32 @@
 
     root.innerHTML = `
       <h1>Visualize</h1>
-      <p class="lede">How the catalogued policies relate to each other, which AI use cases each region regulates, and when they took effect.
-        Relationships come from each record's <code>related_policies</code> and <code>parent_policy</code>; regions and use cases from <code>locale_context</code>.</p>
+      <p class="lede">How the three parts of the catalogue connect: <a href="#/">policies</a>, <a href="#/regulations">regulations</a> and the
+        <a href="#/risks">risks</a> they address; then how documents relate to each other, which AI use cases each region covers, and when they took effect.</p>
+
+      <h2>Policies ↔ risks ↔ regulations</h2>
+      <p class="muted">Each line joins a policy (left) or regulation (right) to a risk subdomain of the MIT AI Risk Repository (centre) that
+        at least one of its clauses addresses; thicker lines mean more clauses. Hover or focus a node to trace its links; select it to open it.
+        Clause → risk mappings are the compiler's interpretation.</p>
+      <div class="filters">
+        <label class="muted" for="bdom">Risk domain</label>
+        <select id="bdom" aria-label="Risk domain"><option value="">All 7 domains</option>
+          ${api.risk.hubDomains.map((d) => `<option value="${esc(d.code)}">${esc(d.code)} ${esc(d.name)}</option>`).join("")}</select>
+        <label class="chk"><input type="checkbox" id="bunmapped"> show documents with no mapped clause</label>
+      </div>
+      <div class="legend"><span class="lg"><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="5.5" class="node f2"/></svg>Policy: government soft law, standard or framework</span>
+        <span class="lg"><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="5.5" class="node f3"/></svg>Policy: corporate / industry</span>
+        <span class="lg"><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="5.5" class="node f1"/></svg>Regulation</span>
+        <span class="lg"><svg width="22" height="14" aria-hidden="true"><rect x="1" y="2" width="20" height="10" rx="5" class="bridge-risk"/></svg>Risk subdomain</span></div>
+      <div class="viz-card"><div class="viz-scroll"><svg id="bridge" role="img" aria-label="Links from policies and regulations to the risk subdomains their clauses address"></svg></div></div>
 
       <h2>Relationship network</h2>
       <div class="filters">
         <label class="muted" for="vfocus">Focus on</label>
-        <select id="vfocus" aria-label="Focus on a policy"><option value="">All policies</option>
+        <select id="vfocus" aria-label="Focus on a policy"><option value="">All policies and regulations</option>
           ${P.slice().sort((a, b) => name(a).localeCompare(name(b))).map((p) => `<option value="${esc(p.policy_id)}">${esc(name(p))}</option>`).join("")}</select>
         <label class="chk"><input type="checkbox" id="vpeer" checked> show overlaps / complements</label>
-        <span class="count">${P.length} policies · ${G.edges.length} links within the catalogue</span>
+        <span class="count">${P.filter((p) => p.category === "policy").length} policies + ${P.filter((p) => p.category === "regulation").length} regulations · ${G.edges.length} links within the catalogue</span>
       </div>
       <div class="legend">${legendForce}</div>
       <div class="legend">${legendRel}</div>
@@ -152,14 +168,16 @@
       <div id="egoList"></div>
 
       <h2>Use cases by region</h2>
-      <p class="muted">Number of policies in each region that target a use case. Click a cell to list those policies.</p>
+      <p class="muted">Number of policies and regulations in each region that target a use case. Click a cell to list them.</p>
       <div class="viz-card"><div class="viz-scroll" id="heat"></div></div>
 
       <h2>Timeline of effective dates</h2>
-      <p class="muted">Each dot is one policy at its effective date (or, for proposals, its introduction date where recorded). Colour is legal force.</p>
+      <p class="muted">Each dot is one policy or regulation at its effective date (or, for proposals, its introduction date where recorded). Colour is legal force.</p>
       <div class="legend">${legendForce}</div>
       <div class="viz-card"><div class="viz-scroll"><svg id="tl" role="img" aria-label="Timeline of policy effective dates by region"></svg></div></div>
       <p class="muted" id="tlNote"></p>`;
+
+    bridge(root, P, api);
 
     // ---------- network ----------
     const W = 1180, H = 820;
@@ -244,8 +262,8 @@
       c.addEventListener("mouseleave", () => { paint(); hideTip(); });
       c.addEventListener("focus", () => paint(n.id));
       c.addEventListener("blur", () => paint());
-      c.addEventListener("click", () => { hideTip(); location.hash = "#/policy/" + encodeURIComponent(n.id); });
-      c.addEventListener("keydown", (e) => { if (e.key === "Enter") location.hash = "#/policy/" + encodeURIComponent(n.id); });
+      c.addEventListener("click", () => { hideTip(); location.hash = api.href(n.id); });
+      c.addEventListener("keydown", (e) => { if (e.key === "Enter") location.hash = api.href(n.id); });
     });
     edgeEls.forEach(({ l, line }) => {
       const html = () => `<strong>${esc(name(l.s.p))}</strong> ↔ <strong>${esc(name(l.t.p))}</strong><br>${[...l.e.rels].map((r) => esc(r.replace(/_/g, " "))).join(", ")}`;
@@ -259,11 +277,11 @@
       const p = api.policyById[focus];
       const rows = L.links.filter(({ s, t }) => s.id === focus || t.id === focus).map(({ s, t, e }) => {
         const o = s.id === focus ? t : s;
-        return `<tr><td><a href="#/policy/${encodeURIComponent(o.id)}">${esc(name(o.p))}</a></td><td>${[...e.rels].map((r) => `<span class="chip mono">${esc(r)}</span>`).join("")}</td><td>${esc(o.g)}</td><td>${esc(o.p.status)}</td></tr>`;
+        return `<tr><td><a href="${api.href(o.id)}">${esc(name(o.p))}</a></td><td>${[...e.rels].map((r) => `<span class="chip mono">${esc(r)}</span>`).join("")}</td><td>${esc(o.g)}</td><td>${esc(o.p.status)}</td></tr>`;
       });
       const outside = arr(p.related_policies).filter((r) => r && !r.in_catalogue);
-      box.innerHTML = `<h3>Policies related to <a href="#/policy/${encodeURIComponent(focus)}">${esc(name(p))}</a> (${rows.length} in catalogue)</h3>
-        <div class="table-scroll"><table><thead><tr><th>Policy</th><th>Relation</th><th>Region</th><th>Status</th></tr></thead><tbody>${rows.join("") || '<tr><td colspan="4" class="muted">No links within the catalogue.</td></tr>'}</tbody></table></div>
+      box.innerHTML = `<h3>Documents related to <a href="${api.href(focus)}">${esc(name(p))}</a> (${rows.length} in catalogue)</h3>
+        <div class="table-scroll"><table><thead><tr><th>Policy / regulation</th><th>Relation</th><th>Region</th><th>Status</th></tr></thead><tbody>${rows.join("") || '<tr><td colspan="4" class="muted">No links within the catalogue.</td></tr>'}</tbody></table></div>
         ${outside.length ? `<p class="muted">Also related, not catalogued: ${outside.map((r) => `${esc(r.policy)} (${esc(String(r.relation).replace(/_/g, " "))})`).join("; ")}</p>` : ""}`;
     }
     root.querySelector("#vfocus").addEventListener("input", (e) => { focus = e.target.value; paint(); egoList(); });
@@ -294,7 +312,7 @@
       td.addEventListener("mouseenter", (ev) => showTip(html, ev));
       td.addEventListener("mousemove", (ev) => showTip(html, ev));
       td.addEventListener("mouseleave", hideTip);
-      const go = () => { hideTip(); api.filterByUseCase(td.dataset.u); };
+      const go = () => { hideTip(); api.filterByUseCase(ps.every((p) => p.category === "regulation") ? "regulation" : "policy", td.dataset.u); };
       td.addEventListener("click", go);
       td.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
     });
@@ -331,11 +349,103 @@
         c.addEventListener("mouseenter", (ev) => showTip(html, ev));
         c.addEventListener("mousemove", (ev) => showTip(html, ev));
         c.addEventListener("mouseleave", hideTip);
-        c.addEventListener("click", () => { hideTip(); location.hash = "#/policy/" + encodeURIComponent(d.p.policy_id); });
+        c.addEventListener("click", () => { hideTip(); location.hash = api.href(d.p.policy_id); });
       });
     });
     root.querySelector("#tlNote").textContent = undated.length
       ? `Not shown (no effective date recorded): ${undated.map(name).join(", ")}.` : "";
+  }
+
+  // ---------- policies <-> risk subdomains <-> regulations ----------
+  function bridge(root, P, api) {
+    const I = api.risk;
+    const svg = root.querySelector("#bridge");
+    const name = (p) => p.short_name || p.policy_name;
+    const draw = () => {
+      const dom = root.querySelector("#bdom").value;
+      const showUnmapped = root.querySelector("#bunmapped").checked;
+      while (svg.firstChild) svg.removeChild(svg.firstChild);
+      const subs = I.hubSubdomains.filter((s) => !dom || s.domain.code === dom);
+      const subIdx = new Map(subs.map((s, i) => [s.id, i]));
+      // links: doc -> subdomain with clause counts
+      const linksOf = (p) => I.docRisks(p.policy_id).filter((r) => subIdx.has(r.id));
+      const side = (cat) => {
+        const ds = P.filter((p) => p.category === cat).map((p) => ({ p, ls: linksOf(p) }))
+          .filter((d) => d.ls.length || showUnmapped);
+        // barycentre ordering reduces crossings
+        const bc = (d) => d.ls.length ? d.ls.reduce((a, r) => a + subIdx.get(r.id) * r.n, 0) / d.ls.reduce((a, r) => a + r.n, 0) : 1e9;
+        return ds.sort((a, b) => bc(a) - bc(b) || name(a.p).localeCompare(name(b.p)));
+      };
+      const L = side("policy"), R = side("regulation");
+      const W = 1180, rowH = 22, top = 34;
+      const gapDom = 10;
+      // middle column positions with a small gap between domains
+      const mid = []; let y = top, lastDom = null;
+      subs.forEach((s) => { if (lastDom && s.domain !== lastDom) y += gapDom; mid.push({ s, y }); y += rowH; lastDom = s.domain; });
+      const midH = y - top;
+      const n = Math.max(L.length, R.length, 1);
+      const sideH = Math.max(midH, n * rowH);
+      const H = top + sideH + 16;
+      const place = (list) => { const step = list.length > 1 ? Math.min(rowH * 1.6, (sideH - rowH) / (list.length - 1)) : 0;
+        const off = top + (sideH - step * (list.length - 1)) / 2 - rowH / 2; return list.map((d, i) => ({ ...d, y: off + i * step + rowH / 2 })); };
+      const midOff = (sideH - midH) / 2;
+      mid.forEach((m) => { m.y = m.y + midOff + rowH / 2; });
+      const LP = place(L), RP = place(R);
+      const xL = 300, xR = W - 300, xM0 = W / 2 - 105, xM1 = W / 2 + 105;
+      svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);
+      el("text", { x: xL, y: 16, "text-anchor": "end", class: "bridge-head" }, svg).textContent = `Policies (${L.length})`;
+      el("text", { x: W / 2, y: 16, "text-anchor": "middle", class: "bridge-head" }, svg).textContent = "Risk subdomains (MIT)";
+      el("text", { x: xR, y: 16, "text-anchor": "start", class: "bridge-head" }, svg).textContent = `Regulations (${R.length})`;
+      const gL = el("g", {}, svg), gN = el("g", {}, svg);
+      const midY = new Map(mid.map((m) => [m.s.id, m.y]));
+      const edges = [];
+      const curve = (x1, y1, x2, y2) => `M${x1},${y1} C${(x1 + x2) / 2},${y1} ${(x1 + x2) / 2},${y2} ${x2},${y2}`;
+      [[LP, xL + 8, xM0], [RP, xR - 8, xM1]].forEach(([list, xs, xe]) => list.forEach((d) => d.ls.forEach((r) => {
+        const path = el("path", { d: curve(xs, d.y, xe, midY.get(r.id)), class: "bridge-edge", "stroke-width": Math.min(1 + r.n, 5) }, gL);
+        edges.push({ doc: d.p.policy_id, sub: r.id, path });
+      })));
+      const nodes = [];
+      const docNode = (d, x, anchor) => {
+        const g = el("g", { class: "bridge-node", tabindex: 0, role: "link", "aria-label": `${name(d.p)}: ${d.ls.length} risk subdomains` }, gN);
+        const f = FORCES.find((q) => q.key === forceOf(d.p));
+        el("circle", { cx: x, cy: d.y, r: 5.5, class: `node ${f.cls}${INACTIVE.has(d.p.status) ? " hollow" : ""}` }, g);
+        const label = name(d.p).length > 34 ? name(d.p).slice(0, 33) + "…" : name(d.p);
+        el("text", { x: anchor === "end" ? x - 10 : x + 10, y: d.y + 4, "text-anchor": anchor, class: "bridge-label" + (d.ls.length ? "" : " muted-fill") }, g).textContent = label;
+        el("rect", { x: anchor === "end" ? x - 250 : x - 8, y: d.y - rowH / 2, width: 258, height: rowH, class: "hit" }, g);
+        nodes.push({ g, key: d.p.policy_id, kind: "doc" });
+        const html = `<strong>${esc(name(d.p))}</strong> · ${esc(d.p.category)}<br>${d.ls.length ? d.ls.map((r) => `${esc(r.code)} ${esc(I.shortName(r.id))} (${r.n})`).join("<br>") : "No mapped clause"}`;
+        bind(g, html, () => api.href(d.p.policy_id), d.p.policy_id);
+      };
+      LP.forEach((d) => docNode(d, xL, "end"));
+      RP.forEach((d) => docNode(d, xR, "start"));
+      mid.forEach((m) => {
+        const g = el("g", { class: "bridge-node", tabindex: 0, role: "link", "aria-label": `${m.s.code} ${m.s.name}` }, gN);
+        el("rect", { x: xM0, y: m.y - 9, width: xM1 - xM0, height: 18, rx: 9, class: "bridge-risk" }, g);
+        el("text", { x: W / 2, y: m.y + 4, "text-anchor": "middle", class: "bridge-risk-label" }, g).textContent = `${m.s.code} ${I.shortName(m.s.id)}`;
+        nodes.push({ g, key: m.s.id, kind: "sub" });
+        const pc = edges.filter((e) => e.sub === m.s.id);
+        const html = `<strong>${esc(m.s.code)} ${esc(m.s.name)}</strong><br>${pc.length ? pc.map((e) => "• " + esc(name(api.docById[e.doc]))).join("<br>") : "No mapped clause"}`;
+        bind(g, html, () => "#/risk/" + m.s.code, m.s.id);
+      });
+      function highlight(key) {
+        const on = new Set();
+        if (key) { on.add(key); edges.forEach((e) => { if (e.doc === key || e.sub === key) { on.add(e.doc); on.add(e.sub); } }); }
+        edges.forEach((e) => { e.path.classList.toggle("hi", !!key && (e.doc === key || e.sub === key)); e.path.classList.toggle("dim", !!key && e.doc !== key && e.sub !== key); });
+        nodes.forEach((n) => n.g.classList.toggle("dim", !!key && !on.has(n.key)));
+      }
+      function bind(g, html, target, key) {
+        g.addEventListener("mouseenter", (ev) => { highlight(key); showTip(html, ev); });
+        g.addEventListener("mousemove", (ev) => showTip(html, ev));
+        g.addEventListener("mouseleave", () => { highlight(null); hideTip(); });
+        g.addEventListener("focus", () => highlight(key));
+        g.addEventListener("blur", () => highlight(null));
+        g.addEventListener("click", () => { hideTip(); location.hash = target(); });
+        g.addEventListener("keydown", (e) => { if (e.key === "Enter") location.hash = target(); });
+      }
+    };
+    root.querySelector("#bdom").addEventListener("input", draw);
+    root.querySelector("#bunmapped").addEventListener("input", draw);
+    draw();
   }
 
   window.PolicyViz = { render };

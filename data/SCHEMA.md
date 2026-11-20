@@ -1,4 +1,8 @@
-# Policy record schema (one JSON file per policy: data/policies/<policy_id>.json)
+# Policy / regulation record schema
+
+One JSON file per document: `data/policies/<policy_id>.json` or `data/regulations/<policy_id>.json`.
+A record is a **regulation** when it is a government legal instrument (statute, regulation, executive order, bill,
+or a binding treaty/directive); otherwise it is a **policy**. `category` must match the folder.
 
 Every attribute below MUST be present. Use `null` when not applicable/unknown (never invent).
 Lists use `[]` when empty.
@@ -9,6 +13,7 @@ Lists use `[]` when empty.
   "policy_id": "EU_AI_Act_2024",            // UpperSnake/underscore id, unique
   "policy_name": "EU Artificial Intelligence Act",
   "short_name": "EU AI Act",
+  "category": "regulation",                  // policy | regulation (by legal force; must match the folder)
   "policy_type": "regulation",               // one of: regulation | statute | executive_order | guidance | standard | framework | international_instrument | voluntary_code | internal_policy | bill
   "source_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",   // official source
   "issuing_authority": "European Parliament and Council of the European Union",
@@ -36,6 +41,25 @@ Lists use `[]` when empty.
   "binding": true,                           // legally binding?
   "effective_date": "2024-08-01",            // YYYY-MM-DD or YYYY-MM or null
   "key_dates": [{"date":"2025-02-02","event":"Prohibitions + AI literacy apply"}],
+  // Evolution: every version of the policy text, oldest first (drafts, releases, amendments, repeal).
+  // Policies with one known version have a single entry. Exactly one entry has "current": true.
+  "versions": [
+    {
+      "version": "Proposal",                  // short label shown on the chart
+      "date": "2021-04-21",                   // YYYY-MM-DD, YYYY-MM or YYYY
+      "kind": "draft",                        // draft | release | amendment | repeal
+      "title": "Commission proposal COM(2021) 206",
+      "summary": "What this version is and what it changed overall.",
+      "changes": [                            // what changed vs. the previous version (first version: what it introduced)
+        {"aspect": "scope", "change": "added", "detail": "Risk tiers: unacceptable, high, limited, minimal"}
+        // aspect: scope | definitions | risk_thresholds | obligations | safeguards | governance | transparency | enforcement | timeline
+        // change: added | revised | removed
+      ],
+      "source": null,                         // URL of this version's text, if known
+      "current": false,                       // true for the version in force / latest
+      "note": null                            // uncertainty about this entry, if any
+    }
+  ],
   "expiration_date": null,
   "version": "OJ L, 2024/1689, 12.7.2024",
   "last_updated": "2024-07-12",              // last official amendment/revision date you can verify
@@ -96,3 +120,34 @@ Lists use `[]` when empty.
   ]
 }
 ```
+
+# Risk taxonomy record (data/risks/<taxonomy_id>.json)
+
+```jsonc
+{
+  "taxonomy_id": "MIT_AI_Risk_Repository",
+  "name": "MIT AI Risk Repository: Domain Taxonomy of AI Risks",
+  "short_name": "MIT AI Risk Repository",
+  "publisher": "MIT FutureTech and collaborators",
+  "year": 2024,
+  "version": "Taxonomy v1",
+  "kind": "harm-domain taxonomy",            // free text: what the taxonomy classifies
+  "source_uri": "https://airisk.mit.edu/",
+  "paper_uri": "https://arxiv.org/abs/2408.12622",
+  "description": "…",
+  "levels": ["Domain", "Subdomain"],         // names of the tree levels
+  "is_hub": true,                            // exactly one taxonomy is the crosswalk hub
+  "related_documents": ["EU_AI_Act_2024"],   // policy_ids in the catalogue
+  "categories": [{"id": "…", "name": "…", "description": "…", "children": [ … ]}],
+  "record_provenance": {"source": "…", "license": "…", "imported_on": "2026-11-20", "human_verified": false, "notes": "…"}
+}
+```
+
+# Mapping layer (data/mappings/)
+
+Risks are kept out of policy and regulation records. Links live here instead:
+
+- `risk_crosswalk_nexus.json`, `risk_crosswalk_compiler.json`: `{"edges": [{"from": category_id, "to": category_id, "relation": "related|broader|narrower|close|exact"}]}`.
+  `broader` means the target is broader than the source. The compiler file maps categories to hub subdomains only.
+- `clause_risks.json`: `{"mappings": [{"clause_id", "policy_id", "risks": [hub subdomain ids], "relation": "mitigates|relates_to"}]}`.
+  Clauses that only set general risk-management process are left unmapped.

@@ -3,6 +3,7 @@
   "policy_name": "Provisions on the Administration of Algorithmic Recommendation for Internet Information Services (互联网信息服务算法推荐管理规定)",
   "short_name": "China Algorithmic Recommendation Provisions",
   "policy_type": "regulation",
+  "category": "regulation",
   "source_uri": "https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm",
   "issuing_authority": "Cyberspace Administration of China (CAC), with the Ministry of Industry and Information Technology, Ministry of Public Security and State Administration for Market Regulation",
   "jurisdiction": "CN",
@@ -59,6 +60,52 @@
     {
       "date": "2026-01-01",
       "event": "Amended Cybersecurity Law (parent law) takes effect with new AI article (Art. 20) and higher penalties"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Draft",
+      "date": "2021-08-27",
+      "kind": "draft",
+      "title": "Draft for public comment",
+      "summary": "CAC draft provisions on algorithmic recommendation.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Provider duties"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "Algorithm filing"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Draft date from compiler knowledge."
+    },
+    {
+      "version": "Final",
+      "date": "2022-01-04",
+      "kind": "release",
+      "title": "Order No. 9 (2021)",
+      "summary": "Final provisions published; in force 1 Mar 2022.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Final provider duties incl. user opt-out"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "revised",
+          "detail": "Filing system opens"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

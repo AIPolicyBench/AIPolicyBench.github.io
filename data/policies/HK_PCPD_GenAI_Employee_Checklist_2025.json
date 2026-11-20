@@ -3,6 +3,7 @@
   "policy_name": "Checklist on Guidelines for the Use of Generative AI by Employees (僱員使用生成式AI的指引清單)",
   "short_name": "PCPD GenAI Employee Checklist",
   "policy_type": "guidance",
+  "category": "policy",
   "source_uri": "https://www.pcpd.org.hk/english/resources_centre/publications/files/guidelines_ai_employees.pdf",
   "issuing_authority": "Office of the Privacy Commissioner for Personal Data, Hong Kong (PCPD)",
   "jurisdiction": "HK",
@@ -40,6 +41,19 @@
     {
       "date": "2025-03-31",
       "event": "Published by PCPD (document dated March 2025)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "March 2025",
+      "date": "2025-03-31",
+      "kind": "release",
+      "title": "March 2025",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.pcpd.org.hk/english/resources_centre/publications/files/guidelines_ai_employees.pdf",
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

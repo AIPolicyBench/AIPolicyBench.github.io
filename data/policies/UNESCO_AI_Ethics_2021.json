@@ -3,6 +3,7 @@
   "policy_name": "Recommendation on the Ethics of Artificial Intelligence",
   "short_name": "UNESCO AI Ethics Recommendation",
   "policy_type": "international_instrument",
+  "category": "policy",
   "source_uri": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
   "issuing_authority": "UNESCO General Conference (41st session)",
   "jurisdiction": "International",
@@ -53,6 +54,19 @@
     {
       "date": "2021-11-23",
       "event": "Adopted by the UNESCO General Conference at its 41st session"
+    }
+  ],
+  "versions": [
+    {
+      "version": "SHS/BIO/PI/2021/1 (document code from general knowledge; not verified)",
+      "date": "2021-11-23",
+      "kind": "release",
+      "title": "SHS/BIO/PI/2021/1 (document code from general knowledge; not verified)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

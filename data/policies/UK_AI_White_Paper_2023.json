@@ -3,6 +3,7 @@
   "policy_name": "A pro-innovation approach to AI regulation (White Paper, CP 815) and Government response (CP 1019)",
   "short_name": "UK AI Regulation White Paper",
   "policy_type": "framework",
+  "category": "policy",
   "source_uri": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
   "issuing_authority": "UK Department for Science, Innovation and Technology (DSIT); presented to Parliament by the Secretary of State for Science, Innovation and Technology",
   "jurisdiction": "UK",
@@ -57,6 +58,69 @@
     {
       "date": "2026-05",
       "event": "King's Speech contains no standalone AI bill; a 'Regulating for Growth Bill' (incl. AI Growth Lab sandbox powers) announced — parliamentary stage unverified"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Policy paper",
+      "date": "2022-07-18",
+      "kind": "draft",
+      "title": "Establishing a pro-innovation approach",
+      "summary": "Initial policy paper.",
+      "changes": [
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Context-specific, regulator-led approach"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "CP 815",
+      "date": "2023-03-29",
+      "kind": "release",
+      "title": "White Paper",
+      "summary": "Five cross-sectoral principles applied by existing regulators; consultation opened.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Five principles"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Central functions to support regulators"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "CP 1019",
+      "date": "2024-02-06",
+      "kind": "amendment",
+      "title": "Government response",
+      "summary": "Confirms non-statutory, regulator-led approach.",
+      "changes": [
+        {
+          "aspect": "governance",
+          "change": "revised",
+          "detail": "Regulators asked to publish strategic approaches"
+        },
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "Considers future binding measures for highly capable GPAI"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

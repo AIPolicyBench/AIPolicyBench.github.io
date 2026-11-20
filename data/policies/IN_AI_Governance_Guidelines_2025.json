@@ -3,6 +3,7 @@
   "policy_name": "India AI Governance Guidelines: Enabling Safe and Trusted AI Innovation",
   "short_name": "India AI Governance Guidelines",
   "policy_type": "guidance",
+  "category": "policy",
   "source_uri": "https://indiaai.gov.in/",
   "issuing_authority": "Ministry of Electronics and Information Technology (MeitY), Government of India, under the IndiaAI Mission",
   "jurisdiction": "IN",
@@ -42,6 +43,19 @@
     {
       "date": "2026-02-10",
       "event": "Related: IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules 2026 on synthetically generated information notified (in force 2026-02-20) - separate binding instrument"
+    }
+  ],
+  "versions": [
+    {
+      "version": "November 2025",
+      "date": "2025-11-05",
+      "kind": "release",
+      "title": "November 2025",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://indiaai.gov.in/",
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

@@ -3,6 +3,7 @@
   "policy_name": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) (NIST AI 100-1)",
   "short_name": "NIST AI RMF 1.0",
   "policy_type": "framework",
+  "category": "policy",
   "source_uri": "https://doi.org/10.6028/NIST.AI.100-1",
   "issuing_authority": "National Institute of Standards and Technology (NIST), U.S. Department of Commerce",
   "jurisdiction": "US-Federal",
@@ -44,6 +45,74 @@
     {
       "date": "2025-07",
       "event": "White House 'America's AI Action Plan' directs NIST to revise the AI RMF (incl. removing references to misinformation, DEI and climate change); NIST page states revision underway, no draft published as of Nov 2026"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Draft 1",
+      "date": "2022-03-17",
+      "kind": "draft",
+      "title": "Initial draft",
+      "summary": "First public draft of the AI RMF for comment.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Map, Measure, Manage functions"
+        },
+        {
+          "aspect": "definitions",
+          "change": "added",
+          "detail": "Characteristics of trustworthy AI"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Draft 2",
+      "date": "2022-08-18",
+      "kind": "draft",
+      "title": "Second draft",
+      "summary": "Second draft with draft Playbook.",
+      "changes": [
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Govern function added as a cross-cutting function"
+        },
+        {
+          "aspect": "definitions",
+          "change": "revised",
+          "detail": "Trustworthiness characteristics revised"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "1.0",
+      "date": "2023-01-26",
+      "kind": "release",
+      "title": "AI RMF 1.0 (NIST AI 100-1)",
+      "summary": "Final framework released with the companion Playbook.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Four functions: Govern, Map, Measure, Manage"
+        },
+        {
+          "aspect": "definitions",
+          "change": "revised",
+          "detail": "Seven trustworthiness characteristics"
+        }
+      ],
+      "source": "https://doi.org/10.6028/NIST.AI.100-1",
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

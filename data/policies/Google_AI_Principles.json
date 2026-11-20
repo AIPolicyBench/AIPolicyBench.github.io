@@ -3,6 +3,7 @@
   "policy_name": "Google AI Principles",
   "short_name": "Google AI Principles",
   "policy_type": "internal_policy",
+  "category": "policy",
   "source_uri": "https://ai.google/principles/",
   "issuing_authority": "Google LLC (Alphabet Inc.)",
   "jurisdiction": "Organization",
@@ -43,6 +44,57 @@
     {
       "date": "2025-02-04",
       "event": "Revised AI Principles published (Bold innovation; Responsible development and deployment; Collaborative progress, together), removing the 2018 list of applications Google would not pursue"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2018",
+      "date": "2018-06-07",
+      "kind": "release",
+      "title": "Original AI Principles",
+      "summary": "Seven objectives for AI applications plus a list of 'AI applications we will not pursue'.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Seven objectives (socially beneficial, avoid unfair bias, safety, accountability, privacy, scientific excellence, appropriate uses)"
+        },
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "Applications Google will not pursue, incl. weapons and surveillance violating international norms"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "2025",
+      "date": "2025-02-04",
+      "kind": "release",
+      "title": "Revised AI Principles",
+      "summary": "Restructured around three principles (Bold innovation; Responsible development and deployment; Collaborative progress, together).",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Three principles replace the seven objectives"
+        },
+        {
+          "aspect": "scope",
+          "change": "removed",
+          "detail": "'Applications we will not pursue' list removed"
+        },
+        {
+          "aspect": "governance",
+          "change": "revised",
+          "detail": "Emphasis on human oversight, due diligence and alignment with international law and human rights"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

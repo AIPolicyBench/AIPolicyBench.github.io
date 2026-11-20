@@ -3,6 +3,7 @@
   "policy_name": "Measures for Labeling AI-Generated and Synthetic Content (人工智能生成合成内容标识办法)",
   "short_name": "China AIGC Labeling Measures",
   "policy_type": "regulation",
+  "category": "regulation",
   "source_uri": "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm",
   "issuing_authority": "Cyberspace Administration of China (CAC), Ministry of Industry and Information Technology, Ministry of Public Security, National Radio and Television Administration",
   "jurisdiction": "CN",
@@ -60,6 +61,52 @@
     {
       "date": "2026-07-15",
       "event": "AI Anthropomorphic Interaction Services Interim Measures take effect, Art. 18 of which requires those providers to fulfil AIGC labeling obligations"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Draft",
+      "date": "2024-09-14",
+      "kind": "draft",
+      "title": "Draft for public comment",
+      "summary": "CAC draft measures on labelling AI-generated content.",
+      "changes": [
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Explicit and implicit labels"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Draft date from compiler knowledge."
+    },
+    {
+      "version": "Final",
+      "date": "2025-03-14",
+      "kind": "release",
+      "title": "Measures issued (CAC, MIIT, MPS, NRTA)",
+      "summary": "Final measures, with mandatory national standard GB 45438-2025; in force 1 Sep 2025.",
+      "changes": [
+        {
+          "aspect": "transparency",
+          "change": "revised",
+          "detail": "Explicit and implicit (metadata) labels"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Platform verification duties"
+        },
+        {
+          "aspect": "timeline",
+          "change": "added",
+          "detail": "Effective 2025-09-01"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

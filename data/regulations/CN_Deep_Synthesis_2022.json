@@ -3,6 +3,7 @@
   "policy_name": "Provisions on the Administration of Deep Synthesis of Internet Information Services (互联网信息服务深度合成管理规定)",
   "short_name": "China Deep Synthesis Provisions",
   "policy_type": "regulation",
+  "category": "regulation",
   "source_uri": "https://www.cac.gov.cn/2022-12/11/c_1672221949354811.htm",
   "issuing_authority": "Cyberspace Administration of China (CAC), with the Ministry of Industry and Information Technology and the Ministry of Public Security",
   "jurisdiction": "CN",
@@ -56,6 +57,52 @@
     {
       "date": "2025-09-01",
       "event": "AIGC Labeling Measures and GB 45438-2025 take effect, detailing the labeling obligations of Arts. 16-18"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Draft",
+      "date": "2022-01-28",
+      "kind": "draft",
+      "title": "Draft for public comment",
+      "summary": "CAC draft provisions on deep synthesis services.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Provider and user duties"
+        },
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Labelling of synthesised content"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Draft date from compiler knowledge."
+    },
+    {
+      "version": "Final",
+      "date": "2022-12-11",
+      "kind": "release",
+      "title": "Order No. 12 (2022)",
+      "summary": "Final provisions published; in force 10 Jan 2023.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Final provider duties"
+        },
+        {
+          "aspect": "transparency",
+          "change": "revised",
+          "detail": "Labelling rules (Arts. 16-18)"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

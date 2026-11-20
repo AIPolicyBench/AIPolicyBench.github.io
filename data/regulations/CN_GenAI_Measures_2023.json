@@ -3,6 +3,7 @@
   "policy_name": "Interim Measures for the Management of Generative Artificial Intelligence Services (生成式人工智能服务管理暂行办法)",
   "short_name": "China GenAI Interim Measures",
   "policy_type": "regulation",
+  "category": "regulation",
   "source_uri": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
   "issuing_authority": "Cyberspace Administration of China (CAC), jointly with the National Development and Reform Commission, Ministry of Education, Ministry of Science and Technology, Ministry of Industry and Information Technology, Ministry of Public Security and National Radio and Television Administration",
   "jurisdiction": "CN",
@@ -58,6 +59,57 @@
     {
       "date": "2026-01-01",
       "event": "Amended Cybersecurity Law (one of the parent laws cited in Art. 1/21) takes effect, adding a state AI support/governance article (Art. 20) and higher penalties"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Draft",
+      "date": "2023-04-11",
+      "kind": "draft",
+      "title": "Draft for public comment",
+      "summary": "CAC draft Measures for the Management of Generative AI Services.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Training-data and content requirements for providers"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "Security assessment and filing"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Final",
+      "date": "2023-07-13",
+      "kind": "release",
+      "title": "Interim Measures (seven departments)",
+      "summary": "Final interim measures; scope limited to services offered to the public in China, with added emphasis on development and inclusive, prudent supervision.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "revised",
+          "detail": "Limited to services provided to the public; R&D use excluded"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Development promotion and categorised, graded supervision"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Some draft obligations softened"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

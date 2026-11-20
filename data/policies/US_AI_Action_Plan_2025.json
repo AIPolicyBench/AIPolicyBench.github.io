@@ -3,6 +3,7 @@
   "policy_name": "Winning the Race: America's AI Action Plan",
   "short_name": "America's AI Action Plan",
   "policy_type": "framework",
+  "category": "policy",
   "source_uri": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
   "issuing_authority": "Executive Office of the President (White House Office of Science and Technology Policy, Special Advisor for AI and Crypto, National Security Council)",
   "jurisdiction": "US-Federal",
@@ -54,6 +55,19 @@
     {
       "date": "2025-12-11",
       "event": "EO 14365 (Ensuring a National Policy Framework for AI) builds on the plan's state-regulation theme"
+    }
+  ],
+  "versions": [
+    {
+      "version": "July 2025",
+      "date": "2025-07-23",
+      "kind": "release",
+      "title": "July 2025",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

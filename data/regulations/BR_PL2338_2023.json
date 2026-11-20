@@ -3,6 +3,7 @@
   "policy_name": "Projeto de Lei nº 2.338, de 2023 — Dispõe sobre o desenvolvimento, o fomento e o uso ético e responsável da inteligência artificial com base na centralidade da pessoa humana (Brazil AI Bill / Marco Legal da IA)",
   "short_name": "PL 2338/2023 (Brazil AI Bill)",
   "policy_type": "bill",
+  "category": "regulation",
   "source_uri": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
   "issuing_authority": "Congresso Nacional do Brasil — approved by the Senado Federal (author: Senator Rodrigo Pacheco); under review in the Câmara dos Deputados",
   "jurisdiction": "BR",
@@ -64,6 +65,47 @@
     {
       "date": "2026-11-09",
       "event": "Status per Câmara open-data API: 'Aguardando Parecer' — no rapporteur's opinion or vote yet; if amended by the Câmara it returns to the Senate"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Introduced",
+      "date": "2023-05-03",
+      "kind": "draft",
+      "title": "Bill introduced",
+      "summary": "Introduced in the Federal Senate.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Risk-based framework"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "Sanctions"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Senate text",
+      "date": "2024-12-10",
+      "kind": "draft",
+      "title": "Senate substitute approved",
+      "summary": "Senate approves the substitute text and sends it to the Chamber of Deputies.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Substitute text (rapporteur Sen. Eduardo Gomes)"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

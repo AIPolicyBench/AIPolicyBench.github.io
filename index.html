@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI Policy Catalogue</title>
-<meta name="description" content="A catalogue of widely cited AI policies, laws, standards and frameworks, described at policy and clause level for policy-to-risk mapping research.">
+<meta name="description" content="A catalogue of AI policies, with the regulations they sit alongside and the risk taxonomies they address, described at policy and clause level for policy-to-risk mapping research.">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -13,6 +13,8 @@
     <a class="brand" href="#/">AI Policy Catalogue <span class="brand-sub">AIPolicyBench</span></a>
     <nav class="tabs" aria-label="Sections">
       <a href="#/" data-tab="policies">Policies</a>
+      <a href="#/regulations" data-tab="regulations">Regulations</a>
+      <a href="#/risks" data-tab="risks">Risks</a>
       <a href="#/clauses" data-tab="clauses">Clauses</a>
       <a href="#/visualize" data-tab="visualize">Visualize</a>
       <a href="#/schema" data-tab="schema">Schema</a>
@@ -28,10 +30,12 @@
 
 <footer class="wrap site-footer">
   <p>Records are compiled from official sources by an AI assistant and are <strong>not yet human-verified</strong>.
-  Always check the linked source before relying on an entry. Data: <a href="data/catalog.json">catalog.json</a> ·
+  Always check the linked source before relying on an entry. Data: <a href="data/catalog.json">catalog.json</a> · <a href="data/risks.json">risks.json</a> ·
   <a href="https://github.com/AIPolicyBench/AIPolicyBench.github.io">GitHub</a></p>
 </footer>
 <script src="assets/viz.js"></script>
+<script src="assets/evolution.js"></script>
+<script src="assets/risks.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

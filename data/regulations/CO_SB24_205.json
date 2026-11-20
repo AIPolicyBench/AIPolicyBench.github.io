@@ -3,6 +3,7 @@
   "policy_name": "Colorado SB 24-205, Consumer Protections for Interactions with Artificial Intelligence Systems (Colorado Artificial Intelligence Act)",
   "short_name": "Colorado AI Act",
   "policy_type": "statute",
+  "category": "regulation",
   "source_uri": "https://leg.colorado.gov/bills/sb24-205",
   "issuing_authority": "Colorado General Assembly (signed by Governor Jared Polis)",
   "jurisdiction": "US-CO",
@@ -75,6 +76,74 @@
     {
       "date": "2027-01-01",
       "event": "SB 26-189 replacement framework applies to consequential decisions made on or after this date (subject to AG rulemaking)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "SB 24-205",
+      "date": "2024-05-17",
+      "kind": "release",
+      "title": "Enacted",
+      "summary": "Colorado AI Act signed: duties for developers and deployers of high-risk AI systems to avoid algorithmic discrimination.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Developer and deployer duties; impact assessments"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "Attorney General enforcement"
+        },
+        {
+          "aspect": "timeline",
+          "change": "added",
+          "detail": "Operative 2026-02-01"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "SB 25B-004",
+      "date": "2025-08-28",
+      "kind": "amendment",
+      "title": "Delayed by SB 25B-004",
+      "summary": "Special-session bill delays the operative date.",
+      "changes": [
+        {
+          "aspect": "timeline",
+          "change": "revised",
+          "detail": "Operative date moved to 2026-06-30"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "SB 26-189",
+      "date": "2026-05-14",
+      "kind": "repeal",
+      "title": "Repealed and replaced by SB 26-189",
+      "summary": "Replaced by an automated decision-making technology framework applying from 2027.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "revised",
+          "detail": "Replaced by automated decision-making technology framework"
+        },
+        {
+          "aspect": "timeline",
+          "change": "revised",
+          "detail": "Replacement applies from 2027-01-01"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": "Signing date per most secondary sources; one reports 2026-05-20."
     }
   ],
   "expiration_date": null,

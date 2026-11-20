@@ -3,6 +3,7 @@
   "policy_name": "Guide on the use of generative artificial intelligence",
   "short_name": "TBS GenAI Guide",
   "policy_type": "guidance",
+  "category": "policy",
   "source_uri": "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/generative-ai/guide-use-generative-ai.html",
   "issuing_authority": "Treasury Board of Canada Secretariat (TBS)",
   "jurisdiction": "CA-Federal",
@@ -47,6 +48,42 @@
     {
       "date": "2026-09-24",
       "event": "canada.ca page reportedly shows 'Date modified' 2026-09-24 (search result only; nature of change unverified)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1st",
+      "date": "2023-09",
+      "kind": "release",
+      "title": "First version",
+      "summary": "Guide on the use of generative AI by federal institutions.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "FASTER principles for use"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "2nd",
+      "date": "2024-02-12",
+      "kind": "release",
+      "title": "Second version",
+      "summary": "Updated with stakeholder and expert feedback.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Guidance revised"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

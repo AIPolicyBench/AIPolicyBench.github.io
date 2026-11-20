@@ -3,6 +3,7 @@
   "policy_name": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
   "short_name": "NIST GenAI Profile",
   "policy_type": "framework",
+  "category": "policy",
   "source_uri": "https://doi.org/10.6028/NIST.AI.600-1",
   "issuing_authority": "National Institute of Standards and Technology (NIST), U.S. Department of Commerce",
   "jurisdiction": "US-Federal",
@@ -50,6 +51,52 @@
     {
       "date": "2025-07",
       "event": "America's AI Action Plan directs revision of the AI RMF; secondary sources report a related revision of AI 600-1 may follow, not published as of Nov 2026"
+    }
+  ],
+  "versions": [
+    {
+      "version": "ipd",
+      "date": "2024-04-29",
+      "kind": "draft",
+      "title": "Initial public draft",
+      "summary": "Draft Generative AI Profile released for comment.",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "added",
+          "detail": "GAI-specific risk list"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Suggested actions mapped to AI RMF"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Final",
+      "date": "2024-07-26",
+      "kind": "release",
+      "title": "NIST AI 600-1",
+      "summary": "Final Generative AI Profile (12 risks, suggested actions).",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "revised",
+          "detail": "12 GAI risks"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Suggested actions refined"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
     }
   ],
   "expiration_date": null,

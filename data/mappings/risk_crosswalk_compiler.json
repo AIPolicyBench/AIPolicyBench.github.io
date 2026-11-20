@@ -1,0 +1,632 @@
+{
+  "description": "Category-to-MIT-subdomain mappings written by the catalogue compiler for taxonomies that AI Atlas Nexus does not map to MIT. Interpretive; not human-verified. For AIR 2024 the mapping is at level 2.",
+  "source": "compiler",
+  "imported_on": "2026-11-20",
+  "edges": [
+    {
+      "from": "nist-rmf-valid-reliable",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "nist-rmf-safe",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "nist-rmf-safe",
+      "to": "mit-ai-risk-subdomain-7.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-rmf-secure-resilient",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-rmf-accountable-transparent",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "nist-rmf-accountable-transparent",
+      "to": "mit-ai-risk-subdomain-6.5",
+      "relation": "related"
+    },
+    {
+      "from": "nist-rmf-explainable-interpretable",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "nist-rmf-privacy-enhanced",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "nist-rmf-fair-bias-managed",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "nist-rmf-fair-bias-managed",
+      "to": "mit-ai-risk-subdomain-1.3",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-1-1",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-1-2",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-1-3",
+      "to": "mit-ai-risk-subdomain-1.2",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-1-4",
+      "to": "mit-ai-risk-subdomain-1.3",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-2-1",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-2-2",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-2-3",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-3-1",
+      "to": "mit-ai-risk-subdomain-3.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-3-2",
+      "to": "mit-ai-risk-subdomain-3.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-3-2",
+      "to": "mit-ai-risk-subdomain-5.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-3-3",
+      "to": "mit-ai-risk-subdomain-3.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-4-1",
+      "to": "mit-ai-risk-subdomain-4.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-4-2",
+      "to": "mit-ai-risk-subdomain-4.3",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-4-3",
+      "to": "mit-ai-risk-subdomain-4.2",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-4-4",
+      "to": "mit-ai-risk-subdomain-4.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-5-1",
+      "to": "mit-ai-risk-subdomain-5.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-5-2",
+      "to": "mit-ai-risk-subdomain-5.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-5-2",
+      "to": "mit-ai-risk-subdomain-4.3",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-5-3",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-6-1",
+      "to": "mit-ai-risk-subdomain-6.6",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-6-2",
+      "to": "mit-ai-risk-subdomain-6.2",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-6-3",
+      "to": "mit-ai-risk-subdomain-6.3",
+      "relation": "related"
+    },
+    {
+      "from": "dm2021-6-4",
+      "to": "mit-ai-risk-subdomain-6.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-manipulation",
+      "to": "mit-ai-risk-subdomain-4.3",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-manipulation",
+      "to": "mit-ai-risk-subdomain-5.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-vulnerabilities",
+      "to": "mit-ai-risk-subdomain-4.3",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-social-scoring",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-social-scoring",
+      "to": "mit-ai-risk-subdomain-5.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-crime-prediction",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-face-scraping",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-face-scraping",
+      "to": "mit-ai-risk-subdomain-4.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-emotion-recognition",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-emotion-recognition",
+      "to": "mit-ai-risk-subdomain-5.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-biometric-categorisation",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-biometric-categorisation",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-rbi",
+      "to": "mit-ai-risk-subdomain-4.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-unacceptable-rbi",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-annex-i",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-biometrics",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-biometrics",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-critical-infrastructure",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-education",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-education",
+      "to": "mit-ai-risk-subdomain-5.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-employment",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-employment",
+      "to": "mit-ai-risk-subdomain-6.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-essential-services",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-essential-services",
+      "to": "mit-ai-risk-subdomain-5.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-law-enforcement",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-law-enforcement",
+      "to": "mit-ai-risk-subdomain-5.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-migration",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-migration",
+      "to": "mit-ai-risk-subdomain-5.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-justice-democracy",
+      "to": "mit-ai-risk-subdomain-5.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-high-justice-democracy",
+      "to": "mit-ai-risk-subdomain-4.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-transparency-chatbots",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-transparency-synthetic-content",
+      "to": "mit-ai-risk-subdomain-3.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-transparency-emotion-biometric",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-transparency-emotion-biometric",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-transparency-deepfakes",
+      "to": "mit-ai-risk-subdomain-3.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-transparency-deepfakes",
+      "to": "mit-ai-risk-subdomain-4.1",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-gpai-gpai-docs",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-gpai-gpai-copyright",
+      "to": "mit-ai-risk-subdomain-6.3",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-gpai-systemic-evaluation",
+      "to": "mit-ai-risk-subdomain-7.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-gpai-systemic-systemic-risk",
+      "to": "mit-ai-risk-subdomain-7.2",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-gpai-systemic-incidents",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "euaia-gpai-systemic-cybersecurity",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-cbrn-information-or-capabilities",
+      "to": "mit-ai-risk-subdomain-4.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-cbrn-information-or-capabilities",
+      "to": "mit-ai-risk-subdomain-7.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-confabulation",
+      "to": "mit-ai-risk-subdomain-3.1",
+      "relation": "related"
+    },
+    {
+      "from": "nist-dangerous-violent-or-hateful-content",
+      "to": "mit-ai-risk-subdomain-1.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-data-privacy",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "nist-environmental-impacts",
+      "to": "mit-ai-risk-subdomain-6.6",
+      "relation": "related"
+    },
+    {
+      "from": "nist-harmful-bias-and-homogenization",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "nist-harmful-bias-and-homogenization",
+      "to": "mit-ai-risk-subdomain-1.3",
+      "relation": "related"
+    },
+    {
+      "from": "nist-human-ai-configuration",
+      "to": "mit-ai-risk-subdomain-5.1",
+      "relation": "related"
+    },
+    {
+      "from": "nist-information-integrity",
+      "to": "mit-ai-risk-subdomain-3.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-information-integrity",
+      "to": "mit-ai-risk-subdomain-4.1",
+      "relation": "related"
+    },
+    {
+      "from": "nist-information-security",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-information-security",
+      "to": "mit-ai-risk-subdomain-4.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-intellectual-property",
+      "to": "mit-ai-risk-subdomain-6.3",
+      "relation": "related"
+    },
+    {
+      "from": "nist-obscene-degrading-and-or-abusive-content",
+      "to": "mit-ai-risk-subdomain-1.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-value-chain-and-component-integration",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "nist-value-chain-and-component-integration",
+      "to": "mit-ai-risk-subdomain-7.4",
+      "relation": "related"
+    },
+    {
+      "from": "llm01-prompt-injection",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "llm022025-sensitive-information-disclosure",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "llm032025-supply-chain",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "llm042025-data-and-model-poisoning",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "llm052025-improper-output-handling",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "llm062025-excessive-agency",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "llm062025-excessive-agency",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "llm072025-system-prompt-leakage",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "llm082025-vector-and-embedding-weaknesses",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "llm092025-misinformation",
+      "to": "mit-ai-risk-subdomain-3.1",
+      "relation": "related"
+    },
+    {
+      "from": "llm102025-unbounded-consumption",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-security-risks",
+      "to": "mit-ai-risk-subdomain-2.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-security-risks",
+      "to": "mit-ai-risk-subdomain-4.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-operational-misuses",
+      "to": "mit-ai-risk-subdomain-5.1",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-operational-misuses",
+      "to": "mit-ai-risk-subdomain-7.3",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-violence-&-extremism",
+      "to": "mit-ai-risk-subdomain-1.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-violence-&-extremism",
+      "to": "mit-ai-risk-subdomain-4.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-hate/toxicity",
+      "to": "mit-ai-risk-subdomain-1.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-sexual-content",
+      "to": "mit-ai-risk-subdomain-1.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-child-harm",
+      "to": "mit-ai-risk-subdomain-1.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-self-harm",
+      "to": "mit-ai-risk-subdomain-1.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-self-harm",
+      "to": "mit-ai-risk-subdomain-5.1",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-political-usage",
+      "to": "mit-ai-risk-subdomain-4.1",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-economic-harm",
+      "to": "mit-ai-risk-subdomain-6.1",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-economic-harm",
+      "to": "mit-ai-risk-subdomain-6.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-deception",
+      "to": "mit-ai-risk-subdomain-4.3",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-deception",
+      "to": "mit-ai-risk-subdomain-3.1",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-manipulation",
+      "to": "mit-ai-risk-subdomain-4.3",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-defamation",
+      "to": "mit-ai-risk-subdomain-3.1",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-fundamental-rights",
+      "to": "mit-ai-risk-subdomain-5.2",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-discrimination/bias",
+      "to": "mit-ai-risk-subdomain-1.1",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-privacy",
+      "to": "mit-ai-risk-subdomain-2.1",
+      "relation": "related"
+    },
+    {
+      "from": "ai-risk-taxonomy-criminal-activities",
+      "to": "mit-ai-risk-subdomain-4.3",
+      "relation": "related"
+    }
+  ]
+}

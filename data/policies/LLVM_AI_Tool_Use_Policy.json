@@ -1,0 +1,284 @@
+{
+  "policy_id": "LLVM_AI_Tool_Use_Policy",
+  "policy_name": "LLVM AI Tool Use Policy",
+  "short_name": "LLVM AI Tool Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "http://llvm.org/docs/AIToolPolicy.html",
+  "issuing_authority": "LLVM Project (maintainers / developer policy)",
+  "jurisdiction": "Organization",
+  "country_region": "Global (LLVM open-source project)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Open-source project contribution policy (part of the LLVM developer policy)",
+  "geo_constraints": "All contributions to the LLVM project and its digital spaces (GitHub, Discourse, Discord, etc.)",
+  "industry_scope": [
+    "software",
+    "open_source"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › LLVM Project",
+    "regulation": "Internal policy · open-source community contribution rules enforced by maintainers",
+    "culture": "Open-source community norms: protects scarce volunteer maintainer time and contributor learning, insisting on human authorship, accountability and transparency rather than banning AI tools.",
+    "use_cases": [
+      "software development & code generation",
+      "AI agents",
+      "training on copyrighted data"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": null,
+  "key_dates": [],
+  "versions": [
+    {
+      "version": "asago copy",
+      "date": "2025-10",
+      "kind": "release",
+      "title": "Policy text as in the asago copy (undated)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "http://llvm.org/docs/AIToolPolicy.html",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": null,
+  "last_updated": null,
+  "covered_entities": [
+    "contributors to LLVM",
+    "maintainers and reviewers"
+  ],
+  "covered_systems": [
+    "LLMs and AI coding assistants",
+    "AI agents acting in project spaces",
+    "automated review tools"
+  ],
+  "covered_activities": [
+    "code contributions (pull requests)",
+    "RFCs and design proposals",
+    "issues and security vulnerability reports",
+    "comments and feedback on pull requests",
+    "fixing 'good first issue' issues"
+  ],
+  "exceptions": [
+    "opt-in review tools that keep a human in the loop are acceptable",
+    "translation or copy-editing tools for PR descriptions"
+  ],
+  "conditions": [
+    "labelling applies to contributions with substantial tool-generated content"
+  ],
+  "objective": "Allow contributors to use AI tools while keeping a human in the loop, so that contributions are reviewed, understood and accountable and do not extract more maintainer time than they are worth.",
+  "policy_domain": [
+    "accountability",
+    "transparency",
+    "governance"
+  ],
+  "principles": [
+    "human in the loop",
+    "contributor accountability and authorship",
+    "transparency/labelling of tool-generated content",
+    "non-extractive contributions",
+    "respect for copyright",
+    "growing new contributors"
+  ],
+  "parent_policy": "LLVM Developer Policy",
+  "related_policies": [
+    {
+      "policy": "Fedora Council policy proposal: Policy on AI-Assisted Contributions",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "LLVM copyright and license policy (Developer Policy)",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Copyright treatment follows the project's general copyright policy; enforcement is left to maintainers' judgment.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/llvm.md",
+      "http://llvm.org/docs/AIToolPolicy.html (URL printed in the policy; not fetched)"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/llvm.md). (asago-ai/asago-policy-mapper commit b8ac8876beec6593ef5685d7d7e64cc94f9cc55b.) The document states no adoption date or version; the only date is a reference 'fetched 2025-10-01', so the version date 2025-10 is an inference (policy adopted no earlier than October 2025) and effective_date is left null. The printed official URL (llvm.org/docs/AIToolPolicy.html) is used as source_uri but was not fetched, so whether the online text has since changed is unverified. Binding=false: not law; mandatory for contributors and enforced by maintainers (request changes, 'extractive' label, escalation to moderators, removal of infringing contributions). Some text is acknowledged as copied from the Fedora policy proposal (CC BY 4.0)."
+  },
+  "clauses": [
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_Human_Review_Accountability",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "section": "Policy",
+      "original_text": "Contributors must read and review all LLM-generated code or text before they ask other project members to review it. The contributor is always the author and is fully accountable for their contributions.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "contributors",
+      "action": "read and review",
+      "object": "all LLM-generated code or text",
+      "recipient": "other project members (reviewers)",
+      "modality": "MUST",
+      "requirement": "self-review of all LLM output before requesting review; contributor is author and accountable",
+      "condition": null,
+      "exception": null,
+      "purpose": "quality and accountability; protect maintainer time",
+      "affected_asset": "LLVM codebase quality; maintainer time",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "LLMs, coding assistants, AI agents and automated review tools used for LLVM contributions",
+      "interpretation_notes": "Text from the asago Markdown copy; Markdown emphasis and link syntax removed, wording unchanged. Contributors should also be able to answer questions about their work during review.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_Label_Tool_Generated_Content",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "section": "Policy",
+      "original_text": "Contributors are expected to be transparent and label contributions that contain substantial amounts of tool-generated content. … Contributors should note tool usage in their pull request description, commit message, or wherever authorship is normally indicated for the work.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "contributors",
+      "action": "label / note tool usage",
+      "object": "contributions with substantial tool-generated content",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "disclose AI tool usage, e.g. via an 'Assisted-by:' commit trailer",
+      "condition": "where the contribution contains substantial amounts of tool-generated content",
+      "exception": null,
+      "purpose": "facilitate review and community learning",
+      "affected_asset": "review process transparency",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "LLMs, coding assistants, AI agents and automated review tools used for LLVM contributions",
+      "interpretation_notes": "Text from the asago Markdown copy; Markdown emphasis and link syntax removed, wording unchanged. Labelling is intended to facilitate reviews, not to track which parts of LLVM are generated.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_No_Autonomous_Agents",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "section": "Details",
+      "original_text": "An important implication of this policy is that it bans agents that take action in our digital spaces without human approval, such as the GitHub @claude agent. Similarly, automated review tools that publish comments without human review are not allowed.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "contributors",
+      "action": "use",
+      "object": "AI agents acting without human approval; automated review tools publishing without human review",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no autonomous AI agents or unreviewed automated review comments in project spaces",
+      "condition": null,
+      "exception": "opt-in review tools that keep a human in the loop",
+      "purpose": "keep a human in the loop",
+      "affected_asset": "LLVM digital spaces (GitHub etc.)",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "AI agents and automated review tools",
+      "interpretation_notes": "Text from the asago Markdown copy; Markdown emphasis and link syntax removed, wording unchanged. Opt-in review tools that keep a human in the loop are acceptable.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_No_AI_Good_First_Issues",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "section": "Details",
+      "original_text": "AI tools must not be used to fix GitHub issues labelled good first issue.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "contributors (newcomers or not)",
+      "action": "use AI tools to fix",
+      "object": "GitHub issues labelled 'good first issue'",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "'good first issue' tasks must be done without AI tools",
+      "condition": null,
+      "exception": null,
+      "purpose": "preserve learning opportunities for new contributors",
+      "affected_asset": "contributor learning and community sustainability",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "any AI tool",
+      "interpretation_notes": "Text from the asago Markdown copy; Markdown emphasis and link syntax removed, wording unchanged. Restated in bold: 'Using AI tools to fix issues labelled as \"good first issues\" is forbidden'. Rationale is skill-building rather than output quality.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_Copyright_Responsibility",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "section": "Copyright",
+      "original_text": "Contributors are responsible for ensuring that they have the right to contribute code under the terms of our license, typically meaning that either they, their employer, or their collaborators hold the copyright. Using AI tools to regenerate copyrighted material does not remove the copyright, and contributors are responsible for ensuring that such material does not appear in their contributions.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "contributors",
+      "action": "ensure rights to contribute; keep out",
+      "object": "AI-regenerated copyrighted material",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "contributors ensure licensing rights and exclude copyrighted material reproduced by AI",
+      "condition": null,
+      "exception": null,
+      "purpose": "respect copyright and licence integrity",
+      "affected_asset": "third-party copyright; LLVM licence",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "LLMs, coding assistants, AI agents and automated review tools used for LLVM contributions",
+      "interpretation_notes": "Text from the asago Markdown copy; Markdown emphasis and link syntax removed, wording unchanged. Contributions found to violate this are removed like any other offending contribution.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_Escalation_Extractive",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "section": "Handling Violations",
+      "original_text": "If a contributor fails to make their change meaningfully less extractive, maintainers should escalate to the relevant moderation or admin team for the space (GitHub, Discourse, Discord, etc) to lock the conversation.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "maintainers",
+      "action": "escalate to moderation/admin team",
+      "object": "non-compliant ('extractive') contributions",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "escalate and lock conversations where contributors do not fix extractive contributions",
+      "condition": "if the contributor fails to make the change meaningfully less extractive",
+      "exception": null,
+      "purpose": "enforce the policy and protect maintainer time",
+      "affected_asset": "maintainer time",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "contributions in GitHub, Discourse, Discord and other project spaces",
+      "interpretation_notes": "Text from the asago Markdown copy; Markdown emphasis and link syntax removed, wording unchanged. Preceded by a standard request-changes response and the 'extractive' label.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

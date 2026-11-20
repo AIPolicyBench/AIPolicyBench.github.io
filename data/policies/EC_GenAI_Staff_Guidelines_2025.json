@@ -1,0 +1,292 @@
+{
+  "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+  "policy_name": "Guidelines for Staff on the Use of Generative Artificial Intelligence Tools",
+  "short_name": "EC GenAI Staff Guidelines",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/eu-com.pdf",
+  "issuing_authority": "European Commission, Secretariat-General (endorsed by the Information Management Steering Board)",
+  "jurisdiction": "EU",
+  "country_region": "European Union (European Commission services)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "European Commission internal staff rules on IT and information management",
+  "geo_constraints": "European Commission staff and service providers, for Commission work",
+  "industry_scope": [
+    "public_sector"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Europe › European Union (European Commission)",
+    "regulation": "Internal administrative rules for staff · rule-based use conditions within the EU AI Act and EUDPR",
+    "culture": "EU institutional administration: rights-based and data-protection-centred, preferring in-house trusted tools over external services and framing staff duties through the AI Act and Regulation 2018/1725.",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "public-sector & government use",
+      "generative AI & chatbots",
+      "training on copyrighted data"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2025-07-03",
+  "key_dates": [
+    {
+      "date": "2025-07-03",
+      "event": "Endorsed by the Information Management Steering Board; guidelines dated 3 July 2025"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2023",
+      "date": "2023",
+      "kind": "release",
+      "title": "Guidelines for Staff on the Use of Online Available Generative AI Tools",
+      "summary": "Earlier staff guidelines limited to online (external) generative AI tools; replaced by the 2025 guidelines.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "Rules for staff use of publicly available online generative AI tools"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Known only from footnote 2 of the 2025 guidelines; exact date and content not available."
+    },
+    {
+      "version": "3 July 2025",
+      "date": "2025-07-03",
+      "kind": "release",
+      "title": "Guidelines for Staff on the Use of Generative AI Tools (3 July 2025)",
+      "summary": "Replaces the 2023 guidelines; scope and rules revised for the evolution of the technology, the legal framework (AI Act) and the availability of internal Commission tools.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "revised",
+          "detail": "Covers both external third-party and Commission-internal generative AI tools"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Rules: internal tools first; no non-public or personal data in external tools; verify outputs; respect IP"
+        }
+      ],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/eu-com.pdf",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": "3 July 2025",
+  "last_updated": "2025-07-03",
+  "covered_entities": [
+    "Commission staff (officials, temporary agents, contract agents)",
+    "seconded national experts",
+    "trainees",
+    "contractors and other service providers"
+  ],
+  "covered_systems": [
+    "generative AI tools (external third-party and Commission-internal, e.g. GPT@EC, GPT@JRC, eBriefing)"
+  ],
+  "covered_activities": [
+    "use of generative AI tools in Commission work",
+    "input of data into AI tools",
+    "use and publication of AI outputs"
+  ],
+  "exceptions": [
+    "input of non-public data into external tools within a pre-authorised scientific project (evaluation, testing or benchmarking of AI) (footnote 4)",
+    "copy-pasting outputs based solely on Commission-owned or duly licensed documents (e.g. eTranslation)"
+  ],
+  "conditions": [
+    "external AI tools only if no suitable internal alternative is available"
+  ],
+  "objective": "Help Commission staff assess the risks and limitations of generative AI tools and set conditions for their safe and appropriate use in Commission work.",
+  "policy_domain": [
+    "privacy",
+    "security",
+    "accountability",
+    "governance"
+  ],
+  "principles": [
+    "internal tools first",
+    "data protection",
+    "human review and accountability",
+    "accuracy",
+    "intellectual property",
+    "compliance with the AI Act"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "Regulation (EU) 2018/1725 (EU institutions data protection)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Guidelines for Staff on the Use of Online Available Generative AI Tools (2023)",
+      "relation": "supersedes"
+    }
+  ],
+  "conflict_rule": "Any use of AI tools must comply with applicable legal obligations, in particular the AI Act; internal tools' terms and conditions also apply.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/eu-com.pdf",
+      "https://github.com/asago-ai/asago-policy-mapper/blob/b8ac8876beec6593ef5685d7d7e64cc94f9cc55b/policy_examples/eu-com.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/eu-com.pdf). The copy has only 3 pages (it ends after Rule 4 on p. 3) and is partly redacted (footnotes 3, 5 and 7 and some links blacked out), so later rules, if any, are missing. Page 2 has no text layer; its text was transcribed from the page image. The document cites the AI Act as 'Regulation (EU) 2024/1624' (the AI Act is Regulation (EU) 2024/1689); recorded as EU_AI_Act_2024. Titled 'guidelines', but the content is mandatory staff rules ('Rule n°1–4', 'staff must'), so recorded as an internal policy; binding=false because it is not law. Whether a later version exists was not checked."
+  },
+  "clauses": [
+    {
+      "clause_id": "EC_GenAI_Staff_Guidelines_2025_Rule1_Internal_Tools_First",
+      "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+      "section": "2.1 [Rule n°1] Use Commission internal AI tools as the first choice.",
+      "original_text": "For any work-related task involving generative AI, staff must use the Commission’s internal tools as the default option and follow their terms and conditions. These tools operate in controlled IT environments. External AI tools may only be considered if no suitable internal alternative is available.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Commission staff",
+      "action": "use internal tools by default",
+      "object": "generative AI tools for work tasks",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "internal tools as default; external tools only if no suitable internal alternative",
+      "condition": "any work-related task involving generative AI",
+      "exception": "no suitable internal alternative available",
+      "purpose": "keep Commission information in controlled IT environments",
+      "affected_asset": "Commission information",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "generative AI tools (external third-party and Commission-internal, e.g. GPT@EC, GPT@JRC, eBriefing)",
+      "interpretation_notes": "Transcribed from the page image of p. 2 (the copy has no text layer on that page); bold emphasis omitted.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EC_GenAI_Staff_Guidelines_2025_Rule2_No_NonPublic_Data_External",
+      "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+      "section": "2.2 [Rule n°2] Do not use non-public or personal data in external AI tools and ensure proper handling of sensitive and personal data when using internal AI tools.",
+      "original_text": "Never input into external AI tools any information that is not already public or any personal data (4). … However, the handling of Classified information is strictly prohibited in any generative AI tool, including Commission-internal ones.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Commission staff",
+      "action": "do not input",
+      "object": "non-public information or personal data (external tools); classified information (any tool)",
+      "recipient": "external AI service providers",
+      "modality": "MUST NOT",
+      "requirement": "no non-public or personal data in external tools; no classified information in any GenAI tool",
+      "condition": null,
+      "exception": "pre-authorised scientific projects involving evaluation, testing or benchmarking of AI (footnote 4)",
+      "purpose": "prevent disclosure and reuse of internal information by service providers",
+      "affected_asset": "non-public Commission information; personal data; classified information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "generative AI tools (external third-party and Commission-internal, e.g. GPT@EC, GPT@JRC, eBriefing)",
+      "interpretation_notes": "Transcribed from the page image of p. 2 (the copy has no text layer on that page); bold emphasis omitted. Footnote marker '(4)' kept.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EC_GenAI_Staff_Guidelines_2025_Rule2_Human_Review_No_Solely_Automated",
+      "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+      "section": "2.2 [Rule n°2]",
+      "original_text": "In addition, a human review of outputs is necessary to comply with the principle of accuracy and transparency regarding the use of generative AI tools. Further, it is not permitted to subject individuals to decisions which produce legal effects based solely on automated processing.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Commission staff / services",
+      "action": "review outputs; do not make solely automated decisions",
+      "object": "generative AI outputs; decisions producing legal effects",
+      "recipient": "individuals (data subjects)",
+      "modality": "MUST NOT",
+      "requirement": "human review of outputs; no solely automated decisions with legal effects",
+      "condition": "where personal data is processed",
+      "exception": null,
+      "purpose": "data-protection accuracy and rights of individuals",
+      "affected_asset": "individuals' rights",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "generative AI tools (external third-party and Commission-internal, e.g. GPT@EC, GPT@JRC, eBriefing)",
+      "interpretation_notes": "Transcribed from the page image of p. 2 (the copy has no text layer on that page); bold emphasis omitted. Set in the context of personal data processing under data protection rules (Regulation 2018/1725).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EC_GenAI_Staff_Guidelines_2025_Rule3_Verify_Outputs",
+      "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+      "section": "2.3 [Rule n°3] Always critically assess AI outputs for accuracy and bias.",
+      "original_text": "Do not rely on AI tools as authoritative sources. Staff must always verify all AI-generated content, even when it appears coherent and confident, before using it further in Commission work. … Staff remain fully responsible for the final result.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Commission staff",
+      "action": "verify",
+      "object": "AI-generated content incl. sources and references",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "verify all AI output and treat it as an initial draft; staff remain responsible",
+      "condition": "before further use in Commission work",
+      "exception": null,
+      "purpose": "accuracy and avoidance of bias",
+      "affected_asset": "quality of Commission work",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "generative AI tools (external third-party and Commission-internal, e.g. GPT@EC, GPT@JRC, eBriefing)",
+      "interpretation_notes": "Applies to internal and external tools alike.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "EC_GenAI_Staff_Guidelines_2025_Rule4_IP_No_Copy_Paste",
+      "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+      "section": "2.4 [Rule n°4] Be mindful of potential intellectual property rights violations and avoid directly replicating the output of a generative AI tool in public documents.",
+      "original_text": "Always assess whether generated output might violate intellectual property rights. … Moreover, outputs from generative AI tools should not be copy-pasted in documents meant to be published. Exceptions can be considered if such output is based solely on documents owned by or duly licensed to the Commission (e.g. an official text translated via eTranslation).",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Commission staff",
+      "action": "assess IP; do not copy-paste into published documents",
+      "object": "generative AI outputs",
+      "recipient": null,
+      "modality": "SHOULD NOT",
+      "requirement": "assess outputs for IP infringement; no direct replication in public documents",
+      "condition": "documents meant to be published",
+      "exception": "output based solely on Commission-owned or duly licensed documents",
+      "purpose": "avoid IP infringement",
+      "affected_asset": "third-party intellectual property; Commission reputation",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "EU"
+      ],
+      "applicable_systems": "generative AI tools (external third-party and Commission-internal, e.g. GPT@EC, GPT@JRC, eBriefing)",
+      "interpretation_notes": "Particular caution for drafting legislative texts; contact the Central IP Service when in doubt.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

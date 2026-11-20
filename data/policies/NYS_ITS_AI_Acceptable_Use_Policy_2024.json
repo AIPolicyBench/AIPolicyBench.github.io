@@ -1,0 +1,336 @@
+{
+  "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+  "policy_name": "Acceptable Use of Artificial Intelligence Technologies (NYS-P24-001)",
+  "short_name": "NYS AI Acceptable Use Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/new-york-state.pdf",
+  "issuing_authority": "New York State Office of Information Technology Services (ITS), Chief Data Office",
+  "jurisdiction": "US-NY",
+  "country_region": "New York State, United States",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "NYS statewide IT policy under State Technology Law §103(10) and Executive Order 117",
+  "geo_constraints": "New York State Entities (state agencies) and third parties using IT resources administered by an SE or ITS",
+  "industry_scope": [
+    "public_sector"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States (New York State)",
+    "regulation": "State government IT policy · mandatory for State Entities, risk-based with NIST AI RMF alignment",
+    "culture": "US state-government administrative governance: enables agency AI adoption while imposing human final decision-making, bias monitoring and public inventory, anchored in the NIST AI RMF rather than statute.",
+    "use_cases": [
+      "public-sector & government use",
+      "high-impact AI decisions",
+      "general AI lifecycle",
+      "AI procurement",
+      "generative AI & chatbots"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2024-01-08",
+  "key_dates": [
+    {
+      "date": "2024-01-08",
+      "event": "Policy issued (Revision History); takes effect upon publication"
+    },
+    {
+      "date": "2025-03-11",
+      "event": "Policy updated (Revision History)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2024-01-08",
+      "date": "2024-01-08",
+      "kind": "release",
+      "title": "NYS-P24-001 issued",
+      "summary": "First issue of the statewide policy on acceptable use of AI technologies by State Entities.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "Applies to AI systems developed, used or procured by SEs that could directly impact the public"
+        },
+        {
+          "aspect": "safeguards",
+          "change": "added",
+          "detail": "Human oversight of decisions; automated final decision systems not permitted"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Risk assessment per AI system, bias monitoring, privacy and security controls"
+        },
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Disclosure of AI use to the public; ITS public AI inventory"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Content of the January 2024 text is not available in this copy; the 'changes' describe the policy as in the 2025 update and assume the core requirements were introduced at first issue."
+    },
+    {
+      "version": "2025-03-11",
+      "date": "2025-03-11",
+      "kind": "amendment",
+      "title": "NYS-P24-001 updated",
+      "summary": "Updated policy (Revision History: 'Updated policy'). The document does not say what changed.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/new-york-state.pdf",
+      "current": true,
+      "note": "Changes from the 2024 issue are not described in the document."
+    }
+  ],
+  "expiration_date": null,
+  "version": "NYS-P24-001, updated 03/11/2025",
+  "last_updated": "2025-03-11",
+  "covered_entities": [
+    "State Entities (State Government under EO 117 / State Agencies under State Technology Law §101)",
+    "SE employees",
+    "third parties using SE/ITS-administered IT resources (local governments, consultants, vendors, contractors)"
+  ],
+  "covered_systems": [
+    "AI systems (incl. machine learning, LLMs, NLP, computer vision, generative AI) that may directly impact the public"
+  ],
+  "covered_activities": [
+    "development, use and procurement of AI systems by SEs",
+    "AI-aided decision-making affecting the public"
+  ],
+  "exceptions": [
+    "basic calculations, basic automation and rule-based 'if this then that' systems",
+    "SEs' regulatory or other actions regarding non-agency uses of AI",
+    "exceptions granted by ITS where compliance is not feasible or deviation is needed for a business function"
+  ],
+  "conditions": [
+    "applies to AI systems that, when used, could 'directly impact the public' (safety, welfare or rights; e.g. law enforcement, housing, hiring, benefits, child welfare, critical infrastructure)",
+    "where an SE policy conflicts, the more restrictive policy prevails"
+  ],
+  "objective": "Establish rules for State Entities' acceptable use of AI so that agencies can innovate and serve New Yorkers while protecting privacy, managing risk and promoting accountability, safety and equity.",
+  "policy_domain": [
+    "governance",
+    "accountability",
+    "fairness",
+    "transparency",
+    "privacy",
+    "security"
+  ],
+  "principles": [
+    "human oversight / no automated final decisions",
+    "fairness and equity",
+    "transparency and explainability",
+    "risk assessment",
+    "privacy and data minimisation",
+    "security",
+    "public inventory"
+  ],
+  "parent_policy": "NYS-P08-002 Authority to Establish State Enterprise IT Policy, Standards and Guidelines",
+  "related_policies": [
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "implements"
+    },
+    {
+      "policy": "NYS-S14-001 Information Security Risk Management",
+      "relation": "complements"
+    },
+    {
+      "policy": "NYS-P03-002 Information Security Policy",
+      "relation": "complements"
+    },
+    {
+      "policy": "ITS-P19-005 Acceptable Use of Open Source Software",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "An SE may adopt its own policy but it must include these requirements; where an SE policy conflicts, the more restrictive policy takes precedence (§3.1).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/new-york-state.pdf",
+      "https://github.com/asago-ai/asago-policy-mapper/blob/b8ac8876beec6593ef5685d7d7e64cc94f9cc55b/policy_examples/new-york-state.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/new-york-state.pdf). The copy is the version updated 03/11/2025; whether a later revision exists was not checked (no web access). Binding=false because this is not law, but compliance is mandatory for State Entities and covered third parties (§5.0, issued under State Technology Law §103(10)). Footnote 4 and section 9.0 'Related Documents' are empty in the copy. Policy id uses the first-issue year (2024, as in the policy number NYS-P24-001)."
+  },
+  "clauses": [
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_2_Human_Oversight",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "section": "4.2 Human Oversight",
+      "original_text": "SEs must ensure that decisions that impact the public are not made without oversight by appropriate staff, who make the final decisions. Automated final decision systems are not permitted.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Entity",
+      "action": "ensure human oversight and final decision by staff",
+      "object": "decisions that impact the public",
+      "recipient": "members of the public",
+      "modality": "MUST",
+      "requirement": "no automated final decisions; appropriate staff make final decisions",
+      "condition": "decisions that impact the public",
+      "exception": null,
+      "purpose": "protect the public from unchecked automated decisions",
+      "affected_asset": "rights, safety and welfare of the public",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "AI systems developed, used or procured by NY State Entities that could directly impact the public",
+      "interpretation_notes": "Second sentence is an outright prohibition (MUST NOT) on automated final decision systems.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_3_Fairness",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "section": "4.3 Fairness and Equity",
+      "original_text": "Use of AI systems must be fair and equitable in accordance with applicable State and Federal laws, rules, and regulations. SE must be aware that systemic, computational, and human biases may impact AI systems and should develop a plan to monitor for such biases, and, where identified, remediated identified biases.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Entity",
+      "action": "monitor for and remediate bias",
+      "object": "AI systems",
+      "recipient": "members of the public",
+      "modality": "MUST",
+      "requirement": "fair and equitable use; plan to monitor and remediate biases",
+      "condition": null,
+      "exception": null,
+      "purpose": "non-discrimination",
+      "affected_asset": "affected individuals' equal treatment",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "AI systems developed, used or procured by NY State Entities that could directly impact the public",
+      "interpretation_notes": "Fairness itself is MUST; the bias monitoring plan is phrased SHOULD. Wording 'remediated' is as in the document.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_4_Transparency",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "section": "4.4 Transparency",
+      "original_text": "Where members of the public interact directly with SE systems that use AI technology, the use of such AI technology should be disclosed by the SE. Furthermore, SE users of AI systems must provide meaningful oversight over all decisions made by an AI system and be able to explain the decision or output.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Entity / SE users",
+      "action": "disclose AI use; explain decisions",
+      "object": "AI systems the public interacts with; AI decisions/outputs",
+      "recipient": "members of the public",
+      "modality": "SHOULD",
+      "requirement": "disclose AI interaction to the public; be able to explain AI decisions",
+      "condition": "where the public interacts directly with an AI-enabled SE system",
+      "exception": null,
+      "purpose": "transparency and accountability",
+      "affected_asset": "public trust; affected individuals",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "AI systems developed, used or procured by NY State Entities that could directly impact the public",
+      "interpretation_notes": "Disclosure is SHOULD; explainability/oversight is MUST. Footnote 6 example: chatbot users should be made aware they are interacting with a machine.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_5_Risk_Assessment",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "section": "4.5 AI Risk Assessment and Management",
+      "original_text": "The SE must perform a Risk Assessment for each AI system that meets the criteria set forth in Section 3.2. The Risk Assessment must include a review of all security, privacy, legal, reputational, and competency risks as well as the additional risks listed in this policy.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Entity",
+      "action": "perform risk assessment",
+      "object": "each in-scope AI system",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "risk assessment covering security, privacy, legal, reputational and competency risks",
+      "condition": "AI system meets §3.2 criteria",
+      "exception": null,
+      "purpose": "risk management",
+      "affected_asset": "State Entity; the public",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "AI systems developed, used or procured by NY State Entities that could directly impact the public",
+      "interpretation_notes": "ITS-supported agencies must do this in collaboration with ITS; SEs should adopt the NIST AI RMF and follow NYS-S14-001.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_7_Privacy",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "section": "4.7 Privacy",
+      "original_text": "SEs must develop polices and controls to ensure the appropriate use of all AI systems (e.g., open-source AI systems, publicly available AI systems), particularly in the limited circumstances when the SE identifies a need to use the AI system to process personally identifiable, confidential, or sensitive information.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Entity",
+      "action": "develop policies and controls",
+      "object": "use of AI systems processing PII, confidential or sensitive information",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "privacy policies and controls (e.g. PIA, data minimisation, retention, disposal, data-subject transparency)",
+      "condition": "particularly where AI processes personally identifiable, confidential or sensitive information",
+      "exception": null,
+      "purpose": "protect personal and confidential data",
+      "affected_asset": "personal data; confidential information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "all AI systems incl. open-source and publicly available AI",
+      "interpretation_notes": "'polices' is the document's spelling. The listed example controls are illustrative.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_8_Security",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "section": "4.8 Security",
+      "original_text": "AI systems must be developed and reviewed in alignment with NYS-S13-001: Secure Systems Development Lifecycle. In addition, SEs must ensure there are adequate security controls including encryption and pseudonymization, where appropriate, depending on the risk throughout the data lifecycle.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "State Entity",
+      "action": "apply secure SDLC and security controls",
+      "object": "AI systems and their data",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "secure development lifecycle; encryption and pseudonymisation as appropriate",
+      "condition": "depending on the risk",
+      "exception": null,
+      "purpose": "information security",
+      "affected_asset": "State IT assets; data",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "AI systems developed, used or procured by NY State Entities that could directly impact the public",
+      "interpretation_notes": "AI systems must also comply with NYS-P03-002, NYS-P14-001 and any additional controls required by law (e.g. IRS Publication 1075).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

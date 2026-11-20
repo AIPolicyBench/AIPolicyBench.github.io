@@ -1,0 +1,241 @@
+{
+  "policy_id": "Camden_Council_GenAI_Staff_Guidance",
+  "policy_name": "Generative AI: Using It at Work",
+  "short_name": "Camden GenAI at Work",
+  "policy_type": "guidance",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/camden-borough-work.pdf",
+  "issuing_authority": "London Borough of Camden (Digital and Data Services with the Data Protection Advice Team)",
+  "jurisdiction": "UK",
+  "country_region": "London Borough of Camden, England, United Kingdom",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Local authority internal staff guidance under UK data protection law",
+  "geo_constraints": "Camden Council staff",
+  "industry_scope": [
+    "public_sector"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Europe › United Kingdom (London Borough of Camden)",
+    "regulation": "Internal staff guidance · data-protection-led, permissive experimentation",
+    "culture": "UK local-government, early-adoption intranet guidance: encourages experimentation to improve citizens' lives while relying on UK GDPR/DPIA processes and the council's Data Protection Advice Team.",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "public-sector & government use",
+      "generative AI & chatbots"
+    ]
+  },
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": null,
+  "key_dates": [],
+  "versions": [
+    {
+      "version": "undated (c. 2023)",
+      "date": "2023",
+      "kind": "release",
+      "title": "Generative AI: Using It at Work",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/camden-borough-work.pdf",
+      "current": true,
+      "note": "The document is undated; 2023 is inferred from its text (ChatGPT data 'up to 2021', Google Bard, Copilot expected in beta 'this winter and into 2024')."
+    }
+  ],
+  "expiration_date": null,
+  "version": null,
+  "last_updated": null,
+  "covered_entities": [
+    "Camden Council staff and teams"
+  ],
+  "covered_systems": [
+    "generative AI bots and tools (e.g. ChatGPT, BingAI, Google Bard, DALL-E)"
+  ],
+  "covered_activities": [
+    "one-off experimentation with AI bots at work",
+    "use of AI bots or APIs within business processes"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "a DPIA is required where AI is used within a regular workflow or business process"
+  ],
+  "objective": "Help council staff understand generative AI bots, their opportunities and risks, and how to use them ethically, securely and responsibly at work.",
+  "policy_domain": [
+    "privacy",
+    "security",
+    "governance"
+  ],
+  "principles": [
+    "do not input personal or sensitive data",
+    "check outputs",
+    "data protection impact assessment",
+    "ethical consideration",
+    "awareness of bias"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "ICO guidance on artificial intelligence",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": null,
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/camden-borough-work.pdf",
+      "https://github.com/asago-ai/asago-policy-mapper/blob/b8ac8876beec6593ef5685d7d7e64cc94f9cc55b/policy_examples/camden-borough-work.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/camden-borough-work.pdf). The document is an undated intranet article; date (c. 2023) is inferred, not stated, and it is likely to have been superseded by later council AI policy (not checked). It contains template placeholders ('[insert basic register of interest]', links 'here') and a redacted email address, suggesting a draft or exported intranet page. Issuer identified as Camden Council from the DPA@camden.gov.uk address and file name. Recorded as guidance/voluntary: it is advisory staff guidance, though it uses 'must' for some steps (checking outputs, DPIA)."
+  },
+  "clauses": [
+    {
+      "clause_id": "Camden_Council_GenAI_Staff_Guidance_No_Personal_Sensitive_Data",
+      "policy_id": "Camden_Council_GenAI_Staff_Guidance",
+      "section": "One Off Use – 2. Never give personal or sensitive information to AI bots.",
+      "original_text": "Never use prompts containing: Personal information (yours or anyone else’s) such as names, addresses, or any information that could be used to identify someone. Organisation-specific sensitive information, such as information related to a restructure. Confidential information, such as details about commercial contracts.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "council staff",
+      "action": "do not input",
+      "object": "personal, organisation-sensitive and confidential information",
+      "recipient": "AI bot providers",
+      "modality": "MUST NOT",
+      "requirement": "no personal, sensitive or confidential data in prompts",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent disclosure to AI providers and other users",
+      "affected_asset": "personal data; confidential council information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "generative AI bots and tools (e.g. ChatGPT, BingAI, Google Bard, DALL-E)",
+      "interpretation_notes": "Bullet list flattened. Related test: if the information is not clearly appropriate for open public access, do not enter it.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Camden_Council_GenAI_Staff_Guidance_Check_Outputs",
+      "policy_id": "Camden_Council_GenAI_Staff_Guidance",
+      "section": "One Off Use – 3. Always check your work.",
+      "original_text": "You must always check any answers or outputs you get. Don’t assume it is correct, and don’t use it without reading it first.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "council staff",
+      "action": "check",
+      "object": "AI answers and outputs",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "read and verify outputs before use",
+      "condition": null,
+      "exception": null,
+      "purpose": "avoid errors from hallucinations",
+      "affected_asset": "accuracy of council work",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "generative AI bots and tools (e.g. ChatGPT, BingAI, Google Bard, DALL-E)",
+      "interpretation_notes": "Document explains hallucinations and data bias as reasons.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Camden_Council_GenAI_Staff_Guidance_DP_Advice_Before_Personal_Data",
+      "policy_id": "Camden_Council_GenAI_Staff_Guidance",
+      "section": "What are the risks associated with them? – 3. Data Protection Implications",
+      "original_text": "The legal implications of using an AI tool or bot must be carefully considered before it is used to handle personal data (or business confidential data). Please get advice from the Data Protection Advice Team (…) before using AI.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "council staff",
+      "action": "consider legal implications; seek advice",
+      "object": "use of AI to handle personal or confidential data",
+      "recipient": "Data Protection Advice Team",
+      "modality": "MUST",
+      "requirement": "legal assessment and data-protection advice before AI handles personal data",
+      "condition": "AI used to handle personal or business-confidential data",
+      "exception": null,
+      "purpose": "data protection compliance",
+      "affected_asset": "personal data",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "generative AI bots and tools (e.g. ChatGPT, BingAI, Google Bard, DALL-E)",
+      "interpretation_notes": "Redacted email address elided with '…'.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Camden_Council_GenAI_Staff_Guidance_DPIA_Business_Process",
+      "policy_id": "Camden_Council_GenAI_Staff_Guidance",
+      "section": "Using AI bots or other AI services within a regular workflow",
+      "original_text": "A DPIA must be completed and discussed with the Data Protection Advice Team.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "service lead",
+      "action": "complete DPIA",
+      "object": "use of AI bots or APIs within a business process",
+      "recipient": "Data Protection Advice Team",
+      "modality": "MUST",
+      "requirement": "DPIA before embedding AI in a workflow",
+      "condition": "AI bots used as part of a business process or via an API within a flow of work",
+      "exception": null,
+      "purpose": "assess data protection impact",
+      "affected_asset": "personal data",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "generative AI bots and tools (e.g. ChatGPT, BingAI, Google Bard, DALL-E)",
+      "interpretation_notes": "Also stated in the risks section: a Data Privacy Impact Assessment must be completed where AI replaces, is added to, or creates a business process.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Camden_Council_GenAI_Staff_Guidance_Breach_Reporting",
+      "policy_id": "Camden_Council_GenAI_Staff_Guidance",
+      "section": "FAQ – I’ve accidentally uploaded some personal or sensitive data into a bot, what should I do?",
+      "original_text": "You need to complete a data breach form and the team can discuss next steps.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "council staff",
+      "action": "report data breach",
+      "object": "accidental upload of personal or sensitive data into an AI bot",
+      "recipient": "data protection team",
+      "modality": "MUST",
+      "requirement": "complete a data breach form",
+      "condition": "personal or sensitive data uploaded to a bot",
+      "exception": null,
+      "purpose": "contain and remediate data breaches",
+      "affected_asset": "personal data",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "generative AI bots and tools (e.g. ChatGPT, BingAI, Google Bard, DALL-E)",
+      "interpretation_notes": "Phrased as an FAQ answer ('You need to'), read as MUST.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    }
+  ]
+}

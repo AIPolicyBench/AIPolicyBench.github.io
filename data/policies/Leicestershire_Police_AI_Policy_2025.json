@@ -1,0 +1,307 @@
+{
+  "policy_id": "Leicestershire_Police_AI_Policy_2025",
+  "policy_name": "Leicestershire Police Artificial Intelligence Policy & Procedure",
+  "short_name": "Leicestershire Police AI Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/leicestershire_police.md",
+  "issuing_authority": "Leicestershire Police (owner: Head of Corporate Services; approved by the Deputy Chief Constable)",
+  "jurisdiction": "UK",
+  "country_region": "Leicestershire, England, United Kingdom",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Police force policy under UK GDPR, Data Protection Act 2018, MoPI and the Code of Ethics",
+  "geo_constraints": "Leicestershire Police officers, staff, volunteers, contractors and anyone with access to the Force IT environment",
+  "industry_scope": [
+    "public_sector",
+    "law_enforcement"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Europe › United Kingdom (Leicestershire Police)",
+    "regulation": "Internal force policy · mandatory, allow-list of approved tools with board approval of new AI",
+    "culture": "UK police-force operational policy: security-classification-driven and cautious, allowing only approved Microsoft Copilot tools and keeping AI out of evidential criminal-justice material, with human decision-makers retaining liability.",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "law enforcement & migration",
+      "public-sector & government use",
+      "generative AI & chatbots"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2025-10-21",
+  "key_dates": [
+    {
+      "date": "2025-10-21",
+      "event": "Policy created (review log)"
+    },
+    {
+      "date": "2026-05-01",
+      "event": "Date of next review"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2025-10-21 (Creation)",
+      "date": "2025-10-21",
+      "kind": "release",
+      "title": "Artificial Intelligence Policy & Procedure",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/leicestershire_police.md",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": "Created 21/10/2025",
+  "last_updated": "2025-10-21",
+  "covered_entities": [
+    "police officers",
+    "Special Constables",
+    "police staff",
+    "Police Support Volunteers",
+    "contractors and agency staff",
+    "anyone given access to the Force IT environment"
+  ],
+  "covered_systems": [
+    "all AI incl. integrated AI features and standalone generative AI tools (authorised: Microsoft 365 Copilot Chat and Microsoft 365 Copilot)"
+  ],
+  "covered_activities": [
+    "use of AI tools in force work",
+    "approval of new AI tools",
+    "input of information into AI",
+    "use of AI outputs incl. in the criminal justice process"
+  ],
+  "exceptions": [
+    "AI MG form generation within the approved force trial with East Midlands CPS using GoodSAM AI",
+    "integrated AI tools within a wider adopted product do not need AI Board endorsement"
+  ],
+  "conditions": [
+    "OFFICIAL and OFFICIAL-SENSITIVE information (incl. personal data) may be used only with risk-assessed, explicitly authorised tools",
+    "new standalone AI tools require Artificial Intelligence Board approval"
+  ],
+  "objective": "Give clear direction on the responsible use of AI in Leicestershire Police so that all AI deployments are subject to robust oversight and risk management in line with legal, ethical and operational standards.",
+  "policy_domain": [
+    "security",
+    "privacy",
+    "accountability",
+    "transparency",
+    "fairness",
+    "governance"
+  ],
+  "principles": [
+    "authorised tools only",
+    "information-classification limits",
+    "human review of operational decisions",
+    "verification of outputs",
+    "transparency of AI use",
+    "avoidance of bias and harm"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "NPCC_AI_Policing_Covenant_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "UK GDPR and Data Protection Act 2018",
+      "relation": "complements"
+    },
+    {
+      "policy": "Management of Police Information (MoPI)",
+      "relation": "complements"
+    },
+    {
+      "policy": "UK Government Code of Practice for the Cyber Security of AI",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Use must comply with the Code of Ethics, data protection law and the Force's wider policies; the SIRO (Deputy Chief Constable) may revoke any AI use at any time.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/leicestershire_police.md",
+      "https://github.com/asago-ai/asago-policy-mapper/blob/b8ac8876beec6593ef5685d7d7e64cc94f9cc55b/policy_examples/leicestershire_police.md"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/leicestershire_police.md). The asago copy is a Markdown conversion of the force document (tables as HTML, some list bullets lost, '100%' rendered as LaTeX). Annex A (governance process for new AI tools), referenced in §4.3, is not in the copy. Only the creation entry (21/10/2025) appears in the review log; the next review date is 01/05/2026, so a revised version may now exist (not checked). Numbering in §5.3 is duplicated in the original ('3.' and '6.' appear twice). Binding=false (not law); adherence is mandatory for all officers, staff, volunteers, contractors and others with access to the Force IT environment (§2)."
+  },
+  "clauses": [
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_4_2_Authorised_Tools_Only",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "section": "4.2 Standalone AI Tools",
+      "original_text": "As of the date of this document, the following represent the only standalone AI applications authorised for use by Leicestershire Police personnel: Microsoft 365 Copilot Chat (Free Version); Microsoft 365 Copilot (Licensed Version). No other standalone AI tools may be used within the Force.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Leicestershire Police personnel",
+      "action": "use only authorised tools",
+      "object": "standalone AI tools",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "only Microsoft 365 Copilot Chat / Copilot; consumer tools (ChatGPT, Deepseek, Gemini, Perplexity, self-hosted LLMs) prohibited",
+      "condition": null,
+      "exception": "new standalone tools approved by the Artificial Intelligence Board (§4.3)",
+      "purpose": "prevent uncontrolled data processing",
+      "affected_asset": "Force data",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "all AI incl. integrated AI features and standalone generative AI tools (authorised: Microsoft 365 Copilot Chat and Microsoft 365 Copilot)",
+      "interpretation_notes": "Bullet list flattened with semicolons. §5.3 item 2 adds: use a force account on a force device; personal accounts/devices prohibited.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_5_2_Prohibited_Information",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "section": "5.2 Prohibited Information Types",
+      "original_text": "However, due to the nature of policing and the critical importance of safeguarding sensitive operations, the following types of information must never be entered, pasted, uploaded, or otherwise submitted into Microsoft's Co-pilot or any other AI tool—regardless of the device or platform: Any data marked or implicitly classified as SECRET or TOP SECRET. … Covert Human Intelligence Sources (CHIS) Related Information …",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Leicestershire Police personnel",
+      "action": "do not input",
+      "object": "SECRET/TOP SECRET data, CHIS information, information under handling conditions, legally privileged information, sensitive operational data, system credentials",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "never submit prohibited information types into any AI tool",
+      "condition": null,
+      "exception": "OFFICIAL and OFFICIAL-SENSITIVE (incl. personal data) permitted in risk-assessed, authorised tools",
+      "purpose": "safeguard sensitive operations and national security",
+      "affected_asset": "classified and operational police information; CHIS identities",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "all AI incl. integrated AI features and standalone generative AI tools (authorised: Microsoft 365 Copilot Chat and Microsoft 365 Copilot)",
+      "interpretation_notes": "Other listed types elided with '…'. Guiding principle: if unsure, do not input it.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_5_3_Check_Results",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "section": "5.3 What should I consider when using AI? – 4. Check the results",
+      "original_text": "Check the results – AI is not 100% reliable and you must always read and verify anything produced.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "users",
+      "action": "read and verify",
+      "object": "all AI-produced content",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "verify AI outputs",
+      "condition": null,
+      "exception": null,
+      "purpose": "avoid hallucinated or inaccurate content",
+      "affected_asset": "accuracy of police records and decisions",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "all AI incl. integrated AI features and standalone generative AI tools (authorised: Microsoft 365 Copilot Chat and Microsoft 365 Copilot)",
+      "interpretation_notes": "'100%' appears as LaTeX '$100\\%$' in the Markdown copy (conversion artefact fixed).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_5_3_Be_Transparent",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "section": "5.3 What should I consider when using AI? – 5. Be transparent",
+      "original_text": "Be transparent – Don't claim AI produced work as your own. Although there is no need to declare every use of AI such as for note taking, drafting work you heavily edit or for research, transparency is essential to maintain the public trust so always declare the use of AI in any formal report, creative content or when it is used in decision making.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "users",
+      "action": "declare AI use",
+      "object": "formal reports, creative content, AI-supported decisions",
+      "recipient": "readers / the public",
+      "modality": "MUST",
+      "requirement": "declare AI use in formal reports, creative content and decision-making",
+      "condition": "formal reports, creative content or decision making",
+      "exception": "note taking, heavily edited drafts and research need not be declared",
+      "purpose": "public trust",
+      "affected_asset": "public trust; integrity of police outputs",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "all AI incl. integrated AI features and standalone generative AI tools (authorised: Microsoft 365 Copilot Chat and Microsoft 365 Copilot)",
+      "interpretation_notes": "Suggested note: 'Microsoft Copilot supported the creation of this document'.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_5_3_Human_Review",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "section": "5.3 What should I consider when using AI? – 6. Human Review",
+      "original_text": "Human Review - AI must not be allowed to make operational decisions without human review. AI can be used as a tool, to present options and wider considerations. However, the responsibility and liability remain with the police decision maker. AI can never be used as a defence or rationale for a poor decision.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "police decision makers",
+      "action": "review AI before operational decisions",
+      "object": "operational decisions",
+      "recipient": "the public",
+      "modality": "MUST NOT",
+      "requirement": "no operational decisions by AI without human review; liability stays with the decision maker",
+      "condition": null,
+      "exception": null,
+      "purpose": "human accountability",
+      "affected_asset": "rights of the public; police legitimacy",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "all AI incl. integrated AI features and standalone generative AI tools (authorised: Microsoft 365 Copilot Chat and Microsoft 365 Copilot)",
+      "interpretation_notes": null,
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_5_4_Criminal_Justice",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "section": "5.4 AI use in the Criminal Justice System",
+      "original_text": "The use of AI technologies is not yet authorised for use in the Criminal Justice process, including for the creation of evidential materials. This means it must not be used in the preparation of witness statements, MG forms, or any other court ready evidential reports.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "officers and staff",
+      "action": "do not use AI",
+      "object": "witness statements, MG forms, court-ready evidential reports",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no AI in creating evidential material",
+      "condition": null,
+      "exception": "AI MG form generation in the approved force trial with East Midlands CPS using GoodSAM AI",
+      "purpose": "integrity of evidence and fair trial",
+      "affected_asset": "criminal justice process; defendants and witnesses",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "all AI incl. integrated AI features and standalone generative AI tools (authorised: Microsoft 365 Copilot Chat and Microsoft 365 Copilot)",
+      "interpretation_notes": "AI may support investigators in understanding evidence if it does not generate official evidential documentation.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

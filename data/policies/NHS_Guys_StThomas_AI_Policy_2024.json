@@ -1,0 +1,330 @@
+{
+  "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+  "policy_name": "Artificial Intelligence (AI) IT Security and Information Governance Policy",
+  "short_name": "GSTT AI Security & IG Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/guy-nhs.pdf",
+  "issuing_authority": "Guy's and St Thomas' NHS Foundation Trust (approved by the Trust Risk & Assurance Committee; owner: Senior Information Risk Owner)",
+  "jurisdiction": "UK",
+  "country_region": "United Kingdom (England) – Guy's and St Thomas' NHS Foundation Trust, London",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "NHS trust internal information security and information governance policy (under UK GDPR / Data Protection Act 2018, NIS Regulations and the NHS Data Security and Protection Toolkit)",
+  "geo_constraints": "All sites of Guy's and St Thomas' NHS Foundation Trust; staff, contractors and third parties accessing Trust information systems",
+  "industry_scope": [
+    "healthcare",
+    "public_sector"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Europe › United Kingdom (Guy's and St Thomas' NHS Foundation Trust)",
+    "regulation": "Internal policy · information security and information governance controls for AI",
+    "culture": "NHS information-governance culture: security- and data-protection-led (UK GDPR, DSPT, Caldicott-style confidentiality), aligning with the UK government's outcome-based, pro-innovation AI assurance guidance rather than AI-specific law.",
+    "use_cases": [
+      "healthcare",
+      "employee use of GenAI tools",
+      "generative AI & chatbots",
+      "AI procurement",
+      "general AI lifecycle"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2024-06",
+  "key_dates": [
+    {
+      "date": "2024-04-15",
+      "event": "Final draft (document history)"
+    },
+    {
+      "date": "2024-05",
+      "event": "Date last reviewed"
+    },
+    {
+      "date": "2024-06",
+      "event": "Approved by the Trust Risk & Assurance Committee (TRAC); effective from June 2024"
+    },
+    {
+      "date": "2027-06",
+      "event": "Date of next review"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1",
+      "date": "2024-06",
+      "kind": "release",
+      "title": "Version 1 (effective June 2024)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/guy-nhs.pdf",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": "1",
+  "last_updated": "2024-06",
+  "covered_entities": [
+    "all Trust staff (permanent and temporary)",
+    "contractors",
+    "third parties accessing Trust information systems",
+    "directors, heads of department and line managers",
+    "Information Asset Owners / system owners"
+  ],
+  "covered_systems": [
+    "generative AI including LLMs (e.g. ChatGPT)",
+    "automated healthcare triage systems",
+    "AI-enabled tools (e.g. Microsoft PowerApps, security tooling, chatbots)",
+    "NLP, computer vision, neural networks and distributed AI",
+    "AI as a medical device",
+    "AI security tooling"
+  ],
+  "covered_activities": [
+    "adoption and deployment of AI",
+    "development of AI solutions (including proofs of concept)",
+    "procurement of AI solutions",
+    "operation and monitoring",
+    "staff use of LLMs and public AI tools",
+    "integration of AI with Trust systems",
+    "AI-related incident reporting"
+  ],
+  "exceptions": [
+    "robotic process automation (out of scope as AI, though IG and security policies still apply)",
+    "AI as a medical device governed by the Trust Medical Device Policy",
+    "research aspects governed by the Trust R&D policy"
+  ],
+  "conditions": [
+    "sensitive/highly sensitive/restricted data may be used in AI only if wholly owned by the Trust with contractual clauses; exceptions signed off by IG, IS and the IAO",
+    "personal-use LLM registration with a work email only after DPIA approval for a documented use case"
+  ],
+  "objective": "Embed information security and information governance in any use of AI at the Trust, protecting the confidentiality, integrity and availability of Trust data and assets and supporting future Trust AI policies.",
+  "policy_domain": [
+    "security",
+    "privacy",
+    "governance",
+    "safety"
+  ],
+  "principles": [
+    "confidentiality, integrity and availability",
+    "data protection by design (DPIA sign-off)",
+    "least privilege and role-based access",
+    "human verification of LLM output",
+    "security by design in procurement and development",
+    "accountability through named system owners",
+    "incident reporting"
+  ],
+  "parent_policy": "Trust Information Security Policy Framework and Information Governance Policy",
+  "related_policies": [
+    {
+      "policy": "UK_AI_White_Paper_2023",
+      "relation": "implements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "MS_RAI_Standard_v2",
+      "relation": "complements"
+    },
+    {
+      "policy": "Introduction to AI Assurance (UK Government guidance, February 2024)",
+      "relation": "implements"
+    },
+    {
+      "policy": "UK GDPR and Data Protection Act 2018",
+      "relation": "implements"
+    },
+    {
+      "policy": "GSTT Information Security Policy; Information Governance Policy; Third Party Security Policy; Personal Device (BYOD) policy",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Sits within the Trust Information Security Policy Framework and Information Governance Policy; all Trust policies and standards apply to AI solutions. AI as a medical device is governed by the Trust Medical Device Policy and research by the R&D policy (s.3.2).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/guy-nhs.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/guy-nhs.pdf). (asago-ai/asago-policy-mapper commit b8ac8876beec6593ef5685d7d7e64cc94f9cc55b.) The asago PDF has 9 pages while the footer reads 'Page x of 13': Appendices A and B (risk assessment and countermeasures) are not in this copy, so they are not reflected here. Version 1, effective June 2024 (exact day not stated); 'Approved by: TRAC June 2024' and final draft dated 15/04/2024. Section numbering in the source skips 6 and has two sections numbered 8. No official public URL is printed (only an intranet GTi link), so the asago copy is the source_uri. Not verified whether a later version has replaced it. Binding=false: not law, but mandatory internally for Trust staff, contractors and third parties accessing Trust systems; inputting sensitive data into public AI tools without approval is treated as a data breach (s.5.6.2)."
+  },
+  "clauses": [
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_No_Sensitive_Data_In_LLM",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "section": "5.4.6 Regarding Large Language Models (LLMs)",
+      "original_text": "Under no circumstances should personal identifiable or business sensitive information be entered in to the LLM. Only information that is already available in the public domain should be used. Unless data access and sharing can be appropriately restricted.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Trust staff",
+      "action": "enter information into an LLM",
+      "object": "personal identifiable or business sensitive information",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "only public-domain information may be entered into LLMs unless access and sharing can be restricted",
+      "condition": null,
+      "exception": "where data access and sharing can be appropriately restricted (s.8: guaranteed via contractual clauses)",
+      "purpose": "prevent disclosure of patient, staff and business data to LLM providers",
+      "affected_asset": "patient and staff personal data; Trust business-sensitive information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "LLMs and publicly available AI tools used by Trust staff",
+      "interpretation_notes": "Text from the asago copy of the Trust PDF (pdftotext -layout); line breaks collapsed. Worded 'should' but 'under no circumstances' makes it a prohibition; repeated in s.8 Do's and Don'ts with examples (patient/staff information, IP, proprietary code, passwords, keys, card numbers).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_LLM_No_Medical_Advice",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "section": "5.4.6 Regarding Large Language Models (LLMs)",
+      "original_text": "LLMs should not be used to make medical diagnoses or to provide medical advice if not approved for use as medical device.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Trust staff",
+      "action": "use LLMs for diagnosis or medical advice",
+      "object": "LLMs not approved as medical devices",
+      "recipient": null,
+      "modality": "SHOULD NOT",
+      "requirement": "no medical diagnosis or advice from LLMs unless approved as a medical device",
+      "condition": "unless the LLM is approved for use as a medical device",
+      "exception": null,
+      "purpose": "patient safety",
+      "affected_asset": "patients' health and safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "LLMs not approved as medical devices",
+      "interpretation_notes": "Text from the asago copy of the Trust PDF (pdftotext -layout); line breaks collapsed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_LLM_Human_Verification",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "section": "5.4.6 Regarding Large Language Models (LLMs)",
+      "original_text": "LLMs should be used with caution, and their output should always be verified via human intervention.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Trust staff",
+      "action": "verify via human intervention",
+      "object": "LLM output",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "human verification of all LLM output",
+      "condition": null,
+      "exception": null,
+      "purpose": "avoid reliance on incorrect or misleading output",
+      "affected_asset": "accuracy of Trust information and clinical safety",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "LLMs and publicly available AI tools used by Trust staff",
+      "interpretation_notes": "Text from the asago copy of the Trust PDF (pdftotext -layout); line breaks collapsed. s.8 restates it as 'LLM output must always be verified via human intervention' and asks staff to fact-check all content against trusted sources.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_No_Biometric_Logins",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "section": "5.3.2 Operation and Monitoring",
+      "original_text": "Biometric data for user logins/identification (as defined by UK GDPR Article 4.14) must not be used for any AI technology within Trust-owned solutions.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "the Trust (solution owners)",
+      "action": "use biometric data for login/identification",
+      "object": "AI technology within Trust-owned solutions",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no biometric authentication/identification in Trust-owned AI solutions",
+      "condition": null,
+      "exception": "personal devices (refer to the Personal Device (BYOD) policy)",
+      "purpose": "protect special-category biometric data",
+      "affected_asset": "staff and patient biometric data",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI technology within Trust-owned solutions",
+      "interpretation_notes": "Text from the asago copy of the Trust PDF (pdftotext -layout); line breaks collapsed. Personal devices are dealt with under the BYOD policy.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_No_Circumventing_Security",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "section": "5.5.1 Information Security",
+      "original_text": "AI tooling must never be used to circumvent security controls at the Trust. (For example hacking devices, jailbreak, eavesdropping, etc).",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Trust staff and third parties",
+      "action": "use AI tooling to circumvent",
+      "object": "Trust security controls",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "AI tools must not be used for hacking, jailbreaking, eavesdropping or other circumvention of controls",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect Trust systems and data",
+      "affected_asset": "Trust information systems",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "any AI tooling",
+      "interpretation_notes": "Text from the asago copy of the Trust PDF (pdftotext -layout); line breaks collapsed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_AI_Breach_Reporting",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "section": "5.6.1 Information Governance and Security Incidents",
+      "original_text": "Trust Policy applies. Data breaches involving any AI tool, including Trust developed and third party solutions, must be reported promptly via the Trust Incident Management reporting system (RADAR).",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Trust staff",
+      "action": "report promptly via RADAR",
+      "object": "data breaches involving any AI tool",
+      "recipient": "Information Governance and Information Security teams",
+      "modality": "MUST",
+      "requirement": "prompt incident reporting of AI-related data breaches",
+      "condition": null,
+      "exception": null,
+      "purpose": "timely incident management and notification to IG and IS",
+      "affected_asset": "personal data; Trust data",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "Trust-developed and third-party AI solutions",
+      "interpretation_notes": "Text from the asago copy of the Trust PDF (pdftotext -layout); line breaks collapsed. s.5.6.2 adds that inputting sensitive or proprietary data into public AI tools without IG/IS approval is considered a data breach.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

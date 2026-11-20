@@ -3,6 +3,7 @@
   "policy_name": "Illinois HB 3773 (Public Act 103-0804), amending the Illinois Human Rights Act on the use of artificial intelligence in employment",
   "short_name": "Illinois HB 3773 (IHRA AI amendment)",
   "policy_type": "statute",
+  "category": "regulation",
   "source_uri": "https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=103-0804",
   "issuing_authority": "Illinois General Assembly (signed by Governor J.B. Pritzker)",
   "jurisdiction": "US-IL",

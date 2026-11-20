@@ -3,6 +3,7 @@
   "policy_name": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law",
   "short_name": "CoE AI Convention (CETS No. 225)",
   "policy_type": "international_instrument",
+  "category": "regulation",
   "source_uri": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
   "issuing_authority": "Council of Europe (Committee of Ministers)",
   "jurisdiction": "International",

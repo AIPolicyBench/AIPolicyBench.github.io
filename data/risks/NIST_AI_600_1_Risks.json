@@ -1,0 +1,101 @@
+{
+  "taxonomy_id": "NIST_AI_600_1_Risks",
+  "name": "NIST AI 600-1 Generative AI Risks",
+  "short_name": "NIST AI 600-1 risks",
+  "publisher": "US National Institute of Standards and Technology (NIST)",
+  "year": 2024,
+  "version": "NIST AI 600-1 (July 2024)",
+  "kind": "generative-AI risk list",
+  "source_uri": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+  "paper_uri": null,
+  "description": "The 12 risks that are unique to or exacerbated by generative AI, as defined in the Generative AI Profile of the NIST AI RMF.",
+  "levels": [
+    "Risk"
+  ],
+  "is_hub": false,
+  "related_documents": [
+    "NIST_AI_600_1_2024",
+    "NIST_AI_RMF_2023"
+  ],
+  "categories": [
+    {
+      "id": "nist-cbrn-information-or-capabilities",
+      "name": "CBRN Information or Capabilities",
+      "description": "Eased access to or synthesis of materially nefarious information or design capabilities related to chemical, biological, radiological, or nuclear (CBRN) weapons or other dangerous materials or agents.",
+      "children": []
+    },
+    {
+      "id": "nist-confabulation",
+      "name": "Confabulation",
+      "description": "The production of confidently stated but erroneous or false content (known colloquially as “hallucinations” or “fabrications”) by which users may be misled or deceived.",
+      "children": []
+    },
+    {
+      "id": "nist-dangerous-violent-or-hateful-content",
+      "name": "Dangerous, Violent, or Hateful Content",
+      "description": "Eased production of and access to violent, inciting, radicalizing, or threatening content as well as recommendations to carry out self-harm or conduct illegal activities. Includes difficulty controlling public exposure to hateful and disparaging or stereotyping content.",
+      "children": []
+    },
+    {
+      "id": "nist-data-privacy",
+      "name": "Data Privacy",
+      "description": "Impacts due to leakage and unauthorized use, disclosure, or de-anonymization of biometric, health, location, or other personally identifiable information or sensitive data.",
+      "children": []
+    },
+    {
+      "id": "nist-environmental-impacts",
+      "name": "Environmental Impacts",
+      "description": "Impacts due to high compute resource utilization in training or operating GAI models, and related outcomes that may adversely impact ecosystems.",
+      "children": []
+    },
+    {
+      "id": "nist-harmful-bias-and-homogenization",
+      "name": "Harmful Bias and Homogenization",
+      "description": "Amplification and exacerbation of historical, societal, and systemic biases; performance disparities between sub-groups or languages, possibly due to non-representative training data, that result in discrimination, amplification of biases, or incorrect presumptions about performance; undesired homogeneity that skews system or model outputs, which may be erroneous, lead to ill-founded decision-making, or amplify harmful biases.",
+      "children": []
+    },
+    {
+      "id": "nist-human-ai-configuration",
+      "name": "Human-AI Configuration",
+      "description": "Arrangements of or interactions between a human and an AI system which can result in the human inappropriately anthropomorphizing GAI systems or experiencing algorithmic aversion, automation bias, over-reliance, or emotional entanglement with GAI systems.",
+      "children": []
+    },
+    {
+      "id": "nist-information-integrity",
+      "name": "Information Integrity",
+      "description": "Lowered barrier to entry to generate and support the exchange and consumption of content which may not distinguish fact from opinion or fiction or acknowledge uncertainties, or could be leveraged for large-scale dis- and mis-information campaigns.",
+      "children": []
+    },
+    {
+      "id": "nist-information-security",
+      "name": "Information Security",
+      "description": "Lowered barriers for offensive cyber capabilities, including via automated discovery and exploitation of vulnerabilities to ease hacking, malware, phishing, offensive cyber operations, or other cyberattacks; increased attack surface for targeted cyberattacks, which may compromise a system’s availability or the confidentiality or integrity of training data, code, or model weights.",
+      "children": []
+    },
+    {
+      "id": "nist-intellectual-property",
+      "name": "Intellectual Property",
+      "description": "Eased production or replication of alleged copyrighted, trademarked, or licensed content without authorization (possibly in situations which do not fall under fair use); eased exposure of trade secrets; or plagiarism or illegal replication.",
+      "children": []
+    },
+    {
+      "id": "nist-obscene-degrading-and-or-abusive-content",
+      "name": "Obscene, Degrading, and/or Abusive Content",
+      "description": "Eased production of and access to obscene, degrading, and/or abusive imagery which can cause harm, including synthetic child sexual abuse material (CSAM), and nonconsensual intimate images (NCII) of adults.",
+      "children": []
+    },
+    {
+      "id": "nist-value-chain-and-component-integration",
+      "name": "Value Chain and Component Integration",
+      "description": "Non-transparent or untraceable integration of upstream third-party components, including data that has been improperly obtained or not processed and cleaned due to increased automation from GAI; improper supplier vetting across the AI lifecycle; or other issues that diminish transparency or accountability for downstream users.",
+      "children": []
+    }
+  ],
+  "record_provenance": {
+    "source": "https://github.com/IBM/ai-atlas-nexus/blob/539cd38d594850431b3707c65a7e692bbc159edc/src/ai_atlas_nexus/data/knowledge_graph/nist_ai_rmf_data.yaml",
+    "license": "Apache-2.0 (AI Atlas Nexus data)",
+    "imported_on": "2026-11-20",
+    "human_verified": false,
+    "notes": null
+  }
+}

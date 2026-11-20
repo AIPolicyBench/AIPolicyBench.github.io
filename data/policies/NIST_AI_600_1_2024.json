@@ -3,6 +3,7 @@
   "policy_name": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
   "short_name": "NIST GenAI Profile",
   "policy_type": "framework",
+  "category": "policy",
   "source_uri": "https://doi.org/10.6028/NIST.AI.600-1",
   "issuing_authority": "National Institute of Standards and Technology (NIST), U.S. Department of Commerce",
   "jurisdiction": "US-Federal",

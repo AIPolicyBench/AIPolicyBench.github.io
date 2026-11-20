@@ -3,6 +3,7 @@
   "policy_name": "OpenAI Preparedness Framework",
   "short_name": "Preparedness Framework",
   "policy_type": "internal_policy",
+  "category": "policy",
   "source_uri": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
   "issuing_authority": "OpenAI",
   "jurisdiction": "Organization",

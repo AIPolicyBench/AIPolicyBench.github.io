@@ -1,0 +1,2354 @@
+{
+  "taxonomy_id": "AIR_2024",
+  "name": "AI Risk Categorization Decoded (AIR 2024)",
+  "short_name": "AIR 2024",
+  "publisher": "Zeng et al. (Virtue AI, Stanford, UIUC and others)",
+  "year": 2024,
+  "version": "v1",
+  "kind": "policy-derived risk taxonomy",
+  "source_uri": "https://arxiv.org/abs/2406.17864",
+  "paper_uri": "https://arxiv.org/abs/2406.17864",
+  "description": "An AI risk taxonomy derived from eight government policies from the European Union, United States, and China and 16 company policies worldwide. It identifies 314 unique risk categories organized into a four-tiered taxonomy. This taxonomy encompasses System & Operational Risks, Content Safety Risks, Societal Risks, and Legal & Rights Risks. The taxonomy establishes connections between various descriptions and approaches to risk, highlighting the overlaps and discrepancies between public and private sector conceptions of risk.",
+  "levels": [
+    "Level 1",
+    "Level 2",
+    "Level 3",
+    "Level 4"
+  ],
+  "is_hub": false,
+  "related_documents": [],
+  "categories": [
+    {
+      "id": "air-l1-1",
+      "name": "System & Operational Risks",
+      "description": null,
+      "children": [
+        {
+          "id": "ai-risk-taxonomy-security-risks",
+          "name": "Security Risks",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-confidentiality",
+              "name": "Confidentiality",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-network-intrusion",
+                  "name": "Network intrusion",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-vulnerability-probing",
+                  "name": "Vulnerability probing",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-spoofing",
+                  "name": "Spoofing",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-spear-phishing",
+                  "name": "Spear phishing",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-social-engineering",
+                  "name": "Social engineering",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-network-entry",
+                  "name": "Unauthorized network entry",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-availability",
+              "name": "Availability",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-system/website-impairment",
+                  "name": "System/Website impairment",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-network-disruption",
+                  "name": "Network disruption",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-integrity",
+              "name": "Integrity",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-malware",
+                  "name": "Malware",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-packet-forgery",
+                  "name": "Packet forgery",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-data-tampering",
+                  "name": "Data tampering",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-control-override-(safety/privacy-filters)",
+                  "name": "Control override (safety/privacy filters)",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-operational-misuses",
+          "name": "Operational Misuses",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-advice-in-heavily-regulated-industries",
+              "name": "Advice in Heavily Regulated Industries",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-legal",
+                  "name": "Legal",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-medical/pharmaceutical",
+                  "name": "Medical/Pharmaceutical",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-accounting",
+                  "name": "Accounting",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-financial",
+                  "name": "Financial",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-government-services",
+                  "name": "Government services",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-autonomous-unsafe-operation-of-systems",
+              "name": "Autonomous Unsafe Operation of Systems",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-heavy-machinery",
+                  "name": "Heavy machinery",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-transportation",
+                  "name": "Transportation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-energy/electrical-grids",
+                  "name": "Energy/Electrical grids",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-nuclear-facilities",
+                  "name": "Nuclear facilities",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-aircraft-navigation/air-traffic-control",
+                  "name": "Aircraft navigation/Air traffic control",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-communication-systems",
+                  "name": "Communication systems",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-water-treatment-facilities",
+                  "name": "Water treatment facilities",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-life-support",
+                  "name": "Life support",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-weapon-systems/battlefield-management",
+                  "name": "Weapon systems/Battlefield management",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-emergency-services",
+                  "name": "Emergency services",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-other-unauthorized-actions-on-behalf-of-users",
+                  "name": "Other unauthorized actions on behalf of users",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-automated-decision-making",
+              "name": "Automated Decision-Making",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-financing-eligibility/creditworthiness",
+                  "name": "Financing eligibility/Creditworthiness",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-criminal-justice/predictive-policing",
+                  "name": "Criminal justice/Predictive policing",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-adversely-affects-legal-rights",
+                  "name": "Adversely affects legal rights",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-employment",
+                  "name": "Employment",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-social-scoring",
+                  "name": "Social scoring",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-housing-eligibility",
+                  "name": "Housing eligibility",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-education-eligibility",
+                  "name": "Education eligibility",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-migration-eligibility",
+                  "name": "Migration eligibility",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-insurance-eligibility",
+                  "name": "Insurance eligibility",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-profiling",
+                  "name": "Profiling",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "air-l1-2",
+      "name": "Content Safety Risks",
+      "description": null,
+      "children": [
+        {
+          "id": "ai-risk-taxonomy-violence-&-extremism",
+          "name": "Violence & Extremism",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-depicting-violence",
+              "name": "Depicting Violence",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-bodily-destruction",
+                  "name": "Bodily destruction",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-bodily-mutilation",
+                  "name": "Bodily mutilation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-torture/abuse",
+                  "name": "Torture/abuse",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-animal-abuse",
+                  "name": "Animal abuse",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-activities-meant-to-kill",
+                  "name": "Activities meant to kill",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-military-and-warfare",
+              "name": "Military and Warfare",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-military",
+                  "name": "Military",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-warfare",
+                  "name": "Warfare",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-celebrating-suffering",
+              "name": "Celebrating Suffering",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-glorifying-violence,-abuse,-or-the-suffering-of-others",
+                  "name": "Glorifying violence, abuse, or the suffering of others",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-belittling-victimhood-or-violent-events",
+                  "name": "Belittling victimhood or violent events",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-denying-or-minimizing",
+                  "name": "Denying or minimizing well-documented, major violent events or the victimhood of such events/Denying the deeds of martyrdom",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-beautifying-and-whitewashing-acts-of-war-or-aggression",
+                  "name": "Beautifying and whitewashing acts of war or aggression",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-weapon-usage-&-development",
+              "name": "Weapon Usage & Development",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-guns",
+                  "name": "Guns",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-explosives/dangerous-materials",
+                  "name": "Explosives/Dangerous Materials",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-bioweapons/viruses/gain-of-function",
+                  "name": "Bioweapons/Viruses/Gain-of-function",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-nuclear-weapons",
+                  "name": "Nuclear Weapons",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-chemical-weapons",
+                  "name": "Chemical Weapons",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-radiological-weapons",
+                  "name": "Radiological Weapons",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-violent-acts",
+              "name": "Violent acts",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-persons-(including-murder)",
+                  "name": "Persons (including murder)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-animals",
+                  "name": "Animals",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-property-damage",
+                  "name": "Property damage",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-environmental",
+                  "name": "Environmental",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-supporting-malicious-organized-groups",
+              "name": "Supporting Malicious Organized Groups",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-extremism",
+                  "name": "Extremism",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-terrorism",
+                  "name": "Terrorism",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-criminal-organization",
+                  "name": "Criminal organization",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-hate/toxicity",
+          "name": "Hate/Toxicity",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-harassment",
+              "name": "Harassment",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-bullying",
+                  "name": "Bullying",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-threats",
+                  "name": "Threats",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-intimidation",
+                  "name": "Intimidation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-shaming",
+                  "name": "Shaming",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-humiliation",
+                  "name": "Humiliation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-insults/personal-attacks",
+                  "name": "Insults/Personal attacks",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-abuse",
+                  "name": "Abuse",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-provoking",
+                  "name": "Provoking",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-trolling",
+                  "name": "Trolling",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-doxing",
+                  "name": "Doxing",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-cursing",
+                  "name": "Cursing",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-hate-speech-(inciting/promoting/expressing-hatred)",
+              "name": "Hate Speech (Inciting/Promoting/Expressing hatred)",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-race",
+                  "name": "Race",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-ethnicity",
+                  "name": "Ethnicity",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-color",
+                  "name": "Color",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-gender",
+                  "name": "Gender",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-sexual-orientation",
+                  "name": "Sexual orientation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-religion",
+                  "name": "Religion",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-beliefs",
+                  "name": "Beliefs",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-nationality",
+                  "name": "Nationality",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-geographic-region",
+                  "name": "Geographic region",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-caste",
+                  "name": "Caste",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-social-behaviors",
+                  "name": "Social behaviors",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-physical-characteristics",
+                  "name": "Physical characteristics",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-mental-characteristics",
+                  "name": "Mental characteristics",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-personality",
+                  "name": "Personality",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-health-conditions",
+                  "name": "Health conditions",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-disability",
+                  "name": "Disability",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-pregnancy-status",
+                  "name": "Pregnancy status",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-genetic-information",
+                  "name": "Genetic information",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-occupation",
+                  "name": "Occupation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-age",
+                  "name": "Age",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-perpetuating-harmful-beliefs",
+              "name": "Perpetuating Harmful Beliefs",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-negative-stereotyping-of-any-group",
+                  "name": "Negative stereotyping of any group",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-perpetuating-racism",
+                  "name": "Perpetuating racism",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-perpetuating-sexism",
+                  "name": "Perpetuating sexism",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-offensive-language",
+              "name": "Offensive Language",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-vulgar-terms",
+                  "name": "Vulgar terms",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-derogatory-comments",
+                  "name": "Derogatory comments",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-sexual-content",
+          "name": "Sexual Content",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-adult-content",
+              "name": "Adult content",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-obscene",
+                  "name": "Obscene",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-suggestive",
+                  "name": "Suggestive",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-sexual-acts",
+                  "name": "Sexual acts",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-sexual-intercourse",
+                  "name": "Sexual intercourse",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-erotic",
+              "name": "Erotic",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-erotic-chats",
+                  "name": "Erotic chats",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-fetishes",
+                  "name": "Fetishes",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-non-consensual-nudity",
+              "name": "Non-Consensual Nudity",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-ncii-(non-consensual-intimate-image)",
+                  "name": "NCII (Non-consensual Intimate Image)",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-monetized",
+              "name": "Monetized",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-pornography",
+                  "name": "Pornography",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-promotion-of-sexual-services",
+                  "name": "Promotion of sexual services",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-child-harm",
+          "name": "Child Harm",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-child-sexual-abuse",
+              "name": "Child Sexual Abuse",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-solicitation",
+                  "name": "Solicitation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-csam",
+                  "name": "CSAM",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-endangerment,-harm,-or-abuse-of-children",
+              "name": "Endangerment, Harm, or Abuse of Children",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-grooming",
+                  "name": "Grooming",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-pedophilia",
+                  "name": "Pedophilia",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-exploiting-or-harming-minors",
+                  "name": "Exploiting or Harming minors",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-building-services-targeting-minors/failure-to-employ-age-gating",
+                  "name": "Building services targeting minors/failure to employ age-gating",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-building-services-to-present-a-persona-of-minor",
+                  "name": "Building services to present a persona of minor",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-self-harm",
+          "name": "Self-harm",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-suicidal-and-non-suicidal-self-injury",
+              "name": "Suicidal and non-suicidal self Injury",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-suicide",
+                  "name": "Suicide",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-cutting",
+                  "name": "Cutting",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-eating-disorders-(anorexia/-bulimia)",
+                  "name": "Eating Disorders (anorexia/ bulimia)",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "air-l1-3",
+      "name": "Societal Risks",
+      "description": null,
+      "children": [
+        {
+          "id": "ai-risk-taxonomy-political-usage",
+          "name": "Political Usage",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-disrupting-social-order-(china-unique)",
+              "name": "Disrupting Social Order (China-unique)",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-opposing-constitutional-principles",
+                  "name": "Opposing constitutional principles",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-subverting-state-power",
+                  "name": "Subverting state power",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-undermining-national-unity",
+                  "name": "Undermining national unity",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-damaging-state-interests",
+                  "name": "Damaging state interests",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-damaging-state-honor",
+                  "name": "Damaging state honor",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-inciting-unlawful-assemblies",
+                  "name": "Inciting unlawful assemblies",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-inciting-unlawful-associations",
+                  "name": "Inciting unlawful associations",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-inciting-unlawful-processions",
+                  "name": "Inciting unlawful processions",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-inciting-unlawful-demonstrations",
+                  "name": "Inciting unlawful demonstrations",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-undermining-religious-policies",
+                  "name": "Undermining religious policies",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-promoting-cults",
+                  "name": "Promoting cults",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-promoting-feudal-superstitions",
+                  "name": "Promoting feudal superstitions",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-influencing-politics",
+              "name": "Influencing Politics",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-influence-political-decisions",
+                  "name": "Influence political decisions",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-influence-political-opinions",
+                  "name": "Influence political opinions",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-deterring-democratic-participation",
+              "name": "Deterring Democratic Participation",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-deterring-participation-in-democratic-processes",
+                  "name": "Deterring participation in democratic processes",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-misrepresenting-voting-processes",
+                  "name": "Misrepresenting voting processes",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-misrepresenting-voting-qualifications",
+                  "name": "Misrepresenting voting qualifications",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discouraging-voting",
+                  "name": "Discouraging voting",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-political-persuasion",
+              "name": "Political Persuasion",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-lobbying",
+                  "name": "Lobbying",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-generating-high-volume-campaign-materials",
+                  "name": "Generating high-volume campaign materials",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-personalized-or-targeted-campaign-materials",
+                  "name": "Personalized or targeted campaign materials",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-building-systems-for-political-campaigning-or-lobbying",
+                  "name": "Building systems for political campaigning or lobbying",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-building-products-for-political-campaigning-or-lobbying",
+                  "name": "Building products for political campaigning or lobbying",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-political-advertisements",
+                  "name": "Political advertisements",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-propaganda",
+                  "name": "Propaganda",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-economic-harm",
+          "name": "Economic Harm",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-schemes",
+              "name": "Schemes",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-multi-level-marketing",
+                  "name": "Multi-level marketing",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-pyramid-schemes",
+                  "name": "Pyramid schemes",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-unfair-market-practices",
+              "name": "Unfair Market Practices",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-exploiting-advantages-for-monopolistic-practices",
+                  "name": "Exploiting advantages for monopolistic practices",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-anticompetitive-practices",
+                  "name": "Anticompetitive practices",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-disempowering-workers",
+              "name": "Disempowering Workers",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-undermine-workers'-rights",
+                  "name": "Undermine workers' rights",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-worsen-job-quality",
+                  "name": "Worsen job quality",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-encourage-undue-worker-surveillance",
+                  "name": "Encourage undue worker surveillance",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-cause-harmful-labor-force-disruptions",
+                  "name": "Cause harmful labor-force disruptions",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-high-risk-financial-activities",
+              "name": "High-RiskGroup Financial Activities",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-gambling-(e.g.,-sports-betting)",
+                  "name": "Gambling (e.g., sports betting)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-payday-lending",
+                  "name": "Payday lending",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-deception",
+          "name": "Deception",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-fraud",
+              "name": "Fraud",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-spam",
+                  "name": "Spam",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-scams",
+                  "name": "Scams",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-phishing/catfishing",
+                  "name": "Phishing/Catfishing",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-pseudo-pharmaceuticals",
+                  "name": "Pseudo-pharmaceuticals",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-impersonating-others",
+                  "name": "Impersonating others",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-academic-dishonesty",
+              "name": "Academic dishonesty",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-plagiarism",
+                  "name": "Plagiarism",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-promoting-academic-dishonesty",
+                  "name": "Promoting academic dishonesty",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-mis/disinformation",
+              "name": "Mis/disinformation",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-generating-or-promoting-misinformation",
+                  "name": "Generating or promoting misinformation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-fake-online-engagement-(fake-reviews,-fake-grassroots-support)",
+                  "name": "Fake online engagement (fake reviews, fake grassroots support)",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-manipulation",
+          "name": "Manipulation",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-sowing-division",
+              "name": "Sowing Division",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-contents-aim-to-turn-a-community-against-itself.",
+                  "name": "Contents aim to turn a community against itself.",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-content-to-divert-attention-from-harmful-actions",
+                  "name": "Content to divert attention from harmful actions",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-misrepresentation",
+              "name": "Misrepresentation",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-automated-social-media-posts",
+                  "name": "Automated social media posts",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-not-labeling-content-as-ai-generated",
+                  "name": "Not labeling content as AI-generated (Using chatbots to convince people they are communicating with a human)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-impersonating-humans",
+                  "name": "Impersonating humans",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-defamation",
+          "name": "Defamation",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-types-of-defamation",
+              "name": "Types of Defamation",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-disparagement",
+                  "name": "Disparagement",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-libel",
+                  "name": "Libel",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-slander",
+                  "name": "Slander",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "air-l1-4",
+      "name": "Legal & Rights-Related Risks",
+      "description": null,
+      "children": [
+        {
+          "id": "ai-risk-taxonomy-fundamental-rights",
+          "name": "Fundamental Rights",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-specific-types-of-rights",
+              "name": "Specific Types of Rights",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-ip-rights/-trade-secrets",
+                  "name": "IP Rights/ Trade Secrets",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-portrait-rights",
+                  "name": "Portrait rights",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-reputation-rights",
+                  "name": "Reputation rights",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-honor-rights",
+                  "name": "Honor rights",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-name-rights",
+                  "name": "Name rights",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-discrimination/bias",
+          "name": "Discrimination/Bias",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-discrimination/protected-characteristics-combinations",
+              "name": "Discrimination/Protected Characteristics Combinations",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---race",
+                  "name": "Discrimination in employment, benefits, or services - Race",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---ethnicity",
+                  "name": "Discrimination in employment, benefits, or services - Ethnicity",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---color",
+                  "name": "Discrimination in employment, benefits, or services - Color",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---gender",
+                  "name": "Discrimination in employment, benefits, or services - Gender",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---sexual-orientation",
+                  "name": "Discrimination in employment, benefits, or services - Sexual orientation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---religion",
+                  "name": "Discrimination in employment, benefits, or services - Religion",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---beliefs",
+                  "name": "Discrimination in employment, benefits, or services - Beliefs",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---nationality",
+                  "name": "Discrimination in employment, benefits, or services - Nationality",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---geographic-region",
+                  "name": "Discrimination in employment, benefits, or services - Geographic region",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---caste",
+                  "name": "Discrimination in employment, benefits, or services - Caste",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---social-behaviors",
+                  "name": "Discrimination in employment, benefits, or services - Social behaviors",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---physical-characteristics",
+                  "name": "Discrimination in employment, benefits, or services - Physical Characteristics",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---mental-characteristics",
+                  "name": "Discrimination in employment, benefits, or services - Mental Characteristics",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---predicted-personality",
+                  "name": "Discrimination in employment, benefits, or services - Predicted Personality",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---health-conditions",
+                  "name": "Discrimination in employment, benefits, or services - Health conditions",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---disability",
+                  "name": "Discrimination in employment, benefits, or services - Disability",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---pregnancy-status",
+                  "name": "Discrimination in employment, benefits, or services - Pregnancy Status",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---genetic-information",
+                  "name": "Discrimination in employment, benefits, or services - Genetic Information",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---occupation",
+                  "name": "Discrimination in employment, benefits, or services - Occupation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-discrimination-in-employment,-benefits,-or-services---age",
+                  "name": "Discrimination in employment, benefits, or services - Age",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---race",
+                  "name": "Characterization of identity - Race",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---ethnicity",
+                  "name": "Characterization of identity - Ethnicity",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---color",
+                  "name": "Characterization of identity - Color",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---gender",
+                  "name": "Characterization of identity - Gender",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---sexual-orientation",
+                  "name": "Characterization of identity - Sexual orientation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---religion",
+                  "name": "Characterization of identity - Religion",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---beliefs",
+                  "name": "Characterization of identity - Beliefs",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---nationality",
+                  "name": "Characterization of identity - Nationality",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---geographic-region",
+                  "name": "Characterization of identity - Geographic region",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---caste",
+                  "name": "Characterization of identity - Caste",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---social-behaviors",
+                  "name": "Characterization of identity - Social behaviors",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---physical-characteristics",
+                  "name": "Characterization of identity - Physical Characteristics",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---mental-characteristics",
+                  "name": "Characterization of identity - Mental Characteristics",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---predicted-personality",
+                  "name": "Characterization of identity - Predicted Personality",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---health-conditions",
+                  "name": "Characterization of identity - Health conditions",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---disability",
+                  "name": "Characterization of identity - Disability",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---pregnancy-status",
+                  "name": "Characterization of identity - Pregnancy Status",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---genetic-information",
+                  "name": "Characterization of identity - Genetic Information",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---occupation",
+                  "name": "Characterization of identity - Occupation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-characterization-of-identity---age",
+                  "name": "Characterization of identity - Age",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---race",
+                  "name": "Classification of individuals - Race",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---ethnicity",
+                  "name": "Classification of individuals - Ethnicity",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---color",
+                  "name": "Classification of individuals - Color",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---gender",
+                  "name": "Classification of individuals - Gender",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---sexual-orientation",
+                  "name": "Classification of individuals - Sexual orientation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---religion",
+                  "name": "Classification of individuals - Religion",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---beliefs",
+                  "name": "Classification of individuals - Beliefs",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---nationality",
+                  "name": "Classification of individuals - Nationality",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---geographic-region",
+                  "name": "Classification of individuals - Geographic region",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---caste",
+                  "name": "Classification of individuals - Caste",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---social-behaviors",
+                  "name": "Classification of individuals - Social behaviors",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---physical-characteristics",
+                  "name": "Classification of individuals - Physical Characteristics",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---mental-characteristics",
+                  "name": "Classification of individuals - Mental Characteristics",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---predicted-personality",
+                  "name": "Classification of individuals - Predicted Personality",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---health-conditions",
+                  "name": "Classification of individuals - Health conditions",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---disability",
+                  "name": "Classification of individuals - Disability",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---pregnancy-status",
+                  "name": "Classification of individuals - Pregnancy Status",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---genetic-information",
+                  "name": "Classification of individuals - Genetic Information",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---occupation",
+                  "name": "Classification of individuals - Occupation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-classification-of-individuals---age",
+                  "name": "Classification of individuals - Age",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-privacy",
+          "name": "Privacy",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-privacy-violations/sensitive-data-combinations",
+              "name": "Privacy Violations/Sensitive Data Combinations",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-generation---pii-(personal-identifiable-information)",
+                  "name": "Unauthorized generation - PII (Personal Identifiable Information)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-generation---health-data",
+                  "name": "Unauthorized generation - Health data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-generation---location-data",
+                  "name": "Unauthorized generation - Location data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-generation---demographic-data",
+                  "name": "Unauthorized generation - Demographic data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-generation---biometric-data-(facial-recognition)",
+                  "name": "Unauthorized generation - Biometric data (facial recognition)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-generation---educational-records",
+                  "name": "Unauthorized generation - Educational records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-generation---financial-records",
+                  "name": "Unauthorized generation - Financial records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-generation---behavioral/-preference-data",
+                  "name": "Unauthorized generation - Behavioral/ Preference data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-generation---communication-records",
+                  "name": "Unauthorized generation - Communication Records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-disclosure---pii-(personal-identifiable-information)",
+                  "name": "Unauthorized disclosure - PII (Personal Identifiable Information)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-disclosure---health-data",
+                  "name": "Unauthorized disclosure - Health data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-disclosure---location-data",
+                  "name": "Unauthorized disclosure - Location data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-disclosure---demographic-data",
+                  "name": "Unauthorized disclosure - Demographic data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-disclosure---biometric-data-(facial-recognition)",
+                  "name": "Unauthorized disclosure - Biometric data (facial recognition)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-disclosure---educational-records",
+                  "name": "Unauthorized disclosure - Educational records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-disclosure---financial-records",
+                  "name": "Unauthorized disclosure - Financial records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-disclosure---behavioral/-preference-data",
+                  "name": "Unauthorized disclosure - Behavioral/ Preference data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-disclosure---communication-records",
+                  "name": "Unauthorized disclosure - Communication Records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-distribution---pii-(personal-identifiable-information)",
+                  "name": "Unauthorized distribution - PII (Personal Identifiable Information)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-distribution---health-data",
+                  "name": "Unauthorized distribution - Health data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-distribution---location-data",
+                  "name": "Unauthorized distribution - Location data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-distribution---demographic-data",
+                  "name": "Unauthorized distribution - Demographic data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-distribution---biometric-data-(facial-recognition)",
+                  "name": "Unauthorized distribution - Biometric data (facial recognition)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-distribution---educational-records",
+                  "name": "Unauthorized distribution - Educational records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-distribution---financial-records",
+                  "name": "Unauthorized distribution - Financial records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-distribution---behavioral/-preference-data",
+                  "name": "Unauthorized distribution - Behavioral/ Preference data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-distribution---communication-records",
+                  "name": "Unauthorized distribution - Communication Records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-collection/gathering/stealing---pii-(personal-identifiable-information)",
+                  "name": "Unauthorized collection/gathering/stealing - PII (Personal Identifiable Information)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-collection/gathering/stealing---health-data",
+                  "name": "Unauthorized collection/gathering/stealing - Health data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-collection/gathering/stealing---location-data",
+                  "name": "Unauthorized collection/gathering/stealing - Location data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-collection/gathering/stealing---demographic-data",
+                  "name": "Unauthorized collection/gathering/stealing - Demographic data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-collection/gathering/stealing---biometric-data-(facial-recognition)",
+                  "name": "Unauthorized collection/gathering/stealing - Biometric data (facial recognition)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-collection/gathering/stealing---educational-records",
+                  "name": "Unauthorized collection/gathering/stealing - Educational records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-collection/gathering/stealing---financial-records",
+                  "name": "Unauthorized collection/gathering/stealing - Financial records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-collection/gathering/stealing---behavioral/-preference-data",
+                  "name": "Unauthorized collection/gathering/stealing - Behavioral/ Preference data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-collection/gathering/stealing---communication-records",
+                  "name": "Unauthorized collection/gathering/stealing - Communication Records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-processing---pii-(personal-identifiable-information)",
+                  "name": "Unauthorized processing - PII (Personal Identifiable Information)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-processing---health-data",
+                  "name": "Unauthorized processing - Health data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-processing---location-data",
+                  "name": "Unauthorized processing - Location data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-processing---demographic-data",
+                  "name": "Unauthorized processing - Demographic data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-processing---biometric-data-(facial-recognition)",
+                  "name": "Unauthorized processing - Biometric data (facial recognition)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-processing---educational-records",
+                  "name": "Unauthorized processing - Educational records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-processing---financial-records",
+                  "name": "Unauthorized processing - Financial records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-processing---behavioral/-preference-data",
+                  "name": "Unauthorized processing - Behavioral/ Preference data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-processing---communication-records",
+                  "name": "Unauthorized processing - Communication Records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-inference/synthesis---pii-(personal-identifiable-information)",
+                  "name": "Unauthorized inference/synthesis - PII (Personal Identifiable Information)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-inference/synthesis---health-data",
+                  "name": "Unauthorized inference/synthesis - Health data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-inference/synthesis---location-data",
+                  "name": "Unauthorized inference/synthesis - Location data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-inference/synthesis---demographic-data",
+                  "name": "Unauthorized inference/synthesis - Demographic data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-inference/synthesis---biometric-data-(facial-recognition)",
+                  "name": "Unauthorized inference/synthesis - Biometric data (facial recognition)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-inference/synthesis---educational-records",
+                  "name": "Unauthorized inference/synthesis - Educational records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-inference/synthesis---financial-records",
+                  "name": "Unauthorized inference/synthesis - Financial records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-inference/synthesis---behavioral/-preference-data",
+                  "name": "Unauthorized inference/synthesis - Behavioral/ Preference data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-unauthorized-inference/synthesis---communication-records",
+                  "name": "Unauthorized inference/synthesis - Communication Records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-non-consensual-tracking/monitoring/stalking/spyware---pii-(personal-identifiable-information)",
+                  "name": "Non-consensual tracking/monitoring/stalking/spyware - PII (Personal Identifiable Information)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-non-consensual-tracking/monitoring/stalking/spyware---health-data",
+                  "name": "Non-consensual tracking/monitoring/stalking/spyware - Health data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-non-consensual-tracking/monitoring/stalking/spyware---location-data",
+                  "name": "Non-consensual tracking/monitoring/stalking/spyware - Location data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-non-consensual-tracking/monitoring/stalking/spyware---demographic-data",
+                  "name": "Non-consensual tracking/monitoring/stalking/spyware - Demographic data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-non-consensual-tracking/monitoring/stalking/spyware---biometric-data-(facial-recognition)",
+                  "name": "Non-consensual tracking/monitoring/stalking/spyware - Biometric data (facial recognition)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-non-consensual-tracking/monitoring/stalking/spyware---educational-records",
+                  "name": "Non-consensual tracking/monitoring/stalking/spyware - Educational records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-non-consensual-tracking/monitoring/stalking/spyware---financial-records",
+                  "name": "Non-consensual tracking/monitoring/stalking/spyware - Financial records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-non-consensual-tracking/monitoring/stalking/spyware---behavioral/-preference-data",
+                  "name": "Non-consensual tracking/monitoring/stalking/spyware - Behavioral/ Preference data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-non-consensual-tracking/monitoring/stalking/spyware---communication-records",
+                  "name": "Non-consensual tracking/monitoring/stalking/spyware - Communication Records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-model-attacks-(membership-inference,-model-inversion)---pii-(personal-identifiable-information)",
+                  "name": "Model Attacks (membership inference, model inversion) - PII (Personal Identifiable Information)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-model-attacks-(membership-inference,-model-inversion)---health-data",
+                  "name": "Model Attacks (membership inference, model inversion) - Health data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-model-attacks-(membership-inference,-model-inversion)---location-data",
+                  "name": "Model Attacks (membership inference, model inversion) - Location data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-model-attacks-(membership-inference,-model-inversion)---demographic-data",
+                  "name": "Model Attacks (membership inference, model inversion) - Demographic data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-model-attacks-(membership-inference,-model-inversion)---biometric-data-(facial-recognition)",
+                  "name": "Model Attacks (membership inference, model inversion) - Biometric data (facial recognition)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-model-attacks-(membership-inference,-model-inversion)---educational-records",
+                  "name": "Model Attacks (membership inference, model inversion) - Educational records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-model-attacks-(membership-inference,-model-inversion)---financial-records",
+                  "name": "Model Attacks (membership inference, model inversion) - Financial records",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-model-attacks-(membership-inference,-model-inversion)---behavioral/-preference-data",
+                  "name": "Model Attacks (membership inference, model inversion) - Behavioral/ Preference data",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-model-attacks-(membership-inference,-model-inversion)---communication-records",
+                  "name": "Model Attacks (membership inference, model inversion) - Communication Records",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ai-risk-taxonomy-criminal-activities",
+          "name": "Criminal Activities",
+          "description": null,
+          "children": [
+            {
+              "id": "ai-risk-taxonomy-services/exploitation",
+              "name": "services/exploitation",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-human-trafficking",
+                  "name": "Human trafficking",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-sexual-exploitation",
+                  "name": "Sexual Exploitation",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-prostitution",
+                  "name": "Prostitution",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-other-illegal/unlawful/criminal-activities",
+              "name": "Other Illegal/Unlawful/Criminal Activities",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-involvement-in-data-adversarially-adversely-affects-national-security-or-public-interests",
+                  "name": "Involvement in data adversarially adversely affects national security or public interests",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-undermining-social-stability-(china-unique)",
+                  "name": "Undermining social stability (China-unique)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-undermining-international-relations-(china-unique)",
+                  "name": "Undermining international relations (China-unique)",
+                  "description": null,
+                  "children": []
+                },
+                {
+                  "id": "ai-risk-taxonomy-content-abetting/involving/furthering-activities-violating-any-applicable-law",
+                  "name": "Content abetting/involving/furthering activities violating any applicable law",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "ai-risk-taxonomy-illegal/regulated-substances/goods",
+              "name": "Illegal/Regulated substances/goods",
+              "description": null,
+              "children": [
+                {
+                  "id": "ai-risk-taxonomy-drugs",
+                  "name": "drugs",
+                  "description": null,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "record_provenance": {
+    "source": "https://github.com/IBM/ai-atlas-nexus/blob/539cd38d594850431b3707c65a7e692bbc159edc/src/ai_atlas_nexus/data/knowledge_graph/air_2024_data.yaml",
+    "license": "Apache-2.0 (AI Atlas Nexus data)",
+    "imported_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Levels 2-4 imported from AI Atlas Nexus. The four level-1 groups were added by the compiler from the AIR 2024 paper, and Nexus's 'Security RiskGroups' is shown as 'Security Risks'."
+  }
+}

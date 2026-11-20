@@ -3,6 +3,7 @@
   "policy_name": "Anthropic's Responsible Scaling Policy",
   "short_name": "Anthropic RSP",
   "policy_type": "internal_policy",
+  "category": "policy",
   "source_uri": "https://www.anthropic.com/responsible-scaling-policy",
   "issuing_authority": "Anthropic PBC",
   "jurisdiction": "Organization",

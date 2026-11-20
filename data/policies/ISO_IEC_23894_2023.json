@@ -3,6 +3,7 @@
   "policy_name": "ISO/IEC 23894:2023 Information technology — Artificial intelligence — Guidance on risk management",
   "short_name": "ISO/IEC 23894",
   "policy_type": "standard",
+  "category": "policy",
   "source_uri": "https://www.iso.org/standard/77304.html",
   "issuing_authority": "ISO/IEC JTC 1/SC 42 (International Organization for Standardization and International Electrotechnical Commission)",
   "jurisdiction": "International",

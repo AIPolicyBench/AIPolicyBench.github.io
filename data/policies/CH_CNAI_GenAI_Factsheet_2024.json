@@ -3,6 +3,7 @@
   "policy_name": "Fact sheet on the use of generative AI tools in the Federal Administration (Merkblatt zur Verwendung von generativen KI-Werkzeugen in der Bundesverwaltung)",
   "short_name": "CNAI GenAI fact sheet",
   "policy_type": "guidance",
+  "category": "policy",
   "source_uri": "https://www.bk.admin.ch/dam/de/sd-web/8Qmy4Jdh7Z6H/Merkblatt-zur-Verwendung-von-generativen-KI-Werkzeugen-in-der-Bundesverwaltung.pdf",
   "issuing_authority": "Competence Network for Artificial Intelligence (CNAI), working group 'AI in the Federal Administration' (with all departments and the Federal Chancellery); now published by the Swiss Federal Chancellery",
   "jurisdiction": "CH",

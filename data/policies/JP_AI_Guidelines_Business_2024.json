@@ -3,6 +3,7 @@
   "policy_name": "AI Guidelines for Business (AI事業者ガイドライン), Version 1.2",
   "short_name": "Japan AI Guidelines for Business",
   "policy_type": "guidance",
+  "category": "policy",
   "source_uri": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html",
   "issuing_authority": "Ministry of Internal Affairs and Communications (MIC) and Ministry of Economy, Trade and Industry (METI), Japan",
   "jurisdiction": "JP",

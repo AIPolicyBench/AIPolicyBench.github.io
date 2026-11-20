@@ -3,6 +3,7 @@
   "policy_name": "Colorado SB 24-205, Consumer Protections for Interactions with Artificial Intelligence Systems (Colorado Artificial Intelligence Act)",
   "short_name": "Colorado AI Act",
   "policy_type": "statute",
+  "category": "regulation",
   "source_uri": "https://leg.colorado.gov/bills/sb24-205",
   "issuing_authority": "Colorado General Assembly (signed by Governor Jared Polis)",
   "jurisdiction": "US-CO",

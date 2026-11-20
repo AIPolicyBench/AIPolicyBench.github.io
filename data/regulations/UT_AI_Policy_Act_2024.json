@@ -3,6 +3,7 @@
   "policy_name": "Utah Artificial Intelligence Policy Act (SB 149, 2024 General Session, 'Artificial Intelligence Amendments'), as amended",
   "short_name": "Utah AI Policy Act",
   "policy_type": "statute",
+  "category": "regulation",
   "source_uri": "https://le.utah.gov/~2024/bills/static/SB0149.html",
   "issuing_authority": "Utah State Legislature (signed by Governor Spencer Cox)",
   "jurisdiction": "US-UT",

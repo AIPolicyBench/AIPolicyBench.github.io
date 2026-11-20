@@ -3,6 +3,7 @@
   "policy_name": "Texas Responsible Artificial Intelligence Governance Act (HB 149, 89th Legislature, Regular Session)",
   "short_name": "TRAIGA",
   "policy_type": "statute",
+  "category": "regulation",
   "source_uri": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
   "issuing_authority": "Texas Legislature (signed by Governor Greg Abbott)",
   "jurisdiction": "US-TX",

@@ -3,6 +3,7 @@
   "policy_name": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
   "short_name": "EU AI Act",
   "policy_type": "regulation",
+  "category": "regulation",
   "source_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
   "issuing_authority": "European Parliament and Council of the European Union",
   "jurisdiction": "EU",

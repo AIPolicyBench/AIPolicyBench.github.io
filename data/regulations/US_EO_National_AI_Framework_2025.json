@@ -3,6 +3,7 @@
   "policy_name": "Executive Order 14365 of December 11, 2025: Ensuring a National Policy Framework for Artificial Intelligence",
   "short_name": "EO 14365",
   "policy_type": "executive_order",
+  "category": "regulation",
   "source_uri": "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
   "issuing_authority": "President of the United States (Donald J. Trump)",
   "jurisdiction": "US-Federal",

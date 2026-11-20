@@ -3,6 +3,7 @@
   "policy_name": "A pro-innovation approach to AI regulation (White Paper, CP 815) and Government response (CP 1019)",
   "short_name": "UK AI Regulation White Paper",
   "policy_type": "framework",
+  "category": "policy",
   "source_uri": "https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
   "issuing_authority": "UK Department for Science, Innovation and Technology (DSIT); presented to Parliament by the Secretary of State for Science, Innovation and Technology",
   "jurisdiction": "UK",

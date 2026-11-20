@@ -3,6 +3,7 @@
   "policy_name": "Google AI Principles",
   "short_name": "Google AI Principles",
   "policy_type": "internal_policy",
+  "category": "policy",
   "source_uri": "https://ai.google/principles/",
   "issuing_authority": "Google LLC (Alphabet Inc.)",
   "jurisdiction": "Organization",

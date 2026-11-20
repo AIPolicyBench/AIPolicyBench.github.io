@@ -3,6 +3,7 @@
   "policy_name": "ISO/IEC 42001:2023 Information technology — Artificial intelligence — Management system",
   "short_name": "ISO/IEC 42001",
   "policy_type": "standard",
+  "category": "policy",
   "source_uri": "https://www.iso.org/standard/81230.html",
   "issuing_authority": "ISO/IEC JTC 1/SC 42 (International Organization for Standardization and International Electrotechnical Commission)",
   "jurisdiction": "International",

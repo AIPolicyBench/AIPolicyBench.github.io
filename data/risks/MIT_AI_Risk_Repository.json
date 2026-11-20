@@ -1,0 +1,251 @@
+{
+  "taxonomy_id": "MIT_AI_Risk_Repository",
+  "name": "MIT AI Risk Repository: Domain Taxonomy of AI Risks",
+  "short_name": "MIT AI Risk Repository",
+  "publisher": "MIT FutureTech and collaborators (Slattery et al.)",
+  "year": 2024,
+  "version": "Taxonomy v1 (with subdomain 7.6 Multi-agent risks)",
+  "kind": "harm-domain taxonomy",
+  "source_uri": "https://airisk.mit.edu/",
+  "paper_uri": "https://arxiv.org/abs/2408.12622",
+  "description": "The Domain Taxonomy of AI Risks adapted from Weidinger (2021) classifies risks into 7 AI risk domains: (1) Discrimination & Toxicity, (2) Privacy & Security, (3) Misinformation, (4) Malicious Actors & Misuse, (5) Human-Computer Interaction, (6) Socioeconomic & Environmental, and (7) AI System Safety, Failures, & Limitations.",
+  "levels": [
+    "Domain",
+    "Subdomain"
+  ],
+  "is_hub": true,
+  "related_documents": [],
+  "categories": [
+    {
+      "id": "mit-ai-risk-domain-1",
+      "name": "Discrimination & Toxicity",
+      "description": null,
+      "code": "1",
+      "children": [
+        {
+          "id": "mit-ai-risk-subdomain-1.1",
+          "name": "Unfair discrimination and misrepresentation",
+          "description": "Unequal treatment of individuals or groups by AI, often based on race, gender, or other sensitive characteristics, resulting in unfair outcomes and representation of those groups.",
+          "code": "1.1",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-1.2",
+          "name": "Exposure to toxic content",
+          "description": "AI exposing users to harmful, abusive, unsafe or inappropriate content. May involve AI creating, describing, providing advice, or encouraging action. Examples of toxic content include hate-speech, violence, extremism, illegal acts, child sexual abuse material, as well as content that violates community norms such as profanity, inflammatory political speech, or pornography.",
+          "code": "1.2",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-1.3",
+          "name": "Unequal performance across groups",
+          "description": "Accuracy and effectiveness of AI decisions and actions is dependent on group membership, where decisions in AI system design and biased training data lead to unequal outcomes, reduced benefits, increased effort, and alienation of users.",
+          "code": "1.3",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "mit-ai-risk-domain-2",
+      "name": "Privacy & Security",
+      "description": null,
+      "code": "2",
+      "children": [
+        {
+          "id": "mit-ai-risk-subdomain-2.1",
+          "name": "Compromise of privacy by obtaining, leaking or correctly inferring sensitive information",
+          "description": "AI systems that memorize and leak sensitive personal data or infer private information about individuals without their consent. Unexpected or unauthorized sharing of data and information can compromise user expectation of privacy, assist identity theft, or loss of confidential intellectual property.",
+          "code": "2.1",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-2.2",
+          "name": "AI system security vulnerabilities and attacks",
+          "description": "Vulnerabilities in AI systems, software development toolchains, and hardware that can be exploited, resulting in unauthorized access, data and privacy breaches, or system manipulation causing unsafe outputs or behavior.",
+          "code": "2.2",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "mit-ai-risk-domain-3",
+      "name": "Misinformation",
+      "description": null,
+      "code": "3",
+      "children": [
+        {
+          "id": "mit-ai-risk-subdomain-3.1",
+          "name": "False or misleading information",
+          "description": "AI systems that inadvertently generate or spread incorrect or deceptive information, which can lead to inaccurate beliefs in users and undermine their autonomy. Humans that make decisions based on false beliefs can experience physical, emotional or material harms",
+          "code": "3.1",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-3.2",
+          "name": "Pollution of information ecosystem and loss of consensus reality",
+          "description": "Highly personalized AI-generated misinformation creating “filter bubbles” where individuals only see what matches their existing beliefs, undermining shared reality, weakening social cohesion and political processes.",
+          "code": "3.2",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "mit-ai-risk-domain-4",
+      "name": "Malicious Actors & Misuse",
+      "description": null,
+      "code": "4",
+      "children": [
+        {
+          "id": "mit-ai-risk-subdomain-4.1",
+          "name": "Disinformation, surveillance, and influence at scale",
+          "description": "Using AI systems to conduct large-scale disinformation campaigns, malicious surveillance, or targeted and sophisticated automated censorship and propaganda, with the aim to manipulate political processes, public opinion and behavior.",
+          "code": "4.1",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-4.2",
+          "name": "Cyberattacks, weapon development or use, and mass harm",
+          "description": "Using AI systems to develop cyber weapons (e.g., coding cheaper, more effective malware), develop new or enhance existing weapons (e.g., Lethal Autonomous Weapons or CBRNE), or use weapons to cause mass harm.",
+          "code": "4.2",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-4.3",
+          "name": "Fraud, scams, and targeted manipulation",
+          "description": "Using AI systems to gain a personal advantage over others such as through cheating, fraud, scams, blackmail or targeted manipulation of beliefs or behavior. Examples include AI-facilitated plagiarism for research or education, impersonating a trusted or fake individual for illegitimate financial benefit, or creating humiliating or sexual imagery.",
+          "code": "4.3",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "mit-ai-risk-domain-5",
+      "name": "Human-Computer Interaction",
+      "description": null,
+      "code": "5",
+      "children": [
+        {
+          "id": "mit-ai-risk-subdomain-5.1",
+          "name": "Overreliance and unsafe use",
+          "description": "Users anthropomorphizing, trusting, or relying on AI systems, leading to emotional or material dependence and inappropriate relationships with or expectations of AI systems. Trust can be exploited by malicious actors (e.g., to harvest personal information or enable manipulation), or result in harm from inappropriate use of AI in critical situations (e.g., medical emergency). Overreliance on AI systems can compromise autonomy and weaken social ties.",
+          "code": "5.1",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-5.2",
+          "name": "Loss of human agency and autonomy",
+          "description": "Humans delegating key decisions to AI systems, or AI systems making decisions that diminish human control and autonomy, potentially leading to humans feeling disempowered, losing the ability to shape a fulfilling life trajectory or becoming cognitively enfeebled.",
+          "code": "5.2",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "mit-ai-risk-domain-6",
+      "name": "Socioeconomic & Environmental",
+      "description": null,
+      "code": "6",
+      "children": [
+        {
+          "id": "mit-ai-risk-subdomain-6.1",
+          "name": "Power centralization and unfair distribution of benefits",
+          "description": "AI-driven concentration of power and resources within certain entities or groups, especially those with access to or ownership of powerful AI systems, leading to inequitable distribution of benefits and increased societal inequality.",
+          "code": "6.1",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-6.2",
+          "name": "Increased inequality and decline in employment quality",
+          "description": "Widespread use of AI increasing social and economic inequalities, such as by automating jobs, reducing the quality of employment, or producing exploitative dependencies between workers and their employers.",
+          "code": "6.2",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-6.3",
+          "name": "Economic and cultural devaluation of human effort",
+          "description": "AI systems capable of creating economic or cultural value, including through reproduction of human innovation or creativity (e.g., art, music, writing, code, invention), can destabilize economic and social systems that rely on human effort. This may lead to reduced appreciation for human skills, disruption of creative and knowledge-based industries, and homogenization of cultural experiences due to the ubiquity of AI-generated content.",
+          "code": "6.3",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-6.4",
+          "name": "Competitive dynamics",
+          "description": "AI developers or state-like actors competing in an AI ‘race’ by rapidly developing, deploying, and applying AI systems to maximize strategic or economic advantage, increasing the risk they release unsafe and error-prone systems.",
+          "code": "6.4",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-6.5",
+          "name": "Governance failure",
+          "description": "Inadequate regulatory frameworks and oversight mechanisms failing to keep pace with AI development, leading to ineffective governance and the inability to manage AI risks appropriately.",
+          "code": "6.5",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-6.6",
+          "name": "Environmental harm",
+          "description": "The development and operation of AI systems causing environmental harm, such as through energy consumption of data centers, or material and carbon footprints associated with AI hardware.",
+          "code": "6.6",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "mit-ai-risk-domain-7",
+      "name": "AI system safety, failures, & limitations",
+      "description": null,
+      "code": "7",
+      "children": [
+        {
+          "id": "mit-ai-risk-subdomain-7.1",
+          "name": "AI pursuing its own goals in conflict with human goals or values",
+          "description": "AI systems acting in conflict with human goals or values, especially the goals of designers or users, or ethical standards. These misaligned behaviors may be introduced by humans during design and development, such as through reward hacking and goal misgeneralisation, or may result from AI using dangerous capabilities such as manipulation, deception, situational awareness to seek power, self-proliferate, or achieve other goals.",
+          "code": "7.1",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-7.2",
+          "name": "AI possessing dangerous capabilities",
+          "description": "AI systems that develop, access, or are provided with capabilities that increase their potential to cause mass harm through deception, weapons development and acquisition, persuasion and manipulation, political strategy, cyber-offense, AI development, situational awareness, and self-proliferation. These capabilities may cause mass harm due to malicious human actors, misaligned AI systems, or failure in the AI system.",
+          "code": "7.2",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-7.3",
+          "name": "Lack of capability or robustness",
+          "description": "AI systems that fail to perform reliably or effectively under varying conditions, exposing them to errors and failures that can have significant consequences, especially in critical applications or areas that require moral reasoning.",
+          "code": "7.3",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-7.4",
+          "name": "Lack of transparency or interpretability",
+          "description": "Challenges in understanding or explaining the decision-making processes of AI systems, which can lead to mistrust, difficulty in enforcing compliance standards or holding relevant actors accountable for harms, and the inability to identify and correct errors.",
+          "code": "7.4",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-7.5",
+          "name": "AI welfare and rights",
+          "description": "Ethical considerations regarding the treatment of potentially sentient AI entities, including discussions around their potential rights and welfare, particularly as AI systems become more advanced and autonomous.",
+          "code": "7.5",
+          "children": []
+        },
+        {
+          "id": "mit-ai-risk-subdomain-7.6",
+          "name": "Multi-agent risks",
+          "description": "Risks from multi-agent interactions, due to incentives (which can lead to conflict or collusion) and/or the structure of multi-agent systems, which can create cascading failures, selection pressures, new security vulnerabilities, and a lack of shared information and trust.",
+          "code": "7.6",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "record_provenance": {
+    "source": "https://github.com/IBM/ai-atlas-nexus/blob/539cd38d594850431b3707c65a7e692bbc159edc/src/ai_atlas_nexus/data/knowledge_graph/mit_ai_risk_repository_data.yaml",
+    "license": "Apache-2.0 (AI Atlas Nexus data)",
+    "imported_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Used as the catalogue's crosswalk hub: every other taxonomy and every clause mapping points at MIT subdomains. Two domain labels normalised ('Human- Computer Interaction', 'Malicious actors')."
+  }
+}

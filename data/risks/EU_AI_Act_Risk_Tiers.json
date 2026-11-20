@@ -1,0 +1,233 @@
+{
+  "taxonomy_id": "EU_AI_Act_Risk_Tiers",
+  "name": "EU AI Act risk-based classification",
+  "short_name": "EU AI Act risk tiers",
+  "publisher": "European Union (Regulation (EU) 2024/1689)",
+  "year": 2024,
+  "version": "Regulation (EU) 2024/1689 as published; Omnibus 2026 changes not reflected",
+  "kind": "regulatory risk tiers",
+  "source_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+  "paper_uri": null,
+  "description": "The AI Act classifies AI systems by the level of risk of their use (unacceptable, high, transparency, minimal) and adds a separate regime for general-purpose AI models. Unlike the other taxonomies here it classifies systems and uses, not types of harm.",
+  "levels": [
+    "Tier",
+    "Practice / area / duty"
+  ],
+  "is_hub": false,
+  "related_documents": [
+    "EU_AI_Act_2024",
+    "EU_GPAI_CoP_2025"
+  ],
+  "categories": [
+    {
+      "id": "euaia-unacceptable",
+      "name": "Unacceptable risk (prohibited practices, Art. 5)",
+      "description": "AI practices banned in the EU.",
+      "children": [
+        {
+          "id": "euaia-unacceptable-manipulation",
+          "name": "Subliminal, manipulative or deceptive techniques causing significant harm",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-unacceptable-vulnerabilities",
+          "name": "Exploiting vulnerabilities due to age, disability or social or economic situation",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-unacceptable-social-scoring",
+          "name": "Social scoring leading to detrimental or unfavourable treatment",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-unacceptable-crime-prediction",
+          "name": "Predicting criminal offences based solely on profiling or personality traits",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-unacceptable-face-scraping",
+          "name": "Untargeted scraping of facial images to build facial recognition databases",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-unacceptable-emotion-recognition",
+          "name": "Emotion recognition in the workplace and education (except medical or safety reasons)",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-unacceptable-biometric-categorisation",
+          "name": "Biometric categorisation inferring sensitive characteristics",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-unacceptable-rbi",
+          "name": "Real-time remote biometric identification in public spaces for law enforcement (narrow exceptions)",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "euaia-high",
+      "name": "High risk (Art. 6, Annexes I and III)",
+      "description": "Allowed subject to requirements: risk management, data governance, documentation, logging, transparency, human oversight, accuracy, robustness and cybersecurity.",
+      "children": [
+        {
+          "id": "euaia-high-annex-i",
+          "name": "Safety components of products under EU harmonisation legislation (Annex I)",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-high-biometrics",
+          "name": "Biometrics (Annex III.1)",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-high-critical-infrastructure",
+          "name": "Critical infrastructure (Annex III.2)",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-high-education",
+          "name": "Education and vocational training (Annex III.3)",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-high-employment",
+          "name": "Employment, workers' management and access to self-employment (Annex III.4)",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-high-essential-services",
+          "name": "Access to essential private and public services and benefits, incl. credit scoring and insurance (Annex III.5)",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-high-law-enforcement",
+          "name": "Law enforcement (Annex III.6)",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-high-migration",
+          "name": "Migration, asylum and border control (Annex III.7)",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-high-justice-democracy",
+          "name": "Administration of justice and democratic processes (Annex III.8)",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "euaia-transparency",
+      "name": "Transparency risk (Art. 50)",
+      "description": "Disclosure duties for certain AI systems.",
+      "children": [
+        {
+          "id": "euaia-transparency-chatbots",
+          "name": "AI systems interacting with people must disclose that they are AI",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-transparency-synthetic-content",
+          "name": "Synthetic audio, image, video and text must be machine-readably marked",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-transparency-emotion-biometric",
+          "name": "Deployers of emotion recognition or biometric categorisation must inform people exposed",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-transparency-deepfakes",
+          "name": "Deep fakes and AI-generated text on matters of public interest must be disclosed",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "euaia-minimal",
+      "name": "Minimal risk",
+      "description": "No new obligations; voluntary codes of conduct encouraged.",
+      "children": []
+    },
+    {
+      "id": "euaia-gpai",
+      "name": "General-purpose AI models (Art. 53)",
+      "description": "Documentation, copyright policy and training-content summary for all GPAI model providers.",
+      "children": [
+        {
+          "id": "euaia-gpai-gpai-docs",
+          "name": "Technical documentation and information for downstream providers",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-gpai-gpai-copyright",
+          "name": "Copyright policy and public summary of training content",
+          "description": null,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "euaia-gpai-systemic",
+      "name": "GPAI models with systemic risk (Art. 55)",
+      "description": "Additional duties above the 10^25 FLOP presumption or by designation.",
+      "children": [
+        {
+          "id": "euaia-gpai-systemic-evaluation",
+          "name": "Model evaluation including adversarial testing",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-gpai-systemic-systemic-risk",
+          "name": "Assess and mitigate systemic risks at Union level",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-gpai-systemic-incidents",
+          "name": "Track and report serious incidents",
+          "description": null,
+          "children": []
+        },
+        {
+          "id": "euaia-gpai-systemic-cybersecurity",
+          "name": "Adequate cybersecurity for the model and its infrastructure",
+          "description": null,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "record_provenance": {
+    "source": null,
+    "license": null,
+    "imported_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Hand-authored by the compiler from the publication. Item labels are short paraphrases of the Articles and Annex headings, not verbatim text."
+  }
+}

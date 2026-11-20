@@ -3,6 +3,7 @@
   "policy_name": "Framework of an Acceptable Use Policy for External Generative AI",
   "short_name": "FS-ISAC GenAI AUP Framework",
   "policy_type": "framework",
+  "category": "policy",
   "source_uri": "https://www.fsisac.com/hubfs/Knowledge/FrameworkOfAnAcceptableUsePolicyForExternalGenerativeAI.pdf",
   "issuing_authority": "Financial Services Information Sharing and Analysis Center (FS-ISAC)",
   "jurisdiction": "International",

@@ -3,6 +3,7 @@
   "policy_name": "California SB 53, Transparency in Frontier Artificial Intelligence Act (TFAIA)",
   "short_name": "California SB 53 (TFAIA)",
   "policy_type": "statute",
+  "category": "regulation",
   "source_uri": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB53",
   "issuing_authority": "California State Legislature (approved by Governor Gavin Newsom)",
   "jurisdiction": "US-CA",

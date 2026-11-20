@@ -1,0 +1,70 @@
+{
+  "taxonomy_id": "NIST_AI_RMF_Trustworthiness",
+  "name": "NIST AI RMF Characteristics of Trustworthy AI",
+  "short_name": "NIST AI RMF trustworthiness",
+  "publisher": "US National Institute of Standards and Technology (NIST)",
+  "year": 2023,
+  "version": "AI RMF 1.0 (NIST AI 100-1), Section 3",
+  "kind": "trustworthiness characteristics (risk dimensions)",
+  "source_uri": "https://doi.org/10.6028/NIST.AI.100-1",
+  "paper_uri": null,
+  "description": "The seven characteristics of trustworthy AI in the AI RMF. They are not risks themselves; a shortfall in any of them is a source of AI risk, so they are commonly used as risk dimensions.",
+  "levels": [
+    "Characteristic"
+  ],
+  "is_hub": false,
+  "related_documents": [
+    "NIST_AI_RMF_2023"
+  ],
+  "categories": [
+    {
+      "id": "nist-rmf-valid-reliable",
+      "name": "Valid and Reliable",
+      "description": "Accuracy, reliability and robustness: the system fulfils its intended requirements and performs as required over time.",
+      "children": []
+    },
+    {
+      "id": "nist-rmf-safe",
+      "name": "Safe",
+      "description": "The system does not, under defined conditions, lead to a state in which human life, health, property or the environment is endangered.",
+      "children": []
+    },
+    {
+      "id": "nist-rmf-secure-resilient",
+      "name": "Secure and Resilient",
+      "description": "The system can withstand unexpected adverse events and maintain confidentiality, integrity and availability against attacks.",
+      "children": []
+    },
+    {
+      "id": "nist-rmf-accountable-transparent",
+      "name": "Accountable and Transparent",
+      "description": "Information about the system and its outputs is available to those interacting with it; accountability presupposes transparency.",
+      "children": []
+    },
+    {
+      "id": "nist-rmf-explainable-interpretable",
+      "name": "Explainable and Interpretable",
+      "description": "The mechanisms underlying the system's operation (explainability) and the meaning of its outputs (interpretability) can be understood.",
+      "children": []
+    },
+    {
+      "id": "nist-rmf-privacy-enhanced",
+      "name": "Privacy-Enhanced",
+      "description": "Norms and practices that safeguard human autonomy, identity and dignity, such as limiting observation and protecting personal data.",
+      "children": []
+    },
+    {
+      "id": "nist-rmf-fair-bias-managed",
+      "name": "Fair – with Harmful Bias Managed",
+      "description": "Concerns for equality and equity, addressing harmful bias and discrimination (systemic, computational/statistical and human-cognitive bias).",
+      "children": []
+    }
+  ],
+  "record_provenance": {
+    "source": null,
+    "license": null,
+    "imported_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Hand-authored by the compiler from the publication. Names follow AI RMF 1.0 Section 3; descriptions are short paraphrases."
+  }
+}

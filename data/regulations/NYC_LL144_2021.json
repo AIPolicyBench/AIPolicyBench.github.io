@@ -3,6 +3,7 @@
   "policy_name": "New York City Local Law 144 of 2021 on Automated Employment Decision Tools (NYC Admin. Code §§ 20-870 to 20-874) and DCWP implementing rules (6 RCNY §§ 5-300 to 5-304)",
   "short_name": "NYC Local Law 144 (AEDT Law)",
   "policy_type": "statute",
+  "category": "regulation",
   "source_uri": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page",
   "issuing_authority": "New York City Council; implemented and enforced by the NYC Department of Consumer and Worker Protection (DCWP)",
   "jurisdiction": "US-NY-NYC",

@@ -3,6 +3,7 @@
   "policy_name": "Winning the Race: America's AI Action Plan",
   "short_name": "America's AI Action Plan",
   "policy_type": "framework",
+  "category": "policy",
   "source_uri": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
   "issuing_authority": "Executive Office of the President (White House Office of Science and Technology Policy, Special Advisor for AI and Crypto, National Security Council)",
   "jurisdiction": "US-Federal",

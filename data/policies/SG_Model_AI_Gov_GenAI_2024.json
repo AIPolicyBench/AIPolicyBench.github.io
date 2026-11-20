@@ -3,6 +3,7 @@
   "policy_name": "Model AI Governance Framework for Generative AI: Fostering a Trusted Ecosystem",
   "short_name": "Singapore MGF for GenAI",
   "policy_type": "framework",
+  "category": "policy",
   "source_uri": "https://aiverifyfoundation.sg/resources/mgf-gen-ai/",
   "issuing_authority": "Infocomm Media Development Authority (IMDA) and AI Verify Foundation, Singapore",
   "jurisdiction": "SG",

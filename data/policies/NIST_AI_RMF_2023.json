@@ -3,6 +3,7 @@
   "policy_name": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) (NIST AI 100-1)",
   "short_name": "NIST AI RMF 1.0",
   "policy_type": "framework",
+  "category": "policy",
   "source_uri": "https://doi.org/10.6028/NIST.AI.100-1",
   "issuing_authority": "National Institute of Standards and Technology (NIST), U.S. Department of Commerce",
   "jurisdiction": "US-Federal",

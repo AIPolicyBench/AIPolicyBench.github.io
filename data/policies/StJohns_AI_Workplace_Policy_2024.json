@@ -1,0 +1,296 @@
+{
+  "policy_id": "StJohns_AI_Workplace_Policy_2024",
+  "policy_name": "Policy 1038 - Artificial Intelligence in the Workplace",
+  "short_name": "St. John's AI in the Workplace Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://www.stjohns.edu/who-we-are/leadership-and-administration/administrative-offices/office-senior-vice-president-and-chief-operating-officer/human-resources/policy-1038-artificial-intelligence-workplace",
+  "issuing_authority": "St. John's University (New York), Human Resources and Information Technology",
+  "jurisdiction": "Organization",
+  "country_region": "United States (St. John's University, New York)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "University HR policy manual (Operating/Administrative section)",
+  "geo_constraints": "All St. John's employees and those performing work or services for St. John's, regardless of location or device",
+  "industry_scope": [
+    "education",
+    "employment"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States (St. John's University, New York)",
+    "regulation": "Internal HR policy · mandatory for employees, enforced through discipline",
+    "culture": "US private (Catholic, mission-driven) university HR governance: innovation welcomed but subordinated to privacy, confidentiality, non-discrimination and the University's mission and values, with central technology-governance approval.",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "AI procurement"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2024-05-17",
+  "key_dates": [
+    {
+      "date": "2024-05-17",
+      "event": "Policy 1038 effective"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Policy 1038 (effective 5/17/24)",
+      "date": "2024-05-17",
+      "kind": "release",
+      "title": "Policy 1038 - Artificial Intelligence in the Workplace",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.stjohns.edu/who-we-are/leadership-and-administration/administrative-offices/office-senior-vice-president-and-chief-operating-officer/human-resources/policy-1038-artificial-intelligence-workplace",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": "Policy 1038, effective 5/17/24",
+  "last_updated": "2024-05-17",
+  "covered_entities": [
+    "St. John's University employees",
+    "those performing work and/or services for St. John's (\"AI users\")",
+    "University departments"
+  ],
+  "covered_systems": [
+    "AI tools including generative AI (e.g. ChatGPT, Bard)",
+    "commercially, publicly available AI tools",
+    "vendor-developed AI products and solutions"
+  ],
+  "covered_activities": [
+    "use of AI for work-related activities on University, personal or third-party devices",
+    "inputting University data into AI",
+    "deploying vendor AI tools"
+  ],
+  "exceptions": [
+    "non-public data may be used in vendor-developed AI tools approved by the Administrative Technology Governance committee and reviewed by OIT"
+  ],
+  "conditions": [
+    "applies whenever AI tools are used to perform or assist work-related activities"
+  ],
+  "objective": "Establish guidelines for the appropriate use of AI in the workplace that embrace innovation while complying with law and respecting privacy, confidentiality and data security.",
+  "policy_domain": [
+    "privacy",
+    "security",
+    "fairness",
+    "transparency",
+    "employment"
+  ],
+  "principles": [
+    "ethical use and non-discrimination",
+    "review for accuracy and bias",
+    "data classification and anonymisation",
+    "disclosure and attribution",
+    "human touch / avoiding over-dependence",
+    "reporting of violations"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "St. John's Policy 901 - Information Security Policy",
+      "relation": "complements"
+    },
+    {
+      "policy": "St. John's Policy 902 - Acceptable Use Policy",
+      "relation": "complements"
+    },
+    {
+      "policy": "St. John's Policy 922 - Information Classification Policy",
+      "relation": "complements"
+    },
+    {
+      "policy": "St. John's Policy 704 - Policy against Bias, Discrimination, and Harassment",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": null,
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/st-johns.md",
+      "https://www.stjohns.edu/who-we-are/leadership-and-administration/administrative-offices/office-senior-vice-president-and-chief-operating-officer/human-resources/policy-1038-artificial-intelligence-workplace (stated in the clipping's source line; not fetched)"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/st-johns.md). The copy is a web clipping (Markdown) of the official page, created 2026-05-31; the official URL comes from its 'source:' line. Effective date 5/17/24 as printed; no version history or review date given, and the policy says it is subject to change, so later edits are possible. Violations result in disciplinary action up to termination (mandatory for employees and contractors; not law, so binding=false)."
+  },
+  "clauses": [
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_No_Harmful_Content",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "section": "Policy",
+      "original_text": "These technologies must not be used to create content that is inappropriate, discriminatory, deceptive, or otherwise harmful to others or to the University.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI users (employees and those performing work for St. John's)",
+      "action": "not create",
+      "object": "inappropriate, discriminatory, deceptive or harmful content",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no harmful, discriminatory or deceptive AI-generated content",
+      "condition": null,
+      "exception": null,
+      "purpose": "ethical use consistent with professional conduct and non-discrimination policies",
+      "affected_asset": "others; the University",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "AI tools (including generative AI) used for work-related activities on any device",
+      "interpretation_notes": null,
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_Review_Outputs",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "section": "Policy",
+      "original_text": "All AI-generated content must be carefully reviewed for accuracy, appropriateness, and bias before relying on it for work purposes.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI users",
+      "action": "review",
+      "object": "AI-generated content",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "review AI output for accuracy, appropriateness and bias before relying on it",
+      "condition": "before relying on it for work purposes",
+      "exception": null,
+      "purpose": "accuracy and fairness of work products",
+      "affected_asset": "University work and decisions",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "AI tools (including generative AI) used for work-related activities on any device",
+      "interpretation_notes": "Reinforced in the guideline on inaccurate and biased information: fact-checking is necessary before answers are used in decision-making.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_No_Confidential_Input",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "section": "Policy",
+      "original_text": "AI users are prohibited from inputting data specific to St. John’s University, including confidential or proprietary business information belonging to the University when using commercially, publicly available AI tools. This includes but is not limited to copying, pasting, typing, or in any way submitting personal information (e.g., names, contact information, dates of birth, social security numbers, etc.) about employees, students, and other members of the St. John’s community into AI tools.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI users",
+      "action": "not input",
+      "object": "University-specific, confidential or proprietary data and personal information",
+      "recipient": "commercially, publicly available AI tools",
+      "modality": "MUST NOT",
+      "requirement": "no University-specific, confidential or personal data in public AI tools",
+      "condition": "when using commercially, publicly available AI tools",
+      "exception": null,
+      "purpose": "protect confidentiality, privacy and data security",
+      "affected_asset": "personal information of employees, students and community; University confidential information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "commercially, publicly available AI tools",
+      "interpretation_notes": "Followed by: inputs must be anonymized, and users must comply with the University's Information Technology (series 900) policies.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_Low_Risk_Data_Only",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "section": "Policy - Data privacy, confidentiality and security",
+      "original_text": "Only data classified as low risk (including public data) in accordance with the University’s Policy 922 - Information Classification Policy, may be used in AI tools and services. … Any other data classified as non-public may only be used in vendor-developed AI tools only after such tools have been approved by the Administrative Technology Governance committee and reviewed by the Office of Information Technology.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI users",
+      "action": "use only",
+      "object": "low-risk (including public) data",
+      "recipient": "AI tools and services",
+      "modality": "MUST",
+      "requirement": "only low-risk data in AI tools; non-public data only in approved, IT-reviewed vendor tools",
+      "condition": null,
+      "exception": "non-public data in vendor-developed AI tools approved by the Administrative Technology Governance committee and reviewed by OIT",
+      "purpose": "protect sensitive data in line with privacy and security laws",
+      "affected_asset": "non-public University data",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "AI tools (including generative AI) used for work-related activities on any device",
+      "interpretation_notes": "Markdown link formatting removed from the policy name. Framed as one of the 'guidelines to be evaluated and followed prior to using any AI products or tools'.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_Vendor_Tool_Approval",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "section": "Policy",
+      "original_text": "Departments interested in using these tools must secure approval from the Administrative Technology Governance committee, as well as a security review by the Office of Information Technology.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "University departments",
+      "action": "secure approval and security review for",
+      "object": "vendor-developed AI products and solutions",
+      "recipient": "Administrative Technology Governance committee; Office of Information Technology",
+      "modality": "MUST",
+      "requirement": "governance approval and IT security review before deploying vendor AI tools",
+      "condition": "when departments want to use vendor-developed AI products",
+      "exception": null,
+      "purpose": "deploy vendor AI with appropriate guardrails",
+      "affected_asset": "University data and systems",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "vendor-developed AI products and solutions",
+      "interpretation_notes": null,
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_Disclose_Attribute",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "section": "Policy",
+      "original_text": "Before using AI for work purposes, AI users should discuss the parameters of their use with their direct supervisors. AI use in work should always be disclosed, and AI users must not plagiarize or fail to attribute AI-generated content that is used for work purposes.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "AI users",
+      "action": "disclose and attribute",
+      "object": "AI use and AI-generated content in work",
+      "recipient": "direct supervisors; recipients of work",
+      "modality": "SHOULD",
+      "requirement": "discuss AI use with supervisor, disclose AI use, and attribute AI-generated content",
+      "condition": "before and when using AI for work purposes",
+      "exception": null,
+      "purpose": "transparency and integrity of work",
+      "affected_asset": "integrity of University work products",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-NY"
+      ],
+      "applicable_systems": "AI tools (including generative AI) used for work-related activities on any device",
+      "interpretation_notes": "Mixed modality: discussion and disclosure are 'should', the ban on plagiarism/non-attribution is 'must not'.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    }
+  ]
+}

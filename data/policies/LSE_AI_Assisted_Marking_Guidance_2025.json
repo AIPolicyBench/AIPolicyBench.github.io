@@ -1,0 +1,290 @@
+{
+  "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+  "policy_name": "LSE Principles and Guidance for AI-assisted Marking & Feedback",
+  "short_name": "LSE AI-assisted Marking Guidance",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/lse-marking.pdf",
+  "issuing_authority": "London School of Economics and Political Science (LSE) Education Committee (approved by Chair's Action); authored by the Eden Centre",
+  "jurisdiction": "Organization",
+  "country_region": "United Kingdom (London School of Economics and Political Science)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Institutional academic policy (education/assessment); refers to UK GDPR",
+  "geo_constraints": "Marking, feedback and moderation on LSE programmes (taught-programme dissertations excluded in the 2025/26 pilot year)",
+  "industry_scope": [
+    "education"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Europe › United Kingdom (London School of Economics)",
+    "regulation": "Institutional academic policy · principles plus guidance, pilot year 2025/26",
+    "culture": "UK higher-education self-governance: academic judgement and student trust are central, AI use is neither required nor discouraged but must be transparent, human-led and confined to approved enterprise tools; developed jointly with KCL and Southampton.",
+    "use_cases": [
+      "education & exams",
+      "employee use of GenAI tools",
+      "generative AI & chatbots"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2025-11-07",
+  "key_dates": [
+    {
+      "date": "2025-10-15",
+      "event": "Discussed at Education Committee (paper EC.25.06)"
+    },
+    {
+      "date": "2025-11-07",
+      "event": "Approved by Chair's Action"
+    },
+    {
+      "date": "2025-11",
+      "event": "Executive summary notes approval by Education Committee in November 2025"
+    }
+  ],
+  "versions": [
+    {
+      "version": "November 2025 (pilot year 2025/26)",
+      "date": "2025-11-07",
+      "kind": "release",
+      "title": "Approved by Chair's Action, 7 November 2025",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/lse-marking.pdf",
+      "current": true,
+      "note": "Principles apply for a pilot year 2025/26 and are then to be reviewed."
+    }
+  ],
+  "expiration_date": null,
+  "version": "EC.25.06, approved 7 November 2025",
+  "last_updated": "2025-11-07",
+  "covered_entities": [
+    "LSE academic staff (markers, second markers, moderators, teaching assistants)"
+  ],
+  "covered_systems": [
+    "GenAI tools (LSE-approved: Claude AI, Microsoft Copilot)",
+    "unsupported GenAI tools (only with rationale and consent)"
+  ],
+  "covered_activities": [
+    "AI-assisted marking",
+    "AI-assisted feedback",
+    "moderation",
+    "rubric and assessment design"
+  ],
+  "exceptions": [
+    "dissertations on taught programmes (excluded in the pilot year)",
+    "automated marking of objective formats (MCQs, online quizzes) predating GenAI",
+    "spell-checking, grammar-checking and proofreading tools (e.g. Grammarly) are not AI-assisted marking"
+  ],
+  "conditions": [
+    "pilot year 2025/26, then review",
+    "use of AI is optional; the rules govern how, not whether"
+  ],
+  "objective": "Set principles and guidelines for responsible, transparent, human-led use of GenAI in marking, feedback and moderation at LSE, protecting students and trust while allowing safe experimentation.",
+  "policy_domain": [
+    "accountability",
+    "transparency",
+    "privacy",
+    "fairness"
+  ],
+  "principles": [
+    "transparency to students",
+    "human oversight and academic judgement",
+    "approved tools only",
+    "student consent for uploading work",
+    "no AI detection of student AI use"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "UK GDPR",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Standard university regulations apply: where AI-assisted feedback has been appropriately used, challenges to academic judgement will not be accepted (s.3.1); LSE's moderation process is unchanged.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/lse-marking.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/lse-marking.pdf). The copy is the version 'revised post EC Nov 2025' with an executive summary (PDF dated 2 Dec 2025). Approved by Chair's Action on 7 Nov 2025 for a pilot year 2025/26, after which it is to be reviewed, so a later version may exist. Treated as an enforceable internal policy because its principles use 'must' and prohibit AI-generated marking, though the document also calls itself guidance and is neutral on whether staff use AI at all. No official LSE URL is printed in the document."
+  },
+  "clauses": [
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_No_AI_Generated_Marking",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "section": "1.4",
+      "original_text": "However, the use AI-generated marking and feedback, where AI systems independently generate marks and/or feedback with minimal or no human involvement is not permitted. The only exception to this prohibition is for automated marking of objective assessment formats such as multiple-choice questions (MCQs), online quizzes, or similar computer-marked assessments where automated marking has been an established practice predating GenAI tools.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE academic staff",
+      "action": "not use",
+      "object": "AI-generated marking and feedback (minimal or no human involvement)",
+      "recipient": "students",
+      "modality": "MUST NOT",
+      "requirement": "AI may not independently generate marks or feedback",
+      "condition": null,
+      "exception": "automated marking of objective formats (MCQs, online quizzes) established before GenAI",
+      "purpose": "preserve human academic judgement and student trust",
+      "affected_asset": "students' assessment outcomes",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "GenAI tools used in marking, feedback and moderation (LSE-approved: Claude AI, Microsoft Copilot)",
+      "interpretation_notes": "Grammar ('the use AI-generated') as in source. Reinforced in s.3.1: AI 'cannot replace human academic judgment in determining marks, conducting moderation, or making final assessment decisions'.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_Tell_Students",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "section": "3.1",
+      "original_text": "Staff must clearly communicate to students when and how they use AI tools for marking and feedback",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE academic staff",
+      "action": "communicate",
+      "object": "when and how AI tools are used for marking and feedback",
+      "recipient": "students",
+      "modality": "MUST",
+      "requirement": "disclose AI use in marking and feedback to students",
+      "condition": "where AI tools are used in marking/feedback",
+      "exception": null,
+      "purpose": "transparency; preserve trust between staff and students",
+      "affected_asset": "student trust",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "GenAI tools used in marking, feedback and moderation (LSE-approved: Claude AI, Microsoft Copilot)",
+      "interpretation_notes": "First principle ('Transparency first' in the executive summary). Bullet has no closing full stop in the source.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_Approved_Tools",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "section": "3.1",
+      "original_text": "Staff must use LSE approved GenAI tools - such as Claude AI and Microsoft Copilot - for any AI-assisted activities related to assessment, including feedback, marking, and moderation. These tools are selected to ensure compliance with data protection regulations (e.g. UK GDPR), and offer enterprise-grade assurances around security, data integrity, privacy, and responsible AI use.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE academic staff",
+      "action": "use only",
+      "object": "LSE-approved GenAI tools (Claude AI, Microsoft Copilot)",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "use only approved enterprise GenAI tools for assessment-related AI use",
+      "condition": "for AI-assisted assessment activities",
+      "exception": "s.4.1: if unsupported tools are used, staff should explain their rationale and obtain student and institutional consent",
+      "purpose": "data protection, security and privacy of student work",
+      "affected_asset": "student personal data and work",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "GenAI tools used in marking, feedback and moderation (LSE-approved: Claude AI, Microsoft Copilot)",
+      "interpretation_notes": "Section 4.1 softens this to 'should use institutionally approved GenAI tools' and allows unsupported tools with student and institutional consent, so the MUST is qualified.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_No_AI_Detection",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "section": "3.1",
+      "original_text": "Academic staff should not use GenAI tools to detect students' use of GenAI, as these tools are unreliable",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE academic staff",
+      "action": "not use",
+      "object": "GenAI tools to detect students' use of GenAI",
+      "recipient": "students",
+      "modality": "SHOULD NOT",
+      "requirement": "do not use GenAI-based detection of student AI use",
+      "condition": null,
+      "exception": null,
+      "purpose": "avoid unreliable detection leading to unfair outcomes",
+      "affected_asset": "students' academic standing",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "GenAI tools used as AI-use detectors",
+      "interpretation_notes": "Bullet has no closing full stop in the source.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_Student_Work_Consent",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "section": "4.1",
+      "original_text": "Staff must not include student details or upload student work into GenAI tools without explicit permission. This prevents personal data from being collected, stored, accessed, and shared without consent.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE academic staff",
+      "action": "not upload",
+      "object": "student details and student work",
+      "recipient": "GenAI tools",
+      "modality": "MUST NOT",
+      "requirement": "no student details or work in GenAI tools without explicit permission",
+      "condition": "without explicit permission",
+      "exception": "with students' explicit permission",
+      "purpose": "protect student personal data",
+      "affected_asset": "student personal data and work",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "GenAI tools used in marking, feedback and moderation (LSE-approved: Claude AI, Microsoft Copilot)",
+      "interpretation_notes": "PDF line break inside 'shared / without consent' rejoined. Scenarios show staff using anonymised summaries instead of uploading student work.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_Human_Oversight",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "section": "4.1",
+      "original_text": "Staff must provide human oversight at every stage of their approach. GenAI can generate incorrect responses based on probabilities and biases.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE academic staff",
+      "action": "provide",
+      "object": "human oversight",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "human oversight at every stage of AI-assisted marking and feedback",
+      "condition": null,
+      "exception": null,
+      "purpose": "catch incorrect or biased AI outputs",
+      "affected_asset": "accuracy and fairness of feedback and marks",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "GenAI tools used in marking, feedback and moderation (LSE-approved: Claude AI, Microsoft Copilot)",
+      "interpretation_notes": "Companion guideline: 'Staff should ensure AI-assisted feedback does not independently determine marks or academic judgements.'",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

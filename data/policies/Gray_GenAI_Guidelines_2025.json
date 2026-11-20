@@ -1,0 +1,281 @@
+{
+  "policy_id": "Gray_GenAI_Guidelines_2025",
+  "policy_name": "Guidelines for Use of Generative AI",
+  "short_name": "Gray GenAI Guidelines",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/gray.pdf",
+  "issuing_authority": "Gray Media (AI Policy Team, Legal Team and Technology Team)",
+  "jurisdiction": "Organization",
+  "country_region": "United States (Gray Media, broadcast and digital media company)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Corporate internal AI use policy (newsroom and business)",
+  "geo_constraints": "Gray employees, General Managers and department heads; AI vendors used by Gray",
+  "industry_scope": [
+    "media",
+    "journalism"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › Gray Media",
+    "regulation": "Internal policy · corporate generative AI use rules",
+    "culture": "US local-broadcast newsroom ethics: public trust and human-created journalism come first, with AI allowed as a vetted, overseeable tool and transparency to audiences.",
+    "use_cases": [
+      "journalism & media",
+      "employee use of GenAI tools",
+      "generative AI & chatbots",
+      "supplier & vendor AI use"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2025-10",
+  "key_dates": [
+    {
+      "date": "2025-10",
+      "event": "Document dated October 2025"
+    }
+  ],
+  "versions": [
+    {
+      "version": "October 2025",
+      "date": "2025-10",
+      "kind": "release",
+      "title": "October 2025",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/gray.pdf",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": "October 2025",
+  "last_updated": "2025-10",
+  "covered_entities": [
+    "Gray employees",
+    "General Managers and department heads",
+    "AI vendors"
+  ],
+  "covered_systems": [
+    "generative AI tools",
+    "AI vendor services (transcription, commercial scriptwriting, graphics/image development, AI-generated content)"
+  ],
+  "covered_activities": [
+    "editorial, creative and business use of generative AI",
+    "AI vendor approval",
+    "sharing information with AI tools",
+    "news content creation"
+  ],
+  "exceptions": [
+    "exceptions require explicit approval/authorisation by the AI Policy Team (confidential data sharing; tools without human override)"
+  ],
+  "conditions": [
+    "employees must complete training before being approved to use AI"
+  ],
+  "objective": "Allow responsible, helpful use of generative AI while maintaining public trust in Gray's journalism: human-created news, vetted vendors, data protection and human oversight.",
+  "policy_domain": [
+    "content_integrity",
+    "privacy",
+    "security",
+    "fairness",
+    "accountability"
+  ],
+  "principles": [
+    "public trust",
+    "wellbeing over AI benefits",
+    "human-created news content",
+    "transparency to audiences",
+    "employee accountability for AI-assisted work",
+    "human oversight",
+    "fairness and bias evaluation"
+  ],
+  "parent_policy": null,
+  "related_policies": [],
+  "conflict_rule": null,
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/gray.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/gray.pdf). (asago-ai/asago-policy-mapper commit b8ac8876beec6593ef5685d7d7e64cc94f9cc55b.) One-page document dated 'October 2025' (no day, no version number); the issuer is identified as Gray from the text and the aipolicy@graymedia.com contact, and its full corporate name is not printed. No official URL is printed, so the asago copy is the source_uri; whether this is the latest version is not verified. Titled 'Guidelines' but phrased as mandatory rules for employees and vendors, so recorded as an enforceable internal policy. Binding=false: not law, but mandatory for Gray employees."
+  },
+  "clauses": [
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_Human_Created_News",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "section": "Core tenets",
+      "original_text": "All Gray-originated news content is to be created by humans. Where generative AI can enhance our abilities to serve the public, Gray will prioritize transparency to our audiences.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Gray (newsrooms and employees)",
+      "action": "create by humans; be transparent to audiences",
+      "object": "Gray-originated news content",
+      "recipient": "audiences",
+      "modality": "MUST",
+      "requirement": "news content is human-created; AI use is transparent to audiences",
+      "condition": null,
+      "exception": null,
+      "purpose": "maintain public trust in journalism",
+      "affected_asset": "accuracy and integrity of news; audience trust",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "US"
+      ],
+      "applicable_systems": "generative AI in editorial processes",
+      "interpretation_notes": "Text from the asago copy of the one-page PDF; line breaks collapsed. One of the two core tenets informing the policy.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_Vendor_Vetting",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "section": "Vendors",
+      "original_text": "ALL AI vendors must be vetted and approved by a member of the Gray Legal Team and the Gray Technology Team. This includes services such as transcription, commercial scriptwriting, graphics/image development, and any use of AI-generated content.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Gray employees and managers",
+      "action": "vet and approve",
+      "object": "all AI vendors",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "Legal and Technology approval of every AI vendor before use",
+      "condition": null,
+      "exception": null,
+      "purpose": "manage legal, IP and security risks",
+      "affected_asset": "Gray data, IP and reputation",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "US"
+      ],
+      "applicable_systems": "AI vendor services",
+      "interpretation_notes": "Text from the asago copy of the one-page PDF; line breaks collapsed. Untitled paragraph; section label is the compiler's. Staff are expected to review the approved vendors and use-case documents regularly.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_No_Confidential_Data",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "section": "Employee use",
+      "original_text": "Unless explicitly approved by the AI Policy Team, users of AI tools are prohibited from sharing confidential or sensitive information with generative AI tools, including but not limited to employee identifying information, passwords, or other proprietary information.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "users of AI tools (employees)",
+      "action": "share",
+      "object": "confidential or sensitive information",
+      "recipient": "generative AI tools",
+      "modality": "MUST NOT",
+      "requirement": "no confidential/sensitive data in generative AI tools without AI Policy Team approval",
+      "condition": null,
+      "exception": "explicit approval by the AI Policy Team",
+      "purpose": "protect confidential and personal data",
+      "affected_asset": "employee personal data; passwords; proprietary information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "US"
+      ],
+      "applicable_systems": "generative AI tools and AI vendors used at Gray",
+      "interpretation_notes": "Text from the asago copy of the one-page PDF; line breaks collapsed. Untitled paragraph; section label is the compiler's.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_Credentials_MFA",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "section": "Employee use",
+      "original_text": "Employees who are appropriately trained to use an approved AI tool must protect their login credentials. When available, multi-factor authentication should be used for AI tools.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "trained employees",
+      "action": "protect credentials; use MFA",
+      "object": "login credentials for AI tools",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "protect AI tool credentials and use MFA when available",
+      "condition": null,
+      "exception": null,
+      "purpose": "account security",
+      "affected_asset": "Gray accounts and data",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "US"
+      ],
+      "applicable_systems": "approved AI tools",
+      "interpretation_notes": "Text from the asago copy of the one-page PDF; line breaks collapsed. MFA is a SHOULD ('when available').",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_Fairness_Bias_Evaluation",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "section": "Oversight",
+      "original_text": "AI tools will be evaluated regularly for fairness and bias.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Gray",
+      "action": "evaluate regularly",
+      "object": "AI tools",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "regular fairness and bias evaluation of AI tools",
+      "condition": null,
+      "exception": null,
+      "purpose": "fair, unbiased use of AI",
+      "affected_asset": "audiences, employees and communities",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "US"
+      ],
+      "applicable_systems": "generative AI tools and AI vendors used at Gray",
+      "interpretation_notes": "Text from the asago copy of the one-page PDF; line breaks collapsed. Evaluator is not named.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_Human_Override_Oversight",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "section": "Oversight",
+      "original_text": "Unless explicitly authorized by the AI Policy Team, only AI tools that give employees the ability to override AI will be approved for use. Human oversight must always be present with the use of any AI technology.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Gray (AI Policy Team) and employees",
+      "action": "approve only overridable tools; maintain human oversight",
+      "object": "AI tools and any AI technology",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "only AI tools with human override; human oversight always present",
+      "condition": null,
+      "exception": "explicit authorisation by the AI Policy Team (for tools without override)",
+      "purpose": "keep humans in control of AI",
+      "affected_asset": "work product quality; affected people",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US"
+      ],
+      "applicable_systems": "generative AI tools and AI vendors used at Gray",
+      "interpretation_notes": "Text from the asago copy of the one-page PDF; line breaks collapsed. Untitled paragraph; section label is the compiler's.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

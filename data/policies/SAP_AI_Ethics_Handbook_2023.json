@@ -1,0 +1,295 @@
+{
+  "policy_id": "SAP_AI_Ethics_Handbook_2023",
+  "policy_name": "SAP AI Ethics Handbook (Development Chapter): Handbook for applying SAP's Global AI Ethics Policy across the AI Factory Process",
+  "short_name": "SAP AI Ethics Handbook",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/sap.pdf",
+  "issuing_authority": "SAP SE (Global Head of Artificial Intelligence / AI Ethics Office)",
+  "jurisdiction": "Organization",
+  "country_region": "Global (SAP SE and affiliates)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Corporate AI ethics policy (self-regulation)",
+  "geo_constraints": "SAP and all its employees worldwide; applies to SAP software solutions including embedded third-party AI systems",
+  "industry_scope": [
+    "technology",
+    "enterprise_software"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › SAP",
+    "regulation": "Self-regulation · internal AI ethics policy applied through a development-process handbook",
+    "culture": "European enterprise-software self-governance anchored in the Universal Declaration of Human Rights and data-protection practice: red lines, risk classification and an AI Ethics Steering Committee embedded in a staged product-development process.",
+    "use_cases": [
+      "general AI lifecycle",
+      "software development & code generation",
+      "high-impact AI decisions",
+      "consumer-facing AI interactions",
+      "generative AI & chatbots"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2023-08",
+  "key_dates": [
+    {
+      "date": "2023-08",
+      "event": "Updated version of the handbook (cover: 'Updated version: August 2023')"
+    }
+  ],
+  "versions": [
+    {
+      "version": "August 2023",
+      "date": "2023-08",
+      "kind": "release",
+      "title": "Updated version: August 2023",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/sap.pdf",
+      "current": true,
+      "note": "The cover calls this an 'Updated version', so an earlier edition exists, but its date is not stated in the document."
+    }
+  ],
+  "expiration_date": null,
+  "version": "Updated version: August 2023 (Development Chapter)",
+  "last_updated": "2023-08",
+  "covered_entities": [
+    "SAP SE and affiliates",
+    "SAP employees involved in development, deployment and sale of AI systems"
+  ],
+  "covered_systems": [
+    "rule-based and learning-based AI systems in SAP products",
+    "third-party AI systems embedded in SAP solutions",
+    "generative AI use cases"
+  ],
+  "covered_activities": [
+    "AI use-case ideation, validation, realization, productization and operations (AI Factory Process)",
+    "sale of AI systems",
+    "risk classification of AI use cases"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Red-line use cases must be stopped immediately",
+    "High-risk use cases (personal/sensitive data, automated decision-making, negative effects on individuals, high-risk sectors) require AI Ethics Steering Committee assessment before further development, deployment or sale"
+  ],
+  "objective": "Guide SAP employees in applying SAP's Global AI Ethics Policy at every stage of the AI development lifecycle, so that AI systems are developed, deployed and sold in line with SAP's ethical guiding principles.",
+  "policy_domain": [
+    "fundamental_rights",
+    "fairness",
+    "transparency",
+    "accountability",
+    "privacy",
+    "governance"
+  ],
+  "principles": [
+    "human agency and oversight",
+    "addressing bias and discrimination",
+    "transparency and explainability",
+    "data protection and privacy",
+    "quality and safety",
+    "human-centered design",
+    "engagement with societal challenges"
+  ],
+  "parent_policy": "SAP Global AI Ethics Policy",
+  "related_policies": [
+    {
+      "policy": "SAP Global AI Ethics Policy",
+      "relation": "implements"
+    },
+    {
+      "policy": "SAP Data Protection and Privacy (DPP) policy and product standards DPP-350 / DPP-361",
+      "relation": "complements"
+    },
+    {
+      "policy": "Universal Declaration of Human Rights",
+      "relation": "implements"
+    }
+  ],
+  "conflict_rule": "Disclaimer: the handbook is a general guide and does not replace existing or new processes, policies or procedures; employees must also adhere to other policies such as the DPP policy and product development standards.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/sap.pdf",
+      "https://github.com/asago-ai/asago-policy-mapper/blob/b8ac8876beec6593ef5685d7d7e64cc94f9cc55b/policy_examples/sap.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/sap.pdf). The document is the 'Development Chapter' of the SAP AI Ethics Handbook (marked 'External'), dated 'Updated version: August 2023'; it applies, rather than reproduces in full, the SAP Global AI Ethics Policy, whose own text and date were not consulted. Classified internal_policy/enforceable because it sets out the policy's mandatory requirements (red lines, high-risk assessment, 'shall' duties) for all SAP employees, although its disclaimer calls it a general guide that does not replace policies; binding=false (corporate policy, not law). Whether a newer edition exists is unknown. The PDF uses a two-column layout; the -layout extraction interleaves columns, so clause text was checked against a plain pdftotext extraction. Requirements repeat across the five AI Factory stages; section references give the first stage where each appears."
+  },
+  "clauses": [
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_Red_Lines",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "section": "Red Lines – SAP Red Line Cases",
+      "original_text": "No SAP AI use cases should fall under the so-called Red Lines defined in the SAP AI Ethics Policy. These are defined as highly unethical under the purposes for AI. If your use case is built for these purposes, you are required to immediately stop developing, deploying, and selling that use case.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "SAP employees / AI use-case teams",
+      "action": "stop developing, deploying and selling",
+      "object": "AI use cases falling under SAP Red Lines (human surveillance, discrimination, deanonymization, manipulation, undermining debate, environmental harm)",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no SAP AI use case may fall under a red line; such use cases must be stopped immediately",
+      "condition": "if the use case is built for a red-line purpose",
+      "exception": null,
+      "purpose": "prevent highly unethical uses of AI",
+      "affected_asset": "personal freedom; society; environment",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "SAP AI use cases",
+      "interpretation_notes": "Wording taken from the asago copy (sap.pdf), re-extracted without -layout because the two-column layout interleaves text; line-break hyphenation repaired. Red lines listed alongside: human surveillance targeting individuals or groups (biometrics, facial recognition) to disregard or abuse their rights; discriminatory purposes; deanonymization of anonymized data; manipulation for deception; systems undermining human debate or democratic electoral systems; environmental harm; intentionally harmful impacts.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_High_Risk_Assessment",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "section": "High Risk – SAP High Risk Cases",
+      "original_text": "High-risk use cases are not prohibited within SAP; however, they must first go through an assessment process of the AI Ethics Steering Committee before they can be further developed, deployed, and sold.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "SAP AI use-case teams",
+      "action": "submit for assessment",
+      "object": "high-risk AI use cases",
+      "recipient": "AI Ethics Steering Committee",
+      "modality": "MUST",
+      "requirement": "Steering Committee assessment before further development, deployment or sale of high-risk use cases",
+      "condition": "use case classified high-risk (personal or sensitive personal data, automated decision-making, negative effects on individuals, high-risk domain)",
+      "exception": null,
+      "purpose": "control higher-risk AI use cases",
+      "affected_asset": "individuals affected by AI use cases",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "high-risk AI use cases",
+      "interpretation_notes": "Wording taken from the asago copy (sap.pdf), re-extracted without -layout because the two-column layout interleaves text; line-break hyphenation repaired. High-risk domains named include categorisation of natural persons, critical infrastructure, employment/HR, healthcare, private and public services, law enforcement, migration and democratic processes. Use cases with anonymized data sets are not high-risk.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_Human_Oversight",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "section": "01 Ideation – A. Human Agency & Oversight",
+      "original_text": "AI systems shall be subject to appropriate human oversight, and the rights and freedoms of a human shall exceed that of AI systems. In situations where humans may be directly impacted by a decision made by SAP’s AI system, human oversight shall be introduced to safeguard that AI system does not undermine human autonomy or introduce unintended consequences.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "SAP development teams",
+      "action": "introduce human oversight",
+      "object": "AI systems making decisions that directly impact humans",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "appropriate human oversight; humans can overrule AI decisions",
+      "condition": "where humans may be directly impacted by an AI decision",
+      "exception": null,
+      "purpose": "protect human autonomy and avoid unintended consequences",
+      "affected_asset": "human autonomy; rights and freedoms of affected persons",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "SAP AI systems",
+      "interpretation_notes": "Wording taken from the asago copy (sap.pdf), re-extracted without -layout because the two-column layout interleaves text; line-break hyphenation repaired. Repeated (in the reverse order) in the Validation stage. Governance mechanism (human-in-the-loop, on-the-loop, in-command) chosen case by case; summary bullet: 'Decisions by an AI system may always be overruled by a human.'",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_Chatbot_Identification",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "section": "01 Ideation – B. Transparency & Explainability",
+      "original_text": "Where applicable, when interacting directly with humans (including via Conversational AI or ‘Chatbots’): AI systems shall be made identifiable as such to appropriate end users. AI systems shall be developed such that it does not encourage humans to develop attachment and/or empathy of users towards the AI system. AI systems shall clearly signal to end users that its social interaction is simulated.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "SAP development teams",
+      "action": "make identifiable; signal simulated interaction",
+      "object": "AI systems interacting directly with humans, including chatbots",
+      "recipient": "end users",
+      "modality": "MUST",
+      "requirement": "disclose AI identity and avoid fostering attachment or empathy towards the AI system",
+      "condition": "where applicable, when AI interacts directly with humans",
+      "exception": null,
+      "purpose": "transparency and protection against misleading social interaction",
+      "affected_asset": "end users' autonomy and informed interaction",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "conversational AI / chatbots",
+      "interpretation_notes": "Wording taken from the asago copy (sap.pdf), re-extracted without -layout because the two-column layout interleaves text; line-break hyphenation repaired. Repeated in the Validation stage.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_Bias_Detection",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "section": "02 Validation – B. Addressing Bias & Discrimination",
+      "original_text": "SAP shall endeavour to detect unfairly biased outputs and shall implement technical and/or organizational measures to prevent direct or indirect prejudice, discrimination, or marginalization of groups or individuals, e.g. by reducing bias in training data.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "SAP",
+      "action": "detect bias and implement measures",
+      "object": "unfairly biased AI outputs",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "bias detection and technical/organisational anti-discrimination measures",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent discrimination and marginalisation",
+      "affected_asset": "groups and individuals affected by AI outputs",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "SAP AI systems",
+      "interpretation_notes": "Wording taken from the asago copy (sap.pdf), re-extracted without -layout because the two-column layout interleaves text; line-break hyphenation repaired. Repeated in Realization, Productization and Operations; related duties: inclusive and representative training data and, where feasible, a fairness function to test for unbiased output. 'Endeavour to detect' is softer than the duty to implement measures.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_ADM_Explanations",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "section": "03 Realization – C. Transparency & Explainability",
+      "original_text": "In alignment and compliance with applicable data protection and privacy law, AI systems that engage in profiling or automated decision-making must be able to provide explanations to the extent possible to data subjects upon request, describing the data segment the subject was placed into and the reasons they were placed there. In addition, the reasons as to why the decision was made shall be provided if requested by the data subject. The explanation must be such as to provide the data subject grounds to challenge the decision.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "SAP (AI systems engaging in profiling or automated decision-making)",
+      "action": "provide explanations on request",
+      "object": "profiling and automated decisions",
+      "recipient": "data subjects",
+      "modality": "MUST",
+      "requirement": "explain segment placement and decision reasons so the data subject can challenge the decision",
+      "condition": "upon request of the data subject",
+      "exception": "to the extent possible",
+      "purpose": "contestability and transparency of automated decisions",
+      "affected_asset": "data subjects' rights",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI systems performing profiling or automated decision-making",
+      "interpretation_notes": "Wording taken from the asago copy (sap.pdf), re-extracted without -layout because the two-column layout interleaves text; line-break hyphenation repaired. Repeated in Productization and Operations.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

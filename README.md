@@ -60,3 +60,8 @@ for example for paywalled ISO standards. Statuses reflect the compile date in ea
 Risk taxonomies from IBM, MIT, NIST AI 600-1, OWASP and AIR 2024, and the IBM ↔ MIT/NIST/OWASP crosswalks, come from
 [AI Atlas Nexus](https://github.com/IBM/ai-atlas-nexus) (Apache-2.0). The other taxonomies, the remaining crosswalks to
 the MIT hub and all clause → risk mappings were written by the compiler and are interpretive.
+
+26 organisational policies (companies, universities, NHS trusts, police forces, government departments, the ICRC,
+LLVM and a newsroom) were compiled from the example documents in
+[asago-ai/asago-policy-mapper](https://github.com/asago-ai/asago-policy-mapper/tree/main/policy_examples); each record's
+provenance notes point to its source file and say what is uncertain (dates, versions, missing pages).

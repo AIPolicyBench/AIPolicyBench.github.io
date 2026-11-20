@@ -1383,6 +1383,1202 @@
         "mit-ai-risk-subdomain-7.4"
       ],
       "relation": "mitigates"
+    },
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_No_Sensitive_Input",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_Prohibited_Practices",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-4.3",
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_Human_Oversight",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_GenAI_Disclosure",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4",
+        "mit-ai-risk-subdomain-3.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_Output_Use_Limits",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-6.3",
+        "mit-ai-risk-subdomain-4.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_Human_Authored",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-3.2",
+        "mit-ai-risk-subdomain-6.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_No_AI_Attribution",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_Verify_Outputs",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_Disclose_To_Editors",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_No_Synthetic_Documentation",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-4.1",
+        "mit-ai-risk-subdomain-3.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_Label_Synthetic_Media",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-3.2",
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Cisco_Supplier_AI_Policy_2025_No_Training_On_Protected_Data",
+      "policy_id": "Cisco_Supplier_AI_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Reliability_Testing",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.3",
+        "mit-ai-risk-subdomain-3.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Security",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Non_Discrimination",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-1.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Human_Oversight",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Privacy_By_Design",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Transparency",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_Red_Lines",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-4.1",
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_Human_Oversight",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_Chatbot_Identification",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_Bias_Detection",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-1.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "SAP_AI_Ethics_Handbook_2023_ADM_Explanations",
+      "policy_id": "SAP_AI_Ethics_Handbook_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4",
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_Prohibited_AI",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-4.3",
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_Bias_Evaluation",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-1.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_User_Transparency",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_Human_Oversight",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_Public_GenAI_Ban",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_Inappropriate_Inputs",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-6.3",
+        "mit-ai-risk-subdomain-1.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Fairness",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Transparency",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4",
+        "mit-ai-risk-subdomain-7.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Privacy_Security",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Design",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-2.2",
+        "mit-ai-risk-subdomain-1.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Monitor",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-7.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_Confidential_Input",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_Verify_Output",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_No_Malicious_Use",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-4.2",
+        "mit-ai-risk-subdomain-4.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_No_Employment_Decisions",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_AI_Only_Disclosure",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4",
+        "mit-ai-risk-subdomain-3.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_Deployer_Monitoring",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "AU_DTA_AI_in_Government_Policy_2025_Transparency_Statement",
+      "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "AU_DTA_AI_in_Government_Policy_2025_Operationalise_Incidents",
+      "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-7.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "AU_DTA_AI_in_Government_Policy_2025_Staff_Training",
+      "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "relates_to"
+    },
+    {
+      "clause_id": "AU_DTA_AI_in_Government_Policy_2025_High_Risk_Oversight",
+      "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-7.3",
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_Accountability_FactCheck",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1",
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_No_Administrative_Decisions",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_Public_Info_Only",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_Bias_Overreliance",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_No_Jailbreaking",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "risks": [
+        "mit-ai-risk-subdomain-2.2",
+        "mit-ai-risk-subdomain-1.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_IP_Privilege",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "risks": [
+        "mit-ai-risk-subdomain-6.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_PIA",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_No_Consequential_Decisions",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2",
+        "mit-ai-risk-subdomain-3.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_Config_Data_Sharing",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_Staff_Guidance",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-5.1",
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_Incident_Response",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-7.3",
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_Security_Risk_Assessment",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_No_Sole_Basis_Enforcement",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_No_Discrimination",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_No_Profiling_Retaliation",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-4.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_No_Mass_Surveillance",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-4.1",
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_No_Unauthorized_Data_Sharing",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_Face_Recognition",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_2_Human_Oversight",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_3_Fairness",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_4_Transparency",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_7_Privacy",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024_4_8_Security",
+      "policy_id": "NYS_ITS_AI_Acceptable_Use_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.2",
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "EC_GenAI_Staff_Guidelines_2025_Rule1_Internal_Tools_First",
+      "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "EC_GenAI_Staff_Guidelines_2025_Rule2_No_NonPublic_Data_External",
+      "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "EC_GenAI_Staff_Guidelines_2025_Rule2_Human_Review_No_Solely_Automated",
+      "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2",
+        "mit-ai-risk-subdomain-3.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "EC_GenAI_Staff_Guidelines_2025_Rule3_Verify_Outputs",
+      "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "EC_GenAI_Staff_Guidelines_2025_Rule4_IP_No_Copy_Paste",
+      "policy_id": "EC_GenAI_Staff_Guidelines_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-6.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Camden_Council_GenAI_Staff_Guidance_No_Personal_Sensitive_Data",
+      "policy_id": "Camden_Council_GenAI_Staff_Guidance",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Camden_Council_GenAI_Staff_Guidance_Check_Outputs",
+      "policy_id": "Camden_Council_GenAI_Staff_Guidance",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Camden_Council_GenAI_Staff_Guidance_DP_Advice_Before_Personal_Data",
+      "policy_id": "Camden_Council_GenAI_Staff_Guidance",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "relates_to"
+    },
+    {
+      "clause_id": "Camden_Council_GenAI_Staff_Guidance_Breach_Reporting",
+      "policy_id": "Camden_Council_GenAI_Staff_Guidance",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_B_Transparency",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_C_Explainable",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_D2_Human_Decision_Maker",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_D3_Stop_Mechanism",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-7.3",
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_D4_Mitigate_Bias",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_F1_Purpose_Limitation",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "risks": [
+        "mit-ai-risk-subdomain-7.3",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_4_2_Authorised_Tools_Only",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_5_2_Prohibited_Information",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_5_3_Check_Results",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_5_3_Be_Transparent",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_5_3_Human_Review",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Leicestershire_Police_AI_Policy_2025_5_4_Criminal_Justice",
+      "policy_id": "Leicestershire_Police_AI_Policy_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_No_Sensitive_Data_In_LLM",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_LLM_No_Medical_Advice",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_LLM_Human_Verification",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_No_Biometric_Logins",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_No_Circumventing_Security",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_Guys_StThomas_AI_Policy_2024_AI_Breach_Reporting",
+      "policy_id": "NHS_Guys_StThomas_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.3",
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_No_Clinical_Decisions",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-5.1",
+        "mit-ai-risk-subdomain-5.2",
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_Patient_Consent_Ambient_AI",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_ChatGPT_Restrictions",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1",
+        "mit-ai-risk-subdomain-3.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_Human_Review_Of_Outputs",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_Transparency_Explainability",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_Prohibited_AI_Practices",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-4.3",
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_Bias_Mitigation",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-3.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_No_Confidential_Data_External_AI",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_Human_Oversight_High_Impact",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2",
+        "mit-ai-risk-subdomain-7.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_Information_To_Affected_People",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_Environmental_Footprint",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-6.6"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_Human_Review_Accountability",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_Label_Tool_Generated_Content",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_No_Autonomous_Agents",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2",
+        "mit-ai-risk-subdomain-7.6"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_No_AI_Good_First_Issues",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "relates_to"
+    },
+    {
+      "clause_id": "LLVM_AI_Tool_Use_Policy_Copyright_Responsibility",
+      "policy_id": "LLVM_AI_Tool_Use_Policy",
+      "risks": [
+        "mit-ai-risk-subdomain-6.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_Human_Created_News",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-3.2",
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_No_Confidential_Data",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_Credentials_MFA",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_Fairness_Bias_Evaluation",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Gray_GenAI_Guidelines_2025_Human_Override_Oversight",
+      "policy_id": "Gray_GenAI_Guidelines_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_No_Personal_Data_External",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_No_Copyright_Upload",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-6.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_Equality_Impact_Assessment",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-1.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_Human_Review_Decisions",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_Independent_Verification",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_No_Malicious_Use",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-4.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_No_AI_Generated_Marking",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_Tell_Students",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_Approved_Tools",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_No_AI_Detection",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-5.1",
+        "mit-ai-risk-subdomain-7.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_Student_Work_Consent",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "LSE_AI_Assisted_Marking_Guidance_2025_Human_Oversight",
+      "policy_id": "LSE_AI_Assisted_Marking_Guidance_2025",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1",
+        "mit-ai-risk-subdomain-1.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_Human_In_The_Loop",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_Security_Controls",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_Review_Verify_Outputs",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_Disclose_GenAI_Content",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4",
+        "mit-ai-risk-subdomain-3.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_No_Class_C_Data",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_GenAI_Not_Decision_Maker",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "risks": [
+        "mit-ai-risk-subdomain-5.2",
+        "mit-ai-risk-subdomain-5.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_No_Harmful_Content",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-1.2",
+        "mit-ai-risk-subdomain-1.1",
+        "mit-ai-risk-subdomain-4.3"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_Review_Outputs",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-3.1",
+        "mit-ai-risk-subdomain-5.1",
+        "mit-ai-risk-subdomain-1.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_No_Confidential_Input",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_Low_Risk_Data_Only",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.1"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_Vendor_Tool_Approval",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-2.2"
+      ],
+      "relation": "mitigates"
+    },
+    {
+      "clause_id": "StJohns_AI_Workplace_Policy_2024_Disclose_Attribute",
+      "policy_id": "StJohns_AI_Workplace_Policy_2024",
+      "risks": [
+        "mit-ai-risk-subdomain-7.4",
+        "mit-ai-risk-subdomain-6.3"
+      ],
+      "relation": "mitigates"
     }
   ]
 }

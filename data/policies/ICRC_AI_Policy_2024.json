@@ -1,0 +1,310 @@
+{
+  "policy_id": "ICRC_AI_Policy_2024",
+  "policy_name": "Building a Responsible Humanitarian Approach: The ICRC's Policy on Artificial Intelligence",
+  "short_name": "ICRC AI Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/icrc.pdf",
+  "issuing_authority": "International Committee of the Red Cross (ICRC)",
+  "jurisdiction": "Organization",
+  "country_region": "Global (ICRC, headquartered in Geneva, Switzerland)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Organisational AI policy of a humanitarian organisation (alongside the binding ICRC Rules on Personal Data Protection)",
+  "geo_constraints": "All ICRC staff, activities, internal services, operational responses and partnerships worldwide",
+  "industry_scope": [
+    "humanitarian",
+    "non_profit"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › International Committee of the Red Cross",
+    "regulation": "Internal policy · principles-based, aspirational organisational AI framework",
+    "culture": "Humanitarian-principles framing (humanity, impartiality, neutrality, independence, do no harm): AI use is weighed against risks to people affected by conflict and to the ICRC's perceived neutrality, with precaution and data protection foremost.",
+    "use_cases": [
+      "humanitarian action",
+      "general AI lifecycle",
+      "employee use of GenAI tools",
+      "AI procurement",
+      "high-impact AI decisions"
+    ]
+  },
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2024-11",
+  "key_dates": [
+    {
+      "date": "2024-11",
+      "event": "Published (© ICRC, November 2024; ref. 4837/002 11.2024)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "November 2024",
+      "date": "2024-11",
+      "kind": "release",
+      "title": "Ref. 4837/002, November 2024",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/icrc.pdf",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": "4837/002 11.2024",
+  "last_updated": "2024-11",
+  "covered_entities": [
+    "all ICRC staff members",
+    "ICRC departments and organizational entities",
+    "partnerships",
+    "AI providers (through procurement and ethical frameworks)"
+  ],
+  "covered_systems": [
+    "generative AI",
+    "ML-enabled physical systems and robotics",
+    "digital tools featuring AI systems",
+    "existing tools that add AI functionality"
+  ],
+  "covered_activities": [
+    "exploration, deployment, use and management of AI",
+    "procurement and choice of AI providers",
+    "use of external online AI services",
+    "AI-supported decision-making",
+    "internal and external communication"
+  ],
+  "exceptions": [
+    "does not address the ICRC's position on the use of AI by parties to armed conflict under IHL"
+  ],
+  "conditions": [
+    "additional risk analysis for higher-risk solutions or those using personal, confidential or sensitive data",
+    "risk-differentiated (high/medium/low) assessment"
+  ],
+  "objective": "Provide a value-based, principled framework for the ICRC's human-centred, responsible and ethical exploration and use of AI in humanitarian action, consistent with its mandate and Fundamental Principles.",
+  "policy_domain": [
+    "fundamental_rights",
+    "safety",
+    "privacy",
+    "transparency",
+    "accountability",
+    "governance"
+  ],
+  "principles": [
+    "humanity",
+    "impartiality",
+    "neutrality and independence",
+    "proportionality, precaution and do no harm",
+    "safety and security",
+    "transparency and explainability",
+    "responsibility and accountability",
+    "environmental sustainability"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "ICRC Rules on Personal Data Protection",
+      "relation": "complements"
+    },
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "UNESCO_AI_Ethics_2021",
+      "relation": "complements"
+    },
+    {
+      "policy": "ICRC Code of Conduct",
+      "relation": "complements"
+    },
+    {
+      "policy": "Handbook on Data Protection in Humanitarian Action",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Complements, and is without prejudice to, the ICRC Rules on Personal Data Protection, which are binding on the organisation (s.3).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/icrc.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/icrc.pdf). (asago-ai/asago-policy-mapper commit b8ac8876beec6593ef5685d7d7e64cc94f9cc55b.) Publication month only (November 2024); no exact day or version number beyond the print reference 4837/002 11.2024. The policy calls itself 'aspirational' and 'a living instrument that will be regularly updated', so status is recorded as voluntary although it is the ICRC's own internal policy; not verified whether a later update exists. The -layout extraction interleaves columns, so clauses were taken from a plain pdftotext re-extraction; footnote 1 (the source of the AI definition) is not legible in the text layer. The prohibited-practices list in s.5.1 closely mirrors EU AI Act Article 5, though the policy only cites the Act among its sources. Binding=false: not law; the policy is addressed to all ICRC staff."
+  },
+  "clauses": [
+    {
+      "clause_id": "ICRC_AI_Policy_2024_Prohibited_AI_Practices",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "section": "5.1 A humanitarian and principled approach – Humanity",
+      "original_text": "In light of the above, the ICRC will refrain from using, deploying or providing AI systems that: deploy subliminal, manipulative, or deceptive techniques to distort behaviour and impair informed decision-making; exploit vulnerabilities related to age, disability, or socio-economic circumstances to distort behaviour; use biometric categorization systems that infer sensitive personal attributes, except for labelling or filtering lawfully acquired biometric datasets; rely on or infer social scoring, (i.e. evaluating or classifying individuals or groups based on social behaviour or personal traits); assess the risk of an individual committing a criminal offence based solely on profiling or personality traits, except when used to augment human assessments; compile facial recognition databases by untargeted scraping of facial images from the internet or CCTV footage; or infer emotions, except for medical or safety reasons.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "ICRC",
+      "action": "refrain from using, deploying or providing",
+      "object": "manipulative, exploitative, biometric-categorisation, social-scoring, predictive-policing, facial-scraping and emotion-recognition AI systems",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "do not use, deploy or provide listed prohibited categories of AI",
+      "condition": null,
+      "exception": "labelling/filtering lawfully acquired biometric datasets; risk assessment that augments human assessment; emotion inference for medical or safety reasons",
+      "purpose": "protect dignity, agency and rights of affected people",
+      "affected_asset": "affected people's autonomy, privacy and rights",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "AI systems used, deployed or provided by the ICRC",
+      "interpretation_notes": "Text from a plain pdftotext re-extraction of the asago PDF (two-column layout); line breaks and hyphenation joined, bullet markers dropped. List closely mirrors EU AI Act Art. 5 prohibitions, with similar carve-outs.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_Bias_Mitigation",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "section": "5.1 A humanitarian and principled approach – Impartiality",
+      "original_text": "The ICRC acknowledges the significant risks of AI systems that could generate false or inaccurate data and replicate or amplify systemic and societal discriminations, biases and stereotypes – in particular around gender and race. We make proactive and sustained efforts to understand, avoid and mitigate these risks through our choice and use of AI solutions, and by avoiding their use where these biases cannot be effectively avoided or mitigated.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "ICRC",
+      "action": "understand, avoid and mitigate; avoid use",
+      "object": "bias, discrimination and inaccuracy in AI systems",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "mitigate bias and inaccuracy; do not use AI where bias cannot be effectively mitigated",
+      "condition": null,
+      "exception": null,
+      "purpose": "impartial, non-discriminatory humanitarian assistance",
+      "affected_asset": "affected populations (especially regarding gender and race)",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "AI solutions chosen and used by the ICRC",
+      "interpretation_notes": "Text from a plain pdftotext re-extraction of the asago PDF (two-column layout); line breaks and hyphenation joined, bullet markers dropped. Framed as a commitment ('we make … efforts'); the refusal to use AI where bias cannot be mitigated is close to a MUST NOT.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_No_Confidential_Data_External_AI",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "section": "6.2 Safety and security",
+      "original_text": "At all times, the ICRC ensures that confidential or sensitive internal ICRC information or personal data are handled with the utmost care and are not used in or transferred to non-approved, external online AI systems, in line with the duty of discretion stated in the ICRC’s Code of Conduct.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "ICRC and its staff",
+      "action": "use in or transfer to",
+      "object": "confidential or sensitive internal information or personal data",
+      "recipient": "non-approved external online AI systems",
+      "modality": "MUST NOT",
+      "requirement": "no confidential/sensitive information or personal data in non-approved external online AI systems",
+      "condition": null,
+      "exception": null,
+      "purpose": "confidentiality and duty of discretion",
+      "affected_asset": "confidential ICRC information; personal data of affected people",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "non-approved, external online AI systems",
+      "interpretation_notes": "Text from a plain pdftotext re-extraction of the asago PDF (two-column layout); line breaks and hyphenation joined, bullet markers dropped. s.6.4 adds that staff must not input critical humanitarian, (strictly) confidential or IP-protected information into external or commercial online AI services.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_Human_Oversight_High_Impact",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "section": "6.2 Safety and security",
+      "original_text": "Additional systematic data quality control and meaningful and effective human oversight mechanisms are put in place to control and review relevant training models, algorithmic systems, inputs and outputs throughout the lifecycle of AI solutions used to support operational activities and decision-making processes that have an impact and present a risk of harm for affected people and users.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "ICRC",
+      "action": "put in place human oversight and data quality control",
+      "object": "training models, algorithmic systems, inputs and outputs",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "meaningful human oversight and data quality control throughout the lifecycle of impactful AI",
+      "condition": "where AI supports operational activities or decisions that have an impact and present a risk of harm",
+      "exception": null,
+      "purpose": "prevent harm to affected people",
+      "affected_asset": "affected people and users",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "AI supporting operational activities and decision-making with risk of harm",
+      "interpretation_notes": "Text from a plain pdftotext re-extraction of the asago PDF (two-column layout); line breaks and hyphenation joined, bullet markers dropped. Descriptive present tense in an aspirational policy; read as SHOULD.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_Information_To_Affected_People",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "section": "6.3 Transparency and “explainability”",
+      "original_text": "Relevant and intelligible information about the use of AI systems is systematically provided to affected people and users when these systems could have an impact on them or their rights, or when decisions with significant consequences for the organization are concerned.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "ICRC",
+      "action": "provide information",
+      "object": "use of AI systems",
+      "recipient": "affected people and users",
+      "modality": "SHOULD",
+      "requirement": "inform affected people and users about AI use where it may affect them or their rights",
+      "condition": "when systems could impact them or their rights, or for decisions with significant consequences for the organization",
+      "exception": null,
+      "purpose": "transparency and accountability to affected people",
+      "affected_asset": "affected people's rights",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "AI systems that could impact affected people or their rights",
+      "interpretation_notes": "Text from a plain pdftotext re-extraction of the asago PDF (two-column layout); line breaks and hyphenation joined, bullet markers dropped. The next bullet extends this to why, when and how AI is used and explanations of the input-output link.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "ICRC_AI_Policy_2024_Environmental_Footprint",
+      "policy_id": "ICRC_AI_Policy_2024",
+      "section": "6.4 Responsibility and accountability",
+      "original_text": "All possible efforts are made to integrate and mitigate the environmental impact and carbon footprint of considered AI solutions through a life-cycle approach. This includes favouring solutions and tools that have a lighter footprint, in line with the ICRC’s Plan of Action under the Climate and Environment Charter for Humanitarian Organizations and the ICRC’s Framework for Sustainable Development.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "ICRC",
+      "action": "mitigate environmental impact; favour lighter-footprint tools",
+      "object": "AI solutions under consideration",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "life-cycle mitigation of AI environmental impact and carbon footprint",
+      "condition": null,
+      "exception": null,
+      "purpose": "environmental sustainability",
+      "affected_asset": "environment / climate",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "Global"
+      ],
+      "applicable_systems": "AI solutions considered by the ICRC",
+      "interpretation_notes": "Text from a plain pdftotext re-extraction of the asago PDF (two-column layout); line breaks and hyphenation joined, bullet markers dropped.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    }
+  ]
+}

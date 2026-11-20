@@ -1,0 +1,318 @@
+{
+  "policy_id": "NHS_RDaSH_AI_Policy_2026",
+  "policy_name": "Artificial intelligence (AI) policy",
+  "short_name": "RDaSH AI Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/rdash-nhs.md",
+  "issuing_authority": "Rotherham Doncaster and South Humber NHS Foundation Trust (RDaSH); approved by the clinical leadership executive",
+  "jurisdiction": "UK",
+  "country_region": "United Kingdom (England) – Rotherham Doncaster and South Humber NHS Foundation Trust",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "NHS trust internal AI governance policy (under UK GDPR, Data Protection Act 2018, common law duty of confidentiality and NHS regulatory services)",
+  "geo_constraints": "All departments and services of RDaSH and everyone working for the trust",
+  "industry_scope": [
+    "healthcare",
+    "public_sector"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Europe › United Kingdom (Rotherham Doncaster and South Humber NHS Foundation Trust)",
+    "regulation": "Internal policy · AI governance for an NHS trust (data protection, clinical safety, procurement)",
+    "culture": "NHS mental-health and community trust context: innovation-encouraging but bounded by data protection, Caldicott confidentiality, clinical accountability (GMC) and patient consent, with nationally licensed Copilot preferred over public chatbots.",
+    "use_cases": [
+      "healthcare",
+      "employee use of GenAI tools",
+      "generative AI & chatbots",
+      "AI procurement",
+      "research & academic integrity"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2026-02-05",
+  "key_dates": [
+    {
+      "date": "2025-11-18",
+      "event": "Version 1.1 approved by the clinical leadership executive"
+    },
+    {
+      "date": "2026-02-05",
+      "event": "Date issued"
+    },
+    {
+      "date": "2028-08-31",
+      "event": "Review date"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1",
+      "date": "2026-02-05",
+      "kind": "release",
+      "title": "Version 1.1 (approved 18 November 2025, issued 5 February 2026)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/rdash-nhs.md",
+      "current": true,
+      "note": "The version number 1.1 implies an earlier version 1.0, which is not described in the document."
+    }
+  ],
+  "expiration_date": null,
+  "version": "1.1 (unique reference number 1109)",
+  "last_updated": "2026-02-05",
+  "covered_entities": [
+    "trust employees",
+    "volunteers",
+    "students",
+    "temporary workers",
+    "contractors",
+    "suppliers and third parties",
+    "all departments and services using AI"
+  ],
+  "covered_systems": [
+    "AI products developed for healthcare",
+    "AI used for research",
+    "freely or commercially available generic AI (e.g. ChatGPT)",
+    "trust-approved tools (Microsoft Teams recording/transcription, Intelligent Recap, Copilot Chat, Microsoft 365 Copilot, ambient scribe technologies)"
+  ],
+  "covered_activities": [
+    "procurement and implementation of AI",
+    "use of AI in clinical practice",
+    "use of publicly available AI on trust devices",
+    "AI research",
+    "processing of person identifiable data with AI, including for training and testing"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "person identifiable data requires a legal basis and DPIA; anonymise where possible",
+    "research use requires HRA (and possibly MHRA and trust Ethics Committee) approval",
+    "use of AI in consultations requires informing patients and explicit consent"
+  ],
+  "objective": "Encourage and promote AI use at the trust while setting clear rules for its appropriate procurement and use, protecting patient safety, data protection, transparency and accountability.",
+  "policy_domain": [
+    "privacy",
+    "safety",
+    "transparency",
+    "accountability",
+    "governance"
+  ],
+  "principles": [
+    "legal basis and anonymisation for personal data",
+    "no clinical decision-making by AI",
+    "human review of AI outputs",
+    "transparency and explainability to staff and patients",
+    "patient consent",
+    "clinician accountability",
+    "procurement and DPIA before implementation"
+  ],
+  "parent_policy": "RDaSH Information governance policy and management framework",
+  "related_policies": [
+    {
+      "policy": "UK GDPR and Data Protection Act 2018",
+      "relation": "implements"
+    },
+    {
+      "policy": "Common law duty of confidentiality; Caldicott principles",
+      "relation": "implements"
+    },
+    {
+      "policy": "GMC guidance on Artificial Intelligence and Innovative Technologies",
+      "relation": "complements"
+    },
+    {
+      "policy": "Microsoft 365 Copilot acceptable use policy (Appendix B)",
+      "relation": "complements"
+    },
+    {
+      "policy": "RDaSH Information technology (IT) security policy; DPIA procedure; Incident management policy",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Applies alongside the trust's data protection, information governance and IT security policies; data must be handled in line with organisational policies and relevant legal and regulatory frameworks.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/rdash-nhs.md"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/rdash-nhs.md). (asago-ai/asago-policy-mapper commit b8ac8876beec6593ef5685d7d7e64cc94f9cc55b.) The asago file is a Markdown conversion: the contents list is empty, Appendix B (Microsoft 365 Copilot acceptable use policy) is only a cross-reference, and section 4.8 is missing from the numbering. Version 1.1, approved 18 November 2025 and issued 5 February 2026; policy_id uses the issue year. No official URL is given, so the asago copy is the source_uri; not verified whether this is the latest version. Binding=false: not law, but mandatory for everyone working for the trust, including contractors and suppliers."
+  },
+  "clauses": [
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_No_Clinical_Decisions",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "section": "5.3 Use of publicly available artificial intelligence in clinical practice",
+      "original_text": "Artificial intelligence (AI) may be considered for use as a supportive tool within clinical practice; however, it must not be used for: making clinical decisions or determining diagnosis and treatment; processing identifiable patient data; replacing professional judgment",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "clinicians and trust staff",
+      "action": "use AI",
+      "object": "clinical decisions, diagnosis and treatment, identifiable patient data, professional judgment",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "AI only as a supportive tool; no clinical decision-making, patient-identifiable processing or replacement of judgment",
+      "condition": null,
+      "exception": null,
+      "purpose": "patient safety and clinician accountability",
+      "affected_asset": "patients' health, safety and confidential data",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "publicly available AI used in clinical practice",
+      "interpretation_notes": "Text from the asago Markdown copy of the policy; list items flattened with semicolons. The section continues: 'The clinician retains full responsibility for all aspects of diagnosis, treatment, and patient care.'",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_Patient_Consent_Ambient_AI",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "section": "5.3 Use of publicly available artificial intelligence in clinical practice",
+      "original_text": "If trust approved artificial intelligence is used during patient consultations or for recording patient information (for example, Microsoft Teams and Ambient Scribe technologies): patients must be fully informed and fully understand the use; explicit consent must be obtained prior to any processing",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "clinicians and trust staff",
+      "action": "inform patients and obtain explicit consent",
+      "object": "use of trust-approved AI in consultations or to record patient information",
+      "recipient": "patients",
+      "modality": "MUST",
+      "requirement": "patients fully informed and explicit consent obtained before processing",
+      "condition": "when trust-approved AI is used during consultations or to record patient information",
+      "exception": null,
+      "purpose": "respect patient autonomy and confidentiality",
+      "affected_asset": "patients' personal data and autonomy",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "trust-approved AI used in consultations (e.g. Microsoft Teams, ambient scribe)",
+      "interpretation_notes": "Text from the asago Markdown copy of the policy; list items flattened with semicolons.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_ChatGPT_Restrictions",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "section": "5.5 Use of ChatGPT (and other as per 5.4) on trust devices",
+      "original_text": "ChatGPT (and other as per 5.4) must not be used to process patient-identifiable information, confidential or business sensitive data, or make clinical decisions. Users are responsible for verifying outputs and ensuring that any content generated is appropriate, accurate, and compliant with relevant governance standards.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "staff using trust devices",
+      "action": "process data / make decisions with; verify outputs",
+      "object": "ChatGPT and other freely available AI",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no patient-identifiable, confidential or business-sensitive data and no clinical decisions in ChatGPT; users verify outputs",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect data and patient safety; ensure accuracy",
+      "affected_asset": "patient data; business sensitive data; accuracy of work products",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "ChatGPT and other freely available AI apps",
+      "interpretation_notes": "Text from the asago Markdown copy of the policy; list items flattened with semicolons. Combines a prohibition (MUST NOT) with a verification duty (MUST).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_Human_Review_Of_Outputs",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "section": "5.5 Use of ChatGPT (and other as per 5.4) on trust devices – procuring and implementing AI",
+      "original_text": "artificial intelligence outcomes or outputs must be reviewed by a human; you cannot rely solely on the use of artificial intelligence for decision-making, there must be substantial involvement from an appropriately qualified human",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "service areas procuring/implementing AI and their staff",
+      "action": "review by a qualified human",
+      "object": "AI outcomes or outputs used in decision-making",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "no solely automated decision-making; substantial involvement of a qualified human",
+      "condition": null,
+      "exception": null,
+      "purpose": "human oversight and accountability",
+      "affected_asset": "patients and staff affected by decisions",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI products and systems with AI features procured or implemented by the trust",
+      "interpretation_notes": "Text from the asago Markdown copy of the policy; list items flattened with semicolons. Listed among the requirements for procuring and implementing AI products.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_Transparency_Explainability",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "section": "5.5 Use of ChatGPT (and other as per 5.4) on trust devices – procuring and implementing AI",
+      "original_text": "use of artificial intelligence must be transparent to employees and patients ensuring they understand where it is being used and how it may impact their employment, work or care; the logic behind it must be explainable",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "the trust (service areas implementing AI)",
+      "action": "make transparent and explainable",
+      "object": "use of AI",
+      "recipient": "employees and patients",
+      "modality": "MUST",
+      "requirement": "disclose where AI is used and how it affects employment, work or care; logic must be explainable",
+      "condition": null,
+      "exception": null,
+      "purpose": "transparency and trust",
+      "affected_asset": "employees and patients",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI products and systems with AI features procured or implemented by the trust",
+      "interpretation_notes": "Text from the asago Markdown copy of the policy; list items flattened with semicolons.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NHS_RDaSH_AI_Policy_2026_DPIA_Before_Procurement",
+      "policy_id": "NHS_RDaSH_AI_Policy_2026",
+      "section": "5.5 Use of ChatGPT (and other as per 5.4) on trust devices – procuring and implementing AI",
+      "original_text": "complete a data protection impact assessment (DPIA), where person identifiable data is to be used, or a new system is being procured, the service area and the supplier must engage with this process",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "service area and supplier",
+      "action": "complete / engage with a DPIA",
+      "object": "AI products using person identifiable data or newly procured systems",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "DPIA before implementation where personal data is used or a new system is procured",
+      "condition": "where person identifiable data is to be used or a new system is procured",
+      "exception": null,
+      "purpose": "data protection compliance",
+      "affected_asset": "personal data",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI products and systems with AI features",
+      "interpretation_notes": "Text from the asago Markdown copy of the policy; list items flattened with semicolons. s.4.7 adds that a DPIA must be completed prior to implementation and calls this a legal requirement for AI.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "policy_id": "NPCC_AI_Policing_Covenant_2023",
+  "policy_name": "Covenant for Using Artificial Intelligence (AI) in Policing",
+  "short_name": "NPCC AI Covenant",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/npcc.pdf",
+  "issuing_authority": "National Police Chiefs’ Council (NPCC)",
+  "jurisdiction": "UK",
+  "country_region": "United Kingdom (police forces represented on the NPCC)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "UK policing self-governance (NPCC principles; College of Policing Code of Ethics)",
+  "geo_constraints": "Developers and users of AI within UK policing (NPCC member forces)",
+  "industry_scope": [
+    "public_sector",
+    "law_enforcement"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Europe › United Kingdom (National Police Chiefs' Council)",
+    "regulation": "Sector self-governance · principles endorsed by all chiefs, 'due regard' duty",
+    "culture": "UK policing-by-consent tradition: legitimacy and public confidence are central, so principles stress maximum transparency, explainability, human decision-makers and independent ethics scrutiny over prescriptive rules.",
+    "use_cases": [
+      "law enforcement & migration",
+      "public-sector & government use",
+      "high-impact AI decisions",
+      "AI procurement"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2023-09-28",
+  "key_dates": [
+    {
+      "date": "2023-09-28",
+      "event": "Principles endorsed by all members of the National Police Chiefs’ Council"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1",
+      "date": "2023-09-28",
+      "kind": "release",
+      "title": "Covenant for Using AI in Policing, Version 1.1",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/npcc.pdf",
+      "current": true,
+      "note": "Document is labelled Version 1.1 but gives no version history; the 28 Sep 2023 endorsement date may refer to an earlier text. The copy's PDF metadata dates it 23 Oct 2023."
+    }
+  ],
+  "expiration_date": null,
+  "version": "Version 1.1",
+  "last_updated": null,
+  "covered_entities": [
+    "police forces (NPCC members)",
+    "all developers and users of AI within policing",
+    "Chief Constables and Police and Crime Commissioners",
+    "third-party suppliers"
+  ],
+  "covered_systems": [
+    "AI, machine learning and advanced data analytics used in policing"
+  ],
+  "covered_activities": [
+    "development, procurement and use of AI in policing",
+    "data used to train or analysed by AI"
+  ],
+  "exceptions": [
+    "B2: where operational or security requirements restrict sharing, independent scrutiny replaces publication"
+  ],
+  "conditions": [
+    "level of explanation required depends on the AI's function and outputs (C1)",
+    "extent of decisions without a human depends on function (D1)"
+  ],
+  "objective": "Set out principles that police forces agree will govern their use of AI, to ensure lawful, transparent, fair, proportionate and responsible use that builds public confidence.",
+  "policy_domain": [
+    "accountability",
+    "transparency",
+    "fairness",
+    "governance",
+    "fundamental_rights"
+  ],
+  "principles": [
+    "lawful",
+    "transparent (Maximum Transparency by Default)",
+    "explainable",
+    "responsible",
+    "accountable",
+    "robust"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "implements"
+    },
+    {
+      "policy": "Alan Turing Institute FAST Track Principles",
+      "relation": "implements"
+    },
+    {
+      "policy": "UK Data Ethics Framework (CDDO)",
+      "relation": "implements"
+    },
+    {
+      "policy": "College of Policing Code of Ethics",
+      "relation": "complements"
+    },
+    {
+      "policy": "Office for AI Guidelines for AI procurement",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Use must comply with applicable laws, standards and regulations and with established codes of practice (College of Policing Code of Ethics).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/npcc.pdf",
+      "https://github.com/asago-ai/asago-policy-mapper/blob/b8ac8876beec6593ef5685d7d7e64cc94f9cc55b/policy_examples/npcc.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/npcc.pdf). Version 1.1; no date of the version itself is printed, only the endorsement date (28 Sep 2023). Whether a later version of the Covenant exists was not checked. Principle B3 is truncated in the source PDF itself (item (1) ends with ';' and no item (2) follows). Binding=false (not law); members endorsed it and 'all developers and users of AI within policing must give due regard' to its principles, recorded as status 'enforceable' with that weaker 'due regard' qualifier. Several principles use 'will'/'should'; modality reflects the stated wording."
+  },
+  "clauses": [
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_B_Transparency",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "section": "2 Principles – Principle B. Transparent (B1)",
+      "original_text": "Principle B. Transparent: All use of AI will be subject to ‘Maximum Transparency by Default’ (MTbD). B1. Forces should ensure the public are aware of AI uses. This will typically include publishing an overview of the algorithms used and the known limitations of the training data used.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "police forces",
+      "action": "make public aware",
+      "object": "AI uses, algorithms and training-data limitations",
+      "recipient": "the public",
+      "modality": "SHOULD",
+      "requirement": "publish overview of algorithms and known training-data limitations",
+      "condition": null,
+      "exception": "B2: where operational or security requirements restrict sharing, independent assessors scrutinise instead",
+      "purpose": "public confidence and scrutiny",
+      "affected_asset": "public trust",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI, machine learning and advanced data analytics used in policing",
+      "interpretation_notes": null,
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_C_Explainable",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "section": "2 Principles – Principle C. Explainable",
+      "original_text": "Principle C. Explainable: The ability for any AI to provide an ‘explanation’ of its output will be a determining factor in its implementation.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "police forces",
+      "action": "consider explainability before implementation",
+      "object": "AI systems",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "explainability determines whether AI is implemented",
+      "condition": null,
+      "exception": null,
+      "purpose": "accountable and contestable decisions",
+      "affected_asset": "individuals affected by police decisions",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI, machine learning and advanced data analytics used in policing",
+      "interpretation_notes": "Phrased with 'will'; C1 scales the expected explanation to the function (e.g. high-impact decisions about individuals) and audience.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_D2_Human_Decision_Maker",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "section": "2 Principles – Principle D. Responsible (D, D2)",
+      "original_text": "Principle D. Responsible: All AI that affects the public will have responsible usage policies (i.e., intensions are defined before deployment so that outcomes and impact can be tracked) and procedures to ensure that users do not accept AI outputs uncritically. … D2. All AI that effects the public must have a human as the ultimate decision-maker.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "police forces / AI users",
+      "action": "keep a human as ultimate decision-maker; prevent uncritical acceptance",
+      "object": "AI that affects the public",
+      "recipient": "the public",
+      "modality": "MUST",
+      "requirement": "human ultimate decision-maker; usage policies against uncritical acceptance of outputs",
+      "condition": "AI affects the public",
+      "exception": null,
+      "purpose": "human accountability for policing decisions",
+      "affected_asset": "rights of members of the public",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI, machine learning and advanced data analytics used in policing",
+      "interpretation_notes": "'intensions' and 'effects' are the document's spellings.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_D3_Stop_Mechanism",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "section": "2 Principles – Principle D. Responsible (D3)",
+      "original_text": "D3. All AI will have a human or automatic means of being stopped if it displays unintended or undesired outputs.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "police forces",
+      "action": "provide stop mechanism",
+      "object": "all AI",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "human or automatic means to stop AI",
+      "condition": "AI displays unintended or undesired outputs",
+      "exception": null,
+      "purpose": "contain malfunction",
+      "affected_asset": "the public; police operations",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI, machine learning and advanced data analytics used in policing",
+      "interpretation_notes": "Phrased with 'will'.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_D4_Mitigate_Bias",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "section": "2 Principles – Principle D. Responsible (D4)",
+      "original_text": "D4. Those responsible for AI-enabled systems must proactively mitigate the risk of unintended biases or harms, during initial rollout and as they learn, change, or are redeployed.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "those responsible for AI-enabled systems",
+      "action": "mitigate",
+      "object": "unintended biases or harms",
+      "recipient": "the public",
+      "modality": "MUST",
+      "requirement": "proactive bias/harm mitigation across the lifecycle",
+      "condition": "at rollout and as systems learn, change or are redeployed",
+      "exception": null,
+      "purpose": "fair treatment",
+      "affected_asset": "communities and individuals",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI, machine learning and advanced data analytics used in policing",
+      "interpretation_notes": "F2 adds a force data framework to guard against bias, unintended proxies, non-representativeness, unfairness and untimeliness.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "NPCC_AI_Policing_Covenant_2023_F1_Purpose_Limitation",
+      "policy_id": "NPCC_AI_Policing_Covenant_2023",
+      "section": "2 Principles – Principle F. Robust (F1)",
+      "original_text": "Principle F. Robust: All data used to train, or that is analysed by, an AI will be robust and reliable enough for its intended purpose. … F1. All AI in policing will be used only for the purpose it was designed, trained and authorised for.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "police forces",
+      "action": "ensure data quality; limit use to authorised purpose",
+      "object": "AI and its training/analysed data",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "robust, reliable data; use only for designed, trained and authorised purpose",
+      "condition": null,
+      "exception": null,
+      "purpose": "reliable analysis and avoidance of misuse",
+      "affected_asset": "quality of police decisions",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI, machine learning and advanced data analytics used in policing",
+      "interpretation_notes": "Phrased with 'will'; requires assessing, tracking and reporting on data quality.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    }
+  ]
+}

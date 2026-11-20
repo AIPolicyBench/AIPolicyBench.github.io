@@ -1,0 +1,354 @@
+{
+  "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+  "policy_name": "Policy for the responsible use of AI in government (Version 2.0)",
+  "short_name": "AU Responsible AI in Government Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/aus-gov.pdf",
+  "issuing_authority": "Digital Transformation Agency (DTA), Australian Government",
+  "jurisdiction": "AU-Federal",
+  "country_region": "Australia (Commonwealth Government)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Australian Government whole-of-government AI policy (applies to NCEs under the PGPA Act 2013)",
+  "geo_constraints": "Non-corporate Commonwealth entities; corporate Commonwealth entities encouraged; defence portfolio and national intelligence community excluded",
+  "industry_scope": [
+    "public_sector"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Oceania › Australia (Commonwealth Government)",
+    "regulation": "Mandatory whole-of-government administrative policy · risk-based, use-case-level governance",
+    "culture": "Australian Public Service governance tradition: central-agency (DTA) policy with mandatory requirements plus standards, framed as enabling accelerated adoption while positioning government as an exemplar of safe, transparent and accountable AI use.",
+    "use_cases": [
+      "public-sector & government use",
+      "general AI lifecycle",
+      "high-impact AI decisions",
+      "AI procurement"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2025-12-15",
+  "key_dates": [
+    {
+      "date": "2024-09-01",
+      "event": "Version 1.1 of the policy came into effect"
+    },
+    {
+      "date": "2025-12-15",
+      "event": "Version 2.0 effective (replaces v1.1)"
+    },
+    {
+      "date": "2027-04-30",
+      "event": "Deadline to assess existing AI use cases and apply relevant policy actions"
+    }
+  ],
+  "versions": [
+    {
+      "version": "v1.1",
+      "date": "2024-09-01",
+      "kind": "release",
+      "title": "Policy for the responsible use of AI in government v1.1",
+      "summary": "Earlier version of the policy, replaced by v2.0; its content is not part of this document.",
+      "changes": [],
+      "source": null,
+      "current": false,
+      "note": "Known only from the v2.0 text ('replaces version v1.1 … which came into effect 1 September 2024'); earlier versions (e.g. v1.0) are not described."
+    },
+    {
+      "version": "v2.0",
+      "date": "2025-12-15",
+      "kind": "release",
+      "title": "Policy for the responsible use of AI in government Version 2.0",
+      "summary": "December 2025 update strengthening AI governance: strategic approach to adoption, operationalised responsible AI, designated use-case accountability and risk-based use-case-level actions.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Agencies must develop a strategic position on AI adoption within 6 months"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Approach to operationalise responsible AI (incl. staff/public reporting pathways and AI incident processes)"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Accountable use case owners and an internal register of in-scope AI use cases shared with the DTA every 6 months"
+        },
+        {
+          "aspect": "risk_thresholds",
+          "change": "added",
+          "detail": "In-scope criteria and mandatory AI use case impact assessment, with extra governance for high-risk use cases"
+        }
+      ],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/aus-gov.pdf",
+      "current": true,
+      "note": "Changes summarised from the policy introduction; the document does not give a detailed change log versus v1.1."
+    }
+  ],
+  "expiration_date": null,
+  "version": "Version 2.0 (effective 15 December 2025)",
+  "last_updated": "2025-12-15",
+  "covered_entities": [
+    "non-corporate Commonwealth entities (PGPA Act 2013)",
+    "corporate Commonwealth entities (encouraged)",
+    "accountable officials and accountable use case owners",
+    "all agency staff (training)"
+  ],
+  "covered_systems": [
+    "AI systems as defined by the OECD",
+    "in-scope AI use cases (Appendix C criteria)",
+    "general-purpose AI solutions such as Microsoft Copilot (single complex use case or separate use cases)"
+  ],
+  "covered_activities": [
+    "AI adoption strategy",
+    "AI transparency statements",
+    "AI use case registration and impact assessment",
+    "deployment, monitoring and review of AI use cases",
+    "AI incident handling",
+    "staff training"
+  ],
+  "exceptions": [
+    "use of AI in the defence portfolio",
+    "national intelligence community (Office of National Intelligence Act 2018 s4)",
+    "early-stage experimentation meeting Appendix C conditions",
+    "incidental lower-risk AI use (e.g. grammar checks, AI-enabled search)"
+  ],
+  "conditions": [
+    "use-case-level actions apply to in-scope AI use cases meeting any Appendix C criterion",
+    "additional governance, DTA reporting and 12-monthly review for inherent high-risk use cases",
+    "implementation deadlines of 6 or 12 months from 15 December 2025; existing use cases by 30 April 2027"
+  ],
+  "objective": "Provide a coordinated framework for accelerated, sustainable AI adoption by Australian Government agencies while ensuring safe, ethical and responsible use through transparency, accountability and risk-based oversight of AI use cases.",
+  "policy_domain": [
+    "governance",
+    "accountability",
+    "transparency",
+    "safety"
+  ],
+  "principles": [
+    "embrace the opportunity",
+    "strengthen public trust",
+    "adapt to change",
+    "clear accountability",
+    "transparency",
+    "proportionate risk mitigation",
+    "ongoing monitoring and evaluation",
+    "explainability"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "OECD_AI_Principles_2019",
+      "relation": "complements"
+    },
+    {
+      "policy": "Australia's AI Ethics Principles",
+      "relation": "implements"
+    },
+    {
+      "policy": "Policy for the responsible use of AI in government v1.1 (DTA, 2024)",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "Standard for accountability (DTA)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Standard for transparency statements (DTA)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Australian Government AI technical standard",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Designed to complement and strengthen, not duplicate, existing frameworks and laws; must be read and applied alongside them (e.g. Privacy Act 1988, Protective Security Policy Framework, APS Code of Conduct).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/aus-gov.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/aus-gov.pdf). PDF footer reads '© Commonwealth of Australia (Digital Transformation Agency) 2025 | Version 1801'; PDF metadata creation date 28 Nov 2025. No official URL is printed in the document, so source_uri points to the asago copy. Binding=false: not legislation, but mandatory for non-corporate Commonwealth entities as whole-of-government policy. Not verified whether v2.0 is still the latest version. Year in policy_id is the v2.0 issue/effective year (2025). The OECD AI definition is adopted (hence the link to OECD_AI_Principles_2019); Australia's AI Ethics Principles are referenced as material staff must be informed about."
+  },
+  "clauses": [
+    {
+      "clause_id": "AU_DTA_AI_in_Government_Policy_2025_Transparency_Statement",
+      "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+      "section": "Strategy and oversight – Mandatory requirements – AI transparency statement",
+      "original_text": "Agencies must make a publicly available statement outlining their approach to AI adoption and use, as prescribed under the Standard for transparency statements. The statement must be reviewed and updated annually or sooner, should the agency make significant changes to its approach to AI.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "agency (non-corporate Commonwealth entity)",
+      "action": "publish and annually review",
+      "object": "AI transparency statement",
+      "recipient": "the public; DTA (notified at ai@dta.gov.au)",
+      "modality": "MUST",
+      "requirement": "publish a public AI transparency statement per the Standard for transparency statements and review it at least annually",
+      "condition": null,
+      "exception": null,
+      "purpose": "build public trust through transparency about government AI use",
+      "affected_asset": "public trust",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "AU-Federal"
+      ],
+      "applicable_systems": "AI use cases of non-corporate Commonwealth entities",
+      "interpretation_notes": "Quoted from the Version 2.0 PDF (pdftotext extraction); line breaks collapsed. The following sentence also requires agencies to notify the DTA of publication and changes.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "AU_DTA_AI_in_Government_Policy_2025_Accountable_Officials",
+      "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+      "section": "Strategy and oversight – Mandatory requirements – Accountable officials / Accountable use case owners",
+      "original_text": "Agencies must designate accountable official(s) to take accountability for implementing this policy. … Agencies must designate an accountable use case owner for each in-scope AI use case within 12 months of this policy taking effect.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "agency",
+      "action": "designate",
+      "object": "accountable official(s) and accountable use case owners",
+      "recipient": "DTA (notified)",
+      "modality": "MUST",
+      "requirement": "designate accountable official(s) for the policy and an accountable owner for each in-scope AI use case, following the Standard for accountability",
+      "condition": "use case owners: in-scope AI use cases; within 12 months of 15 December 2025",
+      "exception": null,
+      "purpose": "clear accountability for AI adoption",
+      "affected_asset": "agency governance",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "AU-Federal"
+      ],
+      "applicable_systems": "AI use cases of non-corporate Commonwealth entities",
+      "interpretation_notes": "Quoted from the Version 2.0 PDF (pdftotext extraction); line breaks collapsed. Responsibilities are set in the separate Standard for accountability, not reproduced in this document.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "AU_DTA_AI_in_Government_Policy_2025_Operationalise_Incidents",
+      "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+      "section": "Preparedness and operations – Mandatory requirements – Operationalise the responsible use of AI",
+      "original_text": "Agencies must establish an approach to embed responsible AI practices within 12 months of this policy taking effect. … At a minimum, the approach will provide an agency with: … a pathway for staff to report AI safety concerns, including AI incidents. pathways for the public to report AI safety concerns, appropriate to the agency’s AI use. clear processes to address AI incidents aligned to their ICT incident management approach - incident remediation must be overseen by an appropriate governance body or senior executive and should be undertaken in line with any other legal obligations.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "agency",
+      "action": "establish",
+      "object": "approach to embed responsible AI practices, including AI incident reporting and handling",
+      "recipient": "staff; the public",
+      "modality": "MUST",
+      "requirement": "within 12 months, establish staff and public pathways to report AI safety concerns and incidents, and incident processes with senior oversight of remediation",
+      "condition": "within 12 months of the policy taking effect",
+      "exception": null,
+      "purpose": "protect Australians from AI harms; manage AI incidents",
+      "affected_asset": "persons affected by government AI; agency operations",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "AU-Federal"
+      ],
+      "applicable_systems": "AI use cases of non-corporate Commonwealth entities",
+      "interpretation_notes": "Quoted from the Version 2.0 PDF (pdftotext extraction); line breaks collapsed. Bullet list flattened; other bullets (adoption process, informing staff about Australia's AI Ethics Principles) elided. 'AI incident' is defined in Appendix B (adapted from the OECD draft definition).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "AU_DTA_AI_in_Government_Policy_2025_Staff_Training",
+      "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+      "section": "Preparedness and operations – Mandatory requirements – Staff training on AI",
+      "original_text": "Agencies must implement mandatory training for all staff on responsible AI use within 12 months of this policy taking effect.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "agency",
+      "action": "implement mandatory training",
+      "object": "responsible AI use training",
+      "recipient": "all staff",
+      "modality": "MUST",
+      "requirement": "mandatory responsible-AI training for all staff within 12 months (the AI fundamentals module may be used)",
+      "condition": "within 12 months of the policy taking effect",
+      "exception": null,
+      "purpose": "AI capability and responsible use by APS officers",
+      "affected_asset": "quality of advice and decisions",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "AU-Federal"
+      ],
+      "applicable_systems": "all agency AI use",
+      "interpretation_notes": "Quoted from the Version 2.0 PDF (pdftotext extraction); line breaks collapsed. Additional role-based training (procurement, development, deployment) is a SHOULD.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "AU_DTA_AI_in_Government_Policy_2025_Impact_Assessment",
+      "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+      "section": "AI use case impact assessment – Mandatory requirements – All new AI use cases / In-scope AI use cases",
+      "original_text": "For AI use cases that are in-scope, agencies must conduct an AI use case impact assessment. Agencies are to commence an assessment at the design stage. Before the solution is deployed, agencies must finalise the assessment and apply any agreed risk treatments.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "agency",
+      "action": "conduct impact assessment and apply risk treatments",
+      "object": "in-scope AI use case",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "assess all new AI use cases against the in-scope criteria; for in-scope ones complete an impact assessment (DTA tool or equivalent) and apply agreed treatments before deployment",
+      "condition": "use case meets any Appendix C criterion (e.g. more than insignificant harm, materially influences administrative decisions, public interaction without human review, personal/sensitive or classified data)",
+      "exception": "early-stage experimentation that does not commit to the use case, risk harm or introduce privacy/security risks (Appendix C)",
+      "purpose": "proportionate, targeted risk mitigation",
+      "affected_asset": "individuals, communities, First Nations collective rights",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "AU-Federal"
+      ],
+      "applicable_systems": "AI use cases of non-corporate Commonwealth entities",
+      "interpretation_notes": "Quoted from the Version 2.0 PDF (pdftotext extraction); line breaks collapsed. Existing unassessed use cases must be brought into compliance by 30 April 2027.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "AU_DTA_AI_in_Government_Policy_2025_High_Risk_Oversight",
+      "policy_id": "AU_DTA_AI_in_Government_Policy_2025",
+      "section": "AI use case impact assessment – Mandatory requirements – High-risk AI use cases",
+      "original_text": "If an agency determines their in-scope AI use case has an inherent high-risk rating when completing an AI use case impact assessment, they must: report the use case to the agency accountable official with the reasons for the inherent high-risk rating, proposed mitigations and residual risks govern the use case through a designated board or a senior executive, whichever is appropriate for the size and scope of the agency. Once an agency has decided to deploy the use case, they must: report the use case to the DTA through the accountable official, see the Standard for accountability establish a system to regularly review the use case every 12 months at a minimum.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "agency",
+      "action": "report, govern and review",
+      "object": "high-risk AI use case",
+      "recipient": "accountable official; DTA; governing board / senior executive",
+      "modality": "MUST",
+      "requirement": "escalate high-risk use cases, place them under board/senior-executive governance, report deployment to the DTA and review at least every 12 months",
+      "condition": "inherent high-risk rating in the AI use case impact assessment",
+      "exception": null,
+      "purpose": "additional oversight of higher-risk AI; ensure use case operates as intended and risks are managed",
+      "affected_asset": "individuals and communities affected by high-risk government AI",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "AU-Federal"
+      ],
+      "applicable_systems": "high-risk in-scope AI use cases",
+      "interpretation_notes": "Quoted from the Version 2.0 PDF (pdftotext extraction); line breaks collapsed. Bullets flattened without separators. The review must report whether the use case operates as intended and risks are effectively managed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

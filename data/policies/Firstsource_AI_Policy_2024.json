@@ -1,0 +1,315 @@
+{
+  "policy_id": "Firstsource_AI_Policy_2024",
+  "policy_name": "Firstsource Artificial Intelligence (AI) Policy v1.0 (PL-ISMS-ENT-016)",
+  "short_name": "Firstsource AI Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/firstsource.pdf",
+  "issuing_authority": "Firstsource Solutions Limited (Information Risk Management; approved by SVP - IRM)",
+  "jurisdiction": "Organization",
+  "country_region": "Global (Firstsource Solutions Limited)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Corporate information-security / AI policy (self-regulation)",
+  "geo_constraints": "Work on Firstsource-owned devices or networks on behalf of Firstsource and its clients",
+  "industry_scope": [
+    "business_process_services",
+    "customer_service"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › Firstsource",
+    "regulation": "Self-regulation · mandatory internal policy under the information-security management system, with disciplinary sanctions",
+    "culture": "Client-service outsourcing context: strong emphasis on client data confidentiality, approved-tool lists and contractual protections, with EU AI Act deployer duties copied in for client work in regulated markets.",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "generative AI & chatbots",
+      "consumer-facing AI interactions",
+      "employment & HR decisions",
+      "supplier & vendor AI use",
+      "high-impact AI decisions"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2024-07-08",
+  "key_dates": [
+    {
+      "date": "2024-07-08",
+      "event": "Version 1.0 released (version control: 'Document release')"
+    },
+    {
+      "date": "2025-01",
+      "event": "Review date"
+    },
+    {
+      "date": "2025-03-11",
+      "event": "Date printed in the page footer of this copy"
+    },
+    {
+      "date": "2026-01",
+      "event": "Next review date"
+    }
+  ],
+  "versions": [
+    {
+      "version": "V1.0",
+      "date": "2024-07-08",
+      "kind": "release",
+      "title": "Version 1.0 – Document release",
+      "summary": "Version control lists a single version, V1.0 of 8 July 2024 ('Document release'); reviewed January 2025 without a new version number.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/firstsource.pdf",
+      "current": true,
+      "note": "Next review was due January 2026; a later version may exist."
+    }
+  ],
+  "expiration_date": null,
+  "version": "1.0 (PL-ISMS-ENT-016)",
+  "last_updated": "2025-01",
+  "covered_entities": [
+    "Firstsource employees",
+    "contractors",
+    "third-party individuals using AI on Firstsource devices or networks",
+    "AI deployers and developers within Firstsource"
+  ],
+  "covered_systems": [
+    "generative AI, predictive AI and conversational intelligence",
+    "external/third-party and internally built AI tools",
+    "high-risk AI systems (EU AI Act sense)"
+  ],
+  "covered_activities": [
+    "employee use of AI tools",
+    "AI development and deployment",
+    "AI tool approval",
+    "contracts involving AI",
+    "data handling in AI systems"
+  ],
+  "exceptions": [
+    "Exceptions to be sought from the Chief Digital and AI Officer and Head of Enterprise Transformation"
+  ],
+  "conditions": [
+    "Only AI tools vetted by the AICoE and approved by the Chief Digital and AI Officer, Head – Enterprise Transformation and CIO may be used, via company-provided accounts"
+  ],
+  "objective": "Establish guidelines and best practices for the safe, responsible and ethical use and development of AI and generative AI within Firstsource, protecting company and client data and ensuring legal compliance.",
+  "policy_domain": [
+    "privacy",
+    "security",
+    "transparency",
+    "accountability",
+    "fairness",
+    "governance"
+  ],
+  "principles": [
+    "transparency",
+    "proportionality and do no harm",
+    "safety and security",
+    "privacy and data protection",
+    "explainability",
+    "human-centered values",
+    "fairness",
+    "reliability and safety",
+    "sustainability"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "implements"
+    },
+    {
+      "policy": "Firstsource Incident Management policy and Data Privacy policies",
+      "relation": "complements"
+    },
+    {
+      "policy": "Artificial Intelligence Disclosure (AID) Framework (cited by the document as 'of 2012')",
+      "relation": "implements"
+    }
+  ],
+  "conflict_rule": "All AI tools and processes must comply with applicable laws, regulations and industry standards; exceptions only with approval of the Chief Digital and AI Officer and Head of Enterprise Transformation.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/firstsource.pdf",
+      "https://github.com/asago-ai/asago-policy-mapper/blob/b8ac8876beec6593ef5685d7d7e64cc94f9cc55b/policy_examples/firstsource.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/firstsource.pdf). Policy v1.0, ref PL-ISMS-ENT-016, released 8 July 2024 (header: 'July, 2024'), review date January 2025, next review January 2026; page footers carry 11 March 2025 (likely print/copy date). Mandatory for employees, contractors and third parties, with disciplinary action up to dismissal (binding=false: corporate policy, not law). The document is marked 'Firstsource RESTRICTED' (authorization list: employees, vendors, current/prospective clients); it is public only through the asago repository, so whether Firstsource intended publication is uncertain. Section 13 copies EU AI Act Article 26 deployer obligations nearly word for word. The document cites an 'Artificial Intelligence Disclosure (AID) Framework of 2012' with an example naming ChatGPT v.4o; the year appears to be an error in the source and is reproduced as cited. Whether a newer version exists is unknown. Extraction was clean apart from a broken word ('co mpliance')."
+  },
+  "clauses": [
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_Confidential_Input",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "section": "5. Ethical use of AI – Do’s",
+      "original_text": "Employees must safeguard the confidentiality, integrity, and availability of company information always. Company information relating to Firstsource, its clients or associated organizations and individuals, or information that could reasonably be used to identify Firstsource or its client(s), or a commercially sensitive course of action should never be entered into generative AI technology without the express permission of the client and client lead.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employees",
+      "action": "not enter",
+      "object": "company, client and commercially sensitive information",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no company or client information into generative AI without express permission",
+      "condition": null,
+      "exception": "with the express permission of the client and client lead",
+      "purpose": "protect confidentiality of company and client information",
+      "affected_asset": "Firstsource and client information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "generative AI technology",
+      "interpretation_notes": "Verbatim from the asago copy (firstsource.pdf); line breaks collapsed and bullets flattened. Reinforced by 8.2 Data Guardrails (no sensitive personal data, restricted data or credentials) and 8.3.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_Verify_Output",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "section": "5. Ethical use of AI – Do’s",
+      "original_text": "Employees must always verify data produced via generative AI. It should never be used as a single source of the truth and only to supplement additional research or writing methods.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employees",
+      "action": "verify",
+      "object": "data produced via generative AI",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "verify GenAI output and never treat it as a single source of truth",
+      "condition": null,
+      "exception": null,
+      "purpose": "accuracy and avoiding overreliance",
+      "affected_asset": "quality and accuracy of work product",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "generative AI",
+      "interpretation_notes": "Verbatim from the asago copy (firstsource.pdf); line breaks collapsed and bullets flattened. Repeated in 8.1 Guidelines (human review for accuracy, bias, IP and hallucinations).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_No_Malicious_Use",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "section": "5. Ethical use of AI – Don’ts",
+      "original_text": "Employees must not use AI programs to create or disseminate malicious software or engage in hacking or other unauthorized activities. Don’t Use AI to Spread Misinformation or Disinformation",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employees",
+      "action": "use AI to create malware, hack or spread misinformation",
+      "object": "AI programs",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no malicious, hacking or disinformation uses of AI",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent malicious use",
+      "affected_asset": "IT systems; information ecosystem",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI programs",
+      "interpretation_notes": "Verbatim from the asago copy (firstsource.pdf); line breaks collapsed and bullets flattened. Two consecutive bullets of the Don’ts list; other Don’ts include not replacing human judgment in critical decisions and not manipulating or exploiting vulnerable groups.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_No_Employment_Decisions",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "section": "8.3 Additional Restrictions",
+      "original_text": "Do not use GenAI tools to make or help you make employment decisions about applicants or employees, including recruitment, hiring, retention, promotions, transfers, performance monitoring, discipline, demotion, or terminations.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employees",
+      "action": "use GenAI tools for employment decisions",
+      "object": "employment decisions about applicants or employees",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no GenAI in employment decision-making",
+      "condition": null,
+      "exception": null,
+      "purpose": "fair treatment of applicants and employees",
+      "affected_asset": "applicants and employees",
+      "policy_domain": "employment",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "GenAI tools",
+      "interpretation_notes": "Verbatim from the asago copy (firstsource.pdf); line breaks collapsed and bullets flattened.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_AI_Only_Disclosure",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "section": "8.4 AI-Generated Output Guardrails – a. AI Only Responses",
+      "original_text": "If an AI feature shall directly present a response to customers or third parties without human review or intervention, you must disclose to the customer that they are: Engaging solely with an AI. Responsible for checking it for accuracy.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employees / deployers of AI features",
+      "action": "disclose",
+      "object": "AI-only responses",
+      "recipient": "customers and third parties",
+      "modality": "MUST",
+      "requirement": "disclose AI-only interaction and the customer's responsibility to check accuracy",
+      "condition": "where an AI feature responds without human review or intervention",
+      "exception": null,
+      "purpose": "transparency to customers",
+      "affected_asset": "customers and third parties",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "customer-facing AI features",
+      "interpretation_notes": "Verbatim from the asago copy (firstsource.pdf); line breaks collapsed and bullets flattened. The sub-bullets are interleaved in the PDF with other bullets (sensitive topics need human review; customer responsible for checking for bias; sample disclaimer text); quoted here as the opening sentence plus its first two sub-bullets.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Firstsource_AI_Policy_2024_Deployer_Monitoring",
+      "policy_id": "Firstsource_AI_Policy_2024",
+      "section": "13. Developer and Deployer Obligations",
+      "original_text": "Deployers shall monitor the operation of the high-risk AI system on the basis of the instructions for use and, where relevant, inform providers in accordance with Article 72 EU Artificial Intelligence Act. Where deployers have reason to consider that the use of the high-risk AI system in accordance with the instructions may result in that AI system presenting a risk within the meaning of Article 79(1) EU Artificial Intelligence Act, they shall, without undue delay, inform the provider or distributor and the relevant market surveillance authority, and shall suspend the use of that system.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "deployers of high-risk AI systems",
+      "action": "monitor; inform; suspend use",
+      "object": "high-risk AI systems",
+      "recipient": "providers, distributors and market surveillance authorities",
+      "modality": "MUST",
+      "requirement": "monitor high-risk AI, report risks and suspend use",
+      "condition": "where use may result in a risk within the meaning of Article 79(1) EU AI Act",
+      "exception": null,
+      "purpose": "risk control and regulatory compliance",
+      "affected_asset": "persons affected by high-risk AI systems",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "high-risk AI systems",
+      "interpretation_notes": "Verbatim from the asago copy (firstsource.pdf); line breaks collapsed and bullets flattened. Copies EU AI Act Article 26(5) almost verbatim. Section 13 also requires log retention of at least six months and assigning competent human oversight.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "policy_id": "Prosus_Responsible_AI_Policy_2024",
+  "policy_name": "Prosus Group Responsible AI Policy",
+  "short_name": "Prosus Responsible AI Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/prosus.pdf",
+  "issuing_authority": "Prosus N.V. (policy reviewed by the Risk Committee of the Board of Directors)",
+  "jurisdiction": "Organization",
+  "country_region": "Global (Prosus N.V. and its subsidiaries)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Group corporate policy (self-regulation)",
+  "geo_constraints": "Prosus N.V. and all Prosus Group Companies (subsidiaries); principles also considered in investments and partnerships",
+  "industry_scope": [
+    "technology",
+    "investment"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › Prosus",
+    "regulation": "Self-regulation · group-level principles-based policy for portfolio companies",
+    "culture": "Holding-company governance of a global technology portfolio: principles set at group level, implementation delegated to each business and CEO, adapted to local cultures and law, with board Risk Committee oversight.",
+    "use_cases": [
+      "general AI lifecycle",
+      "employee use of GenAI tools"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": null,
+  "key_dates": [
+    {
+      "date": "2024-11-27",
+      "event": "Policy last reviewed and approved"
+    }
+  ],
+  "versions": [
+    {
+      "version": "November 2024",
+      "date": "2024-11-27",
+      "kind": "release",
+      "title": "Last reviewed and approved on 27 November 2024",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/prosus.pdf",
+      "current": true,
+      "note": "'Last reviewed and approved' implies earlier versions; original issue date not stated."
+    }
+  ],
+  "expiration_date": null,
+  "version": "Last reviewed and approved 27 November 2024",
+  "last_updated": "2024-11-27",
+  "covered_entities": [
+    "Prosus N.V.",
+    "Prosus Group Companies (subsidiaries)",
+    "employees of Prosus Group companies",
+    "investee companies (via investment process)"
+  ],
+  "covered_systems": [
+    "AI systems and models developed, used or deployed by Group companies",
+    "company AI tools"
+  ],
+  "covered_activities": [
+    "AI development and deployment",
+    "AI-related investments, acquisitions and partnerships",
+    "employee use of company AI tools"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Each business implements the policy adapted to its business model, size, maturity, local cultures, compliance obligations and resources"
+  ],
+  "objective": "Make ethical considerations an integral part of AI development across the Prosus Group and ensure investments go to companies applying globally benchmarked responsible AI standards.",
+  "policy_domain": [
+    "fairness",
+    "transparency",
+    "accountability",
+    "privacy",
+    "security",
+    "governance"
+  ],
+  "principles": [
+    "force for good",
+    "technical excellence and robustness",
+    "fairness and inclusivity",
+    "accountability and transparency",
+    "privacy and security"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Where specific AI laws (including the EU AI Act) apply, Group companies must ensure their requirements are met.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/prosus.pdf",
+      "https://github.com/asago-ai/asago-policy-mapper/blob/b8ac8876beec6593ef5685d7d7e64cc94f9cc55b/policy_examples/prosus.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/prosus.pdf). The document states only 'Last reviewed and approved on 27 November 2024'; original issue date, version number and effective date are not given (effective_date left null). The Risk Committee reviews the policy annually, so a newer review may exist. Status 'enforceable' as an approved group policy that 'directly appl[ies] to all Prosus Group Companies', though much of its language is aspirational ('expected', 'strive'); binding=false (corporate policy, not law). The policy text refers to Group support in 'Section 7', but the document has only six sections. Extraction was clean."
+  },
+  "clauses": [
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Fairness",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "section": "3. Responsible AI Guiding Principles – Fairness and inclusivity",
+      "original_text": "We strive to avoid creating unfair biases and reinforcing or exacerbating existing biases. We ensure that fairness and inclusivity considerations are appropriately incorporated in the development and deployment of AI systems.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Prosus and Group companies",
+      "action": "avoid bias; incorporate fairness considerations",
+      "object": "AI systems under development and deployment",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "avoid creating or reinforcing unfair bias",
+      "condition": null,
+      "exception": null,
+      "purpose": "fair and inclusive AI",
+      "affected_asset": "users and affected individuals",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Group AI systems",
+      "interpretation_notes": "Verbatim from the asago copy (prosus.pdf); line breaks collapsed. 'Strive' (first sentence) is aspirational; 'ensure' (second) is firmer.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Transparency",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "section": "3. Responsible AI Guiding Principles – Accountability & transparency",
+      "original_text": "The designers of systems have an ongoing duty to appropriately document how they implement these principles, and to monitor and control for performance over time. Furthermore, AI systems and their outputs should be context-sensitive, transparent and explainable to different stakeholders in appropriate circumstances. Where possible, we disclose relevant information regarding the use of AI in non-technical terms to foster trust from individuals and businesses alike.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "designers of AI systems; Prosus Group",
+      "action": "document, monitor performance, disclose AI use",
+      "object": "AI systems and their outputs",
+      "recipient": "stakeholders, individuals and businesses",
+      "modality": "MUST",
+      "requirement": "document principle implementation, monitor performance, disclose AI use where possible",
+      "condition": "disclosure 'where possible'; explainability 'in appropriate circumstances'",
+      "exception": null,
+      "purpose": "accountability and trust",
+      "affected_asset": "trust of individuals and businesses",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Group AI systems",
+      "interpretation_notes": "Verbatim from the asago copy (prosus.pdf); line breaks collapsed. 'Ongoing duty' is mandatory; explainability and disclosure are qualified (SHOULD-level).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Privacy_Security",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "section": "3. Responsible AI Guiding Principles – Privacy & security",
+      "original_text": "Data used to train and deploy AI systems must be proportionate, handled in conformity with applicable data protection laws. We make sure that the AI we develop, use and deploy are designed in a way that minimises known security threats, through appropriate technical and organisational measures.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Prosus and Group companies",
+      "action": "handle data proportionately; minimise security threats",
+      "object": "training and deployment data; AI systems",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "proportionate, lawful data use and security-by-design",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect personal data and system security",
+      "affected_asset": "personal data; AI systems",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI developed, used or deployed by the Group",
+      "interpretation_notes": "Verbatim from the asago copy (prosus.pdf); line breaks collapsed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Law_Compliance",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "section": "4.1 Govern",
+      "original_text": "Should investee companies operate in jurisdictions where specific AI laws apply, including but not limited to the European Union Artificial Intelligence Act (EU AI Act), they must ensure that the requirements of such laws are met.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "investee / Group companies",
+      "action": "comply",
+      "object": "requirements of applicable AI laws, including the EU AI Act",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "meet applicable AI-law requirements",
+      "condition": "where specific AI laws apply in the company's jurisdiction",
+      "exception": null,
+      "purpose": "legal compliance",
+      "affected_asset": "legal compliance of Group companies",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI systems subject to specific AI laws",
+      "interpretation_notes": "Verbatim from the asago copy (prosus.pdf); line breaks collapsed. Same section expects Group companies to publish their own responsible AI governance principles.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Design",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "section": "4.2 Design",
+      "original_text": "Our Group companies are expected to appropriately design for privacy, security, transparency, bias controls, and robustness as an integral part of development and deployment of AI systems and models.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Group companies",
+      "action": "design for",
+      "object": "privacy, security, transparency, bias controls and robustness",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "build privacy, security, transparency, bias controls and robustness into AI systems",
+      "condition": null,
+      "exception": null,
+      "purpose": "responsible-by-design AI",
+      "affected_asset": "users; data subjects",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI systems and models developed and deployed by Group companies",
+      "interpretation_notes": "Verbatim from the asago copy (prosus.pdf); line breaks collapsed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Prosus_Responsible_AI_Policy_2024_Monitor",
+      "policy_id": "Prosus_Responsible_AI_Policy_2024",
+      "section": "4.3 Monitor",
+      "original_text": "Group companies are to implement appropriate processes aimed at auditing for accountability, bias and risks implicated by specific AI models. This can be enabled through adopting tools for bias check as part of model-development practices.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Group companies",
+      "action": "implement auditing processes",
+      "object": "accountability, bias and risks of AI models",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "audit AI models for bias and risk, e.g. with bias-check tools",
+      "condition": null,
+      "exception": null,
+      "purpose": "detect and mitigate AI-related risks",
+      "affected_asset": "affected individuals",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "specific AI models",
+      "interpretation_notes": "Verbatim from the asago copy (prosus.pdf); line breaks collapsed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

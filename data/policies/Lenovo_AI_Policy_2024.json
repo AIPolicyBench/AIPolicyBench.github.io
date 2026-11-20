@@ -1,0 +1,306 @@
+{
+  "policy_id": "Lenovo_AI_Policy_2024",
+  "policy_name": "Lenovo Artificial Intelligence (AI) Policy (Corporate Policy CP-00027)",
+  "short_name": "Lenovo AI Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/lenovo.pdf",
+  "issuing_authority": "Lenovo Group Limited (approved by the Lenovo Executive Committee)",
+  "jurisdiction": "Organization",
+  "country_region": "Global (Lenovo Group Limited and subsidiaries worldwide)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Corporate policy (self-regulation)",
+  "geo_constraints": "Everywhere Lenovo conducts business, with no exceptions",
+  "industry_scope": [
+    "technology"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › Lenovo",
+    "regulation": "Self-regulation · mandatory global corporate policy",
+    "culture": "Multinational technology-company compliance policy: principle statements backed by concrete prohibitions that echo the EU AI Act's banned practices, a ban on public GenAI tools, and IP-protective rules on inputs and outputs.",
+    "use_cases": [
+      "general AI lifecycle",
+      "employee use of GenAI tools",
+      "employment & HR decisions",
+      "high-impact AI decisions",
+      "consumer-facing AI interactions",
+      "AI procurement"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2024-05-25",
+  "key_dates": [
+    {
+      "date": "2024-05-25",
+      "event": "Version 1.0 effective; approved by the Lenovo Executive Committee"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2024-05-25",
+      "kind": "release",
+      "title": "Version 1.0",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/lenovo.pdf",
+      "current": true,
+      "note": "Approval history lists only version 1.0; the policy must be reviewed at least annually, so later versions may exist."
+    }
+  ],
+  "expiration_date": null,
+  "version": "1.0 (CP-00027)",
+  "last_updated": "2024-05-25",
+  "covered_entities": [
+    "Lenovo employees, consultants and contractors",
+    "Lenovo Group Limited and subsidiaries worldwide"
+  ],
+  "covered_systems": [
+    "AI systems making predictions or classifications from input data",
+    "Lenovo- and third-party-developed AI systems",
+    "generative AI tools"
+  ],
+  "covered_activities": [
+    "developing or acquiring AI systems",
+    "incorporating AI into Lenovo products and services",
+    "deploying or using AI to facilitate Lenovo operations"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "AI systems posing significant risk to health, safety or civil rights receive additional scrutiny and risk-mitigation analysis"
+  ],
+  "objective": "Ensure Lenovo's development and use of AI meets the highest standards of ethics, legality, safety, security, privacy and accountability.",
+  "policy_domain": [
+    "fairness",
+    "transparency",
+    "accountability",
+    "privacy",
+    "security",
+    "fundamental_rights"
+  ],
+  "principles": [
+    "no harm to people or their rights",
+    "diversity and inclusion (bias mitigation)",
+    "accountability and reliability",
+    "explainability",
+    "transparency",
+    "environmental and social impact",
+    "human oversight",
+    "privacy",
+    "security",
+    "intellectual property protection",
+    "legal compliance"
+  ],
+  "parent_policy": "Lenovo Code of Conduct",
+  "related_policies": [
+    {
+      "policy": "Lenovo Corporate Policy #4 on Data Privacy",
+      "relation": "complements"
+    },
+    {
+      "policy": "Lenovo Corporate Policy #6 on Intellectual Property",
+      "relation": "complements"
+    },
+    {
+      "policy": "Lenovo Corporate Policy #15 on Information Security",
+      "relation": "complements"
+    },
+    {
+      "policy": "Lenovo Corporate Policy #21 on Lenovo Product and Solutions Security",
+      "relation": "complements"
+    },
+    {
+      "policy": "Lenovo Corporate Policy #23 on Product Diversity",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "AI development and use must follow all applicable laws and comply with the Lenovo Code of Conduct and the referenced Corporate Policies.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/lenovo.pdf",
+      "https://github.com/asago-ai/asago-policy-mapper/blob/b8ac8876beec6593ef5685d7d7e64cc94f9cc55b/policy_examples/lenovo.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/lenovo.pdf). Global corporate policy CP-00027, version 1.0, effective 25 May 2024, approved by the Lenovo Executive Committee; mandatory for all Lenovo employees, consultants and contractors (binding=false: corporate policy, not law). The policy must be reviewed at least annually, so this may not be the latest version. Section 3.0's prohibitions closely resemble EU AI Act Article 5 practices, but the policy does not cite the Act, so no catalogue link is made. Extraction was clean."
+  },
+  "clauses": [
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_Prohibited_AI",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "section": "3.0 We will not use AI in ways that harm people or put them or their rights at risk.",
+      "original_text": "Lenovo prohibits AI systems that: (a) deploy subliminal or manipulative techniques, (b) exploit a person’s vulnerabilities, (c) discriminatorily classify people based on their social behavior, socio-economic status, or sensitive personal information such as race or ethnicity, (d) use or were trained on biometric data indiscriminately scraped from social media or publicly-available information, or (e) involve the collection of sensitive personal data to enable profiling of individuals.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Lenovo (employees, consultants, contractors)",
+      "action": "prohibit",
+      "object": "manipulative, exploitative, discriminatory-classification, scraped-biometric and sensitive-profiling AI systems",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no development, acquisition or use of the listed AI systems",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect people and their rights from harmful AI",
+      "affected_asset": "natural persons; their rights and personal data",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "any AI system developed, acquired, incorporated or used by Lenovo",
+      "interpretation_notes": "Verbatim from the asago copy (lenovo.pdf); line breaks collapsed. The list mirrors several EU AI Act Article 5 prohibited practices without citing the Act.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_Bias_Evaluation",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "section": "3.1a Diversity and Inclusion",
+      "original_text": "In determining whether to develop, use, or implement an AI system, Lenovo will evaluate it (e.g., data sets, algorithms, user interfaces) to ensure the AI system mitigates bias and ensures fair and equal treatment for all users.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Lenovo",
+      "action": "evaluate",
+      "object": "AI systems (data sets, algorithms, user interfaces)",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "pre-adoption bias evaluation ensuring fair and equal treatment",
+      "condition": "before deciding to develop, use or implement an AI system",
+      "exception": null,
+      "purpose": "prevent bias and discrimination",
+      "affected_asset": "users and subjects of AI systems",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "all Lenovo AI systems",
+      "interpretation_notes": "Verbatim from the asago copy (lenovo.pdf); line breaks collapsed. Section also requires regular review of biases and lifecycle impact assessment covering protected characteristics.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_User_Transparency",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "section": "3.1d Transparency",
+      "original_text": "More specifically, users should be: (a) informed that they are interacting with AI, (b) provided with information about how their data will be handled by the AI, (c) informed of any choices they can make regarding their interactions with AI, and (d) made aware of any rights they may have to challenge an AI-generated outcome.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Lenovo",
+      "action": "inform",
+      "object": "AI interactions, data handling, choices and rights to challenge outcomes",
+      "recipient": "users",
+      "modality": "SHOULD",
+      "requirement": "disclose AI interaction, data handling, choices and contestation rights",
+      "condition": null,
+      "exception": null,
+      "purpose": "enable informed choices by users",
+      "affected_asset": "users of AI systems",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Lenovo AI systems interacting with users",
+      "interpretation_notes": "Verbatim from the asago copy (lenovo.pdf); line breaks collapsed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_Human_Oversight",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "section": "3.2 We will ensure that there is proper human oversight throughout the lifecycle of an AI system.",
+      "original_text": "Therefore, we will establish mechanisms for human intervention to ensure proper oversight, validity of AI outcomes, detection of potential biases, and human intervention when necessary to detect and rectify biases, errors, or unintended consequences. Significant decisions should not be based solely on the output of any AI system without human intervention.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Lenovo",
+      "action": "establish human intervention mechanisms; avoid solely automated significant decisions",
+      "object": "significant decisions supported by AI",
+      "recipient": null,
+      "modality": "SHOULD NOT",
+      "requirement": "significant decisions not based solely on AI output without human intervention",
+      "condition": null,
+      "exception": null,
+      "purpose": "ensure validity, fairness and accountability of AI outcomes",
+      "affected_asset": "persons affected by significant decisions",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "all Lenovo AI systems",
+      "interpretation_notes": "Verbatim from the asago copy (lenovo.pdf); line breaks collapsed. Modality reflects the second sentence; the first ('will establish') is a MUST-level commitment.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_Public_GenAI_Ban",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "section": "3.5 A. Data and Inputs",
+      "original_text": "Importantly, this means that our employees may not use publicly-available versions of any generative AI tool – like ChatGPT, Midjourney, and many others – for work purposes. Only AI tools specifically licensed and approved by Lenovo may be used.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Lenovo employees",
+      "action": "use",
+      "object": "publicly-available generative AI tools",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "only Lenovo-licensed and approved AI tools may be used for work",
+      "condition": "for work purposes",
+      "exception": null,
+      "purpose": "protect confidential information and intellectual property",
+      "affected_asset": "Lenovo confidential information and IP; third-party data",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "generative AI tools",
+      "interpretation_notes": "Verbatim from the asago copy (lenovo.pdf); line breaks collapsed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Lenovo_AI_Policy_2024_Inappropriate_Inputs",
+      "policy_id": "Lenovo_AI_Policy_2024",
+      "section": "3.5 B. Operation and Use",
+      "original_text": "We will ensure that our AI systems are not given inappropriate information or prompts, including: (1) third-party information in Lenovo’s control not authorized for such use, (2) Lenovo confidential or restricted information, if the AI system is not approved for such use, (3) personal information of Lenovo employees, customers, or others who have not explicitly consented to such use, or (4) prompts or directions that would tend to create problematic, biased, or infringing results.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Lenovo (employees using AI systems)",
+      "action": "not input",
+      "object": "unauthorised third-party data, confidential information, non-consented personal information, problematic prompts",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no inappropriate information or prompts given to AI systems",
+      "condition": null,
+      "exception": "confidential information may be input into AI systems approved for such use",
+      "purpose": "protect confidentiality, privacy and IP",
+      "affected_asset": "personal data; confidential and third-party information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "Lenovo AI systems",
+      "interpretation_notes": "Verbatim from the asago copy (lenovo.pdf); line breaks collapsed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+  "policy_name": "Use of enterprise Generative AI tools in the Victorian public sector",
+  "short_name": "OVIC Enterprise GenAI Guidance",
+  "policy_type": "guidance",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/ovic.docx",
+  "issuing_authority": "Office of the Victorian Information Commissioner (OVIC)",
+  "jurisdiction": "AU-VIC",
+  "country_region": "Australia (Victoria)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Privacy and Data Protection Act 2014 (Vic) – Information Privacy Principles and Victorian Protective Data Security Standards (regulator guidance)",
+  "geo_constraints": "Victorian public sector organisations subject to Parts 3 and 4 of the Privacy and Data Protection Act 2014",
+  "industry_scope": [
+    "public_sector"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Oceania › Australia (Victoria)",
+    "regulation": "Regulator guidance · minimum expectations under privacy and data-security law",
+    "culture": "Victorian information-regulator guidance: frames enterprise GenAI adoption through existing statutory privacy principles and protective security standards, stressing that organisations stay accountable for AI output ('cannot simply say … caused by AI').",
+    "use_cases": [
+      "public-sector & government use",
+      "employee use of GenAI tools",
+      "generative AI & chatbots",
+      "AI procurement"
+    ]
+  },
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2025-03",
+  "key_dates": [
+    {
+      "date": "2025-03",
+      "event": "Guidance dated March 2025 (document footer)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "March 2025",
+      "date": "2025-03",
+      "kind": "release",
+      "title": "Use of enterprise Generative AI tools in the Victorian public sector",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/ovic.docx",
+      "current": true,
+      "note": "Date from the document footer ('March 2025'); exact day not stated. Replaces OVIC's October 2023 public statement on Microsoft 365 Copilot (footnote 3)."
+    }
+  ],
+  "expiration_date": null,
+  "version": "March 2025",
+  "last_updated": "2025-03",
+  "covered_entities": [
+    "VPS organisations subject to Parts 3 and 4 of the Privacy and Data Protection Act 2014",
+    "public sector body heads",
+    "contracted service providers"
+  ],
+  "covered_systems": [
+    "enterprise Generative AI tools operating within an organisation's managed environment (e.g. Microsoft 365 Copilot, ChatGPT Enterprise, Duet AI, Zoom IQ, Slack GPT)"
+  ],
+  "covered_activities": [
+    "purchasing and integrating enterprise Generative AI tools",
+    "collection, use and disclosure of personal information via Generative AI",
+    "information security risk assessment",
+    "incident response and notification",
+    "staff guidance and training"
+  ],
+  "exceptions": [
+    "publicly available Generative AI tools (covered by separate OVIC guidance)"
+  ],
+  "conditions": [
+    "information privacy section applies to organisations covered by Part 3 of the PDP Act",
+    "minimum expectations to work through prior to purchasing and integrating an enterprise Generative AI tool"
+  ],
+  "objective": "Set out OVIC's minimum expectations and the key information privacy and security obligations for Victorian public sector organisations adopting enterprise Generative AI tools.",
+  "policy_domain": [
+    "privacy",
+    "security",
+    "accountability"
+  ],
+  "principles": [
+    "privacy by assessment (PIAs)",
+    "security risk assessment",
+    "accuracy of personal information",
+    "human review",
+    "organisational accountability for AI output",
+    "incident notification"
+  ],
+  "parent_policy": "Privacy and Data Protection Act 2014 (Vic)",
+  "related_policies": [
+    {
+      "policy": "Privacy and Data Protection Act 2014 (Vic) – Information Privacy Principles",
+      "relation": "implements"
+    },
+    {
+      "policy": "Victorian Protective Data Security Standards",
+      "relation": "implements"
+    },
+    {
+      "policy": "OVIC public statement on the use of Microsoft 365 Copilot in the Victorian public sector (October 2023)",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "OVIC guidance on the use of personal information with publicly available Generative AI tools in the Victorian public sector",
+      "relation": "complements"
+    },
+    {
+      "policy": "VIC_DGS_GenAI_Guidance_VPS",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "General guidance, not legal advice (footer disclaimer); obligations arise from the PDP Act (IPPs, VPDSS), which prevails.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/ovic.docx"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/ovic.docx). Date 'March 2025' from the document footer; exact day unknown. No official URL for this document is printed (only OVIC resource links in footnotes), so source_uri points to the asago copy. Status 'voluntary': the guidance states minimum expectations (SHOULD) but restates mandatory statutory duties under the PDP Act. Not verified whether this is the latest version."
+  },
+  "clauses": [
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_PIA",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "section": "OVIC’s minimum expectations",
+      "original_text": "Undertake privacy impact assessments (PIAs) to understand the ways in which the enterprise Generative AI tool will be utilised, the risks it presents to the privacy of individuals, whether and how those risks can be mitigated, and in light of any residual risks, the extent to which it is appropriate to proceed to purchase the tool.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "VPS organisation",
+      "action": "undertake privacy impact assessments",
+      "object": "enterprise Generative AI tool",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "conduct PIAs (per function or business unit) before purchasing an enterprise Generative AI tool and regularly review risks and controls",
+      "condition": "prior to purchasing and integrating an enterprise Generative AI tool",
+      "exception": null,
+      "purpose": "protect individuals' privacy; decide whether to proceed",
+      "affected_asset": "personal information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "enterprise Generative AI tools (e.g. tenanted Microsoft 365 Copilot, ChatGPT Enterprise)",
+      "interpretation_notes": "Quoted from the .docx (pandoc text); footnote markers removed. Footnote 7: one overarching PIA is likely insufficient; PIAs should be per function or business unit.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_No_Consequential_Decisions",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "section": "OVIC’s minimum expectations",
+      "original_text": "Ensure that enterprise Generative AI tools are not used to make decisions, undertake assessments, or for other administrative functions that may have consequences for individuals or cause them significant harm.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "VPS organisation",
+      "action": "ensure non-use",
+      "object": "enterprise Generative AI tools for consequential decisions or assessments",
+      "recipient": "individuals",
+      "modality": "SHOULD",
+      "requirement": "prevent use of enterprise Generative AI to make decisions or assessments with consequences for individuals",
+      "condition": null,
+      "exception": null,
+      "purpose": "avoid unfair decisions based on inaccurate or diminished-quality AI-generated information",
+      "affected_asset": "individuals' rights and interests",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "enterprise Generative AI tools (e.g. tenanted Microsoft 365 Copilot, ChatGPT Enterprise)",
+      "interpretation_notes": "Quoted from the .docx (pandoc text); footnote markers removed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_Config_Data_Sharing",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "section": "OVIC’s minimum expectations",
+      "original_text": "Ensure that settings can be configured to enhance information privacy and information security, such as disabling or limiting data sharing between certain platforms and between the VPS organisation and the company that owns the enterprise Generative AI tool.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "VPS organisation",
+      "action": "configure settings",
+      "object": "data sharing settings of enterprise Generative AI tools",
+      "recipient": "tool vendor",
+      "modality": "SHOULD",
+      "requirement": "configure the tool to limit data sharing between platforms and with the vendor",
+      "condition": null,
+      "exception": null,
+      "purpose": "information privacy and security",
+      "affected_asset": "personal and public sector information",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "enterprise Generative AI tools (e.g. tenanted Microsoft 365 Copilot, ChatGPT Enterprise)",
+      "interpretation_notes": "Quoted from the .docx (pandoc text); footnote markers removed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_Staff_Guidance",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "section": "OVIC’s minimum expectations",
+      "original_text": "Develop and implement clear and tailored guidance and training for their staff, contracted service providers and other personnel on the use of the enterprise Generative AI tool, that: covers how to safely and responsibly use the enterprise Generative AI tool, prompt engineering, risk assessment and management, human review of generated outputs, and active monitoring and reviews to identify potential misuse ensures all users of the enterprise Generative AI tool are aware of and understand what information they are permitted to enter into the enterprise Generative AI tool and its permitted use cases",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "VPS organisation",
+      "action": "develop guidance and training",
+      "object": "use of the enterprise Generative AI tool",
+      "recipient": "staff, contracted service providers and other personnel",
+      "modality": "SHOULD",
+      "requirement": "train users on safe use, human review of outputs, permitted inputs and permitted use cases",
+      "condition": null,
+      "exception": null,
+      "purpose": "safe and responsible use; prevent misuse and inaccurate outputs",
+      "affected_asset": "personal and public sector information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "enterprise Generative AI tools (e.g. tenanted Microsoft 365 Copilot, ChatGPT Enterprise)",
+      "interpretation_notes": "Quoted from the .docx (pandoc text); footnote markers removed. Nested bullets flattened; a third bullet (awareness of how the tool handles personal information and ensuring accuracy) omitted.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_Incident_Response",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "section": "OVIC’s minimum expectations",
+      "original_text": "Develop an incident response plan for dealing with inadvertent or unauthorised disclosures, access or misuse of information through the enterprise Generative AI tool. VPS organisations are responsible for all actions and content generated by the enterprise Generative AI tool they use. Where an information security incident or interference with privacy occurs through the use of the tool, VPS organisations will not be able to simply say that the incident or interference was caused by AI. Notify OVIC of information privacy and information security incidents, in line with the Information Security Incident Notification Scheme.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "VPS organisation",
+      "action": "plan for and notify incidents",
+      "object": "information privacy and security incidents involving the tool",
+      "recipient": "OVIC",
+      "modality": "SHOULD",
+      "requirement": "maintain an AI incident response plan, accept responsibility for AI-generated content and notify OVIC of incidents",
+      "condition": null,
+      "exception": null,
+      "purpose": "accountability and incident handling",
+      "affected_asset": "personal and public sector information",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "enterprise Generative AI tools (e.g. tenanted Microsoft 365 Copilot, ChatGPT Enterprise)",
+      "interpretation_notes": "Quoted from the .docx (pandoc text); footnote markers removed. Two consecutive bullets combined.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "OVIC_Enterprise_GenAI_Guidance_2025_Security_Risk_Assessment",
+      "policy_id": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "section": "Information security requirements",
+      "original_text": "Before VPS organisations implement any enterprise Generative AI tool, the public sector body head must assess the information security risks to the confidentiality, integrity and availability of public sector information and systems proposed to be used by the enterprise Generative AI tool, and ensure adherence to the Victorian Protective Data Security Standards (the Standards).",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "public sector body head",
+      "action": "assess security risks; ensure adherence",
+      "object": "information security risks of the enterprise Generative AI tool",
+      "recipient": "contracted service providers (via the security risk assessment)",
+      "modality": "MUST",
+      "requirement": "assess confidentiality, integrity and availability risks and comply with the VPDSS before implementation, including evaluation of relevant contracted service providers",
+      "condition": "before implementing any enterprise Generative AI tool",
+      "exception": null,
+      "purpose": "protect public sector information and systems",
+      "affected_asset": "public sector information and systems",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "enterprise Generative AI tools (e.g. tenanted Microsoft 365 Copilot, ChatGPT Enterprise)",
+      "interpretation_notes": "Quoted from the .docx (pandoc text); footnote markers removed. This restates statutory obligations under Part 4 of the Privacy and Data Protection Act 2014 (hence MUST); the guidance itself is not binding.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "policy_id": "US_DHS_AI_Use_Directive_2025",
+  "policy_name": "DHS Directive 139-08: Artificial Intelligence Use",
+  "short_name": "DHS AI Use Directive 139-08",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://www.dhs.gov/sites/default/files/2025-01/25_0116_CIO_DHS-Directive-139-08-508.pdf",
+  "issuing_authority": "U.S. Department of Homeland Security (signed by the Under Secretary for Management)",
+  "jurisdiction": "US-Federal",
+  "country_region": "United States (Department of Homeland Security)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "DHS departmental directive (internal agency policy)",
+  "geo_constraints": "All DHS personnel and components (CBP, ICE, FEMA, TSA, USCIS, Secret Service, CISA, Coast Guard), including Intelligence Community elements",
+  "industry_scope": [
+    "public_sector",
+    "law_enforcement",
+    "immigration"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States (Department of Homeland Security)",
+    "regulation": "Internal departmental directive · principles plus enumerated prohibited uses",
+    "culture": "US federal agency governance in a security and immigration-enforcement setting: constitutional and civil-rights framing, explicit prohibited uses and human judgment for enforcement, with oversight by Privacy and Civil Rights offices and a public use-case inventory.",
+    "use_cases": [
+      "public-sector & government use",
+      "law enforcement & migration",
+      "high-impact AI decisions",
+      "general AI lifecycle"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2025-01",
+  "key_dates": [
+    {
+      "date": "2025-01",
+      "event": "Directive 139-08 signed by Under Secretary for Management Randolph Alles"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Directive 139-08",
+      "date": "2025-01",
+      "kind": "release",
+      "title": "DHS Directive 139-08 Artificial Intelligence Use",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.dhs.gov/sites/default/files/2025-01/25_0116_CIO_DHS-Directive-139-08-508.pdf",
+      "current": true,
+      "note": "Signed January 2025; exact day not stated (the file name suggests 16 January 2025). Supersedes Secretary Mayorkas's August 2023 AI policy statement."
+    }
+  ],
+  "expiration_date": null,
+  "version": "Directive 139-08",
+  "last_updated": "2025-01",
+  "covered_entities": [
+    "all DHS personnel",
+    "DHS components: CBP, ICE, FEMA, TSA, USCIS, Secret Service, CISA, Coast Guard",
+    "DHS Intelligence Community elements"
+  ],
+  "covered_systems": [
+    "AI systems, services, techniques, software and hardware used by or on behalf of DHS",
+    "face recognition / face capture technologies"
+  ],
+  "covered_activities": [
+    "planning, designing, developing, deploying and operating AI",
+    "AI acquisition",
+    "AI use case inventory and risk classification",
+    "AI incident reporting",
+    "AI literacy training"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "High-Impact use cases are subject to minimum risk management practices",
+    "face recognition opt-out applies to non-law-enforcement uses"
+  ],
+  "objective": "Govern DHS's use of AI across its lifecycle so that it is lawful, mission-enhancing, safe, human-centred and responsibly acquired, and prohibit uses that would violate privacy, civil rights and civil liberties.",
+  "policy_domain": [
+    "fundamental_rights",
+    "privacy",
+    "fairness",
+    "accountability",
+    "governance"
+  ],
+  "principles": [
+    "lawful and mission-appropriate",
+    "mission-enhancing",
+    "safe, secure and responsible",
+    "human-centered",
+    "responsibly acquired"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "DHS policy statement on AI acquisition and use (Secretary Mayorkas, August 2023)",
+      "relation": "supersedes"
+    },
+    {
+      "policy": "DHS AI Use Case Inventory",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "AI use must comply with the Constitution and applicable laws and policies; any use prohibited by applicable law or policy is barred.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/dhs-gov.md",
+      "https://www.dhs.gov/sites/default/files/2025-01/25_0116_CIO_DHS-Directive-139-08-508.pdf (cited in the asago file; not consulted)",
+      "https://fedscoop.com/dhs-ai-policy-2025-prohibited-uses/ (cited in the asago file; not consulted)"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/dhs-gov.md). That file is a third-party markdown summary of DHS Directive 139-08 (with an asago commentary section), not the directive itself, so all clause texts are marked text_is_verbatim=false and wording, section numbering and detail should be checked against the official PDF. Signing month (January 2025) from the summary; exact day unknown. Binding=false: internal directive, mandatory for DHS personnel. It is not verified whether the directive has since been revised or superseded (e.g. after OMB M-25-21, April 2025, whose 'High-Impact' terminology the summary's 2025 inventory section uses); no catalogue link is made because the summary does not say the directive implements it. Use-case inventory figures (158 active use cases) describe the 2025 inventory, not the directive text."
+  },
+  "clauses": [
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_No_Sole_Basis_Enforcement",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "section": "Prohibited Uses (1)",
+      "original_text": "Sole-basis enforcement decisions — Relying on AI outputs as the sole basis for determining law enforcement actions (arrests, searches, seizures, citations), civil enforcement actions (fines, injunctions), or denial of government benefits",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "DHS personnel",
+      "action": "rely on AI outputs as sole basis",
+      "object": "law enforcement, civil enforcement and benefit-denial decisions",
+      "recipient": "individuals subject to enforcement or benefit decisions",
+      "modality": "MUST NOT",
+      "requirement": "AI outputs may not be the sole basis for enforcement actions or benefit denials",
+      "condition": null,
+      "exception": null,
+      "purpose": "human judgment in consequential decisions; due process",
+      "affected_asset": "individuals' liberty, property and benefits",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI systems, services, techniques, software and hardware used by or on behalf of DHS",
+      "interpretation_notes": "Text is from the asago markdown summary of Directive 139-08, not the directive's own wording (the summary paraphrases it, partly via FedScoop reporting); marked non-verbatim. Bold labels and list formatting removed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_No_Discrimination",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "section": "Prohibited Uses (2)",
+      "original_text": "Discriminatory decision-making — Using AI to make or support decisions based on the unlawful or improper consideration of race, ethnicity, gender, national origin, religion, sexual orientation, gender identity, age, nationality, medical condition, disability, emotional state, or future behavior predictions",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "DHS personnel",
+      "action": "use AI for decisions based on protected characteristics",
+      "object": "decision-making",
+      "recipient": "individuals",
+      "modality": "MUST NOT",
+      "requirement": "no AI-supported decisions based on unlawful or improper consideration of listed characteristics",
+      "condition": null,
+      "exception": null,
+      "purpose": "civil rights and civil liberties",
+      "affected_asset": "individuals and protected groups",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI systems, services, techniques, software and hardware used by or on behalf of DHS",
+      "interpretation_notes": "Text is from the asago markdown summary of Directive 139-08, not the directive's own wording (the summary paraphrases it, partly via FedScoop reporting); marked non-verbatim. Bold labels and list formatting removed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_No_Profiling_Retaliation",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "section": "Prohibited Uses (3)",
+      "original_text": "Improper profiling — Improperly profiling, targeting, or discriminating against individuals or entities based on protected characteristics, or in retaliation for exercising constitutional rights",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "DHS personnel",
+      "action": "profile, target or discriminate using AI",
+      "object": "individuals or entities",
+      "recipient": "individuals or entities",
+      "modality": "MUST NOT",
+      "requirement": "no AI-enabled improper profiling or retaliation for exercise of constitutional rights",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect constitutional rights",
+      "affected_asset": "individuals' civil rights and liberties",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI systems, services, techniques, software and hardware used by or on behalf of DHS",
+      "interpretation_notes": "Text is from the asago markdown summary of Directive 139-08, not the directive's own wording (the summary paraphrases it, partly via FedScoop reporting); marked non-verbatim. Bold labels and list formatting removed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_No_Mass_Surveillance",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "section": "Prohibited Uses (4)",
+      "original_text": "Unlawful mass surveillance — Conducting unlawful or improper systemic, indiscriminate, or large-scale monitoring, surveillance, or tracking of individuals",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "DHS personnel",
+      "action": "conduct surveillance using AI",
+      "object": "systemic, indiscriminate or large-scale monitoring or tracking",
+      "recipient": "individuals",
+      "modality": "MUST NOT",
+      "requirement": "no unlawful or improper AI-enabled mass surveillance",
+      "condition": null,
+      "exception": null,
+      "purpose": "privacy and civil liberties",
+      "affected_asset": "individuals' privacy",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI systems, services, techniques, software and hardware used by or on behalf of DHS",
+      "interpretation_notes": "Text is from the asago markdown summary of Directive 139-08, not the directive's own wording (the summary paraphrases it, partly via FedScoop reporting); marked non-verbatim. Bold labels and list formatting removed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_No_Unauthorized_Data_Sharing",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "section": "Prohibited Uses (5)",
+      "original_text": "Unauthorized data sharing — Sharing DHS data or AI outputs with third parties for uses that are prohibited by law or DHS policy",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "DHS personnel",
+      "action": "share",
+      "object": "DHS data or AI outputs",
+      "recipient": "third parties",
+      "modality": "MUST NOT",
+      "requirement": "no sharing of DHS data or AI outputs for uses prohibited by law or DHS policy",
+      "condition": null,
+      "exception": null,
+      "purpose": "data protection",
+      "affected_asset": "DHS data; personal information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "AI systems, services, techniques, software and hardware used by or on behalf of DHS",
+      "interpretation_notes": "Text is from the asago markdown summary of Directive 139-08, not the directive's own wording (the summary paraphrases it, partly via FedScoop reporting); marked non-verbatim. Bold labels and list formatting removed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "US_DHS_AI_Use_Directive_2025_Face_Recognition",
+      "policy_id": "US_DHS_AI_Use_Directive_2025",
+      "section": "Face Recognition Specific Rules",
+      "original_text": "US citizens must be afforded the right to opt-out of face recognition for non-law-enforcement uses … Face recognition must NOT be used as the sole basis of any law or civil enforcement action",
+      "text_is_verbatim": false,
+      "language": "en",
+      "translated_text": null,
+      "actor": "DHS (components using face recognition)",
+      "action": "afford opt-out; not use as sole basis",
+      "object": "face recognition / face capture",
+      "recipient": "US citizens; persons subject to enforcement",
+      "modality": "MUST",
+      "requirement": "offer US citizens opt-out of face recognition in non-law-enforcement uses; never use face recognition as sole basis for enforcement",
+      "condition": "opt-out applies to non-law-enforcement uses",
+      "exception": "law enforcement uses (opt-out right not afforded)",
+      "purpose": "privacy and civil liberties in biometric identification",
+      "affected_asset": "biometric data; individuals' rights",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "US-Federal"
+      ],
+      "applicable_systems": "face recognition / face capture technologies",
+      "interpretation_notes": "Text is from the asago markdown summary of Directive 139-08, not the directive's own wording (the summary paraphrases it, partly via FedScoop reporting); marked non-verbatim. Bold labels and list formatting removed. Two bullets combined.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    }
+  ]
+}

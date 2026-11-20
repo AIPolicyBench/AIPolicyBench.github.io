@@ -1,0 +1,286 @@
+{
+  "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+  "policy_name": "Guidance for the safe and responsible use of Generative AI in the Victorian Public Sector",
+  "short_name": "VPS Generative AI Guidance",
+  "policy_type": "guidance",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/vps.docx",
+  "issuing_authority": "Victorian Government – Department of Government Services (Cyber Security, Data and Digital Resilience Division)",
+  "jurisdiction": "AU-VIC",
+  "country_region": "Australia (Victoria)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Supports the Administrative Guideline for the safe and responsible use of Generative AI in the Victorian Public Sector",
+  "geo_constraints": "Victorian public sector bodies and public entities (Public Administration Act 2004)",
+  "industry_scope": [
+    "public_sector"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Oceania › Australia (Victoria)",
+    "regulation": "Staff guidance · practical do/don't advice under a state administrative guideline",
+    "culture": "Victorian state public-sector guidance grounded in the Charter of Human Rights, privacy and public-records law: practical, personnel-facing advice that keeps humans accountable and treats Generative AI as one input rather than a decision-maker.",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "public-sector & government use",
+      "generative AI & chatbots"
+    ]
+  },
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": null,
+  "key_dates": [],
+  "versions": [
+    {
+      "version": "Undated",
+      "date": "2024-11",
+      "kind": "release",
+      "title": "Guidance for the safe and responsible use of Generative AI in the Victorian Public Sector",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/vps.docx",
+      "current": true,
+      "note": "The document prints no date or version number; 2024-11 is the .docx file's created/modified date (15 Nov 2024) and is only an approximation. The text post-dates June 2024 (refers to Victoria agreeing to the National AI Assurance Framework then)."
+    }
+  ],
+  "expiration_date": null,
+  "version": null,
+  "last_updated": null,
+  "covered_entities": [
+    "public sector personnel: employees, contractors, consultants and volunteers of public sector bodies and public entities (Public Administration Act 2004)"
+  ],
+  "covered_systems": [
+    "publicly-available Generative AI tools",
+    "agency-approved Generative AI tools"
+  ],
+  "covered_activities": [
+    "use of Generative AI tools for official work purposes",
+    "entering information into Generative AI tools",
+    "using and attributing Generative AI outputs",
+    "recordkeeping of AI-generated content"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "may be complemented by organisation- or sector-specific policies",
+    "general advice only; not legal advice"
+  ],
+  "objective": "Give Victorian public sector personnel practical guidance for safe and responsible use of publicly-available and agency-approved Generative AI tools, supporting the Generative AI Administrative Guideline.",
+  "policy_domain": [
+    "privacy",
+    "accountability",
+    "transparency",
+    "fairness",
+    "security"
+  ],
+  "principles": [
+    "accountability, transparency and explainability",
+    "privacy and safeguarding public sector information",
+    "fairness and human rights",
+    "reliability and safety",
+    "legal compliance"
+  ],
+  "parent_policy": "Administrative Guideline for the safe and responsible use of Generative AI in the Victorian Public Sector",
+  "related_policies": [
+    {
+      "policy": "Administrative Guideline for the safe and responsible use of Generative AI in the Victorian Public Sector",
+      "relation": "complements"
+    },
+    {
+      "policy": "National framework for the assurance of artificial intelligence in government (2024)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Australia's AI Ethics Principles",
+      "relation": "complements"
+    },
+    {
+      "policy": "OVIC_Enterprise_GenAI_Guidance_2025",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "General advice only, not legal advice; personnel must still meet legislative obligations (Privacy and Data Protection Act 2014, Charter of Human Rights and Responsibilities Act 2006, Public Records Act 1973, Public Administration Act 2004) and organisation-specific policies.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/vps.docx"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/vps.docx). Title from the document heading and footer. The document prints no issue date, version or official URL; issuer inferred from the text (DGS reviews the guidance; contact vicgov.ciso@dpc.vic.gov.au) and the template name 'DGS Sans-Cover Template' in file metadata. Version date 2024-11 comes from .docx metadata only, so policy_id has no year. Not verified whether this is the latest version. The OVIC_Enterprise_GenAI_Guidance_2025 link is the compiler's (same jurisdiction and topic; the document refers to OVIC statements and guidance generally)."
+  },
+  "clauses": [
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_Accountability_FactCheck",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "section": "When using Generative AI tools – Maintain accountability, transparency and explainability (Do)",
+      "original_text": "Remain responsible and accountable for content you create, share or use while performing your official work. Fact-check information against verifiable sources. Attribute any content to the appropriate Generative AI tool.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "public sector personnel",
+      "action": "remain accountable; fact-check; attribute",
+      "object": "Generative AI-assisted content",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "stay accountable for AI-assisted work, fact-check outputs against verifiable sources and attribute content to the Generative AI tool used",
+      "condition": null,
+      "exception": null,
+      "purpose": "accuracy and explainability of government work open to merit and judicial review",
+      "affected_asset": "integrity of government decisions and records",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "publicly-available and agency-approved Generative AI tools used for official work",
+      "interpretation_notes": "Quoted from the 'When using Generative AI tools' Do/Don't tables (pandoc text of the .docx); table cell line breaks collapsed. Same table also asks staff to keep records of inputs and AI-generated content incorporated into official documents.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_No_Administrative_Decisions",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "section": "When using Generative AI tools – Maintain accountability, transparency and explainability (Don’t)",
+      "original_text": "Use these tools to make decisions, undertake assessments or use them for other administrative actions that may have consequences for individuals, groups or organisations.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "public sector personnel",
+      "action": "do not use Generative AI to make decisions or assessments",
+      "object": "administrative decisions, assessments and actions",
+      "recipient": "individuals, groups or organisations affected",
+      "modality": "SHOULD NOT",
+      "requirement": "do not use Generative AI tools to make decisions or assessments with consequences for individuals, groups or organisations",
+      "condition": null,
+      "exception": null,
+      "purpose": "fair, explainable decisions that can be upheld on review",
+      "affected_asset": "rights and interests of affected persons",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "publicly-available and agency-approved Generative AI tools used for official work",
+      "interpretation_notes": "Quoted from the 'When using Generative AI tools' Do/Don't tables (pandoc text of the .docx); table cell line breaks collapsed. A related Don't under 'Be aware of fairness and human rights' says not to 'Allow Generative AI to make decisions for the Victorian Government.'",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_Public_Info_Only",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "section": "When using Generative AI tools – Protect privacy and safeguard public sector information (Do / Don’t)",
+      "original_text": "Only use publicly available information with publicly available Generative AI tools. … Input, upload or share any public sector information not available in a publicly available publication into publicly-available Generative AI tools.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "public sector personnel",
+      "action": "restrict inputs",
+      "object": "public sector information (classified, confidential, personal)",
+      "recipient": "publicly-available and agency-approved Generative AI tools",
+      "modality": "SHOULD NOT",
+      "requirement": "enter only publicly available information into public Generative AI tools; in agency-approved tools stay within the protective marking and permitted purpose",
+      "condition": "publicly-available tools: only already-published information; agency-approved tools: within the tool's protective marking, permitted purpose and privacy/security assessments",
+      "exception": null,
+      "purpose": "prevent interference with privacy and data breaches, incl. offshore storage by foreign-owned providers",
+      "affected_asset": "personal information; public sector information",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "publicly-available and agency-approved Generative AI tools used for official work",
+      "interpretation_notes": "Quoted from the 'When using Generative AI tools' Do/Don't tables (pandoc text of the .docx); table cell line breaks collapsed. First sentence is a 'Do', the second a 'Don't' from the same table.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_Bias_Overreliance",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "section": "When using Generative AI tools – Be aware of fairness and human rights (Don’t)",
+      "original_text": "Assume or trust that outputs generated are unbiased, accurate or understand local context or nuance. Rely on Generative AI as the only input to your work (it is just one input). It should not replace your own research, analysis and content development.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "public sector personnel",
+      "action": "do not over-rely on",
+      "object": "Generative AI outputs",
+      "recipient": null,
+      "modality": "SHOULD NOT",
+      "requirement": "treat outputs as potentially biased or inaccurate and never as the sole input to work",
+      "condition": null,
+      "exception": null,
+      "purpose": "respect human rights under the Victorian Charter of Human Rights and Responsibilities Act 2006",
+      "affected_asset": "human rights; fairness of outputs",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "publicly-available and agency-approved Generative AI tools used for official work",
+      "interpretation_notes": "Quoted from the 'When using Generative AI tools' Do/Don't tables (pandoc text of the .docx); table cell line breaks collapsed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_No_Jailbreaking",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "section": "When using Generative AI tools – Consider reliability and safety (Don’t)",
+      "original_text": "Attempt to bypass a Generative AI’s built-in safety measures and ethical restrictions (jailbreaking) to produce an inappropriate response.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "public sector personnel",
+      "action": "do not jailbreak",
+      "object": "Generative AI safety measures and ethical restrictions",
+      "recipient": null,
+      "modality": "SHOULD NOT",
+      "requirement": "do not bypass built-in safety measures of Generative AI tools",
+      "condition": null,
+      "exception": null,
+      "purpose": "safe use; prevent harmful or deceptive outputs",
+      "affected_asset": "Generative AI tool safeguards; the public",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "publicly-available and agency-approved Generative AI tools used for official work",
+      "interpretation_notes": "Quoted from the 'When using Generative AI tools' Do/Don't tables (pandoc text of the .docx); table cell line breaks collapsed. The same table recommends agency-approved tools ahead of publicly-available ones.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "VIC_DGS_GenAI_Guidance_VPS_IP_Privilege",
+      "policy_id": "VIC_DGS_GenAI_Guidance_VPS",
+      "section": "When using Generative AI tools – Consider legal obligations (Do / Don’t)",
+      "original_text": "When generating images, videos, or voice content, ensure that the solution provider provides legal coverage, including fair treatment of artists and respect for intellectual property rights. … Enter any information that may breach another person’s intellectual property rights or legal professional privilege.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "public sector personnel",
+      "action": "ensure IP coverage; do not enter protected information",
+      "object": "IP-protected or privileged information; generated images, video and voice",
+      "recipient": "solution providers",
+      "modality": "SHOULD NOT",
+      "requirement": "do not input material that may breach IP or legal professional privilege; ensure providers give legal coverage for generated media",
+      "condition": "image, video or voice generation (first sentence)",
+      "exception": null,
+      "purpose": "comply with IP, contractual and privilege obligations",
+      "affected_asset": "third-party intellectual property; privileged information",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "AU-VIC"
+      ],
+      "applicable_systems": "publicly-available and agency-approved Generative AI tools used for official work",
+      "interpretation_notes": "Quoted from the 'When using Generative AI tools' Do/Don't tables (pandoc text of the .docx); table cell line breaks collapsed. First sentence is a 'Do', the second a 'Don't' from the same table.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    }
+  ]
+}

@@ -60,6 +60,57 @@
       "event": "Amended Cybersecurity Law (one of the parent laws cited in Art. 1/21) takes effect, adding a state AI support/governance article (Art. 20) and higher penalties"
     }
   ],
+  "versions": [
+    {
+      "version": "Draft",
+      "date": "2023-04-11",
+      "kind": "draft",
+      "title": "Draft for public comment",
+      "summary": "CAC draft Measures for the Management of Generative AI Services.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Training-data and content requirements for providers"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "Security assessment and filing"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Final",
+      "date": "2023-07-13",
+      "kind": "release",
+      "title": "Interim Measures (seven departments)",
+      "summary": "Final interim measures; scope limited to services offered to the public in China, with added emphasis on development and inclusive, prudent supervision.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "revised",
+          "detail": "Limited to services provided to the public; R&D use excluded"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Development promotion and categorised, graded supervision"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Some draft obligations softened"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "Joint order of CAC, NDRC, MOE, MOST, MIIT, MPS, NRTA (2023), No. 15 (order number from compiler knowledge, not verified against fetched source)",
   "last_updated": "2023-07-13",

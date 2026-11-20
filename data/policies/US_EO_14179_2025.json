@@ -56,6 +56,19 @@
       "event": "America's AI Action Plan released pursuant to Sec. 4 (180-day target was ~2025-07-22)"
     }
   ],
+  "versions": [
+    {
+      "version": "90 FR 8741 (Jan. 31, 2025)",
+      "date": "2025-01-23",
+      "kind": "release",
+      "title": "90 FR 8741 (Jan. 31, 2025)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "90 FR 8741 (Jan. 31, 2025)",
   "last_updated": "2025-01-31",

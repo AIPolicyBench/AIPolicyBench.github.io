@@ -61,6 +61,19 @@
       "event": "Revised AI Basic Plan adopted by Cabinet"
     }
   ],
+  "versions": [
+    {
+      "version": "Act No. 53 of 2025 (unamended as of compilation)",
+      "date": "2025-06-04",
+      "kind": "release",
+      "title": "Act No. 53 of 2025 (unamended as of compilation)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://laws.e-gov.go.jp/law/507AC0000000053",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "Act No. 53 of 2025 (unamended as of compilation)",
   "last_updated": "2025-06-04",

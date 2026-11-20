@@ -52,6 +52,77 @@
       "event": "Preparedness team reportedly disbanded (press report; unverified); no Framework revision found"
     }
   ],
+  "versions": [
+    {
+      "version": "Beta",
+      "date": "2023-12-18",
+      "kind": "release",
+      "title": "Preparedness Framework (Beta)",
+      "summary": "Initial framework: tracked risk categories scored Low/Medium/High/Critical on a scorecard, with deployment and development gated on post-mitigation risk.",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "added",
+          "detail": "Tracked categories (cybersecurity, CBRN, persuasion, model autonomy) with four risk levels"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Deploy only at post-mitigation 'Medium' or below; develop further only at 'High' or below"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Preparedness team, Safety Advisory Group, leadership decision with board oversight"
+        },
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Scorecards maintained per frontier model"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "2",
+      "date": "2025-04-15",
+      "kind": "release",
+      "title": "Version 2",
+      "summary": "Simplified to High and Critical capability thresholds, with Safeguards Reports and a split between Tracked and Research Categories.",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "revised",
+          "detail": "Two thresholds (High, Critical); Tracked Categories narrowed to biological/chemical, cybersecurity, AI self-improvement"
+        },
+        {
+          "aspect": "risk_thresholds",
+          "change": "removed",
+          "detail": "Persuasion no longer a Tracked Category"
+        },
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "Research Categories (e.g. long-range autonomy, sandbagging) monitored without thresholds"
+        },
+        {
+          "aspect": "safeguards",
+          "change": "added",
+          "detail": "Capabilities Reports and Safeguards Reports reviewed by the Safety Advisory Group"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Framework may be adjusted if another developer releases a high-risk system without comparable safeguards"
+        }
+      ],
+      "source": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+      "current": true,
+      "note": "Compiled from knowledge of the published PDF; openai.com could not be fetched during compilation."
+    }
+  ],
   "expiration_date": null,
   "version": "Version 2 (last updated 15 April 2025)",
   "last_updated": "2025-04-15",

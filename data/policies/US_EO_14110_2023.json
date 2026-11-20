@@ -63,6 +63,47 @@
       "event": "EO 14179 ordered review and suspension/revision/rescission of actions taken pursuant to EO 14110"
     }
   ],
+  "versions": [
+    {
+      "version": "EO 14110",
+      "date": "2023-10-30",
+      "kind": "release",
+      "title": "Signed",
+      "summary": "Safe, Secure, and Trustworthy Development and Use of AI.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Reporting for dual-use foundation models"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Agency tasking incl. NIST guidance"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Revoked",
+      "date": "2025-01-20",
+      "kind": "repeal",
+      "title": "Revoked by EO 14148",
+      "summary": "Revoked; follow-on actions reviewed under EO 14179.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "removed",
+          "detail": "Order revoked"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": "2025-01-20",
   "version": "88 FR 75191 (Nov. 1, 2023), FR Doc. 2023-24283",
   "last_updated": "2023-11-01",

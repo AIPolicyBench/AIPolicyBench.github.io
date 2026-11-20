@@ -62,6 +62,52 @@
       "event": "AI Anthropomorphic Interaction Services Interim Measures take effect, Art. 18 of which requires those providers to fulfil AIGC labeling obligations"
     }
   ],
+  "versions": [
+    {
+      "version": "Draft",
+      "date": "2024-09-14",
+      "kind": "draft",
+      "title": "Draft for public comment",
+      "summary": "CAC draft measures on labelling AI-generated content.",
+      "changes": [
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Explicit and implicit labels"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Draft date from compiler knowledge."
+    },
+    {
+      "version": "Final",
+      "date": "2025-03-14",
+      "kind": "release",
+      "title": "Measures issued (CAC, MIIT, MPS, NRTA)",
+      "summary": "Final measures, with mandatory national standard GB 45438-2025; in force 1 Sep 2025.",
+      "changes": [
+        {
+          "aspect": "transparency",
+          "change": "revised",
+          "detail": "Explicit and implicit (metadata) labels"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Platform verification duties"
+        },
+        {
+          "aspect": "timeline",
+          "change": "added",
+          "detail": "Effective 2025-09-01"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "Guo Xin Ban Tong Zi [2025] No. 2 (国信办通字〔2025〕2号) (document number from compiler knowledge, not verified)",
   "last_updated": "2025-03-14",

@@ -55,6 +55,19 @@
       "event": "Adopted by the UNESCO General Conference at its 41st session"
     }
   ],
+  "versions": [
+    {
+      "version": "SHS/BIO/PI/2021/1 (document code from general knowledge; not verified)",
+      "date": "2021-11-23",
+      "kind": "release",
+      "title": "SHS/BIO/PI/2021/1 (document code from general knowledge; not verified)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "SHS/BIO/PI/2021/1 (document code from general knowledge; not verified)",
   "last_updated": "2021-11-23",

@@ -61,6 +61,19 @@
       "event": "FTC published a proposed policy statement on AI accuracy/output steering and preemption of state laws (Docket FTC-2026-0859; comments due 2026-07-31); final version not verified"
     }
   ],
+  "versions": [
+    {
+      "version": "90 FR 58499 (Dec. 16, 2025)",
+      "date": "2025-12-11",
+      "kind": "release",
+      "title": "90 FR 58499 (Dec. 16, 2025)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "90 FR 58499 (Dec. 16, 2025)",
   "last_updated": "2025-12-16",

@@ -51,6 +51,57 @@
       "event": "Approx. deadline (365 days) for implementing minimum risk-management practices for high-impact AI, or discontinuing non-compliant use"
     }
   ],
+  "versions": [
+    {
+      "version": "M-24-10",
+      "date": "2024-03-28",
+      "kind": "release",
+      "title": "OMB M-24-10",
+      "summary": "Implemented EO 14110 Sec. 10.1(b) for agency AI governance.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Minimum practices for rights- and safety-impacting AI"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Chief AI Officers"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "M-25-21",
+      "date": "2025-04-03",
+      "kind": "release",
+      "title": "OMB M-25-21",
+      "summary": "Rescinds and replaces M-24-10.",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "revised",
+          "detail": "'High-impact AI' replaces rights-/safety-impacting categories"
+        },
+        {
+          "aspect": "governance",
+          "change": "revised",
+          "detail": "CAIO role retained"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Minimum risk practices within 365 days"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "M-25-21 (April 3, 2025)",
   "last_updated": "2025-04-03",

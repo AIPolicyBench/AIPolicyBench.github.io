@@ -32,6 +32,7 @@
       ["binding", "Legally binding or voluntary", "true"],
       ["effective_date", "When it applies", "2024-08-01"],
       ["key_dates", "Phased application milestones", "2026-08-02: high-risk obligations"],
+      ["versions", "Evolution: every draft, release, amendment and repeal, with what changed by aspect", "Proposal 2021 → Regulation 2024 → Omnibus 2026"],
       ["expiration_date", "If applicable", "null"],
       ["version", "Policies change", "v2.1"],
       ["last_updated", "Helps detect outdated policy", "2026-01-15"],
@@ -246,6 +247,7 @@
       <p class="objective">${esc(p.objective || "")}</p>
       ${prov.notes ? `<p class="note"><strong>Compiler's notes:</strong> ${esc(prov.notes)}</p>` : ""}
       ${localeBlock(p)}
+      <section id="evolution"></section>
       <h2>Policy attributes</h2>
       <div class="groups">
         ${group("Identity", ["policy_id", "policy_name", "short_name", "policy_type", "source_uri", "issuing_authority"])}
@@ -268,6 +270,7 @@
       </div>
       <h2>Clauses (${arr(p.clauses).length})</h2>
       ${arr(p.clauses).map((c) => clauseCard(c, false)).join("")}`;
+    if (window.PolicyEvolution) window.PolicyEvolution.render(document.getElementById("evolution"), p);
     window.scrollTo(0, 0);
   }
 
@@ -365,6 +368,9 @@
         <dt>modality</dt><dd>MUST · MUST NOT · SHOULD · SHOULD NOT · MAY</dd>
         <dt>relation</dt><dd>overlaps_with · supersedes · superseded_by · specializes · implements · complements · amends · amended_by · conflicts_with</dd>
         <dt>ambiguity</dt><dd>low · medium · high</dd>
+        <dt>version kind</dt><dd>draft · release · amendment · repeal</dd>
+        <dt>change aspect</dt><dd>scope · definitions · risk_thresholds · obligations · safeguards · governance · transparency · enforcement · timeline</dd>
+        <dt>change type</dt><dd>added · revised · removed</dd>
       </dl>`;
   }
 

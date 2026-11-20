@@ -48,6 +48,52 @@
       "event": "Cal OES and Attorney General annual anonymized reporting begins (per secondary sources)"
     }
   ],
+  "versions": [
+    {
+      "version": "Introduced",
+      "date": "2025-01",
+      "kind": "draft",
+      "title": "Introduced",
+      "summary": "Introduced as a narrower bill (whistleblower protections, CalCompute).",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Whistleblower protections"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Month from compiler knowledge; not verified on leginfo."
+    },
+    {
+      "version": "Chapter 138",
+      "date": "2025-09-29",
+      "kind": "release",
+      "title": "Chaptered",
+      "summary": "Approved with frontier AI framework, transparency report and incident reporting duties.",
+      "changes": [
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Frontier AI frameworks and transparency reports"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Critical safety incident reporting"
+        },
+        {
+          "aspect": "timeline",
+          "change": "added",
+          "detail": "Operative 2026-01-01"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "Chapter 138, Statutes of 2025",
   "last_updated": "2025-09-29",

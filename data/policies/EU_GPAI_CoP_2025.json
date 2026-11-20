@@ -57,6 +57,106 @@
       "event": "Commission enforcement powers over GPAI providers apply under the AI Act"
     }
   ],
+  "versions": [
+    {
+      "version": "Draft 1",
+      "date": "2024-11-14",
+      "kind": "draft",
+      "title": "First draft",
+      "summary": "First draft prepared by independent chairs and vice-chairs with stakeholder working groups.",
+      "changes": [
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Documentation commitments"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Copyright commitments"
+        },
+        {
+          "aspect": "risk_thresholds",
+          "change": "added",
+          "detail": "Systemic-risk taxonomy and safety & security framework"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Draft 2",
+      "date": "2024-12-19",
+      "kind": "draft",
+      "title": "Second draft",
+      "summary": "Refined measures and key performance indicators after written feedback.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "More detailed measures and KPIs"
+        },
+        {
+          "aspect": "risk_thresholds",
+          "change": "revised",
+          "detail": "Taxonomy refined"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Draft 3",
+      "date": "2025-03-11",
+      "kind": "draft",
+      "title": "Third draft",
+      "summary": "Streamlined structure ahead of finalisation.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Streamlined commitments and measures"
+        },
+        {
+          "aspect": "transparency",
+          "change": "revised",
+          "detail": "Model documentation form introduced"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Final",
+      "date": "2025-07-10",
+      "kind": "release",
+      "title": "Final Code",
+      "summary": "Final Code in three chapters: Transparency, Copyright, Safety & Security.",
+      "changes": [
+        {
+          "aspect": "transparency",
+          "change": "revised",
+          "detail": "Transparency chapter with Model Documentation Form"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Copyright chapter finalised"
+        },
+        {
+          "aspect": "safeguards",
+          "change": "added",
+          "detail": "Safety & Security chapter for GPAI models with systemic risk"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "Final version, 10 July 2025",
   "last_updated": "2025-07-10",

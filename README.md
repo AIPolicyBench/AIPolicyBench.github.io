@@ -13,6 +13,10 @@ so it can later be mapped clause → risk → control.
 The *Visualize* tab shows how policies relate (network grouped by region, coloured by legal force),
 which use cases each region covers (heatmap) and when policies took effect (timeline).
 
+Each policy page has an *Evolution* section built from the record's `versions` list: a timeline of
+drafts, releases, amendments and repeals, and a matrix of what changed in each version (scope, thresholds,
+obligations, governance, transparency…). Select a version to see its summary and changes.
+
 The full field list is in [`data/SCHEMA.md`](data/SCHEMA.md) and on the site's *Schema* tab.
 
 ## Layout
@@ -20,6 +24,7 @@ The full field list is in [`data/SCHEMA.md`](data/SCHEMA.md) and on the site's *
 ```
 index.html, assets/        single-page app (no build step, no dependencies)
 assets/viz.js              Visualize tab: relationship network, use case × region heatmap, timeline
+assets/evolution.js        Policy page Evolution section: version timeline, change matrix, version details
 data/policies/<id>.json    one record per policy (source of truth)
 data/catalog.json          generated bundle the site loads
 scripts/build.py           validates records and regenerates catalog.json

@@ -59,6 +59,19 @@
       "event": "EU deposits instrument of approval/ratification (per secondary sources)"
     }
   ],
+  "versions": [
+    {
+      "version": "CETS No. 225",
+      "date": "2024-09-05",
+      "kind": "release",
+      "title": "CETS No. 225",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "CETS No. 225",
   "last_updated": "2024-09-05",

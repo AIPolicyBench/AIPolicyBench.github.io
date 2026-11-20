@@ -61,6 +61,52 @@
       "event": "Amended Cybersecurity Law (parent law) takes effect with new AI article (Art. 20) and higher penalties"
     }
   ],
+  "versions": [
+    {
+      "version": "Draft",
+      "date": "2021-08-27",
+      "kind": "draft",
+      "title": "Draft for public comment",
+      "summary": "CAC draft provisions on algorithmic recommendation.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Provider duties"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "Algorithm filing"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Draft date from compiler knowledge."
+    },
+    {
+      "version": "Final",
+      "date": "2022-01-04",
+      "kind": "release",
+      "title": "Order No. 9 (2021)",
+      "summary": "Final provisions published; in force 1 Mar 2022.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Final provider duties incl. user opt-out"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "revised",
+          "detail": "Filing system opens"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "CAC, MIIT, MPS, SAMR Order No. 9 (2021) (order number from compiler knowledge, not verified against fetched source)",
   "last_updated": "2022-01-04",

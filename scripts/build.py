@@ -19,7 +19,7 @@ POLICY_KEYS = [
     "policy_id", "policy_name", "short_name", "policy_type", "source_uri", "issuing_authority",
     "jurisdiction", "country_region", "language", "official_languages", "regulatory_regime",
     "geo_constraints", "industry_scope", "locale_context",
-    "status", "binding", "effective_date", "key_dates", "expiration_date", "version", "last_updated",
+    "status", "binding", "effective_date", "key_dates", "versions", "expiration_date", "version", "last_updated",
     "covered_entities", "covered_systems", "covered_activities", "exceptions", "conditions",
     "objective", "policy_domain", "principles",
     "parent_policy", "related_policies", "conflict_rule",
@@ -39,6 +39,11 @@ STATUSES = {"draft", "provisional", "enforceable", "superseded", "incomplete", "
             "proposed", "lapsed", "revoked"}
 MODALITIES = {"MUST", "MUST NOT", "SHOULD", "SHOULD NOT", "MAY"}
 AMBIGUITY = {"low", "medium", "high"}
+VERSION_KINDS = {"draft", "release", "amendment", "repeal"}
+ASPECTS = {"scope", "definitions", "risk_thresholds", "obligations", "safeguards", "governance",
+           "transparency", "enforcement", "timeline"}
+CHANGES = {"added", "revised", "removed"}
+VERSION_KEYS = ["version", "date", "kind", "title", "summary", "changes", "source", "current", "note"]
 DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 
 
@@ -58,6 +63,33 @@ def check(p: dict, fname: str) -> tuple[list[str], list[str]]:
         v = p.get(k)
         if v is not None and not (isinstance(v, str) and DATE_RE.match(v)):
             warns.append(f"{k} not ISO date: {v!r}")
+    vs = p.get("versions")
+    if isinstance(vs, list):
+        if not vs:
+            errs.append("versions must list at least one version")
+        dates = []
+        for i, ver in enumerate(vs):
+            vt = f"versions[{i}]"
+            for k in VERSION_KEYS:
+                if k not in ver:
+                    errs.append(f"{vt}: missing key {k}")
+            if not (isinstance(ver.get("date"), str) and DATE_RE.match(ver["date"])):
+                errs.append(f"{vt}: date not ISO: {ver.get('date')!r}")
+            else:
+                dates.append(ver["date"])
+            if ver.get("kind") not in VERSION_KINDS:
+                errs.append(f"{vt}: kind must be one of {sorted(VERSION_KINDS)}")
+            for c in ver.get("changes") or []:
+                if c.get("aspect") not in ASPECTS:
+                    errs.append(f"{vt}: unknown change aspect {c.get('aspect')!r}")
+                if c.get("change") not in CHANGES:
+                    errs.append(f"{vt}: unknown change type {c.get('change')!r}")
+        if dates != sorted(dates):
+            errs.append("versions must be in chronological order")
+        if sum(1 for ver in vs if ver.get("current") is True) != 1:
+            errs.append("exactly one version must have current: true")
+    elif "versions" in p:
+        errs.append("versions must be a list")
     lc = p.get("locale_context")
     if isinstance(lc, dict):
         for k in LOCALE_KEYS:

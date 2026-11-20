@@ -58,6 +58,52 @@
       "event": "Int. 919-2026 (AI oversight office within DCWP) introduced; pending, not enacted as of compilation (unverified on Legistar)"
     }
   ],
+  "versions": [
+    {
+      "version": "LL 144",
+      "date": "2021-12-11",
+      "kind": "release",
+      "title": "Local Law enacted",
+      "summary": "Bias audits and notices for automated employment decision tools.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Annual independent bias audit"
+        },
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Candidate notice"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Final rule",
+      "date": "2023-04-06",
+      "kind": "amendment",
+      "title": "DCWP final rules",
+      "summary": "Rules define terms and audit methodology; enforcement from 2023-07-05.",
+      "changes": [
+        {
+          "aspect": "definitions",
+          "change": "revised",
+          "detail": "AEDT definition narrowed"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Audit metrics specified"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "Local Law 144 of 2021; DCWP Notice of Adoption of Final Rule (April 2023)",
   "last_updated": "2023-04-06",

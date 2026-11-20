@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13",
+ "generated": "2026-11-20",
  "policy_count": 43,
  "clause_count": 230,
  "policies": [
@@ -79,6 +79,216 @@
     {
      "date": "2026-08-14",
      "event": "August 2026 Risk Report published; RSP page last updated"
+    }
+   ],
+   "versions": [
+    {
+     "version": "1.0",
+     "date": "2023-09-19",
+     "kind": "release",
+     "title": "Version 1.0",
+     "summary": "First Responsible Scaling Policy: introduces AI Safety Levels (ASL) with if-then commitments to pause scaling or deployment unless matching safeguards are in place.",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "added",
+       "detail": "ASL-1 to ASL-3 capability levels defined; ASL-4 to be defined later"
+      },
+      {
+       "aspect": "safeguards",
+       "change": "added",
+       "detail": "Containment (security) and deployment measures required per ASL"
+      },
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Commitment to pause training/deployment if safeguards lag capabilities"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Responsible Scaling Officer role and board oversight of policy changes"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "2.0",
+     "date": "2024-10-15",
+     "kind": "release",
+     "title": "Version 2.0",
+     "summary": "Restructured around Capability Thresholds and Required Safeguards, with capability and safeguards assessments documented before deployment.",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "Capability Thresholds (e.g. CBRN, autonomous AI R&D) replace fixed ASL capability lists"
+      },
+      {
+       "aspect": "safeguards",
+       "change": "revised",
+       "detail": "ASL-3 Deployment and Security Standards specified as Required Safeguards"
+      },
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Capability Reports and Safeguards Reports before deployment decisions"
+      },
+      {
+       "aspect": "governance",
+       "change": "revised",
+       "detail": "Expanded internal governance and noncompliance reporting procedures"
+      }
+     ],
+     "source": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "2.1",
+     "date": "2025-03-31",
+     "kind": "amendment",
+     "title": "Version 2.1",
+     "summary": "Point release clarifying capability thresholds that would require stronger safeguards.",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "Clarifies/adds thresholds requiring safeguards beyond ASL-3"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": "Detail of the change summarised from the issuer's update log; not verified against the policy text."
+    },
+    {
+     "version": "2.2",
+     "date": "2025-05-14",
+     "kind": "amendment",
+     "title": "Version 2.2",
+     "summary": "Point release amending the scope of the ASL-3 Security Standard.",
+     "changes": [
+      {
+       "aspect": "safeguards",
+       "change": "revised",
+       "detail": "Adjusts the ASL-3 Security Standard's scope"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": "Detail of the change summarised from the issuer's update log; not verified against the policy text."
+    },
+    {
+     "version": "3.0",
+     "date": "2026-02-24",
+     "kind": "release",
+     "title": "Version 3.0",
+     "summary": "Comprehensive rewrite: adds a public Frontier Safety Roadmap and periodic Risk Reports with external review, alongside unilateral mitigations and recommended industry-wide mitigations.",
+     "changes": [
+      {
+       "aspect": "transparency",
+       "change": "added",
+       "detail": "Periodic public Risk Reports"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Frontier Safety Roadmap; external review of Risk Reports"
+      },
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Distinguishes unilateral mitigations from recommended industry-wide mitigations"
+      },
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "Thresholds restated within the new structure"
+      }
+     ],
+     "source": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "3.1",
+     "date": "2026-04-02",
+     "kind": "amendment",
+     "title": "Version 3.1",
+     "summary": "Clarifies the AI R&D threshold and Anthropic's freedom to pause.",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "AI R&D threshold clarified"
+      },
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Freedom to pause made explicit"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "3.2",
+     "date": "2026-04-29",
+     "kind": "amendment",
+     "title": "Version 3.2",
+     "summary": "The Long-Term Benefit Trust (LTBT) may request external review of Risk Reports.",
+     "changes": [
+      {
+       "aspect": "governance",
+       "change": "revised",
+       "detail": "LTBT may request external review of Risk Reports"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "3.3",
+     "date": "2026-05-26",
+     "kind": "amendment",
+     "title": "Version 3.3",
+     "summary": "Revised chemical/biological weapons threshold.",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "Chem/bio weapons threshold revised"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "3.4",
+     "date": "2026-07-08",
+     "kind": "amendment",
+     "title": "Version 3.4",
+     "summary": "Revised automated R&D threshold; changes to how Risk Reports are shared and redacted.",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "Automated AI R&D threshold revised"
+      },
+      {
+       "aspect": "transparency",
+       "change": "revised",
+       "detail": "Risk Report sharing and redaction rules changed"
+      }
+     ],
+     "source": "https://www.anthropic.com/responsible-scaling-policy",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -408,6 +618,47 @@
      "event": "Status per Câmara open-data API: 'Aguardando Parecer' — no rapporteur's opinion or vote yet; if amended by the Câmara it returns to the Senate"
     }
    ],
+   "versions": [
+    {
+     "version": "Introduced",
+     "date": "2023-05-03",
+     "kind": "draft",
+     "title": "Bill introduced",
+     "summary": "Introduced in the Federal Senate.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Risk-based framework"
+      },
+      {
+       "aspect": "enforcement",
+       "change": "added",
+       "detail": "Sanctions"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Senate text",
+     "date": "2024-12-10",
+     "kind": "draft",
+     "title": "Senate substitute approved",
+     "summary": "Senate approves the substitute text and sends it to the Chamber of Deputies.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Substitute text (rapporteur Sen. Eduardo Gomes)"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "Text approved by the Federal Senate on 10 December 2024 (sent to the Câmara as Ofício nº 235/2025)",
    "last_updated": "2024-12-10",
@@ -696,6 +947,69 @@
      "event": "Privacy portion reintroduced separately as Bill C-36 (reported); no AI-specific successor bill tabled as of latest sources"
     }
    ],
+   "versions": [
+    {
+     "version": "First reading",
+     "date": "2022-06-16",
+     "kind": "draft",
+     "title": "First reading",
+     "summary": "Bill C-27 introduced with AIDA as Part 3.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "High-impact system duties"
+      },
+      {
+       "aspect": "enforcement",
+       "change": "added",
+       "detail": "AI and Data Commissioner"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Proposed amendments",
+     "date": "2023-11",
+     "kind": "draft",
+     "title": "Ministerial amendments proposed",
+     "summary": "Proposed amendments submitted to committee (not adopted).",
+     "changes": [
+      {
+       "aspect": "definitions",
+       "change": "revised",
+       "detail": "Defined classes of high-impact systems"
+      },
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "General-purpose system duties"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Died",
+     "date": "2025-01-06",
+     "kind": "repeal",
+     "title": "Died on the Order Paper",
+     "summary": "Parliament prorogued; bill died at committee stage.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "removed",
+       "detail": "Bill lapsed"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": "2025-01-06",
    "version": "First reading text, 16 June 2022 (with unadopted ministerial amendments proposed in 2023)",
    "last_updated": "2022-06-16",
@@ -967,6 +1281,52 @@
     {
      "date": "2027-01-01",
      "event": "Cal OES and Attorney General annual anonymized reporting begins (per secondary sources)"
+    }
+   ],
+   "versions": [
+    {
+     "version": "Introduced",
+     "date": "2025-01",
+     "kind": "draft",
+     "title": "Introduced",
+     "summary": "Introduced as a narrower bill (whistleblower protections, CalCompute).",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Whistleblower protections"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": "Month from compiler knowledge; not verified on leginfo."
+    },
+    {
+     "version": "Chapter 138",
+     "date": "2025-09-29",
+     "kind": "release",
+     "title": "Chaptered",
+     "summary": "Approved with frontier AI framework, transparency report and incident reporting duties.",
+     "changes": [
+      {
+       "aspect": "transparency",
+       "change": "added",
+       "detail": "Frontier AI frameworks and transparency reports"
+      },
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Critical safety incident reporting"
+      },
+      {
+       "aspect": "timeline",
+       "change": "added",
+       "detail": "Operative 2026-01-01"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -1275,6 +1635,42 @@
      "event": "canada.ca page reportedly shows 'Date modified' 2026-09-24 (search result only; nature of change unverified)"
     }
    ],
+   "versions": [
+    {
+     "version": "1st",
+     "date": "2023-09",
+     "kind": "release",
+     "title": "First version",
+     "summary": "Guide on the use of generative AI by federal institutions.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "FASTER principles for use"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "2nd",
+     "date": "2024-02-12",
+     "kind": "release",
+     "title": "Second version",
+     "summary": "Updated with stakeholder and expert feedback.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Guidance revised"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "Second version (February 2024)",
    "last_updated": "2024-02-12",
@@ -1571,6 +1967,19 @@
      "event": "Federal Chancellery (Legal Section) document 'Rechtlicher Rahmen für die Nutzung von KI in der Bundesverwaltung' dated 25 Sept 2026 cites the fact sheet (search result only; relationship not verified)"
     }
    ],
+   "versions": [
+    {
+     "version": "V1.2, 18 January 2024",
+     "date": "2024-01-18",
+     "kind": "release",
+     "title": "V1.2, 18 January 2024",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.bk.admin.ch/dam/de/sd-web/8Qmy4Jdh7Z6H/Merkblatt-zur-Verwendung-von-generativen-KI-Werkzeugen-in-der-Bundesverwaltung.pdf",
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "V1.2, 18 January 2024",
    "last_updated": "2024-01-18",
@@ -1801,6 +2210,19 @@
     {
      "date": "2024-12-18",
      "event": "Guidance 08/2024 published by FINMA"
+    }
+   ],
+   "versions": [
+    {
+     "version": "Guidance 08/2024, 18 December 2024",
+     "date": "2024-12-18",
+     "kind": "release",
+     "title": "Guidance 08/2024, 18 December 2024",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.finma.ch/en/news/2024/12/20241218-mm-finma-am-08-24/",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -2104,6 +2526,52 @@
      "event": "AI Anthropomorphic Interaction Services Interim Measures take effect, Art. 18 of which requires those providers to fulfil AIGC labeling obligations"
     }
    ],
+   "versions": [
+    {
+     "version": "Draft",
+     "date": "2024-09-14",
+     "kind": "draft",
+     "title": "Draft for public comment",
+     "summary": "CAC draft measures on labelling AI-generated content.",
+     "changes": [
+      {
+       "aspect": "transparency",
+       "change": "added",
+       "detail": "Explicit and implicit labels"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": "Draft date from compiler knowledge."
+    },
+    {
+     "version": "Final",
+     "date": "2025-03-14",
+     "kind": "release",
+     "title": "Measures issued (CAC, MIIT, MPS, NRTA)",
+     "summary": "Final measures, with mandatory national standard GB 45438-2025; in force 1 Sep 2025.",
+     "changes": [
+      {
+       "aspect": "transparency",
+       "change": "revised",
+       "detail": "Explicit and implicit (metadata) labels"
+      },
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Platform verification duties"
+      },
+      {
+       "aspect": "timeline",
+       "change": "added",
+       "detail": "Effective 2025-09-01"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "Guo Xin Ban Tong Zi [2025] No. 2 (国信办通字〔2025〕2号) (document number from compiler knowledge, not verified)",
    "last_updated": "2025-03-14",
@@ -2402,6 +2870,52 @@
     {
      "date": "2026-01-01",
      "event": "Amended Cybersecurity Law (parent law) takes effect with new AI article (Art. 20) and higher penalties"
+    }
+   ],
+   "versions": [
+    {
+     "version": "Draft",
+     "date": "2021-08-27",
+     "kind": "draft",
+     "title": "Draft for public comment",
+     "summary": "CAC draft provisions on algorithmic recommendation.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Provider duties"
+      },
+      {
+       "aspect": "enforcement",
+       "change": "added",
+       "detail": "Algorithm filing"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": "Draft date from compiler knowledge."
+    },
+    {
+     "version": "Final",
+     "date": "2022-01-04",
+     "kind": "release",
+     "title": "Order No. 9 (2021)",
+     "summary": "Final provisions published; in force 1 Mar 2022.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Final provider duties incl. user opt-out"
+      },
+      {
+       "aspect": "enforcement",
+       "change": "revised",
+       "detail": "Filing system opens"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -2719,6 +3233,52 @@
      "event": "AIGC Labeling Measures and GB 45438-2025 take effect, detailing the labeling obligations of Arts. 16-18"
     }
    ],
+   "versions": [
+    {
+     "version": "Draft",
+     "date": "2022-01-28",
+     "kind": "draft",
+     "title": "Draft for public comment",
+     "summary": "CAC draft provisions on deep synthesis services.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Provider and user duties"
+      },
+      {
+       "aspect": "transparency",
+       "change": "added",
+       "detail": "Labelling of synthesised content"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": "Draft date from compiler knowledge."
+    },
+    {
+     "version": "Final",
+     "date": "2022-12-11",
+     "kind": "release",
+     "title": "Order No. 12 (2022)",
+     "summary": "Final provisions published; in force 10 Jan 2023.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Final provider duties"
+      },
+      {
+       "aspect": "transparency",
+       "change": "revised",
+       "detail": "Labelling rules (Arts. 16-18)"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "CAC, MIIT, MPS Order No. 12 (2022) (order number from compiler knowledge, not verified against fetched source)",
    "last_updated": "2022-12-11",
@@ -3029,6 +3589,57 @@
     {
      "date": "2026-01-01",
      "event": "Amended Cybersecurity Law (one of the parent laws cited in Art. 1/21) takes effect, adding a state AI support/governance article (Art. 20) and higher penalties"
+    }
+   ],
+   "versions": [
+    {
+     "version": "Draft",
+     "date": "2023-04-11",
+     "kind": "draft",
+     "title": "Draft for public comment",
+     "summary": "CAC draft Measures for the Management of Generative AI Services.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Training-data and content requirements for providers"
+      },
+      {
+       "aspect": "enforcement",
+       "change": "added",
+       "detail": "Security assessment and filing"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Final",
+     "date": "2023-07-13",
+     "kind": "release",
+     "title": "Interim Measures (seven departments)",
+     "summary": "Final interim measures; scope limited to services offered to the public in China, with added emphasis on development and inclusive, prudent supervision.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "revised",
+       "detail": "Limited to services provided to the public; R&D use excluded"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Development promotion and categorised, graded supervision"
+      },
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Some draft obligations softened"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -3380,6 +3991,74 @@
      "event": "SB 26-189 replacement framework applies to consequential decisions made on or after this date (subject to AG rulemaking)"
     }
    ],
+   "versions": [
+    {
+     "version": "SB 24-205",
+     "date": "2024-05-17",
+     "kind": "release",
+     "title": "Enacted",
+     "summary": "Colorado AI Act signed: duties for developers and deployers of high-risk AI systems to avoid algorithmic discrimination.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Developer and deployer duties; impact assessments"
+      },
+      {
+       "aspect": "enforcement",
+       "change": "added",
+       "detail": "Attorney General enforcement"
+      },
+      {
+       "aspect": "timeline",
+       "change": "added",
+       "detail": "Operative 2026-02-01"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "SB 25B-004",
+     "date": "2025-08-28",
+     "kind": "amendment",
+     "title": "Delayed by SB 25B-004",
+     "summary": "Special-session bill delays the operative date.",
+     "changes": [
+      {
+       "aspect": "timeline",
+       "change": "revised",
+       "detail": "Operative date moved to 2026-06-30"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "SB 26-189",
+     "date": "2026-05-14",
+     "kind": "repeal",
+     "title": "Repealed and replaced by SB 26-189",
+     "summary": "Replaced by an automated decision-making technology framework applying from 2027.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "revised",
+       "detail": "Replaced by automated decision-making technology framework"
+      },
+      {
+       "aspect": "timeline",
+       "change": "revised",
+       "detail": "Replacement applies from 2027-01-01"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": "Signing date per most secondary sources; one reports 2026-05-20."
+    }
+   ],
    "expiration_date": null,
    "version": "SB 24-205 as enacted 2024 (C.R.S. 6-1-1701 to 6-1-1707), as amended by SB 25B-004; repealed and replaced by SB 26-189",
    "last_updated": "2026-05-14",
@@ -3685,6 +4364,19 @@
     {
      "date": "2026-05-15",
      "event": "EU deposits instrument of approval/ratification (per secondary sources)"
+    }
+   ],
+   "versions": [
+    {
+     "version": "CETS No. 225",
+     "date": "2024-09-05",
+     "kind": "release",
+     "title": "CETS No. 225",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=225",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -4079,6 +4771,138 @@
      "event": "Per Omnibus (secondary sources): Annex I (product-embedded) high-risk obligations apply (deferred from 2027-08-02)"
     }
    ],
+   "versions": [
+    {
+     "version": "Proposal",
+     "date": "2021-04-21",
+     "kind": "draft",
+     "title": "Commission proposal COM(2021) 206",
+     "summary": "Commission proposes a horizontal, risk-based regulation: prohibited practices, high-risk systems and transparency duties.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "Risk tiers: unacceptable, high, limited, minimal"
+      },
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Conformity assessment and requirements for high-risk systems"
+      },
+      {
+       "aspect": "enforcement",
+       "change": "added",
+       "detail": "Penalties and national market surveillance"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Council GA",
+     "date": "2022-12-06",
+     "kind": "draft",
+     "title": "Council general approach",
+     "summary": "Member States' negotiating position.",
+     "changes": [
+      {
+       "aspect": "definitions",
+       "change": "revised",
+       "detail": "Narrower AI system definition"
+      },
+      {
+       "aspect": "scope",
+       "change": "revised",
+       "detail": "National security exclusion; adjustments to high-risk list"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "EP position",
+     "date": "2023-06-14",
+     "kind": "draft",
+     "title": "European Parliament position",
+     "summary": "Parliament's negotiating position, adding rules for foundation models.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "Obligations for foundation models / generative AI"
+      },
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Fundamental rights impact assessment"
+      },
+      {
+       "aspect": "scope",
+       "change": "revised",
+       "detail": "Expanded prohibitions (e.g. real-time remote biometric identification)"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "2024/1689",
+     "date": "2024-07-12",
+     "kind": "release",
+     "title": "Regulation (EU) 2024/1689 (published)",
+     "summary": "Final text after trilogue agreement (Dec 2023); entry into force 1 Aug 2024 with phased application 2025-2027.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "General-purpose AI model obligations incl. systemic-risk tier"
+      },
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Fundamental rights impact assessment for certain deployers"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "AI Office, AI Board, scientific panel"
+      },
+      {
+       "aspect": "timeline",
+       "change": "added",
+       "detail": "Phased application: Feb 2025, Aug 2025, Aug 2026, Aug 2027"
+      }
+     ],
+     "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Omnibus",
+     "date": "2026-07-24",
+     "kind": "amendment",
+     "title": "Amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+     "summary": "Defers high-risk application dates and adds new prohibitions.",
+     "changes": [
+      {
+       "aspect": "timeline",
+       "change": "revised",
+       "detail": "Annex III high-risk obligations deferred to Dec 2027; Annex I to Aug 2028"
+      },
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "New Art. 5 prohibitions (AI-generated non-consensual intimate imagery and CSAM)"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": "Per secondary sources; not verified on EUR-Lex."
+    }
+   ],
    "expiration_date": null,
    "version": "OJ L, 2024/1689, 12.7.2024; as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
    "last_updated": "2026-07-24",
@@ -4411,6 +5235,106 @@
      "event": "Commission enforcement powers over GPAI providers apply under the AI Act"
     }
    ],
+   "versions": [
+    {
+     "version": "Draft 1",
+     "date": "2024-11-14",
+     "kind": "draft",
+     "title": "First draft",
+     "summary": "First draft prepared by independent chairs and vice-chairs with stakeholder working groups.",
+     "changes": [
+      {
+       "aspect": "transparency",
+       "change": "added",
+       "detail": "Documentation commitments"
+      },
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Copyright commitments"
+      },
+      {
+       "aspect": "risk_thresholds",
+       "change": "added",
+       "detail": "Systemic-risk taxonomy and safety & security framework"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Draft 2",
+     "date": "2024-12-19",
+     "kind": "draft",
+     "title": "Second draft",
+     "summary": "Refined measures and key performance indicators after written feedback.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "More detailed measures and KPIs"
+      },
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "Taxonomy refined"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Draft 3",
+     "date": "2025-03-11",
+     "kind": "draft",
+     "title": "Third draft",
+     "summary": "Streamlined structure ahead of finalisation.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Streamlined commitments and measures"
+      },
+      {
+       "aspect": "transparency",
+       "change": "revised",
+       "detail": "Model documentation form introduced"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Final",
+     "date": "2025-07-10",
+     "kind": "release",
+     "title": "Final Code",
+     "summary": "Final Code in three chapters: Transparency, Copyright, Safety & Security.",
+     "changes": [
+      {
+       "aspect": "transparency",
+       "change": "revised",
+       "detail": "Transparency chapter with Model Documentation Form"
+      },
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Copyright chapter finalised"
+      },
+      {
+       "aspect": "safeguards",
+       "change": "added",
+       "detail": "Safety & Security chapter for GPAI models with systemic risk"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "Final version, 10 July 2025",
    "last_updated": "2025-07-10",
@@ -4704,6 +5628,19 @@
      "event": "Published as part of FS-ISAC's series of AI risk white papers ('Illustrative for Adaptation')"
     }
    ],
+   "versions": [
+    {
+     "version": "September 2023 (Illustrative for Adaptation)",
+     "date": "2023-09",
+     "kind": "release",
+     "title": "September 2023 (Illustrative for Adaptation)",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.fsisac.com/hubfs/Knowledge/FrameworkOfAnAcceptableUsePolicyForExternalGenerativeAI.pdf",
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "September 2023 (Illustrative for Adaptation)",
    "last_updated": "2023-09",
@@ -4930,6 +5867,19 @@
     {
      "date": "2025-02-07",
      "event": "OECD launches the Hiroshima AI Process Reporting Framework for voluntary reporting against the Code"
+    }
+   ],
+   "versions": [
+    {
+     "version": "30 October 2023",
+     "date": "2023-10-30",
+     "kind": "release",
+     "title": "30 October 2023",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.mofa.go.jp/files/100573473.pdf",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -5258,6 +6208,74 @@
      "event": "Council agrees negotiating mandate on Digital Omnibus GDPR amendments (per secondary sources); Parliament position pending; not adopted"
     }
    ],
+   "versions": [
+    {
+     "version": "Directive 95/46/EC",
+     "date": "1995-10-24",
+     "kind": "release",
+     "title": "Data Protection Directive",
+     "summary": "Predecessor directive.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Data protection principles"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "2016/679",
+     "date": "2016-04-27",
+     "kind": "release",
+     "title": "GDPR adopted",
+     "summary": "Regulation adopted; applies from 25 May 2018.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Directly applicable regulation"
+      },
+      {
+       "aspect": "enforcement",
+       "change": "revised",
+       "detail": "Fines up to 4% of turnover"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "European Data Protection Board"
+      }
+     ],
+     "source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+     "current": true,
+     "note": null
+    },
+    {
+     "version": "Omnibus (pending)",
+     "date": "2025-11-19",
+     "kind": "draft",
+     "title": "Digital Omnibus proposal",
+     "summary": "Commission proposes targeted amendments; not adopted.",
+     "changes": [
+      {
+       "aspect": "definitions",
+       "change": "revised",
+       "detail": "Proposed amendments"
+      },
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Proposed amendments"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": "Pending: Council mandate 2026-10-21; Parliament position pending."
+    }
+   ],
    "expiration_date": null,
    "version": "OJ L 119, 4.5.2016, p. 1 (with corrigenda)",
    "last_updated": "2016-05-04",
@@ -5569,6 +6587,57 @@
      "event": "Revised AI Principles published (Bold innovation; Responsible development and deployment; Collaborative progress, together), removing the 2018 list of applications Google would not pursue"
     }
    ],
+   "versions": [
+    {
+     "version": "2018",
+     "date": "2018-06-07",
+     "kind": "release",
+     "title": "Original AI Principles",
+     "summary": "Seven objectives for AI applications plus a list of 'AI applications we will not pursue'.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Seven objectives (socially beneficial, avoid unfair bias, safety, accountability, privacy, scientific excellence, appropriate uses)"
+      },
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "Applications Google will not pursue, incl. weapons and surveillance violating international norms"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "2025",
+     "date": "2025-02-04",
+     "kind": "release",
+     "title": "Revised AI Principles",
+     "summary": "Restructured around three principles (Bold innovation; Responsible development and deployment; Collaborative progress, together).",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Three principles replace the seven objectives"
+      },
+      {
+       "aspect": "scope",
+       "change": "removed",
+       "detail": "'Applications we will not pursue' list removed"
+      },
+      {
+       "aspect": "governance",
+       "change": "revised",
+       "detail": "Emphasis on human oversight, due diligence and alignment with international law and human rights"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "Revised version, February 2025",
    "last_updated": "2025-02-04",
@@ -5827,6 +6896,19 @@
     {
      "date": "2025-03-31",
      "event": "Published by PCPD (document dated March 2025)"
+    }
+   ],
+   "versions": [
+    {
+     "version": "March 2025",
+     "date": "2025-03-31",
+     "kind": "release",
+     "title": "March 2025",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.pcpd.org.hk/english/resources_centre/publications/files/guidelines_ai_employees.pdf",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -6127,6 +7209,19 @@
      "event": "IDHR temporarily withdraws proposed rules; no replacement rules adopted as of Sept 2026 (per secondary sources)"
     }
    ],
+   "versions": [
+    {
+     "version": "Public Act 103-0804",
+     "date": "2026-01-01",
+     "kind": "release",
+     "title": "Public Act 103-0804",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=103-0804",
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "Public Act 103-0804",
    "last_updated": "2024-08-09",
@@ -6329,6 +7424,19 @@
     {
      "date": "2026-02-10",
      "event": "Related: IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules 2026 on synthetically generated information notified (in force 2026-02-20) - separate binding instrument"
+    }
+   ],
+   "versions": [
+    {
+     "version": "November 2025",
+     "date": "2025-11-05",
+     "kind": "release",
+     "title": "November 2025",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://indiaai.gov.in/",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -6595,6 +7703,19 @@
      "event": "ISO/IEC 23894:2023 (first edition) published"
     }
    ],
+   "versions": [
+    {
+     "version": "First edition, 2023-02",
+     "date": "2023-02",
+     "kind": "release",
+     "title": "First edition, 2023-02",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.iso.org/standard/77304.html",
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "First edition, 2023-02",
    "last_updated": "2023-02",
@@ -6858,6 +7979,19 @@
     {
      "date": "2026-03-13",
      "event": "Reported CEN approval of EN ISO/IEC 42001:2026 (European adoption) — secondary source, unverified"
+    }
+   ],
+   "versions": [
+    {
+     "version": "First edition, 2023-12",
+     "date": "2023-12",
+     "kind": "release",
+     "title": "First edition, 2023-12",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.iso.org/standard/81230.html",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -7137,6 +8271,91 @@
     {
      "date": "2026-10-30",
      "event": "MIC study materials discuss a further update (consideration stage, not adopted)"
+    }
+   ],
+   "versions": [
+    {
+     "version": "1.0",
+     "date": "2024-04-19",
+     "kind": "release",
+     "title": "Version 1.0",
+     "summary": "Integrates earlier MIC and METI guidelines into one set for developers, providers and business users.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "Three actor categories: developers, providers, business users"
+      },
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Common guiding principles"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "1.01",
+     "date": "2024-11",
+     "kind": "amendment",
+     "title": "Version 1.01",
+     "summary": "Minor update.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Minor revisions"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "1.1",
+     "date": "2025-03-28",
+     "kind": "amendment",
+     "title": "Version 1.1",
+     "summary": "Update.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Revisions"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "1.2",
+     "date": "2026-03-31",
+     "kind": "release",
+     "title": "Version 1.2",
+     "summary": "Adds AI agents and physical AI; revises risk-based approach and actor categories.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "AI agents and physical AI"
+      },
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "Risk-based approach revised"
+      },
+      {
+       "aspect": "scope",
+       "change": "revised",
+       "detail": "Actor categories revised"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -7435,6 +8654,19 @@
     {
      "date": "2026-07-14",
      "event": "Revised AI Basic Plan adopted by Cabinet"
+    }
+   ],
+   "versions": [
+    {
+     "version": "Act No. 53 of 2025 (unamended as of compilation)",
+     "date": "2025-06-04",
+     "kind": "release",
+     "title": "Act No. 53 of 2025 (unamended as of compilation)",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://laws.e-gov.go.jp/law/507AC0000000053",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -7755,6 +8987,91 @@
      "event": "Law No. 22076 amendments enter into force (pending as of 2026-11-13)"
     }
    ],
+   "versions": [
+    {
+     "version": "Law 20676",
+     "date": "2025-01-21",
+     "kind": "release",
+     "title": "Promulgated",
+     "summary": "AI Basic Act promulgated; in force one year later.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "High-impact AI and generative AI duties"
+      },
+      {
+       "aspect": "transparency",
+       "change": "added",
+       "detail": "Notice and labelling for generative AI"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "National AI Committee; AI Safety Institute"
+      },
+      {
+       "aspect": "timeline",
+       "change": "added",
+       "detail": "In force 2026-01-22"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Law 21065",
+     "date": "2025-10-01",
+     "kind": "amendment",
+     "title": "Consequential amendment",
+     "summary": "Government Organization Act amendment.",
+     "changes": [
+      {
+       "aspect": "governance",
+       "change": "revised",
+       "detail": "'Statistics Korea' renamed 'National Data Agency' in Art. 38(1)"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Law 21311",
+     "date": "2026-01-20",
+     "kind": "amendment",
+     "title": "Partial amendment",
+     "summary": "Partial amendment in force 2026-01-22 (some provisions later).",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Provisions incl. Art. 3(5), 17-2, 18, 22-3 revised"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Law 22076",
+     "date": "2026-10-20",
+     "kind": "amendment",
+     "title": "Partial amendment",
+     "summary": "Adds Art. 15-2 on an AI training-data integrated provision system; in force 2027-04-21.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "Art. 15-2 training-data integrated provision system"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "Law No. 20676 (2025-01-21), as amended by Law Nos. 21065, 21311 and 22076 (last promulgated 2026-10-20)",
    "last_updated": "2026-10-20",
@@ -8055,6 +9372,52 @@
     {
      "date": "2022-06",
      "event": "Version 2 General Requirements published externally (with blog 'Microsoft's framework for building AI systems responsibly')"
+    }
+   ],
+   "versions": [
+    {
+     "version": "v1",
+     "date": "2019",
+     "kind": "release",
+     "title": "Responsible AI Standard v1 (internal)",
+     "summary": "First internal Responsible AI Standard; not published externally.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Internal requirements operationalising Microsoft's AI principles"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": "Internal document; content not publicly available. Year from the record's relationship field."
+    },
+    {
+     "version": "v2",
+     "date": "2022-06",
+     "kind": "release",
+     "title": "Responsible AI Standard v2",
+     "summary": "Published externally: six principles broken into goals (accountability, transparency, fairness, reliability & safety, privacy & security, inclusiveness) with concrete requirements.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Goals A1-A5, T1-T3, F1-F3, RS1-RS3, PS1-PS2, I1 with requirements"
+      },
+      {
+       "aspect": "transparency",
+       "change": "added",
+       "detail": "First external publication of the Standard"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Impact assessments and sensitive-use review"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -8365,6 +9728,52 @@
      "event": "America's AI Action Plan directs revision of the AI RMF; secondary sources report a related revision of AI 600-1 may follow, not published as of Nov 2026"
     }
    ],
+   "versions": [
+    {
+     "version": "ipd",
+     "date": "2024-04-29",
+     "kind": "draft",
+     "title": "Initial public draft",
+     "summary": "Draft Generative AI Profile released for comment.",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "added",
+       "detail": "GAI-specific risk list"
+      },
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Suggested actions mapped to AI RMF"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Final",
+     "date": "2024-07-26",
+     "kind": "release",
+     "title": "NIST AI 600-1",
+     "summary": "Final Generative AI Profile (12 risks, suggested actions).",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "12 GAI risks"
+      },
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Suggested actions refined"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "NIST AI 600-1, July 2024",
    "last_updated": "2024-07-26",
@@ -8669,6 +10078,74 @@
     {
      "date": "2025-07",
      "event": "White House 'America's AI Action Plan' directs NIST to revise the AI RMF (incl. removing references to misinformation, DEI and climate change); NIST page states revision underway, no draft published as of Nov 2026"
+    }
+   ],
+   "versions": [
+    {
+     "version": "Draft 1",
+     "date": "2022-03-17",
+     "kind": "draft",
+     "title": "Initial draft",
+     "summary": "First public draft of the AI RMF for comment.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Map, Measure, Manage functions"
+      },
+      {
+       "aspect": "definitions",
+       "change": "added",
+       "detail": "Characteristics of trustworthy AI"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Draft 2",
+     "date": "2022-08-18",
+     "kind": "draft",
+     "title": "Second draft",
+     "summary": "Second draft with draft Playbook.",
+     "changes": [
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Govern function added as a cross-cutting function"
+      },
+      {
+       "aspect": "definitions",
+       "change": "revised",
+       "detail": "Trustworthiness characteristics revised"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "1.0",
+     "date": "2023-01-26",
+     "kind": "release",
+     "title": "AI RMF 1.0 (NIST AI 100-1)",
+     "summary": "Final framework released with the companion Playbook.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Four functions: Govern, Map, Measure, Manage"
+      },
+      {
+       "aspect": "definitions",
+       "change": "revised",
+       "detail": "Seven trustworthiness characteristics"
+      }
+     ],
+     "source": "https://doi.org/10.6028/NIST.AI.100-1",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -9005,6 +10482,52 @@
      "event": "Int. 919-2026 (AI oversight office within DCWP) introduced; pending, not enacted as of compilation (unverified on Legistar)"
     }
    ],
+   "versions": [
+    {
+     "version": "LL 144",
+     "date": "2021-12-11",
+     "kind": "release",
+     "title": "Local Law enacted",
+     "summary": "Bias audits and notices for automated employment decision tools.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Annual independent bias audit"
+      },
+      {
+       "aspect": "transparency",
+       "change": "added",
+       "detail": "Candidate notice"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Final rule",
+     "date": "2023-04-06",
+     "kind": "amendment",
+     "title": "DCWP final rules",
+     "summary": "Rules define terms and audit methodology; enforcement from 2023-07-05.",
+     "changes": [
+      {
+       "aspect": "definitions",
+       "change": "revised",
+       "detail": "AEDT definition narrowed"
+      },
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Audit metrics specified"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "Local Law 144 of 2021; DCWP Notice of Adoption of Final Rule (April 2023)",
    "last_updated": "2023-04-06",
@@ -9276,6 +10799,69 @@
      "event": "Council adopts revised Recommendation (updated principles incl. safety, information integrity, rule of law)"
     }
    ],
+   "versions": [
+    {
+     "version": "2019",
+     "date": "2019-05-22",
+     "kind": "release",
+     "title": "Recommendation adopted",
+     "summary": "Five values-based principles and five recommendations to governments.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Five principles and five policy recommendations"
+      },
+      {
+       "aspect": "definitions",
+       "change": "added",
+       "detail": "AI system definition"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "2023 def.",
+     "date": "2023-11-08",
+     "kind": "amendment",
+     "title": "AI system definition revised",
+     "summary": "Council updates the definition of 'AI system'.",
+     "changes": [
+      {
+       "aspect": "definitions",
+       "change": "revised",
+       "detail": "Updated AI system definition"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": "Date from general knowledge; not verified on the official host."
+    },
+    {
+     "version": "2024",
+     "date": "2024-05-03",
+     "kind": "release",
+     "title": "Revised Recommendation",
+     "summary": "Principles updated to address safety, information integrity, rule of law and environmental sustainability.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Principles updated (safety, misinformation/information integrity, rule of law)"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Responsible business conduct and interoperability of governance"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "OECD/LEGAL/0449, as amended 3 May 2024",
    "last_updated": "2024-05-03",
@@ -9520,6 +11106,77 @@
     {
      "date": "2026-07",
      "event": "Preparedness team reportedly disbanded (press report; unverified); no Framework revision found"
+    }
+   ],
+   "versions": [
+    {
+     "version": "Beta",
+     "date": "2023-12-18",
+     "kind": "release",
+     "title": "Preparedness Framework (Beta)",
+     "summary": "Initial framework: tracked risk categories scored Low/Medium/High/Critical on a scorecard, with deployment and development gated on post-mitigation risk.",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "added",
+       "detail": "Tracked categories (cybersecurity, CBRN, persuasion, model autonomy) with four risk levels"
+      },
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Deploy only at post-mitigation 'Medium' or below; develop further only at 'High' or below"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Preparedness team, Safety Advisory Group, leadership decision with board oversight"
+      },
+      {
+       "aspect": "transparency",
+       "change": "added",
+       "detail": "Scorecards maintained per frontier model"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "2",
+     "date": "2025-04-15",
+     "kind": "release",
+     "title": "Version 2",
+     "summary": "Simplified to High and Critical capability thresholds, with Safeguards Reports and a split between Tracked and Research Categories.",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "Two thresholds (High, Critical); Tracked Categories narrowed to biological/chemical, cybersecurity, AI self-improvement"
+      },
+      {
+       "aspect": "risk_thresholds",
+       "change": "removed",
+       "detail": "Persuasion no longer a Tracked Category"
+      },
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "Research Categories (e.g. long-range autonomy, sandbagging) monitored without thresholds"
+      },
+      {
+       "aspect": "safeguards",
+       "change": "added",
+       "detail": "Capabilities Reports and Safeguards Reports reviewed by the Safety Advisory Group"
+      },
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Framework may be adjusted if another developer releases a high-risk system without comparable safeguards"
+      }
+     ],
+     "source": "https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf",
+     "current": true,
+     "note": "Compiled from knowledge of the published PDF; openai.com could not be fetched during compilation."
     }
    ],
    "expiration_date": null,
@@ -9787,6 +11444,42 @@
     {
      "date": "2026-05",
      "event": "Related: Agentic AI framework Version 1.5 reported released"
+    }
+   ],
+   "versions": [
+    {
+     "version": "Proposed",
+     "date": "2024-01-16",
+     "kind": "draft",
+     "title": "Proposed framework",
+     "summary": "Released for international consultation.",
+     "changes": [
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Nine dimensions of a trusted generative AI ecosystem"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Final",
+     "date": "2024-05-30",
+     "kind": "release",
+     "title": "Final framework",
+     "summary": "Final framework released.",
+     "changes": [
+      {
+       "aspect": "governance",
+       "change": "revised",
+       "detail": "Nine dimensions finalised"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -10095,6 +11788,52 @@
     {
      "date": "2026-01-01",
      "event": "Act takes effect"
+    }
+   ],
+   "versions": [
+    {
+     "version": "HB 1709",
+     "date": "2024-12",
+     "kind": "draft",
+     "title": "HB 1709 filed",
+     "summary": "Original TRAIGA bill modelled on a risk-based approach to high-risk AI systems.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Developer/deployer duties for high-risk systems"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": "Month from compiler knowledge."
+    },
+    {
+     "version": "HB 149",
+     "date": "2025-06-22",
+     "kind": "release",
+     "title": "HB 149 enacted",
+     "summary": "Narrowed replacement bill signed; effective 2026-01-01.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "revised",
+       "detail": "Mostly government entities plus intent-based prohibitions"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Regulatory sandbox; Texas AI Council"
+      },
+      {
+       "aspect": "enforcement",
+       "change": "added",
+       "detail": "Attorney General enforcement with cure period"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -10411,6 +12150,69 @@
     {
      "date": "2026-05",
      "event": "King's Speech contains no standalone AI bill; a 'Regulating for Growth Bill' (incl. AI Growth Lab sandbox powers) announced — parliamentary stage unverified"
+    }
+   ],
+   "versions": [
+    {
+     "version": "Policy paper",
+     "date": "2022-07-18",
+     "kind": "draft",
+     "title": "Establishing a pro-innovation approach",
+     "summary": "Initial policy paper.",
+     "changes": [
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Context-specific, regulator-led approach"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "CP 815",
+     "date": "2023-03-29",
+     "kind": "release",
+     "title": "White Paper",
+     "summary": "Five cross-sectoral principles applied by existing regulators; consultation opened.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Five principles"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Central functions to support regulators"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "CP 1019",
+     "date": "2024-02-06",
+     "kind": "amendment",
+     "title": "Government response",
+     "summary": "Confirms non-statutory, regulator-led approach.",
+     "changes": [
+      {
+       "aspect": "governance",
+       "change": "revised",
+       "detail": "Regulators asked to publish strategic approaches"
+      },
+      {
+       "aspect": "scope",
+       "change": "added",
+       "detail": "Considers future binding measures for highly capable GPAI"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -10734,6 +12536,19 @@
      "event": "Adopted by the UNESCO General Conference at its 41st session"
     }
    ],
+   "versions": [
+    {
+     "version": "SHS/BIO/PI/2021/1 (document code from general knowledge; not verified)",
+     "date": "2021-11-23",
+     "kind": "release",
+     "title": "SHS/BIO/PI/2021/1 (document code from general knowledge; not verified)",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://unesdoc.unesco.org/ark:/48223/pf0000381137",
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "SHS/BIO/PI/2021/1 (document code from general knowledge; not verified)",
    "last_updated": "2021-11-23",
@@ -11000,6 +12815,19 @@
     {
      "date": "2025-12-11",
      "event": "EO 14365 (Ensuring a National Policy Framework for AI) builds on the plan's state-regulation theme"
+    }
+   ],
+   "versions": [
+    {
+     "version": "July 2025",
+     "date": "2025-07-23",
+     "kind": "release",
+     "title": "July 2025",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -11330,6 +13158,47 @@
      "event": "EO 14179 ordered review and suspension/revision/rescission of actions taken pursuant to EO 14110"
     }
    ],
+   "versions": [
+    {
+     "version": "EO 14110",
+     "date": "2023-10-30",
+     "kind": "release",
+     "title": "Signed",
+     "summary": "Safe, Secure, and Trustworthy Development and Use of AI.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Reporting for dual-use foundation models"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Agency tasking incl. NIST guidance"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "Revoked",
+     "date": "2025-01-20",
+     "kind": "repeal",
+     "title": "Revoked by EO 14148",
+     "summary": "Revoked; follow-on actions reviewed under EO 14179.",
+     "changes": [
+      {
+       "aspect": "scope",
+       "change": "removed",
+       "detail": "Order revoked"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": "2025-01-20",
    "version": "88 FR 75191 (Nov. 1, 2023), FR Doc. 2023-24283",
    "last_updated": "2023-11-01",
@@ -11649,6 +13518,19 @@
      "event": "America's AI Action Plan released pursuant to Sec. 4 (180-day target was ~2025-07-22)"
     }
    ],
+   "versions": [
+    {
+     "version": "90 FR 8741 (Jan. 31, 2025)",
+     "date": "2025-01-23",
+     "kind": "release",
+     "title": "90 FR 8741 (Jan. 31, 2025)",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence",
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "90 FR 8741 (Jan. 31, 2025)",
    "last_updated": "2025-01-31",
@@ -11895,6 +13777,19 @@
     {
      "date": "2026-07",
      "event": "FTC published a proposed policy statement on AI accuracy/output steering and preemption of state laws (Docket FTC-2026-0859; comments due 2026-07-31); final version not verified"
+    }
+   ],
+   "versions": [
+    {
+     "version": "90 FR 58499 (Dec. 16, 2025)",
+     "date": "2025-12-11",
+     "kind": "release",
+     "title": "90 FR 58499 (Dec. 16, 2025)",
+     "summary": "Only one version recorded for this policy.",
+     "changes": [],
+     "source": "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
+     "current": true,
+     "note": null
     }
    ],
    "expiration_date": null,
@@ -12216,6 +14111,57 @@
      "event": "Approx. deadline (365 days) for implementing minimum risk-management practices for high-impact AI, or discontinuing non-compliant use"
     }
    ],
+   "versions": [
+    {
+     "version": "M-24-10",
+     "date": "2024-03-28",
+     "kind": "release",
+     "title": "OMB M-24-10",
+     "summary": "Implemented EO 14110 Sec. 10.1(b) for agency AI governance.",
+     "changes": [
+      {
+       "aspect": "obligations",
+       "change": "added",
+       "detail": "Minimum practices for rights- and safety-impacting AI"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Chief AI Officers"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "M-25-21",
+     "date": "2025-04-03",
+     "kind": "release",
+     "title": "OMB M-25-21",
+     "summary": "Rescinds and replaces M-24-10.",
+     "changes": [
+      {
+       "aspect": "risk_thresholds",
+       "change": "revised",
+       "detail": "'High-impact AI' replaces rights-/safety-impacting categories"
+      },
+      {
+       "aspect": "governance",
+       "change": "revised",
+       "detail": "CAIO role retained"
+      },
+      {
+       "aspect": "obligations",
+       "change": "revised",
+       "detail": "Minimum risk practices within 365 days"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": null
+    }
+   ],
    "expiration_date": null,
    "version": "M-25-21 (April 3, 2025)",
    "last_updated": "2025-04-03",
@@ -12513,6 +14459,79 @@
     {
      "date": "2027-07-01",
      "event": "Scheduled repeal (sunset) of Chapter 72 per SB 332"
+    }
+   ],
+   "versions": [
+    {
+     "version": "SB 149",
+     "date": "2024-03-13",
+     "kind": "release",
+     "title": "Enacted",
+     "summary": "Disclosure duties for generative AI and creation of the Office of AI Policy and AI Learning Laboratory.",
+     "changes": [
+      {
+       "aspect": "transparency",
+       "change": "added",
+       "detail": "Generative AI disclosure duties"
+      },
+      {
+       "aspect": "governance",
+       "change": "added",
+       "detail": "Office of AI Policy; AI Learning Laboratory"
+      },
+      {
+       "aspect": "timeline",
+       "change": "added",
+       "detail": "Sunset 2025-05-01"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "SB 332 / SB 226",
+     "date": "2025-03-25",
+     "kind": "amendment",
+     "title": "Amended by SB 332 and SB 226",
+     "summary": "Sunset extended; disclosure duties narrowed with a safe harbour.",
+     "changes": [
+      {
+       "aspect": "timeline",
+       "change": "revised",
+       "detail": "Sunset extended to 2027-07-01"
+      },
+      {
+       "aspect": "transparency",
+       "change": "revised",
+       "detail": "Disclosure narrowed to clear requests / high-risk interactions"
+      },
+      {
+       "aspect": "enforcement",
+       "change": "added",
+       "detail": "Safe harbour"
+      }
+     ],
+     "source": null,
+     "current": false,
+     "note": null
+    },
+    {
+     "version": "HB 320",
+     "date": "2026-03-18",
+     "kind": "amendment",
+     "title": "Amended by HB 320",
+     "summary": "Office of Artificial Intelligence Policy amendments.",
+     "changes": [
+      {
+       "aspect": "governance",
+       "change": "revised",
+       "detail": "Office of AI Policy amended"
+      }
+     ],
+     "source": null,
+     "current": true,
+     "note": "Per legislative tracker; unverified on le.utah.gov."
     }
    ],
    "expiration_date": "2027-07-01",

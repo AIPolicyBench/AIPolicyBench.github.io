@@ -50,6 +50,19 @@
       "event": "IDHR temporarily withdraws proposed rules; no replacement rules adopted as of Sept 2026 (per secondary sources)"
     }
   ],
+  "versions": [
+    {
+      "version": "Public Act 103-0804",
+      "date": "2026-01-01",
+      "kind": "release",
+      "title": "Public Act 103-0804",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=103-0804",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "Public Act 103-0804",
   "last_updated": "2024-08-09",

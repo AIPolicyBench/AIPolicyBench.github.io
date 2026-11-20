@@ -39,6 +39,19 @@
       "event": "Published as part of FS-ISAC's series of AI risk white papers ('Illustrative for Adaptation')"
     }
   ],
+  "versions": [
+    {
+      "version": "September 2023 (Illustrative for Adaptation)",
+      "date": "2023-09",
+      "kind": "release",
+      "title": "September 2023 (Illustrative for Adaptation)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.fsisac.com/hubfs/Knowledge/FrameworkOfAnAcceptableUsePolicyForExternalGenerativeAI.pdf",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "September 2023 (Illustrative for Adaptation)",
   "last_updated": "2023-09",

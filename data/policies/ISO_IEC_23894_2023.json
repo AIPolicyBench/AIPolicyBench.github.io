@@ -38,6 +38,19 @@
       "event": "ISO/IEC 23894:2023 (first edition) published"
     }
   ],
+  "versions": [
+    {
+      "version": "First edition, 2023-02",
+      "date": "2023-02",
+      "kind": "release",
+      "title": "First edition, 2023-02",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.iso.org/standard/77304.html",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "First edition, 2023-02",
   "last_updated": "2023-02",

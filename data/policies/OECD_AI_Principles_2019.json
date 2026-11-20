@@ -53,6 +53,69 @@
       "event": "Council adopts revised Recommendation (updated principles incl. safety, information integrity, rule of law)"
     }
   ],
+  "versions": [
+    {
+      "version": "2019",
+      "date": "2019-05-22",
+      "kind": "release",
+      "title": "Recommendation adopted",
+      "summary": "Five values-based principles and five recommendations to governments.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Five principles and five policy recommendations"
+        },
+        {
+          "aspect": "definitions",
+          "change": "added",
+          "detail": "AI system definition"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "2023 def.",
+      "date": "2023-11-08",
+      "kind": "amendment",
+      "title": "AI system definition revised",
+      "summary": "Council updates the definition of 'AI system'.",
+      "changes": [
+        {
+          "aspect": "definitions",
+          "change": "revised",
+          "detail": "Updated AI system definition"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Date from general knowledge; not verified on the official host."
+    },
+    {
+      "version": "2024",
+      "date": "2024-05-03",
+      "kind": "release",
+      "title": "Revised Recommendation",
+      "summary": "Principles updated to address safety, information integrity, rule of law and environmental sustainability.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Principles updated (safety, misinformation/information integrity, rule of law)"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Responsible business conduct and interoperability of governance"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "OECD/LEGAL/0449, as amended 3 May 2024",
   "last_updated": "2024-05-03",

@@ -49,6 +49,19 @@
       "event": "Reported CEN approval of EN ISO/IEC 42001:2026 (European adoption) — secondary source, unverified"
     }
   ],
+  "versions": [
+    {
+      "version": "First edition, 2023-12",
+      "date": "2023-12",
+      "kind": "release",
+      "title": "First edition, 2023-12",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.iso.org/standard/81230.html",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "First edition, 2023-12",
   "last_updated": "2023-12",

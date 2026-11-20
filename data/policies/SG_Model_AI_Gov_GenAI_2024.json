@@ -52,6 +52,42 @@
       "event": "Related: Agentic AI framework Version 1.5 reported released"
     }
   ],
+  "versions": [
+    {
+      "version": "Proposed",
+      "date": "2024-01-16",
+      "kind": "draft",
+      "title": "Proposed framework",
+      "summary": "Released for international consultation.",
+      "changes": [
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Nine dimensions of a trusted generative AI ecosystem"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Final",
+      "date": "2024-05-30",
+      "kind": "release",
+      "title": "Final framework",
+      "summary": "Final framework released.",
+      "changes": [
+        {
+          "aspect": "governance",
+          "change": "revised",
+          "detail": "Nine dimensions finalised"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "30 May 2024",
   "last_updated": "2024-05-30",

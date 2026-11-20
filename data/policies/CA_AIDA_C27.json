@@ -57,6 +57,69 @@
       "event": "Privacy portion reintroduced separately as Bill C-36 (reported); no AI-specific successor bill tabled as of latest sources"
     }
   ],
+  "versions": [
+    {
+      "version": "First reading",
+      "date": "2022-06-16",
+      "kind": "draft",
+      "title": "First reading",
+      "summary": "Bill C-27 introduced with AIDA as Part 3.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "High-impact system duties"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "AI and Data Commissioner"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Proposed amendments",
+      "date": "2023-11",
+      "kind": "draft",
+      "title": "Ministerial amendments proposed",
+      "summary": "Proposed amendments submitted to committee (not adopted).",
+      "changes": [
+        {
+          "aspect": "definitions",
+          "change": "revised",
+          "detail": "Defined classes of high-impact systems"
+        },
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "General-purpose system duties"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Died",
+      "date": "2025-01-06",
+      "kind": "repeal",
+      "title": "Died on the Order Paper",
+      "summary": "Parliament prorogued; bill died at committee stage.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "removed",
+          "detail": "Bill lapsed"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": "2025-01-06",
   "version": "First reading text, 16 June 2022 (with unadopted ministerial amendments proposed in 2023)",
   "last_updated": "2022-06-16",

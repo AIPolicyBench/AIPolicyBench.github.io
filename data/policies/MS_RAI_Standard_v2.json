@@ -41,6 +41,52 @@
       "event": "Version 2 General Requirements published externally (with blog 'Microsoft's framework for building AI systems responsibly')"
     }
   ],
+  "versions": [
+    {
+      "version": "v1",
+      "date": "2019",
+      "kind": "release",
+      "title": "Responsible AI Standard v1 (internal)",
+      "summary": "First internal Responsible AI Standard; not published externally.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Internal requirements operationalising Microsoft's AI principles"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Internal document; content not publicly available. Year from the record's relationship field."
+    },
+    {
+      "version": "v2",
+      "date": "2022-06",
+      "kind": "release",
+      "title": "Responsible AI Standard v2",
+      "summary": "Published externally: six principles broken into goals (accountability, transparency, fairness, reliability & safety, privacy & security, inclusiveness) with concrete requirements.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Goals A1-A5, T1-T3, F1-F3, RS1-RS3, PS1-PS2, I1 with requirements"
+        },
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "First external publication of the Standard"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Impact assessments and sensitive-use review"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "v2, June 2022 (General Requirements, for external release)",
   "last_updated": "2022-06",

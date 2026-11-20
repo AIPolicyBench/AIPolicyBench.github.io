@@ -76,6 +76,216 @@
       "event": "August 2026 Risk Report published; RSP page last updated"
     }
   ],
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2023-09-19",
+      "kind": "release",
+      "title": "Version 1.0",
+      "summary": "First Responsible Scaling Policy: introduces AI Safety Levels (ASL) with if-then commitments to pause scaling or deployment unless matching safeguards are in place.",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "added",
+          "detail": "ASL-1 to ASL-3 capability levels defined; ASL-4 to be defined later"
+        },
+        {
+          "aspect": "safeguards",
+          "change": "added",
+          "detail": "Containment (security) and deployment measures required per ASL"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Commitment to pause training/deployment if safeguards lag capabilities"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Responsible Scaling Officer role and board oversight of policy changes"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "2.0",
+      "date": "2024-10-15",
+      "kind": "release",
+      "title": "Version 2.0",
+      "summary": "Restructured around Capability Thresholds and Required Safeguards, with capability and safeguards assessments documented before deployment.",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "revised",
+          "detail": "Capability Thresholds (e.g. CBRN, autonomous AI R&D) replace fixed ASL capability lists"
+        },
+        {
+          "aspect": "safeguards",
+          "change": "revised",
+          "detail": "ASL-3 Deployment and Security Standards specified as Required Safeguards"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Capability Reports and Safeguards Reports before deployment decisions"
+        },
+        {
+          "aspect": "governance",
+          "change": "revised",
+          "detail": "Expanded internal governance and noncompliance reporting procedures"
+        }
+      ],
+      "source": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "2.1",
+      "date": "2025-03-31",
+      "kind": "amendment",
+      "title": "Version 2.1",
+      "summary": "Point release clarifying capability thresholds that would require stronger safeguards.",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "revised",
+          "detail": "Clarifies/adds thresholds requiring safeguards beyond ASL-3"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Detail of the change summarised from the issuer's update log; not verified against the policy text."
+    },
+    {
+      "version": "2.2",
+      "date": "2025-05-14",
+      "kind": "amendment",
+      "title": "Version 2.2",
+      "summary": "Point release amending the scope of the ASL-3 Security Standard.",
+      "changes": [
+        {
+          "aspect": "safeguards",
+          "change": "revised",
+          "detail": "Adjusts the ASL-3 Security Standard's scope"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Detail of the change summarised from the issuer's update log; not verified against the policy text."
+    },
+    {
+      "version": "3.0",
+      "date": "2026-02-24",
+      "kind": "release",
+      "title": "Version 3.0",
+      "summary": "Comprehensive rewrite: adds a public Frontier Safety Roadmap and periodic Risk Reports with external review, alongside unilateral mitigations and recommended industry-wide mitigations.",
+      "changes": [
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Periodic public Risk Reports"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Frontier Safety Roadmap; external review of Risk Reports"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Distinguishes unilateral mitigations from recommended industry-wide mitigations"
+        },
+        {
+          "aspect": "risk_thresholds",
+          "change": "revised",
+          "detail": "Thresholds restated within the new structure"
+        }
+      ],
+      "source": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "3.1",
+      "date": "2026-04-02",
+      "kind": "amendment",
+      "title": "Version 3.1",
+      "summary": "Clarifies the AI R&D threshold and Anthropic's freedom to pause.",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "revised",
+          "detail": "AI R&D threshold clarified"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Freedom to pause made explicit"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "3.2",
+      "date": "2026-04-29",
+      "kind": "amendment",
+      "title": "Version 3.2",
+      "summary": "The Long-Term Benefit Trust (LTBT) may request external review of Risk Reports.",
+      "changes": [
+        {
+          "aspect": "governance",
+          "change": "revised",
+          "detail": "LTBT may request external review of Risk Reports"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "3.3",
+      "date": "2026-05-26",
+      "kind": "amendment",
+      "title": "Version 3.3",
+      "summary": "Revised chemical/biological weapons threshold.",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "revised",
+          "detail": "Chem/bio weapons threshold revised"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "3.4",
+      "date": "2026-07-08",
+      "kind": "amendment",
+      "title": "Version 3.4",
+      "summary": "Revised automated R&D threshold; changes to how Risk Reports are shared and redacted.",
+      "changes": [
+        {
+          "aspect": "risk_thresholds",
+          "change": "revised",
+          "detail": "Automated AI R&D threshold revised"
+        },
+        {
+          "aspect": "transparency",
+          "change": "revised",
+          "detail": "Risk Report sharing and redaction rules changed"
+        }
+      ],
+      "source": "https://www.anthropic.com/responsible-scaling-policy",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "Version 3.4 (effective July 8, 2026)",
   "last_updated": "2026-07-08",

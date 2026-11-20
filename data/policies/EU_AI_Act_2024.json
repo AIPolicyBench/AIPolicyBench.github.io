@@ -132,6 +132,138 @@
       "event": "Per Omnibus (secondary sources): Annex I (product-embedded) high-risk obligations apply (deferred from 2027-08-02)"
     }
   ],
+  "versions": [
+    {
+      "version": "Proposal",
+      "date": "2021-04-21",
+      "kind": "draft",
+      "title": "Commission proposal COM(2021) 206",
+      "summary": "Commission proposes a horizontal, risk-based regulation: prohibited practices, high-risk systems and transparency duties.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "Risk tiers: unacceptable, high, limited, minimal"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Conformity assessment and requirements for high-risk systems"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "Penalties and national market surveillance"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Council GA",
+      "date": "2022-12-06",
+      "kind": "draft",
+      "title": "Council general approach",
+      "summary": "Member States' negotiating position.",
+      "changes": [
+        {
+          "aspect": "definitions",
+          "change": "revised",
+          "detail": "Narrower AI system definition"
+        },
+        {
+          "aspect": "scope",
+          "change": "revised",
+          "detail": "National security exclusion; adjustments to high-risk list"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "EP position",
+      "date": "2023-06-14",
+      "kind": "draft",
+      "title": "European Parliament position",
+      "summary": "Parliament's negotiating position, adding rules for foundation models.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "Obligations for foundation models / generative AI"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Fundamental rights impact assessment"
+        },
+        {
+          "aspect": "scope",
+          "change": "revised",
+          "detail": "Expanded prohibitions (e.g. real-time remote biometric identification)"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "2024/1689",
+      "date": "2024-07-12",
+      "kind": "release",
+      "title": "Regulation (EU) 2024/1689 (published)",
+      "summary": "Final text after trilogue agreement (Dec 2023); entry into force 1 Aug 2024 with phased application 2025-2027.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "General-purpose AI model obligations incl. systemic-risk tier"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Fundamental rights impact assessment for certain deployers"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "AI Office, AI Board, scientific panel"
+        },
+        {
+          "aspect": "timeline",
+          "change": "added",
+          "detail": "Phased application: Feb 2025, Aug 2025, Aug 2026, Aug 2027"
+        }
+      ],
+      "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Omnibus",
+      "date": "2026-07-24",
+      "kind": "amendment",
+      "title": "Amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+      "summary": "Defers high-risk application dates and adds new prohibitions.",
+      "changes": [
+        {
+          "aspect": "timeline",
+          "change": "revised",
+          "detail": "Annex III high-risk obligations deferred to Dec 2027; Annex I to Aug 2028"
+        },
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "New Art. 5 prohibitions (AI-generated non-consensual intimate imagery and CSAM)"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": "Per secondary sources; not verified on EUR-Lex."
+    }
+  ],
   "expiration_date": null,
   "version": "OJ L, 2024/1689, 12.7.2024; as amended by Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
   "last_updated": "2026-07-24",

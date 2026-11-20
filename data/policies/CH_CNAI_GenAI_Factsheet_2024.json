@@ -47,6 +47,19 @@
       "event": "Federal Chancellery (Legal Section) document 'Rechtlicher Rahmen für die Nutzung von KI in der Bundesverwaltung' dated 25 Sept 2026 cites the fact sheet (search result only; relationship not verified)"
     }
   ],
+  "versions": [
+    {
+      "version": "V1.2, 18 January 2024",
+      "date": "2024-01-18",
+      "kind": "release",
+      "title": "V1.2, 18 January 2024",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.bk.admin.ch/dam/de/sd-web/8Qmy4Jdh7Z6H/Merkblatt-zur-Verwendung-von-generativen-KI-Werkzeugen-in-der-Bundesverwaltung.pdf",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "V1.2, 18 January 2024",
   "last_updated": "2024-01-18",

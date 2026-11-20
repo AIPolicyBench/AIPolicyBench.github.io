@@ -51,6 +51,52 @@
       "event": "Act takes effect"
     }
   ],
+  "versions": [
+    {
+      "version": "HB 1709",
+      "date": "2024-12",
+      "kind": "draft",
+      "title": "HB 1709 filed",
+      "summary": "Original TRAIGA bill modelled on a risk-based approach to high-risk AI systems.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Developer/deployer duties for high-risk systems"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Month from compiler knowledge."
+    },
+    {
+      "version": "HB 149",
+      "date": "2025-06-22",
+      "kind": "release",
+      "title": "HB 149 enacted",
+      "summary": "Narrowed replacement bill signed; effective 2026-01-01.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "revised",
+          "detail": "Mostly government entities plus intent-based prohibitions"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Regulatory sandbox; Texas AI Council"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "Attorney General enforcement with cure period"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "HB 149, 89th Leg., R.S. (2025), enrolled",
   "last_updated": "2025-06-22",

@@ -66,6 +66,47 @@
       "event": "Status per Câmara open-data API: 'Aguardando Parecer' — no rapporteur's opinion or vote yet; if amended by the Câmara it returns to the Senate"
     }
   ],
+  "versions": [
+    {
+      "version": "Introduced",
+      "date": "2023-05-03",
+      "kind": "draft",
+      "title": "Bill introduced",
+      "summary": "Introduced in the Federal Senate.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Risk-based framework"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "added",
+          "detail": "Sanctions"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "Senate text",
+      "date": "2024-12-10",
+      "kind": "draft",
+      "title": "Senate substitute approved",
+      "summary": "Senate approves the substitute text and sends it to the Chamber of Deputies.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Substitute text (rapporteur Sen. Eduardo Gomes)"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "Text approved by the Federal Senate on 10 December 2024 (sent to the Câmara as Ofício nº 235/2025)",
   "last_updated": "2024-12-10",

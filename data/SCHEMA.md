@@ -36,6 +36,25 @@ Lists use `[]` when empty.
   "binding": true,                           // legally binding?
   "effective_date": "2024-08-01",            // YYYY-MM-DD or YYYY-MM or null
   "key_dates": [{"date":"2025-02-02","event":"Prohibitions + AI literacy apply"}],
+  // Evolution: every version of the policy text, oldest first (drafts, releases, amendments, repeal).
+  // Policies with one known version have a single entry. Exactly one entry has "current": true.
+  "versions": [
+    {
+      "version": "Proposal",                  // short label shown on the chart
+      "date": "2021-04-21",                   // YYYY-MM-DD, YYYY-MM or YYYY
+      "kind": "draft",                        // draft | release | amendment | repeal
+      "title": "Commission proposal COM(2021) 206",
+      "summary": "What this version is and what it changed overall.",
+      "changes": [                            // what changed vs. the previous version (first version: what it introduced)
+        {"aspect": "scope", "change": "added", "detail": "Risk tiers: unacceptable, high, limited, minimal"}
+        // aspect: scope | definitions | risk_thresholds | obligations | safeguards | governance | transparency | enforcement | timeline
+        // change: added | revised | removed
+      ],
+      "source": null,                         // URL of this version's text, if known
+      "current": false,                       // true for the version in force / latest
+      "note": null                            // uncertainty about this entry, if any
+    }
+  ],
   "expiration_date": null,
   "version": "OJ L, 2024/1689, 12.7.2024",
   "last_updated": "2024-07-12",              // last official amendment/revision date you can verify

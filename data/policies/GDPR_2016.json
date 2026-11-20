@@ -108,6 +108,74 @@
       "event": "Council agrees negotiating mandate on Digital Omnibus GDPR amendments (per secondary sources); Parliament position pending; not adopted"
     }
   ],
+  "versions": [
+    {
+      "version": "Directive 95/46/EC",
+      "date": "1995-10-24",
+      "kind": "release",
+      "title": "Data Protection Directive",
+      "summary": "Predecessor directive.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Data protection principles"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": null
+    },
+    {
+      "version": "2016/679",
+      "date": "2016-04-27",
+      "kind": "release",
+      "title": "GDPR adopted",
+      "summary": "Regulation adopted; applies from 25 May 2018.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Directly applicable regulation"
+        },
+        {
+          "aspect": "enforcement",
+          "change": "revised",
+          "detail": "Fines up to 4% of turnover"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "European Data Protection Board"
+        }
+      ],
+      "source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "current": true,
+      "note": null
+    },
+    {
+      "version": "Omnibus (pending)",
+      "date": "2025-11-19",
+      "kind": "draft",
+      "title": "Digital Omnibus proposal",
+      "summary": "Commission proposes targeted amendments; not adopted.",
+      "changes": [
+        {
+          "aspect": "definitions",
+          "change": "revised",
+          "detail": "Proposed amendments"
+        },
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Proposed amendments"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Pending: Council mandate 2026-10-21; Parliament position pending."
+    }
+  ],
   "expiration_date": null,
   "version": "OJ L 119, 4.5.2016, p. 1 (with corrigenda)",
   "last_updated": "2016-05-04",

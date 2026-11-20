@@ -42,6 +42,19 @@
       "event": "Published by PCPD (document dated March 2025)"
     }
   ],
+  "versions": [
+    {
+      "version": "March 2025",
+      "date": "2025-03-31",
+      "kind": "release",
+      "title": "March 2025",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://www.pcpd.org.hk/english/resources_centre/publications/files/guidelines_ai_employees.pdf",
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "March 2025",
   "last_updated": "2025-03-31",

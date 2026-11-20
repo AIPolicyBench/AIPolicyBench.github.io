@@ -58,6 +58,52 @@
       "event": "AIGC Labeling Measures and GB 45438-2025 take effect, detailing the labeling obligations of Arts. 16-18"
     }
   ],
+  "versions": [
+    {
+      "version": "Draft",
+      "date": "2022-01-28",
+      "kind": "draft",
+      "title": "Draft for public comment",
+      "summary": "CAC draft provisions on deep synthesis services.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Provider and user duties"
+        },
+        {
+          "aspect": "transparency",
+          "change": "added",
+          "detail": "Labelling of synthesised content"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Draft date from compiler knowledge."
+    },
+    {
+      "version": "Final",
+      "date": "2022-12-11",
+      "kind": "release",
+      "title": "Order No. 12 (2022)",
+      "summary": "Final provisions published; in force 10 Jan 2023.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Final provider duties"
+        },
+        {
+          "aspect": "transparency",
+          "change": "revised",
+          "detail": "Labelling rules (Arts. 16-18)"
+        }
+      ],
+      "source": null,
+      "current": true,
+      "note": null
+    }
+  ],
   "expiration_date": null,
   "version": "CAC, MIIT, MPS Order No. 12 (2022) (order number from compiler knowledge, not verified against fetched source)",
   "last_updated": "2022-12-11",

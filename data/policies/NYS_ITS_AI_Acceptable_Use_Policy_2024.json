@@ -243,7 +243,7 @@
         "US-NY"
       ],
       "applicable_systems": "AI systems developed, used or procured by NY State Entities that could directly impact the public",
-      "interpretation_notes": "Disclosure is SHOULD; explainability/oversight is MUST. Footnote 6 example: chatbot users should be made aware they are interacting with a machine.",
+      "interpretation_notes": "Footnote marker 6 omitted. Disclosure is SHOULD; explainability/oversight is MUST. Footnote 6 example: chatbot users should be made aware they are interacting with a machine.",
       "ambiguity": "medium",
       "interpretation_confidence": 0.8,
       "human_verified": false

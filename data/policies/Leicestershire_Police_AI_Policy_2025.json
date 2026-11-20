@@ -158,7 +158,7 @@
         "UK"
       ],
       "applicable_systems": "all AI incl. integrated AI features and standalone generative AI tools (authorised: Microsoft 365 Copilot Chat and Microsoft 365 Copilot)",
-      "interpretation_notes": "Bullet list flattened with semicolons. §5.3 item 2 adds: use a force account on a force device; personal accounts/devices prohibited.",
+      "interpretation_notes": "Bullet list flattened with semicolons (full stop added after the list). §5.3 item 2 adds: use a force account on a force device; personal accounts/devices prohibited.",
       "ambiguity": "low",
       "interpretation_confidence": 0.85,
       "human_verified": false

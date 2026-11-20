@@ -83,9 +83,9 @@
   function layout(P, G, W, H) {
     // Hand-placed cluster anchors (fractions of W/H), sized for cluster population.
     const POS = {
-      "Europe": [0.13, 0.30], "North America": [0.42, 0.30], "East Asia": [0.73, 0.28],
-      "South & Southeast Asia": [0.93, 0.58], "Oceania": [0.93, 0.86], "Latin America": [0.08, 0.80],
-      "Global (multilateral & standards)": [0.36, 0.80], "Organisations & industry": [0.68, 0.80],
+      "Europe": [0.17, 0.25], "North America": [0.50, 0.24], "East Asia": [0.85, 0.22],
+      "South & Southeast Asia": [0.88, 0.52], "Oceania": [0.92, 0.84], "Latin America": [0.06, 0.70],
+      "Global (multilateral & standards)": [0.28, 0.80], "Organisations & industry": [0.62, 0.76],
     };
     const anchors = {};
     GROUPS.forEach((g) => { anchors[g] = { x: W * POS[g][0], y: H * POS[g][1] }; });
@@ -102,7 +102,7 @@
       for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
         const a = nodes[i], b = nodes[j];
         let dx = b.x - a.x, dy = b.y - a.y; let d2 = dx * dx + dy * dy || 0.01;
-        const d = Math.sqrt(d2), min = a.r + b.r + 46;
+        const d = Math.sqrt(d2), min = a.r + b.r + 58;
         const f = (d < min ? (min - d) * 0.5 : 0) + (a.g === b.g ? 2600 : 600) / d2;
         dx /= d; dy /= d;
         a.vx -= dx * f * alpha; a.vy -= dy * f * alpha; b.vx += dx * f * alpha; b.vy += dy * f * alpha;
@@ -180,7 +180,7 @@
     bridge(root, P, api);
 
     // ---------- network ----------
-    const W = 1180, H = 820;
+    const W = 1180, H = 1000;
     const L = layout(P, G, W, H);
     const svg = root.querySelector("#net");
     svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);

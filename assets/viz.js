@@ -7,7 +7,7 @@
   const arr = (v) => (v == null ? [] : Array.isArray(v) ? v : [v]);
 
   // ---- encodings ----
-  const GROUPS = ["Europe", "North America", "East Asia", "South & Southeast Asia", "Latin America", "Global (multilateral & standards)", "Organisations & industry"];
+  const GROUPS = ["Europe", "North America", "East Asia", "South & Southeast Asia", "Oceania", "Latin America", "Global (multilateral & standards)", "Organisations & industry"];
   function groupOf(p) {
     const r = String((p.locale_context || {}).region || "").split(" › ")[0];
     if (r === "Global (corporate)" || r === "Global (industry)") return "Organisations & industry";
@@ -84,7 +84,7 @@
     // Hand-placed cluster anchors (fractions of W/H), sized for cluster population.
     const POS = {
       "Europe": [0.13, 0.30], "North America": [0.42, 0.30], "East Asia": [0.73, 0.28],
-      "South & Southeast Asia": [0.93, 0.62], "Latin America": [0.08, 0.80],
+      "South & Southeast Asia": [0.93, 0.58], "Oceania": [0.93, 0.86], "Latin America": [0.08, 0.80],
       "Global (multilateral & standards)": [0.36, 0.80], "Organisations & industry": [0.68, 0.80],
     };
     const anchors = {};

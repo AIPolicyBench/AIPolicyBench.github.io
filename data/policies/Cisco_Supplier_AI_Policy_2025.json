@@ -1,0 +1,248 @@
+{
+  "policy_id": "Cisco_Supplier_AI_Policy_2025",
+  "policy_name": "Cisco Supplier Artificial Intelligence Policy",
+  "short_name": "Cisco Supplier AI Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/cisco-supplier.pdf",
+  "issuing_authority": "Cisco Systems, Inc.",
+  "jurisdiction": "Organization",
+  "country_region": "Global (Cisco suppliers; Cisco is United States-headquartered)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Contractual supplier requirements (procurement terms)",
+  "geo_constraints": "Cisco suppliers and their Representatives worldwide, in the course of Performing under an Agreement with Cisco",
+  "industry_scope": [
+    "technology",
+    "procurement"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › Cisco",
+    "regulation": "Self-regulation · contractual supplier policy",
+    "culture": "US enterprise-technology procurement governance: AI risk handled through contract terms on data use, permission gates and audit rights rather than ethical principles.",
+    "use_cases": [
+      "supplier & vendor AI use",
+      "training on personal data",
+      "AI procurement"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": null,
+  "key_dates": [
+    {
+      "date": "2025-04-11",
+      "event": "Controlled document EDCS-25664145 Ver. 1.0 last modified"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2025-04-11",
+      "kind": "release",
+      "title": "Supplier Artificial Intelligence Policy, Ver. 1.0",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/cisco-supplier.pdf",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": "EDCS-25664145 Ver. 1.0",
+  "last_updated": "2025-04-11",
+  "covered_entities": [
+    "Cisco suppliers",
+    "Supplier's Representatives (affiliates, employees, contractors, subprocessors, subcontractors, consultants)"
+  ],
+  "covered_systems": [
+    "Artificial Intelligence and Machine Learning technologies"
+  ],
+  "covered_activities": [
+    "processing Cisco Protected Data to train, retrain or improve AI/ML",
+    "supplier use of AI/ML in performing services, deliverables, SaaS, cloud or hosted services"
+  ],
+  "exceptions": [
+    "training on Protected Data with Cisco's express written permission (limited to one year unless otherwise agreed)"
+  ],
+  "conditions": [
+    "governance-program requirement applies if the Supplier uses or intends to use AI/ML in the course of Performing"
+  ],
+  "objective": "Contractually restrict Cisco suppliers from using Cisco's protected data to train AI/ML without written permission, and require suppliers using AI/ML to operate an AI/ML governance program subject to Cisco audit.",
+  "policy_domain": [
+    "privacy",
+    "governance",
+    "accountability"
+  ],
+  "principles": [
+    "data protection",
+    "prior permission for AI training",
+    "supplier accountability",
+    "auditability"
+  ],
+  "parent_policy": "Agreement between Cisco and Supplier",
+  "related_policies": [
+    {
+      "policy": "Cisco Supplier Information Security Exhibit",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": null,
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/cisco-supplier.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/cisco-supplier.pdf). Footer: 'Controlled Doc. # EDCS-25664145 Ver: 1.0 Last Modified: Fri 11 Apr 2025', 'CISCO PUBLIC INFORMATION'. No issue or effective date is stated; the policy_id year 2025 uses the last-modified date. Not checked whether a newer version exists on Cisco's supplier portal. binding=false (not law), but the policy is a contractual requirement on suppliers, operating under the Supplier's Agreement with Cisco. The Supplier Information Security Exhibit is only defined (with a supplier-portal URL), not otherwise referenced in the copy."
+  },
+  "clauses": [
+    {
+      "clause_id": "Cisco_Supplier_AI_Policy_2025_No_Training_On_Protected_Data",
+      "policy_id": "Cisco_Supplier_AI_Policy_2025",
+      "section": "1.1",
+      "original_text": "Supplier is not permitted to Process Protected Data for training, retraining or improving Artificial Intelligence or Machine Learning technologies without Cisco’s express written permission. The same applies to Supplier’s Representatives.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Supplier and its Representatives",
+      "action": "Process for training, retraining or improving AI/ML",
+      "object": "Cisco Protected Data",
+      "recipient": "Cisco",
+      "modality": "MUST NOT",
+      "requirement": "no use of Cisco Protected Data to train or improve AI/ML without express written permission",
+      "condition": null,
+      "exception": "Cisco's express written permission",
+      "purpose": "protect Cisco's confidential, customer and personal data",
+      "affected_asset": "Cisco Protected Data (incl. Personal Data, Customer Data, Telemetry Data)",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI and Machine Learning technologies used by Cisco suppliers",
+      "interpretation_notes": "Protected Data is broadly defined (s.3.13): administrative, confidential, customer, financing, support, telemetry, personal and sensitive personal data.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Cisco_Supplier_AI_Policy_2025_Permission_Assistance",
+      "policy_id": "Cisco_Supplier_AI_Policy_2025",
+      "section": "1.2",
+      "original_text": "If Supplier seeks permission according to the above section 1.1., Supplier shall provide Cisco with all information and assistance reasonably required by Cisco to (i) comply with Applicable Laws, and (ii) perform all types of assessments and related diligence that Cisco deems necessary.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Supplier",
+      "action": "provide information and assistance",
+      "object": "assessment of a request to train on Protected Data",
+      "recipient": "Cisco",
+      "modality": "MUST",
+      "requirement": "support Cisco's legal compliance and diligence before permission is granted",
+      "condition": "if Supplier seeks permission under 1.1",
+      "exception": null,
+      "purpose": "lawful, assessed use of Protected Data for AI training",
+      "affected_asset": "Cisco Protected Data",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI and Machine Learning technologies used by Cisco suppliers",
+      "interpretation_notes": "Process requirement attached to the permission route in 1.1.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Cisco_Supplier_AI_Policy_2025_Permission_Time_Limit",
+      "policy_id": "Cisco_Supplier_AI_Policy_2025",
+      "section": "1.3",
+      "original_text": "A permission granted by Cisco according to section 1.1. is limited to one (1) year, unless otherwise agreed upon between the Parties.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Cisco",
+      "action": "limit duration of permission",
+      "object": "permission to train AI/ML on Protected Data",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "training permissions expire after one year unless otherwise agreed",
+      "condition": null,
+      "exception": "otherwise agreed between the Parties",
+      "purpose": "periodic re-evaluation of data use for AI",
+      "affected_asset": "Cisco Protected Data",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI and Machine Learning technologies used by Cisco suppliers",
+      "interpretation_notes": "Default term; the Parties may agree otherwise.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Cisco_Supplier_AI_Policy_2025_Supplier_AI_Governance",
+      "policy_id": "Cisco_Supplier_AI_Policy_2025",
+      "section": "2.1",
+      "original_text": "If Supplier is using or intends to use Artificial Intelligence and/or Machine Learning technologies in the course of Performing, it is required to have an AI/ML governance program in place, with defined policies and procedures, that meets or exceeds current best industry standards.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Supplier",
+      "action": "maintain",
+      "object": "AI/ML governance program with defined policies and procedures",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "AI/ML governance program meeting or exceeding current best industry standards",
+      "condition": "if Supplier uses or intends to use AI/ML in the course of Performing",
+      "exception": null,
+      "purpose": "responsible supplier AI use",
+      "affected_asset": "Cisco and its customers",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI and Machine Learning technologies used by Cisco suppliers",
+      "interpretation_notes": "'Current best industry standards' is not defined; no specific standard (e.g. ISO/IEC 42001, NIST AI RMF) is named.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Cisco_Supplier_AI_Policy_2025_Audit_Right",
+      "policy_id": "Cisco_Supplier_AI_Policy_2025",
+      "section": "2.2",
+      "original_text": "If Supplier seeks permission according to the above section 1.1., Cisco reserves the right to audit Supplier's AI/ML governance program before deciding whether to grant the requested permission and on a regular basis (with a notice period of 14 days) after a permission has been granted.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Cisco",
+      "action": "audit",
+      "object": "Supplier's AI/ML governance program",
+      "recipient": "Supplier",
+      "modality": "MAY",
+      "requirement": "Cisco may audit before granting and regularly (14 days' notice) after granting training permission",
+      "condition": "if Supplier seeks permission under 1.1",
+      "exception": null,
+      "purpose": "verify supplier governance before and during permitted AI training",
+      "affected_asset": "Cisco Protected Data",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI and Machine Learning technologies used by Cisco suppliers",
+      "interpretation_notes": "Audit right is tied to the 1.1 permission route, not to all supplier AI use.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

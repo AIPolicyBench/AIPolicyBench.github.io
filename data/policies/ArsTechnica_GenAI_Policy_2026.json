@@ -1,0 +1,278 @@
+{
+  "policy_id": "ArsTechnica_GenAI_Policy_2026",
+  "policy_name": "Ars Technica’s policy on generative AI",
+  "short_name": "Ars Technica AI Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://arstechnica.com/ai-policy/",
+  "issuing_authority": "Ars Technica",
+  "jurisdiction": "Organization",
+  "country_region": "Global (Ars Technica newsroom, United States-based publication)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Newsroom editorial standards (self-regulation)",
+  "geo_constraints": "All editorial work produced by Ars Technica's writers, editors and contributors",
+  "industry_scope": [
+    "media",
+    "journalism"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › Ars Technica",
+    "regulation": "Self-regulation · newsroom editorial standard, published for readers",
+    "culture": "US technology-journalism newsroom ethics: human authorship, source verification and editorial accountability, made public as a reader-trust commitment rather than a compliance document.",
+    "use_cases": [
+      "journalism & media",
+      "generative AI & chatbots",
+      "synthetic media & deepfakes",
+      "employee use of GenAI tools"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": null,
+  "key_dates": [
+    {
+      "date": "2026-04-22",
+      "event": "Policy last updated (as printed at end of policy)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "April 2026",
+      "date": "2026-04-22",
+      "kind": "release",
+      "title": "Ars Technica’s policy on generative AI (last updated 22 April 2026)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://arstechnica.com/ai-policy/",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": "Last updated 22 April 2026",
+  "last_updated": "2026-04-22",
+  "covered_entities": [
+    "Ars Technica writers, editors and contributors",
+    "Ars Technica creative/art team"
+  ],
+  "covered_systems": [
+    "generative AI tools for text, research, images, audio and video",
+    "AI-powered editing aids (grammar, style, structural feedback)"
+  ],
+  "covered_activities": [
+    "writing and editing",
+    "research and source attribution",
+    "production of images, audio and video",
+    "reporting on AI output"
+  ],
+  "exceptions": [
+    "AI output reproduced as the subject of reporting (set apart and disclosed)",
+    "standard production edits (color correction, cropping, contrast)"
+  ],
+  "conditions": [
+    "research assistance only with AI tools vetted and approved for the workflow"
+  ],
+  "objective": "Tell readers how Ars Technica does and does not use generative AI: journalism stays human-authored, AI-assisted research is verified, attributions come from direct sourcing, synthetic media is never passed off as real, and people stay accountable.",
+  "policy_domain": [
+    "content_integrity",
+    "transparency",
+    "accountability"
+  ],
+  "principles": [
+    "human authorship",
+    "verification",
+    "human editorial decision-making",
+    "disclosure",
+    "accountability"
+  ],
+  "parent_policy": null,
+  "related_policies": [],
+  "conflict_rule": null,
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/ars.md",
+      "https://arstechnica.com/ai-policy/ (URL printed in the document; not fetched)"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/ars.md). The copy combines an introductory post by Ken Fisher with the policy itself; clauses are taken from the policy part only. The policy states it was last updated April 22, 2026; no first-publication or effective date is given (the intro says the standards have governed editorial work since AI tooling became available, and the reader-facing version is a translation of an internal policy), so effective_date is null. The document says changes will be noted on the policy page; not checked whether a later update exists. binding=false; the standards are mandatory for Ars editorial staff and contributors ('When violations occur, we take action')."
+  },
+  "clauses": [
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_Human_Authored",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "section": "Our journalism is human-authored",
+      "original_text": "Ars Technica’s editorial text is written by humans. We do not use AI to generate our reporting, analysis, or commentary.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Ars Technica writers, editors and contributors",
+      "action": "generate",
+      "object": "reporting, analysis or commentary",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "editorial text is human-written; AI is not used to generate journalism",
+      "condition": null,
+      "exception": "AI output reproduced as exemplar material when AI is the subject of reporting",
+      "purpose": "keep journalism human-authored and trustworthy",
+      "affected_asset": "readers; integrity of journalism",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "generative AI tools used in Ars Technica's editorial workflow",
+      "interpretation_notes": "Exception: AI output may be reproduced when it is itself the subject of reporting, set apart and disclosed; AI editing aids (grammar, style, structure) may recommend but not make changes.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_No_AI_Attribution",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "section": "Research and source material",
+      "original_text": "AI tools must not be used to generate, extract, or summarize material that is then attributed to a named source, whether as a direct quote, a paraphrase, or a characterization of someone’s views.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "reporters",
+      "action": "use AI to generate/extract/summarise",
+      "object": "material attributed to a named source",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "attributed quotes, paraphrases and characterisations must come from direct engagement with the source material",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent fabricated or distorted attributions",
+      "affected_asset": "named sources; readers",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "generative AI tools used in Ars Technica's editorial workflow",
+      "interpretation_notes": "Attributed material must come from interviews, transcripts, published statements or documents reviewed by the reporter.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_Verify_Outputs",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "section": "Research and source material",
+      "original_text": "Even then, AI output is never treated as an authoritative source. Everything must be verified. … We don’t publish claims based solely on AI-generated summaries, and reporters may not represent any material as “reviewed” unless they have examined it directly.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "reporters",
+      "action": "verify",
+      "object": "AI-assisted research output",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "verify all AI research output; no claims based solely on AI summaries",
+      "condition": "when AI tools are used to assist research",
+      "exception": null,
+      "purpose": "accuracy of published reporting",
+      "affected_asset": "readers; accuracy of information",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI tools vetted and approved for the Ars workflow (research, summarising, dataset search)",
+      "interpretation_notes": "Research use is limited to tools vetted and approved for the workflow.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_Disclose_To_Editors",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "section": "Research and source material",
+      "original_text": "Every author who uses AI tools in the course of reporting a story must disclose that use to their editors, and authors remain fully responsible for their content.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "authors",
+      "action": "disclose",
+      "object": "use of AI tools in reporting",
+      "recipient": "editors",
+      "modality": "MUST",
+      "requirement": "internal disclosure of AI use to editors; author retains full responsibility",
+      "condition": null,
+      "exception": null,
+      "purpose": "editorial oversight and accountability",
+      "affected_asset": "editorial integrity",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "generative AI tools used in Ars Technica's editorial workflow",
+      "interpretation_notes": "Internal (to editors), not reader-facing, disclosure. Section 'Accountability is non-negotiable' adds that responsibility cannot be transferred to colleagues, editors or tools.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_No_Synthetic_Documentation",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "section": "Images, audio, and video",
+      "original_text": "We do not publish AI-generated images, audio, or video as authentic documentation of real events. We do not alter documentary media in ways that change their meaning.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Ars Technica editorial and art teams",
+      "action": "publish / alter",
+      "object": "AI-generated or altered documentary media",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no synthetic media presented as real; no meaning-changing edits to documentary media",
+      "condition": null,
+      "exception": "standard production work such as color correction, cropping and contrast adjustments",
+      "purpose": "prevent misleading the public about real events",
+      "affected_asset": "readers; public information ecosystem",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "image, audio and video generation tools",
+      "interpretation_notes": "Standard production work (colour correction, cropping, contrast) is expressly allowed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "ArsTechnica_GenAI_Policy_2026_Label_Synthetic_Media",
+      "policy_id": "ArsTechnica_GenAI_Policy_2026",
+      "section": "Images, audio, and video",
+      "original_text": "When synthetic media is used in the context of reporting on AI, it will be clearly identified as AI-generated, with that disclosure placed as close to the material as possible.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Ars Technica",
+      "action": "label",
+      "object": "synthetic media used in reporting on AI",
+      "recipient": "readers",
+      "modality": "MUST",
+      "requirement": "clear AI-generated label placed next to the material",
+      "condition": "when synthetic media is used in reporting on AI",
+      "exception": null,
+      "purpose": "transparency to readers",
+      "affected_asset": "readers",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI-generated images, audio and video",
+      "interpretation_notes": "Framed as 'will be' (a commitment); treated as mandatory.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

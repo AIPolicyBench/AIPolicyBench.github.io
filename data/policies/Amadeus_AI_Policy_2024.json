@@ -1,0 +1,301 @@
+{
+  "policy_id": "Amadeus_AI_Policy_2024",
+  "policy_name": "Amadeus AI Policy (Amadeus Group Corporate Policy)",
+  "short_name": "Amadeus AI Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/amadeus.pdf",
+  "issuing_authority": "Amadeus IT Group SA (Corporate and Legal Affairs)",
+  "jurisdiction": "Organization",
+  "country_region": "Global (Amadeus Group, Spain-headquartered; applies beyond the EU)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Corporate AI governance aligned with the EU AI Act (self-regulation)",
+  "geo_constraints": "Applies throughout the Amadeus Group worldwide, not only to operations in the EU",
+  "industry_scope": [
+    "travel",
+    "technology"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › Amadeus",
+    "regulation": "Self-regulation · mandatory group-wide corporate policy built on the EU AI Act",
+    "culture": "European travel-tech multinational that extends EU AI Act categories (prohibited, high-risk, transparency) group-wide as a compliance-first internal rulebook, combined with a GenAI acceptable-use policy and a central use-case review board.",
+    "use_cases": [
+      "general AI lifecycle",
+      "employee use of GenAI tools",
+      "generative AI & chatbots",
+      "AI procurement",
+      "employment & HR decisions",
+      "high-impact AI decisions"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2024-12-10",
+  "key_dates": [
+    {
+      "date": "2024-12-10",
+      "event": "Policy dated 10 December 2024 (cover page)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "10 December 2024",
+      "date": "2024-12-10",
+      "kind": "release",
+      "title": "Amadeus AI Policy, 10 December 2024",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/amadeus.pdf",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": "10 December 2024",
+  "last_updated": "2024-12-10",
+  "covered_entities": [
+    "employees and contractors of Amadeus IT Group SA and its affiliated companies",
+    "insofar as possible, non-fully owned companies and distributors"
+  ],
+  "covered_systems": [
+    "AI tools (AI systems and AI models), incl. ML, logic-based, LLM and generative AI, recommender, chatbots, agents, recognition and analytics systems",
+    "GenAI Solutions and GenAI Technology on company or personal devices used for work"
+  ],
+  "covered_activities": [
+    "development of AI tools",
+    "procurement, deployment and use of AI tools",
+    "employee use of GenAI tools",
+    "fine-tuning or modifying third-party models"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "Annex 1 high-risk use cases require prior Legal approval; prohibited practices barred in all cases",
+    "use of unapproved GenAI tools tolerated only with [PUBLIC] data"
+  ],
+  "objective": "Set a group-wide framework for ethical and lawful development, deployment and use of AI at Amadeus, aligned with the EU AI Act, including a Generative AI Acceptable Use Policy and a list of prohibited and high-risk use cases.",
+  "policy_domain": [
+    "fairness",
+    "safety",
+    "privacy",
+    "security",
+    "transparency",
+    "accountability",
+    "governance"
+  ],
+  "principles": [
+    "fairness and human oversight",
+    "reliability and safety",
+    "privacy and security",
+    "transparency",
+    "accountability",
+    "sustainability",
+    "AI literacy",
+    "ethics by design"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "implements"
+    },
+    {
+      "policy": "EU AI Pact (voluntary pledges; Amadeus is a signatory)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Amadeus Artificial Intelligence Security Standard",
+      "relation": "complements"
+    },
+    {
+      "policy": "Amadeus GenAI Acceptable Use Framework",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Applies in addition to other Amadeus policies on the same subjects (AI security standard, security and privacy policies); approval by the AI Use Case Review Board does not exempt other processes.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/amadeus.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/amadeus.pdf). The document carries only the date 10 December 2024 and no version number or change history; effective date assumed to be that date. Not checked whether a newer version exists. binding=false (not law), but the policy is mandatory for employees and contractors: non-compliance can lead to disciplinary action up to termination, and contractor violations may be treated as breach of contract. Referenced annexes/intranet documents (GenAI Acceptable Use Framework, AI Security Standard) are not included in the copy."
+  },
+  "clauses": [
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_No_Sensitive_Input",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "section": "IV.2.1 Protect sensitive information",
+      "original_text": "Do not input sensitive information or personal data into non-approved Gen AI Tools.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employees and contractors",
+      "action": "input",
+      "object": "sensitive information or personal data",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "never put non-public information or personal data into non-approved GenAI tools",
+      "condition": "when using non-approved GenAI Tools",
+      "exception": null,
+      "purpose": "avoid exposing company, customer and employee data to third parties via model training/outputs",
+      "affected_asset": "confidential information; personal data of customers and employees",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "GenAI Tools (GenAI Solutions and GenAI Technology), approved or publicly available",
+      "interpretation_notes": "Sensitive information = anything not classified [PUBLIC] under the Information Classification and Asset Management Policy, incl. personal data and third-party proprietary information. Use of unapproved tools is tolerated only with [PUBLIC] data.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_Prohibited_Practices",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "section": "Annex 1 – Prohibited practices",
+      "original_text": "The following practices are strictly prohibited (under the EU AI Act and can result in fines of up to 7% of the total worldwide annual turnover of Amadeus. No one within Amadeus may therefore engage in these practices under any circumstances, including through AI Tools which have been approved: a. Subliminal, manipulative and/or deceptive techniques with the risk of significant harm. … c. Biometric categorization to infer sensitive personal traits. … d. Classification or scoring of people based on behavior or personality characteristics leading to detrimental treatment. … h. Inferring emotions in workplaces and education.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "anyone within Amadeus",
+      "action": "engage in (develop or deploy)",
+      "object": "EU AI Act prohibited AI practices (items a–h)",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no development or deployment of manipulative, exploitative, biometric-categorisation, social-scoring, real-time RBI, predictive-policing, face-scraping or workplace emotion-recognition AI",
+      "condition": null,
+      "exception": null,
+      "purpose": "comply with EU AI Act Art. 5 and protect fundamental rights",
+      "affected_asset": "natural persons' fundamental rights and autonomy",
+      "policy_domain": "fundamental_rights",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "any AI tool, including approved ones",
+      "interpretation_notes": "Annex 1 restates the EU AI Act Article 5 prohibitions with travel/industry examples; applied Group-wide, not only in the EU. Items b, e, f and g and the per-item examples elided. The source has an unclosed parenthesis after 'prohibited', kept as printed.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_Use_Case_Registration",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "section": "III. General rules for deployment/use of all AI tools",
+      "original_text": "All uses of AI tools procured/ deployed by Amadeus need to be registered in the Amadeus AI Inventory. Employees shall log their use case for review and approval of the AI Use Case Review Board: LOP - AI Use Case Intake - Power Apps. This step is mandatory.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employees",
+      "action": "register and submit for approval",
+      "object": "AI use cases (procured/deployed AI tools)",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "register every AI use case in the AI Inventory and obtain AI Use Case Review Board approval",
+      "condition": "before procuring/deploying an AI tool",
+      "exception": null,
+      "purpose": "risk-categorise use cases and route them to the right review",
+      "affected_asset": "Amadeus Group compliance",
+      "policy_domain": "governance",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI tools (AI systems and models) developed, procured or deployed by the Amadeus Group",
+      "interpretation_notes": "Mandatory gate; separately, use cases on the Annex 1 high-risk list need prior Legal approval and prohibited ones may not be procured at all. Board approval does not exempt other processes (IT, CISO, Privacy).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_Human_Oversight",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "section": "III. General rules for deployment/use of all AI tools",
+      "original_text": "We should therefore assign human oversight for the deployment of AI tools to persons who have the necessary competence, training and authority, as well as the necessary support to carry out this oversight well. Generally, everyone who operates the tool should be able to understand how it should work in order to be able to notice when outputs are unreliable and avoid over-reliance on the outputs.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "Amadeus (deploying teams)",
+      "action": "assign human oversight",
+      "object": "deployment of AI tools",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "competent, trained and authorised humans oversee AI deployments; operators understand the tool to avoid over-reliance",
+      "condition": null,
+      "exception": null,
+      "purpose": "catch blind spots, biases and unreliable outputs",
+      "affected_asset": "persons affected by AI outputs; Amadeus",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "AI tools (AI systems and models) developed, procured or deployed by the Amadeus Group",
+      "interpretation_notes": "Mirrors EU AI Act deployer duties (Art. 26). Framed as 'should' within a mandatory policy.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_GenAI_Disclosure",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "section": "IV.2.2 Provide transparency",
+      "original_text": "Do clearly attribute any output used for business purposes to the GenAI application that created it through a footnote or other means visible to the reader. … all GenAI generated content must be disclosed, cited and reviewed if used for business purposes (e.g. any purpose related to your work at Amadeus) to enable end-users to determine how to consume the content in an informed manner.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employees and contractors",
+      "action": "disclose, cite and review",
+      "object": "GenAI-generated content used for business purposes",
+      "recipient": "readers / end-users",
+      "modality": "MUST",
+      "requirement": "visibly attribute GenAI output to the tool that produced it and review it before business use",
+      "condition": "if used for business purposes",
+      "exception": null,
+      "purpose": "transparency to readers and protection against IP claims",
+      "affected_asset": "readers/customers; Amadeus IP position",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "GenAI Tools (GenAI Solutions and GenAI Technology), approved or publicly available",
+      "interpretation_notes": "Same section also requires keeping an updated record of GenAI use for business purposes.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Amadeus_AI_Policy_2024_Output_Use_Limits",
+      "policy_id": "Amadeus_AI_Policy_2024",
+      "section": "IV.2.3 Be critical of outputs and carefully use them",
+      "original_text": "Do not use any output that contains material that you suspect to be under copyright protection in any materials, internal or externally facing. … Do not use GenAI Tools to create text, audio, or visual content for purposes of committing fraud or to misrepresent an individual’s identity.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "employees and contractors",
+      "action": "use / create",
+      "object": "GenAI output suspected to be copyrighted; content for fraud or identity misrepresentation",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no use of suspected-copyright output; no GenAI content for fraud or impersonation",
+      "condition": null,
+      "exception": null,
+      "purpose": "avoid IP infringement and fraudulent or deceptive use",
+      "affected_asset": "third-party IP rights; individuals' identity",
+      "policy_domain": "content_integrity",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "GenAI Tools (GenAI Solutions and GenAI Technology), approved or publicly available",
+      "interpretation_notes": "Two bullets from the same list; the elided bullet forbids relying on information suspected to be inaccurate, inappropriate or biased.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}

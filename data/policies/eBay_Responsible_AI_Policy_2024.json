@@ -1,0 +1,343 @@
+{
+  "policy_id": "eBay_Responsible_AI_Policy_2024",
+  "policy_name": "eBay Responsible AI Policy (EI-COREAI-POL-1.0.0.1)",
+  "short_name": "eBay Responsible AI Policy",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/ebay.pdf",
+  "issuing_authority": "eBay Inc. (Responsible AI team; approver SVP, Chief Technology Officer)",
+  "jurisdiction": "Organization",
+  "country_region": "Global (eBay Inc. and subsidiaries, United States-headquartered)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Corporate responsible AI governance (self-regulation)",
+  "geo_constraints": "eBay Inc. and its subsidiaries, personnel and systems worldwide; vendors via the Supplier Code of Business Conduct & Ethics",
+  "industry_scope": [
+    "e-commerce",
+    "technology"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Global (corporate) › eBay",
+    "regulation": "Self-regulation · internal company policy (principles layer of a Policy/Standard/Guidelines stack)",
+    "culture": "US e-commerce platform's principles-based, risk-based responsible-AI governance, borrowing the EU AI Act's AI-system definition and operationalised through a separate Standard and Guidelines.",
+    "use_cases": [
+      "general AI lifecycle",
+      "consumer-facing AI interactions"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2024-01-17",
+  "key_dates": [
+    {
+      "date": "2024-01-17",
+      "event": "Effective date; version 1.0; sign-off by eBay RAI Steering Committee"
+    },
+    {
+      "date": "2024-03-03",
+      "event": "Sign-off by SVP, Core Technology"
+    },
+    {
+      "date": "2025-12-11",
+      "event": "Version 1.1 (annual update: minor language and style changes)"
+    },
+    {
+      "date": "2026-02-17",
+      "event": "Sign-off by AI Governance Steering Committee"
+    },
+    {
+      "date": "2026-03-04",
+      "event": "Sign-off by SVP, Global Technology"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2024-01-17",
+      "kind": "release",
+      "title": "Version 1.0 (first revision)",
+      "summary": "First version: sets five Responsible AI principles (reliability/safety/security, inclusivity/fairness, accountability/lawfulness, privacy by design, transparency) for all AI development, deployment and use at eBay.",
+      "changes": [
+        {
+          "aspect": "scope",
+          "change": "added",
+          "detail": "Applies to eBay Inc., subsidiaries, personnel and systems across the AI lifecycle; EU AI Act AI-system definition adopted"
+        },
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Five Responsible AI principles"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Owned by the Responsible AI team; reviewed annually; operationalised via Responsible AI Standard and Guidelines"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Text of v1.0 not available; only the version history entry in the v1.1 copy."
+    },
+    {
+      "version": "1.1",
+      "date": "2025-12-11",
+      "kind": "amendment",
+      "title": "Version 1.1 (annual update)",
+      "summary": "Annual update with minor language and style changes.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Minor language and style changes (per version history)"
+        }
+      ],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/ebay.pdf",
+      "current": true,
+      "note": "Sign-offs dated 17 Feb 2026 and 4 Mar 2026 appear to relate to this version, but the document does not say so explicitly."
+    }
+  ],
+  "expiration_date": null,
+  "version": "1.1",
+  "last_updated": "2025-12-11",
+  "covered_entities": [
+    "eBay Inc. and its subsidiaries",
+    "eBay personnel (employees and contractors)",
+    "vendors (expected to adhere via the Supplier Code of Business Conduct & Ethics)"
+  ],
+  "covered_systems": [
+    "AI systems as defined in the EU AI Act, internal-facing and customer-facing"
+  ],
+  "covered_activities": [
+    "research, design, development, deployment, use and decommissioning of AI systems"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "risk-based: criticality and applicability of each principle depend on how and for what purpose the AI system is used"
+  ],
+  "objective": "Set eBay's core Responsible AI principles as the foundation of its Responsible AI program, guiding all development, deployment and use of AI at eBay.",
+  "policy_domain": [
+    "safety",
+    "security",
+    "fairness",
+    "accountability",
+    "privacy",
+    "transparency"
+  ],
+  "principles": [
+    "reliability, safety and security",
+    "inclusivity and fairness",
+    "accountability and lawfulness",
+    "privacy by design",
+    "transparency",
+    "human oversight"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "overlaps_with"
+    },
+    {
+      "policy": "eBay Responsible AI Standard",
+      "relation": "complements"
+    },
+    {
+      "policy": "eBay Responsible AI Guidelines",
+      "relation": "complements"
+    },
+    {
+      "policy": "eBay Information Security Policy and Standards",
+      "relation": "complements"
+    },
+    {
+      "policy": "eBay Supplier Code of Business Conduct & Ethics",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "Principles may require trade-offs (e.g. transparency vs. security and privacy); operational detail is set by the Responsible AI Standard and Guidelines.",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/ebay.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/ebay.pdf). Document ID printed as 'EI-COREAI-POL-1. 0. 0. 1' (spacing is a PDF artefact). Header gives effective date Jan 17, 2024; version history lists 1.0 (Jan 17, 2024) and 1.1 (Dec 11, 2025); sign-off table also lists 2026 approvals (17 Feb and 4 Mar 2026), presumably for v1.1. Treated v1.1 as current; not checked whether a later version exists. EU AI Act link reflects only the adopted AI-system definition. binding=false (not law), but compliance is required of every eBay employee. Names of individual signatories and authors omitted."
+  },
+  "clauses": [
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Reliability_Testing",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "section": "3.1 Reliability, Safety, and Security",
+      "original_text": "Every AI system should consistently produce the expected outcome and task it is designed for, across various conditions and in a way that minimizes unpredictability and hallucinations. eBay should ensure appropriate testing and refining of the AI system to achieve this end.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "eBay",
+      "action": "test and refine",
+      "object": "AI systems",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "AI systems perform reliably with minimal hallucination, ensured by testing and refinement",
+      "condition": null,
+      "exception": null,
+      "purpose": "trustworthy, reliable AI",
+      "affected_asset": "eBay users and customers",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "eBay AI systems (internal-facing and customer-facing), across the lifecycle",
+      "interpretation_notes": "Section continues with regular safety assessments to identify and rectify issues.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Security",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "section": "3.1 Reliability, Safety, and Security",
+      "original_text": "eBay’s AI systems should be secure and protected from unauthorized access, tampering, and any other form of malicious intervention, in accordance with eBay’s Information Security Policy and Standards.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "eBay",
+      "action": "secure",
+      "object": "AI systems",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "protect AI systems from unauthorised access, tampering and malicious intervention",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect AI systems and data",
+      "affected_asset": "AI systems; eBay and user data",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "eBay AI systems (internal-facing and customer-facing), across the lifecycle",
+      "interpretation_notes": "Implemented through eBay's Information Security Policy and Standards (not included).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Non_Discrimination",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "section": "3.2 Inclusivity and Fairness",
+      "original_text": "In particular, AI decisions must not discriminate based on age, gender, race, sexual orientation, religion, or any other protected characteristic. To ensure fairness, we must build AI systems with fairness and bias issues in mind, test and monitor AI systems regularly and give users the ability to give us feedback.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "eBay",
+      "action": "build, test and monitor",
+      "object": "AI decisions and AI systems",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "no discrimination on protected characteristics; regular fairness testing/monitoring and user feedback",
+      "condition": null,
+      "exception": null,
+      "purpose": "fair and inclusive AI experiences",
+      "affected_asset": "users; people with protected characteristics",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "eBay AI systems (internal-facing and customer-facing), across the lifecycle",
+      "interpretation_notes": "Combines a prohibition (no discrimination) with positive duties (MUST build/test/monitor, feedback channel).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Human_Oversight",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "section": "3.3 Accountability and Lawfulness",
+      "original_text": "In particular, human oversight should be integrated throughout the development, launch, and monitoring of AI systems. Throughout this lifecycle, decision-making should be informed by the level of risk and potential impact associated with the use case at hand.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "eBay",
+      "action": "integrate human oversight",
+      "object": "AI system development, launch and monitoring",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "risk-proportionate human oversight across the AI lifecycle",
+      "condition": null,
+      "exception": null,
+      "purpose": "accountability and lawful AI",
+      "affected_asset": "users; eBay",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "eBay AI systems (internal-facing and customer-facing), across the lifecycle",
+      "interpretation_notes": "Section also requires documenting development, deployment and oversight decisions.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Privacy_By_Design",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "section": "3.4 Privacy by Design",
+      "original_text": "To the extent personal information is involved, eBay’s Privacy principles—which are the backbone of eBay’s Privacy program—should guide choices for AI system design, development, deployment, and use. This includes following a Privacy by Design approach, data minimization, data quality, and purpose specification.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "eBay",
+      "action": "apply privacy principles",
+      "object": "AI systems processing personal information",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "privacy by design, data minimisation, data quality and purpose specification",
+      "condition": "to the extent personal information is involved",
+      "exception": null,
+      "purpose": "protect personal information",
+      "affected_asset": "personal data of users and employees",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "eBay AI systems (internal-facing and customer-facing), across the lifecycle",
+      "interpretation_notes": "eBay's Privacy principles themselves are not included in the document.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "eBay_Responsible_AI_Policy_2024_Transparency",
+      "policy_id": "eBay_Responsible_AI_Policy_2024",
+      "section": "3.5 Transparency",
+      "original_text": "eBay should be transparent to users about its use of AI. We will promote transparency with disclosures about the type of AI being used within a particular experience or broader disclosures about our AI use more generally.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "eBay",
+      "action": "disclose",
+      "object": "use of AI in eBay experiences",
+      "recipient": "users",
+      "modality": "SHOULD",
+      "requirement": "disclose AI use to users, specifically or generally, tailored to their needs",
+      "condition": null,
+      "exception": null,
+      "purpose": "user understanding and trust",
+      "affected_asset": "users",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "global"
+      ],
+      "applicable_systems": "eBay AI systems (internal-facing and customer-facing), across the lifecycle",
+      "interpretation_notes": "Disclosure may be experience-specific or general; tailored to users' roles and understanding.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "policy_id": "Pennsylvania_AI_Policy_2026",
+  "policy_name": "Artificial Intelligence Policy (Commonwealth of Pennsylvania Information Technology Policy)",
+  "short_name": "Pennsylvania AI Policy (ITP)",
+  "policy_type": "internal_policy",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/penn.pdf",
+  "issuing_authority": "Commonwealth of Pennsylvania, Office of Administration (OA), IT Policy",
+  "jurisdiction": "US-PA",
+  "country_region": "United States (Commonwealth of Pennsylvania)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Commonwealth Information Technology Policy (ITP) under Executive Order 2016-06, Enterprise Information Technology Governance",
+  "geo_constraints": "Offices, departments, boards, commissions and councils under the Governor's jurisdiction and any entity connecting to the Commonwealth Network; their third-party vendors and contractors",
+  "industry_scope": [
+    "public_sector"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "North America › United States (Commonwealth of Pennsylvania)",
+    "regulation": "Executive-branch IT policy · mandatory for agencies, staff and contractors",
+    "culture": "US state-government IT governance: enterprise-tool approval, data classification, human-in-the-loop and public disclosure rules, informed by NIST AI RMF and with audit and right-to-explanation expectations for high-risk decisions.",
+    "use_cases": [
+      "public-sector & government use",
+      "employee use of GenAI tools",
+      "generative AI & chatbots",
+      "high-impact AI decisions",
+      "software development & code generation"
+    ]
+  },
+  "status": "enforceable",
+  "binding": false,
+  "effective_date": "2026-01-13",
+  "key_dates": [
+    {
+      "date": "2025-01-06",
+      "event": "Original (base document)"
+    },
+    {
+      "date": "2025-08-27",
+      "event": "Previous version, replaced in its entirety by the current version"
+    },
+    {
+      "date": "2026-01-13",
+      "event": "Current version effective"
+    },
+    {
+      "date": "2027-01",
+      "event": "Scheduled review"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Original",
+      "date": "2025-01-06",
+      "kind": "release",
+      "title": "Base Document",
+      "summary": "First version of the Commonwealth AI Information Technology Policy.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "added",
+          "detail": "Base document (contents of this version not available)"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Known only from the revision history in the current version."
+    },
+    {
+      "version": "Revision 03/11/2025",
+      "date": "2025-03-11",
+      "kind": "amendment",
+      "title": "Revision",
+      "summary": "No changes to the policy text; three new guideline documents added.",
+      "changes": [
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "3 new guideline documents added"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Known only from the revision history in the current version."
+    },
+    {
+      "version": "Revision 08/27/2025",
+      "date": "2025-08-27",
+      "kind": "amendment",
+      "title": "Revision",
+      "summary": "Updated references: two supplemental documents rescinded and three new guidelines added.",
+      "changes": [
+        {
+          "aspect": "governance",
+          "change": "removed",
+          "detail": "Two existing supplemental documents rescinded"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "3 new guidelines added"
+        }
+      ],
+      "source": null,
+      "current": false,
+      "note": "Known only from the revision history in the current version."
+    },
+    {
+      "version": "Revision 01/13/2026",
+      "date": "2026-01-13",
+      "kind": "amendment",
+      "title": "Revision",
+      "summary": "Minor clarifications and grammatical updates; updated references; added prompting and validation guidance; removed the prohibition on non-text-based outputs.",
+      "changes": [
+        {
+          "aspect": "obligations",
+          "change": "revised",
+          "detail": "Minor clarifications and grammatical updates; references updated"
+        },
+        {
+          "aspect": "governance",
+          "change": "removed",
+          "detail": "Outdated reference to the Cloud Use Case process removed"
+        },
+        {
+          "aspect": "safeguards",
+          "change": "added",
+          "detail": "Guidance on prompting and validation added"
+        },
+        {
+          "aspect": "governance",
+          "change": "added",
+          "detail": "Reference to the Commonwealth Artificial Intelligence Resource Center for access to Enterprise AI solutions"
+        },
+        {
+          "aspect": "obligations",
+          "change": "removed",
+          "detail": "Section prohibiting non-text-based outputs removed"
+        }
+      ],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/penn.pdf",
+      "current": true,
+      "note": null
+    }
+  ],
+  "expiration_date": null,
+  "version": "Revision 01/13/2026",
+  "last_updated": "2026-01-13",
+  "covered_entities": [
+    "Commonwealth agencies under the Governor's jurisdiction",
+    "entities connecting to the Commonwealth Network",
+    "Commonwealth employees and contracted resources",
+    "third-party vendors, licensors, contractors and suppliers"
+  ],
+  "covered_systems": [
+    "AI solutions integrated into Commonwealth business and decision processes",
+    "Commonwealth-approved enterprise generative AI tools",
+    "third-party AI services"
+  ],
+  "covered_activities": [
+    "AI initiatives and deployment",
+    "data management and training",
+    "generative AI use",
+    "public-facing content and customer interactions",
+    "coding with generative AI"
+  ],
+  "exceptions": [
+    "agency exceptions via the IT Policy Governance Process"
+  ],
+  "conditions": [
+    "only Commonwealth-approved enterprise generative AI tools, signed in with Commonwealth credentials",
+    "high-risk decisions (financial, benefits, policy changes, life-changing, health/safety/welfare) subject to audits"
+  ],
+  "objective": "Establish basic guidelines for the use and integration of AI technologies into Commonwealth business and decision processes by Commonwealth employees and contracted resources.",
+  "policy_domain": [
+    "accountability",
+    "transparency",
+    "privacy",
+    "security",
+    "governance"
+  ],
+  "principles": [
+    "human in the loop",
+    "user accountability and verification",
+    "transparency and disclosure",
+    "data classification and minimisation",
+    "security",
+    "right to explanation",
+    "auditability"
+  ],
+  "parent_policy": "Pennsylvania Executive Order 2016-06, Enterprise Information Technology Governance",
+  "related_policies": [
+    {
+      "policy": "NIST_AI_RMF_2023",
+      "relation": "complements"
+    },
+    {
+      "policy": "NIST_AI_600_1_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "Commonwealth Data Classification Policy",
+      "relation": "complements"
+    },
+    {
+      "policy": "Generative Artificial Intelligence Transparency & Disclosure Guideline (Commonwealth of Pennsylvania)",
+      "relation": "complements"
+    },
+    {
+      "policy": "Generative AI and Coding Guideline (Commonwealth of Pennsylvania)",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": "AI systems must comply with all Commonwealth IT Policies, Management Directives and other applicable regulations (5.1.9); exceptions only via the IT Policy Governance Process (s.7).",
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/penn.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/penn.pdf). The asago file name 'penn' refers to the Commonwealth of Pennsylvania (state government), not the University of Pennsylvania. No official URL or ITP number is printed in the document (PDF metadata: pa.gov author, created 20 Jan 2026). Current version effective 13 Jan 2026, scheduled review January 2027; contents of earlier versions are known only from the revision history. Mandatory for agencies, their users and third-party vendors/contractors as an executive-branch IT policy, but not legislation (binding=false). The document refers to the NIST AI RMF as 'currently being developed' with an initial draft, which is outdated text."
+  },
+  "clauses": [
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_Human_In_The_Loop",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "section": "5.1.1 Decision Making",
+      "original_text": "Agencies shall ensure that AI solutions have appropriate interventions and checks from humans, otherwise known as human in the loop (HITL) procedures, meaning there is active human participation in the decision-making process, review, oversight, and validation of AI systems including any generated content or output.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "agencies",
+      "action": "ensure",
+      "object": "human-in-the-loop interventions and checks on AI solutions",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "HITL procedures for AI decision-making, review, oversight and validation",
+      "condition": "before agencies begin an AI initiative (key consideration)",
+      "exception": null,
+      "purpose": "maintain human control over AI-assisted decisions and outputs",
+      "affected_asset": "Commonwealth decisions; citizens and employees affected",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-PA"
+      ],
+      "applicable_systems": "AI solutions and generative AI tools used by Commonwealth agencies",
+      "interpretation_notes": "Listed among key considerations agencies 'shall evaluate' before starting an AI initiative.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_Security_Controls",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "section": "5.1.9 Security",
+      "original_text": "Evaluate the level of risk that AI systems are exploited by malicious actors and determine appropriate risk controls. Establish controls to prevent adversarial learning to include attacks that try to influence the training data of spam filters or systems for abnormal network traffic detection, designed to mislead the learning algorithm for subsequent exploitation.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "agencies",
+      "action": "evaluate and establish controls against",
+      "object": "exploitation of AI systems and adversarial learning",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "assess exploitation risk and implement controls against adversarial attacks",
+      "condition": null,
+      "exception": null,
+      "purpose": "secure AI systems against malicious actors",
+      "affected_asset": "Commonwealth AI systems and data",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "US-PA"
+      ],
+      "applicable_systems": "AI solutions and generative AI tools used by Commonwealth agencies",
+      "interpretation_notes": "Introduced by 'the following shall be considered for use', so modality recorded as SHOULD. Bullets joined.",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.75,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_Review_Verify_Outputs",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "section": "5.2.3 Accountability, Review, and Verification",
+      "original_text": "When using any Generative AI for Commonwealth business purposes, the user is accountable for any Generative AI outputs and must review and verify all associated output content.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "users (Commonwealth employees and contracted resources)",
+      "action": "review and verify",
+      "object": "generative AI output content",
+      "recipient": null,
+      "modality": "MUST",
+      "requirement": "users are accountable for and must verify all GenAI output",
+      "condition": "when using GenAI for Commonwealth business purposes",
+      "exception": null,
+      "purpose": "accuracy; accountability",
+      "affected_asset": "Commonwealth work products and communications",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-PA"
+      ],
+      "applicable_systems": "generative AI tools",
+      "interpretation_notes": "The section adds that users must have experience in the relevant topic area to verify outputs, and lists bias, dated or inaccurate information, hallucinations, inappropriate content, IP and confidential information as review points.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_Disclose_GenAI_Content",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "section": "5.2.4 Disclosure",
+      "original_text": "Users shall be transparent about their use of generative AI and must disclose to customers, residents, visitors, and industry when generative AI has been used to generate content that may be public facing or shared externally. Generative AI use must be disclosed even if it was only used to generate a portion of the content. The disclosure shall be prominently displayed and include an indication that the content was generated either entirely or in part by generative AI and identify the Generative AI system and version that was used.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "users",
+      "action": "disclose",
+      "object": "use of generative AI in public-facing or externally shared content",
+      "recipient": "customers, residents, visitors and industry",
+      "modality": "MUST",
+      "requirement": "prominent disclosure naming the GenAI system and version",
+      "condition": "content that may be public facing or shared externally",
+      "exception": null,
+      "purpose": "transparency to the public",
+      "affected_asset": "public trust; recipients of Commonwealth content",
+      "policy_domain": "transparency",
+      "applicable_regions": [
+        "US-PA"
+      ],
+      "applicable_systems": "generative AI tools",
+      "interpretation_notes": "Example given: 'ChatGPT-3.5 was used in the creation of this document.' Section 5.1.5 separately requires AI solutions to disclose to customers that they are interacting with AI.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_No_Class_C_Data",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "section": "5.2.6.2 Private and Sensitive Data",
+      "original_text": "No class C data, as defined in the Data Classification Policy, may be input into any generative AI prompt, tool, or system. This includes, but is not limited to: Sensitive Security Information; Personal Identifiable Information (PII); Protected Health Information (PHI); … Confidential or Non-Public Information; Privileged Information; Prerequisite-Required Information",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "users",
+      "action": "not input",
+      "object": "class C data (SSI, PII, PHI, regulated, confidential, privileged data)",
+      "recipient": "generative AI prompts, tools or systems",
+      "modality": "MUST NOT",
+      "requirement": "no class C data in any generative AI tool",
+      "condition": null,
+      "exception": null,
+      "purpose": "protect sensitive, personal and regulated data",
+      "affected_asset": "personal data; PHI; regulated data (SSA, IRS, CMS, CJI, CHRIA, FERPA, PCI DSS)",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "US-PA"
+      ],
+      "applicable_systems": "any generative AI prompt, tool, or system",
+      "interpretation_notes": "Bulleted list flattened with semicolons; the regulated-data sub-list is elided. Non-public records exempt under the Right-to-Know Law (65 P.S. §§ 67.101 et seq.) are also excluded.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "Pennsylvania_AI_Policy_2026_GenAI_Not_Decision_Maker",
+      "policy_id": "Pennsylvania_AI_Policy_2026",
+      "section": "5.2.6.3 Decision Making",
+      "original_text": "Generative AI outputs are not to be used to make decisions for or on behalf of employees. Employees may use generative AI outputs to inform a larger decision-making process, but ultimately the Commonwealth employee or official remains the final decision maker. … Generative AI cannot make reliable subjective or value-based judgments and may not be used for such purposes.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "users",
+      "action": "not use GenAI outputs to make",
+      "object": "decisions (including subjective or value-based judgements)",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "GenAI informs but never makes decisions; a human remains the final decision maker",
+      "condition": null,
+      "exception": "GenAI outputs may inform a larger human decision-making process",
+      "purpose": "preserve human accountability for decisions",
+      "affected_asset": "employees and citizens affected by decisions",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "US-PA"
+      ],
+      "applicable_systems": "generative AI tools",
+      "interpretation_notes": "Example in source: 'do not use generative AI to make final decisions that affect employment.'",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.9,
+      "human_verified": false
+    }
+  ]
+}

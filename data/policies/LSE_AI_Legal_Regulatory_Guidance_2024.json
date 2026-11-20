@@ -1,0 +1,313 @@
+{
+  "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+  "policy_name": "AI Legal and Regulatory Guidance",
+  "short_name": "LSE AI Legal & Regulatory Guidance",
+  "policy_type": "guidance",
+  "category": "policy",
+  "source_uri": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/lse-legreg.pdf",
+  "issuing_authority": "London School of Economics and Political Science (LSE), approved by the AI Working Group",
+  "jurisdiction": "Organization",
+  "country_region": "United Kingdom (London School of Economics and Political Science)",
+  "language": [
+    "en"
+  ],
+  "official_languages": [
+    "en"
+  ],
+  "regulatory_regime": "Institutional guidance on UK law applicable to AI use (UK GDPR, Data Protection Act, CDPA 1988, Equality Act 2010, Computer Misuse Act 1990, competition law)",
+  "geo_constraints": "LSE staff and students using AI in their work and study",
+  "industry_scope": [
+    "education",
+    "research"
+  ],
+  "locale_context": {
+    "language": [
+      "English"
+    ],
+    "region": "Europe › United Kingdom (London School of Economics)",
+    "regulation": "Institutional guidance · legal-compliance explainer for staff and students",
+    "culture": "UK higher-education compliance culture: AI use framed through existing domestic law (UK GDPR, copyright, equality, competition, computer misuse) and institutional risk, encouraging experimentation within an enterprise tool (MS Copilot).",
+    "use_cases": [
+      "employee use of GenAI tools",
+      "education & exams",
+      "training on copyrighted data",
+      "training on personal data"
+    ]
+  },
+  "status": "voluntary",
+  "binding": false,
+  "effective_date": "2024-10-24",
+  "key_dates": [
+    {
+      "date": "2024-06",
+      "event": "Legislation section stated as current 'as at June 2024'"
+    },
+    {
+      "date": "2024-10-24",
+      "event": "Version 2 approved by the AI Working Group"
+    },
+    {
+      "date": "2025-10-01",
+      "event": "Next review start (per review schedule)"
+    },
+    {
+      "date": "2025-10-31",
+      "event": "Next review due (1-year interval)"
+    }
+  ],
+  "versions": [
+    {
+      "version": "Version 2",
+      "date": "2024-10-24",
+      "kind": "release",
+      "title": "Version 2 (approved by AI Working Group)",
+      "summary": "Only one version recorded for this policy.",
+      "changes": [],
+      "source": "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/lse-legreg.pdf",
+      "current": true,
+      "note": "Labelled version 2, but the version history lists only this entry; no earlier version is described."
+    }
+  ],
+  "expiration_date": null,
+  "version": "2 (24/10/2024)",
+  "last_updated": "2024-10-24",
+  "covered_entities": [
+    "LSE staff",
+    "LSE students"
+  ],
+  "covered_systems": [
+    "generative AI",
+    "predictive AI",
+    "MS Copilot (School-provided)",
+    "public and external AI tools"
+  ],
+  "covered_activities": [
+    "inputting data into AI tools",
+    "uploading files and linking cloud storage",
+    "using AI outputs and AI-assisted decisions"
+  ],
+  "exceptions": [],
+  "conditions": [
+    "tools other than MS Copilot require contacting Cybersecurity and completing a Cloud Assurance Questionnaire before use"
+  ],
+  "objective": "Make LSE staff and students aware of the legal and regulatory issues around AI use (competition and confidentiality, copyright, cybersecurity, data protection, equality) so that they do not breach the law when using AI.",
+  "policy_domain": [
+    "privacy",
+    "security",
+    "fairness",
+    "accountability",
+    "governance"
+  ],
+  "principles": [
+    "purpose-driven use",
+    "data minimisation",
+    "confidentiality",
+    "respect for copyright",
+    "independent verification",
+    "human review of automated decisions",
+    "equality and non-discrimination",
+    "transparency and explainability"
+  ],
+  "parent_policy": null,
+  "related_policies": [
+    {
+      "policy": "EU_AI_Act_2024",
+      "relation": "complements"
+    },
+    {
+      "policy": "UK GDPR and Data Protection Act 2018",
+      "relation": "complements"
+    },
+    {
+      "policy": "Copyright, Designs and Patents Act 1988",
+      "relation": "complements"
+    },
+    {
+      "policy": "Equality Act 2010",
+      "relation": "complements"
+    },
+    {
+      "policy": "Computer Misuse Act 1990",
+      "relation": "complements"
+    }
+  ],
+  "conflict_rule": null,
+  "record_provenance": {
+    "sources_consulted": [
+      "https://github.com/asago-ai/asago-policy-mapper/blob/main/policy_examples/lse-legreg.pdf"
+    ],
+    "compiled_on": "2026-11-20",
+    "human_verified": false,
+    "notes": "Text taken from the copy in asago-ai/asago-policy-mapper (policy_examples/lse-legreg.pdf). The document is labelled 'Operational' and version 2, approved by the AI Working Group on 24/10/2024 (PDF created Dec 2024); its next review was due 31/10/2025, so a newer version may exist. Classed as guidance/voluntary because it is framed as guidance, although it says it sets out 'the guidelines you must operate under' and breaches (e.g. of confidentiality) may lead to disciplinary sanctions. No official LSE URL is printed in the document. The legislation section (EU AI Act, UK AI Regulation Bill, TUC manifesto) reflects the position as at June 2024."
+  },
+  "clauses": [
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_No_Personal_Data_External",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "section": "What not to do",
+      "original_text": "Don’t put personal data in an AI tool that is external to LSE. If it will swallow the personal data for further processing that LSE cannot control, you can’t use the AI tool.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE staff and students",
+      "action": "not input",
+      "object": "personal data",
+      "recipient": "AI tools external to LSE",
+      "modality": "MUST NOT",
+      "requirement": "do not enter personal data into external AI tools whose further processing LSE cannot control",
+      "condition": "where the AI tool is external to LSE",
+      "exception": null,
+      "purpose": "UK GDPR compliance; prevent loss of control over personal data",
+      "affected_asset": "personal data of staff, students and research subjects",
+      "policy_domain": "privacy",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI tools used by LSE staff and students (generative and predictive; MS Copilot, public and external AI)",
+      "interpretation_notes": "Phrased as a 'Don't' instruction in the guidance; repeated in the Cybersecurity AI rules ('do not ingest any personal data into AI tools') and Data Protection principles ('Do not share personal data with external AI tools').",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_No_Copyright_Upload",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "section": "What not to do",
+      "original_text": "Don’t upload in-copyright content (for example , images, photographs, student work, journal articles licensed from publishers by LSE library) where you do not have the copyright holder’s permission and where the AI tool is known to use inputs as training data.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE staff and students",
+      "action": "not upload",
+      "object": "in-copyright content (images, photographs, student work, licensed journal articles)",
+      "recipient": "AI tools that use inputs as training data",
+      "modality": "MUST NOT",
+      "requirement": "do not upload copyrighted material without permission to tools that train on inputs",
+      "condition": "where the copyright holder has not given permission and the tool is known to train on inputs",
+      "exception": null,
+      "purpose": "avoid copyright infringement and breach of library licences",
+      "affected_asset": "third-party copyright works; LSE library licences",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI tools used by LSE staff and students (generative and predictive; MS Copilot, public and external AI)",
+      "interpretation_notes": "Stray space before the comma ('for example , images') is in the source. The Copyright section adds that MS Copilot may be used to summarise copyrighted work and that the TDM exception (s.29A CDPA) covers only non-commercial research.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_Equality_Impact_Assessment",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "section": "Do",
+      "original_text": "Conduct an Equality Impact Assessment if there is a chance of data leading to bias or discrimination.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE staff and students using AI",
+      "action": "conduct",
+      "object": "Equality Impact Assessment",
+      "recipient": null,
+      "modality": "SHOULD",
+      "requirement": "carry out an EIA where AI use could lead to bias or discrimination",
+      "condition": "if there is a chance of data leading to bias or discrimination",
+      "exception": null,
+      "purpose": "comply with the Equality Act 2010; prevent discrimination on protected characteristics",
+      "affected_asset": "people with protected characteristics",
+      "policy_domain": "fairness",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI tools used by LSE staff and students (generative and predictive; MS Copilot, public and external AI)",
+      "interpretation_notes": "Listed under 'Do'; imperative but the document is guidance. The Equality Act section elaborates (profiling, automated decision-making, EIAs).",
+      "ambiguity": "medium",
+      "interpretation_confidence": 0.8,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_Human_Review_Decisions",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "section": "Cybersecurity AI rules, 4(b)-(c)",
+      "original_text": "Remember that you're always accountable for any decisions you make, so be very wary of making decisions solely based on AI outputs. Any automated decisions that have real-world impacts on humans must allow for a human review.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE staff and students",
+      "action": "allow human review of",
+      "object": "automated decisions with real-world impacts on humans",
+      "recipient": "affected individuals",
+      "modality": "MUST",
+      "requirement": "automated decisions affecting people must allow human review; users remain accountable for decisions",
+      "condition": "where automated decisions have real-world impacts on humans",
+      "exception": null,
+      "purpose": "accountability; UK GDPR Article 22 safeguards against solely automated decisions",
+      "affected_asset": "individuals affected by AI-assisted decisions",
+      "policy_domain": "accountability",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI tools used by LSE staff and students (generative and predictive; MS Copilot, public and external AI)",
+      "interpretation_notes": "Linked to the Data Protection section's discussion of UK GDPR Article 22 (e.g. students told if AI is used for marking and able to request human review).",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_Independent_Verification",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "section": "Cybersecurity AI rules, 5",
+      "original_text": "Do not trust any information supplied by AI tools without undertaking independent verification. AI tools are known to hallucinate, namely supplying information that has no basis in reality, or else reproducing information that is out of date or is misinformation.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE staff and students",
+      "action": "verify independently",
+      "object": "information supplied by AI tools",
+      "recipient": null,
+      "modality": "MUST NOT",
+      "requirement": "do not rely on AI-supplied information without independent verification",
+      "condition": null,
+      "exception": null,
+      "purpose": "avoid reliance on hallucinated, outdated or false information",
+      "affected_asset": "accuracy of work products and decisions",
+      "policy_domain": "safety",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI tools used by LSE staff and students (generative and predictive; MS Copilot, public and external AI)",
+      "interpretation_notes": "Sub-point (a) merged into the quote.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    },
+    {
+      "clause_id": "LSE_AI_Legal_Regulatory_Guidance_2024_No_Malicious_Use",
+      "policy_id": "LSE_AI_Legal_Regulatory_Guidance_2024",
+      "section": "Cybersecurity AI rules, 6",
+      "original_text": "Never ask an AI to perform tasks that are malicious or that may compromise other people or data that is not yours. This at a minimum would constitute a breach of the Computer Misuse Act 1990, the Terms of Use of Jisc’s network, our M365 tenancy agreement and the standard terms of most AI tool providers.",
+      "text_is_verbatim": true,
+      "language": "en",
+      "translated_text": null,
+      "actor": "LSE staff and students",
+      "action": "not request",
+      "object": "malicious tasks or tasks compromising other people or their data",
+      "recipient": "AI tools",
+      "modality": "MUST NOT",
+      "requirement": "no malicious use of AI or use that compromises others' systems or data",
+      "condition": null,
+      "exception": null,
+      "purpose": "prevent computer misuse and harm to third parties",
+      "affected_asset": "other people; third-party data and systems",
+      "policy_domain": "security",
+      "applicable_regions": [
+        "UK"
+      ],
+      "applicable_systems": "AI tools used by LSE staff and students (generative and predictive; MS Copilot, public and external AI)",
+      "interpretation_notes": "Echoes 'Don't ask an AI tool to do something malicious or illegal' under 'What not to do'.",
+      "ambiguity": "low",
+      "interpretation_confidence": 0.85,
+      "human_verified": false
+    }
+  ]
+}
